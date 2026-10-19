@@ -1,18 +1,16 @@
 # File trao đổi cùng Codex
 
-Nhánh `chat-downloads` của `ron3huq/testingdummy` dành cho các file được tạo trong cuộc trò chuyện. Nhánh này độc lập với nhánh mã nguồn. Các bản tiếp theo sẽ đặt trong thư mục riêng và bổ sung vào danh sách bên dưới.
+Nhánh `chat-downloads` của `ron3huq/testingdummy` lưu file từ cuộc trò chuyện. Nhánh này độc lập với mã nguồn.
 
-## efootxi 1.3.2 — kiểm tra nguồn Select Team
+## Cảnh báo: bản thử dt200 cũ đã gây màn hình đen
 
-**Bản thử chẩn đoán, chưa phải Super League hoàn chỉnh. Chưa được kiểm chứng trên điện thoại.**
+**Ngừng dùng bản thử Arsenal ↔ Lille.** Người dùng đã xác nhận sau khi khôi phục dt200 gốc, game vào lại bình thường. Kết quả kiểm tra cấu trúc trên máy tính không bảo đảm game khởi động được.
 
-Bản này chỉ hoán đổi Arsenal FC (101) và LOSC Lille (213) giữa English League và Ligue 1 trong hai bảng của dt200. Mục đích là xem Select Team có nhận thay đổi từ dt200 hay không. Không xác nhận chọn đội hoặc tạo mùa giải bằng bản thử.
+- [Tải dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
+- [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
+- [Trạng thái bản thử](efootxi-1.3.2/STATUS.json)
+- [SHA-256 các file](SHA256SUMS)
 
-- [Tải ZIP gồm bản thử, file khôi phục và hướng dẫn](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/select-team-dt200-probe.zip)
-- [Tải riêng dt200 bản thử](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/test/dt200_mobile_all.cpk)
-- [Hướng dẫn tiếng Việt](efootxi-1.3.2/HUONG_DAN.txt)
-- [Kết quả kiểm tra cấu trúc](efootxi-1.3.2/validation.json)
-- [Báo cáo phân tích](efootxi-1.3.2/android-findings.md)
-- [SHA-256 các file tải](SHA256SUMS)
+Ưu tiên file gốc trong bản sao APK của bạn. File khôi phục ở đây lấy từ bản phát hành 1.3.2 đã xác minh, chỉ phù hợp nếu dt200 trước khi thử có cùng SHA-256 ghi trong hướng dẫn.
 
-Đọc hướng dẫn, kiểm tra mã SHA-256 đầu vào và sao lưu APK trước khi thử. Dùng chữ ký tương thích bản đã cài; không gỡ ứng dụng hoặc xóa dữ liệu để ép cài.
+Các file thử cũ còn trong lịch sử để đối chiếu; chúng không phải bản vá được khuyến nghị. Chưa có bản Super League đầy đủ được kiểm chứng trên thiết bị. Những file tiếp theo sẽ có trạng thái và hướng dẫn riêng.

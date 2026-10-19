@@ -1,0 +1,7 @@
+{
+  "status": "withdrawn",
+  "probe": "Arsenal-Lille dt200 diagnostic",
+  "device_result": "black_screen",
+  "rollback_result": "game_starts_after_original_dt200_restored",
+  "new_patch_available": false
+}

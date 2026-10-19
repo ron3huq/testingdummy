@@ -1,3 +1,5 @@
+NGỪNG SỬ DỤNG: bản thử đã gây màn hình đen trên điện thoại. Khôi phục dt200 gốc; xem KHOI_PHUC.md. Các hướng dẫn dưới đây được lưu để đối chiếu lịch sử, không áp dụng lại.
+
 BẢN THỬ XÁC ĐỊNH NGUỒN SELECT TEAM — efootxi 1.3.2
 
 Đây là phép thử menu, chưa phải bản Super League hoàn chỉnh. Chưa chạy trên điện thoại.

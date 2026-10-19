@@ -1,5 +1,5 @@
 {
-  "status": "STATIC_CHECKS_PASSED_DEVICE_UNTESTED",
+  "status": "DEVICE_FAILED_BLACK_SCREEN_WITHDRAWN",
   "source_sha256": "088bb2e661cfcd8a1110c40402a461dac0c37eecdbce72ce692d505a77050954",
   "output_sha256": "dd22d6cc3a0870efb12350023de8793ef786c72c19467ec500eb9aac533d2a8e",
   "bytes": 4355584,
@@ -128,5 +128,6 @@
     }
   ],
   "unchanged_outside_two_table_allocations": true,
-  "server_and_saves_modified": false
+  "server_and_saves_modified": false,
+  "device_result": "User reports black screen with probe; original dt200 restoration restores game startup."
 }
