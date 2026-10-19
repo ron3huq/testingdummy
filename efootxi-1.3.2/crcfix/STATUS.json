@@ -1,0 +1,14 @@
+{
+  "status": "STATIC_AND_NATIVE_COMPONENT_CHECKS_PASSED_DEVICE_UNTESTED",
+  "sha256": "a37c2b81de7bb2172f2549d155bdd1e717f09efc4f8d50feba07ec390967cfe6",
+  "input_sha256": "088bb2e661cfcd8a1110c40402a461dac0c37eecdbce72ce692d505a77050954",
+  "bytes": 4355584,
+  "fixed_defect": "stale CPK per-member CRC fields; updated both and dependent TocCrc",
+  "runtime_success": null,
+  "old_probe_status": "WITHDRAWN_DEVICE_BLACK_SCREEN",
+  "files_checked": 3110,
+  "toc_valid": true,
+  "gtoc_valid": true,
+  "logical_changes": "Arsenal 101 swaps direct league membership with Lille 213; two tables only",
+  "user_data_modified": false
+}

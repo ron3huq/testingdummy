@@ -1,8 +1,15 @@
-9ee614825f42252576e9b6896cd54283f58e2db2c166eb622a76144f3dd1edd6  README.md
+57436765b5e6cbb094f23e81a96831bd5e2d9429cff41a22d96cdac13d8fd5d8  README.md
 8085bd7371730ba8ff4fe2b8a89dc986f762f056edd210f47e395cbc8cd1c1e8  efootxi-1.3.2/HUONG_DAN.txt
 6fce6ff5162abe46786d96dbeb39fc5183fd15a154b31500c005c9bc5206caa5  efootxi-1.3.2/KHOI_PHUC.md
 5ed68a8614e760249e8024f74d0247784d1d47bd1dbb11ddbe53af1e28689505  efootxi-1.3.2/STATUS.json
 c9d46ae98b4a72937d9fff9e7eeb93fe2276cc94ba390541c0bce836c1ca28c6  efootxi-1.3.2/android-findings.md
+325a467e619cec2c86f98ae5e1dee0c2220e98eed838fe0e35fc0519868ccfcd  efootxi-1.3.2/crcfix/HUONG_DAN.txt
+57c0719ff560922d85b929a1470494229709d26bf8a346e5100983dcfe02e15c  efootxi-1.3.2/crcfix/STATUS.json
+d4704bdbfafa5842a85112be0718cdd94735d3cf7f881eb92e6b0d702743956c  efootxi-1.3.2/crcfix/checksums.json
+4972ca7579b4030948fc702c9fe1e77ea632b825ef96a96c2e6cb4afe9fc1975  efootxi-1.3.2/crcfix/investigation.md
+34ad16637122e46622ff60c0efabb7d8ec044692b081ff3497c7e972afb20b18  efootxi-1.3.2/crcfix/native-toc-results.json
+85318d67c067ae9996631d8ec5ecdbcac66f05cded6fe4bbb242100f159270b7  efootxi-1.3.2/crcfix/select-team-dt200-crcfix-probe.zip
+a37c2b81de7bb2172f2549d155bdd1e717f09efc4f8d50feba07ec390967cfe6  efootxi-1.3.2/crcfix/test/dt200_mobile_all.cpk
 088bb2e661cfcd8a1110c40402a461dac0c37eecdbce72ce692d505a77050954  efootxi-1.3.2/restore/dt200_mobile_all.cpk
 5325c45eeec449f0567f876de3ffa215bae8938dc261c820d164b6d73fc638d9  efootxi-1.3.2/select-team-dt200-probe.zip
 dd22d6cc3a0870efb12350023de8793ef786c72c19467ec500eb9aac533d2a8e  efootxi-1.3.2/test/dt200_mobile_all.cpk

@@ -1,0 +1,12 @@
+[
+  {
+    "variant": "original",
+    "native_toc_result": 0,
+    "tampered_expected_checksum_result": 4294967295
+  },
+  {
+    "variant": "crc_fixed_probe",
+    "native_toc_result": 0,
+    "tampered_expected_checksum_result": 4294967295
+  }
+]

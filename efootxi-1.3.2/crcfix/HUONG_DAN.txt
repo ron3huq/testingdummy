@@ -1,0 +1,30 @@
+BẢN THỬ dt200 CRCFIX — efootxi 1.3.2
+
+TRẠNG THÁI: đã sửa lỗi checksum của bản thử cũ; CHƯA KIỂM CHỨNG TRÊN ĐIỆN THOẠI.
+Bản cũ gây màn hình đen; người dùng xác nhận khôi phục dt200 gốc giúp game mở lại.
+Lỗi cụ thể trong bản cũ: hai checksum file thành viên CPK không được cập nhật sau khi thay bảng.
+Bản CRCFIX cập nhật đúng hai checksum đó và checksum TOC liên quan, giữ kiểm tra toàn vẹn hoạt động.
+Đã đối chiếu 3.110 checksum file, TOC, GTOC; phần giải mã/giải nén và kiểm tra TOC bằng mã native Android cũng đạt trong giả lập CPU. Đây không phải mô phỏng chạy toàn bộ game.
+
+MỤC ĐÍCH: kiểm tra Select Team có đọc thay đổi trong dt200 không. Chỉ hoán đổi Arsenal FC (101) với LOSC Lille (213) giữa English League và Ligue 1. Chưa phải giải Super League hoàn chỉnh.
+Không sửa Player.bin, Team.bin, DEX, libUE4.so, JSON lịch, registry hoặc save.
+
+CÁCH THỬ
+1. Dùng bản sao APK đang vào được game sau khi đã khôi phục dt200. Sao lưu APK.
+2. Kiểm tra SHA-256 của assets/dt200_mobile_all.cpk trong APK bằng MT Manager. Đầu vào phải là:
+088bb2e661cfcd8a1110c40402a461dac0c37eecdbce72ce692d505a77050954
+Nếu khác, không chép đè; giữ lại để đối chiếu đúng phiên bản.
+3. Chỉ thay assets/dt200_mobile_all.cpk trong APK bằng file test/assets/dt200_mobile_all.cpk của ZIP CRCFIX này.
+4. Cập nhật APK với chữ ký tương thích bản đang cài. Không gỡ ứng dụng/xóa dữ liệu nếu chữ ký không khớp.
+5. Đóng hẳn game rồi mở lại. Nếu vào được, mở My League -> Select Team -> Ligue 1, kiểm tra Arsenal có xuất hiện thay Lille không.
+6. Chỉ xem danh sách; chưa xác nhận chọn đội hoặc tạo mùa giải trong phép thử menu này.
+7. Nếu lỗi: khôi phục dt200 từ bản sao APK, giữ nguyên save. File restore/assets/dt200_mobile_all.cpk là bản phát hành gốc có SHA-256 ở trên.
+
+KẾT QUẢ CẦN GHI NHẬN
+A. Game vào được và Arsenal hiện trong Ligue 1.
+B. Game vào được nhưng danh sách không đổi.
+C. Game vẫn kẹt màn hình đen hoặc báo lỗi.
+Chỉ A mới xác nhận thay đổi dt200 có ảnh hưởng đến Select Team. Không đánh đồng kiểm tra checksum thành công với việc UI/game đã hoạt động.
+
+SHA-256 FILE CRCFIX
+a37c2b81de7bb2172f2549d155bdd1e717f09efc4f8d50feba07ec390967cfe6

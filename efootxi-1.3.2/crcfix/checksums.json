@@ -1,0 +1,53 @@
+{
+  "original": {
+    "files_checked": 3110,
+    "toc_checksum_valid": true,
+    "gtoc_checksum_valid": true,
+    "errors": []
+  },
+  "withdrawn_probe": {
+    "files_checked": 3110,
+    "toc_checksum_valid": true,
+    "gtoc_checksum_valid": true,
+    "errors": [
+      {
+        "table": "CategoryTeamList.bin",
+        "stored": 2901011917,
+        "actual": 2389020296
+      },
+      {
+        "table": "CompetitionEntry.bin",
+        "stored": 3275682526,
+        "actual": 3425991374
+      }
+    ]
+  },
+  "fixed_probe": {
+    "files_checked": 3110,
+    "toc_checksum_valid": true,
+    "gtoc_checksum_valid": true,
+    "errors": []
+  },
+  "metadata_edits": [
+    {
+      "field": "member_CRC",
+      "file": "CategoryTeamList.bin",
+      "offset": 4063640,
+      "before": 2901011917,
+      "after": 2389020296
+    },
+    {
+      "field": "member_CRC",
+      "file": "CompetitionEntry.bin",
+      "offset": 4063992,
+      "before": 3275682526,
+      "after": 3425991374
+    },
+    {
+      "field": "TocCrc",
+      "offset": 263,
+      "before": 3302028574,
+      "after": 1383745773
+    }
+  ]
+}
