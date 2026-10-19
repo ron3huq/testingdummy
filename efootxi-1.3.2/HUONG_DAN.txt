@@ -1,0 +1,27 @@
+BẢN THỬ XÁC ĐỊNH NGUỒN SELECT TEAM — efootxi 1.3.2
+
+Đây là phép thử menu, chưa phải bản Super League hoàn chỉnh. Chưa chạy trên điện thoại.
+Mục đích: kiểm tra thay đổi bảng trong assets/dt200_mobile_all.cpk có được Select Team sử dụng hay không.
+Thay đổi duy nhất: Arsenal FC (101) đổi chỗ LOSC Lille (213) ở hai nhóm English League (113) / Ligue 1 (122), trong CategoryTeamList.bin và CompetitionEntry.bin.
+Không thay DEX, libUE4.so, Player.bin, Team.bin, JSON lịch đấu, registry hoặc save. CPK giữ nguyên dung lượng và mọi byte ngoài vùng đóng gói hai bảng trên.
+
+ĐIỀU KIỆN
+Trong APK hiện đang dùng, kiểm tra SHA-256 của assets/dt200_mobile_all.cpk bằng MT Manager. Bản thử chỉ phù hợp đầu vào:
+088bb2e661cfcd8a1110c40402a461dac0c37eecdbce72ce692d505a77050954
+Nếu khác: giữ lại file đó và gửi để phân tích; không chép đè vì có thể chứa chỉnh sửa khác.
+
+CÁCH THỬ
+1. Sao lưu APK hiện tại. Dùng bản sao APK đang dùng (kể cả đã có V7), không tải và cài lại toàn bộ APK gốc.
+2. Trong MT Manager mở APK, vào assets/dt200_mobile_all.cpk. Thay đúng một file này bằng test/assets/dt200_mobile_all.cpk trong ZIP.
+3. Cập nhật APK với cùng chữ ký tương thích bản đang cài. Nếu báo chữ ký không khớp thì dừng; không gỡ ứng dụng hoặc xóa dữ liệu để ép cài.
+4. Đóng hẳn game và mở lại. Vào My League -> Select Team -> Ligue 1. Chỉ kiểm tra Arsenal FC có xuất hiện thay Lille hay không. Chụp màn hình danh sách.
+5. Không xác nhận chọn Arsenal và không tạo mùa giải mới trong phép thử này: phía server chưa được đồng bộ riêng cho phép thử menu.
+6. Khôi phục file dt200 từ bản sao APK của bạn sau phép thử. restore/assets/dt200_mobile_all.cpk là bản gốc phát hành, chỉ dùng khi đầu vào khớp SHA-256 ở trên.
+
+ĐỌC KẾT QUẢ
+- Arsenal xuất hiện và Lille biến mất trong Ligue 1: thay đổi bảng dt200 có ảnh hưởng đến menu. Khi đó mới đồng bộ đầy đủ 18 đội với V7/registry/schedules, rồi kiểm tra chọn đội và trận đấu.
+- Danh sách vẫn cũ: cần xác minh APK chứa đúng SHA-256 bản thử, khởi động lại tiến trình và lần tiếp nguồn dữ liệu thực tế; chưa kết luận phải sửa libUE4.so.
+- Game báo lỗi khởi động: giữ nguyên save, khôi phục file gốc và gửi nguyên văn lỗi; chưa áp dụng thêm thay đổi.
+
+SHA-256 BẢN THỬ
+dd22d6cc3a0870efb12350023de8793ef786c72c19467ec500eb9aac533d2a8e

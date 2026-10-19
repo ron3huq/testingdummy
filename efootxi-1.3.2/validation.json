@@ -1,0 +1,132 @@
+{
+  "status": "STATIC_CHECKS_PASSED_DEVICE_UNTESTED",
+  "source_sha256": "088bb2e661cfcd8a1110c40402a461dac0c37eecdbce72ce692d505a77050954",
+  "output_sha256": "dd22d6cc3a0870efb12350023de8793ef786c72c19467ec500eb9aac533d2a8e",
+  "bytes": 4355584,
+  "changes": [
+    {
+      "table": "CategoryTeamList.bin",
+      "decoded_sha256_before": "7246ec42c7c79c4620967d0fa7ad87ef9fd1ba59587e8c261c5a20f9cb78ca4e",
+      "decoded_sha256_after": "0f9e47fab395708d3626521122f3d2b905f0f51c2b8ef8671b8c24a544d3caf3",
+      "records": [
+        {
+          "record": 45,
+          "competition": 113,
+          "team_before": 101,
+          "team_after": 213
+        },
+        {
+          "record": 92,
+          "competition": 122,
+          "team_before": 213,
+          "team_after": 101
+        }
+      ],
+      "france_team_ids": [
+        101,
+        182,
+        413,
+        114,
+        4211,
+        4213,
+        1329,
+        420,
+        218,
+        212,
+        180,
+        414,
+        403,
+        181,
+        112,
+        217,
+        221,
+        113
+      ],
+      "england_team_ids": [
+        106,
+        396,
+        104,
+        1589,
+        100,
+        173,
+        103,
+        177,
+        389,
+        107,
+        4183,
+        386,
+        179,
+        213,
+        4180,
+        102,
+        178,
+        382,
+        377,
+        4071
+      ]
+    },
+    {
+      "table": "CompetitionEntry.bin",
+      "decoded_sha256_before": "f5fcb927f60ba525605b658f94d700763eba08ef59ef76d33a3ebd821c7d7a4c",
+      "decoded_sha256_after": "a5a1e14844ae0301c6adb6a1e105920c9279dfe338b9cb9c8a4f7234ed6df0c8",
+      "records": [
+        {
+          "record": 45,
+          "competition": 113,
+          "team_before": 101,
+          "team_after": 213
+        },
+        {
+          "record": 92,
+          "competition": 122,
+          "team_before": 213,
+          "team_after": 101
+        }
+      ],
+      "france_team_ids": [
+        101,
+        182,
+        413,
+        114,
+        4211,
+        4213,
+        1329,
+        420,
+        218,
+        212,
+        180,
+        414,
+        403,
+        181,
+        112,
+        217,
+        221,
+        113
+      ],
+      "england_team_ids": [
+        106,
+        396,
+        104,
+        1589,
+        100,
+        173,
+        103,
+        177,
+        389,
+        107,
+        4183,
+        386,
+        179,
+        213,
+        4180,
+        102,
+        178,
+        382,
+        377,
+        4071
+      ]
+    }
+  ],
+  "unchanged_outside_two_table_allocations": true,
+  "server_and_saves_modified": false
+}
