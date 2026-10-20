@@ -1,3 +1,5 @@
+> **V3 ĐÃ ĐƯỢC XÁC NHẬN LỖI TO MATCH BAYERN:** native lookup trả sai họ bản ghi và ID được so khi chưa giải mã XOR. Người dùng gặp C_RTMC_9999, mã13/Neuer33185. Xem [v4](../hotfix-v4/HUONG_DAN.md), vẫn cần thử Android.
+
 # My League native hotfix v3 — bản thử sửa Bayern văng khi bấm Bắt đầu
 
 **Chưa thử trên điện thoại.** Bạn đã xác nhận bản v2 văng ngay sau Bắt đầu khi gặp München RW. V3 bỏ cách gửi đội hình CPU inline của v2, dùng các hàm tra cứu đội/cầu thủ gốc để sửa roster trong bộ nhớ. Đây là phương án sửa mới đã kiểm tra thành phần ARM64 và gateway, chưa đủ bằng chứng khẳng định hết crash trên thiết bị. Chưa có logcat/tombstone để xác nhận nguyên nhân crash chính xác.

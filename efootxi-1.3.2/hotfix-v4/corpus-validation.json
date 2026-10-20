@@ -1,0 +1,41 @@
+{
+  "status": "CORPUS_PASS",
+  "stat_cards": 200,
+  "stat_parameter_indexes": {
+    "speed": 34,
+    "acceleration": 38,
+    "physicalContact": 35,
+    "balance": 36,
+    "kickingPower": 37,
+    "jump": 39,
+    "aggression": 25
+  },
+  "stat_matches": {
+    "speed": 200,
+    "acceleration": 200,
+    "physicalContact": 200,
+    "balance": 200,
+    "kickingPower": 200,
+    "jump": 200,
+    "aggression": 200
+  },
+  "skill_cards": {
+    "scissorsFeint": 1825,
+    "marseilleTurn": 1685,
+    "pinpointCrossing": 3551,
+    "doubleTouch": 4026,
+    "crossOverTurn": 1339,
+    "edgedCrossing": 102,
+    "accelerationBurst": 96
+  },
+  "skill_matching_flags": {
+    "scissorsFeint": 1825,
+    "marseilleTurn": 1685,
+    "pinpointCrossing": 3551,
+    "doubleTouch": 4026,
+    "crossOverTurn": 1339,
+    "edgedCrossing": 102,
+    "accelerationBurst": 96
+  },
+  "limits": "Confirms data mapping, not Android skill animation/effect."
+}

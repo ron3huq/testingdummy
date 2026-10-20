@@ -1,0 +1,13 @@
+{
+  "status": "REGRESSIONS_PASS",
+  "device_tested": false,
+  "checks": [
+    "real pre-upgrade Monaco112 season snapshot, 10 results and started match remain byte-for-byte unchanged",
+    "all registered competitions preserve directed pairs, round IDs, byes and one match per team per round",
+    "draw persists across reads/JSON reload and 100 seed draws differ",
+    "10 played rounds, active match and existing schedule unchanged; future preview/reload stable",
+    "simulated player IDs belong to native team roster; no GK scorers",
+    "actual select/resume/save reopen/opponent prepare work on copied DB; inventory and source unchanged",
+    "ranking receipts idempotent; CPU player goals sum to team scores; observed player events preserved"
+  ]
+}

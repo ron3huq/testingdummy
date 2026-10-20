@@ -1,0 +1,28 @@
+{
+  "status": "ARM64_COMPONENT_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "synthetic_database": true,
+  "native_roster_counts": {
+    "108": 30,
+    "114": 24,
+    "127": 23,
+    "45": 27,
+    "116": 32,
+    "18961": 31
+  },
+  "base_players_checked": 13,
+  "checks": [
+    "real original public player resolver, native lower_bound and XOR-protected identity getter; nonzero XOR key",
+    "v3 wrong uint32 lookup is never called",
+    "corrected player resolver through actual atomic detour, original trampoline and native database lookup",
+    "real original ARM64 packed setters/getters, all 147 fields preserved except requested edits",
+    "real original ARM64 roster count and typed-key accessors",
+    "missing player blocks roster write",
+    "23-player Bayern native roster, no inline opponent payload",
+    "idempotent roster edits; unrelated native bytes unchanged",
+    "exact resolver prologues verified",
+    "no new Power Tackle or Long Range Tackle",
+    "native name getter reads AjaxE; team identity unchanged",
+    "actual emblem detour/trampoline maps only116 to181 and preserves C++ X8 result pointer; downstream asset loader not executed"
+  ]
+}

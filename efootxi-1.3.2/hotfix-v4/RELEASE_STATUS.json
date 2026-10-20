@@ -1,0 +1,22 @@
+{
+  "version": "native-hotfix-v4",
+  "status": "COMPONENT_AND_GATEWAY_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "previous_v3": {
+    "status": "USER_CONFIRMED_TO_MATCH_NETWORK_ERROR",
+    "team": 127,
+    "last_player_error": 33185,
+    "team_result": 13
+  },
+  "pending_requests": [
+    "Ronaldo89138556572074 long sleeves from Bale88041729329832",
+    "Hair17592186048938 from88038776539586"
+  ],
+  "logo": "native emblem path alias implemented; Android visual/cache test pending",
+  "latest_league_replacements": {
+    "Al_Qadsiah": "LA Galaxy4155",
+    "Al_Ain": "Al Ittihad17734",
+    "Chicago_Seongnam": "Jeonbuk279"
+  },
+  "roster_policy": "keep actual club rosters; no invented star transfers; Bento explicitly transferred16906726 toAjax116"
+}

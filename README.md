@@ -9,16 +9,22 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
-## My League native hotfix v3 — thử sửa crash Bayern và cập nhật theo yêu cầu
+## Native hotfix v4 — Bayern To Match, Card ID, AjaxE và ba giải
 
-**Người dùng xác nhận Hierarchy v2 văng ngay sau Bắt đầu khi gặp München RW. Dừng dùng đường roster inline của v2.** V3 chuyển sang roster native Bayern23/Barça30/PSG24/Brazil27, kiểm tra dữ liệu trước khi cho Bắt đầu và cách ly active inline cũ để thử lại đúng vòng. **V3 đã qua kiểm tra thành phần ARM64/gateway nhưng chưa thử trên điện thoại; chưa xác nhận hết crash.**
+V3 bị người dùng xác nhận lỗi Network Error C_RTMC_9999 tại To Match của Bayern (`127:13`, Neuer33185). **V4 sửa nhầm hàm tra cứu native và cách đọc ID đã bảo vệ XOR; không bỏ kiểm tra roster để ép vào trận. V4 chưa thử trên điện thoại.**
 
-- [Tải ZIP native hotfix v3](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v3/efootxi-1.3.2-native-hotfix-v3.zip)
-- [Hướng dẫn MT Manager, đội hình, chỉ số/skill, mô phỏng và chẩn đoán](efootxi-1.3.2/hotfix-v3/HUONG_DAN.md)
-- [Cấu hình đầy đủ](efootxi-1.3.2/hotfix-v3/myleague_custom.json)
-- [Kiểm tra native](efootxi-1.3.2/hotfix-v3/native-validation.json) · [gateway/mô phỏng](efootxi-1.3.2/hotfix-v3/worlds-validation.json) · [giữ dữ liệu](efootxi-1.3.2/hotfix-v3/regression-validation.json) · [đối chiếu skill](efootxi-1.3.2/hotfix-v3/skill-mapping-validation.json)
+- [Tải ZIP v4](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v4/efootxi-1.3.2-native-hotfix-v4.zip)
+- [Hướng dẫn cài, phạm vi, roster và mã chẩn đoán](efootxi-1.3.2/hotfix-v4/HUONG_DAN.md)
+- [Cấu hình đầy đủ](efootxi-1.3.2/hotfix-v4/myleague_custom.json) · [Trạng thái phát hành và phần còn thiếu](efootxi-1.3.2/hotfix-v4/RELEASE_STATUS.json)
+- [Native/detour](efootxi-1.3.2/hotfix-v4/native-validation.json) · [Gateway](efootxi-1.3.2/hotfix-v4/worlds-validation.json) · [18 thẻ](efootxi-1.3.2/hotfix-v4/card-handlers-validation.json) · [120 mùa mô phỏng](efootxi-1.3.2/hotfix-v4/simulation-validation.json)
 
-Cài cùng bộ sáu file trong `install/work/tools/` vào vùng nội bộ đã cài Select Team thành công. V3 cập nhật hai giải tuyển theo yêu cầu mới, đội hình Barça/PSG, 13 Base và 7 Card ID. **Đã hủy mọi phần thêm Power Tackle và Long Range Tackle theo yêu cầu người dùng.** Giữ nguyên dt200 gốc. Kiểm tra tự động dùng DB native giả lập và cầu nối readiness giả lập; kết quả này không thay thế việc vào trận thực tế trên Android.
+Cài đủ sáu file vào `files/embedded-gateway/work/tools` trong vùng nội bộ đã dùng với MT Manager. Giữ dt200 gốc/save/APK. Thử Bayern ở mùa hiện tại; thành phần Eredivisie mới cần mùa mới. Có 16 Card ID yêu cầu mới (giữ thêm hai ID cũ), sửa ánh xạ Acceleration/Physical Contact/Kicking Power/Jumping, AjaxE + Bento và hook logo Ajax→Lyon; cập nhật mô phỏng Super League/tuyển/Eredivisie. Đã chốt LA Galaxy, Al Ittihad, Jeonbuk, LAFC theo trả lời mới và giữ roster thay vì tự chuyển các ngôi sao vắng mặt.
+
+**Tóc và áo tay dài chưa áp dụng:** đã tìm đúng record của bốn Card ID trong PlayerAppearance.bin nhưng chưa xác minh trường riêng; [báo cáo](efootxi-1.3.2/hotfix-v4/appearance-research.json). Logo đi qua hook đường asset, chưa kiểm tra cache/hiển thị trên Android. Kiểm tra native dùng bản ghi tổng hợp với hàm tra cứu gốc; gateway readiness được stub. Chỉ thử vào trận trên điện thoại mới xác nhận toàn bộ lỗi Bayern đã hết.
+
+## Native hotfix v3 — đã xác nhận lỗi kiểm tra roster, giữ để đối chiếu
+
+Không cài lại v3 để thử sửa To Match Bayern. [Trạng thái v3](efootxi-1.3.2/hotfix-v3/STATUS.json). V4 thay thế đường tra cứu sai; v3 được giữ trong lịch sử và không được khuyến nghị.
 
 ## Hierarchy v2 — đã xác nhận crash Bayern, giữ để đối chiếu lịch sử
 

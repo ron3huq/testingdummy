@@ -1,0 +1,9 @@
+{
+  "status": "USER_CONFIRMED_NETWORK_ERROR_TO_MATCH_BAYERN",
+  "recommended": false,
+  "native_team_result": 13,
+  "failed_player": 33185,
+  "cause": "Wrong uint32 record resolver and plaintext comparison against XOR-protected player ID",
+  "replacement": "../hotfix-v4/",
+  "replacement_device_tested": false
+}
