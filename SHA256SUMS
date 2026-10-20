@@ -1,10 +1,10 @@
-57436765b5e6cbb094f23e81a96831bd5e2d9429cff41a22d96cdac13d8fd5d8  README.md
+059be9c091b5c82e5543792c689f0acf694e9af4aa425f124f593e8990daab35  README.md
 8085bd7371730ba8ff4fe2b8a89dc986f762f056edd210f47e395cbc8cd1c1e8  efootxi-1.3.2/HUONG_DAN.txt
 6fce6ff5162abe46786d96dbeb39fc5183fd15a154b31500c005c9bc5206caa5  efootxi-1.3.2/KHOI_PHUC.md
 5ed68a8614e760249e8024f74d0247784d1d47bd1dbb11ddbe53af1e28689505  efootxi-1.3.2/STATUS.json
 c9d46ae98b4a72937d9fff9e7eeb93fe2276cc94ba390541c0bce836c1ca28c6  efootxi-1.3.2/android-findings.md
-325a467e619cec2c86f98ae5e1dee0c2220e98eed838fe0e35fc0519868ccfcd  efootxi-1.3.2/crcfix/HUONG_DAN.txt
-57c0719ff560922d85b929a1470494229709d26bf8a346e5100983dcfe02e15c  efootxi-1.3.2/crcfix/STATUS.json
+579572f6726a337e845d210c91470004087e91ac13bc370eddd9b71711e728b4  efootxi-1.3.2/crcfix/HUONG_DAN.txt
+3e2ab4da2cb330bd465ed96a446e1aa67405292f39bca36264008f8560967862  efootxi-1.3.2/crcfix/STATUS.json
 d4704bdbfafa5842a85112be0718cdd94735d3cf7f881eb92e6b0d702743956c  efootxi-1.3.2/crcfix/checksums.json
 4972ca7579b4030948fc702c9fe1e77ea632b825ef96a96c2e6cb4afe9fc1975  efootxi-1.3.2/crcfix/investigation.md
 34ad16637122e46622ff60c0efabb7d8ec044692b081ff3497c7e972afb20b18  efootxi-1.3.2/crcfix/native-toc-results.json
@@ -12,5 +12,10 @@ d4704bdbfafa5842a85112be0718cdd94735d3cf7f881eb92e6b0d702743956c  efootxi-1.3.2/
 a37c2b81de7bb2172f2549d155bdd1e717f09efc4f8d50feba07ec390967cfe6  efootxi-1.3.2/crcfix/test/dt200_mobile_all.cpk
 088bb2e661cfcd8a1110c40402a461dac0c37eecdbce72ce692d505a77050954  efootxi-1.3.2/restore/dt200_mobile_all.cpk
 5325c45eeec449f0567f876de3ffa215bae8938dc261c820d164b6d73fc638d9  efootxi-1.3.2/select-team-dt200-probe.zip
+7c902d0674b69467dbb31585ac02e7600726e11323cf2d44a0854989beb4d017  efootxi-1.3.2/server-team-selector/HUONG_DAN.md
+14136a8b59d8fbc608229542ca5d1528b61f6f4bebcc7733700b4bb74b113b9c  efootxi-1.3.2/server-team-selector/efootxi-server-team-selector.zip
+8eb0d0540cdc19eab75e928b0262c1a34ee23c77bac31a8d8e04d0dfe28ff636  efootxi-1.3.2/server-team-selector/select_myleague.py
+dc8229ec162f501f84fe4c80dbd5ef93166efea0b06bc42c08f6176d607db953  efootxi-1.3.2/server-team-selector/validation.json
 dd22d6cc3a0870efb12350023de8793ef786c72c19467ec500eb9aac533d2a8e  efootxi-1.3.2/test/dt200_mobile_all.cpk
 00f17f7a2c5c141a0f6164974bb188472fa807064a633bff7920c35c7cd278ad  efootxi-1.3.2/validation.json
+b2c4eb787a27ffd3590d36e553eccee202ffbd36ae348649959d99c485e657a8  research/player-face-stats.md

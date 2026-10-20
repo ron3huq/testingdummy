@@ -1,0 +1,30 @@
+{
+  "status": "SERVER_ONLY_VALIDATED_ANDROID_UI_UNTESTED",
+  "checks": [
+    {
+      "check": "select Arsenal in Ligue 1 using actual Android server",
+      "result": "passed",
+      "status": "SERVER_LOGIC_VALIDATED_DEVICE_UNTESTED",
+      "team_id": 101,
+      "competition_id": 122,
+      "season": 1,
+      "rounds": 34,
+      "league_team_count": 18,
+      "player_and_inventory_tables_unchanged": true,
+      "input_sha256": "fb8a20c5a8f45b936ec1504722d5f59dd6be2e28d48546258a3856c3fbfada55",
+      "output_sha256": "73c5fa7f83dd7124bf973ec7c1f40d0e2ece443cc16a0fdcabab1594818c6c97"
+    },
+    {
+      "check": "reopen save, render season info and prepare actual opponent",
+      "result": "passed"
+    },
+    {
+      "check": "reject existing output, invalid team and unapproved existing season replacement",
+      "result": "passed"
+    },
+    {
+      "check": "original input file unchanged",
+      "result": "passed"
+    }
+  ]
+}

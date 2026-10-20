@@ -1,3 +1,5 @@
+NGỪNG DÙNG: người dùng xác nhận CRCFIX vẫn gây màn hình đen. Không áp dụng lại. Hướng dẫn dưới đây chỉ được giữ để đối chiếu lịch sử.
+
 BẢN THỬ dt200 CRCFIX — efootxi 1.3.2
 
 TRẠNG THÁI: đã sửa lỗi checksum của bản thử cũ; CHƯA KIỂM CHỨNG TRÊN ĐIỆN THOẠI.
