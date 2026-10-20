@@ -1,0 +1,53 @@
+{
+  "version": "native-hotfix-v4.1",
+  "status": "COMPONENT_AND_GATEWAY_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "bayern": {
+    "players": 22,
+    "removed_invalid_base_id": 59835,
+    "actual_guerreiro_card_id": 52776558193083,
+    "starting_xi_unchanged": true,
+    "previous_v4_failure_reproduced": true
+  },
+  "dembele": {
+    "card_id": "88039313485858",
+    "remove": "Chop Turn",
+    "add": "Tap Trick"
+  },
+  "club_outcome_policy": {
+    "competition_id": 122,
+    "top_tiers": [
+      0,
+      1
+    ],
+    "vs_group3": {
+      "opponent_tiers": [
+        2
+      ],
+      "win": 0.85,
+      "draw": 0.1,
+      "loss": 0.05
+    },
+    "vs_group4": {
+      "opponent_tiers": [
+        3,
+        4
+      ],
+      "win": 0.95,
+      "draw": 0.04,
+      "loss": 0.01
+    },
+    "same_top_groups": "existing form/home/strength model",
+    "membership": "retain Lyon181 in place of Dortmund126 as previously requested"
+  },
+  "unchanged_pending_requests": [
+    "Ronaldo long sleeves",
+    "Hair-only copy"
+  ],
+  "limits": [
+    "Actual Android Bayern match not yet tested",
+    "Native test DB records are synthetic; lookup and accessors are original ARM64",
+    "Gateway tests stub native readiness",
+    "Existing Lyon-for-Dortmund selection retained"
+  ]
+}

@@ -1,3 +1,5 @@
+> **V4 CÒN LỖI BAYERN59835:** log Android xác nhận127:13/reason2. ID59835 đã bị cắt từ thẻ52776558193083. Xem [bản thử v4.1](../hotfix-v4.1/HUONG_DAN.md), Bayern22, giữ nguyên11 người chính; chưa thử trận trên điện thoại.
+
 # Native hotfix v4 — Bayern To Match, Card ID, AjaxE và ba giải
 
 **Bản mới chưa thử trên điện thoại.** Đã kiểm tra thành phần ARM64, gateway trên bản sao DB và mô phỏng. Người dùng xác nhận v3 không còn văng ở To Match nhưng báo C_RTMC_9999; log v3 có `127:13`, `native_last_player_error:33185` (Neuer). V4 sửa nguyên nhân từ mã và log đó; cần thử trận Bayern trên Android để xác nhận toàn bộ đường vào trận.

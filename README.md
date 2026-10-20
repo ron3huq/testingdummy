@@ -9,18 +9,22 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
-## Native hotfix v4 — Bayern To Match, Card ID, AjaxE và ba giải
+## Native hotfix v4.1 — Bayern59835, Dembélé, tỷ lệ85%/95%
 
-V3 bị người dùng xác nhận lỗi Network Error C_RTMC_9999 tại To Match của Bayern (`127:13`, Neuer33185). **V4 sửa nhầm hàm tra cứu native và cách đọc ID đã bảo vệ XOR; không bỏ kiểm tra roster để ép vào trận. V4 chưa thử trên điện thoại.**
+Log Android v4 cho biết các roster khác đạt nhưng Bayern vẫn `127:13`, lỗi ID59835/reason2. **59835 là low32 của thẻ Guerreiro52776558193083, không phải ID base tồn tại.** V4.1 bỏ mục dự bị này, giữ Bayern22 và nguyên11 người chính; không tắt kiểm tra dữ liệu. **Chưa thử v4.1 trên điện thoại.**
 
-- [Tải ZIP v4](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v4/efootxi-1.3.2-native-hotfix-v4.zip)
-- [Hướng dẫn cài, phạm vi, roster và mã chẩn đoán](efootxi-1.3.2/hotfix-v4/HUONG_DAN.md)
-- [Cấu hình đầy đủ](efootxi-1.3.2/hotfix-v4/myleague_custom.json) · [Trạng thái phát hành và phần còn thiếu](efootxi-1.3.2/hotfix-v4/RELEASE_STATUS.json)
-- [Native/detour](efootxi-1.3.2/hotfix-v4/native-validation.json) · [Gateway](efootxi-1.3.2/hotfix-v4/worlds-validation.json) · [18 thẻ](efootxi-1.3.2/hotfix-v4/card-handlers-validation.json) · [120 mùa mô phỏng](efootxi-1.3.2/hotfix-v4/simulation-validation.json)
+- [Tải ZIP v4.1](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v4.1/efootxi-1.3.2-native-hotfix-v4.1.zip)
+- [Hướng dẫn MT Manager, phạm vi và kiểm tra](efootxi-1.3.2/hotfix-v4.1/HUONG_DAN.md)
+- [Cấu hình](efootxi-1.3.2/hotfix-v4.1/myleague_custom.json) · [Trạng thái](efootxi-1.3.2/hotfix-v4.1/RELEASE_STATUS.json)
+- [Đối chiếu ID64 nguồn](efootxi-1.3.2/hotfix-v4.1/roster-source-validation.json) · [Tái hiện lỗi native v4 và bản sửa](efootxi-1.3.2/hotfix-v4.1/native-validation.json) · [Xác suất40.000 trận](efootxi-1.3.2/hotfix-v4.1/club-policy-validation.json)
 
-Cài đủ sáu file vào `files/embedded-gateway/work/tools` trong vùng nội bộ đã dùng với MT Manager. Giữ dt200 gốc/save/APK. Thử Bayern ở mùa hiện tại; thành phần Eredivisie mới cần mùa mới. Có 16 Card ID yêu cầu mới (giữ thêm hai ID cũ), sửa ánh xạ Acceleration/Physical Contact/Kicking Power/Jumping, AjaxE + Bento và hook logo Ajax→Lyon; cập nhật mô phỏng Super League/tuyển/Eredivisie. Đã chốt LA Galaxy, Al Ittihad, Jeonbuk, LAFC theo trả lời mới và giữ roster thay vì tự chuyển các ngôi sao vắng mặt.
+Dembélé88039313485858 bỏ Chop Turn, thêm Tap Trick, giữ chỉ số. Nhóm1/2 CLB thắng85% trước nhóm3 (hòa10%, thua5%) và95% trước nhóm4 (hòa4%, thua1%), cả hai chiều sân. Chỉ áp dụng trận CPU chưa chốt; tỷ số vẫn đa dạng. Giữ Lyon thay Dortmund theo lựa chọn trước. Cài đủ sáu file vào vùng nội bộ `files/embedded-gateway/work/tools`, buộc dừng mở lại; thử Bayern ở mùa hiện tại, không cần xóa mùa hay thay dt200.
 
-**Tóc và áo tay dài chưa áp dụng:** đã tìm đúng record của bốn Card ID trong PlayerAppearance.bin nhưng chưa xác minh trường riêng; [báo cáo](efootxi-1.3.2/hotfix-v4/appearance-research.json). Logo đi qua hook đường asset, chưa kiểm tra cache/hiển thị trên Android. Kiểm tra native dùng bản ghi tổng hợp với hàm tra cứu gốc; gateway readiness được stub. Chỉ thử vào trận trên điện thoại mới xác nhận toàn bộ lỗi Bayern đã hết.
+Đã đối chiếu đủ ID64, tái hiện lỗi v4 bằng native resolver và kiểm tra roster mới,576 biên xác suất, handler18 thẻ và hồi quy save. DB native tổng hợp/gateway readiness stub không thay thế thử trận Android. Tóc/áo dài vẫn chưa áp dụng; xem giới hạn trong hướng dẫn.
+
+## Native hotfix v4 — đã xác nhận còn lỗi Bayern59835
+
+Các roster khác đạt trong log người dùng; Bayern chưa đạt do ID59835. [Trạng thái cập nhật](efootxi-1.3.2/hotfix-v4/STATUS.json). Gói v4 giữ để đối chiếu; dùng bản thử v4.1 phía trên cho lỗi này.
 
 ## Native hotfix v3 — đã xác nhận lỗi kiểm tra roster, giữ để đối chiếu
 
@@ -28,7 +32,7 @@ Không cài lại v3 để thử sửa To Match Bayern. [Trạng thái v3](efoot
 
 ## Hierarchy v2 — đã xác nhận crash Bayern, giữ để đối chiếu lịch sử
 
-Không cài lại v2 để thử sửa crash Bayern. [Trạng thái v2](efootxi-1.3.2/hierarchy-v2/STATUS.json). Tham khảo bản v3 phía trên; không tự xóa save hoặc thay CPK.
+Không cài lại v2 để thử sửa crash Bayern. [Trạng thái v2](efootxi-1.3.2/hierarchy-v2/STATUS.json). Tham khảo bản v4.1 phía trên; không tự xóa save hoặc thay CPK.
 
 ## My League Realism v1 — nâng cấp lịch, CPU và vua phá lưới
 

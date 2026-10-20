@@ -1,0 +1,48 @@
+{
+  "status": "CLUB_POLICY_PASS",
+  "device_tested": false,
+  "boundary_checks": 576,
+  "pairs_both_venues": 144,
+  "monte_carlo": {
+    "group3": {
+      "matches": 20000,
+      "measured": {
+        "win": 0.8529,
+        "draw": 0.0977,
+        "loss": 0.0494
+      },
+      "configured": {
+        "opponent_tiers": [
+          2
+        ],
+        "win": 0.85,
+        "draw": 0.1,
+        "loss": 0.05
+      }
+    },
+    "group4": {
+      "matches": 20000,
+      "measured": {
+        "win": 0.9507,
+        "draw": 0.0405,
+        "loss": 0.0088
+      },
+      "configured": {
+        "opponent_tiers": [
+          3,
+          4
+        ],
+        "win": 0.95,
+        "draw": 0.04,
+        "loss": 0.01
+      }
+    }
+  },
+  "dembele": {
+    "card_id": "88039313485858",
+    "removed_flag": 108,
+    "removed_learned_id": 5,
+    "added_flag": 135
+  },
+  "limits": "CPU simulated fixtures only; no guarantee for a short run or user-played matches."
+}

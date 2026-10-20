@@ -1,0 +1,16 @@
+{
+  "status": "USER_CONFIRMED_BAYERN_BASE_ID59835_FAILURE",
+  "native_team_result": 13,
+  "failed_player": 59835,
+  "reason": 2,
+  "actual_full_card_id": 52776558193083,
+  "other_native_team_results": {
+    "team108": 1,
+    "team114": 1,
+    "team45": 1,
+    "team116": 1,
+    "team18961": 1
+  },
+  "replacement": "../hotfix-v4.1/",
+  "replacement_device_tested": false
+}
