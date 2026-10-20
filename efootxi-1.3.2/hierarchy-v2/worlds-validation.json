@@ -1,0 +1,320 @@
+{
+  "status": "SERVER_AND_SIMULATION_PASS_DEVICE_UNTESTED",
+  "device_tested": false,
+  "seasons_each_league": 200,
+  "checks": [
+    "all requested league memberships, double round robins, native national rosters and Bayern overlay complete",
+    "actual gateway select and native-national opponent prepare in all 3 leagues on copied DB; source/inventory preserved",
+    "optional CPU base stat/skill override appears in custom squad wire payload; library/owned data unchanged",
+    "Bayern ID127 and Brazil ID45 explicit prepare/START squads contain exact configured players and valid references/parameters; Vinicius included, no Monaco identity",
+    "multi-season hierarchy: Japan ~90% wins, club Top5 unbeaten against lower groups, United <5% wins, world stars score"
+  ],
+  "benchmark": {
+    "566": {
+      "54": {
+        "win_rate": 0.0988,
+        "mean_points": 13.51,
+        "mean_goals": 34.15
+      },
+      "1032": {
+        "win_rate": 0.4913,
+        "mean_points": 54.16,
+        "mean_goals": 71.48
+      },
+      "5759": {
+        "win_rate": 0.0309,
+        "mean_points": 5.88,
+        "mean_goals": 25.95
+      },
+      "5750": {
+        "win_rate": 0.2575,
+        "mean_points": 30.96,
+        "mean_goals": 49.11
+      },
+      "56": {
+        "win_rate": 0.6626,
+        "mean_points": 71.42,
+        "mean_goals": 87.9
+      },
+      "55": {
+        "win_rate": 0.4807,
+        "mean_points": 53.34,
+        "mean_goals": 70.81
+      },
+      "5752": {
+        "win_rate": 0.2612,
+        "mean_points": 31.2,
+        "mean_goals": 48.98
+      },
+      "52": {
+        "win_rate": 0.8974,
+        "mean_points": 94.28,
+        "mean_goals": 117.26
+      },
+      "53": {
+        "win_rate": 0.8091,
+        "mean_points": 85.43,
+        "mean_goals": 105.74
+      },
+      "1026": {
+        "win_rate": 0.481,
+        "mean_points": 53.37,
+        "mean_goals": 70.16
+      },
+      "1011": {
+        "win_rate": 0.2644,
+        "mean_points": 31.8,
+        "mean_goals": 50.62
+      },
+      "1010": {
+        "win_rate": 0.6591,
+        "mean_points": 71.04,
+        "mean_goals": 88.05
+      },
+      "57": {
+        "win_rate": 0.6606,
+        "mean_points": 71.36,
+        "mean_goals": 87.84
+      },
+      "5763": {
+        "win_rate": 0.2607,
+        "mean_points": 31.1,
+        "mean_goals": 49.48
+      },
+      "1031": {
+        "win_rate": 0.2591,
+        "mean_points": 31.12,
+        "mean_goals": 49.62
+      },
+      "1012": {
+        "win_rate": 0.4778,
+        "mean_points": 53.23,
+        "mean_goals": 69.87
+      },
+      "1184": {
+        "win_rate": 0.8043,
+        "mean_points": 85.09,
+        "mean_goals": 105.84
+      },
+      "5748": {
+        "win_rate": 0.1072,
+        "mean_points": 14.48,
+        "mean_goals": 34.88
+      }
+    },
+    "128": {
+      "45": {
+        "win_rate": 0.5714,
+        "mean_points": 70.16,
+        "mean_goals": 88.28
+      },
+      "24": {
+        "win_rate": 0.2174,
+        "mean_points": 29.25,
+        "mean_goals": 50.06
+      },
+      "6": {
+        "win_rate": 0.5674,
+        "mean_points": 69.81,
+        "mean_goals": 89.75
+      },
+      "40": {
+        "win_rate": 0.2233,
+        "mean_points": 29.75,
+        "mean_goals": 49.98
+      },
+      "10": {
+        "win_rate": 0.5747,
+        "mean_points": 70.37,
+        "mean_goals": 89.47
+      },
+      "7": {
+        "win_rate": 0.8968,
+        "mean_points": 104.81,
+        "mean_goals": 129.59
+      },
+      "32": {
+        "win_rate": 0.3825,
+        "mean_points": 47.91,
+        "mean_goals": 68.66
+      },
+      "39": {
+        "win_rate": 0.3767,
+        "mean_points": 47.44,
+        "mean_goals": 69.97
+      },
+      "9": {
+        "win_rate": 0.5737,
+        "mean_points": 70.28,
+        "mean_goals": 88.83
+      },
+      "5": {
+        "win_rate": 0.7847,
+        "mean_points": 93.25,
+        "mean_goals": 114.68
+      },
+      "8": {
+        "win_rate": 0.7809,
+        "mean_points": 92.94,
+        "mean_goals": 115.66
+      },
+      "50": {
+        "win_rate": 0.7834,
+        "mean_points": 93.23,
+        "mean_goals": 114.86
+      },
+      "16": {
+        "win_rate": 0.3758,
+        "mean_points": 47.35,
+        "mean_goals": 69.25
+      },
+      "12": {
+        "win_rate": 0.567,
+        "mean_points": 69.71,
+        "mean_goals": 89.86
+      },
+      "49": {
+        "win_rate": 0.2204,
+        "mean_points": 29.57,
+        "mean_goals": 51.27
+      },
+      "14": {
+        "win_rate": 0.5716,
+        "mean_points": 70.03,
+        "mean_goals": 89.56
+      },
+      "38": {
+        "win_rate": 0.0938,
+        "mean_points": 14.1,
+        "mean_goals": 37.41
+      },
+      "44": {
+        "win_rate": 0.2195,
+        "mean_points": 29.26,
+        "mean_goals": 50.16
+      },
+      "17": {
+        "win_rate": 0.092,
+        "mean_points": 13.76,
+        "mean_goals": 36.42
+      },
+      "1174": {
+        "win_rate": 0.0237,
+        "mean_points": 5.08,
+        "mean_goals": 28.81
+      },
+      "star_goals_per_season": {
+        "47287": 72.44,
+        "110718": 64.43,
+        "133543": 52.8,
+        "110644": 30.36,
+        "7511": 40.03,
+        "4522": 35.38,
+        "117047": 23.37,
+        "162114": 40.63
+      }
+    },
+    "122": {
+      "127": {
+        "win_rate": 0.2194,
+        "mean_points": 26.99,
+        "mean_goals": 44.77
+      },
+      "173": {
+        "win_rate": 0.781,
+        "mean_points": 81.98,
+        "mean_goals": 98.27
+      },
+      "108": {
+        "win_rate": 0.8668,
+        "mean_points": 90.98,
+        "mean_goals": 107.88
+      },
+      "181": {
+        "win_rate": 0.2276,
+        "mean_points": 27.98,
+        "mean_goals": 46.08
+      },
+      "100": {
+        "win_rate": 0.016,
+        "mean_points": 4.22,
+        "mean_goals": 28.83
+      },
+      "119": {
+        "win_rate": 0.5101,
+        "mean_points": 55.81,
+        "mean_goals": 71.86
+      },
+      "130": {
+        "win_rate": 0.2215,
+        "mean_points": 27.24,
+        "mean_goals": 45.35
+      },
+      "114": {
+        "win_rate": 0.8788,
+        "mean_points": 91.99,
+        "mean_goals": 111.67
+      },
+      "125": {
+        "win_rate": 0.2212,
+        "mean_points": 27.18,
+        "mean_goals": 45.62
+      },
+      "327": {
+        "win_rate": 0.2228,
+        "mean_points": 27.45,
+        "mean_goals": 46.56
+      },
+      "109": {
+        "win_rate": 0.7862,
+        "mean_points": 82.44,
+        "mean_goals": 98.42
+      },
+      "172": {
+        "win_rate": 0.5162,
+        "mean_points": 56.41,
+        "mean_goals": 73.22
+      },
+      "120": {
+        "win_rate": 0.2228,
+        "mean_points": 27.4,
+        "mean_goals": 45.03
+      },
+      "121": {
+        "win_rate": 0.2188,
+        "mean_points": 26.95,
+        "mean_goals": 45.51
+      },
+      "103": {
+        "win_rate": 0.5101,
+        "mean_points": 55.91,
+        "mean_goals": 72.67
+      },
+      "102": {
+        "win_rate": 0.5028,
+        "mean_points": 55.27,
+        "mean_goals": 71.7
+      },
+      "179": {
+        "win_rate": 0.2249,
+        "mean_points": 27.48,
+        "mean_goals": 45.7
+      },
+      "101": {
+        "win_rate": 0.8653,
+        "mean_points": 90.75,
+        "mean_goals": 108.52
+      },
+      "club_star_goals_per_season": {
+        "110718": 60.12,
+        "133543": 70.5,
+        "110644": 50.1
+      }
+    }
+  },
+  "limits": [
+    "Bayern inline squad requires actual Android match/render test",
+    "new league menus require device check",
+    "old season snapshots and observed scores are retained; start a new season for new membership"
+  ]
+}

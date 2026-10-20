@@ -1,0 +1,16 @@
+{
+  "status": "PACKAGE_GUARDS_PASS",
+  "gateway_bootstrap_unchanged_from_realism_v1": true,
+  "gateway_bytes": 2441,
+  "native_binary_matches_loader_sha256": true,
+  "all_python_sources_compile": true,
+  "install_files": [
+    "gateway_runtime.py",
+    "myleague_realism.py",
+    "myleague_worlds.py",
+    "myleague_custom.json",
+    "select_team_runtime.py",
+    "libselect_team.so"
+  ],
+  "device_tested": false
+}

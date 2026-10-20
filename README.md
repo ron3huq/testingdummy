@@ -9,6 +9,20 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## My League Hierarchy v2 — phân cấp CLB, hai giải tuyển và Bayern127
+
+**Bản mới chưa thử trên điện thoại.** Đã kiểm tra hàm ARM64/detour/destructor khi tăng 18→20 đội, gateway trên DB sao chép, giữ lịch/kết quả mùa cũ và 600 mùa mô phỏng (200 cho mỗi giải).
+
+- [Tải ZIP Hierarchy v2](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hierarchy-v2/efootxi-1.3.2-hierarchy-v2.zip)
+- [Hướng dẫn cài, phân cấp, roster và khôi phục](efootxi-1.3.2/hierarchy-v2/HUONG_DAN.md)
+- [Cách sửa skill/chỉ số CPU, tay áo và logo](efootxi-1.3.2/hierarchy-v2/EDIT_CAU_THU_VA_LOGO.md)
+- [Cấu hình đội/tier/ưu tiên bàn thắng](efootxi-1.3.2/hierarchy-v2/myleague_custom.json)
+- [Kiểm chứng gateway và mô phỏng](efootxi-1.3.2/hierarchy-v2/worlds-validation.json) · [ARM64](efootxi-1.3.2/hierarchy-v2/native-validation.json) · [Hồi quy save](efootxi-1.3.2/hierarchy-v2/regression-validation.json)
+
+Cài cả 6 file vào vùng nội bộ `embedded-gateway/work/tools`. Ligue1: Bayern127 thay Monaco112; Belgian League: 18 tuyển châu Á; Liga Portugal: 20 tuyển thế giới, 38 vòng. Top5 CLB áp đảo nhóm dưới; MU rất hiếm thắng; Nhật ~90% thắng CPU. Tăng ưu tiên chân sút theo yêu cầu. Mùa hiện tại giữ snapshot; bắt đầu mùa mới để có thành phần mới.
+
+**Bayern127 có roster inline thử 15 người; Brazil45 có roster inline 21 người để thêm Vinícius vốn vắng trong native selection.** Đã kiểm tra payload prepare/START; chưa chứng minh consumer My League trên điện thoại áp dụng và chơi được trận. Logo giải và công tắc áo dài chưa thay. Không ghi đè CPK/DB hoặc dùng Monaco giả làm Bayern. Chỉ số/skill CPU inline có tùy chọn override, mặc định rỗng.
+
 ## My League Realism v1 — nâng cấp lịch, CPU và vua phá lưới
 
 Bản Select Team trước đã được người dùng xác nhận hoạt động. Bản nâng cấp này **giữ nguyên native Select Team**, chỉ cập nhật hai file Python trong vùng nội bộ `embedded-gateway/work/tools`.
