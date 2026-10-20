@@ -53,3 +53,32 @@ Kỹ năng cần đồng bộ cờ trong parameters, skill-ID list và kỹ năn
 Chưa có trường sleeve/tay áo dài được xác minh trong hàm preset nói trên. Trong Android, `dt200` có `common/etc/appearance/PlayerAppearance.bin`, nhưng sự có mặt của file không chứng minh byte nào điều khiển tay áo. Không suy ra sleeve từ một slot Curl/skill hay sao chép toàn bộ ngoại hình từ cầu thủ khác vì có thể thay cả mặt và thể hình.
 
 Muốn xác định một trường ngoại hình chính xác, cần so sánh hai bản dữ liệu của **cùng cầu thủ/cùng build**, chỉ khác đúng tùy chọn đó, hoặc xác định native getter/setter và bitfield tương ứng. Không thể bảo đảm long sleeves chỉ bằng các ID hai cầu thủ khác nhau.
+
+## 5. Hai nhánh iOS người dùng vừa gửi, chụp tại thời điểm kiểm tra
+
+- `community-mod-engine`: commit [`be7b0aae386bc92b568d1195ba4fbf1e400f96c3`](https://github.com/iOSVNNews/pes2027-mod/tree/be7b0aae386bc92b568d1195ba4fbf1e400f96c3).
+- `codex/repair-data-loss-20261020`: commit [`f8dc2a85f75557d5903f3b877b66f5042852729c`](https://github.com/iOSVNNews/pes2027-mod/tree/f8dc2a85f75557d5903f3b877b66f5042852729c).
+
+Nhánh là địa chỉ thay đổi theo thời gian; các nhận xét dưới đây bám vào hai commit này. Không suy ra thời điểm phát hành hay việc đã chạy thành công từ lời mô tả commit.
+
+### Cách đổi face cụ thể
+
+[ZiruPlayerIdentity.hpp](https://github.com/iOSVNNews/pes2027-mod/blob/f8dc2a85f75557d5903f3b877b66f5042852729c/ios/ZiruPlayerIdentity.hpp#L6) lấy `base = pid & 0xFFFFFF`. Chỉ ID `9901397` được gán face Zidane `9901397`; ID `37576` được gán face R9 `37576`. Nhánh sửa lỗi bỏ cách suy ra mặt từ tên trên áo: Cristiano `4522` và R9 `37576` cùng có thể mang tên **RONALDO**, nên tra tên sẽ gán nhầm mặt.
+
+[applyLegendRealFace trong ZiruJersey.inc](https://github.com/iOSVNNews/pes2027-mod/blob/f8dc2a85f75557d5903f3b877b66f5042852729c/ios/ZiruJersey.inc#L208) gán chuỗi face vào trường `actor + 0x468`, thông qua phép gán FString gốc tại `0x102e14b64 + gSlide`. Điểm sửa đáng chú ý là để engine quản lý bản sao chuỗi; trỏ thẳng vào bộ đệm tĩnh có thể gây giải phóng bộ nhớ sai khi `ReloadFace` chạy. Hook `SetupFromPlayerId` ghi nhớ đúng player ID; đối số thứ tư là số áo, không phải cờ sân nhà/sân khách.
+
+**Các offset/địa chỉ trên chỉ thuộc build iOS đó. Không chép vào libUE4 Android.** Đây là chuyển sang tài nguyên face tồn tại, không phải sinh một khuôn mặt 3D mới từ ảnh. Chưa đủ bằng chứng rằng chỉ thêm hai ID là mọi asset của Zidane/R9 sẽ tải và hiển thị được.
+
+### Vì sao hai nhánh xử lý tài nguyên khác nhau?
+
+Commit đầu nhánh community khôi phục dt870 stock và loại pc3611 Android. Nhánh repair lại giữ tài nguyên pc3611, ghép dữ liệu nền với Legends, bảo toàn kit/stadium, và xử lý biến thể layout package-store 16/32 byte thay vì ghi lại nội dung bằng một layout duy nhất. Chỉ mục pc3611 có hàng chục nghìn đường dẫn character/texture; xóa gói mù có thể làm mất tài nguyên liên quan. Đổi tên/alias package cũng không tự chứng minh package ID và liên kết phụ thuộc tương thích.
+
+Tài liệu [repair-20261020.md](https://github.com/iOSVNNews/pes2027-mod/blob/f8dc2a85f75557d5903f3b877b66f5042852729c/docs/repair-20261020.md) tự đánh dấu bản sửa **chưa xác minh trên iPhone**. Vì vậy chưa thể kết luận nhánh mới hơn đã sửa face thành công trên máy thật.
+
+### Stats và ngoại hình
+
+Các thay đổi mới còn sửa khâu truyền/lưu skill và booster. [ios_compat.hpp](https://github.com/iOSVNNews/pes2027-mod/blob/f8dc2a85f75557d5903f3b877b66f5042852729c/core/ios_compat.hpp#L29) chuẩn hóa mảng gửi ra thành 147 phần tử: skill bits 142/143 và booster 144–146; đầu vào save Android có thể dùng layout khác. Đây là lý do chỉnh một slot trực tiếp có thể làm hỏng skill/booster hay bị ghi đè khi phản hồi được chuẩn hóa.
+
+Muốn sửa chỉ số thật: nhận diện đúng bản thẻ đang sở hữu, sửa dữ liệu nền/tiến trình theo layout của build, đồng bộ dữ liệu được trả về rồi kiểm tra lại sau khi mở save và vào trận. Ngoại hình preset vẫn đi qua vùng `parameters[49..60]`; face 3D còn phụ thuộc hook nhận diện và tài nguyên mesh/texture. Hai phần này có liên quan nhưng không thay thế nhau.
+
+Trong hai nhánh vừa đọc, tôi không tìm được bản sửa menu Select Team dành cho Android có thể lấy chép sang. Phần face iOS cho thấy hướng can thiệp native là khả thi về thiết kế, nhưng phải xác định lại hàm và cấu trúc Android. Bản thử Select Team lần này được xây từ libUE4 Android 1.3.2, không dùng offset iOS.

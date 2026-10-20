@@ -1,0 +1,12 @@
+{
+  "status": "HOST_GUARDS_PASS",
+  "device_tested": false,
+  "checks": [
+    "hook binary SHA matches loader",
+    "branch encoding positive/negative and boundaries",
+    "invalid branch rejected",
+    "gateway runtime functions unchanged apart from docstrings",
+    "gateway byte length preserved for support-file size guard",
+    "Python sources compile"
+  ]
+}
