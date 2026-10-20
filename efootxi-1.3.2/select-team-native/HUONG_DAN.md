@@ -1,6 +1,6 @@
 # Bản thử sửa trực tiếp Select Team — Android efootxi 1.3.2 ARM64
 
-**TRẠNG THÁI: CHƯA THỬ TRÊN ĐIỆN THOẠI.** Đã chạy bản mã C và hàm ARM64 gốc bằng Unicorn, gồm cả nhánh gọi mới/trampoline; chưa xác nhận Android cho nạp thư viện, menu hiển thị hay vào trận. Đây là bản thử có chẩn đoán, không phải bản sửa đã xác nhận thành công.
+**CẬP NHẬT 20/10/2026: người dùng đã xác nhận Select Team hoạt động trên Android không root.** Kiểm tra ARM64 tự động chỉ xác minh thành phần; xác nhận màn hình là báo cáo từ người dùng, chưa có xác nhận riêng về mọi luồng vào trận. ZIP native ban đầu giữ nguyên để truy vết, nên tài liệu trong ZIP vẫn có nhãn thử nghiệm tại thời điểm đóng gói.
 
 ## Nó thay gì?
 

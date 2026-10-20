@@ -1,0 +1,170 @@
+{
+  "status": "SERVER_LOGIC_VALIDATED_ANDROID_INTEGRATION_PENDING",
+  "device_tested": false,
+  "checks": [
+    "all registered competitions preserve directed pairs, round IDs, byes and one match per team per round",
+    "draw persists across reads/JSON reload and 100 seed draws differ",
+    "10 played rounds, active match and existing schedule unchanged; future preview/reload stable",
+    "simulated player IDs belong to native team roster; no GK scorers",
+    "actual select/resume/save reopen/opponent prepare work on copied DB; inventory and source unchanged",
+    "ranking receipts idempotent; CPU player goals sum to team scores; observed player events preserved",
+    "multi-season benchmark: home edge, draws, upsets/variation, score tails and star goal involvement"
+  ],
+  "benchmark": {
+    "seasons": 300,
+    "scope": "all-CPU Super League benchmark, NOT actual player club matches; illustrative game-based model, not calibrated real-world forecast",
+    "goals_per_match": 2.757,
+    "home_win_rate": 0.441,
+    "draw_rate": 0.235,
+    "away_win_rate": 0.324,
+    "max_goals_single_team": 12,
+    "clubs": {
+      "100": {
+        "mean_points": 45.75,
+        "points_sd": 8.37,
+        "top4_rate": 0.057,
+        "mean_goals": 47.22
+      },
+      "101": {
+        "mean_points": 58.51,
+        "points_sd": 8.16,
+        "top4_rate": 0.55,
+        "mean_goals": 53.73
+      },
+      "102": {
+        "mean_points": 48.5,
+        "points_sd": 8.8,
+        "top4_rate": 0.14,
+        "mean_goals": 47.12
+      },
+      "103": {
+        "mean_points": 53.88,
+        "points_sd": 8.63,
+        "top4_rate": 0.333,
+        "mean_goals": 52.38
+      },
+      "108": {
+        "mean_points": 57.83,
+        "points_sd": 9.08,
+        "top4_rate": 0.483,
+        "mean_goals": 57.7
+      },
+      "109": {
+        "mean_points": 65.97,
+        "points_sd": 8.12,
+        "top4_rate": 0.837,
+        "mean_goals": 64.56
+      },
+      "112": {
+        "mean_points": 30.6,
+        "points_sd": 7.99,
+        "top4_rate": 0.003,
+        "mean_goals": 33.02
+      },
+      "114": {
+        "mean_points": 64.63,
+        "points_sd": 8.11,
+        "top4_rate": 0.773,
+        "mean_goals": 63.19
+      },
+      "119": {
+        "mean_points": 47.02,
+        "points_sd": 8.22,
+        "top4_rate": 0.1,
+        "mean_goals": 44.94
+      },
+      "120": {
+        "mean_points": 42.4,
+        "points_sd": 8.22,
+        "top4_rate": 0.03,
+        "mean_goals": 42.62
+      },
+      "121": {
+        "mean_points": 39.47,
+        "points_sd": 7.88,
+        "top4_rate": 0.007,
+        "mean_goals": 39.63
+      },
+      "125": {
+        "mean_points": 40.29,
+        "points_sd": 7.71,
+        "top4_rate": 0.03,
+        "mean_goals": 40.5
+      },
+      "130": {
+        "mean_points": 41.3,
+        "points_sd": 8.77,
+        "top4_rate": 0.037,
+        "mean_goals": 45.0
+      },
+      "172": {
+        "mean_points": 48.17,
+        "points_sd": 8.52,
+        "top4_rate": 0.14,
+        "mean_goals": 45.63
+      },
+      "173": {
+        "mean_points": 56.28,
+        "points_sd": 8.55,
+        "top4_rate": 0.44,
+        "mean_goals": 54.27
+      },
+      "179": {
+        "mean_points": 41.96,
+        "points_sd": 7.72,
+        "top4_rate": 0.023,
+        "mean_goals": 41.86
+      },
+      "181": {
+        "mean_points": 24.52,
+        "points_sd": 7.75,
+        "top4_rate": 0.0,
+        "mean_goals": 31.57
+      },
+      "327": {
+        "mean_points": 38.95,
+        "points_sd": 7.93,
+        "top4_rate": 0.017,
+        "mean_goals": 38.77
+      }
+    },
+    "stars": {
+      "110718": {
+        "name": "Kylian Mbappe",
+        "mean_season_goals": 30.53,
+        "scored_by_round10_rate": 1.0,
+        "top20_after_round10_rate": 0.937
+      },
+      "133543": {
+        "name": "Erling Haaland",
+        "mean_season_goals": 29.71,
+        "scored_by_round10_rate": 1.0,
+        "top20_after_round10_rate": 0.933
+      },
+      "110626": {
+        "name": "Ousmane Dembele",
+        "mean_season_goals": 25.85,
+        "scored_by_round10_rate": 1.0,
+        "top20_after_round10_rate": 0.92
+      },
+      "117047": {
+        "name": "Vinicius Junior",
+        "mean_season_goals": 14.78,
+        "scored_by_round10_rate": 0.977,
+        "top20_after_round10_rate": 0.507
+      },
+      "110644": {
+        "name": "Raphinha",
+        "mean_season_goals": 18.97,
+        "scored_by_round10_rate": 1.0,
+        "top20_after_round10_rate": 0.797
+      },
+      "162114": {
+        "name": "Lamine Yamal",
+        "mean_season_goals": 16.63,
+        "scored_by_round10_rate": 0.997,
+        "top20_after_round10_rate": 0.573
+      }
+    }
+  }
+}

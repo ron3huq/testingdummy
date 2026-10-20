@@ -1,0 +1,10 @@
+{
+  "status": "BOOTSTRAP_VALIDATED",
+  "previous_gateway_sha256": "d7ed105325edb51bdeefbbfb4c4104da4c35cb0c388f4f4444ab9d003e3e5861",
+  "new_gateway_sha256": "8ec5c2105552538aca24c7b338e7ddf10425cbc58368eea2d3dc7db53ae91edf",
+  "gateway_bytes": 2441,
+  "native_select_team_loader_unchanged": true,
+  "gateway_url_functions_unchanged": true,
+  "additional_statement": "guarded realism module install",
+  "new_python_sources_compile": true
+}
