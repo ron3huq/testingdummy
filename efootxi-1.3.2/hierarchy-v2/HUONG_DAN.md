@@ -1,3 +1,5 @@
+> **DỪNG DÙNG BẢN V2 NÀY:** người dùng xác nhận văng ngay sau Bắt đầu khi gặp Bayern127. Các kiểm tra payload dưới đây không chứng minh consumer Android chơi được trận. Xem [bản thử sửa v3](../hotfix-v3/HUONG_DAN.md), chưa xác nhận trên điện thoại.
+
 # My League Hierarchy v2 — 3 giải và phân cấp theo yêu cầu
 
 **BẢN MỚI CHƯA KIỂM CHỨNG TRÊN ĐIỆN THOẠI.** Bản Select Team v1 trước đã được bạn xác nhận chạy tốt. V2 mở rộng native hook đó; đã kiểm tra ARM64, cấp phát/giải phóng khi tăng danh sách lên 20 đội, gateway trên DB sao chép và mô phỏng. Bayern/Brazil inline cần thử màn hình đội hình và trận thực tế.

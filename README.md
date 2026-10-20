@@ -9,19 +9,20 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
-## My League Hierarchy v2 — phân cấp CLB, hai giải tuyển và Bayern127
+## My League native hotfix v3 — thử sửa crash Bayern và cập nhật theo yêu cầu
 
-**Bản mới chưa thử trên điện thoại.** Đã kiểm tra hàm ARM64/detour/destructor khi tăng 18→20 đội, gateway trên DB sao chép, giữ lịch/kết quả mùa cũ và 600 mùa mô phỏng (200 cho mỗi giải).
+**Người dùng xác nhận Hierarchy v2 văng ngay sau Bắt đầu khi gặp München RW. Dừng dùng đường roster inline của v2.** V3 chuyển sang roster native Bayern23/Barça30/PSG24/Brazil27, kiểm tra dữ liệu trước khi cho Bắt đầu và cách ly active inline cũ để thử lại đúng vòng. **V3 đã qua kiểm tra thành phần ARM64/gateway nhưng chưa thử trên điện thoại; chưa xác nhận hết crash.**
 
-- [Tải ZIP Hierarchy v2](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hierarchy-v2/efootxi-1.3.2-hierarchy-v2.zip)
-- [Hướng dẫn cài, phân cấp, roster và khôi phục](efootxi-1.3.2/hierarchy-v2/HUONG_DAN.md)
-- [Cách sửa skill/chỉ số CPU, tay áo và logo](efootxi-1.3.2/hierarchy-v2/EDIT_CAU_THU_VA_LOGO.md)
-- [Cấu hình đội/tier/ưu tiên bàn thắng](efootxi-1.3.2/hierarchy-v2/myleague_custom.json)
-- [Kiểm chứng gateway và mô phỏng](efootxi-1.3.2/hierarchy-v2/worlds-validation.json) · [ARM64](efootxi-1.3.2/hierarchy-v2/native-validation.json) · [Hồi quy save](efootxi-1.3.2/hierarchy-v2/regression-validation.json)
+- [Tải ZIP native hotfix v3](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v3/efootxi-1.3.2-native-hotfix-v3.zip)
+- [Hướng dẫn MT Manager, đội hình, chỉ số/skill, mô phỏng và chẩn đoán](efootxi-1.3.2/hotfix-v3/HUONG_DAN.md)
+- [Cấu hình đầy đủ](efootxi-1.3.2/hotfix-v3/myleague_custom.json)
+- [Kiểm tra native](efootxi-1.3.2/hotfix-v3/native-validation.json) · [gateway/mô phỏng](efootxi-1.3.2/hotfix-v3/worlds-validation.json) · [giữ dữ liệu](efootxi-1.3.2/hotfix-v3/regression-validation.json) · [đối chiếu skill](efootxi-1.3.2/hotfix-v3/skill-mapping-validation.json)
 
-Cài cả 6 file vào vùng nội bộ `embedded-gateway/work/tools`. Ligue1: Bayern127 thay Monaco112; Belgian League: 18 tuyển châu Á; Liga Portugal: 20 tuyển thế giới, 38 vòng. Top5 CLB áp đảo nhóm dưới; MU rất hiếm thắng; Nhật ~90% thắng CPU. Tăng ưu tiên chân sút theo yêu cầu. Mùa hiện tại giữ snapshot; bắt đầu mùa mới để có thành phần mới.
+Cài cùng bộ sáu file trong `install/work/tools/` vào vùng nội bộ đã cài Select Team thành công. V3 cập nhật hai giải tuyển theo yêu cầu mới, đội hình Barça/PSG, 13 Base và 7 Card ID. **Đã hủy mọi phần thêm Power Tackle và Long Range Tackle theo yêu cầu người dùng.** Giữ nguyên dt200 gốc. Kiểm tra tự động dùng DB native giả lập và cầu nối readiness giả lập; kết quả này không thay thế việc vào trận thực tế trên Android.
 
-**Bayern127 có roster inline thử 15 người; Brazil45 có roster inline 21 người để thêm Vinícius vốn vắng trong native selection.** Đã kiểm tra payload prepare/START; chưa chứng minh consumer My League trên điện thoại áp dụng và chơi được trận. Logo giải và công tắc áo dài chưa thay. Không ghi đè CPK/DB hoặc dùng Monaco giả làm Bayern. Chỉ số/skill CPU inline có tùy chọn override, mặc định rỗng.
+## Hierarchy v2 — đã xác nhận crash Bayern, giữ để đối chiếu lịch sử
+
+Không cài lại v2 để thử sửa crash Bayern. [Trạng thái v2](efootxi-1.3.2/hierarchy-v2/STATUS.json). Tham khảo bản v3 phía trên; không tự xóa save hoặc thay CPK.
 
 ## My League Realism v1 — nâng cấp lịch, CPU và vua phá lưới
 

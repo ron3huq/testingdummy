@@ -1,3 +1,5 @@
+> **DỪNG DÙNG BẢN V2 NÀY:** người dùng xác nhận văng ngay sau Bắt đầu khi gặp Bayern127. Các kiểm tra payload dưới đây không chứng minh consumer Android chơi được trận. Xem [bản thử sửa v3](../hotfix-v3/HUONG_DAN.md), chưa xác nhận trên điện thoại.
+
 # Skill, chỉ số, tay áo và logo trên Android 1.3.2
 
 ## 1. Sửa skill/chỉ số cầu thủ

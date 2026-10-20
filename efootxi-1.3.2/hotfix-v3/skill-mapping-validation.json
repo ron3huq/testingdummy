@@ -1,0 +1,85 @@
+{
+  "status": "CORPUS_CO_OCCURRENCE_VALIDATED",
+  "cards": 14330,
+  "mapping": {
+    "snapStrike": {
+      "parameter": 136,
+      "named_cards": 4,
+      "flagged_cards": 4,
+      "overlap": 4
+    },
+    "accelerationBurst": {
+      "parameter": 124,
+      "named_cards": 96,
+      "flagged_cards": 96,
+      "overlap": 96
+    },
+    "tapTrick": {
+      "parameter": 135,
+      "named_cards": 1,
+      "flagged_cards": 1,
+      "overlap": 1
+    },
+    "lowScreamer": {
+      "parameter": 127,
+      "named_cards": 80,
+      "flagged_cards": 80,
+      "overlap": 80
+    },
+    "bulletHeader": {
+      "parameter": 121,
+      "named_cards": 75,
+      "flagged_cards": 75,
+      "overlap": 75
+    },
+    "phenomenalFinishing": {
+      "parameter": 114,
+      "named_cards": 199,
+      "flagged_cards": 199,
+      "overlap": 199
+    },
+    "blitzCurler": {
+      "parameter": 120,
+      "named_cards": 95,
+      "flagged_cards": 95,
+      "overlap": 95
+    },
+    "momentumDribbling": {
+      "parameter": 116,
+      "named_cards": 158,
+      "flagged_cards": 158,
+      "overlap": 158
+    },
+    "edgedCrossing": {
+      "parameter": 119,
+      "named_cards": 102,
+      "flagged_cards": 102,
+      "overlap": 102
+    },
+    "magneticFeet": {
+      "parameter": 130,
+      "named_cards": 40,
+      "flagged_cards": 40,
+      "overlap": 40
+    },
+    "dippingShot": {
+      "parameter": 103,
+      "named_cards": 1768,
+      "flagged_cards": 1768,
+      "overlap": 1768
+    },
+    "visionaryPass": {
+      "parameter": 118,
+      "named_cards": 132,
+      "flagged_cards": 143,
+      "overlap": 132
+    },
+    "shadowHunt": {
+      "parameter": 132,
+      "named_cards": 23,
+      "flagged_cards": 23,
+      "overlap": 23
+    }
+  },
+  "limits": "Corpus evidence and native parameter accessors validated; not proof of skill gameplay activation on device. visionaryPass shares flag with an alternate external label."
+}

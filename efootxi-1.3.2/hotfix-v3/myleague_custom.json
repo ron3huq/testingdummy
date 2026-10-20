@@ -1,0 +1,581 @@
+{
+  "schema": 2,
+  "version": "native-hotfix-v3",
+  "assumptions": {
+    "Uzbekistan": "higher tier (Top Dau), not duplicate",
+    "Australia": "Second Asian group",
+    "Bayern": "ID127, 23 existing native base players; custom selection, not a verified official roster",
+    "Brazil": "Native 26-player roster plus Vinicius = 27"
+  },
+  "leagues": {
+    "122": {
+      "teams": [
+        101,
+        102,
+        103,
+        114,
+        100,
+        173,
+        179,
+        108,
+        109,
+        172,
+        121,
+        119,
+        120,
+        181,
+        127,
+        125,
+        327,
+        130
+      ],
+      "name": "Super League + Bayern 127",
+      "tiers": {
+        "114": 0,
+        "108": 0,
+        "101": 0,
+        "109": 1,
+        "173": 1,
+        "103": 2,
+        "102": 2,
+        "119": 2,
+        "172": 2,
+        "179": 3,
+        "121": 3,
+        "120": 3,
+        "181": 3,
+        "127": 3,
+        "125": 3,
+        "327": 3,
+        "130": 3,
+        "100": 4
+      },
+      "original_teams": [
+        101,
+        102,
+        103,
+        114,
+        100,
+        173,
+        179,
+        108,
+        109,
+        172,
+        121,
+        119,
+        120,
+        181,
+        112,
+        125,
+        327,
+        130
+      ]
+    },
+    "566": {
+      "teams": [
+        5763,
+        5750,
+        1031,
+        5759,
+        5752,
+        54,
+        52,
+        53,
+        1184,
+        57,
+        55,
+        1010,
+        1032,
+        1026,
+        56,
+        5748,
+        1011,
+        1012
+      ],
+      "name": "Asian Nations League",
+      "tiers": {
+        "52": 0,
+        "53": 0,
+        "1184": 0,
+        "56": 0,
+        "1026": 1,
+        "55": 1,
+        "1010": 1,
+        "1032": 1,
+        "57": 1,
+        "5763": 2,
+        "5750": 2,
+        "1031": 2,
+        "5752": 2,
+        "1011": 2,
+        "1012": 2,
+        "54": 3,
+        "5748": 3,
+        "5759": 3
+      },
+      "original_teams": [
+        5422,
+        5195,
+        5191,
+        269,
+        2009,
+        5221,
+        1196,
+        1200,
+        1195,
+        2019,
+        5217,
+        174,
+        5220,
+        2013,
+        5194,
+        1197,
+        6067,
+        2010
+      ]
+    },
+    "128": {
+      "teams": [
+        7,
+        50,
+        8,
+        5,
+        45,
+        6,
+        10,
+        9,
+        14,
+        12,
+        24,
+        49,
+        44,
+        40,
+        32,
+        39,
+        16,
+        17,
+        38,
+        1174
+      ],
+      "name": "World Nations League",
+      "tiers": {
+        "7": 0,
+        "50": 0,
+        "8": 0,
+        "5": 0,
+        "45": 0,
+        "6": 0,
+        "10": 1,
+        "9": 1,
+        "14": 1,
+        "12": 1,
+        "39": 2,
+        "32": 2,
+        "16": 2,
+        "24": 3,
+        "49": 3,
+        "44": 3,
+        "40": 3,
+        "17": 4,
+        "38": 4,
+        "1174": 5
+      },
+      "original_teams": [
+        1974,
+        2387,
+        1804,
+        5028,
+        2388,
+        1979,
+        192,
+        2380,
+        4082,
+        5845,
+        5844,
+        191,
+        193,
+        5633,
+        2383,
+        2391,
+        1944,
+        1976
+      ]
+    }
+  },
+  "scorer_boosts": {
+    "47287": 2.2,
+    "110718": 2.1,
+    "133543": 2.1,
+    "110644": 2.0,
+    "7511": 1.35,
+    "4522": 1.35,
+    "117047": 1.35,
+    "162114": 1.35,
+    "110626": 1.35,
+    "128720": 1.25
+  },
+  "bayern_roster": [
+    33185,
+    116655,
+    112376,
+    122460,
+    129961,
+    117766,
+    109005,
+    60380,
+    162163,
+    138000,
+    60884,
+    129369,
+    119907,
+    47287,
+    140870
+  ],
+  "custom_rosters": {},
+  "player_overrides": {},
+  "base_overrides": {
+    "110718": {
+      "stats": {
+        "speed": 94,
+        "acceleration": 94
+      },
+      "skill_flags_add": [
+        124,
+        127,
+        135,
+        136
+      ],
+      "unresolved_skills": []
+    },
+    "132933": {
+      "stats": {},
+      "skill_flags_add": [
+        127
+      ],
+      "unresolved_skills": []
+    },
+    "47287": {
+      "stats": {},
+      "skill_flags_add": [
+        114,
+        121,
+        127
+      ],
+      "unresolved_skills": []
+    },
+    "162114": {
+      "stats": {
+        "curl": 94
+      },
+      "skill_flags_add": [
+        116,
+        119,
+        120,
+        130
+      ],
+      "unresolved_skills": []
+    },
+    "110644": {
+      "stats": {},
+      "skill_flags_add": [
+        103,
+        124
+      ],
+      "unresolved_skills": []
+    },
+    "133157": {
+      "stats": {},
+      "skill_flags_add": [
+        116,
+        118
+      ],
+      "unresolved_skills": []
+    },
+    "133543": {
+      "stats": {},
+      "skill_flags_add": [
+        103,
+        121,
+        136
+      ],
+      "unresolved_skills": []
+    },
+    "4522": {
+      "stats": {},
+      "skill_flags_add": [
+        121,
+        136
+      ],
+      "unresolved_skills": []
+    },
+    "129369": {
+      "stats": {
+        "curl": 90
+      },
+      "skill_flags_add": [
+        119,
+        120
+      ],
+      "unresolved_skills": []
+    },
+    "7511": {
+      "stats": {},
+      "skill_flags_add": [
+        116,
+        120
+      ],
+      "unresolved_skills": []
+    },
+    "128720": {
+      "stats": {},
+      "skill_flags_add": [
+        116
+      ],
+      "unresolved_skills": []
+    },
+    "110626": {
+      "stats": {},
+      "skill_flags_add": [
+        103,
+        124
+      ],
+      "unresolved_skills": []
+    },
+    "132756": {
+      "stats": {},
+      "skill_flags_add": [
+        124,
+        132
+      ],
+      "unresolved_skills": []
+    }
+  },
+  "card_overrides": {
+    "89138019825360": {
+      "stats": {
+        "dribbling": 93,
+        "ball_control": 92,
+        "tight_possession": 90,
+        "speed": 92,
+        "acceleration": 92,
+        "curl": 93,
+        "low_pass": 93,
+        "lofted_pass": 95
+      },
+      "skill_flags_remove": [
+        72
+      ],
+      "skill_ids_remove": [
+        3
+      ]
+    },
+    "106748459484820": {
+      "stats": {
+        "dribbling": 92,
+        "tight_possession": 95,
+        "ball_control": 94,
+        "speed": 92,
+        "acceleration": 94,
+        "low_pass": 95,
+        "lofted_pass": 95,
+        "curl": 96,
+        "physical_contact": 92
+      }
+    },
+    "88039313485858": {
+      "stats": {
+        "dribbling": 92,
+        "tight_possession": 92,
+        "ball_control": 91,
+        "curl": 93,
+        "speed": 90,
+        "acceleration": 91,
+        "lofted_pass": 90,
+        "low_pass": 90
+      }
+    },
+    "106746580456800": {
+      "stats": {
+        "low_pass": 93,
+        "lofted_pass": 94,
+        "curl": 94,
+        "ball_control": 89,
+        "dribbling": 89,
+        "tight_possession": 90
+      }
+    },
+    "106741211713905": {
+      "stats": {
+        "acceleration": 93,
+        "dribbling": 94,
+        "ball_control": 93,
+        "tight_possession": 94,
+        "curl": 96,
+        "low_pass": 94,
+        "lofted_pass": 95,
+        "finishing": 90,
+        "physical_contact": 94
+      }
+    },
+    "105557142924672": {
+      "stats": {
+        "dribbling": 93,
+        "tight_possession": 91,
+        "curl": 96,
+        "low_pass": 94,
+        "lofted_pass": 94,
+        "speed": 90,
+        "acceleration": 92
+      }
+    },
+    "89138556572074": {
+      "stats": {
+        "dribbling": 94,
+        "tight_possession": 94,
+        "ball_control": 95,
+        "heading": 92,
+        "speed": 91,
+        "acceleration": 94,
+        "physical_contact": 92,
+        "low_pass": 92,
+        "lofted_pass": 92,
+        "curl": 95
+      }
+    }
+  },
+  "native_rosters": {
+    "108": [
+      141038,
+      165696,
+      138183,
+      110784,
+      47787,
+      110815,
+      161548,
+      133157,
+      162114,
+      110644,
+      119835,
+      40937,
+      113596,
+      126337,
+      179719,
+      147233,
+      171610,
+      147235,
+      185601,
+      110902,
+      144438,
+      108200,
+      181382,
+      179510,
+      185595,
+      103845,
+      185594,
+      108662,
+      151604,
+      164570
+    ],
+    "114": [
+      122128,
+      136098,
+      104717,
+      113960,
+      132756,
+      159320,
+      135067,
+      143844,
+      152928,
+      128720,
+      110626,
+      139898,
+      170826,
+      45993,
+      152458,
+      45089,
+      108239,
+      178137,
+      157339,
+      148172,
+      159204,
+      176673,
+      116751,
+      167737
+    ],
+    "127": [
+      33185,
+      116655,
+      112376,
+      129961,
+      117766,
+      109005,
+      60380,
+      138000,
+      129369,
+      119907,
+      47287,
+      122460,
+      162163,
+      60884,
+      140870,
+      59835,
+      144102,
+      124107,
+      176197,
+      174911,
+      173937,
+      130207,
+      175422
+    ],
+    "45": [
+      63560,
+      45993,
+      111207,
+      117991,
+      43985,
+      126517,
+      117049,
+      111804,
+      40352,
+      110644,
+      121276,
+      129510,
+      43989,
+      61214,
+      151794,
+      140200,
+      106636,
+      143567,
+      127160,
+      138488,
+      132518,
+      127787,
+      130044,
+      110394,
+      135017,
+      138662,
+      117047
+    ]
+  },
+  "skill_name_flags": {
+    "Snap Strike": 136,
+    "Acceleration Burst": 124,
+    "Tap Trick": 135,
+    "Low Screamer": 127,
+    "Bullet Header": 121,
+    "Phenomenal Finishing": 114,
+    "Blitz Curler": 120,
+    "Momentum Dribbling": 116,
+    "Edge Crossing": 119,
+    "Magnetic Feet": 130,
+    "Dipping Shot": 103,
+    "Visionary Pass": 118,
+    "Shadow Hunt": 132
+  },
+  "unresolved_skill_names": [],
+  "cancelled_by_user": [
+    "Power Tackle",
+    "Long Range Tackle",
+    "all-defenders skill additions"
+  ]
+}

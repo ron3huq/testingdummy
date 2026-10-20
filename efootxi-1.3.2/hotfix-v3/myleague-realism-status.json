@@ -1,0 +1,9 @@
+{
+  "state": "INSTALLED",
+  "version": "native-hotfix-v3",
+  "previous_results_rewritten": false,
+  "native_select_team_changed": true,
+  "new_season_draw": "random_persisted",
+  "cpu_model": "user hierarchy + explicit CPU outcome probabilities",
+  "scorer_model": "canonical roster + role + quality + first-team minutes + requested priority"
+}

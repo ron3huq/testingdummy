@@ -1,0 +1,7 @@
+{
+  "status": "USER_CONFIRMED_CRASH_AT_START_BAYERN",
+  "recommended": false,
+  "replacement": "../hotfix-v3/",
+  "replacement_device_tested": false,
+  "reason": "User reports game exits immediately after START against Munchen RW; inline roster integration unproven despite gateway tests."
+}
