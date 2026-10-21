@@ -1,0 +1,60 @@
+{
+  "version": "native-hotfix-v12",
+  "status": "SLEEVE_REQUEST_ENTITY_DETOURS_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "previous_device_result": {
+    "version": "native-hotfix-v11",
+    "appearance_sleeve_applies": 0,
+    "visual_long_sleeves": false
+  },
+  "appearance": {
+    "sleeve_copy": {
+      "target": "89138556572074",
+      "reference_source": "88041729329832",
+      "status": "REQUEST_ID_AND_ENTITY_CONFIG_OVERRIDE_DEVICE_UNTESTED",
+      "mode": 2,
+      "other_cards_unchanged": true
+    },
+    "hair_copy": {
+      "target": "88044950524330",
+      "source": "88038776539586",
+      "status": "NOT_APPLIED_MESH_TRANSPLANT_REQUIRES_SOURCE_AND_TARGET_3D_ASSETS",
+      "preserve_target_face": true
+    },
+    "ajax_logo": {
+      "target_team": 116,
+      "source_team": 181,
+      "status": "NATIVE_EMBLEM_PATH_ALIAS_DEVICE_UNTESTED"
+    }
+  },
+  "simulation_code_byte_identical_to": "native-hotfix-v10",
+  "v10_native_source_preserved_as_exact_prefix": true,
+  "source_tables_modified": false,
+  "source_db_modified": false,
+  "hair_transplant_applied": false,
+  "full64_target": "89138556572074",
+  "new_native_entries": [
+    "0x68ceb44",
+    "0x68db150"
+  ],
+  "retained_native_entry": "0x68d0868",
+  "new_status_fields": [
+    "appearance_hooks",
+    "appearance_serialize_calls",
+    "appearance_build_calls",
+    "appearance_build_matches",
+    "appearance_entity_calls",
+    "appearance_entity_matches",
+    "appearance_last_build_id",
+    "appearance_last_entity_id",
+    "appearance_build_before",
+    "appearance_entity_before"
+  ],
+  "limits": [
+    "No device/render verification",
+    "V11 zero counter does not establish exact runtime cause",
+    "Normalized intermediate key4522 is a modeled regression scenario",
+    "DB/resource and unrelated footwear boundaries modeled in Unicorn",
+    "Hair transplant remains unimplemented"
+  ]
+}

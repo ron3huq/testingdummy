@@ -9,6 +9,19 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Native hotfix v12 — sửa đường áp dụng tay dài Ronaldo
+
+- [Tải ZIP v12 — chép đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v12/efootxi-1.3.2-native-hotfix-v12-long-sleeve.zip)
+- [Cài đặt và đọc bộ đếm mới](efootxi-1.3.2/hotfix-v12/HUONG_DAN.md)
+- [Phân tích và giới hạn kiểm chứng](efootxi-1.3.2/hotfix-v12/NGOAI_HINH.md)
+- [Kiểm tra ARM64](efootxi-1.3.2/hotfix-v12/appearance-validation.json)
+
+Người dùng xác nhận v11 vẫn tay ngắn, bộ đếm áp dụng bằng 0. V12 thêm hai điểm áp dụng theo full64 ID yêu cầu và ID nhân vật cho đúng thẻ **89138556572074**, sửa cấu hình tay áo sau bộ dựng gốc và trước bước dispatch vào nhân vật. Bổ sung bộ đếm gọi/khớp ID và tình trạng cài từng hook. Giữ đường serializer làm bổ sung. Chưa có kết quả hình ảnh trên thiết bị.
+
+Đã kiểm tra 107 ca serialize, 16 ca toàn bộ hàm dựng, 13 ca dispatch, 6 ca mode/mùa và Python diagnostics. Kịch bản DB trả khóa trung gian khác ID yêu cầu đã được mô phỏng: v11 bỏ qua, v12 áp dụng đúng; đây chưa phải nguyên nhân đã xác nhận trên máy người dùng. Kiểm tra hồi quy đội hình, cache, chỉ số, save và gateway đã qua. Giữ nguyên mã mô phỏng v10; không sửa tóc, mặt, dt200 hoặc save.
+
+Buộc dừng game, sao lưu rồi chép đủ 7 file vào `files/embedded-gateway/work/tools/`. Vào trận mới với đúng thẻ và đọc `select-team-status.json` phiên bản `native-hotfix-v12`. Bộ đếm dương xác nhận thao tác ghi, vẫn cần quan sát tay áo trong trận.
+
 ## Native hotfix v11 — bản thử tay dài Ronaldo, nghiên cứu ghép tóc
 
 - [Tải ZIP v11 — cài đủ7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v11/efootxi-1.3.2-native-hotfix-v11-long-sleeve.zip)
