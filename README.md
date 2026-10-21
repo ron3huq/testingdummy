@@ -9,6 +9,19 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Native hotfix v13 — xử lý tay dài ngay lúc nạp áo UE
+
+- [Tải ZIP v13 — cài đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v13/efootxi-1.3.2-native-hotfix-v13-long-sleeve.zip)
+- [Hướng dẫn MT Manager, phạm vi và bộ đếm mới](efootxi-1.3.2/hotfix-v13/HUONG_DAN.md)
+- [Đường nạp áo và giới hạn kiểm chứng](efootxi-1.3.2/hotfix-v13/NGOAI_HINH.md)
+- [Kiểm tra ARM64 và chọn tài nguyên áo](efootxi-1.3.2/hotfix-v13/appearance-validation.json)
+
+V12 được người dùng xác nhận vẫn tay ngắn khi đã vào sân: builder gọi24 lần nhưng exact-ID match0, entity0. V13 thêm điểm xử lý trực tiếp trước khi UE chọn mẫu áo ngắn/dài và gọi LoadUniShirt. Nhận diện thẻ89138556572074 cùng hai alias4522/16781738, đều được xác minh đúng tên Cristiano Ronaldo trong Player.bin. **Các thẻ Ronaldo khác được renderer gom về cùng alias cũng có thể nhận tay dài.** Không dùng phép cắt lowbits cho ID tùy ý.
+
+Đã chạy thêm67 ca mã ARM64 hàm nạp áo đến đúng lệnh gọi LoadUniShirt, kiểm tra cặp tài nguyên ngắn/dài và tham số tay áo; chỉ trường tay áo khác baseline ở ID khớp. Kit lookup dùng dữ liệu mô hình, chưa xác nhận mesh/texture thực tế hoặc hình ảnh trên Android. Các kiểm tra builder/serializer, đội hình, cache, chỉ số, gateway/save đều qua. Giữ nguyên mã mô phỏng v10, không sửa tóc, mặt hay dt200.
+
+Bộ đếm mới: appearance_shirt_calls, appearance_shirt_matches, appearance_shirt_alias_matches, appearance_shirt_applies và danh sách appearance_build_ids/appearance_shirt_ids. Buộc dừng game, sao lưu rồi chép đủ7 file vào files/embedded-gateway/work/tools/, vào trận mới và đọc select-team-status.json phiên bản native-hotfix-v13.
+
 ## Native hotfix v12 — sửa đường áp dụng tay dài Ronaldo
 
 - [Tải ZIP v12 — chép đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v12/efootxi-1.3.2-native-hotfix-v12-long-sleeve.zip)

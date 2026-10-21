@@ -1,0 +1,76 @@
+{
+  "version": "native-hotfix-v13",
+  "status": "DIRECT_SHIRT_LOAD_RESOURCE_SELECTION_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "previous_device_result": {
+    "version": "native-hotfix-v12",
+    "confirmed_in_match": true,
+    "serialize_calls": 24,
+    "build_calls": 24,
+    "build_matches": 0,
+    "entity_calls": 0,
+    "appearance_sleeve_applies": 0,
+    "visual_long_sleeves": false
+  },
+  "appearance": {
+    "sleeve_copy": {
+      "target": "89138556572074",
+      "reference_source": "88041729329832",
+      "status": "DIRECT_SHIRT_LOAD_WITH_VERIFIED_RONALDO_BASE_ALIASES_DEVICE_UNTESTED",
+      "mode": 2,
+      "other_cards_unchanged": false,
+      "shared_base_alias_can_affect_other_ronaldo_cards": true,
+      "render_alias_ids": [
+        4522,
+        16781738
+      ],
+      "render_aliases_source": "Android Player.bin exact named records Cristiano Ronaldo; not inferred from arbitrary lowbits"
+    },
+    "hair_copy": {
+      "target": "88044950524330",
+      "source": "88038776539586",
+      "status": "NOT_APPLIED_MESH_TRANSPLANT_REQUIRES_SOURCE_AND_TARGET_3D_ASSETS",
+      "preserve_target_face": true
+    },
+    "ajax_logo": {
+      "target_team": 116,
+      "source_team": 181,
+      "status": "NATIVE_EMBLEM_PATH_ALIAS_DEVICE_UNTESTED"
+    }
+  },
+  "simulation_code_byte_identical_to": "native-hotfix-v10",
+  "v10_native_source_preserved_as_exact_prefix": true,
+  "source_tables_modified": false,
+  "source_db_modified": false,
+  "hair_transplant_applied": false,
+  "target": "89138556572074",
+  "verified_named_render_aliases": [
+    4522,
+    16781738
+  ],
+  "shared_alias_can_affect_other_ronaldo_cards": true,
+  "new_native_entry": "0x3a0b28c",
+  "retained_native_entries": [
+    "0x68d0868",
+    "0x68ceb44",
+    "0x68db150"
+  ],
+  "new_status_fields": [
+    "appearance_shirt_calls",
+    "appearance_shirt_matches",
+    "appearance_shirt_alias_matches",
+    "appearance_shirt_applies",
+    "appearance_last_shirt_id",
+    "appearance_shirt_before",
+    "appearance_shirt_after",
+    "appearance_build_ids",
+    "appearance_shirt_ids"
+  ],
+  "limits": [
+    "No Android mesh/texture/render verification",
+    "V12 data proves exact matching missed24 builds, not the complete runtime ID mapping",
+    "Finite shared Ronaldo aliases can also affect other cards rendered under those IDs",
+    "Kit resource lookup/availability mocked; native selector branches and LoadUniShirt argument setup executed",
+    "Hair transplant remains unimplemented"
+  ]
+}
