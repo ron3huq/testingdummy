@@ -9,6 +9,21 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Native hotfix v15 — tay dài theo giải, bản thử riêng Gullit
+
+- [Tải bản tay dài thông thường](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v15/efootxi-1.3.2-native-hotfix-v15-long-sleeve.zip)
+- [Tải bản thử giá trị tay áo riêng Gullit88045755960810 — chưa xác nhận là tay xắn](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v15/efootxi-1.3.2-native-hotfix-v15-gullit-sleeve-trial.zip)
+- [Cài đặt, chọn bản và quay lại](efootxi-1.3.2/hotfix-v15/HUONG_DAN.md)
+- [Phân tích tay xắn và giới hạn bằng chứng](efootxi-1.3.2/hotfix-v15/NGOAI_HINH.md)
+- [Danh sách ID theo đúng tên/giải](efootxi-1.3.2/hotfix-v15/sleeve-targets.json)
+- [Kiểm tra ARM64](efootxi-1.3.2/hotfix-v15/appearance-validation.json)
+
+V14 đã được người dùng xác nhận tay dài hoạt động. V15 mở rộng cho Ronaldo/Messi trong Y17(518) và Kvaratskhelia/Dembélé/Bellingham/Mbappé/Haaland trong UEFA My League(122), giữ đúng phạm vi giải và hai thẻ Ronaldo v14. Nhận diện249 bản ghi đã xác minh tên chính xác, không dùng suy đoán lowbits. 1.024 ca builder kiểm tra phạm vi và32 ca bật/tắt giá trị thử đã qua cùng các kiểm tra native/cache/gateway/save.
+
+Kiểu tay dài xắn ngang cẳng tay như ảnh **chưa có cờ/mesh được xác minh**. Bản ZIP thử bật packed mode3/config2 chỉ cho ID88045755960810, được bảng Android xác nhận là Ruud Gullit. Giá trị này được native chuyển tới LoadUniShirt nhưng không có trong các bản ghi nguồn và đi nhánh resource áo ngắn ở đường đã nghiên cứu; không thể tuyên bố nó tạo tay xắn. Bản thường để thử nghiệm tắt. Nhóm cầu thủ mới và thử nghiệm chưa được kiểm tra hình ảnh trên Android.
+
+Mỗi ZIP chứa đủ7 file; chọn một, không cần cài lần lượt. Buộc dừng game, sao lưu rồi chép đủ7 file vào files/embedded-gateway/work/tools/, vào trận mới. Nếu muốn tắt thử nghiệm Gullit, cài lại ZIP thường v15. Hai ZIP chỉ khác cờ bật thử trong myleague_custom.json; không thay save, lịch, chỉ số, roster, tóc/mặt, dt200/APK/CPK. Mô phỏng giữ nguyên v10.
+
 ## Native hotfix v14 — sửa theo đúng ID Ronaldo đã ghi nhận
 
 - [Tải ZIP v14 — cài đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v14/efootxi-1.3.2-native-hotfix-v14-long-sleeve.zip)

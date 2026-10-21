@@ -1,0 +1,28 @@
+{
+  "status": "APPEARANCE_RUNTIME_PASS",
+  "device_tested": false,
+  "boundary": "native installation mocked; engine prologues checked against actual ELF",
+  "cases": [
+    {
+      "entity_install_failure_modeled": false,
+      "trial_enabled": false,
+      "state": "HOOK_ACTIVE",
+      "full64_id_preserved": true,
+      "all_four_prologues_match_original_engine": true
+    },
+    {
+      "entity_install_failure_modeled": true,
+      "trial_enabled": false,
+      "state": "HOOK_ACTIVE",
+      "full64_id_preserved": true,
+      "all_four_prologues_match_original_engine": true
+    },
+    {
+      "entity_install_failure_modeled": false,
+      "trial_enabled": true,
+      "state": "HOOK_ACTIVE",
+      "full64_id_preserved": true,
+      "all_four_prologues_match_original_engine": true
+    }
+  ]
+}

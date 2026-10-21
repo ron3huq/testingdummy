@@ -1,0 +1,219 @@
+[
+  {
+    "container": "pc9251_mobile_and-DT_RealFaceMapping.uasset",
+    "target_rows": [
+      {
+        "row": "35496ep00v0280",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0300",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0301",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "4522ep01v0278",
+        "redirect": "4522lg00v0000"
+      }
+    ]
+  },
+  {
+    "container": "pc9262_mobile_and-DT_RealFaceMapping.uasset",
+    "target_rows": [
+      {
+        "row": "35266ep00v0318",
+        "redirect": "35266ep00v0290"
+      },
+      {
+        "row": "35496ep00v0280",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0300",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0301",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0316",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "4522ep01v0278",
+        "redirect": "4522lg00v0000"
+      }
+    ]
+  },
+  {
+    "container": "pc9252_mobile_and-DT_RealFaceMapping.uasset",
+    "target_rows": [
+      {
+        "row": "35496ep00v0280",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0300",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0301",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0316",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "4522ep01v0278",
+        "redirect": "4522lg00v0000"
+      }
+    ]
+  },
+  {
+    "container": "pc9249_mobile_and-DT_RealFaceMapping.uasset",
+    "target_rows": [
+      {
+        "row": "35496ep00v0280",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0300",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0301",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "4522ep01v0278",
+        "redirect": "4522lg00v0000"
+      }
+    ]
+  },
+  {
+    "container": "pc9245_mobile_and-DT_RealFaceMapping.uasset",
+    "target_rows": [
+      {
+        "row": "35496ep00v0280",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0300",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0301",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "4522ep01v0278",
+        "redirect": "4522lg00v0000"
+      }
+    ]
+  },
+  {
+    "container": "pc9261_mobile_and-DT_RealFaceMapping.uasset",
+    "target_rows": [
+      {
+        "row": "35266ep00v0318",
+        "redirect": "35266ep00v0290"
+      },
+      {
+        "row": "35496ep00v0280",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0300",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0301",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0316",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "4522ep01v0278",
+        "redirect": "4522lg00v0000"
+      }
+    ]
+  },
+  {
+    "container": "pc9258_mobile_and-DT_RealFaceMapping.uasset",
+    "target_rows": [
+      {
+        "row": "35496ep00v0280",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0300",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0301",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0316",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "4522ep01v0278",
+        "redirect": "4522lg00v0000"
+      }
+    ]
+  },
+  {
+    "container": "pc9257_mobile_and-DT_RealFaceMapping.uasset",
+    "target_rows": [
+      {
+        "row": "35496ep00v0280",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0300",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0301",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0316",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "4522ep01v0278",
+        "redirect": "4522lg00v0000"
+      }
+    ]
+  },
+  {
+    "container": "pc9248_mobile_and-DT_RealFaceMapping.uasset",
+    "target_rows": [
+      {
+        "row": "35496ep00v0280",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0300",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "35496ep00v0301",
+        "redirect": "35496ep01v0273"
+      },
+      {
+        "row": "4522ep01v0278",
+        "redirect": "4522lg00v0000"
+      }
+    ]
+  }
+]

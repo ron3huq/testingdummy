@@ -1,0 +1,36 @@
+{
+  "status": "PACKAGE_PASS",
+  "device_tested": false,
+  "variants": {
+    "standard": {
+      "filename": "efootxi-1.3.2-native-hotfix-v15-long-sleeve.zip",
+      "trial_enabled": false,
+      "sha256": "85a8a9eae28c2d96ac30e4d2dfffc63e0585ed9568a0bc3e304d12738a186cf8",
+      "bytes": 214282,
+      "files": {
+        "gateway_runtime.py": "8ec5c2105552538aca24c7b338e7ddf10425cbc58368eea2d3dc7db53ae91edf",
+        "select_team_runtime.py": "3d00b0546ea6770ece4400d105dd006bb4609b0bdf3f16b015ab3e2edc46ed23",
+        "libselect_team.so": "86e461fc1ba2d67886486e791fd089d59facbc19464cf2329cad029f29f3b63e",
+        "myleague_realism.py": "00eb323c48f3a3952eb1794710b0fd2cc00058f19572eeec88863717b6da46d6",
+        "myleague_worlds.py": "a4b5378048e61153d38370ba78fa2edcdba211e66091834bcd7aa6cb9fe77072",
+        "myleague_balance.py": "361fbe202fe1e8647a26580cf1de522fc9d9351de266ef522c90367093dc9c54",
+        "myleague_custom.json": "87d299195aac0afc22255afef17fcf4bce62edcf25e677bd5e89d9656ba83648"
+      }
+    },
+    "gullit_trial": {
+      "filename": "efootxi-1.3.2-native-hotfix-v15-gullit-sleeve-trial.zip",
+      "trial_enabled": true,
+      "sha256": "8116758e3cbd617b4b9d4f2c9dc310c4ea2d8e9389b19ca988512fd45f83ce15",
+      "bytes": 214279,
+      "files": {
+        "gateway_runtime.py": "8ec5c2105552538aca24c7b338e7ddf10425cbc58368eea2d3dc7db53ae91edf",
+        "select_team_runtime.py": "3d00b0546ea6770ece4400d105dd006bb4609b0bdf3f16b015ab3e2edc46ed23",
+        "libselect_team.so": "86e461fc1ba2d67886486e791fd089d59facbc19464cf2329cad029f29f3b63e",
+        "myleague_realism.py": "00eb323c48f3a3952eb1794710b0fd2cc00058f19572eeec88863717b6da46d6",
+        "myleague_worlds.py": "a4b5378048e61153d38370ba78fa2edcdba211e66091834bcd7aa6cb9fe77072",
+        "myleague_balance.py": "361fbe202fe1e8647a26580cf1de522fc9d9351de266ef522c90367093dc9c54",
+        "myleague_custom.json": "f110730d5999245bd3685b1bb7ad97c620ce3b0caafb34122df67239bc2d1aee"
+      }
+    }
+  }
+}
