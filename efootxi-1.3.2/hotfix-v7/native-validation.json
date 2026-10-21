@@ -1,0 +1,40 @@
+{
+  "status": "ARM64_COMPONENT_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "synthetic_database": true,
+  "native_roster_counts": {
+    "108": 30,
+    "114": 24,
+    "127": 22,
+    "45": 27,
+    "116": 32,
+    "18961": 31,
+    "5317": 18,
+    "1222": 11,
+    "1220": 16,
+    "1986": 15,
+    "1219": 15,
+    "132": 17,
+    "131": 16,
+    "2365": 16,
+    "1987": 18,
+    "1221": 17,
+    "2621": 15,
+    "1985": 16
+  },
+  "classic_profiles": 179,
+  "checks": [
+    "original full64 player resolver / lower_bound / XOR decode; complete card IDs never truncated",
+    "all18 roster preflights, shirt getters and exact typed player entries",
+    "all12 classic formations4 variants through original role/coordinate getters; valid lineup order",
+    "all classic NPCs neutral primary OVR87\u201395, no Marseille/Chop Turn; configured captain and six taker slots",
+    "classic targets stable through repeated lookups, no progressive stat reduction",
+    "base, exact cards and all220 relative policies; global power boost/conditional Dipping Shot; original147 getter/setter",
+    "adjacent native bytes preserved including short-name +4e boundary",
+    "verified80-byte uniform block matches all12 original club donors",
+    "player hook via real atomic detour/trampoline including full64 Messi",
+    "missing player blocks roster writes",
+    "OVR scope518/566/0 changes match Python and restore baseline, repeated reads idempotent",
+    "stage mask excludes100/uninstalled/unsupported-snow; original fallback retained when assets absent; both native selector detours exercised"
+  ]
+}

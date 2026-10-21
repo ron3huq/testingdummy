@@ -1,0 +1,15 @@
+{
+  "status": "ENVIRONMENT_GATEWAY_PASS",
+  "device_tested": false,
+  "native_assets_and_hooks_stubbed": true,
+  "deterministic_draws": 1020,
+  "actual_gateway_cases": 60,
+  "checks": [
+    "info/prepare/START share weather/season/time; saved active draw stable",
+    "8\u201314 request winter/snow when supported; unsupported snow explicitly falls back to fine, no fake enable",
+    "six permitted stage IDs only; unsupported/missing assets and hook failures preserve baseline launch with diagnostics",
+    "own START neutral OVR in requested general/Belgium range; original inventory and DB unchanged",
+    "classic controlled-kit IDs refer to original donor club, not Scottish kit ID"
+  ],
+  "limits": "Does not render rain/snow/stadiums; unavailable assets are not created. In supplied source all six snow capability flags are zero."
+}

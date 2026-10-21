@@ -9,6 +9,20 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Native hotfix v7 — Scottish retro, OVR, kit và cấu hình trận
+
+- [Tải ZIP v7](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v7/efootxi-1.3.2-native-hotfix-v7.zip)
+- [Hướng dẫn MT Manager: đủ7 file, giới hạn và khôi phục](efootxi-1.3.2/hotfix-v7/HUONG_DAN.md)
+- [12 đội,190 vị trí: ID đầy đủ, vai trò, số áo, người thay và đá phạt](efootxi-1.3.2/hotfix-v7/DOI_HINH_CO_DIEN.md)
+- [Cấu hình](efootxi-1.3.2/hotfix-v7/myleague_custom.json) · [Trạng thái và phần chưa hoàn thành](efootxi-1.3.2/hotfix-v7/RELEASE_STATUS.json)
+- [Kiểm tra ARM64](efootxi-1.3.2/hotfix-v7/native-validation.json) · [14330 thẻ/OVR/kỹ năng](efootxi-1.3.2/hotfix-v7/v7-rules-validation.json) · [Gateway sân/thời tiết](efootxi-1.3.2/hotfix-v7/environment-validation.json)
+
+Scottish đổi AC Milan thành Atletico2017, Inter thành Tottenham2020; dựng lại các đội retro theo yêu cầu. Hai ID Ronaldo/Bale2017 được giữ đúng. Bỏ các cầu thủ hiện đại dùng tạm v6; khi thiếu người, dùng cựu cầu thủ cùng CLB và công khai ngoại lệ, không đổi tên người thay. Đội hình không hoàn toàn trùng một mùa ở mọi CLB.
+
+OVR nền My League87–95, riêng giải Bỉ566 là80–86; Messi Curl/Dribbling94. Scottish đổi Chop→Tap Trick, Marseille→Momentum, bổ sung kỹ năng theo vai; hậu vệ Ligue122 thêm Fortress/Sliding/Interception/Blocker và giữ skill khác. Tỷ lệ CPU cũ được giữ, tỷ số thay đổi trọng số để đa dạng hơn. Toàn bộ12 đội dùng logo/kit gốc, gồm sửa cả uniform ID gửi vào trận. Không nhập áo theo mùa lịch sử.
+
+**Chưa có kiểm thử trên điện thoại. Tuyết chưa áp dụng được ở sáu sân nguồn (cờ snow=0); vòng8–14 yêu cầu đông/tuyết nhưng dùng trời quang khi engine không hỗ trợ.** Mưa/mùa/ngày đêm có cấu hình nhưng hiệu ứng render còn tùy Android. Sân chọn ngẫu nhiên trong1/7/30/51/52/85 mà engine xác nhận đã cài; thiếu toàn bộ sân/hook thì giữ selector gốc để không phá To Match, do đó chưa đảm bảo bỏ100 trên mọi máy. Xem `myleague-environment-status.json` để phân biệt phần đã áp dụng và phần đang thiếu. Không thay dt200, CPK, APK hay save.
+
 ## Native hotfix v6 — Super League thực tế, Scottish cổ điển, luật cầu thủ
 
 **V6 đã kiểm tra thành phần ARM64/gateway, chưa thử trên điện thoại.** Có12 đội Scottish cổ điển,175 vị trí dùng172 ID thật,47 chỗ thay tạm theo lựa chọn của người dùng. Không đổi tên/face người thay để giả thành người còn thiếu.

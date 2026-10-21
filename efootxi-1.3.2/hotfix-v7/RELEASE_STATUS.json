@@ -1,0 +1,114 @@
+{
+  "version": "native-hotfix-v7",
+  "status": "COMPONENT_AND_GATEWAY_VALIDATED_DEVICE_UNTESTED_PARTIAL_ENVIRONMENT",
+  "device_tested": false,
+  "classic_teams": 12,
+  "classic_slots": 190,
+  "classic_unique_ids": 179,
+  "roster_era_accuracy": "hybrid where unavailable; exact per-team exceptions documented",
+  "neutral_ovr": {
+    "general": [
+      87,
+      95
+    ],
+    "566": [
+      80,
+      86
+    ],
+    "scope": "My League active context; neutral original engine rating at source primary position, no coach/conditional boosts",
+    "preserve_stats": {
+      "messi": {
+        "curl": 94,
+        "dribbling": 94
+      }
+    },
+    "source": "immutable pre-balance profile keyed full64; recompute absolute when competition changes"
+  },
+  "owned_database_rewritten": false,
+  "club_outcomes": {
+    "competition_id": 122,
+    "top_tiers": [
+      0,
+      1
+    ],
+    "vs_group3": {
+      "opponent_tiers": [
+        2
+      ],
+      "win": 0.85,
+      "draw": 0.1,
+      "loss": 0.05
+    },
+    "vs_group4": {
+      "opponent_tiers": [
+        3,
+        4
+      ],
+      "win": 0.95,
+      "draw": 0.04,
+      "loss": 0.01
+    },
+    "same_top_groups": "existing form/home/strength model",
+    "membership": "Dortmund126 replaces Lyon181",
+    "top1_vs_top2": {
+      "win": 0.7,
+      "draw": 0.2,
+      "loss": 0.1,
+      "except_pairs": [
+        [
+          108,
+          109
+        ]
+      ]
+    },
+    "top1_vs_group4": {
+      "win": 0.9,
+      "draw": 0.07,
+      "loss": 0.03
+    },
+    "unchanged_top2_vs_group4": "retained preceding95% rule; new90% explicitly applies group1",
+    "scorelines": "bounded weighted football scorelines; top clashes max3 goals winner/1 loser, others max4/1; simulated results only",
+    "venue_bias": "Roma/Dortmund/Gala/Napoli: +4pt win chance vs top on home ground and -4pt away; average requested rate retained",
+    "minutes": "Current CPU result/rank protocol has no goal-minute events; no claim of late goal simulation"
+  },
+  "stadium_100_guaranteed_removed_on_every_device": false,
+  "snow_verified_available_in_supplied_source": false,
+  "environment_policy": {
+    "stadium_ids": [
+      1,
+      7,
+      30,
+      51,
+      52,
+      85
+    ],
+    "exclude_stadium_ids": [
+      100
+    ],
+    "snow_matchdays": [
+      8,
+      14
+    ],
+    "snow_weather": "WEATHER_TYPE_SNOW",
+    "rain_weather": "WEATHER_TYPE_RAIN",
+    "fine_weather": "WEATHER_TYPE_FINE",
+    "winter": "SEASON_TYPE_WINTER",
+    "summer": "SEASON_TYPE_SUMMER",
+    "day": "TIME_ZONE_TYPE_DAY",
+    "night": "TIME_ZONE_TYPE_NIGHT",
+    "draw_scope": "one deterministic draw per saved season+fixture; retries/menu reads stable",
+    "stadium_assets": "filter against native installed/selectable list, no fabricated package downloads",
+    "fallback_policy": "No compatible snow: request winter but use fine weather, record SNOW_UNSUPPORTED. No installed permitted stadium: keep original selector and record STADIUM_ASSETS_PENDING; never fabricate assets or block baseline matches."
+  },
+  "limits": [
+    "Phone match/render verification remains pending",
+    "Retro rosters include documented former-club substitutes; not all exactly match requested season",
+    "Original club assets reused; no historical-season kit textures imported",
+    "Allowed stadium draw only when native selectable list confirms installed; otherwise original selector retained",
+    "Source six stadiums have snow capability0; winter/snow requested on8–14 but unsupported snow falls back to fine",
+    "Rain/winter/day/night schema configured, visual effects depend on Android assets and remain unverified",
+    "Neutral source-primary OVR excludes manager/conditional boosts and relocated-position OVR",
+    "No goal-minute CPU protocol; no fabricated late goals/pressing",
+    "Power Tackle, hair and long-sleeve edits from earlier requests remain unapplied"
+  ]
+}

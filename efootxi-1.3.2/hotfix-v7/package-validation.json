@@ -1,0 +1,15 @@
+{
+  "status": "PACKAGE_PASS",
+  "device_tested": false,
+  "files": {
+    "gateway_runtime.py": "8ec5c2105552538aca24c7b338e7ddf10425cbc58368eea2d3dc7db53ae91edf",
+    "select_team_runtime.py": "fbb678130b23323ab287a6d122473e82a422a8cb55b2a95fd2a93815d5f4543d",
+    "libselect_team.so": "2c55bc93bacb10e7c546b5f5553601298ab0b0715b90d5537df86250fa2c2a0b",
+    "myleague_realism.py": "173bde0df20d2cf2f3bca6a262ff99088dca11720b8e839d3536c1319dea6753",
+    "myleague_worlds.py": "d628b2a0a878275edaa49e1f238837302a86232803bb01c5a65fbcdda78fb9a2",
+    "myleague_balance.py": "a61c846cd387f35042f9665aef5690cab81879cac93a5beb7ded8e2e0b5e5ef5",
+    "myleague_custom.json": "f78051292241abed9b0eef7e4f7070c96c1e5ba6cbb7f81ea1a453ddae38abff"
+  },
+  "zip_sha256": "4912281fea5da074776bfeaec90561750c9827887d735b8eb3326ed02affcd8f",
+  "zip_bytes": 144758
+}
