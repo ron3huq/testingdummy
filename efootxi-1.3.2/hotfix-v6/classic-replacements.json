@@ -1,0 +1,381 @@
+{
+  "status": "USER_AUTHORIZED_TEMPORARY_SUBSTITUTES",
+  "rows": [
+    {
+      "team": "Bayern Munchen",
+      "missing": "Jérôme Boateng",
+      "replacement": "Martín Demichelis",
+      "player_id": 17592991485433,
+      "role": "CB",
+      "shirt": 17
+    },
+    {
+      "team": "Bayern Munchen",
+      "missing": "Arjen Robben",
+      "replacement": "Serge Gnabry",
+      "player_id": 105575664905684,
+      "role": "RWF",
+      "shirt": 10
+    },
+    {
+      "team": "FC Barcelona",
+      "missing": "Javier Mascherano",
+      "replacement": "Albert Ferrer",
+      "player_id": 88030992010715,
+      "role": "CB",
+      "shirt": 14
+    },
+    {
+      "team": "Real Madrid CF",
+      "missing": "Zinedine Zidane",
+      "replacement": "Guti",
+      "player_id": 88029918268943,
+      "role": "AMF",
+      "shirt": 5
+    },
+    {
+      "team": "Real Madrid CF",
+      "missing": "Raúl González",
+      "replacement": "Iván Zamorano",
+      "player_id": 88030455139794,
+      "role": "CF",
+      "shirt": 8
+    },
+    {
+      "team": "Real Madrid CF",
+      "missing": "Fernando Hierro",
+      "replacement": "Xabi Alonso",
+      "player_id": 88030992010749,
+      "role": "CMF",
+      "shirt": 6
+    },
+    {
+      "team": "PSG",
+      "missing": "Thiago Motta",
+      "replacement": "Leandro Paredes",
+      "player_id": 70374381367596,
+      "role": "DMF",
+      "shirt": 8
+    },
+    {
+      "team": "PSG",
+      "missing": "Javier Pastore",
+      "replacement": "Désiré Doué",
+      "player_id": 105736726271328,
+      "role": "AMF",
+      "shirt": 27
+    },
+    {
+      "team": "AC Milan",
+      "missing": "Lúcio",
+      "replacement": "Alessandro Nesta",
+      "player_id": 87962272515241,
+      "role": "CB",
+      "shirt": 6
+    },
+    {
+      "team": "AC Milan",
+      "missing": "Walter Samuel",
+      "replacement": "Franco Baresi",
+      "player_id": 88029649833457,
+      "role": "CB",
+      "shirt": 25
+    },
+    {
+      "team": "AC Milan",
+      "missing": "Cristian Chivu",
+      "replacement": "Paolo Maldini",
+      "player_id": 88030455139778,
+      "role": "CB",
+      "shirt": 26
+    },
+    {
+      "team": "AC Milan",
+      "missing": "Sulley Muntari",
+      "replacement": "Luka Modrić",
+      "player_id": 105564927460658,
+      "role": "CMF",
+      "shirt": 20
+    },
+    {
+      "team": "Man United",
+      "missing": "Antonio Valencia",
+      "replacement": "Aaron Wan-Bissaka",
+      "player_id": 89132651102396,
+      "role": "RB",
+      "shirt": 25
+    },
+    {
+      "team": "Man United",
+      "missing": "Michael Carrick",
+      "replacement": "Christian Eriksen",
+      "player_id": 89132651028391,
+      "role": "DMF",
+      "shirt": 16
+    },
+    {
+      "team": "Man United",
+      "missing": "Phil Jones",
+      "replacement": "Matthijs de Ligt",
+      "player_id": 105648142532025,
+      "role": "CB",
+      "shirt": 4
+    },
+    {
+      "team": "Man United",
+      "missing": "Marouane Fellaini",
+      "replacement": "Bryan Robson",
+      "player_id": 17592454614516,
+      "role": "CMF",
+      "shirt": 27
+    },
+    {
+      "team": "Man City",
+      "missing": "Aleksandar Kolarov",
+      "replacement": "Joško Gvardiol",
+      "player_id": 106730205873248,
+      "role": "LB",
+      "shirt": 11
+    },
+    {
+      "team": "Man City",
+      "missing": "Fernandinho",
+      "replacement": "Enzo Fernández",
+      "player_id": 105634720773401,
+      "role": "DMF",
+      "shirt": 25
+    },
+    {
+      "team": "Man City",
+      "missing": "Pablo Zabaleta",
+      "replacement": "Matheus Nunes",
+      "player_id": 105799808588551,
+      "role": "RB",
+      "shirt": 3
+    },
+    {
+      "team": "Juventus",
+      "missing": "Miralem Pjanić",
+      "replacement": "Douglas Luiz",
+      "player_id": 105686797239795,
+      "role": "CMF",
+      "shirt": 5
+    },
+    {
+      "team": "Juventus",
+      "missing": "Sami Khedira",
+      "replacement": "Weston McKennie",
+      "player_id": 106799193770861,
+      "role": "CMF",
+      "shirt": 6
+    },
+    {
+      "team": "Juventus",
+      "missing": "Claudio Marchisio",
+      "replacement": "Paul Pogba",
+      "player_id": 105553384746975,
+      "role": "CMF",
+      "shirt": 8
+    },
+    {
+      "team": "Juventus",
+      "missing": "Gonzalo Higuaín",
+      "replacement": "Filippo Inzaghi",
+      "player_id": 88033407929796,
+      "role": "CF",
+      "shirt": 9
+    },
+    {
+      "team": "Juventus",
+      "missing": "Mario Mandžukić",
+      "replacement": "Kenan Yıldız",
+      "player_id": 105850542916637,
+      "role": "LWF",
+      "shirt": 17
+    },
+    {
+      "team": "Juventus",
+      "missing": "Andrea Barzagli",
+      "replacement": "Bremer",
+      "player_id": 105628278308769,
+      "role": "CB",
+      "shirt": 15
+    },
+    {
+      "team": "Juventus",
+      "missing": "Kwadwo Asamoah",
+      "replacement": "Adrien Rabiot",
+      "player_id": 105555532232651,
+      "role": "CMF",
+      "shirt": 22
+    },
+    {
+      "team": "Juventus",
+      "missing": "Stephan Lichtsteiner",
+      "replacement": "Lilian Thuram",
+      "player_id": 88031797320416,
+      "role": "RB",
+      "shirt": 26
+    },
+    {
+      "team": "Liverpool FC",
+      "missing": "Glen Johnson",
+      "replacement": "T. Alexander-Arnold",
+      "player_id": 88030991989501,
+      "role": "RB",
+      "shirt": 2
+    },
+    {
+      "team": "Liverpool FC",
+      "missing": "Martin Škrtel",
+      "replacement": "Ronald Araújo",
+      "player_id": 105557679801792,
+      "role": "CB",
+      "shirt": 37
+    },
+    {
+      "team": "Liverpool FC",
+      "missing": "Mamadou Sakho",
+      "replacement": "Virgil van Dijk",
+      "player_id": 105622104223528,
+      "role": "CB",
+      "shirt": 17
+    },
+    {
+      "team": "Liverpool FC",
+      "missing": "Lucas Leiva",
+      "replacement": "Fabinho",
+      "player_id": 105576201779319,
+      "role": "DMF",
+      "shirt": 21
+    },
+    {
+      "team": "Liverpool FC",
+      "missing": "Daniel Sturridge",
+      "replacement": "Diogo Jota",
+      "player_id": 105555263858377,
+      "role": "CF",
+      "shirt": 15
+    },
+    {
+      "team": "Liverpool FC",
+      "missing": "Jon Flanagan",
+      "replacement": "Jeremie Frimpong",
+      "player_id": 105749074282970,
+      "role": "RB",
+      "shirt": 38
+    },
+    {
+      "team": "Liverpool FC",
+      "missing": "Joe Allen",
+      "replacement": "Alexis Mac Allister",
+      "player_id": 105680891660095,
+      "role": "CMF",
+      "shirt": 24
+    },
+    {
+      "team": "Liverpool FC",
+      "missing": "Kolo Touré",
+      "replacement": "Ibrahima Konaté",
+      "player_id": 105640626340127,
+      "role": "CB",
+      "shirt": 4
+    },
+    {
+      "team": "Chelsea FC",
+      "missing": "John Terry",
+      "replacement": "Kalidou Koulibaly",
+      "player_id": 105570564673893,
+      "role": "CB",
+      "shirt": 26
+    },
+    {
+      "team": "Chelsea FC",
+      "missing": "Victor Moses",
+      "replacement": "Cole Palmer",
+      "player_id": 89135067044780,
+      "role": "RMF",
+      "shirt": 15
+    },
+    {
+      "team": "Chelsea FC",
+      "missing": "Cesc Fàbregas",
+      "replacement": "Frank Lampard",
+      "player_id": 88030455139804,
+      "role": "CMF",
+      "shirt": 4
+    },
+    {
+      "team": "AS Roma",
+      "missing": "Bruno Peres",
+      "replacement": "Rick Karsdorp",
+      "player_id": 70376797344256,
+      "role": "RB",
+      "shirt": 25
+    },
+    {
+      "team": "AS Roma",
+      "missing": "Kostas Manolas",
+      "replacement": "Aldair",
+      "player_id": 17593796795120,
+      "role": "CB",
+      "shirt": 44
+    },
+    {
+      "team": "AS Roma",
+      "missing": "Federico Fazio",
+      "replacement": "Chris Smalling",
+      "player_id": 89131845721409,
+      "role": "CB",
+      "shirt": 20
+    },
+    {
+      "team": "AS Roma",
+      "missing": "Aleksandar Kolarov",
+      "replacement": "Vincent Candela",
+      "player_id": 17593796658038,
+      "role": "LB",
+      "shirt": 11
+    },
+    {
+      "team": "AS Roma",
+      "missing": "Kevin Strootman",
+      "replacement": "Manu Koné",
+      "player_id": 105874433635666,
+      "role": "CMF",
+      "shirt": 6
+    },
+    {
+      "team": "AS Roma",
+      "missing": "Radja Nainggolan",
+      "replacement": "Nakata Hidetoshi",
+      "player_id": 17592186179031,
+      "role": "AMF",
+      "shirt": 4
+    },
+    {
+      "team": "AS Roma",
+      "missing": "Diego Perotti",
+      "replacement": "Wesley",
+      "player_id": 105759811699640,
+      "role": "LWF",
+      "shirt": 8
+    },
+    {
+      "team": "AS Roma",
+      "missing": "Maxime Gonalons",
+      "replacement": "Bryan Cristante",
+      "player_id": 70376797304864,
+      "role": "DMF",
+      "shirt": 21
+    },
+    {
+      "team": "Inter Milan",
+      "missing": "Walter Samuel",
+      "replacement": "Alessandro Bastoni",
+      "player_id": 105561169444838,
+      "role": "CB",
+      "shirt": 25
+    }
+  ]
+}

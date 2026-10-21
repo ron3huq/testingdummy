@@ -1,0 +1,38 @@
+{
+  "status": "ARM64_COMPONENT_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "synthetic_database": true,
+  "native_roster_counts": {
+    "108": 30,
+    "114": 24,
+    "127": 22,
+    "45": 27,
+    "116": 32,
+    "18961": 31,
+    "5317": 15,
+    "1222": 11,
+    "1220": 11,
+    "1986": 14,
+    "1219": 16,
+    "132": 15,
+    "131": 16,
+    "2365": 16,
+    "1987": 14,
+    "1221": 16,
+    "2621": 16,
+    "1985": 15
+  },
+  "classic_profiles": 172,
+  "checks": [
+    "original full64 player resolver / lower_bound / XOR decode; complete card IDs never truncated",
+    "all18 roster preflights, shirt getters and exact typed player entries",
+    "all12 classic formations4 variants through original role/coordinate getters; valid lineup order",
+    "all classic NPCs neutral OVR<=89 at every13 positions and no Marseille Turn",
+    "classic targets stable through repeated lookups, no progressive stat reduction",
+    "base, exact cards and all220 relative policies; global power boost/conditional Dipping Shot; original147 getter/setter",
+    "adjacent native bytes preserved including short-name +4e boundary",
+    "verified80-byte uniform block matches PSG/City/Liverpool donors",
+    "player hook via real atomic detour/trampoline including full64 Messi",
+    "missing player blocks roster writes"
+  ]
+}

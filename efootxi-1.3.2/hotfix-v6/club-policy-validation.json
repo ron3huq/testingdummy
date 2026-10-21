@@ -1,0 +1,29 @@
+{
+  "status": "CLUB_POLICY_V6_PASS",
+  "device_tested": false,
+  "boundary_checks": 24,
+  "monte_carlo_matches": 80000,
+  "distributions": {
+    "top1_top2": {
+      "win": 0.6993,
+      "draw": 0.19955,
+      "loss": 0.10115
+    },
+    "top1_bottom": {
+      "win": 0.901,
+      "draw": 0.0699,
+      "loss": 0.0291
+    },
+    "top2_bottom": {
+      "win": 0.9507,
+      "draw": 0.0404,
+      "loss": 0.0089
+    },
+    "clasico": {
+      "win": 0.37855,
+      "draw": 0.24445,
+      "loss": 0.377
+    }
+  },
+  "limits": "CPU results only. No minute events exist, so late goals/pressing are not fabricated. Played results remain unchanged."
+}

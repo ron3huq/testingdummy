@@ -9,20 +9,30 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
-## Native hotfix v5 — Asia-Pacific8 đội ở Danish; tên/logo và cầu thủ
+## Native hotfix v6 — Super League thực tế, Scottish cổ điển, luật cầu thủ
 
-**V5 mới kiểm tra thành phần ARM64/gateway, chưa thử trên điện thoại.** Nền v4.1 đã được người dùng xác nhận Bayern vào trận bình thường.
+**V6 đã kiểm tra thành phần ARM64/gateway, chưa thử trên điện thoại.** Có12 đội Scottish cổ điển,175 vị trí dùng172 ID thật,47 chỗ thay tạm theo lựa chọn của người dùng. Không đổi tên/face người thay để giả thành người còn thiếu.
 
-- [Tải ZIP v5](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v5/efootxi-1.3.2-native-hotfix-v5.zip)
-- [Hướng dẫn MT Manager, thay đổi và phần chưa áp dụng](efootxi-1.3.2/hotfix-v5/HUONG_DAN.md)
-- [Cấu hình](efootxi-1.3.2/hotfix-v5/myleague_custom.json) · [Trạng thái](efootxi-1.3.2/hotfix-v5/RELEASE_STATUS.json)
-- [Lịch21 vòng/84 trận và gateway8 đội](efootxi-1.3.2/hotfix-v5/asia-pacific-validation.json) · [Native cầu thủ/tên/roster](efootxi-1.3.2/hotfix-v5/native-validation.json) · [Tên và nhánh logo](efootxi-1.3.2/hotfix-v5/presentation-validation.json)
+- [Tải ZIP v6](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v6/efootxi-1.3.2-native-hotfix-v6.zip)
+- [Hướng dẫn MT Manager và giới hạn](efootxi-1.3.2/hotfix-v6/HUONG_DAN.md)
+- [Toàn bộ đội hình, số áo, ID và người thay](efootxi-1.3.2/hotfix-v6/DOI_HINH_CO_DIEN.md) · [47 chỗ thay JSON](efootxi-1.3.2/hotfix-v6/classic-replacements.json)
+- [Cấu hình](efootxi-1.3.2/hotfix-v6/myleague_custom.json) · [Trạng thái](efootxi-1.3.2/hotfix-v6/RELEASE_STATUS.json)
+- [Native18 roster/formation/OVR](efootxi-1.3.2/hotfix-v6/native-validation.json) · [Gateway12 CLB](efootxi-1.3.2/hotfix-v6/classic-gateway-validation.json) · [80.000 trận CPU](efootxi-1.3.2/hotfix-v6/club-policy-validation.json)
 
-Yêu cầu cuối: **bỏ Asia-Pacific18 đội ở Eredivisie**, khôi phục18 CLB Hà Lan; **Danish549 trở thành Asia-Pacific League** gồm Al Nassr/NSR, Inter Miami/MIA, Al Hilal/HIL, Santos/SAN, Los Angeles FC/LAFC, Vissel Kobe/VIS, Gamba Osaka/GAM, Flamengo/FLA. Đá3 lượt,21 vòng,84 trận; giữ LAFC4 chữ theo xác nhận. Top1 Nassr/Hilal, Top2 Miami/Santos.
+Nhóm1 thắng nhóm2 khoảng70%, riêng El Clasico cân bằng; nhóm1 gặp nhóm cuối90%. Tỷ số bóng đá được giới hạn hợp lý, không còn7–4/4–2 trong mô phỏng giải122. Giữ85% trước nhóm3 và95% cho nhóm2 trước nhóm4 từ cấu hình cũ. Roma/Dortmund và Gala/Napoli có khác biệt sân nhà/khách. Không sửa kết quả đã chốt hay trận người dùng đá; giao thức chưa có phút ghi bàn CPU, không giả sự kiện MU thủng lưới phút cuối.
 
-Đổi tên9 CLB, bốn giải và dùng nhánh logo UEFA/CONMEBOL/AFC/CONCACAF của engine; Ligue1 thay Lyon181 bằng Dortmund126/BVB. Bayern giữ22 cầu thủ đã hợp lệ, xoay Olise phải/Díaz trái/Musiala giữa. Cập nhật Akliouche/Doué và các Base/nhóm Momentum, hậu vệ +4, tiền vệ dưới84 +6, không cộng dồn; giữ kết quả/lịch mùa đã lưu và tỷ lệ CPU85/95 trước đây. **Power Tackle chưa gán vì chưa xác minh mã riêng**; Long-Reach Tackle của Nuno đã có. Tóc/áo dài cũ vẫn chưa áp dụng.
+Sửa Fabián Ruiz105820209653455: Acceleration88, Speed88, Tackling90, Defensive Awareness90. Kicking Power>84 được+7 (trần packed127), không cộng lặp; tiền vệ/tiền đạo thiếu cả Low Screamer lẫn Blitz Curler được Dipping Shot. Bayern127: Kane9, Díaz14, Olise17, Musiala10.
 
-Cài đủ sáu file trong ZIP vào `files/embedded-gateway/work/tools`, buộc dừng mở lại. Tạo mùa mới qua đổi/chọn đội của game để nhận danh sách mới; không xóa save/DB hoặc thay dt200. Kiểm tra version `native-hotfix-v5`, `presentation_error:null`, Bayern `127:1`; trạng thái hook chưa chứng minh logo/render/trận thực đã đạt.
+Scottish518 dùng12 CLB cổ điển, giữ lịch22 vòng của gói. Hồ sơ NPC cổ điển bỏ Marseille Turn, cân bằng **OVR nền≤89** ở13 vị trí; giữ dữ liệu/serial thẻ sở hữu. Messi chỉ định có Blitz Curler/Momentum; thêm kỹ năng theo vai và đã xác minh Attack Trigger128. PSG/City/Liverpool cổ điển alias logo/kit gốc. Boost HLV và render/trận thực vẫn cần xác nhận trên thiết bị. Không thay dt200/CPK/APK/save.
+
+Cài đủ sáu file vào `files/embedded-gateway/work/tools`, buộc dừng mở lại. Kiểm tra `native-hotfix-v6`, `presentation_error:null`, rồi thử trận Bayern127 và Scottish. `native_last_player_full_id` mới giúp báo đúng lỗi thẻ64 bit. Giữ Asia-Pacific8 đội ở Danish549; Eredivisie125 là giải Hà Lan gốc. Tóc/áo dài và Power Tackle từ yêu cầu cũ vẫn chưa áp dụng.
+
+## Native hotfix v5 — bản trước
+
+Gói trước có Asia-Pacific8 đội/Danish, tên/logo và cầu thủ, chưa có12 đội Scottish cổ điển hay logic mới của v6.
+
+- [Tải lại ZIP v5](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v5/efootxi-1.3.2-native-hotfix-v5.zip)
+- [Hướng dẫn lịch sử v5](efootxi-1.3.2/hotfix-v5/HUONG_DAN.md)
 
 ## Native hotfix v4.1 — nền đã được người dùng xác nhận Bayern hoạt động
 

@@ -1,0 +1,94 @@
+{
+  "version": "native-hotfix-v6",
+  "status": "COMPONENT_AND_GATEWAY_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "baseline_bayern127_user_confirmed_on_v4_1": true,
+  "classic_teams": 12,
+  "classic_slots": 175,
+  "temporary_substitutions": 47,
+  "classic_unique_ids": 172,
+  "neutral_npc_ovr_cap": 89,
+  "own_database_rewritten": false,
+  "player_rules": {
+    "kicking_power": {
+      "above": 84,
+      "add": 7,
+      "cap": 127
+    },
+    "dipping_shot": {
+      "positions": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "absent_flags": [
+        127,
+        120
+      ],
+      "absent_learned_ids": [
+        24,
+        18
+      ],
+      "add_flag": 103
+    },
+    "idempotence": "Python projects fresh DB parameters per request (different serial/training preserved); native caches absolute target after individual overrides once per exact64 ID"
+  },
+  "club_outcomes": {
+    "competition_id": 122,
+    "top_tiers": [
+      0,
+      1
+    ],
+    "vs_group3": {
+      "opponent_tiers": [
+        2
+      ],
+      "win": 0.85,
+      "draw": 0.1,
+      "loss": 0.05
+    },
+    "vs_group4": {
+      "opponent_tiers": [
+        3,
+        4
+      ],
+      "win": 0.95,
+      "draw": 0.04,
+      "loss": 0.01
+    },
+    "same_top_groups": "existing form/home/strength model",
+    "membership": "Dortmund126 replaces Lyon181",
+    "top1_vs_top2": {
+      "win": 0.7,
+      "draw": 0.2,
+      "loss": 0.1,
+      "except_pairs": [
+        [
+          108,
+          109
+        ]
+      ]
+    },
+    "top1_vs_group4": {
+      "win": 0.9,
+      "draw": 0.07,
+      "loss": 0.03
+    },
+    "unchanged_top2_vs_group4": "retained preceding95% rule; new90% explicitly applies group1",
+    "scorelines": "bounded weighted football scorelines; top clashes max3 goals winner/1 loser, others max4/1; simulated results only",
+    "venue_bias": "Roma/Dortmund/Gala/Napoli: +4pt win chance vs top on home ground and -4pt away; average requested rate retained",
+    "minutes": "Current CPU result/rank protocol has no goal-minute events; no claim of late goal simulation"
+  },
+  "limits": [
+    "New full64 classic NPC rosters/asset paths need phone validation",
+    "OVR cap is neutral base calculation; manager/conditional effects untested",
+    "No CPU goal-minute field; late-conceded events not implemented",
+    "Power Tackle, old hair/sleeve edits remain unverified/unapplied"
+  ]
+}
