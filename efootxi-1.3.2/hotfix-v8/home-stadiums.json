@@ -1,0 +1,382 @@
+{
+  "5": {
+    "name": "5",
+    "stadium_id": 7,
+    "code": "st007"
+  },
+  "6": {
+    "name": "6",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "7": {
+    "name": "7",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "8": {
+    "name": "8",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "9": {
+    "name": "9",
+    "stadium_id": 7,
+    "code": "st007"
+  },
+  "10": {
+    "name": "10",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "12": {
+    "name": "12",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "14": {
+    "name": "14",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "16": {
+    "name": "16",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "17": {
+    "name": "17",
+    "stadium_id": 7,
+    "code": "st007"
+  },
+  "24": {
+    "name": "24",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "32": {
+    "name": "32",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "38": {
+    "name": "38",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "39": {
+    "name": "39",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "40": {
+    "name": "40",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "44": {
+    "name": "44",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "45": {
+    "name": "45",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "49": {
+    "name": "49",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "50": {
+    "name": "50",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "52": {
+    "name": "52",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "53": {
+    "name": "53",
+    "stadium_id": 7,
+    "code": "st007"
+  },
+  "54": {
+    "name": "54",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "55": {
+    "name": "55",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "56": {
+    "name": "56",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "57": {
+    "name": "57",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "100": {
+    "name": "100",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "101": {
+    "name": "Arsenal",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "102": {
+    "name": "Chelsea",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "103": {
+    "name": "103",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "108": {
+    "name": "Barcelona",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "109": {
+    "name": "Real Madrid",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "114": {
+    "name": "114",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "119": {
+    "name": "119",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "120": {
+    "name": "Juventus",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "121": {
+    "name": "121",
+    "stadium_id": 7,
+    "code": "st007"
+  },
+  "125": {
+    "name": "125",
+    "stadium_id": 7,
+    "code": "st007"
+  },
+  "126": {
+    "name": "Borussia Dortmund",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "127": {
+    "name": "Bayern Munich",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "130": {
+    "name": "130",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "131": {
+    "name": "Manchester City",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "132": {
+    "name": "Manchester United",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "157": {
+    "name": "Gamba Osaka",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "158": {
+    "name": "Vissel Kobe",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "172": {
+    "name": "Atletico Madrid",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "173": {
+    "name": "Manchester City",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "179": {
+    "name": "Tottenham",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "327": {
+    "name": "327",
+    "stadium_id": 7,
+    "code": "st007"
+  },
+  "1010": {
+    "name": "1010",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "1011": {
+    "name": "1011",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "1012": {
+    "name": "1012",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "1026": {
+    "name": "1026",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "1031": {
+    "name": "1031",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "1032": {
+    "name": "1032",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "1174": {
+    "name": "1174",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "1184": {
+    "name": "1184",
+    "stadium_id": 7,
+    "code": "st007"
+  },
+  "1219": {
+    "name": "Atletico Madrid",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "1220": {
+    "name": "Real Madrid",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "1221": {
+    "name": "Chelsea",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "1222": {
+    "name": "FC Barcelona",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "1248": {
+    "name": "Flamengo",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "1254": {
+    "name": "Santos",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "1985": {
+    "name": "Tottenham",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "1986": {
+    "name": "PSG",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "1987": {
+    "name": "Liverpool",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "2365": {
+    "name": "Juventus",
+    "stadium_id": 52,
+    "code": "st052"
+  },
+  "2621": {
+    "name": "AS Roma",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "5317": {
+    "name": "Bayern Munich",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "5738": {
+    "name": "Inter Miami",
+    "stadium_id": 30,
+    "code": "st030"
+  },
+  "5741": {
+    "name": "Los Angeles FC",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "5748": {
+    "name": "5748",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "5750": {
+    "name": "5750",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "5752": {
+    "name": "5752",
+    "stadium_id": 51,
+    "code": "st051"
+  },
+  "5759": {
+    "name": "5759",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "5763": {
+    "name": "5763",
+    "stadium_id": 1,
+    "code": "st001"
+  },
+  "17873": {
+    "name": "Al Hilal",
+    "stadium_id": 85,
+    "code": "st085"
+  },
+  "18961": {
+    "name": "Al Nassr",
+    "stadium_id": 51,
+    "code": "st051"
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "container": "/workspace/analysis/my-league/android/pc0000-content/PesMobile/Content/Paks/assets/pc0101_mobile_and.utoc",
+    "assets": [
+      "Uniform/LowTextures/T_u0114p2_Uni_D.uasset",
+      "Uniform/LowTextures/T_u0114p1_Uni_D.uasset",
+      "Uniform/LowTextures/T_u0114g1_Uni_D.uasset",
+      "Uniform/LowTextures/T_u0101p3_Uni_D.uasset",
+      "Uniform/LowTextures/T_u0101p2_Uni_D.uasset",
+      "Uniform/LowTextures/T_u0101p1_Uni_D.uasset",
+      "Uniform/LowTextures/T_u0101g1_Uni_D.uasset"
+    ]
+  },
+  {
+    "container": "/workspace/testingdummy/ziru-extra/livedata/pc9242_mobile_and.utoc",
+    "assets": [
+      "character/Uniform/LowTextures/T_u0101p2_Uni_D.uasset",
+      "character/Uniform/LowTextures/T_u0101g1_Uni_D.uasset",
+      "character/Uniform/LowTextures/T_u0101p1_Uni_D.uasset"
+    ]
+  },
+  {
+    "container": "/workspace/testingdummy/ziru-extra/livedata/pc9242_mobile_ios.utoc",
+    "assets": [
+      "character/Uniform/LowTextures/T_u0101p2_Uni_D.uasset",
+      "character/Uniform/LowTextures/T_u0101g1_Uni_D.uasset",
+      "character/Uniform/LowTextures/T_u0101p1_Uni_D.uasset"
+    ]
+  },
+  {
+    "container": "/workspace/testingdummy/ziru-extra/livedata/pc9252_mobile_and.utoc",
+    "assets": [
+      "Assets/character/Uniform/LowTextures/T_u0101p2_Uni_D.uasset"
+    ]
+  },
+  {
+    "container": "/workspace/testingdummy/ziru-extra/livedata/pc9252_mobile_ios.utoc",
+    "assets": [
+      "Assets/character/Uniform/LowTextures/T_u0101p2_Uni_D.uasset"
+    ]
+  },
+  {
+    "container": "/workspace/testingdummy/ziru-extra/livedata/pc9254_mobile_and.utoc",
+    "assets": [
+      "character/Uniform/LowTextures/T_u0114p2_Uni_D.uasset",
+      "character/Uniform/LowTextures/T_u0114p1_Uni_D.uasset",
+      "character/Uniform/LowTextures/T_u0114g1_Uni_D.uasset"
+    ]
+  },
+  {
+    "container": "/workspace/testingdummy/ziru-extra/livedata/pc9254_mobile_ios.utoc",
+    "assets": [
+      "character/Uniform/LowTextures/T_u0114p2_Uni_D.uasset",
+      "character/Uniform/LowTextures/T_u0114p1_Uni_D.uasset",
+      "character/Uniform/LowTextures/T_u0114g1_Uni_D.uasset"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "status": "ASIA_PACIFIC_GATEWAY_PASS",
+  "device_tested": false,
+  "native_readiness_stubbed": true,
+  "teams": {
+    "18961": {
+      "name": "Al Nassr",
+      "short": "NSR"
+    },
+    "5738": {
+      "name": "Inter Miami",
+      "short": "MIA"
+    },
+    "17873": {
+      "name": "Al Hilal",
+      "short": "HIL"
+    },
+    "1254": {
+      "name": "Santos",
+      "short": "SAN"
+    },
+    "5741": {
+      "name": "Los Angeles FC",
+      "short": "LAFC"
+    },
+    "158": {
+      "name": "Vissel Kobe",
+      "short": "VIS"
+    },
+    "157": {
+      "name": "Gamba Osaka",
+      "short": "GAM"
+    },
+    "1248": {
+      "name": "Flamengo",
+      "short": "FLA"
+    }
+  },
+  "rounds": 21,
+  "matches": 84,
+  "games_per_team": 21,
+  "home_games": [
+    10,
+    11
+  ],
+  "sample_top_win_rates": {
+    "top2": 0.6261666666666666,
+    "remaining": 0.7918333333333333
+  },
+  "checks": [
+    "all8 clubs select/resume/prepare first and last round in actual gateway",
+    "persistent random draw: every unordered pair3, one match per team per round",
+    "all21 CPU ranking receipts: goal conservation, roster IDs only, no goalkeepers",
+    "Eredivisie125 restored; Asia-Pacific name/logo moved to549",
+    "source DB and inventory preserved; no game save packaged"
+  ]
+}

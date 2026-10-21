@@ -1,0 +1,13 @@
+{
+  "status": "REAL_CARD_HANDLERS_PASS",
+  "device_tested": false,
+  "cards": 20,
+  "checks": [
+    "real GateLogic detail original/current parameters",
+    "real bulk LOGIN serialization",
+    "real home-entry learned-skill overlay then final START projection",
+    "full64 Card IDs and exact serials preserved",
+    "removed learned skills leave74 in original slot, other slots unchanged",
+    "source DB unchanged; fixture writes only in disposable copy"
+  ]
+}

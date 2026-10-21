@@ -9,6 +9,23 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Native hotfix v8 — Scottish: đội hình, OVR, kit và sân nhà
+
+- [Tải ZIP v8 — chép đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v8/efootxi-1.3.2-native-hotfix-v8.zip)
+- [Hướng dẫn MT Manager và các giới hạn](efootxi-1.3.2/hotfix-v8/HUONG_DAN.md)
+- [Đội hình, số áo, ID, vai trò và OVR từng cầu thủ](efootxi-1.3.2/hotfix-v8/DOI_HINH_CO_DIEN.md)
+- [Phân bổ sân nhà của 76 đội](efootxi-1.3.2/hotfix-v8/home-stadiums.json)
+- [Trạng thái và phần chưa hoàn thành](efootxi-1.3.2/hotfix-v8/RELEASE_STATUS.json)
+- [Kiểm tra accessor bản sao Team qua detour thật](efootxi-1.3.2/hotfix-v8/cached-detours-validation.json) · [Kiểm tra chọn sân và con trỏ this](efootxi-1.3.2/hotfix-v8/stage-detours-validation.json)
+
+V8 sửa cả DBTeam lẫn bản sao Team dùng khi chuẩn bị trận, gán lại vị trí/captain/người đá bóng chết/số áo, bỏ năm trong tên Scottish, thay người theo yêu cầu. Cầu thủ Scottish thông thạo mọi vị trí ngoài sân. OVR nền mặc định 90, ngôi sao 92–94, Ronaldo 96/Messi 97; bộ chỉ số 90+ và các kỹ năng đặc biệt được gán theo cấu hình. Giữ kết quả cũ và quy tắc các giải khác.
+
+Kit được sửa ở bản sao dữ liệu, uniform ID và bộ phân giải tài nguyên 3D. **Trong các container hiện có, tìm thấy texture Barça/PSG nhưng chưa tìm thấy texture Man City/Tottenham/Atlético.** Chưa thể cam kết áo chuẩn của ba đội nếu máy cũng thiếu các gói tương ứng. V8 không tự tạo hoặc nhập texture áo mới.
+
+Năm giải dùng sân nhà được phân bổ từ st001/007/030/051/052/085. Selector My League đã chuẩn bị không trả sân 100. Gateway chỉ ghi setter nguyên tử; member hook do game gọi giữ nguyên this ở đường gốc, tránh lỗi v7. Cấu hình ngày/đêm và hè/đông theo vòng; vòng 8–14 là mùa đông. **Mưa và tuyết chưa bật vì các bản ghi sân được cung cấp báo khả năng bằng 0.** Tài nguyên sân và hiệu ứng thực tế cần kiểm tra trên điện thoại.
+
+Buộc dừng app, sao lưu rồi chép đủ 7 file vào `files/embedded-gateway/work/tools/`; mở lại kiểm tra `native-hotfix-v8`. Không thay dt200/CPK/APK/DB hoặc xóa save. Đã qua kiểm tra ARM64/gateway; chưa thử vào trận/render trên thiết bị Android. V7.1 bên dưới là bản quay lại nếu cần.
+
 ## Native hotfix v7.1 — sửa văng ngay khi mở My League
 
 - [Tải ZIP v7.1](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v7.1/efootxi-1.3.2-native-hotfix-v7.1.zip)

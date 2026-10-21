@@ -1,0 +1,23 @@
+{
+  "status": "STAGE_MEMBER_DETOUR_PASS",
+  "device_tested": false,
+  "active_selector_cases": 60,
+  "allowed_ids": [
+    1,
+    7,
+    30,
+    51,
+    52,
+    85
+  ],
+  "default100_returned": false,
+  "gateway_engine_calls": false,
+  "original_this_preserved_on_fallback": true,
+  "fallback_delegate": "real3033e64 member accessor; full selector and renderer not executed",
+  "checks": [
+    "actual atomic B detours reach compiled wrappers",
+    "five competitions and six stadiums use assigned ID",
+    "context0 forwards original X0this to real accessor",
+    "no no-argument engine stage query"
+  ]
+}
