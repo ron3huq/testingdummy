@@ -9,6 +9,22 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Native hotfix v9 — phục hồi thông thạo vị trí gốc, đội hình và tên giải
+
+- [Tải ZIP v9 — cài đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v9/efootxi-1.3.2-native-hotfix-v9.zip)
+- [Hướng dẫn MT Manager](efootxi-1.3.2/hotfix-v9/HUONG_DAN.md)
+- [Đội trưởng, penalty, vị trí và số áo từng cầu thủ](efootxi-1.3.2/hotfix-v9/DOI_HINH_CO_DIEN.md)
+- [Trạng thái và giới hạn](efootxi-1.3.2/hotfix-v9/RELEASE_STATUS.json)
+- [Kiểm tra các đường tên UI/native](efootxi-1.3.2/hotfix-v9/ui-names-validation.json) · [Hợp đồng ô vị trí theo phản hồi người dùng](efootxi-1.3.2/hotfix-v9/live-contract-validation.json) · [Thời tiết](efootxi-1.3.2/hotfix-v9/weather-validation.json)
+
+V9 gỡ tính năng thông thạo mọi vị trí, giữ nguyên các trường vị trí và độ thông thạo nguồn. Thứ tự roster được đảo cùng formation và các tham chiếu theo ID, dựa trên các ô sai mà người dùng báo: Real, Barça, Bayern, City, Liverpool, PSG, Tottenham. Ederson bắt chính cho City. Đội trưởng và penalty của đủ 12 đội được gán theo danh sách mới; số áo được kiểm tra không trùng. Đội retro pha trộn vẫn có các ngoại lệ số áo lịch sử đã ghi trong hướng dẫn.
+
+Tên mới: **Y17 Champion League**, **Asia-Pacific League**, **Uefa Champion League**, **World Nation League**, **AFC Nation League**. Ngoài đường tên thường, bản này sửa ba đường AllCaps và trường tên trong native competition record để bao phủ cách giao diện My League đọc tên.
+
+Sân nhà 76 đội vẫn lấy từ st001/007/030/051/052/085; selector My League đã chuẩn bị không trả sân 100. Cấu hình xoay qua ngày/quang, ngày/mưa, đêm/mưa, đêm/quang; bật đúng cờ native cho phép mưa và ban đêm trên sáu sân này. **Đã kiểm tra cấu hình và native accessor; chưa xác nhận hiệu ứng mưa/ánh sáng hay giao diện trên điện thoại.** Tuyết vẫn tắt; giữ mùa đông vòng 8–14.
+
+Buộc dừng app, sao lưu rồi chép đủ 7 file vào `files/embedded-gateway/work/tools/`, mở lại và kiểm tra `native-hotfix-v9`. Không thay dt200/CPK/APK/DB hoặc xóa save. Các báo cáo ghi rõ phần giả lập/stub. Giới hạn texture áo còn thiếu từ bản v8 được giữ nguyên.
+
 ## Native hotfix v8 — Scottish: đội hình, OVR, kit và sân nhà
 
 - [Tải ZIP v8 — chép đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v8/efootxi-1.3.2-native-hotfix-v8.zip)

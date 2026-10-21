@@ -1,0 +1,29 @@
+{
+  "status": "CLASSIC_GATEWAY_PASS",
+  "device_tested": false,
+  "native_readiness_stubbed": true,
+  "teams": [
+    "Bayern Munich",
+    "FC Barcelona",
+    "Real Madrid",
+    "Atletico Madrid",
+    "Tottenham",
+    "Liverpool",
+    "PSG",
+    "Chelsea",
+    "Manchester United",
+    "Manchester City",
+    "Juventus",
+    "AS Roma"
+  ],
+  "slots": 186,
+  "source_round_count": 22,
+  "era_notes": 11,
+  "checks": [
+    "all12 club selections, ranking12 teams, prepare/START with original native-only CPU payload",
+    "source Scottish fixture format retained, one match per team/round",
+    "actual GateLogic home-entry path; no pre-edited test inputs",
+    "own inventory unchanged, original DB unchanged, SQLite integrity",
+    "full64 CPU ranking events belong to selected real rosters and conserve team goals"
+  ]
+}

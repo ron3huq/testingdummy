@@ -1,0 +1,170 @@
+{
+  "status": "LIVE_SLOT_AND_ROLE_CONTRACT_PASS",
+  "phone_verified": false,
+  "observed_slot_layouts": {
+    "1220": [
+      "GK",
+      "CB",
+      "CB",
+      "RB",
+      "LB",
+      "DMF",
+      "CMF",
+      "CMF",
+      "RWF",
+      "LWF",
+      "CF"
+    ],
+    "1222": [
+      "GK",
+      "CB",
+      "CB",
+      "RB",
+      "LB",
+      "DMF",
+      "CMF",
+      "CMF",
+      "RWF",
+      "LWF",
+      "CF"
+    ],
+    "5317": [
+      "GK",
+      "CB",
+      "CB",
+      "RB",
+      "LB",
+      "DMF",
+      "CMF",
+      "AMF",
+      "RWF",
+      "LWF",
+      "CF"
+    ],
+    "131": [
+      "GK",
+      "CB",
+      "CB",
+      "RB",
+      "LB",
+      "DMF",
+      "CMF",
+      "RMF",
+      "LWF",
+      "AMF",
+      "CF"
+    ],
+    "1987": [
+      "GK",
+      "CB",
+      "CB",
+      "RB",
+      "LB",
+      "DMF",
+      "CMF",
+      "CF",
+      "LMF",
+      "AMF",
+      "RMF"
+    ],
+    "1986": [
+      "GK",
+      "CB",
+      "CB",
+      "RB",
+      "LB",
+      "CMF",
+      "CMF",
+      "AMF",
+      "RWF",
+      "LWF",
+      "CF"
+    ],
+    "1985": [
+      "GK",
+      "CB",
+      "CB",
+      "CB",
+      "LMF",
+      "DMF",
+      "CMF",
+      "RMF",
+      "LWF",
+      "AMF",
+      "CF"
+    ]
+  },
+  "roles": [
+    {
+      "team": "Atletico Madrid",
+      "captain": "Antoine Griezmann",
+      "penalty": "Antoine Griezmann"
+    },
+    {
+      "team": "Real Madrid",
+      "captain": "Sergio Ramos",
+      "penalty": "Cristiano Ronaldo"
+    },
+    {
+      "team": "AS Roma",
+      "captain": "Francesco Totti",
+      "penalty": "Francesco Totti"
+    },
+    {
+      "team": "Juventus",
+      "captain": "Giorgio Chiellini",
+      "penalty": "Paulo Dybala"
+    },
+    {
+      "team": "Bayern Munich",
+      "captain": "Manuel Neuer",
+      "penalty": "Robert Lewandowski"
+    },
+    {
+      "team": "Chelsea",
+      "captain": "Eden Hazard",
+      "penalty": "Eden Hazard"
+    },
+    {
+      "team": "FC Barcelona",
+      "captain": "Lionel Messi",
+      "penalty": "Lionel Messi"
+    },
+    {
+      "team": "Manchester City",
+      "captain": "Vincent Kompany",
+      "penalty": "Sergio Ag\u00fcero"
+    },
+    {
+      "team": "Manchester United",
+      "captain": "Wayne Rooney",
+      "penalty": "Wayne Rooney"
+    },
+    {
+      "team": "Liverpool",
+      "captain": "Virgil van Dijk",
+      "penalty": "Mohamed Salah"
+    },
+    {
+      "team": "PSG",
+      "captain": "Marquinhos",
+      "penalty": "Zlatan Ibrahimovi\u0107"
+    },
+    {
+      "team": "Tottenham",
+      "captain": "Harry Kane",
+      "penalty": "Harry Kane"
+    }
+  ],
+  "shirt_numbers_unique_per_team": true,
+  "ederson_starts": true,
+  "all_position_proficiency_disabled": true,
+  "checks": [
+    "configured roster order now matches reported native slot layout; identity/formation references changed together",
+    "captain and penalty identity checks independent of generated index values",
+    "keeper Ederson starts, Bravo remains bench",
+    "source position/proficiency retained; no global all-position flag",
+    "hash verification cache invalidates when file metadata changes"
+  ],
+  "limits": "Live observed layout is used as the contract; final Android formation UI and any later automatic substitutions still need device verification"
+}

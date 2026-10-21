@@ -1,0 +1,26 @@
+{
+  "status": "MY_LEAGUE_NAME_PATHS_PASS",
+  "phone_verified": false,
+  "db_lookup_stubbed": true,
+  "ui_name_checks": 55,
+  "exact_names": {
+    "518": "Y17 Champion League",
+    "549": "Asia-Pacific League",
+    "122": "Uefa Champion League",
+    "128": "World Nation League",
+    "566": "AFC Nation League"
+  },
+  "original_blueprint_call_edges": {
+    "0x40d670c": "0x389b7c4",
+    "0x40d64f4": "0x389bbd4",
+    "0x40d63e8": "0x389bddc"
+  },
+  "checks": [
+    "three actual AllCaps detours use FString*outX0 and cidW1, not ordinary-name X8 ABI",
+    "all five names survive repeated writes into reused FString storage",
+    "unknown league returns original result",
+    "native competition lookup patches only matchingID name bytes, original8244254 reads name+2",
+    "competition IDs and every byte after name terminator retained"
+  ],
+  "limits": "Full Android UI/render not executed"
+}

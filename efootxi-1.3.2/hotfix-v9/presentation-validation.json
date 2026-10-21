@@ -1,0 +1,28 @@
+{
+  "status": "PRESENTATION_ARM64_COMPONENT_PASS",
+  "device_tested": false,
+  "names": {
+    "122": "Uefa Champion League",
+    "566": "AFC Nation League",
+    "128": "World Nation League",
+    "549": "Asia-Pacific League",
+    "518": "Y17 Champion League"
+  },
+  "logo_region_symbols": {
+    "122": "nationalEurope",
+    "128": "nationalLatinAmerica",
+    "566": "nationalAsia",
+    "549": "nationalNorthAmerica"
+  },
+  "checks": [
+    "actual detours and original trampoline fallback",
+    "X8 FString indirect result preserved",
+    "custom name strings allocated by original engine FString reserve on synthetic heap",
+    "original ARM64 special-region selector and symbol construction reached for all4 league logos",
+    "original Eredivisie125 name/logo paths preserved",
+    "all12 classic color-helper and emblem aliases preserve X8/style; actual3D resource resolver and cached uniforms checked separately in native-validation",
+    "LAFC getter returns4 letters while native short field stays within4 bytes",
+    "unrelated IDs/styles/output pointer preserved"
+  ],
+  "limits": "Actual assets, renderer, cached textures and every UI caller remain untested on phone."
+}
