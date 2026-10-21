@@ -9,6 +9,19 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Native hotfix v10 — kết quả CPU đa dạng cho bốn giải My League
+
+- [Tải ZIP v10 — đủ7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v10/efootxi-1.3.2-native-hotfix-v10.zip)
+- [Hướng dẫn MT Manager, phân nhóm và giới hạn](efootxi-1.3.2/hotfix-v10/HUONG_DAN.md)
+- [Kết quả6.744 trận kiểm tra](efootxi-1.3.2/hotfix-v10/simulation-validation.json)
+- [Trạng thái phát hành](efootxi-1.3.2/hotfix-v10/RELEASE_STATUS.json)
+
+Ligue1 dùng7 nhóm mới; Scottish ưu tiên Real/Barça/Juventus; tuyển châu Á có xác suất đối đầu riêng của Nhật; tuyển thế giới ưu tiên Tây Ban Nha. Kết quả CPU kết hợp sân nhà, phong độ5 trận, pha phong độ theo giai đoạn và tính cách đội; bộ chọn cả vòng hạn chế tỷ số lặp và theo dõi phân bố5 vòng. Cú sốc lớn giới hạn2 trong10 vòng; đa dạng ghi bàn/kiến tạo đúng ID trong roster, không tạo cầu thủ hoặc sự kiện trận giả.
+
+Trong6 mùa Ligue1 kiểm tra: hòa22,22%, chủ nhà44,44%, khách33,33%,2,806 bàn/trận;204/204 vòng đạt quota đa dạng. Các số điểm/bàn cuối mùa là mục tiêu xấp xỉ, không cam kết cố định. Giữ12 đội/22 vòng Scottish và các đội tuyển đang có. Trận người dùng chơi, lịch cũ, kết quả/biên nhận đã lưu được bảo toàn.
+
+Buộc dừng app, sao lưu và chép đủ7 file vào `files/embedded-gateway/work/tools/`, kiểm tra `native-hotfix-v10`. Không thay dt200/APK/DB hoặc xóa save. Native binary giữ nguyên v9; báo cáo native cũ được ghi rõ baseline. **Chưa kiểm tra trên điện thoại.** Các giới hạn texture áo/sân/thời tiết từ v9 vẫn còn; bản này chỉ cập nhật mô phỏng CPU.
+
 ## Native hotfix v9 — phục hồi thông thạo vị trí gốc, đội hình và tên giải
 
 - [Tải ZIP v9 — cài đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v9/efootxi-1.3.2-native-hotfix-v9.zip)

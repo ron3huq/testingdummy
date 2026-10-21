@@ -1,0 +1,16 @@
+{
+  "status": "MY_LEAGUE_ENTRY_GATEWAY_PASS",
+  "version": "native-hotfix-v10",
+  "phone_verified": false,
+  "native_roster_readiness_stubbed": true,
+  "command_entry_cases": 224,
+  "prepare_start_cases": 56,
+  "stage_queries_fail_if_called": true,
+  "checks": [
+    "real GateLogic CMD_GET_SEASON_INFO dispatch, repeated My League entry across14 club/league selections",
+    "rounds1/8/14/15 use stable home stadiums and four weather/time combinations; original gateway entry/prepare/start do not query engine stage objects",
+    "persisted v7 snow/stadium metadata cannot reenable native queries; game IDs preserved",
+    "all tested prepare/START replies succeed, no inline CPU squad changes",
+    "source DB and owned inventory unchanged"
+  ]
+}
