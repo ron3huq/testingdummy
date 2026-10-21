@@ -1,0 +1,19 @@
+{
+  "status": "V7_ENTRY_CRASH_REPRODUCED_AND_REMOVED_PASS",
+  "old_version": "native-hotfix-v7",
+  "fixed_version": "native-hotfix-v14",
+  "actual_engine_instruction": "ldr x0,[x0,#0x28]; ret",
+  "old_faults": [
+    {
+      "pc": "0x3033e64",
+      "address": "0x28",
+      "x0": "0x0"
+    }
+  ],
+  "old_stadium_accessor_stubbed": false,
+  "old_correct_this_argument_succeeds": true,
+  "new_gateway_no_engine_stage_calls": true,
+  "member_hooks_forward_this_on_fallback": true,
+  "forced_stage_never_100": true,
+  "phone_verified": false
+}

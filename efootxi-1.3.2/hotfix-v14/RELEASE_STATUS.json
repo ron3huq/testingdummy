@@ -1,0 +1,72 @@
+{
+  "version": "native-hotfix-v14",
+  "status": "OBSERVED_DEVICE_ID_REPLAY_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "previous_device_result": {
+    "version": "native-hotfix-v13",
+    "competition": 518,
+    "build_calls": 24,
+    "build_matches": 0,
+    "shirt_calls": 0,
+    "entity_calls": 0,
+    "observed_ronaldo_id": "88044950524330",
+    "requested_original_id_present": false,
+    "appearance_sleeve_applies": 0
+  },
+  "appearance": {
+    "sleeve_copy": {
+      "target": "89138556572074",
+      "reference_source": "88041729329832",
+      "status": "EXPLICIT_OBSERVED_RONALDO_ID_BUILDER_OVERRIDE_DEVICE_UNTESTED",
+      "mode": 2,
+      "other_cards_unchanged": true,
+      "shared_base_alias_can_affect_other_ronaldo_cards": false,
+      "render_alias_ids": [],
+      "target_ids": [
+        "89138556572074",
+        "88044950524330"
+      ],
+      "observed_render_id": "88044950524330"
+    },
+    "hair_copy": {
+      "target": "88044950524330",
+      "source": "88038776539586",
+      "status": "NOT_APPLIED_MESH_TRANSPLANT_REQUIRES_SOURCE_AND_TARGET_3D_ASSETS",
+      "preserve_target_face": true
+    },
+    "ajax_logo": {
+      "target_team": 116,
+      "source_team": 181,
+      "status": "NATIVE_EMBLEM_PATH_ALIAS_DEVICE_UNTESTED"
+    }
+  },
+  "explicit_target_ids": [
+    "89138556572074",
+    "88044950524330"
+  ],
+  "render_id_alias_relationship_proven": false,
+  "shared_base_aliases_enabled": false,
+  "simulation_code_byte_identical_to": "native-hotfix-v10",
+  "v10_native_source_preserved_as_exact_prefix": true,
+  "source_tables_modified": false,
+  "source_db_modified": false,
+  "hair_transplant_applied": false,
+  "new_native_entries": [],
+  "new_status_fields": [
+    "appearance_build_matches_by_id",
+    "appearance_last_applied_id",
+    "appearance_build_after"
+  ],
+  "unresolved_roster_status": {
+    "1220": 14,
+    "1221": 14,
+    "meaning": "existing slot PlayerKey.kind low32 is not0; roster write safely skipped",
+    "guard_retained": true
+  },
+  "limits": [
+    "Android mesh/texture/render unverified",
+    "22 device-observed IDs replayed with modeled DB/resource boundaries",
+    "Roster14 requires actual slot-key data before changing its guard",
+    "Hair transplant remains unimplemented"
+  ]
+}

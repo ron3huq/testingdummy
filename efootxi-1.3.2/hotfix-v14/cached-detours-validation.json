@@ -1,0 +1,14 @@
+{
+  "status": "CACHED_TEAM_ACTUAL_DETOURS_PASS",
+  "device_tested": false,
+  "cases": 24,
+  "synthetic_exact64_database": true,
+  "checks": [
+    "original82948d0 and82948ec execute through real atomic detours/trampolines",
+    "all12 stale clubs on both fixture sides refreshed separately from DB records",
+    "original82bfb2c consumes matching member IDs, coordinates and roles",
+    "kit block and real82446d8 resource-team resolver use exact donor",
+    "same-pointer cache overwrite is detected and repaired through key lookup",
+    "context0 accessors preserve snapshots and forward original resource IDs"
+  ]
+}

@@ -9,6 +9,19 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Native hotfix v14 — sửa theo đúng ID Ronaldo đã ghi nhận
+
+- [Tải ZIP v14 — cài đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v14/efootxi-1.3.2-native-hotfix-v14-long-sleeve.zip)
+- [Hướng dẫn và các trường kiểm tra mới](efootxi-1.3.2/hotfix-v14/HUONG_DAN.md)
+- [Phân tích ID thực tế và giới hạn](efootxi-1.3.2/hotfix-v14/NGOAI_HINH.md)
+- [Kiểm tra ARM64 và phát lại22 ID từ log](efootxi-1.3.2/hotfix-v14/appearance-validation.json)
+
+Log v13 trong giải518 cho thấy builder chạy24 lần, có Ronaldo88044950524330 nhưng không có ID89138556572074. V14 bổ sung chính xác88044950524330 vào danh sách thẻ tay dài, giữ89138556572074; **không khẳng định hai ID là alias**. Sửa bản sao packed appearance và đầu ra builder vốn đã được gọi trên thiết bị. Bỏ fallback ID base4522/16781738 của v13. Không thêm điểm hook mới.
+
+Thêm appearance_build_matches_by_id, appearance_last_applied_id và appearance_build_after. Đã phát lại22 ID từ log qua native builder với DB boundary mô hình, chỉ ID Ronaldo trong danh sách nhận thay đổi; kiểm tra hai thẻ, các ID khác, bộ đếm, serializer, chọn resource và hồi quy native/cache/gateway đều qua. **Chưa kiểm chứng hình ảnh tay áo trên Android.**
+
+Mã roster14 ở Real1220/Liverpool1221 là nhánh bỏ ghi khi slot có PlayerKey.kind chưa hỗ trợ; giữ chốt kiểm tra, chưa sửa khi thiếu dữ liệu khóa slot. Giữ nguyên mô phỏng v10, đội hình, chỉ số, tóc/mặt, save và dt200. Buộc dừng game, sao lưu rồi chép đủ7 file vào files/embedded-gateway/work/tools/, vào trận mới.
+
 ## Native hotfix v13 — xử lý tay dài ngay lúc nạp áo UE
 
 - [Tải ZIP v13 — cài đủ 7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v13/efootxi-1.3.2-native-hotfix-v13-long-sleeve.zip)
