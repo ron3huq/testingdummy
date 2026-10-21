@@ -1,0 +1,74 @@
+{
+  "status": "SERVER_AND_SIMULATION_PASS_DEVICE_UNTESTED",
+  "device_tested": false,
+  "native_readiness_stubbed": true,
+  "checks": [
+    "18/18/20/18/8 membership; double round-robin plus triple Danish schedule",
+    "84 exact Base IDs and 19 exact Card IDs; requested stats/skills and Marseille removal; Long-Reach Tackle verified; Power Tackle pending",
+    "real managed-card payloads pass shared single/bulk projection for LOGIN/list/detail with exact 19 full IDs",
+    "real gateway prepare/START HOME and AWAY with native-readiness stub; unsafe saved v2 receipt quarantined; no CPU inline squad; unavailable native roster blocks launch; seed DB unchanged",
+    "15000 draws per selected pair: Asian 70% rules, equal middle peers, Japan strongest, competitive world Top4 and dominance over bottom teams"
+  ],
+  "pair_distributions": {
+    "566:5763-52": {
+      "win": 0.10226666666666667,
+      "draw": 0.20146666666666666,
+      "loss": 0.6962666666666667
+    },
+    "566:52-5763": {
+      "win": 0.6962666666666667,
+      "draw": 0.20146666666666666,
+      "loss": 0.10226666666666667
+    },
+    "566:5763-54": {
+      "win": 0.6973333333333334,
+      "draw": 0.30266666666666664,
+      "loss": 0.0
+    },
+    "566:54-5763": {
+      "win": 0.0,
+      "draw": 0.30266666666666664,
+      "loss": 0.6973333333333334
+    },
+    "566:5763-5750": {
+      "win": 0.3938,
+      "draw": 0.20246666666666666,
+      "loss": 0.40373333333333333
+    },
+    "566:52-53": {
+      "win": 0.9017333333333334,
+      "draw": 0.06873333333333333,
+      "loss": 0.029533333333333335
+    },
+    "128:7-8": {
+      "win": 0.4507333333333333,
+      "draw": 0.2338,
+      "loss": 0.3154666666666667
+    },
+    "128:8-7": {
+      "win": 0.4018,
+      "draw": 0.23766666666666666,
+      "loss": 0.3605333333333333
+    },
+    "128:8-5": {
+      "win": 0.4476,
+      "draw": 0.23326666666666668,
+      "loss": 0.3191333333333333
+    },
+    "128:7-1174": {
+      "win": 0.8986,
+      "draw": 0.08866666666666667,
+      "loss": 0.012733333333333333
+    },
+    "128:45-1174": {
+      "win": 0.7996666666666666,
+      "draw": 0.14653333333333332,
+      "loss": 0.0538
+    },
+    "128:6-1174": {
+      "win": 0.8238666666666666,
+      "draw": 0.134,
+      "loss": 0.042133333333333335
+    }
+  }
+}

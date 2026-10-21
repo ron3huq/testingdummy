@@ -9,18 +9,27 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
-## Native hotfix v4.1 — Bayern59835, Dembélé, tỷ lệ85%/95%
+## Native hotfix v5 — Asia-Pacific8 đội ở Danish; tên/logo và cầu thủ
 
-Log Android v4 cho biết các roster khác đạt nhưng Bayern vẫn `127:13`, lỗi ID59835/reason2. **59835 là low32 của thẻ Guerreiro52776558193083, không phải ID base tồn tại.** V4.1 bỏ mục dự bị này, giữ Bayern22 và nguyên11 người chính; không tắt kiểm tra dữ liệu. **Chưa thử v4.1 trên điện thoại.**
+**V5 mới kiểm tra thành phần ARM64/gateway, chưa thử trên điện thoại.** Nền v4.1 đã được người dùng xác nhận Bayern vào trận bình thường.
 
-- [Tải ZIP v4.1](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v4.1/efootxi-1.3.2-native-hotfix-v4.1.zip)
-- [Hướng dẫn MT Manager, phạm vi và kiểm tra](efootxi-1.3.2/hotfix-v4.1/HUONG_DAN.md)
-- [Cấu hình](efootxi-1.3.2/hotfix-v4.1/myleague_custom.json) · [Trạng thái](efootxi-1.3.2/hotfix-v4.1/RELEASE_STATUS.json)
-- [Đối chiếu ID64 nguồn](efootxi-1.3.2/hotfix-v4.1/roster-source-validation.json) · [Tái hiện lỗi native v4 và bản sửa](efootxi-1.3.2/hotfix-v4.1/native-validation.json) · [Xác suất40.000 trận](efootxi-1.3.2/hotfix-v4.1/club-policy-validation.json)
+- [Tải ZIP v5](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v5/efootxi-1.3.2-native-hotfix-v5.zip)
+- [Hướng dẫn MT Manager, thay đổi và phần chưa áp dụng](efootxi-1.3.2/hotfix-v5/HUONG_DAN.md)
+- [Cấu hình](efootxi-1.3.2/hotfix-v5/myleague_custom.json) · [Trạng thái](efootxi-1.3.2/hotfix-v5/RELEASE_STATUS.json)
+- [Lịch21 vòng/84 trận và gateway8 đội](efootxi-1.3.2/hotfix-v5/asia-pacific-validation.json) · [Native cầu thủ/tên/roster](efootxi-1.3.2/hotfix-v5/native-validation.json) · [Tên và nhánh logo](efootxi-1.3.2/hotfix-v5/presentation-validation.json)
 
-Dembélé88039313485858 bỏ Chop Turn, thêm Tap Trick, giữ chỉ số. Nhóm1/2 CLB thắng85% trước nhóm3 (hòa10%, thua5%) và95% trước nhóm4 (hòa4%, thua1%), cả hai chiều sân. Chỉ áp dụng trận CPU chưa chốt; tỷ số vẫn đa dạng. Giữ Lyon thay Dortmund theo lựa chọn trước. Cài đủ sáu file vào vùng nội bộ `files/embedded-gateway/work/tools`, buộc dừng mở lại; thử Bayern ở mùa hiện tại, không cần xóa mùa hay thay dt200.
+Yêu cầu cuối: **bỏ Asia-Pacific18 đội ở Eredivisie**, khôi phục18 CLB Hà Lan; **Danish549 trở thành Asia-Pacific League** gồm Al Nassr/NSR, Inter Miami/MIA, Al Hilal/HIL, Santos/SAN, Los Angeles FC/LAFC, Vissel Kobe/VIS, Gamba Osaka/GAM, Flamengo/FLA. Đá3 lượt,21 vòng,84 trận; giữ LAFC4 chữ theo xác nhận. Top1 Nassr/Hilal, Top2 Miami/Santos.
 
-Đã đối chiếu đủ ID64, tái hiện lỗi v4 bằng native resolver và kiểm tra roster mới,576 biên xác suất, handler18 thẻ và hồi quy save. DB native tổng hợp/gateway readiness stub không thay thế thử trận Android. Tóc/áo dài vẫn chưa áp dụng; xem giới hạn trong hướng dẫn.
+Đổi tên9 CLB, bốn giải và dùng nhánh logo UEFA/CONMEBOL/AFC/CONCACAF của engine; Ligue1 thay Lyon181 bằng Dortmund126/BVB. Bayern giữ22 cầu thủ đã hợp lệ, xoay Olise phải/Díaz trái/Musiala giữa. Cập nhật Akliouche/Doué và các Base/nhóm Momentum, hậu vệ +4, tiền vệ dưới84 +6, không cộng dồn; giữ kết quả/lịch mùa đã lưu và tỷ lệ CPU85/95 trước đây. **Power Tackle chưa gán vì chưa xác minh mã riêng**; Long-Reach Tackle của Nuno đã có. Tóc/áo dài cũ vẫn chưa áp dụng.
+
+Cài đủ sáu file trong ZIP vào `files/embedded-gateway/work/tools`, buộc dừng mở lại. Tạo mùa mới qua đổi/chọn đội của game để nhận danh sách mới; không xóa save/DB hoặc thay dt200. Kiểm tra version `native-hotfix-v5`, `presentation_error:null`, Bayern `127:1`; trạng thái hook chưa chứng minh logo/render/trận thực đã đạt.
+
+## Native hotfix v4.1 — nền đã được người dùng xác nhận Bayern hoạt động
+
+Người dùng xác nhận mọi thứ ổn và Bayern Munich đã hoạt động sau v4.1. Gói này giữ làm bản khôi phục khi cần, với22 cầu thủ Bayern, Dembélé Tap Trick và tỷ lệ CPU85/95. Chưa có các yêu cầu mới của v5.
+
+- [Tải lại ZIP v4.1](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v4.1/efootxi-1.3.2-native-hotfix-v4.1.zip)
+- [Hướng dẫn lịch sử v4.1](efootxi-1.3.2/hotfix-v4.1/HUONG_DAN.md)
 
 ## Native hotfix v4 — đã xác nhận còn lỗi Bayern59835
 

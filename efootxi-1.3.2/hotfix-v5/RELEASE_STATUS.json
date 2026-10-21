@@ -1,0 +1,35 @@
+{
+  "version": "native-hotfix-v5",
+  "status": "COMPONENT_AND_GATEWAY_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "baseline": {
+    "version": "native-hotfix-v4.1",
+    "bayern_match_user_confirmed": true
+  },
+  "asia_pacific": {
+    "competition_id": 549,
+    "teams": 8,
+    "legs": 3,
+    "rounds": 21,
+    "matches": 84
+  },
+  "eredivisie": {
+    "competition_id": 125,
+    "restored_original18": true
+  },
+  "new_card_ids": [
+    "106786040464076",
+    "106746580456800"
+  ],
+  "base_players": 84,
+  "relative_players": 220,
+  "unimplemented": [
+    "Power Tackle: distinct native flag unverified",
+    "Prior hair-only/sleeve edits"
+  ],
+  "limits": [
+    "New native hooks and layouts need Android verification",
+    "Logo symbol selection verified, asset rendering/cache not executed",
+    "Native DB synthetic; gateway readiness stubbed; source save untouched"
+  ]
+}

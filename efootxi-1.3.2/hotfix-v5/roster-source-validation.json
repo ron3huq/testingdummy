@@ -1,0 +1,32 @@
+{
+  "status": "EXACT64_SOURCE_AUDIT_PASS",
+  "source_sha256": "d6777010a0ac8723e0a95ac17a239efbb973140ad58c6bb8881cc9943d8207b8",
+  "record_size": 400,
+  "id_offset": 8,
+  "id_width": 8,
+  "native_roster_counts": {
+    "108": 30,
+    "114": 24,
+    "127": 22,
+    "45": 27,
+    "116": 32,
+    "18961": 31
+  },
+  "missing_exact_ids": {
+    "108": [],
+    "114": [],
+    "127": [],
+    "45": [],
+    "116": [],
+    "18961": []
+  },
+  "removed_invalid_base_id": 59835,
+  "existing_full_card_id": 52776558193083,
+  "starting_members_unchanged": true,
+  "bayern_right_left_centre": [
+    129369,
+    119907,
+    138000
+  ],
+  "limits": "Source ID existence; Android runtime match still requires device verification."
+}
