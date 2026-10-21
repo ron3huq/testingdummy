@@ -9,7 +9,23 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
-## Native hotfix v7 — Scottish retro, OVR, kit và cấu hình trận
+## Native hotfix v7.1 — sửa văng ngay khi mở My League
+
+- [Tải ZIP v7.1](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v7.1/efootxi-1.3.2-native-hotfix-v7.1.zip)
+- [Cài đủ7 file bằng MT Manager; buộc dừng app trước khi thay](efootxi-1.3.2/hotfix-v7.1/HUONG_DAN.md)
+- [Bằng chứng tái hiện crash v7 bằng mã gốc và kiểm tra7.1](efootxi-1.3.2/hotfix-v7.1/entry-crash-validation.json)
+- [Kiểm tra command mở My League thật, prepare và START](efootxi-1.3.2/hotfix-v7.1/environment-validation.json)
+- [Đội hình/ID/vai trò](efootxi-1.3.2/hotfix-v7.1/DOI_HINH_CO_DIEN.md) · [Trạng thái](efootxi-1.3.2/hotfix-v7.1/RELEASE_STATUS.json)
+
+V7 gọi một native member accessor không truyền đối tượng: lệnh thật `ldr x0,[x0,#0x28]` đọc0x28 khi X0=0. Đường này chạy trong CMD_GET_SEASON_INFO lúc mở My League. Kiểm thử v7 từng stub accessor nên bỏ sót ABI lỗi;7.1 đã tái hiện với mã thật và bỏ hẳn đường gọi sai.
+
+**V7.1 tắt toàn bộ dò sân, hook chọn sân và thay đổi thời tiết mới.** Giữ sân do game gốc chọn, trời quang/mùa hè/ban ngày. Không random sân/mưa/tuyết trong bản sửa này. Đội hình retro, OVR, skill, kit và logic CPU của v7 được giữ.
+
+Buộc dừng app, chép đủ7 file trong ZIP vào `files/embedded-gateway/work/tools/`, mở lại và kiểm tra `native-hotfix-v7.1`. Không xóa dữ liệu hoặc thay dt200. Bản sửa qua kiểm tra mã gốc/gateway; vẫn cần người dùng xác nhận trên điện thoại.
+
+## Native hotfix v7 — bản lỗi crash, dùng v7.1 ở trên
+
+**Không cài mới v7: đã xác định lỗi native khi mở My League. Dùng v7.1.**
 
 - [Tải ZIP v7](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v7/efootxi-1.3.2-native-hotfix-v7.zip)
 - [Hướng dẫn MT Manager: đủ7 file, giới hạn và khôi phục](efootxi-1.3.2/hotfix-v7/HUONG_DAN.md)

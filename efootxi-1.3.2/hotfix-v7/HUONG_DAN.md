@@ -1,3 +1,5 @@
+> **V7 có lỗi văng ngay khi mở My League. Dùng [bản sửa v7.1](../hotfix-v7.1/HUONG_DAN.md).**
+
 # My League native hotfix v7 — Android efootxi1.3.2
 
 Bản mới dựng lại12 đội Scottish: AC Milan/Aberdeen thành Atletico2017; Inter/Kilmarnock thành Tottenham2020. Cập nhật Liverpool2019, Real2017 (đúng hai Card ID Ronaldo70373039149482 và Bale88045755861672), Bayern2018, PSG/Chelsea2018, City/Juventus2017, vị trí MU/Roma. Có190 vị trí với179 ID riêng. Xem DOI_HINH_CO_DIEN.md cho từng ID, đội hình, số áo, người thay và vai trò đá phạt/đội trưởng.

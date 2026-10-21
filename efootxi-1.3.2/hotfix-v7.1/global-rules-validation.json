@@ -1,0 +1,11 @@
+{
+  "status": "GLOBAL_RULES_PASS",
+  "cases": 390,
+  "checks": [
+    "strict power>84, +7, packed-field cap127",
+    "all13 primary roles; conditional Dipping absent only when neither Low Screamer nor Blitz Curler innate/learned",
+    "unrelated147 fields and source objects preserved",
+    "repeated raw-source projections stable; serials and later training remain distinct",
+    "unsupported unselected legacy layouts passed through"
+  ]
+}

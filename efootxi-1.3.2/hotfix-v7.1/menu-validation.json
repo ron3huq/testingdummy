@@ -1,0 +1,24 @@
+{
+  "status": "ARM64_COMPONENT_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "checks": [
+    "all five original lists read by real getter",
+    "compiled hook via atomic branch and original trampoline",
+    "Ligue 1 has real Bayern127 and Dortmund126 in place of Lyon181",
+    "Eredivisie restored to original18 Dutch clubs; Danish shrinks12 to8 requested clubs",
+    "Belgium native list contains exact 18 national IDs",
+    "Portugal native list grows from 18 to 20 national IDs",
+    "native ID constructor format ID<<14 used for absent teams",
+    "engine allocator used for 80-byte replacement",
+    "old buffer freed once; native destructor frees new buffer once",
+    "repeated calls idempotent",
+    "wrong class/special list/invalid vector refused"
+  ],
+  "league_team_counts": {
+    "122": 18,
+    "566": 18,
+    "128": 20,
+    "125": 18,
+    "549": 8
+  }
+}

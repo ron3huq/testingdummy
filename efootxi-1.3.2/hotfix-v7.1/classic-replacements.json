@@ -1,0 +1,60 @@
+{
+  "version": "native-hotfix-v7",
+  "rows": [
+    {
+      "team_id": "5317",
+      "team": "Bayern Munich 2018",
+      "note": "Robben and Boateng absent: Coman starts RWF, Süle starts CB. Lahm, Xabi Alonso and Benatia are earlier Bayern reserves."
+    },
+    {
+      "team_id": "1222",
+      "team": "FC Barcelona",
+      "note": "Mascherano absent; Umtiti is a real Barcelona centre-back. Albert Ferrer (RB) is removed from CB."
+    },
+    {
+      "team_id": "1219",
+      "team": "Atletico Madrid 2017",
+      "note": "Filipe Luís/Juanfran absent: Lucas Hernández LB and Trippier RB (Atlético 2019–2022) used. Gabi absent: Saúl/Koke central. Forlán is an earlier Atlético reserve."
+    },
+    {
+      "team_id": "1985",
+      "team": "Tottenham 2020",
+      "note": "Aurier/Dele Alli absent: former Tottenham Walker RB and Eriksen AMF used. No modern replacement from unrelated club."
+    },
+    {
+      "team_id": "1987",
+      "team": "Liverpool 2019",
+      "note": "Coutinho retained by explicit user priority despite leaving before 2019. His #10 clashes with Mané 2019 #10; Coutinho uses free #18."
+    },
+    {
+      "team_id": "1986",
+      "team": "PSG 2018",
+      "note": "Ibrahimović retained by explicit user priority despite leaving before 2018. Motta/Pastore absent; Verratti/Rabiot central, Draxler LMF."
+    },
+    {
+      "team_id": "1221",
+      "team": "Chelsea 2018",
+      "note": "Costa and Matić retained by user priority despite departing in 2017/early2018. Moses absent: Pedro plays RMF; historical Chelsea Lampard/Mata/Čech/Oscar reserves."
+    },
+    {
+      "team_id": "132",
+      "team": "Manchester United",
+      "note": "Carrick/Valencia/Jones/Fellaini absent: former United Fletcher DMF, Darmian RB, Evans CB used. Modern Wan-Bissaka/De Ligt removed."
+    },
+    {
+      "team_id": "131",
+      "team": "Manchester City 2017",
+      "note": "Correct historical Fernandinho absent; current same-name LWF is rejected. Yaya Touré plays DMF. Missing Kolarov/Clichy: Zinchenko (2017 squad) LB."
+    },
+    {
+      "team_id": "2365",
+      "team": "Juventus 2017",
+      "note": "Pjanić/Khedira/Marchisio/Higuaín/Mandžukić absent: former Juventus Pirlo/Pogba/Nedvěd/Inzaghi used, never renamed to missing players. Not a fully exact 2017 roster."
+    },
+    {
+      "team_id": "2621",
+      "team": "AS Roma",
+      "note": "Manolas/Fazio/Strootman/Nainggolan/Perotti absent: historical Roma Rüdiger/Benatia/Pellegrini/Totti/Paredes used. Modern Koné/Wesley removed."
+    }
+  ]
+}
