@@ -1,0 +1,72 @@
+{
+  "status": "APPEARANCE_SERIALIZE_DETOUR_PASS",
+  "device_tested": false,
+  "engine_sha256": "3da06a36fb5c434a75c5739af65f16664347477bd653659eb354376410d52f98",
+  "appearance_table_sha256": "1827a50b8caeea66ee78b2a8408d1555745bce0dc1850d59610b5b9bab05a619",
+  "exact_target": "89138556572074",
+  "reference_card": "88041729329832",
+  "native_modes": [
+    {
+      "mode": 0,
+      "winter": 0,
+      "native_sleeveType2": 0
+    },
+    {
+      "mode": 0,
+      "winter": 1,
+      "native_sleeveType2": 1
+    },
+    {
+      "mode": 1,
+      "winter": 0,
+      "native_sleeveType2": 0
+    },
+    {
+      "mode": 1,
+      "winter": 1,
+      "native_sleeveType2": 0
+    },
+    {
+      "mode": 2,
+      "winter": 0,
+      "native_sleeveType2": 1
+    },
+    {
+      "mode": 2,
+      "winter": 1,
+      "native_sleeveType2": 1
+    }
+  ],
+  "serialization_cases": 107,
+  "full64_lowbits_collisions_rejected": true,
+  "source_and_adjacent_buffers_preserved": true,
+  "character_config_differences": [
+    {
+      "winter": 0,
+      "changed_config_offsets": [
+        80
+      ]
+    },
+    {
+      "winter": 1,
+      "changed_config_offsets": []
+    }
+  ],
+  "actual_LoadUniShirt_argument3": 1,
+  "source_fields_changed": "only bits62..63 of packed appearance firstu64, in an output copy",
+  "hair_applied": false,
+  "hair_target": "88044950524330",
+  "hair_source": "88038776539586",
+  "stubs": [
+    "0x2f37644",
+    "0x2f376d4",
+    "0x2f46d10",
+    "0x8c1bc70"
+  ],
+  "limits": [
+    "Actual52-byte engine serializer, full native sleeve converter and actual virtual shirt-call setup executed in Unicorn",
+    "libc copying, allocation and std::string assignment modeled; source derived header synthetic except exact full64 ID",
+    "Native mesh/texture renderer and Android device untested",
+    "Hair/face fields unchanged; exact hair transplant not implemented"
+  ]
+}

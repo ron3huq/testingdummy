@@ -9,6 +9,19 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Native hotfix v11 — bản thử tay dài Ronaldo, nghiên cứu ghép tóc
+
+- [Tải ZIP v11 — cài đủ7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v11/efootxi-1.3.2-native-hotfix-v11-long-sleeve.zip)
+- [Cài đặt MT Manager và kiểm tra bộ đếm](efootxi-1.3.2/hotfix-v11/HUONG_DAN.md)
+- [Kết quả tay áo, hướng ghép tóc và tài nguyên thiếu](efootxi-1.3.2/hotfix-v11/NGOAI_HINH.md)
+- [Kiểm tra serialize/converter ARM64](efootxi-1.3.2/hotfix-v11/appearance-validation.json)
+
+Chỉ thẻ Ronaldo89138556572074 nhận chế độ tay dài2, tham chiếu Bale88041729329832. Hook trên bản sao52 byte ngoại hình, xác thực full64 ID; không sửa bảng gốc, mặt, tóc hoặc chỉ số. Đã chạy serializer/converter gốc, kiểm tra6 trường hợp mùa/chế độ và107 trường hợp serialize cùng đường chuẩn bị tham số áo. **Chưa kiểm tra hình ảnh trên điện thoại.** Bộ đếm`appearance_sleeve_applies` và`appearance_error` nằm trong`select-team-status.json` phiên bảnv11.
+
+TócPato88038776539586→Ronaldo88044950524330 **chưa áp dụng**. Đã xác định các asset real-face chứa mặt/tóc chung mesh, có dữ liệu phần tóc và bảng redirectPato0318→0290; chưa có đủ mesh/texture nguồn/đích để kiểm chứng ghép riêng tóc. Không đổi toàn bộ mặt hay gán tóc generic thay thế. Hướng nghiên cứu và dữ liệu cần bổ sung được ghi rõ trong báo cáo.
+
+Giữ nguyên mô phỏngv10, đội hình, số áo, chỉ số, lịch mùa và save. Buộc dừng, sao lưu rồi chép đủ7 file vào`files/embedded-gateway/work/tools/`. Không thaydt200/CPK/APK/DB. Có thể phục hồi đủ7 filev10 khi cần.
+
 ## Native hotfix v10 — kết quả CPU đa dạng cho bốn giải My League
 
 - [Tải ZIP v10 — đủ7 file](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v10/efootxi-1.3.2-native-hotfix-v10.zip)

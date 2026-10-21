@@ -1,0 +1,42 @@
+{
+  "version": "native-hotfix-v11",
+  "status": "LONG_SLEEVE_NATIVE_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "appearance": {
+    "sleeve_copy": {
+      "target": "89138556572074",
+      "reference_source": "88041729329832",
+      "status": "NATIVE_PACKED_SLEEVE_OVERRIDE_DEVICE_UNTESTED",
+      "mode": 2,
+      "other_cards_unchanged": true
+    },
+    "hair_copy": {
+      "target": "88044950524330",
+      "source": "88038776539586",
+      "status": "NOT_APPLIED_MESH_TRANSPLANT_REQUIRES_SOURCE_AND_TARGET_3D_ASSETS",
+      "preserve_target_face": true
+    },
+    "ajax_logo": {
+      "target_team": 116,
+      "source_team": 181,
+      "status": "NATIVE_EMBLEM_PATH_ALIAS_DEVICE_UNTESTED"
+    }
+  },
+  "simulation_code_byte_identical_to": "native-hotfix-v10",
+  "prior_native_source_preserved_as_exact_prefix": true,
+  "source_tables_modified": false,
+  "source_db_modified": false,
+  "hair_transplant_applied": false,
+  "full64_target": "89138556572074",
+  "new_native_entry": "0x68d0868",
+  "new_status_fields": [
+    "appearance_error",
+    "appearance_sleeve_applies"
+  ],
+  "remaining_blocker": "Exact source/target head meshes and hair materials/textures not found in supplied named containers; selective hair transplant remains unimplemented",
+  "limits": [
+    "Android mesh/render result requires device test",
+    "Unicorn test models libc copying, allocation and std::string helpers",
+    "Missing-kit/stadium-render limits from v10 remain"
+  ]
+}
