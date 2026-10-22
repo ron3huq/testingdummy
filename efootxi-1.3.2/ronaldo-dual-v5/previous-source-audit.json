@@ -1,0 +1,329 @@
+{
+  "ronaldo-pc-mesh-v4": {
+    "asset-validation.json": {
+      "status": "FULL_PC_FACE_NATIVE_RIG_REQUIRED_BONES_AND_BASIC_SKINNING_PASS",
+      "keys": [
+        "status",
+        "variants",
+        "mobile_cutscene_tested",
+        "mobile_facial_clips_tested"
+      ]
+    },
+    "container-validation.json": {
+      "status": null,
+      "keys": [
+        "packages",
+        "asset_bulk_readback_identical",
+        "private_dependencies_resolve",
+        "file_hashes"
+      ]
+    },
+    "face-texture-validation.json": {
+      "status": null,
+      "keys": [
+        "size",
+        "format",
+        "variants",
+        "mip_sizes",
+        "external_bulk_bytes",
+        "native_texture_loader_callback_preserved",
+        "engine_material_assignment_not_phone_verified"
+      ]
+    },
+    "hook-install-validation.json": {
+      "status": null,
+      "keys": [
+        "old_failure_reproduced",
+        "fixed_jump_executed",
+        "five_full_python_install_paths_executed",
+        "worker_reaches_hook_active",
+        "original_engine_hash_and_both_prologues_verified",
+        "native_boundary",
+        "phone_tested"
+      ]
+    },
+    "native-validation.json": {
+      "status": "FIVE_ARM64_DETOURS_SCOPE_SRET_IDENTITY_FALLBACK_PASS",
+      "keys": [
+        "status",
+        "checks",
+        "engine_sha256",
+        "hook_sha256",
+        "engine_bodies_modeled",
+        "renderer_cutscene_verified",
+        "phone_tested"
+      ]
+    },
+    "package-validation.json": {
+      "status": "EIGHT_FILE_BUNDLE_HASHES_BOOTSTRAP_SIZE_AND_ZIP_CRC_PASS",
+      "keys": [
+        "status",
+        "geometry_source",
+        "phone_tested",
+        "replay_stretch_verified_fixed",
+        "facial_animation_verified",
+        "artifacts"
+      ]
+    },
+    "runtime-validation.json": {
+      "status": "MANIFEST_SCOPE_HASH_FAILURE_DISABLE_AND_GATEWAY_WRAPPER_PASS",
+      "keys": [
+        "status",
+        "original_response_unchanged",
+        "original_dt880_entries_unchanged",
+        "new_files",
+        "idempotent",
+        "disabled_visuals_manifest_stable",
+        "checksum_failure_passthrough",
+        "network_on_android_tested",
+        "native_startup_in_test"
+      ]
+    },
+    "source/build_face_textures.py": {
+      "bytes": 2696,
+      "sha256": "125a8cb8c2f17447715b7541ccad7be941f6b806c8fd55c7c408b9471d7772da",
+      "functions": [],
+      "workspace_paths": []
+    },
+    "source/build_full_container.py": {
+      "bytes": 4445,
+      "sha256": "ce8bd88b06af25fc489a3edf3242867fd47738987f9055fe92cd7a682550d09d",
+      "functions": [
+        "entry"
+      ],
+      "workspace_paths": [
+        "/workspace/analysis/my-league/android/official-apk/assets/gateway-release/livedata/pc9257_mobile_and.utoc",
+        "/workspace/testingdummy/tools"
+      ]
+    },
+    "source/build_native.sh": {
+      "bytes": 341,
+      "sha256": "ee192849b1af859cfb398e567608b41e018b3b94ca84c9f3144461f6e2d03073"
+    },
+    "source/build_pc_head.py": {
+      "bytes": 8431,
+      "sha256": "172ae0a57ead7cccc1e7576389aa128d7c47303943b03061235945fb038f82d0",
+      "functions": [
+        "mapped",
+        "sn"
+      ],
+      "workspace_paths": []
+    },
+    "source/noodle_hair.c": {
+      "bytes": 8579,
+      "sha256": "58e5fd9f06d76e4619095c4a989aa2e2062d21092578d0b72672de00ee8faf57"
+    },
+    "source/noodle_hair.py": {
+      "bytes": 11831,
+      "sha256": "a672c31d5ac6e6c42c5dcf480eefab118a1d6f467698766cdb68fa109a5fcf33",
+      "functions": [
+        "branch",
+        "jump",
+        "maps",
+        "digest",
+        "install",
+        "configuration",
+        "bundle",
+        "advertise",
+        "report",
+        "worker",
+        "start"
+      ],
+      "workspace_paths": []
+    },
+    "source/prepare_deploy.py": {
+      "bytes": 1616,
+      "sha256": "a63567dc53356e9f1a50ebcce4e3091aa1be790223ab4ca071b5cbe04e37ee98",
+      "functions": [],
+      "workspace_paths": []
+    },
+    "source/validate_assets.py": {
+      "bytes": 5127,
+      "sha256": "412aca0f657c79328bf0455a614271e9591d23e3535c4387da2d2a3840b976f2",
+      "functions": [
+        "read",
+        "get",
+        "vec"
+      ],
+      "workspace_paths": [
+        "/workspace/testingdummy/tools"
+      ]
+    },
+    "source/validate_install.py": {
+      "bytes": 4023,
+      "sha256": "00980c870c4e45153c2b88f9ec88b8aa2e12c9a21b865aa4bc51a980f92cf0d8",
+      "functions": [
+        "__init__",
+        "__call__",
+        "__getattr__"
+      ],
+      "workspace_paths": [
+        "/workspace/analysis/my-league/android/official-apk/lib/arm64-v8a/libUE4.so"
+      ]
+    },
+    "source/validate_native.py": {
+      "bytes": 8237,
+      "sha256": "1d392e51411e7b5d20a130b6d675dd0f405a16cb1bc44bb2bccfdc024e460ec3",
+      "functions": [
+        "putstr",
+        "fstring",
+        "string",
+        "text",
+        "finish",
+        "boundary",
+        "call",
+        "request"
+      ],
+      "workspace_paths": [
+        "/workspace/analysis/my-league/android/official-apk/lib/arm64-v8a/libUE4.so"
+      ]
+    },
+    "source/validate_runtime.py": {
+      "bytes": 3050,
+      "sha256": "7fa6cba052b76aa33b65d61d7d13d98ad24251e0b322e614485dd035401fb56f",
+      "functions": [],
+      "workspace_paths": [
+        "/workspace/analysis/my-league/android/official-apk/assets/gateway-release/work/templates/CMD_LOGIN_LIVEDATA.json"
+      ]
+    },
+    "source/zen_clone.py": {
+      "bytes": 1863,
+      "sha256": "599d8465dd43a65d94827973072770b085991399bbdf05c7e5ef5ea6d76019d9",
+      "functions": [
+        "pid",
+        "objid",
+        "rename"
+      ],
+      "workspace_paths": []
+    }
+  },
+  "ronaldo-pc-mesh-v4a": {
+    "hook-install-validation.json": {
+      "status": null,
+      "keys": [
+        "old_failure_reproduced",
+        "fixed_jump_executed",
+        "five_full_python_install_paths_executed",
+        "worker_reaches_hook_active",
+        "original_engine_hash_and_both_prologues_verified",
+        "native_boundary",
+        "phone_tested"
+      ]
+    },
+    "native-validation.json": {
+      "status": "SOFTPATH_ABI_AND_FIVE_ARM64_DETOURS_PASS",
+      "keys": [
+        "status",
+        "checks",
+        "engine_sha256",
+        "hook_sha256",
+        "engine_bodies_modeled",
+        "renderer_cutscene_verified",
+        "phone_tested"
+      ]
+    },
+    "package-validation.json": {
+      "status": "EIGHT_FILE_BUNDLE_HASHES_BOOTSTRAP_SIZE_AND_ZIP_CRC_PASS",
+      "keys": [
+        "status",
+        "assets_byte_identical_v4",
+        "phone_tested",
+        "replay_stretch_verified_fixed",
+        "artifacts"
+      ]
+    },
+    "runtime-validation.json": {
+      "status": "MANIFEST_SCOPE_HASH_FAILURE_DISABLE_AND_GATEWAY_WRAPPER_PASS",
+      "keys": [
+        "status",
+        "original_response_unchanged",
+        "original_dt880_entries_unchanged",
+        "new_files",
+        "idempotent",
+        "disabled_visuals_manifest_stable",
+        "checksum_failure_passthrough",
+        "network_on_android_tested",
+        "native_startup_in_test"
+      ]
+    },
+    "source/build_native.sh": {
+      "bytes": 341,
+      "sha256": "ee192849b1af859cfb398e567608b41e018b3b94ca84c9f3144461f6e2d03073"
+    },
+    "source/noodle_hair.c": {
+      "bytes": 8419,
+      "sha256": "6bb0468e2ecd68cceb6e97049e335a7415768cdb9aedf4f09904c8b35d7e3b51"
+    },
+    "source/noodle_hair.py": {
+      "bytes": 12131,
+      "sha256": "9f163f25ed18b22fe6ec09b26861482368cedac99fbdf4cf3e9bd585fe5a4850",
+      "functions": [
+        "branch",
+        "jump",
+        "maps",
+        "digest",
+        "install",
+        "configuration",
+        "bundle",
+        "advertise",
+        "report",
+        "worker",
+        "start"
+      ],
+      "workspace_paths": []
+    },
+    "source/package_publish.py": {
+      "bytes": 8721,
+      "sha256": "263d01181a28eaddc26640b0b2d924ccf1716d92f1f52cafb69e8e1d14e0f46a",
+      "functions": [
+        "git"
+      ],
+      "workspace_paths": [
+        "/workspace/testingdummy"
+      ]
+    },
+    "source/prepare_deploy.py": {
+      "bytes": 1612,
+      "sha256": "68ebe72f1e3f6f331fd7d1d1c32a8e06e08cc9c41946fd5d33fd4b9e0a46a223",
+      "functions": [],
+      "workspace_paths": []
+    },
+    "source/validate_install.py": {
+      "bytes": 4015,
+      "sha256": "47991e852aa148b111b1a64173fe393229b0613382edd028f5ace3096a55ac8f",
+      "functions": [
+        "__init__",
+        "__call__",
+        "__getattr__"
+      ],
+      "workspace_paths": [
+        "/workspace/analysis/my-league/android/official-apk/lib/arm64-v8a/libUE4.so"
+      ]
+    },
+    "source/validate_native.py": {
+      "bytes": 8469,
+      "sha256": "1a98dc1aa4706bba3ff43febe49952c3914ff607ac54c1545545dd5ddfd05f09",
+      "functions": [
+        "putstr",
+        "fstring",
+        "string",
+        "text",
+        "finish",
+        "boundary",
+        "call",
+        "request"
+      ],
+      "workspace_paths": [
+        "/workspace/analysis/my-league/android/official-apk/lib/arm64-v8a/libUE4.so"
+      ]
+    },
+    "source/validate_runtime.py": {
+      "bytes": 3050,
+      "sha256": "7fa6cba052b76aa33b65d61d7d13d98ad24251e0b322e614485dd035401fb56f",
+      "functions": [],
+      "workspace_paths": [
+        "/workspace/analysis/my-league/android/official-apk/assets/gateway-release/work/templates/CMD_LOGIN_LIVEDATA.json"
+      ]
+    }
+  }
+}

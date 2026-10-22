@@ -1,0 +1,18 @@
+{
+  "status": "DUAL_CARD_EIGHT_FILES_ZIP_CRC_AND_CHECKSUMS_PASS",
+  "native_checks": 58,
+  "meshes": 8,
+  "gateway_bytes": 2441,
+  "phone_tested": false,
+  "replay_verified": false,
+  "artifacts": {
+    "Ronaldo-v5-hai-the-mat-mieng-2006.zip": {
+      "bytes": 24635308,
+      "sha256": "a62ba283d15d57b944afbf3d84b3edd42dcdd5e7e089accb2a17e240be7dd944"
+    },
+    "Tat-ban-thu-v5.zip": {
+      "bytes": 172,
+      "sha256": "4691a85bd6bc49ff36ecc2e4326c0c6c858cc7bfbbb20ab2c4d8c086021ddd3b"
+    }
+  }
+}

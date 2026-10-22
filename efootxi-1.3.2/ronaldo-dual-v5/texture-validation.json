@@ -1,0 +1,11 @@
+{
+  "status": "V4A_FACE_DIFFUSE_TEXELS_EXACT_IN_TWO_DECODERS_PASS",
+  "v4a_mip0_exact_atlas_regions": [
+    "T_ND01_Face_D",
+    "T_ND01lg00v0000_Face_D",
+    "T_ND01ep01v0291_Face_D",
+    "T_ND01ep00v0313_Face_D"
+  ],
+  "independent_UEViewer_old_vs_new_exact": true,
+  "phone_material_assignment_verified": false
+}
