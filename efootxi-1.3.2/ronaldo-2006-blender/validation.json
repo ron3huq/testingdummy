@@ -1,0 +1,11 @@
+{
+  "zip_sha256": "8e23fd4713025d0b1e90c74f8848ea36b98271c012a064cd4b74a67fcff97ec3",
+  "zip_bytes": 5158089,
+  "blender_version": "4.3.2",
+  "converted_meshes": 10,
+  "source_label": "2006, not verified 2008",
+  "game_ready": false,
+  "other_rar_read": false,
+  "other_rar_reason": "download transfer exceeds 32 MiB",
+  "source_zip_sha256": "68877abcd8522965eebbc09b684ae82cd29668005d48cbaa0b19d889259f9f7f"
+}
