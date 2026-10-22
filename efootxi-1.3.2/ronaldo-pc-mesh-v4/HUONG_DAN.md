@@ -1,3 +1,5 @@
+> V4 đã được báo mất tóc: đọc sai đối số FSoftObjectPath. Dùng [v4a](../ronaldo-pc-mesh-v4a/HUONG_DAN.md) thay thế.
+
 # Ronaldo v4 — mesh mặt PC đầy đủ và giới hạn thay thế ở đường dẫn asset
 
 Chỉ Card ID **88044950524330**. Bản thử cho efootxi Android 1.3.2, MT Manager, không cần root. **Chưa được thử trên điện thoại; chưa xác nhận hết lỗi tay/giày trong replay.**

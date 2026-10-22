@@ -1,0 +1,16 @@
+{
+  "status": "EIGHT_FILE_BUNDLE_HASHES_BOOTSTRAP_SIZE_AND_ZIP_CRC_PASS",
+  "assets_byte_identical_v4": true,
+  "phone_tested": false,
+  "replay_stretch_verified_fixed": false,
+  "artifacts": {
+    "Ronaldo-PC-mesh-v4a-88044950524330.zip": {
+      "bytes": 5620590,
+      "sha256": "4c45e3495c08617d46925f3bb2de8c96e06606038a5cc9f1d3f14597a1a52203"
+    },
+    "Tat-dau-thu-Ronaldo.zip": {
+      "bytes": 172,
+      "sha256": "a63f0216ac0c31d6bf2c5a73f2a4e48e35cbbde58af589fb7ed2dcbc18f50131"
+    }
+  }
+}

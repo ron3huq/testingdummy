@@ -1,4 +1,4 @@
-72ef87f633c52e59b60c3e5d5740c1e79ee32e941c2738fb2aa66dd6d46d784a  README.md
+64189aaf97398fc2b51bd6e4583bcd2a349e22e835721a4673ec410349373a08  README.md
 8085bd7371730ba8ff4fe2b8a89dc986f762f056edd210f47e395cbc8cd1c1e8  efootxi-1.3.2/HUONG_DAN.txt
 6fce6ff5162abe46786d96dbeb39fc5183fd15a154b31500c005c9bc5206caa5  efootxi-1.3.2/KHOI_PHUC.md
 5ed68a8614e760249e8024f74d0247784d1d47bd1dbb11ddbe53af1e28689505  efootxi-1.3.2/STATUS.json
@@ -863,7 +863,7 @@ eb9e8fcce2574433d83ad88dbaf01d9b7134271c525fa03488df6090d0b27f4d  efootxi-1.3.2/
 9412cf1676d529f062940fc1d6387058e86842378e974238e3036d4e2027de9b  efootxi-1.3.2/ronaldo-pc-face-v3/source/validate_native.py
 219e88c09463a1563de8230b9cd4629f664f454d113a250681add22bbfd8f24c  efootxi-1.3.2/ronaldo-pc-face-v3/source/validate_runtime.py
 599d8465dd43a65d94827973072770b085991399bbdf05c7e5ef5ea6d76019d9  efootxi-1.3.2/ronaldo-pc-face-v3/source/zen_clone.py
-7603ee7cf1080297efd46460dc75160018fc497fc52f0fb51b3d8ed8a544442f  efootxi-1.3.2/ronaldo-pc-mesh-v4/HUONG_DAN.md
+59e89c792d8f1972429078dbf5500248d8bb10cb26f2028d44ce15b712353d5a  efootxi-1.3.2/ronaldo-pc-mesh-v4/HUONG_DAN.md
 09f21eba4f6c2009839cf48f457d30b89de8d9c66758a665857de012def19700  efootxi-1.3.2/ronaldo-pc-mesh-v4/Ronaldo-PC-mesh-v4-cutscene-trial-88044950524330.zip
 c93f07ab559d22b1abb0c64cc619a3dfea83acd37dffb5f1913cfaf149b5d869  efootxi-1.3.2/ronaldo-pc-mesh-v4/Tat-dau-thu-Ronaldo.zip
 800f5d23dd453e83aff8bbc192d141ae1771e1f7518f4a5f50c3a2f5af73b471  efootxi-1.3.2/ronaldo-pc-mesh-v4/asset-validation.json
@@ -889,6 +889,21 @@ a63567dc53356e9f1a50ebcce4e3091aa1be790223ab4ca071b5cbe04e37ee98  efootxi-1.3.2/
 1d392e51411e7b5d20a130b6d675dd0f405a16cb1bc44bb2bccfdc024e460ec3  efootxi-1.3.2/ronaldo-pc-mesh-v4/source/validate_native.py
 7fa6cba052b76aa33b65d61d7d13d98ad24251e0b322e614485dd035401fb56f  efootxi-1.3.2/ronaldo-pc-mesh-v4/source/validate_runtime.py
 599d8465dd43a65d94827973072770b085991399bbdf05c7e5ef5ea6d76019d9  efootxi-1.3.2/ronaldo-pc-mesh-v4/source/zen_clone.py
+bbc734b4a8992134c81d58db9dc1e1b2cb34621ee2ac33f5616abba8d6bc3295  efootxi-1.3.2/ronaldo-pc-mesh-v4a/HUONG_DAN.md
+4c45e3495c08617d46925f3bb2de8c96e06606038a5cc9f1d3f14597a1a52203  efootxi-1.3.2/ronaldo-pc-mesh-v4a/Ronaldo-PC-mesh-v4a-88044950524330.zip
+a63f0216ac0c31d6bf2c5a73f2a4e48e35cbbde58af589fb7ed2dcbc18f50131  efootxi-1.3.2/ronaldo-pc-mesh-v4a/Tat-dau-thu-Ronaldo.zip
+ca35bd6cd9abaa671fc74dd98b5b0d6455393aea707d36716f8cb590f06533a1  efootxi-1.3.2/ronaldo-pc-mesh-v4a/hook-install-validation.json
+33c676c8fe1c89fc5e5a4429e8837577e2cd61683d5d4a1be95dafdf89083808  efootxi-1.3.2/ronaldo-pc-mesh-v4a/native-validation.json
+73d0fc11baecfc8ce4b82ac601c1aff79f25e23999d9177dd1b7fce20900fc62  efootxi-1.3.2/ronaldo-pc-mesh-v4a/package-validation.json
+47d24211306667cb08c9d6aca95fc622bd4498911edde27d5b5d3327a4cca876  efootxi-1.3.2/ronaldo-pc-mesh-v4a/runtime-validation.json
+ee192849b1af859cfb398e567608b41e018b3b94ca84c9f3144461f6e2d03073  efootxi-1.3.2/ronaldo-pc-mesh-v4a/source/build_native.sh
+6bb0468e2ecd68cceb6e97049e335a7415768cdb9aedf4f09904c8b35d7e3b51  efootxi-1.3.2/ronaldo-pc-mesh-v4a/source/noodle_hair.c
+9f163f25ed18b22fe6ec09b26861482368cedac99fbdf4cf3e9bd585fe5a4850  efootxi-1.3.2/ronaldo-pc-mesh-v4a/source/noodle_hair.py
+263d01181a28eaddc26640b0b2d924ccf1716d92f1f52cafb69e8e1d14e0f46a  efootxi-1.3.2/ronaldo-pc-mesh-v4a/source/package_publish.py
+68ebe72f1e3f6f331fd7d1d1c32a8e06e08cc9c41946fd5d33fd4b9e0a46a223  efootxi-1.3.2/ronaldo-pc-mesh-v4a/source/prepare_deploy.py
+47991e852aa148b111b1a64173fe393229b0613382edd028f5ace3096a55ac8f  efootxi-1.3.2/ronaldo-pc-mesh-v4a/source/validate_install.py
+1a98dc1aa4706bba3ff43febe49952c3914ff607ac54c1545545dd5ddfd05f09  efootxi-1.3.2/ronaldo-pc-mesh-v4a/source/validate_native.py
+7fa6cba052b76aa33b65d61d7d13d98ad24251e0b322e614485dd035401fb56f  efootxi-1.3.2/ronaldo-pc-mesh-v4a/source/validate_runtime.py
 5325c45eeec449f0567f876de3ffa215bae8938dc261c820d164b6d73fc638d9  efootxi-1.3.2/select-team-dt200-probe.zip
 78c73200c7570cd8b99f5a7ab4222969a8f21016e2933899de284a69b678788f  efootxi-1.3.2/select-team-native/BASELINE.json
 509473cdb21b1bd5e0b73c4ec7e6ab360bed4a85c45a28f4603115ba1cf6ca4f  efootxi-1.3.2/select-team-native/HUONG_DAN.md
