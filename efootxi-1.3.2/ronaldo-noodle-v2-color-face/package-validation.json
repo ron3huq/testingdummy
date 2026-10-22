@@ -1,0 +1,27 @@
+{
+  "status": "WHITELIST_EIGHT_FILES_BOOTSTRAP_SIZE_NATIVE_UNCHANGED_AND_ALL_BUNDLE_HASHES_PASS",
+  "phone_tested_v2": false,
+  "phone_evidence_v1b": {
+    "state": "HOOK_ACTIVE",
+    "target_calls": 1,
+    "redirects": 1,
+    "nonnull_callbacks": 1,
+    "null_callbacks": 0,
+    "restore_requests": 0,
+    "last_face_id": "4522ep00v0313"
+  },
+  "artifacts": {
+    "Ronaldo-noodle-v2-color-face-88044950524330.zip": {
+      "bytes": 3585676,
+      "sha256": "1c05224e112596ce899b97a8ed3407b7db96aeb7ad1733d1b33015128dbe72c4"
+    },
+    "Quay-lai-Ronaldo-v1b.zip": {
+      "bytes": 694908,
+      "sha256": "c6bd6ffdfbe2a79b0fa918cfd1e3812fcda18e383547451337bd4a267d2f69ed"
+    },
+    "Tat-dau-thu-Ronaldo.zip": {
+      "bytes": 172,
+      "sha256": "3f6daf52a0294debfd398155299088965761962b5a0daf94db43dae8759c5885"
+    }
+  }
+}
