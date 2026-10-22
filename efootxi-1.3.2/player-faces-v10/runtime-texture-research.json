@@ -1,0 +1,35 @@
+{
+  "engine_sha256": "3da06a36fb5c434a75c5739af65f16664347477bd653659eb354376410d52f98",
+  "bake_update": {
+    "address": "0x39cb75c",
+    "prologue": "ffc306d1fd7b17a9fc5f18a9f65719a9",
+    "caller": "0x39ca0c8",
+    "return_value_ignored": true,
+    "generated_texture_getter": "0x3a10e5c",
+    "material_texture_setter": "0x59b8644",
+    "parameters": [
+      "faceBaseColor",
+      "BaseColorMap"
+    ]
+  },
+  "native_face_texture_setter": "0x39c728c",
+  "actor_loaded_face_texture_offset": "0x1a40",
+  "texture_callback_validates_class": true,
+  "new_hook_preserves_original_bake_state_machine": true,
+  "native_helper_body_executed_in_unicorn": true,
+  "native_model_boundaries": [
+    "original bake body",
+    "FName interning",
+    "UMaterialInstanceDynamic texture assignment"
+  ],
+  "black_face_root_cause_confirmed_on_phone": false,
+  "guarded_card_ids": [
+    "88044950524330",
+    "106734785925546",
+    "105765448873424",
+    "105643042189511",
+    "88045755960841",
+    "105848932271764",
+    "88033139360669"
+  ]
+}

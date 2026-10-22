@@ -1,0 +1,291 @@
+{
+  "face_high.fmdl": [
+    {
+      "verts": 701,
+      "tris": 1242,
+      "material": "fox_skin_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_srm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "face_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "face_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 351,
+      "tris": 620,
+      "material": "fox_skin_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_srm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "face_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "face_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 1379,
+      "tris": 2558,
+      "material": "fox_skin_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_srm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "face_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "face_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 198,
+      "tris": 320,
+      "material": "Material.005",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "eye.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "eye_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "eye_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 135,
+      "tris": 104,
+      "material": "fox_eyelash_mat.001",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_eyelash_alp.tga"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_eyelash_nrm.tga"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_eyelash_srm.tga"
+        ]
+      ]
+    },
+    {
+      "verts": 94,
+      "tris": 124,
+      "material": "eyeline_SG.001",
+      "textures": [
+        [
+          "CubeMap_Tex_LIN",
+          "head_wet_cbm.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "dummy_nrm.tga"
+        ],
+        [
+          "Mask_Tex_LIN",
+          "dummy_dtm.tga"
+        ],
+        [
+          "SubNormalMap_Tex_NRM",
+          "dummy_nrm.tga"
+        ]
+      ]
+    },
+    {
+      "verts": 40,
+      "tris": 46,
+      "material": "fox_eyeOcclusion_mat.001",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "eye_occlusion_alp.dds"
+        ]
+      ]
+    }
+  ],
+  "hair_high.fmdl": [
+    {
+      "verts": 5423,
+      "tris": 4553,
+      "material": "fox_hair_transfer_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "hair_parts_bsm_alp.dds"
+        ],
+        [
+          "Base_Tex_2_SRGB",
+          "hair_parts_bsm.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "hair_parts_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "hair_parts_srm.dds"
+        ],
+        [
+          "CubeMap_Tex_LIN",
+          "haircube_cbm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "hair_parts_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "hair_parts_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 331,
+      "tris": 598,
+      "material": "fox_hair_transfer_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "hair_parts_bsm_alp.dds"
+        ],
+        [
+          "Base_Tex_2_SRGB",
+          "hair_parts_bsm.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "hair_parts_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "hair_parts_srm.dds"
+        ],
+        [
+          "CubeMap_Tex_LIN",
+          "haircube_cbm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "hair_parts_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "hair_parts_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 544,
+      "tris": 951,
+      "material": "fox_head_shell_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_srm.dds"
+        ],
+        [
+          "CubeMap_Tex_LIN",
+          "haircube_cbm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "face_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "face_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 582,
+      "tris": 1005,
+      "material": "fox_head_shell_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_srm.dds"
+        ],
+        [
+          "CubeMap_Tex_LIN",
+          "haircube_cbm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "face_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "face_srm.dds"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "card_id": "88038776539586",
+  "textures": [
+    {
+      "package": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+      "asset_bytes": 23343,
+      "asset_sha256": "2c313749ad46d8bab21a7649598aeff48e8046df6534a7cd455b39390c5a3a3c",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "package": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_l.uasset",
+      "asset_bytes": 48235,
+      "asset_sha256": "e6759007dd763a93ef1b3372be8a0d12418ff8598d7d42247f8c3d6b629cf4b3",
+      "size": [
+        184,
+        256
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "artwork_replaced": false,
+  "phone_tested": false
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "profile": "NDXS",
+    "before_median": [
+      105.0,
+      69.0,
+      54.0
+    ],
+    "target_median_srgb": [
+      82.0,
+      52.0,
+      37.0
+    ],
+    "channel_scale": [
+      0.780952380952381,
+      0.7536231884057971,
+      0.6851851851851852
+    ],
+    "sample_vertices": 327
+  },
+  {
+    "profile": "NDPQ",
+    "before_median": [
+      143.0,
+      97.0,
+      68.0
+    ],
+    "target_median_srgb": [
+      82.0,
+      52.0,
+      37.0
+    ],
+    "channel_scale": [
+      0.5734265734265734,
+      0.5360824742268041,
+      0.5441176470588235
+    ],
+    "sample_vertices": 1215
+  },
+  {
+    "profile": "NDSP",
+    "before_median": [
+      119.5,
+      76.0,
+      56.0
+    ],
+    "target_median_srgb": [
+      82.0,
+      52.0,
+      37.0
+    ],
+    "channel_scale": [
+      0.6861924686192469,
+      0.6842105263157895,
+      0.6607142857142857
+    ],
+    "sample_vertices": 406
+  }
+]
