@@ -1,3 +1,5 @@
+> Nếu đã vào game nhưng log báo thiếu `struct`, dùng [bản vá v1b](../ronaldo-noodle-hook-fix-v1b/HUONG_DAN.md).
+
 # Sửa lỗi khởi động sau gói tóc Ronaldo v1
 
 Lỗi `本地支持文件校验失败：work/tools/gateway_runtime.py` xảy ra trước khi nạp tóc.

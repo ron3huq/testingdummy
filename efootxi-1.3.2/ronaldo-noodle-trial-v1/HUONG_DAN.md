@@ -1,3 +1,5 @@
+> Nếu đã vào game nhưng log báo thiếu `struct`, dùng [bản vá v1b](../ronaldo-noodle-hook-fix-v1b/HUONG_DAN.md).
+
 > **Bản v1 gây lỗi kiểm tra gateway lúc khởi động.** Dùng [gói khôi phục và v1a đã sửa](../ronaldo-noodle-startup-fix/HUONG_DAN.md). ZIP tắt tóc cũ không sửa được lỗi khởi động.
 
 # Bản thử tóc mì tôm Ronaldo — 88044950524330

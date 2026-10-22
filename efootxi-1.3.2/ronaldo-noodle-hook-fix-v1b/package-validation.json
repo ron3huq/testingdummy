@@ -1,0 +1,11 @@
+{
+  "bytes": 6835,
+  "sha256": "2a39639cb5a37db621fc914ad17e65c9b39c6360a13402fa9ff06fe2fe4e6083",
+  "files": [
+    "work/tools/gateway_runtime.py",
+    "work/tools/noodle_hair.py",
+    "work/tools/noodle_hair.json"
+  ],
+  "gateway_identical_to_v1a": true,
+  "phone_tested": false
+}

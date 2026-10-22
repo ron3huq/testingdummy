@@ -1,3 +1,5 @@
+> **Ronaldo vào game được nhưng tóc chưa đổi, log `name struct is not defined`:** [Bản vá hook v1b](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-noodle-hook-fix-v1b/Ronaldo-noodle-v1b-sua-hook.zip) · [Hướng dẫn](efootxi-1.3.2/ronaldo-noodle-hook-fix-v1b/HUONG_DAN.md). Chỉ thẻ 88044950524330; chưa xác nhận renderer trên điện thoại.
+
 > **Sửa lỗi khởi động gói tóc Ronaldo v1:** [Tải gói khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-noodle-startup-fix/Khoi-phuc-khoi-dong.zip) · [Bản thử v1a đã sửa đóng gói](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-noodle-startup-fix/Ronaldo-noodle-trial-v1a-startup-fixed.zip) · [Hướng dẫn](efootxi-1.3.2/ronaldo-noodle-startup-fix/HUONG_DAN.md). Không xóa dữ liệu ứng dụng. Chưa xác nhận trên điện thoại.
 
 # File trao đổi cùng Codex

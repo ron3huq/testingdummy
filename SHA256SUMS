@@ -1,4 +1,4 @@
-3eae238c0423cc1af93efd4b011d7ac241299e8f893737104889ada021664d87  README.md
+336c4de0e263765cec0f4d02c6dc949597c7457eb961f623e2d4d2d3f42aef9f  README.md
 8085bd7371730ba8ff4fe2b8a89dc986f762f056edd210f47e395cbc8cd1c1e8  efootxi-1.3.2/HUONG_DAN.txt
 6fce6ff5162abe46786d96dbeb39fc5183fd15a154b31500c005c9bc5206caa5  efootxi-1.3.2/KHOI_PHUC.md
 5ed68a8614e760249e8024f74d0247784d1d47bd1dbb11ddbe53af1e28689505  efootxi-1.3.2/STATUS.json
@@ -751,6 +751,12 @@ fda028812a1d496fa670359ef6fe755fd2d757bc98852cc15e383afefda1e502  efootxi-1.3.2/
 2f0af1c340d093825ef555f8d5d9032fc044499911090ccb2963c1c4d4963936  efootxi-1.3.2/ronaldo-android-fit/package_fit.py
 d5a0a5c8c39d214779b543da3c3bd6ece268394a3a5a0c858a93d13e598ebdef  efootxi-1.3.2/ronaldo-android-fit/validate_head.py
 9d2800987936a42d0bfe71a95504bafcb8db0ac545732d60b9bb205e20cbd4ed  efootxi-1.3.2/ronaldo-android-fit/validation.json
+ed85b50a52c666d6855dc0bd354d204e726890f1455049e639dbb018933ae6a8  efootxi-1.3.2/ronaldo-noodle-hook-fix-v1b/HUONG_DAN.md
+2a39639cb5a37db621fc914ad17e65c9b39c6360a13402fa9ff06fe2fe4e6083  efootxi-1.3.2/ronaldo-noodle-hook-fix-v1b/Ronaldo-noodle-v1b-sua-hook.zip
+63d3f0f181e8fa025a9a5d80fb0b0d67afb3cb78a48c38a7153971690b5c518e  efootxi-1.3.2/ronaldo-noodle-hook-fix-v1b/fix_and_test.py
+1909401adac7b35fae5be83028bf00ac13f7ccc9db67b919ddd67eddda85f84d  efootxi-1.3.2/ronaldo-noodle-hook-fix-v1b/hook-install-validation.json
+48fd8a0ea890e0bf5ab8faecd9000932411d556b6e34fb41b5d6dadbfa1f041d  efootxi-1.3.2/ronaldo-noodle-hook-fix-v1b/noodle_hair.py
+a2bdf74f01d63fcf52e85f225380aa53743fe7fd3e68e3f982c0f365ff7c88b1  efootxi-1.3.2/ronaldo-noodle-hook-fix-v1b/package-validation.json
 e650f47b9a2a8482980cf82769eb02975620d6e3f15865dfae410ce9dfeaa0b0  efootxi-1.3.2/ronaldo-noodle-source/README.md
 2637883f180989e7e788a32ba3e11c51e198d0f4fd157412e17a8d8d37131462  efootxi-1.3.2/ronaldo-noodle-source/Ronaldo-noodle-88044950524330-SOURCE-NOT-INSTALLABLE.zip
 f50e7fe9158ed69166290a8cfa963553c71fc31da5d3d55ad8950004d893bee6  efootxi-1.3.2/ronaldo-noodle-source/Ronaldo_source_preview.png
@@ -764,7 +770,7 @@ c1e6fb08a472fd27c048184ef955f5dc3f59e5b8bf7409634915da0539b17f72  efootxi-1.3.2/
 cd30735b8cadd14b4f829a4b371febb8e68e319484eff77d411c264ffd0b6948  efootxi-1.3.2/ronaldo-noodle-source/source-inventory.json
 7264a463c205b95db5d5e7e22d7d11604f4c71bbd6fbfcbec4c8422cb1aa60a5  efootxi-1.3.2/ronaldo-noodle-source/validate_conversion.py
 d7dce33bceeda3564d736dd57c702e45f94057f340c8bdf48c89f7f049417e0e  efootxi-1.3.2/ronaldo-noodle-source/validation.json
-dbafd85846963efe95408dbe38a7ae10a8e7bf4064631e1d5a7cf5f857d2917a  efootxi-1.3.2/ronaldo-noodle-startup-fix/HUONG_DAN.md
+42fc58cbcadc97cc300d05a8b2ba38ec9a8e45479d66ccfb845a94a515561a45  efootxi-1.3.2/ronaldo-noodle-startup-fix/HUONG_DAN.md
 bb1c8efe2def5609bf5e5b1d89fcbfd3197994526d13b553731725352766ed03  efootxi-1.3.2/ronaldo-noodle-startup-fix/Khoi-phuc-khoi-dong.zip
 6a16e0cf8395b1a50fed72548002d915e6862138f7d7e7b92b25a81141f4b031  efootxi-1.3.2/ronaldo-noodle-startup-fix/Ronaldo-noodle-trial-v1a-startup-fixed.zip
 0fc7f85f11f8d001199a5d55700fe43b58ede2b1dbc4025cff49c1c335f6a319  efootxi-1.3.2/ronaldo-noodle-startup-fix/bootstrap-validation.json
@@ -772,7 +778,7 @@ a74415335cd270f1e0d11ae7513e24d8679a203ed69cb2a55ffe4bc529d11bc6  efootxi-1.3.2/
 5b9a373cc8c17c1b725f0a5d9033fe5597199ca068b86d1ef4710aeb39e163f9  efootxi-1.3.2/ronaldo-noodle-startup-fix/gateway_runtime_fixed.py
 734b95ef43b9d9dcb65194ae3b21fa936a944989592531fdab8fb6107195ed4c  efootxi-1.3.2/ronaldo-noodle-startup-fix/gateway_runtime_restore.py
 47d24211306667cb08c9d6aca95fc622bd4498911edde27d5b5d3327a4cca876  efootxi-1.3.2/ronaldo-noodle-startup-fix/runtime-validation.json
-1e1deed6e80acf14628e09dd1ccb719fc2f053a4a858455c19d1754d0408cf25  efootxi-1.3.2/ronaldo-noodle-trial-v1/HUONG_DAN.md
+4ffba43344286bd2f43b3c02fb5aacdd3d37e6813f0dbebbc31ab6fb40a845f6  efootxi-1.3.2/ronaldo-noodle-trial-v1/HUONG_DAN.md
 aea6db41ca9a630ddf7e8f6f630acbad4c29ae3d2b14331e59ddbb01874bdcbf  efootxi-1.3.2/ronaldo-noodle-trial-v1/NGHIEN_CUU.md
 ab502f5deeae6ccdf7be75addc9fa0d5e884ed7f25775b9d9c48503e1937fef4  efootxi-1.3.2/ronaldo-noodle-trial-v1/Ronaldo-noodle-trial-v1-88044950524330.zip
 945269cd777f5853176130a87d909d62e91f04bbb6c4d3dbb942bbf0371be21d  efootxi-1.3.2/ronaldo-noodle-trial-v1/Tat-noodle-hair.zip
