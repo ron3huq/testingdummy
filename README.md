@@ -9,6 +9,22 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## My League Studio v17 — pack cầu thủ, tên skill chuẩn và preset chạy/rê bóng
+
+- [Tải app v17 (ZIP; giải nén rồi mở MyLeagueEditor.html bằng Chrome/Edge)](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/editor-v17/MyLeagueStudio-v17-offline.zip)
+- [Tải HTML tự chứa](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/editor-v17/MyLeagueEditor.html)
+- [Hướng dẫn tạo pack, xuất10 file, MT Manager và trạng thái](efootxi-1.3.2/editor-v17/HUONG_DAN.md)
+- [Kết quả nghiên cứu APK, skill, dáng chạy/rê bóng, tóc/mặt/cơ thể và tên](efootxi-1.3.2/editor-v17/NGHIEN_CUU.md)
+- [Runtime v17 dự án trống](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v17/efootxi-1.3.2-native-hotfix-v17-editor-packs.zip)
+
+Thêm tab Pack: tạo/nhập/xuất pack tuyển cầu thủ, chọn từ registry hiện có, tối đa32 pack ×300 thẻ. Không tự thêm thẻ giả hay thay DB/response của người khác. Gateway hiện tại thực hiện rút/cấp thẻ, serial, coin và receipt. Cài pack thêm định nghĩa pool vào DB local; không tự cấp cầu thủ. Các pool đã cài giữ nguyên membership; nhân bản ID mới để thay người, có thể đổi tên/ẩn. Lượt rút/reset và kho sở hữu được giữ. Banner mẫu, chưa tùy chỉnh ảnh.
+
+Sửa64 tên skill theo mapping engine và APK; Attack Trigger đúng131, không phải AMAZON140. Defensive Fortress chưa có mã riêng được xác minh nên chưa khả dụng; Fortress vẫn có. Nhập dự án v16 có thông báo chuyển đổi skill, giữ bản JSON cũ và kiểm tra trước khi xuất.
+
+Bổ sung5 trường preset native51–55: kiểu rê bóng, tư thế/tay khi rê bóng và tư thế/tay khi chạy. Đã kiểm tra đọc/ghi qua getter ARM64 gốc và hoàn nguyên theo phạm vi; chưa có preview hoặc kiểm chứng hình ảnh mọi preset trên Android. Chưa có chỉnh dáng đi bộ, ghép tóc/mặt, slider cơ bắp hay đổi tên native trong game. Tên trong app tham khảo được lưu riêng; không lấy ô nhập tên làm bằng chứng đã đổi tên trong trận.
+
+Xuất ZIP từ app chứa đủ10 file để chép vào files/embedded-gateway/work/tools/. Sao lưu bộ file và save trước khi cài pack; không thay APK/dt200. Dự án mặc định trống; thời tiết/đội hình/buffs hiện có được giữ. Đã kiểm tra Chromium desktop/mobile, ZIP→native, gateway thật trên bản sao DB (list, draw, retry, reset, rollback) và các regression native/appearance/weather. **Chưa thử các tính năng mới trên Android.**
+
 ## My League Studio + native hotfix v16 — app chỉnh dữ liệu và lịch thời tiết
 
 - [Tải app My League Studio v16 (ZIP, mở HTML trên Chrome/Edge)](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/editor-v16/MyLeagueStudio-v16-offline.zip)

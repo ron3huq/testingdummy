@@ -1,0 +1,41 @@
+{
+  "version": "native-hotfix-v17",
+  "app_version": 17,
+  "device_tested": false,
+  "status": "BROWSER_NATIVE_AND_EXISTING_GATEWAY_VALIDATED_DEVICE_UNTESTED",
+  "install_files": 10,
+  "verified_skill_labels": 64,
+  "unresolved_skills": [
+    "Defensive Fortress"
+  ],
+  "pack_backend": "existing local managed_card_pool; no foreign save/records import",
+  "pack_limits": {
+    "packs": 32,
+    "players_per_pack": 300,
+    "published_membership": "immutable; clone to new ID"
+  },
+  "appearance_added": [
+    "dribble type51",
+    "dribbling posture52",
+    "dribbling arms53",
+    "running posture54",
+    "running arms55"
+  ],
+  "motion_visuals_verified": false,
+  "not_implemented": [
+    "walking gait",
+    "hair transplant",
+    "face mesh editing",
+    "muscle shape editing",
+    "in-game player renaming"
+  ],
+  "native_changes_from_v16": "allow verified parameter storage51..55; existing hook addresses unchanged",
+  "default_project_empty": true,
+  "limits": [
+    "No Android device test of new pack UI or motion presets",
+    "Native tests use synthetic records and modeled resource callbacks",
+    "Browser tested over localhost because environment blocks file URLs",
+    "Pack installation adds definitions to local DB; existing grant path handles owned instances",
+    "Name input in reference APK is not evidence of native name export"
+  ]
+}

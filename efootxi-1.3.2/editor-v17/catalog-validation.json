@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED_LABELS_AND_CATALOG_PASS",
+  "skill_labels": 64,
+  "unresolved": [
+    "Defensive Fortress"
+  ],
+  "reference_apk_sha256": "92deb9b2cf8cdb81016fbc1e5e5d8973f7e4dfdffd294874f3be8b3fc020a116",
+  "attack_trigger_parameter": 131,
+  "hidden_placeholders": true,
+  "motion_enum_registration_log": "motion-string-xrefs.txt",
+  "motion_widths": [
+    2,
+    3,
+    4,
+    3,
+    4
+  ],
+  "catalog_players": 46610,
+  "pack_registry_players": 14330,
+  "empty_default_project": true
+}

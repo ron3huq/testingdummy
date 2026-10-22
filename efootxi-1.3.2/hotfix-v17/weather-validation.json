@@ -1,0 +1,47 @@
+{
+  "status": "WEATHER_CAPABILITY_AND_PROTOCOL_PASS",
+  "phone_verified": false,
+  "native_parameter_cases": 1365,
+  "source_stadiums": 15,
+  "source_records_unchanged": true,
+  "conditions": {
+    "518": {
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_DAY": 25,
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_NIGHT": 19,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_NIGHT": 9,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_DAY": 7
+    },
+    "122": {
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_DAY": 20,
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_NIGHT": 20,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_DAY": 11,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_NIGHT": 9
+    },
+    "566": {
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_NIGHT": 17,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_NIGHT": 16,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_DAY": 13,
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_DAY": 14
+    },
+    "128": {
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_DAY": 21,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_NIGHT": 11,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_DAY": 9,
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_NIGHT": 19
+    },
+    "549": {
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_NIGHT": 21,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_DAY": 9,
+      "WEATHER_TYPE_FINE|TIME_ZONE_TYPE_DAY": 21,
+      "WEATHER_TYPE_RAIN|TIME_ZONE_TYPE_NIGHT": 9
+    }
+  },
+  "checks": [
+    "real ARM64 stadium getter through actual detour; only9/10 changed for six allowed IDs in five competitions",
+    "other stadiums, other parameters including snow11, context0 and Eredivisie125 preserved",
+    "invalid parameter does not write output",
+    "gateway seeded weather stable across reloads; summer1..7, winter8..14 and allfour day/night/rain/fine combinations observed",
+    "winter8..14 retained, no snow request"
+  ],
+  "limits": "Rain/time/season enums and native capability acceptance validated; visual rain and resource loading require actual Android test"
+}

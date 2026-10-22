@@ -1,0 +1,29 @@
+{
+  "status": "BROWSER_ZIP_TO_NATIVE_EDITOR_PASS",
+  "device_tested": false,
+  "exported_files": 10,
+  "exact64_ids_preserved": true,
+  "stats_skills_height_weight_read_with_original_getters": true,
+  "scope_exit_restores_height_weight_skills": true,
+  "body_bounds_verified": true,
+  "motion_fields_51_to_55_getters_and_scope_restoration": true,
+  "short_and_long_native_fields_verified": true,
+  "repeat_queries_idempotent": true,
+  "all_four_formation_variants_verified": true,
+  "cached_team_restored_on_context0": true,
+  "captain_six_takers_shirts_verified": true,
+  "missing_player_prevents_all_team_writes": true,
+  "explicit_roster_replaces_old_mixed_keys": true,
+  "gateway_removes_learned_skill_without_source_mutation": true,
+  "invalid_projects_rejected": [
+    "duplicate_shirt",
+    "unknown_parameter",
+    "duplicate_player",
+    "bad_taker",
+    "float_id"
+  ],
+  "limits": [
+    "Synthetic exact64 DB and source records in Unicorn",
+    "Android appearance/formation visuals not tested"
+  ]
+}
