@@ -1,0 +1,157 @@
+{
+  "source_pc_face_hash": "6c86ec08ed1e9067f2a30d256f888a10cf87ea75eff0eeb03deee6c6d214e4a6",
+  "source_meshes": [
+    "face_high:0 neck",
+    "face_high:2 full facial skin",
+    "hair_high:1 scalp",
+    "hair_high:0 hair"
+  ],
+  "pc_skin_vertices": 2366,
+  "pc_skin_triangles": 4420,
+  "hair_vertices": 5005,
+  "total_vertices": 7371,
+  "native_743_vertex_face_used": false,
+  "native_ref_skeleton_bones": 166,
+  "required_bones_both_lods": 166,
+  "active_bones": 166,
+  "face_bone_map": {
+    "7": "sk_head",
+    "6": "sk_cervicalspine_02",
+    "5": "sk_cervicalspine_01",
+    "4": "sk_spine_03",
+    "8": "skf_jaw",
+    "10": "skf_eyelid_t_l",
+    "11": "skf_eyelid_b_l",
+    "12": "skf_eyelid_t_r",
+    "13": "skf_eyelid_b_r",
+    "72": "sk_shoulder_l",
+    "106": "sk_shoulder_r"
+  },
+  "bone_policy": {
+    "sk_chest": {
+      "sk_spine_03": 1.0
+    },
+    "dsk_neckback": {
+      "sk_cervicalspine_01": 1.0
+    },
+    "sk_neck": {
+      "sk_cervicalspine_02": 1.0
+    },
+    "dsk_scm": {
+      "sk_cervicalspine_02": 1.0
+    },
+    "dsk_clavicle_l": {
+      "sk_shoulder_l": 1.0
+    },
+    "sk_head": {
+      "sk_head": 1.0
+    },
+    "skf_jaw": {
+      "skf_jaw": 1.0
+    },
+    "dsk_clavicle_r": {
+      "sk_shoulder_r": 1.0
+    },
+    "skf_eyelid_b_l": {
+      "skf_eyelid_b_l": 1.0
+    },
+    "skf_orbicularisoculi_b_l": {
+      "sk_head": 1.0
+    },
+    "skf_eyelid_t_l": {
+      "skf_eyelid_t_l": 1.0
+    },
+    "skf_cheek_l": {
+      "sk_head": 0.8,
+      "skf_jaw": 0.2
+    },
+    "skf_nose": {
+      "sk_head": 1.0
+    },
+    "skf_brow_i_l": {
+      "sk_head": 1.0
+    },
+    "skf_doublechin": {
+      "skf_jaw": 1.0
+    },
+    "skf_cheek_s_l": {
+      "sk_head": 0.8,
+      "skf_jaw": 0.2
+    },
+    "skf_lip_b_l": {
+      "skf_jaw": 1.0
+    },
+    "skf_lip_b_c": {
+      "skf_jaw": 1.0
+    },
+    "skf_lip_b_r": {
+      "skf_jaw": 1.0
+    },
+    "skf_cheek_s_r": {
+      "sk_head": 0.8,
+      "skf_jaw": 0.2
+    },
+    "skf_lip_s_r": {
+      "sk_head": 0.5,
+      "skf_jaw": 0.5
+    },
+    "skf_cheek_r": {
+      "sk_head": 0.8,
+      "skf_jaw": 0.2
+    },
+    "skf_brow_o_r": {
+      "sk_head": 1.0
+    },
+    "skf_orbicularisoculi_b_r": {
+      "sk_head": 1.0
+    },
+    "skf_brow_i_r": {
+      "sk_head": 1.0
+    },
+    "skf_eyelid_t_r": {
+      "skf_eyelid_t_r": 1.0
+    },
+    "skf_eyelid_b_r": {
+      "skf_eyelid_b_r": 1.0
+    },
+    "skf_nasolabialfold_t_r": {
+      "sk_head": 1.0
+    },
+    "skf_glabella": {
+      "sk_head": 1.0
+    },
+    "skf_nosewing_r": {
+      "sk_head": 1.0
+    },
+    "skf_nosewing_l": {
+      "sk_head": 1.0
+    },
+    "skf_nasolabialfold_t_l": {
+      "sk_head": 1.0
+    },
+    "skf_lip_s_l": {
+      "sk_head": 0.5,
+      "skf_jaw": 0.5
+    },
+    "skf_lip_t_l": {
+      "sk_head": 1.0
+    },
+    "skf_lip_t_c": {
+      "sk_head": 1.0
+    },
+    "skf_brow_o_l": {
+      "sk_head": 1.0
+    },
+    "skf_lip_t_r": {
+      "sk_head": 1.0
+    },
+    "skf_lip_volume": {
+      "sk_head": 0.5,
+      "skf_jaw": 0.5
+    }
+  },
+  "source_pc_skin_positions_unchanged": true,
+  "source_pc_uv0_unchanged": true,
+  "facial_controls": "named jaw/eyelids retained; unsupported fine controls reduced explicitly",
+  "mobile_renderer_verified": false
+}

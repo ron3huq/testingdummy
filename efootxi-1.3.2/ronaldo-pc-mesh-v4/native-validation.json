@@ -1,0 +1,26 @@
+{
+  "status": "FIVE_ARM64_DETOURS_SCOPE_SRET_IDENTITY_FALLBACK_PASS",
+  "checks": [
+    "other_card_4522",
+    "other_card_88049245491626",
+    "other_card_89138556572074",
+    "other_card_70373039149482",
+    "other_card_88038776539586",
+    "target_4522_original_identity_private_assets",
+    "target_4522lg00v0000_original_identity_private_assets",
+    "target_4522ep01v0291_original_identity_private_assets",
+    "target_4522ep00v0313_original_identity_private_assets",
+    "scope_closed_and_sret_varargs_preserved",
+    "non_texture_format_passthrough",
+    "full_original_mesh_texture_restore",
+    "inline_failure_suppresses_nested_redirect",
+    "disabled_passthrough",
+    "texture_callback_original_cleanup",
+    "foreign_thread_cannot_inherit_target_asset_scope"
+  ],
+  "engine_sha256": "3da06a36fb5c434a75c5739af65f16664347477bd653659eb354376410d52f98",
+  "hook_sha256": "e3786e247097263f3fa115d987c94fb6618693dd3a37eba3543c4572032bb23c",
+  "engine_bodies_modeled": true,
+  "renderer_cutscene_verified": false,
+  "phone_tested": false
+}

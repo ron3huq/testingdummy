@@ -1,0 +1,71 @@
+{
+  "status": "FULL_PC_FACE_NATIVE_RIG_REQUIRED_BONES_AND_BASIC_SKINNING_PASS",
+  "variants": [
+    {
+      "variant": "4522",
+      "pc_skin_vertices": 2366,
+      "pc_skin_triangles": 4420,
+      "source_pc_skin_positions_and_uv_roundtrip_max_error_under_2e_6": true,
+      "native_bind_matrices_all_166_identical": true,
+      "named_facial_controls_weighted_vertices": {
+        "skf_jaw": 810,
+        "skf_eyelid_t_l": 108,
+        "skf_eyelid_b_l": 36,
+        "skf_eyelid_t_r": 95,
+        "skf_eyelid_b_r": 36
+      },
+      "jaw_skinning_moves_vertices": 810,
+      "all_166_active_and_required_bones": true
+    },
+    {
+      "variant": "4522lg00v0000",
+      "pc_skin_vertices": 2366,
+      "pc_skin_triangles": 4420,
+      "source_pc_skin_positions_and_uv_roundtrip_max_error_under_2e_6": true,
+      "native_bind_matrices_all_166_identical": true,
+      "named_facial_controls_weighted_vertices": {
+        "skf_jaw": 810,
+        "skf_eyelid_t_l": 108,
+        "skf_eyelid_b_l": 36,
+        "skf_eyelid_t_r": 95,
+        "skf_eyelid_b_r": 36
+      },
+      "jaw_skinning_moves_vertices": 810,
+      "all_166_active_and_required_bones": true
+    },
+    {
+      "variant": "4522ep01v0291",
+      "pc_skin_vertices": 2366,
+      "pc_skin_triangles": 4420,
+      "source_pc_skin_positions_and_uv_roundtrip_max_error_under_2e_6": true,
+      "native_bind_matrices_all_166_identical": true,
+      "named_facial_controls_weighted_vertices": {
+        "skf_jaw": 810,
+        "skf_eyelid_t_l": 108,
+        "skf_eyelid_b_l": 36,
+        "skf_eyelid_t_r": 95,
+        "skf_eyelid_b_r": 36
+      },
+      "jaw_skinning_moves_vertices": 810,
+      "all_166_active_and_required_bones": true
+    },
+    {
+      "variant": "4522ep00v0313",
+      "pc_skin_vertices": 2366,
+      "pc_skin_triangles": 4420,
+      "source_pc_skin_positions_and_uv_roundtrip_max_error_under_2e_6": true,
+      "native_bind_matrices_all_166_identical": true,
+      "named_facial_controls_weighted_vertices": {
+        "skf_jaw": 810,
+        "skf_eyelid_t_l": 108,
+        "skf_eyelid_b_l": 36,
+        "skf_eyelid_t_r": 95,
+        "skf_eyelid_b_r": 36
+      },
+      "jaw_skinning_moves_vertices": 810,
+      "all_166_active_and_required_bones": true
+    }
+  ],
+  "mobile_cutscene_tested": false,
+  "mobile_facial_clips_tested": false
+}

@@ -1,3 +1,5 @@
+> Người dùng báo v3 kéo tay/giày trong cutscene. Có [bản thử v4](../ronaldo-pc-mesh-v4/HUONG_DAN.md) và gói tắt đầu thử; chưa xác nhận v4 trên thiết bị.
+
 # Ronaldo PC face v3 — chuyển thử mặt từ 4522.cpk và giữ mã facial profile gốc
 
 Chỉ **Card ID 88044950524330**. `4522` là nhóm tài nguyên đầu Ronaldo, không phải Card ID. Các bản v1/v1b dùng mặt Android gốc; v2 chỉ sculpt nhẹ mặt gốc và chuyển màu tóc. V3 mới chuyển bề mặt/màu da mặt từ nguồn PC.
