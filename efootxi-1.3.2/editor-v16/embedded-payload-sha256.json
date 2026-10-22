@@ -1,0 +1,10 @@
+{
+  "gateway_runtime.py": "8ec5c2105552538aca24c7b338e7ddf10425cbc58368eea2d3dc7db53ae91edf",
+  "select_team_runtime.py": "31890b1c75c23383f214ff31e5430f7efff020782d2849b2cdf966b51bc871ef",
+  "libselect_team.so": "529dcdba37b9e874eeadeb1b477f0f45192bad8f1df65d3f5f64725a68045ddd",
+  "myleague_realism.py": "00eb323c48f3a3952eb1794710b0fd2cc00058f19572eeec88863717b6da46d6",
+  "myleague_worlds.py": "96d04e4666de8d2c4899c91f5307fef5d3660fa9fe88cc20fd84990300d879d0",
+  "myleague_balance.py": "361fbe202fe1e8647a26580cf1de522fc9d9351de266ef522c90367093dc9c54",
+  "myleague_custom.json": "262b300a6f5ddcca6166172e39ecf5eabc579088d34eaec8252abb5bc945796f",
+  "myleague_editor_runtime.py": "39cab1710a8cf232e1e564125b2217f641c5075bacbc2e638897f487931b380d"
+}

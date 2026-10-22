@@ -1,0 +1,28 @@
+{
+  "status": "PACKAGE_PASS",
+  "device_tested": false,
+  "runtime": {
+    "filename": "efootxi-1.3.2-native-hotfix-v16-editor-weather.zip",
+    "sha256": "4fb3e65c69c3a22484189448b654fca4c6c5629c26c16b4e0563fbaf2192c0ab",
+    "bytes": 218925,
+    "files": {
+      "gateway_runtime.py": "8ec5c2105552538aca24c7b338e7ddf10425cbc58368eea2d3dc7db53ae91edf",
+      "select_team_runtime.py": "31890b1c75c23383f214ff31e5430f7efff020782d2849b2cdf966b51bc871ef",
+      "libselect_team.so": "529dcdba37b9e874eeadeb1b477f0f45192bad8f1df65d3f5f64725a68045ddd",
+      "myleague_realism.py": "00eb323c48f3a3952eb1794710b0fd2cc00058f19572eeec88863717b6da46d6",
+      "myleague_worlds.py": "96d04e4666de8d2c4899c91f5307fef5d3660fa9fe88cc20fd84990300d879d0",
+      "myleague_balance.py": "361fbe202fe1e8647a26580cf1de522fc9d9351de266ef522c90367093dc9c54",
+      "myleague_custom.json": "262b300a6f5ddcca6166172e39ecf5eabc579088d34eaec8252abb5bc945796f",
+      "myleague_editor_runtime.py": "39cab1710a8cf232e1e564125b2217f641c5075bacbc2e638897f487931b380d",
+      "myleague_editor.json": "8c5600422ec25b810c85cf0f530d11a03c65557c1047cadcbd0cac18b7d2153a"
+    }
+  },
+  "app": {
+    "filename": "MyLeagueStudio-v16-offline.zip",
+    "sha256": "b4831c3b835175ea609c0076861ad6a575be7b2902a43547b096ecfc538217b3",
+    "bytes": 1575093,
+    "html_sha256": "632ea06b533647c96a9dcdba103a9c191b157632f431b97806eefe7ec4eb5029"
+  },
+  "browser_generated_zip_validated": true,
+  "trial_retired": true
+}

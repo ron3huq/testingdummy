@@ -1,0 +1,47 @@
+{
+  "version": "native-hotfix-v16",
+  "status": "OFFLINE_EDITOR_AND_WEATHER_COMPONENT_VALIDATED_DEVICE_UNTESTED",
+  "device_tested": false,
+  "editor": {
+    "catalog_players": 46610,
+    "teams": 76,
+    "skill_flags": 74,
+    "max_player_rows": 1024,
+    "max_team_rows": 128,
+    "install_files": 9,
+    "body_fields": [
+      "height",
+      "weight"
+    ],
+    "sleeves": [
+      "original",
+      "short",
+      "long"
+    ],
+    "ui": "standalone offline HTML",
+    "apk_created": false
+  },
+  "weather": {
+    "summer_days": [
+      1,
+      7
+    ],
+    "winter_days": [
+      8,
+      14
+    ],
+    "after_day14": "stable seeded flexible summer/winter",
+    "fog_enabled": false,
+    "snow_enabled": false
+  },
+  "gullit_rolled_trial_retired": true,
+  "simulation_byte_identical_to": "native-hotfix-v10",
+  "save_or_source_tables_modified": false,
+  "limits": [
+    "New editor/runtime and visual weather not tested on Android",
+    "Native tests use synthetic exact64 DB and modeled libc/resource boundaries",
+    "File URL navigation was blocked by environment Chromium admin policy; self-contained HTML was browser-tested over localhost",
+    "Only existing native player IDs; no face/hair/muscle mesh editor",
+    "Club native rosters, not DreamTeam inventory/contracts"
+  ]
+}

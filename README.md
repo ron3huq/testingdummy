@@ -9,6 +9,23 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## My League Studio + native hotfix v16 — app chỉnh dữ liệu và lịch thời tiết
+
+- [Tải app My League Studio v16 (ZIP, mở HTML trên Chrome/Edge)](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/editor-v16/MyLeagueStudio-v16-offline.zip)
+- [Tải riêng file HTML tự chứa](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/editor-v16/MyLeagueEditor.html)
+- [Hướng dẫn Android/MT Manager, xuất9 file và đọc trạng thái](efootxi-1.3.2/editor-v16/HUONG_DAN.md)
+- [Runtime v16 mặc định: thời tiết mới, chưa thêm sửa cầu thủ/đội](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v16/efootxi-1.3.2-native-hotfix-v16-editor-weather.zip)
+- [Kiểm tra ZIP xuất từ app qua mã native](efootxi-1.3.2/hotfix-v16/editor-validation.json)
+- [Kiểm tra giao diện](efootxi-1.3.2/editor-v16/browser-validation.json)
+
+App web tự chứa46.610 ID/tên cầu thủ và76 đội trong năm giải tùy chỉnh. Chỉnh chỉ số thành phần, thêm/xóa skill, chiều cao/cân nặng, tay dài/ngắn; thay người, dự bị, kéo vị trí, sơ đồ mẫu, vai trò và số áo. Xuất ZIP chứa đủ9 file runtime/cấu hình để chép vào files/embedded-gateway/work/tools/. Không cần root hoặc compiler; lưu và nhập lại dự án JSON để sửa tiếp. Phần đội hình là roster CLB native/đối thủ My League, không thay DreamTeam hoặc kho sở hữu. Chỉ dùng ID có trong engine hiện tại, chưa chỉnh mesh mặt/tóc/cơ bắp.
+
+Thời tiết: ngày1–7 mùa hè, ngày8–14 mùa đông (ngày8 ưu tiên mùa đông do yêu cầu gốc chồng nhau), sau đó linh động. Mưa và sáng/tối thay đổi có seed ổn định; có thể chỉnh lịch/tỷ lệ trong app. Sương mù chưa có enum/đường điều khiển được xác minh nên không bật; không bật tuyết. **Thử nghiệm tay xắn Gullit đã bị tắt.**
+
+Đã chạy giao diện Chromium (desktop/mobile390px), xuất/nhập/lưu dự án và ZIP. Đã nạp chính JSON từ ZIP đó vào thư viện C trong Unicorn rồi đọc lại bằng getter ARM64 gốc: stats/skill/cơ thể, tay dài/ngắn, bốn sơ đồ, số áo, captain/sáu taker, hoàn nguyên phạm vi/cache và chặn toàn bộ ghi đội khi thiếu cầu thủ. Native/cached/crash-entry/appearance/weather/gateway regression đều qua. **Chưa kiểm tra trực tiếp editor mới và hình ảnh thời tiết trên Android**; một số DB/resource boundary được mô hình hóa. File:// bị policy Chromium của môi trường chặn, nên app tự chứa được kiểm tra qua localhost. Tài nguyên app không cần mạng sau khi tải.
+
+Giữ nguyên mã mô phỏng v10, không sửa APK/dt200/CPK/save. Buộc dừng, sao lưu và chép đủ9 file, mở lại My League/trận mới. Mỗi ZIP do app xuất đã kèm runtime v16; không cần cài runtime mặc định trước.
+
 ## Native hotfix v15 — tay dài theo giải, bản thử riêng Gullit
 
 - [Tải bản tay dài thông thường](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v15/efootxi-1.3.2-native-hotfix-v15-long-sleeve.zip)
