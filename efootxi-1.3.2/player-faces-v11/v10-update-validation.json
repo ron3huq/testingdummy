@@ -1,0 +1,13 @@
+{
+  "status": "FOUR_FILE_V10_UPDATE_NATIVE_SHA_AND_BASELINE_DEPENDENCIES_PASS",
+  "files": [
+    "work/tools/noodle_hair.py",
+    "work/tools/libnoodle_hair.so",
+    "work/tools/noodle_bundle.json",
+    "work/tools/noodle_hair.json"
+  ],
+  "bytes": 28554,
+  "sha256": "ce9fd08fd0c8cac13fd61367388af5a02ba06097b74056eee2e3c88893d25ec0",
+  "requires_verified_original_v10": true,
+  "phone_tested": false
+}

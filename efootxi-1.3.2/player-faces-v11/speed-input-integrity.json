@@ -1,0 +1,21 @@
+{
+  "archive_sha256": "cd200b71367a0750715424604f7c2a8f4a0a37e8d3ca8424bf42bf8a8f798328",
+  "archive_bytes": 19304745,
+  "expanded_fpk_members_identical": [
+    {
+      "name": "face_diff.bin",
+      "bytes": 960,
+      "sha256": "0d00e07e83aec37093674bdd517af1ac6492cd3d4e431c7c74845af8a5273018"
+    },
+    {
+      "name": "face_high.fmdl",
+      "bytes": 164320,
+      "sha256": "9e9af3879e593f01c860881548f291ce519507623f775cfa489206518e00cedf"
+    },
+    {
+      "name": "hair_high.fmdl",
+      "bytes": 375557,
+      "sha256": "ba04e90c067578227d107cbccb72c599e7fd11b5273ab1e96868beb64adedbf8"
+    }
+  ]
+}
