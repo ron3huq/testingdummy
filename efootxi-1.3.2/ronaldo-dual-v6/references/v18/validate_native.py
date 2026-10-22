@@ -1,0 +1,215 @@
+"""Original ARM64 accessors + compiled v6 on synthetic DB records, NOT a device test."""
+from pathlib import Path
+import json,struct,hashlib
+from elftools.elf.elffile import ELFFile
+from unicorn import Uc,UC_ARCH_ARM64,UC_MODE_ARM,UC_HOOK_CODE
+from unicorn.arm64_const import *
+r=Path(__file__).parent
+engine=Path('/workspace/analysis/my-league/android/official-apk/lib/arm64-v8a/libUE4.so')
+assert hashlib.sha256(engine.read_bytes()).hexdigest()=='3da06a36fb5c434a75c5739af65f16664347477bd653659eb354376410d52f98'
+u=Uc(UC_ARCH_ARM64,UC_MODE_ARM)
+def w(a,f,*v):u.mem_write(a,struct.pack('<'+f,*v))
+def load(path,base=0):
+ with path.open('rb') as f:
+  elf=ELFFile(f)
+  for s in elf.iter_segments():
+   if s['p_type']!='PT_LOAD':continue
+   start=(base+s['p_vaddr'])&~4095;end=(base+s['p_vaddr']+s['p_memsz']+4095)&~4095
+   u.mem_map(start,end-start);u.mem_write(base+s['p_vaddr'],s.data())
+  if not base:return
+  symbols={s.name:base+s['st_value'] for s in elf.get_section_by_name('.dynsym').iter_symbols()}
+  for s in elf.iter_sections():
+   if not s.name.startswith('.rela'):continue
+   for rel in s.iter_relocations():
+    assert rel['r_info_type']==1027
+    w(base+rel['r_offset'],'Q',base+rel['r_addend'])
+  return symbols
+load(engine);symbols=load(r/'libselect_team.so',0x35000000)
+u.mem_map(0x30000000,0x4000000)
+u.reg_write(UC_ARM64_REG_TPIDR_EL0,0x33001000)
+def call(addr,*args):
+ for reg,value in zip([UC_ARM64_REG_X0,UC_ARM64_REG_X1,UC_ARM64_REG_X2,UC_ARM64_REG_X3,UC_ARM64_REG_X4],args):u.reg_write(reg,value)
+ u.reg_write(UC_ARM64_REG_SP,0x31fff000);u.reg_write(UC_ARM64_REG_LR,0x33000010)
+ u.emu_start(addr,0x33000010,count=20000000)
+ assert u.reg_read(UC_ARM64_REG_PC)==0x33000010
+ return u.reg_read(UC_ARM64_REG_X0)
+def get(p,index):
+ call(0x82a84d4,p,index,0x33200000)
+ return struct.unpack('<I',u.mem_read(0x33200000,4))[0]
+
+import sys,sqlite3
+sys.path[:0]=[str(r),str(r.parent/'android/user-gateway/work/tools')]
+import native_overall
+cfg=json.loads((r/'myleague_custom.json').read_text());can=json.loads((r.parent/'android/user-gateway/outputs/reference/canonical_rosters.json').read_text())
+players={};teams={};heap=0x30000000;db=heap;XOR_KEY=0x1a2b3c4d5e6f7a8b;w(0xa52e030,'Q',XOR_KEY)
+ids=set(sum(cfg['native_rosters'].values(),[]))|set(map(int,cfg['base_overrides']))|set(map(int,cfg['card_overrides']))|set(map(int,cfg['base_adjustments']))|{52776558193083}
+source=(r.parent/'android/tables/Player.bin').read_bytes();spare=[]
+for off in range(0,len(source),400):
+ candidate=struct.unpack_from('<Q',source,off+8)[0]
+ if candidate and candidate not in ids and candidate not in spare:spare.append(candidate)
+ if len(spare)==6:break
+ids.update(spare)
+for pid in sorted(ids):
+ p=heap;heap+=0x1d0;players[pid]=p;w(p+0x38,'I',0);w(p+0x40,'Q',pid^XOR_KEY)
+ role=can['positions'].get(str(pid),6);classic=cfg['classic_profiles'].get(str(pid));role=classic['roles'][0] if classic else role
+ for index,value in [(0,role),(47,185)]+[(i,96 if classic else 70) for i in range(14,41) if i!=33]+[(33,2),(72,1)]:call(0x82a907c,p,index,value)
+ for i in range(1,14):call(0x82a907c,p,i,(i+pid)%3)
+ # Vary unmodified thresholds and ceiling without relying on any copied implementation.
+ if pid not in map(int,cfg['base_overrides']) and not classic:
+  for row in cfg['base_adjustments'].get(str(pid),[]):call(0x82a907c,p,{'defensive_awareness':15,'defensive_engagement':26,'tackling':24,'aggression':25,'low_pass':21,'lofted_pass':22}[row['stat']],[70,83,84,98,99][pid%5])
+source_position_fields={pid:[get(p,i)for i in range(14)]for pid,p in players.items()}
+w(db+0x2686098,'I',len(players))
+for pid,p in players.items():assert call(0x823c8d4,db,0,pid)==p
+heap=0x33300000
+for tid in dict.fromkeys(list(cfg['native_rosters'])+list(cfg['team_names'])+list(map(str,cfg['visual_aliases'].values()))+['103']):
+ p=heap;heap+=0x1000;teams[int(tid)]=p;u.mem_write(p,b'\x55'*0x700);w(p,'I',int(tid)<<14)
+ if tid=='116':u.mem_write(p+4,b'Ajax\0\0')
+ u.mem_write(p+0x56f,bytes((int(tid)+i)%256 for i in range(80)))
+ old=can['rosters'].get(tid,[]) if tid!='127' else []
+ for i,pid in enumerate(old):w(p+0x110+i*16,'QQ',0,pid);w(p+0x3a2+i*2,'H',i+1)
+ w(p+0x40c,'I',(len(old)<<9)|0x80000001)
+def stub(uc,addr,size,data):
+ if addr==0x33000040:value=teams.get(uc.reg_read(UC_ARM64_REG_W1)>>14,0)
+ elif addr==0x82468d4:value=0x33201000
+ else:return
+ uc.reg_write(UC_ARM64_REG_X0,value);uc.reg_write(UC_ARM64_REG_PC,uc.reg_read(UC_ARM64_REG_LR))
+u.hook_add(UC_HOOK_CODE,stub);w(0x33201040,'Q',db)
+assert call(symbols['ensure_team'],127)==10
+call(symbols['configure_team'],0,0x33000040);call(symbols['configure_player'],0,0x823c8d4);call(symbols['configure_short'],0,0x82b4a7c)
+# Original lookup must distinguish59835 from the complete existing Guerreiro card.
+assert call(0x823c8d4,db,0,59835)!=players[52776558193083]
+assert call(symbols['ensure_team'],127)==1
+p=teams[127];before=bytes(u.mem_read(p,0x700));kane=players[47287];w(kane+0x40,'Q',0^XOR_KEY)
+assert call(symbols['ensure_team'],127)==13 and bytes(u.mem_read(p,0x700))==before
+w(kane+0x40,'Q',47287^XOR_KEY)
+for tid,ids in cfg['native_rosters'].items():
+ call(symbols['activate_context'],518 if tid in cfg['classic_teams'] else 0)
+ p=teams[int(tid)];before=bytes(u.mem_read(p,0x700));assert call(symbols['ensure_team'],int(tid))==1
+ assert call(0x68fd47c,p)==len(ids)
+ for i,pid in enumerate(ids):
+  call(0x68fc714,p,i,0x33200000);assert u.reg_read(UC_ARM64_REG_X0)==0 and u.reg_read(UC_ARM64_REG_X1)==pid
+  wanted=cfg['shirt_overrides'].get(tid,{}).get(str(pid))
+  if wanted:assert struct.unpack('<H',u.mem_read(0x33200000,2))[0]==wanted
+ after=bytes(u.mem_read(p,0x700));allowed=set(range(0x110,0x110+len(ids)*16))|set(range(0x3a2,0x3a2+len(ids)*2))|set(range(0x40c,0x410))
+ if tid in cfg['match_environment']['home_stadiums']:allowed|=set(range(0x3f4,0x3f8))
+ if tid in cfg['team_names']:allowed |=set(range(4,74))|set(range(0x4a,0x4e))
+ if tid in cfg['classic_teams']:allowed |=set(range(0x478,0x478+34))|set(range(0x49a,0x49a+34))|set(range(0x4d8,0x4d8+34))|set(range(0x4fa,0x4fa+34))|set(range(0x538,0x56a))
+ if tid in cfg['visual_aliases']:allowed |=set(range(0x56f,0x5bf))
+ assert all(before[i]==after[i] for i in range(0x700) if i not in allowed),tid
+ assert call(symbols['ensure_team'],int(tid))==1 and bytes(u.mem_read(p,0x700))==after
+ if tid in cfg['classic_teams']:
+  plan=cfg['classic_teams'][tid]['formation']
+  for off in [0x478,0x49a,0x4d8,0x4fa]:
+   for i,(role,x,y) in enumerate(plan):
+    assert call(0x82b5f10,p+off,i)==role
+    ptr=call(0x82b5f30,p+off,i);assert bytes(u.mem_read(ptr,2))==bytes([x,y])
+  assert list(u.mem_read(p+0x538,len(ids)))==list(range(len(ids)))
+  assert list(u.mem_read(p+0x560,6))==cfg['classic_teams'][tid]['set_piece_taker']
+  assert u.mem_read(p+0x569,1)[0]==cfg['classic_teams'][tid]['responsibilities']['captain']
+  for pid in ids:
+   pp=players[pid];params=[get(pp,i) for i in range(147)];assert params[72]==0
+   assert native_overall.rating(params,params[0])==cfg['classic_profiles'][str(pid)]['target_ovr'] and params[108]==0
+   assert params[:14]==source_position_fields[pid]
+   before_params=list(params)
+   for repeat in range(4):call(symbols['player_hook'],db,0,pid)
+   assert [get(pp,i) for i in range(147)]==before_params
+call(symbols['activate_context'],0)
+for target,donor in [(int(k),v) for k,v in cfg['visual_aliases'].items()]:assert bytes(u.mem_read(teams[target]+0x56f,80))==bytes(u.mem_read(teams[donor]+0x56f,80))
+from myleague_worlds import STAT_INDEX as stat
+for pid in set(cfg['base_overrides'])|set(cfg['base_adjustments'])|set(cfg['card_overrides']):
+ if pid in cfg['classic_profiles']:continue # NPC cap takes precedence here; owned-card handlers tested separately.
+ pp=players[int(pid)];before=[get(pp,i) for i in range(147)];rule=cfg['card_overrides'].get(pid)or cfg['base_overrides'].get(pid)or{};edits={}
+ for row in cfg['base_adjustments'].get(pid,[]):
+  ix=stat[row['stat']];edits[ix]=min(99,before[ix]+row['delta']) if before[ix]<row['below'] else before[ix]
+ edits.update({stat[k]:v for k,v in rule.get('stats',{}).items()});edits.update({i:1 for i in rule.get('skill_flags_add',[])});edits.update({i:0 for i in rule.get('skill_flags_remove',[])})
+ expected=[edits.get(i,before[i]) for i in range(147)];expected[37]=min(127,expected[37]+7) if expected[37]>84 else expected[37]
+ if 4<=expected[0]<=12 and not(expected[127] or expected[120]):expected[103]=1
+ assert call(symbols['player_hook'],db,0,int(pid))==pp
+ actual=[get(pp,i) for i in range(147)]
+ assert actual==expected,(pid,[(i,expected[i],actual[i]) for i in range(147) if expected[i]!=actual[i]])
+ for repeat in range(3):call(symbols['player_hook'],db,0,int(pid))
+ assert [get(pp,i) for i in range(147)]==actual
+for tid,row in cfg['team_names'].items():
+ pp=teams[int(tid)];before=bytes(u.mem_read(pp,0x700));assert call(symbols['ensure_team'],int(tid))==1
+ assert bytes(u.mem_read(call(0x82b4a74,pp),len(row['name'])+1))==row['name'].encode()+b'\0'
+ sp=call(symbols['short_hook'],pp);assert bytes(u.mem_read(sp,len(row['short'])+1))==row['short'].encode()+b'\0'
+ #4-byte short field must not clobber adjacent uint16 country/flags at+4e.
+ assert bytes(u.mem_read(pp+0x4e,2))==before[0x4e:0x50]
+for pid,power,role,low,blitz in zip(spare,[83,84,85,94,120,127],[0,3,4,12,8,11],[0,0,0,1,0,0],[0,0,0,0,1,0]):
+ pp=players[pid]
+ for index,value in [(37,power),(0,role),(127,low),(120,blitz),(103,0)]:call(0x82a907c,pp,index,value)
+ call(symbols['player_hook'],db,0,pid)
+ expected=min(127,power+7) if power>84 else power
+ assert get(pp,37)==expected and get(pp,103)==int(4<=role<=12 and not(low or blitz))
+ for repeat in range(20):call(symbols['player_hook'],db,0,pid)
+ assert get(pp,37)==expected
+# Native player detour is tested independently of direct hook calls.
+import importlib.util
+spec=importlib.util.spec_from_file_location('runtime',r/'select_team_runtime.py');runtime=importlib.util.module_from_spec(spec);spec.loader.exec_module(runtime)
+entry=0x823c8d4;cave=0x0b001000;u.mem_map(cave,4096);stolen=bytes(u.mem_read(entry,4));u.mem_write(cave,runtime.jump(symbols['player_hook'])+b'\0'*16+stolen+runtime.jump(entry+4));call(symbols['configure_player'],0,cave+32);call(symbols['store_instruction'],entry,runtime.branch(entry,cave));u.ctl_remove_cache(entry,entry+16)
+assert call(entry,db,0,17592722922839)==players[17592722922839]
+assert call(entry,db,0xdeadbeef00000000,17592722922839)==players[17592722922839] # typed key kind uses low32; upper padding is not an enum
+assert call(symbols['ensure_team'],1222)==1
+# OVR transitions are absolute, reversible and identical to Python policy.
+from myleague_balance import balance
+for pid in spare:
+ pp=players[pid];call(symbols['activate_context'],0);call(symbols['player_hook'],db,0,pid);baseline=[get(pp,i) for i in range(147)]
+ for cid in [518,566,122,518,566,0]:
+  call(symbols['activate_context'],cid);call(symbols['player_hook'],db,0,pid);actual=[get(pp,i) for i in range(147)]
+  target=balance(baseline,cid,target=90 if cid==518 else None) if cid else baseline
+  if cid==122 and baseline[0] in (1,2,3):
+   for flag in [106,111,113,115]:target[flag]=1
+  assert actual==target,(pid,cid,[(i,actual[i],target[i]) for i in range(147) if actual[i]!=target[i]])
+  for repeat in range(5):call(symbols['player_hook'],db,0,pid)
+  assert [get(pp,i) for i in range(147)]==target
+call(symbols['activate_context'],0)
+# Disabled compatibility API must not access any engine stage helper.
+def forbidden_stadium_call(uc,addr,size,data):
+ if addr in (0x3033e64,0x73f46a4,0x3422074,0x3421e38):raise AssertionError('disabled stage path reached native engine')
+u.hook_add(UC_HOOK_CODE,forbidden_stadium_call)
+for snow in (0,1):
+ assert call(symbols['stadium_mask'],snow)==0
+ for cid in (0,122,518,566):assert call(symbols['set_environment'],cid,85,snow)==1
+assert 'stage_default_hook' in symbols and 'stage_home_hook' in symbols
+call(symbols['activate_context'],0)
+assert call(symbols['environment_status'],2)==0
+# Execute actual cached-Team accessors and runtime plan consumer. Seed each
+# snapshot with wrong formation, takers, shirt numbers and old Arsenal colors.
+call(symbols['configure_cached_team'],0,0x82948d0)
+call(symbols['configure_cached_find'],0,0x82948ec)
+call(symbols['configure_kit_resource'],0,0x82446d8)
+call(symbols['activate_context'],518)
+root=0x33210000;sideptr=0x33212000;output=0x33213000
+for tid,definition in cfg['classic_teams'].items():
+ for side in [0,1]:
+  cp=root+0x620+side*0x5d8;u.mem_write(cp,b'\x55'*0x5d8);w(cp,'I',int(tid)<<14);w(cp+0x40c,'I',11<<9);u.mem_write(cp+0x110,b'\0'*(40*16));w(sideptr,'I',side)
+  assert call(symbols['cached_team_hook'],root,sideptr)==cp
+  # This is the same field consumed by the original stadium getter73f34b4.
+  assert (struct.unpack('<I',u.mem_read(cp+0x3f4,4))[0]>>17)&255==cfg['match_environment']['home_stadiums'][tid]
+  before=bytes(u.mem_read(cp,0x5d8));count=call(symbols['cached_status'])
+  assert call(symbols['cached_team_hook'],root,sideptr)==cp and call(symbols['cached_status'])==count
+  for block in [0x478,0x4d8]:
+   for variant in [0,1]:
+    # Original82bfb2c emits member index, coordinates and assigned role
+    # for all11 runtime formation slots, not merely a raw memory assertion.
+    call(0x82bfb2c,output,11,cp+block,variant,cp+0x538)
+    for i,slot in enumerate(definition['slots'][:11]):
+     member,xy,role=struct.unpack('<IH2xI',bytes(u.mem_read(output+i*16,12)))
+     assert member==i and role==definition['formation'][i][0],(tid,i,member,role,[call(symbols['native_status'],j) for j in range(22)],list(u.mem_read(cp+0x478,11)),call(symbols['cached_status']),call(symbols['environment_status'],0))
+     call(0x68fc714,cp,member,0x33200000)
+     assert u.reg_read(UC_ARM64_REG_X1)==slot['player_id'] and struct.unpack('<H',u.mem_read(0x33200000,2))[0]==slot['shirt']
+  assert bytes(u.mem_read(cp+0x56f,80))==bytes(u.mem_read(teams[definition['visual_team']]+0x56f,80))
+  assert list(u.mem_read(cp+0x560,6))==definition['set_piece_taker'] and u.mem_read(cp+0x569,1)[0]==definition['responsibilities']['captain']
+  assert call(symbols['kit_resource_hook'],int(tid))==definition['visual_team']
+  # Simulate the game replacing its cached Team while keeping the same pointer.
+  u.mem_write(cp+0x538,b'\xff'*40);assert call(symbols['cached_team_hook'],root,sideptr)==cp
+  assert list(u.mem_read(cp+0x538,11))==list(range(11))
+# Every configured club (including national teams) gets a permitted home stadium.
+for tid,stadium in cfg['match_environment']['home_stadiums'].items():
+ cp=root+0x620;u.mem_write(cp,b'\x55'*0x5d8);w(cp,'I',int(tid)<<14);w(cp+0x40c,'I',11<<9);u.mem_write(cp+0x110,b'\0'*(40*16));w(sideptr,'I',0)
+ call(symbols['cached_team_hook'],root,sideptr)
+ assert (struct.unpack('<I',u.mem_read(cp+0x3f4,4))[0]>>17)&255==stadium
+assert call(symbols['environment_status'],2)==0
+call(symbols['activate_context'],0)
+report=dict(status='ARM64_COMPONENT_VALIDATED_DEVICE_UNTESTED',device_tested=False,synthetic_database=True,native_roster_counts={k:len(v) for k,v in cfg['native_rosters'].items()},classic_profiles=len(cfg['classic_profiles']),checks=['original full64 player resolver / lower_bound / XOR decode; complete card IDs never truncated','all18 roster preflights, shirt getters and exact typed player entries','all12 classic formations4 variants through original role/coordinate getters; valid lineup order','all classic NPCs exact configured neutral OVR90/92–94/96–97; original14 position fields preserved; no Marseille/Chop Turn; configured captain and six taker slots','classic targets stable through repeated lookups, no progressive stat reduction','base, exact cards and all220 relative policies; global power boost/conditional Dipping Shot; original147 getter/setter','adjacent native bytes preserved including short-name +4e boundary','all12 stale cached Team snapshots refreshed on both fixture sides; original82bfb2c runtime slot consumer verifies full64 identity, role and shirt; six takers/captain verified','cached kit blocks and actual3D resource team-ID resolver use exact donors','all76 club home stadium fields use allowed IDs; no100 writes; native UI resource fallback remains unverified','player hook via real atomic detour/trampoline including full64 Messi','missing player blocks roster writes','OVR scope518/566/0 changes match Python and restore baseline, repeated reads idempotent','gateway stage setters use atomics only; game-called stage selector hooks never return100 in active context; explicit this argument preserved outside My League'])
+(r/'native-validation.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report))

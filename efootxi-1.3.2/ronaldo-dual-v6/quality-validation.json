@@ -1,0 +1,24 @@
+{
+  "status": "NECK_FLAT_NORMAL_HAIR_HQ_2048X512_ALPHA_AND_GROUP_PASS",
+  "neck_checks": [
+    {
+      "profile": "ND01",
+      "neck_normal_sample_vertices": 88,
+      "median_tangent_normal_xy_error_from_flat": 6.0
+    },
+    {
+      "profile": "ND06",
+      "neck_normal_sample_vertices": 80,
+      "median_tangent_normal_xy_error_from_flat": 6.0
+    }
+  ],
+  "hair_source_resolution": [
+    2048,
+    512
+  ],
+  "hair_alpha_compression_mae": 1.0904855728149414,
+  "hair_both_quality_slots_use_hq": true,
+  "normal_map_srgb_metadata_from_native_normal_template": true,
+  "phone_tested": false,
+  "cutscene_confirmed_fixed": false
+}

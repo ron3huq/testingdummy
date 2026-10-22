@@ -1,0 +1,187 @@
+{
+  "status": "EIGHT_HEAD_ONLY_POSE_SCOPED_MESHES_AND_NATIVE_BIND_PASS",
+  "meshes": [
+    {
+      "profile": "ND01",
+      "variant": "4522",
+      "vertices": 7506,
+      "skin_vertices": 2366,
+      "eye_mouth_vertices": 135,
+      "hair_vertices": 5005,
+      "native_skeleton_and_bind_bytes_identical": true,
+      "active_required_bones": 15,
+      "controls": {
+        "skf_jaw": 772,
+        "skf_eye_l": 44,
+        "skf_eye_r": 44,
+        "skf_eyelid_t_l": 108,
+        "skf_eyelid_b_l": 36,
+        "skf_eyelid_t_r": 95,
+        "skf_eyelid_b_r": 36
+      },
+      "pose_max_displacement_m": 0.01942668706825388,
+      "face_hair_geometry_preserved": true,
+      "reader_exported": true
+    },
+    {
+      "profile": "ND06",
+      "variant": "4522",
+      "vertices": 4601,
+      "skin_vertices": 2369,
+      "eye_mouth_vertices": 135,
+      "hair_vertices": 2097,
+      "native_skeleton_and_bind_bytes_identical": true,
+      "active_required_bones": 15,
+      "controls": {
+        "skf_jaw": 783,
+        "skf_eye_l": 44,
+        "skf_eye_r": 44,
+        "skf_eyelid_t_l": 100,
+        "skf_eyelid_b_l": 37,
+        "skf_eyelid_t_r": 86,
+        "skf_eyelid_b_r": 37
+      },
+      "pose_max_displacement_m": 0.01923125615536347,
+      "face_hair_geometry_preserved": false,
+      "reader_exported": true
+    },
+    {
+      "profile": "ND01",
+      "variant": "4522lg00v0000",
+      "vertices": 7506,
+      "skin_vertices": 2366,
+      "eye_mouth_vertices": 135,
+      "hair_vertices": 5005,
+      "native_skeleton_and_bind_bytes_identical": true,
+      "active_required_bones": 15,
+      "controls": {
+        "skf_jaw": 772,
+        "skf_eye_l": 44,
+        "skf_eye_r": 44,
+        "skf_eyelid_t_l": 108,
+        "skf_eyelid_b_l": 36,
+        "skf_eyelid_t_r": 95,
+        "skf_eyelid_b_r": 36
+      },
+      "pose_max_displacement_m": 0.01942668706825388,
+      "face_hair_geometry_preserved": true,
+      "reader_exported": true
+    },
+    {
+      "profile": "ND06",
+      "variant": "4522lg00v0000",
+      "vertices": 4601,
+      "skin_vertices": 2369,
+      "eye_mouth_vertices": 135,
+      "hair_vertices": 2097,
+      "native_skeleton_and_bind_bytes_identical": true,
+      "active_required_bones": 15,
+      "controls": {
+        "skf_jaw": 783,
+        "skf_eye_l": 44,
+        "skf_eye_r": 44,
+        "skf_eyelid_t_l": 100,
+        "skf_eyelid_b_l": 37,
+        "skf_eyelid_t_r": 86,
+        "skf_eyelid_b_r": 37
+      },
+      "pose_max_displacement_m": 0.01923125615536347,
+      "face_hair_geometry_preserved": false,
+      "reader_exported": true
+    },
+    {
+      "profile": "ND01",
+      "variant": "4522ep01v0291",
+      "vertices": 7506,
+      "skin_vertices": 2366,
+      "eye_mouth_vertices": 135,
+      "hair_vertices": 5005,
+      "native_skeleton_and_bind_bytes_identical": true,
+      "active_required_bones": 15,
+      "controls": {
+        "skf_jaw": 772,
+        "skf_eye_l": 44,
+        "skf_eye_r": 44,
+        "skf_eyelid_t_l": 108,
+        "skf_eyelid_b_l": 36,
+        "skf_eyelid_t_r": 95,
+        "skf_eyelid_b_r": 36
+      },
+      "pose_max_displacement_m": 0.01942668706825388,
+      "face_hair_geometry_preserved": true,
+      "reader_exported": true
+    },
+    {
+      "profile": "ND06",
+      "variant": "4522ep01v0291",
+      "vertices": 4601,
+      "skin_vertices": 2369,
+      "eye_mouth_vertices": 135,
+      "hair_vertices": 2097,
+      "native_skeleton_and_bind_bytes_identical": true,
+      "active_required_bones": 15,
+      "controls": {
+        "skf_jaw": 783,
+        "skf_eye_l": 44,
+        "skf_eye_r": 44,
+        "skf_eyelid_t_l": 100,
+        "skf_eyelid_b_l": 37,
+        "skf_eyelid_t_r": 86,
+        "skf_eyelid_b_r": 37
+      },
+      "pose_max_displacement_m": 0.01923125615536347,
+      "face_hair_geometry_preserved": false,
+      "reader_exported": true
+    },
+    {
+      "profile": "ND01",
+      "variant": "4522ep00v0313",
+      "vertices": 7506,
+      "skin_vertices": 2366,
+      "eye_mouth_vertices": 135,
+      "hair_vertices": 5005,
+      "native_skeleton_and_bind_bytes_identical": true,
+      "active_required_bones": 15,
+      "controls": {
+        "skf_jaw": 772,
+        "skf_eye_l": 44,
+        "skf_eye_r": 44,
+        "skf_eyelid_t_l": 108,
+        "skf_eyelid_b_l": 36,
+        "skf_eyelid_t_r": 95,
+        "skf_eyelid_b_r": 36
+      },
+      "pose_max_displacement_m": 0.01942668706825388,
+      "face_hair_geometry_preserved": true,
+      "reader_exported": true
+    },
+    {
+      "profile": "ND06",
+      "variant": "4522ep00v0313",
+      "vertices": 4601,
+      "skin_vertices": 2369,
+      "eye_mouth_vertices": 135,
+      "hair_vertices": 2097,
+      "native_skeleton_and_bind_bytes_identical": true,
+      "active_required_bones": 15,
+      "controls": {
+        "skf_jaw": 783,
+        "skf_eye_l": 44,
+        "skf_eye_r": 44,
+        "skf_eyelid_t_l": 100,
+        "skf_eyelid_b_l": 37,
+        "skf_eyelid_t_r": 86,
+        "skf_eyelid_b_r": 37
+      },
+      "pose_max_displacement_m": 0.01923125615536347,
+      "face_hair_geometry_preserved": false,
+      "reader_exported": true
+    }
+  ],
+  "packages": 54,
+  "all_chunk_sha1": true,
+  "all_imports_resolved_in_private_or_public_containers": true,
+  "renderer_tested": false,
+  "replay_tested": false,
+  "phone_tested": false
+}
