@@ -1,0 +1,437 @@
+{
+  "status": "INDEPENDENT_TEXTURE_DECODERS_PASS",
+  "container_sha256": "187f5dbaaec9ec0839bebce952e812ce32d73c22c037ba4daefb8ac7f1e0f9ce",
+  "textures": [
+    {
+      "name": "T_NF01ep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.27328062057495117,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NF01ep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17697715759277344,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NF01ep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.24459600448608398,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.29155540466308594,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.3140980005264282,
+      "p95": 3.0
+    },
+    {
+      "name": "T_ND0006_Hair_D",
+      "shape": [
+        512,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17193603515625,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.27124929428100586,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.19810009002685547,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.3140980005264282,
+      "p95": 3.0
+    },
+    {
+      "name": "T_ND0013_Hair_D",
+      "shape": [
+        512,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.05879974365234375,
+      "p95": 0.0
+    },
+    {
+      "name": "T_NF27ep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.26480627059936523,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NF27ep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17697715759277344,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NF27ep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND0027_Hair_D",
+      "shape": [
+        512,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.3285713195800781,
+      "p95": 3.0
+    },
+    {
+      "name": "T_NFJRep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.29889416694641113,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NFJRep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.2422943115234375,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NFJRep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND00JR_Hair_D",
+      "shape": [
+        512,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.2819645404815674,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDXSep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.22905433177947998,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDXSep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.20421981811523438,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDXSep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND00XS_Hair_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.05393713712692261,
+      "p95": 0.0
+    },
+    {
+      "name": "T_NDDBep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.2500714063644409,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDDBep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.2724294662475586,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDDBep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND00DB_Hair_D",
+      "shape": [
+        256,
+        1024,
+        4
+      ],
+      "two_decoder_mae": 0.20569610595703125,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDHDep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.2820918560028076,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDHDep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.2237863540649414,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDHDep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND00HD_Hair_D",
+      "shape": [
+        512,
+        1024,
+        4
+      ],
+      "two_decoder_mae": 0.11307907104492188,
+      "p95": 1.0
+    },
+    {
+      "name": "T_NDHHep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.21668636798858643,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDHHep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.1884012222290039,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDHHep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND00HH_Hair_D",
+      "shape": [
+        1024,
+        1024,
+        4
+      ],
+      "two_decoder_mae": 0.11375665664672852,
+      "p95": 0.0
+    },
+    {
+      "name": "T_NDPQep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.2242569923400879,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDPQep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.20848846435546875,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDPQep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND00PQ_Hair_D",
+      "shape": [
+        1024,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.08852219581604004,
+      "p95": 0.0
+    },
+    {
+      "name": "T_NDTLep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.22346735000610352,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDTLep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.19575977325439453,
+      "p95": 2.0
+    },
+    {
+      "name": "T_NDTLep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND00TL_Hair_D",
+      "shape": [
+        256,
+        1024,
+        4
+      ],
+      "two_decoder_mae": 0.2684326171875,
+      "p95": 2.0
+    }
+  ],
+  "renderer_tested": false
+}

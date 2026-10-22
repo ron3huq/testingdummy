@@ -1,0 +1,11 @@
+{
+  "status": "MANIFEST_SCOPE_HASH_FAILURE_DISABLE_AND_GATEWAY_WRAPPER_PASS",
+  "original_response_unchanged": true,
+  "original_dt880_entries_unchanged": true,
+  "new_files": 3,
+  "idempotent": true,
+  "disabled_visuals_manifest_stable": true,
+  "checksum_failure_passthrough": true,
+  "network_on_android_tested": false,
+  "native_startup_in_test": "suppressed on host"
+}

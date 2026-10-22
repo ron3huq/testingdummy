@@ -1,0 +1,40 @@
+{
+  "status": "V7_NECK_SEAM_POSE_REGRESSION_AND_V9_CLOSED_SEAMS_PASS",
+  "checks": [
+    {
+      "profile": "ND06",
+      "v7_weight_mismatch_groups": 22,
+      "cases": [
+        {
+          "turn_sign": -1,
+          "v7_max_gap_mm": 13.904606399635139,
+          "v9_max_gap_mm": 0.0
+        },
+        {
+          "turn_sign": 1,
+          "v7_max_gap_mm": 12.857537127929989,
+          "v9_max_gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "profile": "ND13",
+      "v7_weight_mismatch_groups": 22,
+      "cases": [
+        {
+          "turn_sign": -1,
+          "v7_max_gap_mm": 13.904606399635139,
+          "v9_max_gap_mm": 0.0
+        },
+        {
+          "turn_sign": 1,
+          "v7_max_gap_mm": 12.857537127929989,
+          "v9_max_gap_mm": 0.0
+        }
+      ]
+    }
+  ],
+  "pose_is_synthetic": true,
+  "phone_tested": false,
+  "container_sha256": "187f5dbaaec9ec0839bebce952e812ce32d73c22c037ba4daefb8ac7f1e0f9ce"
+}

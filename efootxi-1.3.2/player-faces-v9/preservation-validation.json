@@ -1,0 +1,436 @@
+{
+  "status": "V8_APPROVED_ASSETS_BYTE_IDENTICAL_BAD_HEAD_GEOMETRY_UNCHANGED_PASS",
+  "protected_files": [
+    {
+      "name": "MI_ND00XS_Head_Hair_MQ.uasset",
+      "sha256": "64607d2c2686a90f39250264466ccf3b6f8a261903153105953dba1136c632ce"
+    },
+    {
+      "name": "MI_ND06lg00v0000_Head_FaceUpcon_MQ.uasset",
+      "sha256": "55b660cc11e3e5955c44124b42175482ca7229c08e21c3911af03295ae29f437"
+    },
+    {
+      "name": "SK_ND06_Face.uasset",
+      "sha256": "07539b5382cfaf57c141cec7e90a8d34211686208e582d7b8856790ac7d8e136"
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_N.ubulk",
+      "sha256": "8f286ebacd783c368fc57ed6ad1f8733261c81aeedf5aba41924dda09faf6e43"
+    },
+    {
+      "name": "SK_ND06ep00v0313_Face.uasset",
+      "sha256": "ab2b0c4d9db4488ade93bc62b5bb750cb7eb498e0132e1541a4102a5911b39ff"
+    },
+    {
+      "name": "T_ND00DB_Hair_D.ubulk",
+      "sha256": "572c6464ccac008138905b585cfc44d3edc6812fcab3f99d4a2b1f759066cd14"
+    },
+    {
+      "name": "T_NDDBep00v0313_Face_N.uasset",
+      "sha256": "851ced196b1b5bc8d64fbce10176deed88a4d3fe196989cbadb9290cfe072c3f"
+    },
+    {
+      "name": "T_ND06lg00v0000_Face_N.ubulk",
+      "sha256": "60c0bf1e72e492d115998d920f21439f20945711641fa04324a4710413189ea5"
+    },
+    {
+      "name": "T_ND13ep01v0291_Face_D.uasset",
+      "sha256": "1775bbbfbfdd44b8cdb98687ecadd8d6451a56dfbea6e804e97e24d438f92360"
+    },
+    {
+      "name": "MI_ND0006_Head_Hair_HQ.uasset",
+      "sha256": "bb8f6089dde5834aa5e130c21c5910272fb2ba122c4dbc064ca6c948058ae9c9"
+    },
+    {
+      "name": "MI_ND13ep00v0313_Head_FaceLegacy_HQ.uasset",
+      "sha256": "e2a0f2b6ee303f59986582cbacb5764b63bb156f385b85fa59a5286e623a1bbc"
+    },
+    {
+      "name": "MI_ND06ep00v0313_Head_FaceLegacy_MQ.uasset",
+      "sha256": "789c64109b1a3581ee31a3586446682b943ed26f10c46ca5028a77aaf1f980d9"
+    },
+    {
+      "name": "MI_ND13_Head_FaceLegacy_HQ.uasset",
+      "sha256": "1c4b274072e33290fcd208d5525ff7acba1a795c9a9be401215af3995bd5c72c"
+    },
+    {
+      "name": "T_ND06ep01v0291_Face_N.ubulk",
+      "sha256": "60c0bf1e72e492d115998d920f21439f20945711641fa04324a4710413189ea5"
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_N.uasset",
+      "sha256": "3dd66a46abafa7df4e113da7f6c03bbdb20e5303175e74e7896a52dd96da273f"
+    },
+    {
+      "name": "MI_NDXSep00v0313_Head_FaceLegacy_HQ.uasset",
+      "sha256": "e4ab93022062021471b13ed8dabd61ca7c9ac1bf5811be8fd1959403eaa2bca6"
+    },
+    {
+      "name": "MI_ND13lg00v0000_Head_FaceUpcon_HQ.uasset",
+      "sha256": "86f225736fa407290bead4e926ca99efa23153186263ba97f788612a074633a7"
+    },
+    {
+      "name": "T_ND06lg00v0000_Face_D.ubulk",
+      "sha256": "1ec5f9b02dbe1eecc7736229dd5865862c6a7fdb13a3978a6318c0157ccc68fb"
+    },
+    {
+      "name": "T_ND06ep01v0291_Face_SRO.uasset",
+      "sha256": "c50941e85f708e7d43b7c301608f348cf41d4f9577dbcfa42d83f5593eedc672"
+    },
+    {
+      "name": "T_NDDBep00v0313_Face_D.uasset",
+      "sha256": "d31ab6eb068e7b5f4300834014936aad369f181e4b83e562585e9754abb3bc60"
+    },
+    {
+      "name": "T_NDXSep00v0313_Face_SRO.uasset",
+      "sha256": "c5e806d38a28704710786dbfb4d684e0bd300fd7eab6e9af875a3ed81579d26a"
+    },
+    {
+      "name": "T_ND00XS_Hair_D.uasset",
+      "sha256": "bec755f030741f904748f833f8593c9ba48449ec2c3b7869f5d00a97fdfc84b4"
+    },
+    {
+      "name": "T_ND00XS_Hair_D.ubulk",
+      "sha256": "e5c93bf284e034d586236e55794c08aec940b46f1b17047f9d8acc260d6edac5"
+    },
+    {
+      "name": "MI_ND00XS_Head_Hair_HQ.uasset",
+      "sha256": "f8f101f891d6ca1702f1afade7a017529b36ffdf11011045905a3d091a7a7629"
+    },
+    {
+      "name": "MI_ND13ep01v0291_Head_FaceLegacy_HQ.uasset",
+      "sha256": "48f4fbd7d7e16a246c3d0e6c4cd3c0224541834c5494d48ea91e24c64617a31e"
+    },
+    {
+      "name": "T_ND13_Face_SRO.uasset",
+      "sha256": "1aa3bc2f04cc4618d74f89d22a42d9fcaee6e1f7d3e698042c2ace9332d02a7d"
+    },
+    {
+      "name": "T_ND06lg00v0000_Face_D.uasset",
+      "sha256": "dad549d5c749506fa5ae1cd300b0a59ded8cfe9409002066190bc546d7642fa6"
+    },
+    {
+      "name": "SK_ND13lg00v0000_Face.uasset",
+      "sha256": "825340bd3fdc543b3976e7dce8e80c126cf8b148940a7766b702e42d94af8670"
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_SRO.ubulk",
+      "sha256": "30461ce6926624df6e0f6cff12757bec9e7ecae4f52f19526b46441fc90f08b0"
+    },
+    {
+      "name": "MI_ND13lg00v0000_Head_FaceUpcon_MQ.uasset",
+      "sha256": "d3703efde397044142c17321a3e2fc4f9957557f777a5c776a1cab5e8989c190"
+    },
+    {
+      "name": "MI_ND13ep00v0313_Head_FaceLegacy_MQ.uasset",
+      "sha256": "54492d6c95ce48fca2d72cc1394ae0933964b60b069c45fff2435dced3836d46"
+    },
+    {
+      "name": "SK_NDXSep00v0313_Face.uasset",
+      "sha256": "338132fff1051fe6667f564d206e687c0349f6c5355c57c3cbf7420a0941e466"
+    },
+    {
+      "name": "T_ND13lg00v0000_Face_SRO.ubulk",
+      "sha256": "f3df22414b087d9febef3276a55e56c27ae4a4340184eceba8997506432c421c"
+    },
+    {
+      "name": "MI_ND00DB_Head_Hair_HQ.uasset",
+      "sha256": "63676637f619647255fcad3657433e0bbef3af8e624499651ce5ca6d1fbe8ba0"
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_D.uasset",
+      "sha256": "637db712ccbe4a76b866c901a51d2532719ffbaf95d15104c5852e2341f4200a"
+    },
+    {
+      "name": "MI_ND00DB_Head_Hair_MQ.uasset",
+      "sha256": "c4ce963f82aa78f6f7b4cd86f4208124efce1729d44a14b05701ab28b07189ef"
+    },
+    {
+      "name": "MI_NDDBep00v0313_Head_FaceLegacy_HQ.uasset",
+      "sha256": "cd55db99ed2c9ec815137d5ce79d50e4c762df5682e639cc8833d0804c33d64b"
+    },
+    {
+      "name": "T_ND13ep01v0291_Face_N.uasset",
+      "sha256": "aa2b8a0a8c06b1cc8a925164b9e70585751028a68ae053a3d9d1a45a40efdfd3"
+    },
+    {
+      "name": "T_NDDBep00v0313_Face_SRO.ubulk",
+      "sha256": "0e3396db3f7f4bf0bd511e89ae5d0a172bdc8b1a68fe075bf6eb409d159c4b61"
+    },
+    {
+      "name": "T_ND13ep01v0291_Face_N.ubulk",
+      "sha256": "8f286ebacd783c368fc57ed6ad1f8733261c81aeedf5aba41924dda09faf6e43"
+    },
+    {
+      "name": "T_ND06_Face_SRO.ubulk",
+      "sha256": "30461ce6926624df6e0f6cff12757bec9e7ecae4f52f19526b46441fc90f08b0"
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_D.ubulk",
+      "sha256": "88b62328122d9a517fccaea2b1a4cdf4f4ad60c3f91c408065a1dee93b1c48b3"
+    },
+    {
+      "name": "T_ND06_Face_N.ubulk",
+      "sha256": "60c0bf1e72e492d115998d920f21439f20945711641fa04324a4710413189ea5"
+    },
+    {
+      "name": "T_NDDBep00v0313_Face_D.ubulk",
+      "sha256": "485bd69d410267c26e8d3888bd5aae613848fb277d330e94f7b2464faa41de3f"
+    },
+    {
+      "name": "MI_ND06_Head_FaceLegacy_MQ.uasset",
+      "sha256": "c19d9e4bd1dd3b319b7a7e797283e8fc6b1fde25d5c960cde32f76318d4f60f7"
+    },
+    {
+      "name": "T_ND13ep01v0291_Face_D.ubulk",
+      "sha256": "93eeb3cdbc18c807719bbe7d184d858536feea11f7e25b6f976e962612a7143d"
+    },
+    {
+      "name": "MI_ND0013_Head_Hair_HQ.uasset",
+      "sha256": "f9655a715a0e24489412145141ad573e423803f71a13477efe642cf221583553"
+    },
+    {
+      "name": "SK_ND06ep01v0291_Face.uasset",
+      "sha256": "8b2835cbf99cbec9146e4e547755950e81fb2518b4967b997c6431383178a668"
+    },
+    {
+      "name": "T_ND06_Face_SRO.uasset",
+      "sha256": "22397dfc30691f278027887f919cbac27d2b4d677913f6401c06bc2a4d0e7a43"
+    },
+    {
+      "name": "MI_NDDBep00v0313_Head_FaceLegacy_MQ.uasset",
+      "sha256": "1f575bdd9cdf4bf8fa7a3bf8c062ba313883f8c0a708409c01a990fda0b70f8e"
+    },
+    {
+      "name": "T_ND06_Face_D.ubulk",
+      "sha256": "c8d929e7949ab2854f6069ef30c541f92732154c981cff74e350918dc9b29118"
+    },
+    {
+      "name": "T_NDXSep00v0313_Face_N.uasset",
+      "sha256": "165dd1dceb8a23ad9f5dc5ef390f085302b28c9beceaeddb2b72ce3860ad1990"
+    },
+    {
+      "name": "T_ND06lg00v0000_Face_N.uasset",
+      "sha256": "166712862cf94ede15fb131fe1f1ff07e04c11ed588d1e0f8658d5b2abb055ca"
+    },
+    {
+      "name": "T_ND06ep01v0291_Face_D.ubulk",
+      "sha256": "9c4ad204ef2972b8988fd0fb081c533c5091faf7b7c22c661c1379424c95af29"
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_D.ubulk",
+      "sha256": "0574857bcb6e7516dcdd64fa98de693c191d086c5ce5c3f4534458028b755ad7"
+    },
+    {
+      "name": "T_ND06_Face_D.uasset",
+      "sha256": "75eb246843aa4da07db8d1908ed3f9fd1993967548f65e291b3aed9066f64af4"
+    },
+    {
+      "name": "MI_ND06ep01v0291_Head_FaceLegacy_MQ.uasset",
+      "sha256": "7d9b5c73d5bd7f9739d6dea291a948542085e815c4ecb906c847179f76d5d18e"
+    },
+    {
+      "name": "MI_ND13_Head_FaceLegacy_MQ.uasset",
+      "sha256": "89b06e4744f4d29dcd2d033f639a9114ceb5141f2b1faa4fc06212564482132d"
+    },
+    {
+      "name": "T_ND13_Face_SRO.ubulk",
+      "sha256": "30461ce6926624df6e0f6cff12757bec9e7ecae4f52f19526b46441fc90f08b0"
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_SRO.ubulk",
+      "sha256": "30461ce6926624df6e0f6cff12757bec9e7ecae4f52f19526b46441fc90f08b0"
+    },
+    {
+      "name": "MI_ND06lg00v0000_Head_FaceUpcon_HQ.uasset",
+      "sha256": "750230cfe000426e0443b6aee230c44adf504782fe69b8c6620eb15f5797dc02"
+    },
+    {
+      "name": "T_ND13lg00v0000_Face_N.uasset",
+      "sha256": "3cc9600c30f177088c3796c4347684b3a54fe4d91583eef87f189779bb10a3f0"
+    },
+    {
+      "name": "MI_ND06ep00v0313_Head_FaceLegacy_HQ.uasset",
+      "sha256": "7f74cb24799807362436abf7c9e7507f143efe2c6eab1a8e76bd64395c61642d"
+    },
+    {
+      "name": "T_ND0006_Hair_D.uasset",
+      "sha256": "974aa32bb7cee044ca69b5370b0610b57c68e83c0ed04a25e5f4104f999a2515"
+    },
+    {
+      "name": "T_ND0013_Hair_D.ubulk",
+      "sha256": "edf798711a106e910b2b1e3bdb6e6e2593d5e875aabced3ce4c4228f1e1c40af"
+    },
+    {
+      "name": "T_ND06_Face_N.uasset",
+      "sha256": "ad0f070f4f907d3a0db51c108feff33a1f3adc4b7306b3922427b79ddf032b03"
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_SRO.uasset",
+      "sha256": "94ae3c668afaa8c943314425b44caec35b82b1a36d6a6d32147184e564e05296"
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_D.uasset",
+      "sha256": "c153d61b637b3ab42a878d7c3a5cd164c146704381fc3e614be029dacd054555"
+    },
+    {
+      "name": "MI_ND0006_Head_Hair_MQ.uasset",
+      "sha256": "98bf8e037c6a84dae38ae4d06588269bbfb5da8014154c6437f76e44ecab2f89"
+    },
+    {
+      "name": "MI_ND06_Head_FaceLegacy_HQ.uasset",
+      "sha256": "98c3dec3908b743d3ded908138c9d398b467d677547d68bdc0e0a327b9ee60b7"
+    },
+    {
+      "name": "T_ND13lg00v0000_Face_D.ubulk",
+      "sha256": "9240b8357b97e937c7b2a559487c0d6fc8f988ce3eaa28fd88efc81436511677"
+    },
+    {
+      "name": "T_ND13lg00v0000_Face_N.ubulk",
+      "sha256": "8f286ebacd783c368fc57ed6ad1f8733261c81aeedf5aba41924dda09faf6e43"
+    },
+    {
+      "name": "SK_NDDBep00v0313_Face.uasset",
+      "sha256": "438f4ec3ba23d9036bbdbb12898a6c58d5ec53fad7bc922194c1d8a45a985a27"
+    },
+    {
+      "name": "T_ND06lg00v0000_Face_SRO.ubulk",
+      "sha256": "f3df22414b087d9febef3276a55e56c27ae4a4340184eceba8997506432c421c"
+    },
+    {
+      "name": "SK_ND06lg00v0000_Face.uasset",
+      "sha256": "fbd06f6423b40a9b0f148ab6bc73723421f0983e8fe947abde174892d18a40ef"
+    },
+    {
+      "name": "SK_ND13ep00v0313_Face.uasset",
+      "sha256": "862fccc0659e04015ab03099793c5db7b99d982c59e99a6263eeb7cbcd7ea1d9"
+    },
+    {
+      "name": "T_ND13_Face_D.ubulk",
+      "sha256": "70c0abd502ea7a1b72d748ac39888289d95a07c005304ec196bc43f18ba78f08"
+    },
+    {
+      "name": "T_ND13ep01v0291_Face_SRO.uasset",
+      "sha256": "f9a68d45854379772bd6b28042ef43c347735ce63e39b8af79359fbc1964a165"
+    },
+    {
+      "name": "T_ND06lg00v0000_Face_SRO.uasset",
+      "sha256": "3eb4e7d567af772b0366f4541c9fa311d69f77183412d3591294d65f551066df"
+    },
+    {
+      "name": "T_ND06ep01v0291_Face_N.uasset",
+      "sha256": "7e690739ab73a5bec31fb3f39f2480054c8fcb8a29562d2cbad54da3ea35aadf"
+    },
+    {
+      "name": "T_ND13_Face_N.ubulk",
+      "sha256": "8f286ebacd783c368fc57ed6ad1f8733261c81aeedf5aba41924dda09faf6e43"
+    },
+    {
+      "name": "MI_ND06ep01v0291_Head_FaceLegacy_HQ.uasset",
+      "sha256": "9388f14ca1f46aa44128151499911664a75ec54946f0b9015d2e89fb80bd53cc"
+    },
+    {
+      "name": "T_NDXSep00v0313_Face_SRO.ubulk",
+      "sha256": "0e3396db3f7f4bf0bd511e89ae5d0a172bdc8b1a68fe075bf6eb409d159c4b61"
+    },
+    {
+      "name": "MI_NDXSep00v0313_Head_FaceLegacy_MQ.uasset",
+      "sha256": "bc6835c0210b2344f62a4f990fc3b1be4e8bf156d6aeeb384b6e33d85c7b98a8"
+    },
+    {
+      "name": "MI_ND13ep01v0291_Head_FaceLegacy_MQ.uasset",
+      "sha256": "8ae4a2ed116a7ecf9b006fa449fdec97bce6e0e09eaffcb05c335d509819f810"
+    },
+    {
+      "name": "SK_ND13_Face.uasset",
+      "sha256": "7598c37ac0354237fad709a9e0bde89c34a4d499ebb2337055fde58adc111100"
+    },
+    {
+      "name": "MI_ND0013_Head_Hair_MQ.uasset",
+      "sha256": "69714ac201803e47aef138e65cae17bb187db38486354c926445c7f90563ef56"
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_N.ubulk",
+      "sha256": "60c0bf1e72e492d115998d920f21439f20945711641fa04324a4710413189ea5"
+    },
+    {
+      "name": "T_NDXSep00v0313_Face_N.ubulk",
+      "sha256": "d5f368e70750e0900aa981d297a2e98005c33a758fc6cc764227fca6e7543473"
+    },
+    {
+      "name": "T_ND13_Face_N.uasset",
+      "sha256": "fd03c2c3668345631fdb93818ab0e75f13e1fd556dd968ebdfca8681d0f8e2a7"
+    },
+    {
+      "name": "T_ND13lg00v0000_Face_SRO.uasset",
+      "sha256": "b1e78d43c645baf8fb1b61411179c119493b4dfed4e945f9b80c3d95dce2f910"
+    },
+    {
+      "name": "T_ND00DB_Hair_D.uasset",
+      "sha256": "189a9c8af70d06cf771ab35f9c8e4c06cef93f50d07aaf8adaa3fdabc925c7a5"
+    },
+    {
+      "name": "T_ND0006_Hair_D.ubulk",
+      "sha256": "5c30c8880fc1de5f25631b135ce3a0235092688f579105d9274dd24ee95bd56d"
+    },
+    {
+      "name": "T_ND13_Face_D.uasset",
+      "sha256": "8159762d0f16a82069ae50e492b4abc77539c0a0937ad5bc6486fe5fafb4a4c6"
+    },
+    {
+      "name": "T_ND0013_Hair_D.uasset",
+      "sha256": "4cd2b55473803075f623e459210d233f162aee26b8cb40dcf918fd28d81e24ce"
+    },
+    {
+      "name": "T_ND13lg00v0000_Face_D.uasset",
+      "sha256": "4f0f0ed95abbc87e9e452554a8b313e3638b506d45d7b51a18b01020c1b20bfc"
+    },
+    {
+      "name": "SK_ND13ep01v0291_Face.uasset",
+      "sha256": "4e9d808d1ab5de15b4efa96e39946fbdf0442285e52961bb277b86b9cd8f6c8c"
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_SRO.uasset",
+      "sha256": "14d93acdf2ed3072006e81393834ecfdf71cabdb5ea2241cf1d5efb7f2811f90"
+    },
+    {
+      "name": "T_ND06ep01v0291_Face_D.uasset",
+      "sha256": "b356bdab50b18935a85548ebf0e75b174df77c02dbc44d24dd65a8d30bc9f6ac"
+    },
+    {
+      "name": "T_ND13ep01v0291_Face_SRO.ubulk",
+      "sha256": "30461ce6926624df6e0f6cff12757bec9e7ecae4f52f19526b46441fc90f08b0"
+    },
+    {
+      "name": "T_ND06ep01v0291_Face_SRO.ubulk",
+      "sha256": "30461ce6926624df6e0f6cff12757bec9e7ecae4f52f19526b46441fc90f08b0"
+    },
+    {
+      "name": "T_NDDBep00v0313_Face_SRO.uasset",
+      "sha256": "fec18f62e1c9bfa66e4cde8f296e71ec4c59c9c9ff16eb8eb7d7f62c2df0345a"
+    },
+    {
+      "name": "T_NDDBep00v0313_Face_N.ubulk",
+      "sha256": "49e44b58e4e2841d96f15dc936375f90a68e4e3e2021e0cc10d65cb9f9abad21"
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_N.uasset",
+      "sha256": "f78fe6a67ceffcf4a1881363357795c087b2ff1282323be2c8563cee5a4889b1"
+    }
+  ],
+  "revised_tangent_head_meshes": [
+    "SK_NF01_Face",
+    "SK_NF01lg00v0000_Face",
+    "SK_NF01ep01v0291_Face",
+    "SK_NF01ep00v0313_Face",
+    "SK_NF27_Face",
+    "SK_NF27lg00v0000_Face",
+    "SK_NF27ep01v0291_Face",
+    "SK_NF27ep00v0313_Face",
+    "SK_NFJRep00v0313_Face"
+  ],
+  "xuan_son_diffuse_only_darker": true,
+  "container_sha256": "187f5dbaaec9ec0839bebce952e812ce32d73c22c037ba4daefb8ac7f1e0f9ce",
+  "phone_tested": false,
+  "black_face_root_cause_confirmed": false
+}
