@@ -1,0 +1,16 @@
+{
+  "status": "SEVEN_FILE_V10_V11_UPDATE_NATIVE_SHA_AND_BASELINE_DEPENDENCIES_PASS",
+  "files": [
+    "livedata/pc9298_mobile_and.pak",
+    "livedata/pc9298_mobile_and.utoc",
+    "livedata/pc9298_mobile_and.ucas",
+    "work/tools/noodle_hair.py",
+    "work/tools/libnoodle_hair.so",
+    "work/tools/noodle_bundle.json",
+    "work/tools/noodle_hair.json"
+  ],
+  "bytes": 62149024,
+  "sha256": "8a7bf11c8c646ca8e079fb0ae5b05fe8f9ad428d5bf46c2bffd7f556b9fa494f",
+  "requires_verified_original_v10_or_v11": true,
+  "phone_tested": false
+}

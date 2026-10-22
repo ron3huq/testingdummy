@@ -1,0 +1,85 @@
+{
+  "status": "EXACT_CARD_TWO_NATIVE_PORTRAITS_AND_ALL_HEAD_CHUNKS_PRESERVED_PASS",
+  "card_id": "88045755960841",
+  "artwork_sha256": "1988af01939b70466660af38a66fb762266cfcadf32c8f9c413aa6cd7ef94fc2",
+  "head_chunks_copied_verbatim": 264,
+  "textures": [
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "package_id": 5046357595081060065,
+      "mips": [
+        [
+          128,
+          128,
+          16384
+        ],
+        [
+          64,
+          64,
+          4096
+        ],
+        [
+          32,
+          32,
+          1024
+        ],
+        [
+          16,
+          16,
+          256
+        ],
+        [
+          8,
+          8,
+          64
+        ],
+        [
+          4,
+          4,
+          16
+        ],
+        [
+          4,
+          4,
+          16
+        ],
+        [
+          4,
+          4,
+          16
+        ]
+      ],
+      "bytes": 23343,
+      "sha256": "949d2dc557431a7f9bd1bc8b5b03f2c13844b2ec3c40f82781bcb67827bbbb58",
+      "native_header_and_size_preserved": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_l.uasset",
+      "package_id": 13535932536756553220,
+      "mips": [
+        [
+          184,
+          256,
+          47104
+        ]
+      ],
+      "bytes": 48235,
+      "sha256": "a3792412926ab85b6905cd16b443de9e39edb754458d3ebb137ccb5d759f5f5b",
+      "native_header_and_size_preserved": true
+    }
+  ],
+  "container_sha256": "742e469a740471d89b82f1e3f2f51ff4e485f217f77bc04df409c4bdea8d61e8",
+  "phone_tested": false,
+  "native_UI_overlays_preserved": true,
+  "independent_ueviewer_export": {
+    "large": [
+      184,
+      256
+    ],
+    "small": [
+      128,
+      128
+    ],
+    "both_loaded_from_v12_container": true
+  }
+}

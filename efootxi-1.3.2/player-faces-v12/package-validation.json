@@ -1,0 +1,22 @@
+{
+  "status": "V12_ELEVEN_FILES_CRC_HASHES_NATIVE_LODS_AND_SLEEVES_PASS",
+  "installed_files": 11,
+  "native_head_cases": 432,
+  "native_shirt_selector_cases": 1008,
+  "head_meshes": 24,
+  "render_lods": 48,
+  "phone_tested": false,
+  "replay_verified": false,
+  "prior_v7_cutscene_confirmed_by_user": true,
+  "missing_source_card_ids": [],
+  "artifacts": {
+    "Faces-v12-12-cards.zip": {
+      "bytes": 62227703,
+      "sha256": "57ee7f31d90ab8dc107ff707a0a2eac6dd35a5795ac5199f51be3b8381209faf"
+    },
+    "Tat-thay-dau-v12.zip": {
+      "bytes": 172,
+      "sha256": "a2cf8c765f66abd7e617eb9fc697c3a312963af5fb4f73ce97f08aa4673c42b8"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "status": "V7_NECK_SEAM_POSE_REGRESSION_AND_V10_CLOSED_SEAMS_PASS",
+  "checks": [
+    {
+      "profile": "ND06",
+      "v7_weight_mismatch_groups": 22,
+      "cases": [
+        {
+          "turn_sign": -1,
+          "v7_max_gap_mm": 13.904606399635139,
+          "v10_max_gap_mm": 0.0
+        },
+        {
+          "turn_sign": 1,
+          "v7_max_gap_mm": 12.857537127929989,
+          "v10_max_gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "profile": "ND13",
+      "v7_weight_mismatch_groups": 22,
+      "cases": [
+        {
+          "turn_sign": -1,
+          "v7_max_gap_mm": 13.904606399635139,
+          "v10_max_gap_mm": 0.0
+        },
+        {
+          "turn_sign": 1,
+          "v7_max_gap_mm": 12.857537127929989,
+          "v10_max_gap_mm": 0.0
+        }
+      ]
+    }
+  ],
+  "pose_is_synthetic": true,
+  "phone_tested": false,
+  "container_sha256": "742e469a740471d89b82f1e3f2f51ff4e485f217f77bc04df409c4bdea8d61e8",
+  "measurement_reused_from": "v10, all 264 head chunks verified byte-identical; two UI portraits added"
+}
