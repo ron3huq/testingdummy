@@ -1,3 +1,5 @@
+> Cập nhật: đã lấy được đầu Android từ pc3700 và ghép tóc trong Blender. Xem [bản ghép Android mới](../ronaldo-android-fit/README.md). Chưa có bản cài trong game. Các ghi chú thiếu mesh dưới đây mô tả thời điểm của bản nguồn PC trước đó.
+
 # Ronaldo tóc mì tôm — bộ nguồn đã chuyển đổi
 
 **Trạng thái: chưa cài được vào eFootball Android. Không chép đè bộ này vào game.**

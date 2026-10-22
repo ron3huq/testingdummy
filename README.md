@@ -9,6 +9,17 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Ronaldo tóc mì tôm — đã ghép lên đầu Android trong Blender, CHƯA có bản cài
+
+Đã giải nén đủ 8 phần RAR pc3700, trích 4 head Ronaldo đúng SHA1 theo TOC. Xuất đầu Android có166 xương, ghép5.005 đỉnh tóc PC vào sk_head của rig Android; xoay thử xương đầu, toàn bộ tóc đi theo. Giữ tọa độ đỉnh mặt Android. LOD0 được đánh dấu cooked_out, xuất phần LOD inline còn lại.
+
+- [Bộ đầu Android + tóc ghép Blender/FBX/GLB (ZIP tham khảo, KHÔNG cài vào game)](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-android-fit/Ronaldo-ANDROID-head-noodle-REFERENCE-NOT-INSTALLABLE.zip)
+- [Ảnh Blender — không phải ảnh game](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-android-fit/Android-head-PC-hair-reference.png)
+- [Kết quả và phần còn thiếu](efootxi-1.3.2/ronaldo-android-fit/README.md)
+- [Kiểm tra hash/geometry/rig](efootxi-1.3.2/ronaldo-android-fit/validation.json)
+
+Mục tiêu chỉ thẻ88044950524330; chưa xác minh FaceId thực tế của thẻ, chưa port material, chưa tạo asset Android và chưa bật định tuyến theo thẻ. Không sửa dt200, APK, gateway hoặc đội hình v18. Mặt trong ảnh dùng clay; tóc dùng vật liệu xem trước. Nguồn tóc NEUBE do người dùng cung cấp.
+
 ## Ronaldo tóc mì tôm — nguồn PES đã chuyển đổi, CHƯA cài được trên Android
 
 Mục tiêu riêng Card ID `88044950524330`. Đã trích xuất FMDL/FTEX và xuất Blender/FBX/GLB: 10 mesh, 10.705 tam giác, 12 texture. Lớp tóc xoăn 5.005 đỉnh chỉ gắn sk_head. **Chưa tạo asset Unreal Android, chưa sửa hay kiểm thử tóc trong game.** Cần đầu Ronaldo Android gốc, thích nghi rig/material và quy trình cook đúng game; không chép ZIP này đè vào game.

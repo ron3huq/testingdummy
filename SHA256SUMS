@@ -1,4 +1,4 @@
-f38b75e4e16573ef015af8e8e9ca289e22bed8064d22a6d191ff8b317a2a0685  README.md
+0dd46d612baa53f141840f5824ddab33e53503a6531a83448e230d59c04b349e  README.md
 8085bd7371730ba8ff4fe2b8a89dc986f762f056edd210f47e395cbc8cd1c1e8  efootxi-1.3.2/HUONG_DAN.txt
 6fce6ff5162abe46786d96dbeb39fc5183fd15a154b31500c005c9bc5206caa5  efootxi-1.3.2/KHOI_PHUC.md
 5ed68a8614e760249e8024f74d0247784d1d47bd1dbb11ddbe53af1e28689505  efootxi-1.3.2/STATUS.json
@@ -742,7 +742,16 @@ b47cca524072876d49e767695ef70162c2784427ae40ba27ac13a3f732a7cdd4  efootxi-1.3.2/
 62f59acb48b6d556d4632309219f802b1b94950f2bb1a2c4afd21c9335e822af  efootxi-1.3.2/myleague-realism/validate_realism.py
 53c59d284244b4cd6c31fc2c7bade4225ff547d0bd7ad4f7759c2750fcd3e260  efootxi-1.3.2/myleague-realism/validation.json
 088bb2e661cfcd8a1110c40402a461dac0c37eecdbce72ce692d505a77050954  efootxi-1.3.2/restore/dt200_mobile_all.cpk
-b5c85c9f2b32d6af3363f65e0a8aa98cd0c31ecec204046db791f1dfee0d272a  efootxi-1.3.2/ronaldo-noodle-source/README.md
+da0d9ca2a88932918f562a1b3bf13530cec8793ed3ba52391337df6433c416a7  efootxi-1.3.2/ronaldo-android-fit/Android-head-PC-hair-reference.png
+3fe2b9946cafce642f31c0e055db41fe466a1c1a3bbb46a827c7711ac7edbf25  efootxi-1.3.2/ronaldo-android-fit/README.md
+6943226581a5ddb0529e028ab47c1578d32c59b8c471db9827ba42d3e2b0693a  efootxi-1.3.2/ronaldo-android-fit/Ronaldo-ANDROID-head-noodle-REFERENCE-NOT-INSTALLABLE.zip
+fda028812a1d496fa670359ef6fe755fd2d757bc98852cc15e383afefda1e502  efootxi-1.3.2/ronaldo-android-fit/fit_android_head.py
+6003a5fad556889cb831437f3cebfa2bb6d3f0c14e07bda0fe865cc80e7e4436  efootxi-1.3.2/ronaldo-android-fit/head-assets.json
+34247443c37c27da38941a47bcb2bdc7b8207a6f3e83e2c09348d33cbadf94ed  efootxi-1.3.2/ronaldo-android-fit/package-validation.json
+2f0af1c340d093825ef555f8d5d9032fc044499911090ccb2963c1c4d4963936  efootxi-1.3.2/ronaldo-android-fit/package_fit.py
+d5a0a5c8c39d214779b543da3c3bd6ece268394a3a5a0c858a93d13e598ebdef  efootxi-1.3.2/ronaldo-android-fit/validate_head.py
+9d2800987936a42d0bfe71a95504bafcb8db0ac545732d60b9bb205e20cbd4ed  efootxi-1.3.2/ronaldo-android-fit/validation.json
+7d5c32bf1e3cb23915ad0b37e3fd23dc1f794992a003d43715fe3f140632647e  efootxi-1.3.2/ronaldo-noodle-source/README.md
 2637883f180989e7e788a32ba3e11c51e198d0f4fd157412e17a8d8d37131462  efootxi-1.3.2/ronaldo-noodle-source/Ronaldo-noodle-88044950524330-SOURCE-NOT-INSTALLABLE.zip
 f50e7fe9158ed69166290a8cfa963553c71fc31da5d3d55ad8950004d893bee6  efootxi-1.3.2/ronaldo-noodle-source/Ronaldo_source_preview.png
 d442cc0e6196643bcbd1a2b1f16bbae1742534cd763fa0ddf6bed8bf554f1ac1  efootxi-1.3.2/ronaldo-noodle-source/bone-name-comparison.json

@@ -1,0 +1,94 @@
+{
+  "status": "NATIVE_REFERENCE_FIT_VALIDATED_NOT_INSTALLABLE",
+  "archive": [
+    {
+      "path": "pc3700_mobile_and.ucas",
+      "bytes": 193341792,
+      "sha256": "c3608ab0243bb83955efb028d043b886d693599544f8e5f021d97862f5b6d1dd"
+    }
+  ],
+  "engine_branch_observed": "UE4 Release-4.26 (UTF16 string in libUE4.so; exact custom build compatibility unverified)",
+  "heads": [
+    {
+      "asset": "SK_4522_Face.uasset",
+      "toc_sha1_match": true,
+      "exported_sections": [
+        {
+          "vertices": 743,
+          "triangles": 1222
+        },
+        {
+          "vertices": 601,
+          "triangles": 453
+        }
+      ],
+      "reference_bones": 166
+    },
+    {
+      "asset": "SK_4522ep00v0313_Face.uasset",
+      "toc_sha1_match": true,
+      "exported_sections": [
+        {
+          "vertices": 743,
+          "triangles": 1222
+        },
+        {
+          "vertices": 601,
+          "triangles": 453
+        }
+      ],
+      "reference_bones": 166
+    },
+    {
+      "asset": "SK_4522ep01v0291_Face.uasset",
+      "toc_sha1_match": true,
+      "exported_sections": [
+        {
+          "vertices": 743,
+          "triangles": 1222
+        },
+        {
+          "vertices": 601,
+          "triangles": 453
+        }
+      ],
+      "reference_bones": 166
+    },
+    {
+      "asset": "SK_4522lg00v0000_Face.uasset",
+      "toc_sha1_match": true,
+      "exported_sections": [
+        {
+          "vertices": 743,
+          "triangles": 1222
+        },
+        {
+          "vertices": 601,
+          "triangles": 453
+        }
+      ],
+      "reference_bones": 166
+    }
+  ],
+  "lod0": "cooked_out=true in serialized Android asset; exported available inline LOD",
+  "fit": {
+    "status": "ANDROID_REFERENCE_FIT_ONLY",
+    "target_card_id": "88044950524330",
+    "native_card_variant_verified": false,
+    "android_face_vertices": 743,
+    "android_face_triangles": 1222,
+    "old_hair_hidden": true,
+    "pc_curl_vertices": 5005,
+    "pc_curl_triangles": 5179,
+    "native_bones": 166,
+    "hair_weights": "100% Android sk_head",
+    "vertices_following_test_head_rotation": 5005,
+    "native_face_vertex_coordinates_unchanged": true,
+    "android_asset_cooked": false,
+    "phone_tested": false,
+    "alignment": "Original world coordinates, same meter scale, no manual corrective offsets. Visual reference only; no animation/collision/closeup approval."
+  },
+  "exported_combined_triangles": 6401,
+  "new_android_asset_built": false,
+  "device_tested": false
+}
