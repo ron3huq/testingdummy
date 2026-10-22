@@ -1,0 +1,20 @@
+{
+  "status": "V7_ELEVEN_FILES_CRC_HASHES_NATIVE_LODS_AND_SLEEVES_PASS",
+  "installed_files": 11,
+  "native_head_cases": 104,
+  "native_shirt_selector_cases": 792,
+  "head_meshes": 16,
+  "render_lods": 32,
+  "phone_tested": false,
+  "replay_verified": false,
+  "artifacts": {
+    "Ronaldo-v7-4-faces-native-lod.zip": {
+      "bytes": 45626739,
+      "sha256": "25409fb10c24808baa348793a9f0242e03139526dcfdfa1fc69496d0fcbe78a6"
+    },
+    "Tat-thay-dau-v7.zip": {
+      "bytes": 172,
+      "sha256": "a4166eb63a3851730affeae3bd123baf0dc709956d989e61f3257c220c775686"
+    }
+  }
+}

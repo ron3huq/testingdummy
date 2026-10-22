@@ -1,0 +1,806 @@
+{
+  "2013": {
+    "archive_sha256": "058c92679e5f8a19d16351add944dbfc469be3198b03948d6002820be5ead54b",
+    "archive_bytes": 13769258,
+    "archive_files": [
+      "2013/CPK/CR7v12SG.cpk",
+      "2013/Sider/4522/#Win/face.fpk",
+      "2013/Sider/4522/#Win/face.fpk.xml",
+      "2013/Sider/4522/#Win/face.fpkd",
+      "2013/Sider/4522/#Win/face_fpk/face_diff.bin",
+      "2013/Sider/4522/#Win/face_fpk/face_high.fmdl",
+      "2013/Sider/4522/#Win/face_fpk/hair_high.fmdl",
+      "2013/Sider/4522/#Win/face_fpk/hair_high.fmdl.bak",
+      "2013/Sider/4522/sourceimages/#windx11/eye_occlusion_alp.ftex",
+      "2013/Sider/4522/sourceimages/#windx11/face_bsm_alp.ftex",
+      "2013/Sider/4522/sourceimages/#windx11/face_nrm.ftex",
+      "2013/Sider/4522/sourceimages/#windx11/face_srm.ftex",
+      "2013/Sider/4522/sourceimages/#windx11/face_trm.ftex",
+      "2013/Sider/4522/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+      "2013/Sider/4522/sourceimages/#windx11/hair_parts_nrm.ftex",
+      "2013/Sider/4522/sourceimages/#windx11/hair_parts_srm.ftex",
+      "2013/Sider/4522/sourceimages/#windx11/hair_parts_trm.ftex",
+      "2013/Sider/cris1h/sourceimages/#windx11/eye_occlusion_alp.ftex",
+      "2013/Sider/cris1h/sourceimages/#windx11/face_bsm_alp.ftex",
+      "2013/Sider/cris1h/sourceimages/#windx11/face_nrm.ftex",
+      "2013/Sider/cris1h/sourceimages/#windx11/face_srm.ftex",
+      "2013/Sider/cris1h/sourceimages/#windx11/face_trm.ftex",
+      "2013/Sider/cris1h/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+      "2013/Sider/cris1h/sourceimages/#windx11/hair_parts_nrm.ftex",
+      "2013/Sider/cris1h/sourceimages/#windx11/hair_parts_srm.ftex",
+      "2013/Sider/cris1h/sourceimages/#windx11/hair_parts_trm.ftex",
+      "2013/v12.jpg"
+    ],
+    "models": {
+      "face_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 239,
+          "triangles": 373,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 32,
+          "triangles": 38,
+          "material": "eyeline_SG",
+          "textures": [
+            [
+              "CubeMap_Tex_LIN",
+              "head_wet_cbm.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ],
+            [
+              "Mask_Tex_LIN",
+              "dummy_dtm.tga"
+            ],
+            [
+              "SubNormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "vertices": 1789,
+          "triangles": 3475,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "vertices": 72,
+          "triangles": 86,
+          "material": "eyeline_SG",
+          "textures": [
+            [
+              "CubeMap_Tex_LIN",
+              "head_wet_cbm.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ],
+            [
+              "Mask_Tex_LIN",
+              "dummy_dtm.tga"
+            ],
+            [
+              "SubNormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ]
+          ]
+        },
+        {
+          "index": 4,
+          "vertices": 159,
+          "triangles": 104,
+          "material": "fox_eyelash_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_eyelash_alp.tga"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_eyelash_nrm.tga"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_eyelash_srm.tga"
+            ]
+          ]
+        },
+        {
+          "index": 5,
+          "vertices": 184,
+          "triangles": 302,
+          "material": "collar_ao",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "dummy.tga"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "dummy_srm.tga"
+            ]
+          ]
+        },
+        {
+          "index": 6,
+          "vertices": 40,
+          "triangles": 46,
+          "material": "fox_eyeOcclusion_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "eye_occlusion_alp.dds"
+            ]
+          ]
+        }
+      ],
+      "hair_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 341,
+          "triangles": 572,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 1958,
+          "triangles": 1904,
+          "material": "fox_hair_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "hair_parts_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "hair_parts_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "hair_parts_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "vertices": 320,
+          "triangles": 280,
+          "material": "fox_hair_transfer_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "hair_parts_bsm_alp.dds"
+            ],
+            [
+              "Base_Tex_2_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "hair_parts_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "hair_parts_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "vertices": 1082,
+          "triangles": 1956,
+          "material": "fox_head_shell_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        }
+      ]
+    },
+    "textures": {
+      "hair_parts_trm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "hair_parts_srm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "face_nrm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA"
+      },
+      "face_bsm_alp": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA"
+      },
+      "eye_occlusion_alp": {
+        "size": [
+          128,
+          64
+        ],
+        "mode": "RGBA"
+      },
+      "hair_parts_bsm_alp": {
+        "size": [
+          2048,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "face_trm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA"
+      },
+      "face_srm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA"
+      },
+      "hair_parts_nrm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA"
+      }
+    }
+  },
+  "2027": {
+    "archive_sha256": "fe0610daad842ffe471603b0357827fcd5786ea0d2923edc48af605d0a8ec13e",
+    "archive_bytes": 10791299,
+    "archive_files": [
+      "2027/CPK/CR7v1SG.cpk",
+      "2027/Sider/4522/#Win/face.fpk",
+      "2027/Sider/4522/#Win/face.fpkd",
+      "2027/Sider/4522/sourceimages/#windx11/arm_bsm.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/eye_occlusion_alp.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/eye_sclera_bsm.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/face_bsm_alp.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/face_nrm.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/face_srm.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/face_trm.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/hair_parts_nrm.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/hair_parts_srm.ftex",
+      "2027/Sider/4522/sourceimages/#windx11/hair_parts_trm.ftex",
+      "2027/v1.jpg"
+    ],
+    "models": {
+      "oral.fmdl": [
+        {
+          "index": 0,
+          "vertices": 325,
+          "triangles": 530,
+          "material": "fox_oral_teeth_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "oral_bsm.tga"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "oral_nrm.tga"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "oral_srm.tga"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "oral_trm.tga"
+            ]
+          ]
+        }
+      ],
+      "face_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 237,
+          "triangles": 370,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 29,
+          "triangles": 34,
+          "material": "eyeline_SG",
+          "textures": [
+            [
+              "CubeMap_Tex_LIN",
+              "head_wet_cbm.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ],
+            [
+              "Mask_Tex_LIN",
+              "dummy_dtm.tga"
+            ],
+            [
+              "SubNormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "vertices": 1788,
+          "triangles": 3478,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "vertices": 81,
+          "triangles": 90,
+          "material": "eyeline_SG",
+          "textures": [
+            [
+              "CubeMap_Tex_LIN",
+              "head_wet_cbm.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ],
+            [
+              "Mask_Tex_LIN",
+              "dummy_dtm.tga"
+            ],
+            [
+              "SubNormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ]
+          ]
+        },
+        {
+          "index": 4,
+          "vertices": 184,
+          "triangles": 302,
+          "material": "collar_ao",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "dummy.tga"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "dummy_nrm.tga"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "dummy_srm.tga"
+            ]
+          ]
+        },
+        {
+          "index": 5,
+          "vertices": 150,
+          "triangles": 104,
+          "material": "fox_eyelash_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_eyelash_alp.tga"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_eyelash_nrm.tga"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_eyelash_srm.tga"
+            ]
+          ]
+        },
+        {
+          "index": 6,
+          "vertices": 40,
+          "triangles": 46,
+          "material": "fox_eyeOcclusion_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "eye_occlusion_alp.dds"
+            ]
+          ]
+        }
+      ],
+      "hair_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 458,
+          "triangles": 790,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 4574,
+          "triangles": 5081,
+          "material": "fox_hair_transfer_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "hair_parts_bsm_alp.dds"
+            ],
+            [
+              "Base_Tex_2_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "hair_parts_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "hair_parts_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "vertices": 20,
+          "triangles": 20,
+          "material": "fox_head_shell_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "vertices": 1187,
+          "triangles": 2154,
+          "material": "fox_head_shell_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        }
+      ]
+    },
+    "textures": {
+      "hair_parts_trm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "hair_parts_srm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "face_nrm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA"
+      },
+      "face_bsm_alp": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA"
+      },
+      "eye_occlusion_alp": {
+        "size": [
+          128,
+          64
+        ],
+        "mode": "RGBA"
+      },
+      "hair_parts_bsm_alp": {
+        "size": [
+          2048,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "arm_bsm": {
+        "size": [
+          2048,
+          1024
+        ],
+        "mode": "RGBA"
+      },
+      "face_trm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA"
+      },
+      "face_srm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA"
+      },
+      "eye_sclera_bsm": {
+        "size": [
+          256,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "hair_parts_nrm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGB"
+      }
+    }
+  }
+}

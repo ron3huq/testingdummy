@@ -1,3 +1,5 @@
+> **Cập nhật theo thử nghiệm trên điện thoại:** người dùng xác nhận v6 làm lỗi biến dạng cutscene nặng hơn, vệt cổ và áo 2006 chưa được giải quyết. Không coi các kiểm tra cấu trúc dưới đây là bằng chứng đã sửa replay. Xem [bản v7](../ronaldo-four-v7/HUONG_DAN.md) và giới hạn kiểm chứng của bản đó.
+
 # Ronaldo v6 — sửa cổ, thử sửa biến dạng cutscene, tóc 2006 HQ và áo dài tay
 
 Gói thử cho efootxi Android 1.3.2 ARM64, MT Manager, không root.

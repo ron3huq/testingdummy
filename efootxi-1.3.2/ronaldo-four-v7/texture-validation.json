@@ -1,0 +1,157 @@
+{
+  "status": "INDEPENDENT_TEXTURE_DECODERS_PASS",
+  "container_sha256": "af4b3d86d5485963e3726e164cb1f8cc72799c9ee094dc82501ddc4a07e75f81",
+  "textures": [
+    {
+      "name": "T_ND01ep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.27328062057495117,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND01ep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.19806575775146484,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND01ep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.31413519382476807,
+      "p95": 3.0
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.24459600448608398,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.29155540466308594,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND06ep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.3140980005264282,
+      "p95": 3.0
+    },
+    {
+      "name": "T_ND0006_Hair_D",
+      "shape": [
+        512,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.20733261108398438,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.27124929428100586,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.19810009002685547,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND13ep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.3140980005264282,
+      "p95": 3.0
+    },
+    {
+      "name": "T_ND0013_Hair_D",
+      "shape": [
+        512,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.03972792625427246,
+      "p95": 0.0
+    },
+    {
+      "name": "T_ND27ep00v0313_Face_D",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.26480627059936523,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND27ep00v0313_Face_N",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.23577117919921875,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND27ep00v0313_Face_SRO",
+      "shape": [
+        2048,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.31413519382476807,
+      "p95": 3.0
+    },
+    {
+      "name": "T_ND0027_Hair_D",
+      "shape": [
+        512,
+        2048,
+        4
+      ],
+      "two_decoder_mae": 0.35056114196777344,
+      "p95": 3.0
+    }
+  ],
+  "renderer_tested": false
+}

@@ -1,0 +1,12 @@
+diff --git a/efootxi-1.3.2/hotfix-v18/select_team.c b/efootxi-1.3.2/ronaldo-four-v7/source/select_team.c
+index 3ba9dc8..eaa65b3 100644
+--- a/efootxi-1.3.2/hotfix-v18/select_team.c
++++ b/efootxi-1.3.2/ronaldo-four-v7/source/select_team.c
+@@ -463,6 +463,7 @@ static int appearance_named(u32 cid,unsigned long long id){
+  for(unsigned i=0;i<n;i++)if(ids[i]==id)return 1;return 0;
+ }
+ static u32 appearance_mode(unsigned long long id){
++ if(id==89135066911146ULL||id==17592722922839ULL)return 2;
+  int custom=editor_sleeve(id,__atomic_load_n(&active_competition,__ATOMIC_ACQUIRE));if(custom>=0)return (u32)custom;
+  if(id==89138556572074ULL||id==88044950524330ULL)return 2; /* preserve device-confirmed v14 cards */
+  return appearance_named(__atomic_load_n(&active_competition,__ATOMIC_ACQUIRE),id)?2:0;
