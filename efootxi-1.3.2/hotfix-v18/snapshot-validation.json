@@ -1,0 +1,18 @@
+{
+  "status": "PASSIVE_CAPTURE_NONIDENTITY_ORDER_FOUR_PLAN_ROUNDTRIP_PASS",
+  "device_tested": false,
+  "source_team_bytes_unchanged_on_capture": true,
+  "exact64_and_shirts_follow_identity": true,
+  "four_distinct_native_plans_preserved": true,
+  "unset_taker_and_bench_captain_preserved": true,
+  "engine_runtime_consumer_82bfb2c_verified": true,
+  "unchanged_snapshot_not_rewritten": true,
+  "invalid_records_rejected": [
+    "count",
+    "order",
+    "keykind",
+    "captain",
+    "role"
+  ],
+  "fixture": "synthetic; not a phone dump"
+}

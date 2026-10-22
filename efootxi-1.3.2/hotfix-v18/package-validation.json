@@ -1,0 +1,31 @@
+{
+  "status": "LINEUP_UPDATE_PRESERVES_PROJECT_AND_APP_PAYLOAD_PASS",
+  "device_tested": false,
+  "bootstrap_update_files": 10,
+  "custom_export_files": 11,
+  "existing_project_json_not_shipped_in_bootstrap": true,
+  "hair_face_body_changes_included": false,
+  "files": {
+    "efootxi-v18-lineup-readback-update.zip": {
+      "sha256": "2fa1535190d5db83019ad5cc1b6f38215b76fb9483cf9939ef81be7bd7642a7e",
+      "bytes": 164240
+    },
+    "MyLeagueStudio-v18-offline.zip": {
+      "sha256": "e562c16e0ce7549256a12e6bea228e4ec477d415d0cbd30b6a78cb65521dbedc",
+      "bytes": 1644586
+    }
+  },
+  "runtime_hashes": {
+    "gateway_runtime.py": "afcb746867c98e4ed7c7852ac1a9c0b9ed33d2a90d3aefbabd2f67bd6420fe73",
+    "select_team_runtime.py": "85f479583190a5be41bd463a6f1d5dc30c9bbb15a5296786573df17ce8f616b3",
+    "libselect_team.so": "623123cb40566bf760ea2ae37e81bde591e3f098be731d2c0d73ca49320a98f0",
+    "myleague_realism.py": "00eb323c48f3a3952eb1794710b0fd2cc00058f19572eeec88863717b6da46d6",
+    "myleague_worlds.py": "17adec5b32ede745b33dc73d25884672849ec1f2810a507cb30bfbf0af37fc2b",
+    "myleague_balance.py": "361fbe202fe1e8647a26580cf1de522fc9d9351de266ef522c90367093dc9c54",
+    "myleague_custom.json": "cd357cb4f50ab20c182fefbcd6800059c14ef7761c176bb26ace719ce04282c2",
+    "myleague_editor_runtime.py": "24e987f8db9c6c133faf0fd7e94285df87a5b5b9ba86e07be622f060877ef940",
+    "myleague_editor.json": "d7bebd58464f1bbcc5c78d26d4c4e38b6fbcb77be81cd65ba8f6ec87ed4390c2",
+    "myleague_packs.py": "ae2ae1b8f20a5f000c53c7bf7b49161107097e36ce87ed5d53e428de89586f38",
+    "myleague_team_snapshot.py": "d39c948703bc0c4589102e44e4a7533352d3d0d74577c5cebb8208be9cd90b32"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PACK_NATIVE_GATEWAY_LIST_DRAW_RETRY_RESET_PRESERVATION_PASS",
+  "actual_shipped_gateway": true,
+  "source_save_unchanged": true,
+  "install_does_not_grant_players": true,
+  "missing_card_atomic_rollback": true,
+  "immutable_published_membership": true,
+  "retry_no_duplicate_grant_or_charge": true,
+  "rename_preserves_consumed": true,
+  "hide_preserves_owned_and_receipts": true,
+  "device_tested": false
+}

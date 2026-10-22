@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "base_version": "native-hotfix-v18",
+  "players": [],
+  "teams": [],
+  "weather": {
+    "summer_end": 7,
+    "winter_start": 8,
+    "winter_end": 14,
+    "rain_chance": 0.35,
+    "night_chance": 0.5,
+    "late_winter_chance": 0.45
+  },
+  "packs": []
+}

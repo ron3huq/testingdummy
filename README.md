@@ -9,6 +9,22 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## My League Studio v18 — đọc đội hình từ game, bỏ đội hình suy đoán
+
+- [Bộ cập nhật lấy đội hình từ game (10 file, giữ myleague_editor.json đang có)](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v18/efootxi-v18-lineup-readback-update.zip)
+- [Web editor v18 (ZIP; giải nén rồi mở MyLeagueEditor.html)](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/editor-v18/MyLeagueStudio-v18-offline.zip)
+- [Hướng dẫn cài cập nhật → chép myleague-live-teams.json → nhập web → chỉnh/xuất](efootxi-1.3.2/editor-v18/HUONG_DAN.md)
+- [Chi tiết nguồn dữ liệu và ánh xạ thứ tự cầu thủ](efootxi-1.3.2/editor-v18/NGHIEN_CUU.md)
+- [Kiểm tra capture/order/bốn sơ đồ/captain/takers](efootxi-1.3.2/hotfix-v18/snapshot-validation.json)
+
+Lỗi được xác nhận là đội hình web v17 không khớp game: roster tĩnh, sơ đồ suy ra khi thiếu plan, tự điền số áo và vai trò. v18 bỏ các đội hình này khỏi màn hình chỉnh. Đội phải đến từ bản đọc native hoặc dự án bạn chủ động nhập; đội chưa đọc được báo thiếu, không tự dựng thay.
+
+Cài bộ cập nhật10 file, mở đội hình/đối thủ trong game rồi lấy files/embedded-gateway/work/tools/myleague-live-teams.json và nhập vào tab Đội hình của web. File chỉ chứa đội đã được game tra cứu; dữ liệu cache vào trận được ưu tiên. Bốn biến thể sơ đồ được giữ riêng, roster/order/taker/captain nối theo Card ID, giữ255 là chưa gán và giữ tham chiếu người dự bị. Nhập chưa tự ghi đè; sau khi sửa/lưu, ZIP do app xuất chứa đủ11 file để cài dự án mới.
+
+Bộ cập nhật đầu tiên không chứa myleague_editor.json, đọc được dự án v17 mà không ghi lại file đó. Đọc snapshot chỉ copy record từ hook lookup/cache đã có; trình xuất Python không gọi engine. Chưa có file từ điện thoại người dùng để cam kết mọi CLB đã khớp; dữ liệu chỉ phản ánh những đội đã quan sát, không phải kết nối web trực tiếp hay bản sao DreamTeam sở hữu.
+
+Đã kiểm tra web từng ID/số áo/captain/taker và44 ô thuộc bốn sơ đồ của fixture đảo order, không tự lưu khi chỉ xem; kiểm tra C→JSON→web→C và bộ tiêu thụ sơ đồ ARM64 gốc, cùng native/cache/crash/appearance/weather/gateway regressions. **Chưa kiểm tra tính năng mới trên Android.** Theo yêu cầu mới nhất, bản này chỉ sửa đội hình; không phát hành thay đổi tóc, mặt hoặc hình thể.
+
 ## My League Studio v17 — pack cầu thủ, tên skill chuẩn và preset chạy/rê bóng
 
 - [Tải app v17 (ZIP; giải nén rồi mở MyLeagueEditor.html bằng Chrome/Edge)](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/editor-v17/MyLeagueStudio-v17-offline.zip)

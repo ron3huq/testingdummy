@@ -1,0 +1,34 @@
+{
+  "version": "native-hotfix-v18",
+  "status": "LINEUP_READBACK_PENDING_ANDROID_TEST",
+  "device_tested": false,
+  "scope": "lineup readback and editor fidelity only",
+  "passive_capture": {
+    "teams_supported": 76,
+    "sources": [
+      "native DB lookup",
+      "native match team cache"
+    ],
+    "capture_file": "myleague-live-teams.json",
+    "engine_calls_from_snapshot_exporter": false,
+    "captured_records_modified": false,
+    "coverage": "only teams actually observed; absent teams are not guessed"
+  },
+  "editor": {
+    "offline_guessed_teams_removed": true,
+    "requires_live_import_or_explicit_saved_project": true,
+    "four_plan_variants_preserved": true,
+    "native_unset_roles_255_preserved": true,
+    "bench_role_references_preserved": true,
+    "import_does_not_auto_apply_overrides": true,
+    "install_files_full_export": 11,
+    "initial_update_preserves_existing_editor_json": true
+  },
+  "hair_face_body_changes_included": false,
+  "limits": [
+    "No live phone snapshot available in this environment",
+    "Native and browser tests use synthetic nonidentity team data",
+    "Capture does not promise to include an unopened club or every later in-game tactical change",
+    "NPC/native club lineup capture; owned DreamTeam squad is a separate data path"
+  ]
+}
