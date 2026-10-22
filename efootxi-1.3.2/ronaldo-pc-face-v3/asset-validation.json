@@ -1,0 +1,34 @@
+{
+  "status": "PC_FACE_NATIVE_TOPOLOGY_FOUR_HEADS_AND_FOUR_TEXTURES_READER_PASS",
+  "variants": [
+    {
+      "variant": "4522",
+      "max_face_change_cm": 0.8000055551528931,
+      "face_uv_weights_colors_indices_bind_matrices_preserved": true,
+      "hair_geometry_and_weights_unchanged": true,
+      "hair_uv_matches_baked_atlas": true
+    },
+    {
+      "variant": "4522lg00v0000",
+      "max_face_change_cm": 0.8000181913375854,
+      "face_uv_weights_colors_indices_bind_matrices_preserved": true,
+      "hair_geometry_and_weights_unchanged": true,
+      "hair_uv_matches_baked_atlas": true
+    },
+    {
+      "variant": "4522ep01v0291",
+      "max_face_change_cm": 0.8000055551528931,
+      "face_uv_weights_colors_indices_bind_matrices_preserved": true,
+      "hair_geometry_and_weights_unchanged": true,
+      "hair_uv_matches_baked_atlas": true
+    },
+    {
+      "variant": "4522ep00v0313",
+      "max_face_change_cm": 0.8000055551528931,
+      "face_uv_weights_colors_indices_bind_matrices_preserved": true,
+      "hair_geometry_and_weights_unchanged": true,
+      "hair_uv_matches_baked_atlas": true
+    }
+  ],
+  "phone_tested": false
+}

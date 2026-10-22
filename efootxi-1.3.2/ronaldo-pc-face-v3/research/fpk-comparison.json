@@ -1,0 +1,26 @@
+[
+  {
+    "name": "face_diff.bin",
+    "size": 960,
+    "sha256": "167242b4ca453c5d62d0ddbbd82fef04e164fed2d55b4a2a90cd599fbeac6285",
+    "identical_to_previous_source": true
+  },
+  {
+    "name": "face_high.fmdl",
+    "size": 135490,
+    "sha256": "6c86ec08ed1e9067f2a30d256f888a10cf87ea75eff0eeb03deee6c6d214e4a6",
+    "identical_to_previous_source": true
+  },
+  {
+    "name": "hair_high.fmdl",
+    "size": 294318,
+    "sha256": "9238184409bb10effda824d0fc3be9309345aa6d14fb5989f45242d0770e7835",
+    "identical_to_previous_source": true
+  },
+  {
+    "name": "oral.fmdl",
+    "size": 18447,
+    "sha256": "9b7463d14a0de147bc090e5323722fbdfec08bfe4d02bee82a5a9444ee9baded",
+    "identical_to_previous_source": true
+  }
+]

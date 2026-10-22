@@ -1,0 +1,100 @@
+[
+  {
+    "path": "Asset/model/character/face/real/4522/#Win/face.fpk",
+    "bytes": 339100,
+    "expected_extract": 449536,
+    "magic": "4352494c41594c4100db06008c2b0500",
+    "sha256": "0f2be73520e1fd13ea23184b50864e3d55609d8c1dbf8a29fbe027c82005f972"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/#Win/face.fpkd",
+    "bytes": 48,
+    "expected_extract": 48,
+    "magic": "666f7866706b6477696e300000000000",
+    "sha256": "3df4d69b4f0cc2c7f0524370651d0d685b5191a6b19c87ac2259d21350b66c26"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/arm_bsm.ftex",
+    "bytes": 1803392,
+    "expected_extract": 1803392,
+    "magic": "465445585c8f02400b00000800040100",
+    "sha256": "3d7c7d34c529d594c0829d34dfe2cb0c6dfaa997360f28d9712ebc7b3d52317a"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/eye_occlusion_alp.ftex",
+    "bytes": 5408,
+    "expected_extract": 5408,
+    "magic": "4654455885eb01400400800040000100",
+    "sha256": "1f39e2f3839567b34526c40988135e04cf91d29effe840e1de42d33aec685941"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/eye_sclera_bsm.ftex",
+    "bytes": 78864,
+    "expected_extract": 78864,
+    "magic": "465445585c8f02400b00000100010100",
+    "sha256": "b13fa340f60aa100d9936255249b9c5cbfb12e7d4779558d62548f0f99996b39"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/face_bsm_alp.ftex",
+    "bytes": 714488,
+    "expected_extract": 714488,
+    "magic": "4654455885eb01400400000400040000",
+    "sha256": "42428b4fc0737afaa8d5aca847da2509585a919b6a34d24858fc9416e176347c"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/face_nrm.ftex",
+    "bytes": 1203888,
+    "expected_extract": 1203888,
+    "magic": "465445585c8f02400400000400040100",
+    "sha256": "96ce9f7e3083c81211979ac7eb603a0bf6ef7afa2b4312d07193bf331837abed"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/face_srm.ftex",
+    "bytes": 594520,
+    "expected_extract": 594520,
+    "magic": "4654455885eb01400200000400040000",
+    "sha256": "9b387a1c1a407785c7a003eadf9ab19d26827e3d46d5f32658f898a236ca36fa"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/face_trm.ftex",
+    "bytes": 396992,
+    "expected_extract": 396992,
+    "magic": "4654455885eb01400200000400040100",
+    "sha256": "cd77721315f031ba611a1921a2b79320f9d841d6a9788e49fac3b6b178f0946b"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_alpha8.ftex",
+    "bytes": 61048,
+    "expected_extract": 61048,
+    "magic": "4654455885eb01400400000200020000",
+    "sha256": "692b762b789e7dc7388c2e4ee6fe365c5b6ab1e3f3da7db485d0363f7ffd9275"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+    "bytes": 1137464,
+    "expected_extract": 1137464,
+    "magic": "4654455885eb01400400000400040000",
+    "sha256": "82a0c5db5c36065e193908b2787bfb84fe38b654cfeb8295fc27a0fcfba1f2d5"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_parts_nrm.ftex",
+    "bytes": 336080,
+    "expected_extract": 336080,
+    "magic": "465445585c8f02400900000400010100",
+    "sha256": "6accba2ef48ba05a25a8fa5e727c2c49adc3b1d5e53cd9d673dda984360eb6c6"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_parts_srm.ftex",
+    "bytes": 99504,
+    "expected_extract": 99504,
+    "magic": "465445585c8f02400200000400010100",
+    "sha256": "1c96e2a4c82f29a48c87cd3f2dc43ee716c36c8106c94c20e8756cd9674ab750"
+  },
+  {
+    "path": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_parts_trm.ftex",
+    "bytes": 93104,
+    "expected_extract": 93104,
+    "magic": "465445585c8f02400200000400010100",
+    "sha256": "4324362e3b00e3d2716640badf71d5abf9b22cc771a45747775369c023b5fee5"
+  }
+]

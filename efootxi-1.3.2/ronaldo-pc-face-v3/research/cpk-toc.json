@@ -1,0 +1,161 @@
+{
+  "header": {
+    "UpdateDateTime": 1,
+    "FileSize": null,
+    "ContentOffset": 2048,
+    "ContentSize": 6868480,
+    "TocOffset": 6870528,
+    "TocSize": 904,
+    "TocCrc": null,
+    "HtocOffset": null,
+    "HtocSize": null,
+    "EtocOffset": 6871552,
+    "EtocSize": 496,
+    "ItocOffset": null,
+    "ItocSize": null,
+    "ItocCrc": null,
+    "GtocOffset": null,
+    "GtocSize": null,
+    "GtocCrc": null,
+    "HgtocOffset": null,
+    "HgtocSize": null,
+    "EnabledPackedSize": 6974336,
+    "EnabledDataSize": 6863900,
+    "TotalDataSize": null,
+    "Tocs": null,
+    "Files": 14,
+    "Groups": 0,
+    "Attrs": 0,
+    "TotalFiles": null,
+    "Directories": null,
+    "Updates": null,
+    "Version": 7,
+    "Revision": 14,
+    "Align": 512,
+    "Sorted": 1,
+    "EnableFileName": 1,
+    "EID": null,
+    "CpkMode": 1,
+    "Tvers": "CPKMG2.40.13, DLL3.24.00",
+    "Comment": "",
+    "Codec": 0,
+    "DpkItoc": 0,
+    "EnableTocCrc": 0,
+    "EnableFileCrc": 0,
+    "CrcMode": 0
+  },
+  "files": [
+    {
+      "dir": "Asset/model/character/face/real/4522/#Win",
+      "name": "face.fpk",
+      "size": 339100,
+      "extract": 449536,
+      "id": 0,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/#Win",
+      "name": "face.fpkd",
+      "size": 48,
+      "extract": 48,
+      "id": 1,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "arm_bsm.ftex",
+      "size": 1803392,
+      "extract": 1803392,
+      "id": 2,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "eye_occlusion_alp.ftex",
+      "size": 5408,
+      "extract": 5408,
+      "id": 3,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "eye_sclera_bsm.ftex",
+      "size": 78864,
+      "extract": 78864,
+      "id": 4,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "face_bsm_alp.ftex",
+      "size": 714488,
+      "extract": 714488,
+      "id": 5,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "face_nrm.ftex",
+      "size": 1203888,
+      "extract": 1203888,
+      "id": 6,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "face_srm.ftex",
+      "size": 594520,
+      "extract": 594520,
+      "id": 7,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "face_trm.ftex",
+      "size": 396992,
+      "extract": 396992,
+      "id": 8,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "hair_alpha8.ftex",
+      "size": 61048,
+      "extract": 61048,
+      "id": 9,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "hair_parts_bsm_alp.ftex",
+      "size": 1137464,
+      "extract": 1137464,
+      "id": 10,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "hair_parts_nrm.ftex",
+      "size": 336080,
+      "extract": 336080,
+      "id": 11,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "hair_parts_srm.ftex",
+      "size": 99504,
+      "extract": 99504,
+      "id": 12,
+      "crc": null
+    },
+    {
+      "dir": "Asset/model/character/face/real/4522/sourceimages/#windx11",
+      "name": "hair_parts_trm.ftex",
+      "size": 93104,
+      "extract": 93104,
+      "id": 13,
+      "crc": null
+    }
+  ]
+}

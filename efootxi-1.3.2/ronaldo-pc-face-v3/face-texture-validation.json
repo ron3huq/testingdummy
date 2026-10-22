@@ -1,0 +1,24 @@
+{
+  "size": [
+    1024,
+    1024
+  ],
+  "format": "PF_ETC2_RGB",
+  "variants": 4,
+  "mip_sizes": [
+    524288,
+    131072,
+    32768,
+    8192,
+    2048,
+    512,
+    128,
+    32,
+    8,
+    8,
+    8
+  ],
+  "external_bulk_bytes": 696320,
+  "native_texture_loader_callback_preserved": true,
+  "engine_material_assignment_not_phone_verified": true
+}

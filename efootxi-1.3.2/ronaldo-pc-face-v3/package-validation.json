@@ -1,0 +1,17 @@
+{
+  "status": "EIGHT_FILE_BUNDLE_CHECKSUM_BOOTSTRAP_SIZE_AND_ZIP_CRC_PASS",
+  "target_card_id": "88044950524330",
+  "face_port": "PC surface/color adapted to native 743-vertex topology",
+  "phone_tested": false,
+  "facial_animation_verified": false,
+  "artifacts": {
+    "Ronaldo-PC-face-v3-88044950524330.zip": {
+      "bytes": 5401360,
+      "sha256": "6a859b17d46e7e1184d53250d0738354fd688db7841958313680d697ec6ad816"
+    },
+    "Tat-dau-thu-Ronaldo.zip": {
+      "bytes": 172,
+      "sha256": "df5194879354f2cd6bbc579113e3e5605da17194ede00fcd9d3c8a1535ee52e3"
+    }
+  }
+}

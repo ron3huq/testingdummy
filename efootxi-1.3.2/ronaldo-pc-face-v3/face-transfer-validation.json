@@ -1,0 +1,16 @@
+{
+  "source": "4522.cpk face_high.fmdl meshes 0 and 2, face_bsm_alp.ftex",
+  "native_vertices": 743,
+  "native_triangles": 1222,
+  "pc_skin_vertices": 2025,
+  "pc_skin_triangles": 3848,
+  "changed_vertices": 501,
+  "max_surface_transfer_cm": 0.8000000000000127,
+  "baked_size": [
+    1024,
+    1024
+  ],
+  "texture_covered_pixels": 1002505,
+  "scope": "PC facial surface/color adapted to native topology; not a direct PC mesh transplant",
+  "mouth_eyes_animation_verified_on_phone": false
+}

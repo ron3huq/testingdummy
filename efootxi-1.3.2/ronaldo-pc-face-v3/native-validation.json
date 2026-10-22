@@ -1,0 +1,46 @@
+{
+  "status": "ARM64_SCOPE_DETOUR_AND_FALLBACK_PASS",
+  "engine_sha256": "3da06a36fb5c434a75c5739af65f16664347477bd653659eb354376410d52f98",
+  "hook_sha256": "eda16f4f54e1979437550a4ca9a129ae582cd0ada2efac5f24c7c234b9fe2afc",
+  "checks": [
+    "other_card_4522",
+    "other_card_88049245491626",
+    "other_card_89138556572074",
+    "other_card_70373039149482",
+    "other_card_88038776539586",
+    "target_4522",
+    "target_4522lg00v0000",
+    "target_4522ep01v0291",
+    "target_4522ep00v0313",
+    "missing_asset_cleanup_then_original_restore",
+    "disabled_during_async_load_restores_original",
+    "numeric_facial_identity_preserved_for_target_only",
+    "texture_callback_observer_delegates_unchanged",
+    "native_actor_numeric_profile_readback"
+  ],
+  "modeled_boundaries": [
+    "original LoadRealFace body after first instruction",
+    "original completion callback body after first instruction",
+    "native FString setter and face texture callback bodies modeled"
+  ],
+  "renderer_tested": false,
+  "phone_tested": false,
+  "stats": [
+    15,
+    10,
+    7,
+    6,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    88044950524330,
+    5,
+    2,
+    1,
+    1,
+    0
+  ]
+}
