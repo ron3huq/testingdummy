@@ -1,3 +1,5 @@
+> **Bản v1 gây lỗi kiểm tra gateway lúc khởi động.** Dùng [gói khôi phục và v1a đã sửa](../ronaldo-noodle-startup-fix/HUONG_DAN.md). ZIP tắt tóc cũ không sửa được lỗi khởi động.
+
 # Bản thử tóc mì tôm Ronaldo — 88044950524330
 
 Đây là bộ thử cho Android efootxi 1.3.2 ARM64, không cần root hoặc ký lại APK. **Chưa được chạy trên điện thoại**. Đã kiểm tra định dạng asset bằng UEViewer và logic chuyển hướng/fallback bằng thực thi ARM64 mô phỏng; các kiểm tra này không thay thế kiểm tra hình ảnh hoặc độ ổn định trong game.

@@ -1,4 +1,4 @@
-a583cedb024121c48087341c2e5cffb432600f3a9c78dc63a97ce0a51059b5a3  README.md
+3eae238c0423cc1af93efd4b011d7ac241299e8f893737104889ada021664d87  README.md
 8085bd7371730ba8ff4fe2b8a89dc986f762f056edd210f47e395cbc8cd1c1e8  efootxi-1.3.2/HUONG_DAN.txt
 6fce6ff5162abe46786d96dbeb39fc5183fd15a154b31500c005c9bc5206caa5  efootxi-1.3.2/KHOI_PHUC.md
 5ed68a8614e760249e8024f74d0247784d1d47bd1dbb11ddbe53af1e28689505  efootxi-1.3.2/STATUS.json
@@ -764,8 +764,16 @@ c1e6fb08a472fd27c048184ef955f5dc3f59e5b8bf7409634915da0539b17f72  efootxi-1.3.2/
 cd30735b8cadd14b4f829a4b371febb8e68e319484eff77d411c264ffd0b6948  efootxi-1.3.2/ronaldo-noodle-source/source-inventory.json
 7264a463c205b95db5d5e7e22d7d11604f4c71bbd6fbfcbec4c8422cb1aa60a5  efootxi-1.3.2/ronaldo-noodle-source/validate_conversion.py
 d7dce33bceeda3564d736dd57c702e45f94057f340c8bdf48c89f7f049417e0e  efootxi-1.3.2/ronaldo-noodle-source/validation.json
-8c5f94323d7bddff128bace22964aa00fa94363cf562474507079dab5a58050c  efootxi-1.3.2/ronaldo-noodle-trial-v1/HUONG_DAN.md
-606456cc9d1c2a6650d56ecb3a3819f1fcfc74f79327d947dee92ad56ffbd690  efootxi-1.3.2/ronaldo-noodle-trial-v1/NGHIEN_CUU.md
+dbafd85846963efe95408dbe38a7ae10a8e7bf4064631e1d5a7cf5f857d2917a  efootxi-1.3.2/ronaldo-noodle-startup-fix/HUONG_DAN.md
+bb1c8efe2def5609bf5e5b1d89fcbfd3197994526d13b553731725352766ed03  efootxi-1.3.2/ronaldo-noodle-startup-fix/Khoi-phuc-khoi-dong.zip
+6a16e0cf8395b1a50fed72548002d915e6862138f7d7e7b92b25a81141f4b031  efootxi-1.3.2/ronaldo-noodle-startup-fix/Ronaldo-noodle-trial-v1a-startup-fixed.zip
+0fc7f85f11f8d001199a5d55700fe43b58ede2b1dbc4025cff49c1c335f6a319  efootxi-1.3.2/ronaldo-noodle-startup-fix/bootstrap-validation.json
+a74415335cd270f1e0d11ae7513e24d8679a203ed69cb2a55ffe4bc529d11bc6  efootxi-1.3.2/ronaldo-noodle-startup-fix/build_fix.py
+5b9a373cc8c17c1b725f0a5d9033fe5597199ca068b86d1ef4710aeb39e163f9  efootxi-1.3.2/ronaldo-noodle-startup-fix/gateway_runtime_fixed.py
+734b95ef43b9d9dcb65194ae3b21fa936a944989592531fdab8fb6107195ed4c  efootxi-1.3.2/ronaldo-noodle-startup-fix/gateway_runtime_restore.py
+47d24211306667cb08c9d6aca95fc622bd4498911edde27d5b5d3327a4cca876  efootxi-1.3.2/ronaldo-noodle-startup-fix/runtime-validation.json
+1e1deed6e80acf14628e09dd1ccb719fc2f053a4a858455c19d1754d0408cf25  efootxi-1.3.2/ronaldo-noodle-trial-v1/HUONG_DAN.md
+aea6db41ca9a630ddf7e8f6f630acbad4c29ae3d2b14331e59ddbb01874bdcbf  efootxi-1.3.2/ronaldo-noodle-trial-v1/NGHIEN_CUU.md
 ab502f5deeae6ccdf7be75addc9fa0d5e884ed7f25775b9d9c48503e1937fef4  efootxi-1.3.2/ronaldo-noodle-trial-v1/Ronaldo-noodle-trial-v1-88044950524330.zip
 945269cd777f5853176130a87d909d62e91f04bbb6c4d3dbb942bbf0371be21d  efootxi-1.3.2/ronaldo-noodle-trial-v1/Tat-noodle-hair.zip
 efc80f1cdf37aac3586bdf926b15eb66a1065b726d8149072d9e0a96e8865594  efootxi-1.3.2/ronaldo-noodle-trial-v1/asset-validation.json

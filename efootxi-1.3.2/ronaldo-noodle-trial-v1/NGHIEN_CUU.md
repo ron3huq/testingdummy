@@ -1,3 +1,5 @@
+> **Bản v1 gây lỗi kiểm tra gateway lúc khởi động.** Dùng [gói khôi phục và v1a đã sửa](../ronaldo-noodle-startup-fix/HUONG_DAN.md). ZIP tắt tóc cũ không sửa được lỗi khởi động.
+
 # Phạm vi kỹ thuật và bằng chứng của bản thử v1
 
 Không còn là chỉ FBX/Blender: bộ này có bảy package Unreal cooked được dựng từ template Android, một bulk texture ETC2 và container IoStore mới pc9298. Chưa chạy engine trên thiết bị; không gọi là đã xác nhận hoạt động trong efootxi.

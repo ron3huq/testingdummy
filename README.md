@@ -1,3 +1,5 @@
+> **Sửa lỗi khởi động gói tóc Ronaldo v1:** [Tải gói khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-noodle-startup-fix/Khoi-phuc-khoi-dong.zip) · [Bản thử v1a đã sửa đóng gói](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-noodle-startup-fix/Ronaldo-noodle-trial-v1a-startup-fixed.zip) · [Hướng dẫn](efootxi-1.3.2/ronaldo-noodle-startup-fix/HUONG_DAN.md). Không xóa dữ liệu ứng dụng. Chưa xác nhận trên điện thoại.
+
 # File trao đổi cùng Codex
 
 Nhánh `chat-downloads` lưu file từ cuộc trò chuyện, độc lập với nhánh mã nguồn.

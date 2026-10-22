@@ -1,0 +1,12 @@
+{
+  "guard_source": "GatewayGuard.prepare, extracted classes8.dex",
+  "manifest_expected_bytes": 2441,
+  "broken_trial_bytes": 3081,
+  "fixed_trial_bytes": 2441,
+  "recovery_bytes": 2441,
+  "trial_ast_preserved": true,
+  "recovery_v18_ast_preserved": true,
+  "existing_file_branch": "matching size skips asset repair and repair hash check",
+  "original_apk_asset_hash_verified": true,
+  "phone_tested": false
+}
