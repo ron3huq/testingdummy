@@ -1,0 +1,62 @@
+{
+  "files": {
+    "apk": {
+      "sha256": "7fe3ca7f935cee91ff870a786abc43b948a94575e2d0d72e54bb35ece75af057",
+      "bytes": 2045971944
+    },
+    "resources-02": {
+      "sha256": "6ef7793399e01496ec8a1ad6d1736781a3e44ec0a4fb6543e88aa0f9437b1042",
+      "bytes": 995652647
+    },
+    "resources-03": {
+      "sha256": "a1926849477dbfa734c430efe6a9147bacd94c8c446dd72cec7be50e0f97125a",
+      "bytes": 975005503
+    },
+    "resource-manifest": {
+      "sha256": "1ae3d5c4f8612efa0d04b848bd9c2861dd6c72330a916034c2f7b3c5476168ea",
+      "bytes": 42520
+    },
+    "v4a": {
+      "sha256": "4c45e3495c08617d46925f3bb2de8c96e06606038a5cc9f1d3f14597a1a52203",
+      "bytes": 5620590
+    },
+    "noodle-source": {
+      "sha256": "2637883f180989e7e788a32ba3e11c51e198d0f4fd157412e17a8d8d37131462",
+      "bytes": 32433943
+    },
+    "upload:Ronaldo-2006-Blender-OPEN.zip": {
+      "sha256": "8e23fd4713025d0b1e90c74f8848ea36b98271c012a064cd4b74a67fcff97ec3",
+      "bytes": 5158089
+    },
+    "upload:CRISTIANO RONALDO 2006.zip": {
+      "sha256": "68877abcd8522965eebbc09b684ae82cd29668005d48cbaa0b19d889259f9f7f",
+      "bytes": 10455686
+    },
+    "upload:2013.rar": {
+      "bytes": 13769258,
+      "sha256": "058c92679e5f8a19d16351add944dbfc469be3198b03948d6002820be5ead54b"
+    },
+    "upload:2027.rar": {
+      "bytes": 10791299,
+      "sha256": "fe0610daad842ffe471603b0357827fcd5786ea0d2923edc48af605d0a8ec13e"
+    },
+    "upload:Nguyen Xuan Son.rar": {
+      "bytes": 6250419,
+      "sha256": "fd903089b100449f5ca2c5503c20e1bc626520caf5b135e79937a8b41ece8cab"
+    },
+    "upload:Ronaldo Junior.rar": {
+      "bytes": 5604207,
+      "sha256": "523677af047eb6186aa45b6a33e1dd97a946da753eb11dca118c90a0c3d7322d"
+    },
+    "upload:Nguyen Dinh Bac.rar": {
+      "bytes": 13793859,
+      "sha256": "f86e57893b31f97bc43d4c47a7b3f571c1d9f2b0083a723a002958cf256c6179"
+    }
+  },
+  "source_commits": {
+    "UEViewer": "a0bfb468d42be831b126632fd8a0ae6b3614f981",
+    "pes-fmdl-blender": "231093d3a056176b8d6e33e79d13f5563b27b985",
+    "testingdummy-base": "e5099e00b61d2fd2f8cf8dac91e7aee745b9e925"
+  },
+  "v7_lod_writer_sha256": "4bdf7af41f43172a65f4e7ec3b8a50a94cb01d4bdfa6d537e5428990e3a708fe"
+}

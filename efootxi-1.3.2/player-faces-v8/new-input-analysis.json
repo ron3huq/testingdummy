@@ -1,0 +1,1081 @@
+{
+  "xuan-son": {
+    "archive_sha256": "fd903089b100449f5ca2c5503c20e1bc626520caf5b135e79937a8b41ece8cab",
+    "archive_bytes": 6250419,
+    "archive_files": [
+      "Nguyen Xuan Son/Id player/#Win/face.fpk",
+      "Nguyen Xuan Son/Id player/#Win/face.fpkd",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/eye_occlusion_alp.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/face_bsm_alp.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/face_nrm.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/face_srm.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/face_trm.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/hair_accessory_color.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/hair_accessory_nrm.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/hair_accessory_srm.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/hair_accessory_trm.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/hair_parts_bsm.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/hair_parts_nrm.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/hair_parts_srm.ftex",
+      "Nguyen Xuan Son/Id player/sourceimages/#windx11/hair_parts_trm.ftex"
+    ],
+    "models": {
+      "face_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 704,
+          "triangles": 1243,
+          "material": "fox_skin_mat.001",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 353,
+          "triangles": 620,
+          "material": "fox_skin_mat.001",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "vertices": 1379,
+          "triangles": 2557,
+          "material": "fox_skin_mat.001",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "vertices": 40,
+          "triangles": 46,
+          "material": "fox_eyeOcclusion_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "eye_occlusion_alp.dds"
+            ]
+          ]
+        }
+      ],
+      "hair_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 5430,
+          "triangles": 3128,
+          "material": "fox_hair_transfer_mat.001",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "hair_parts_bsm_alp.dds"
+            ],
+            [
+              "Base_Tex_2_SRGB",
+              "hair_parts_bsm.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "hair_parts_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "hair_parts_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 163,
+          "triangles": 220,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "hair_accessory_color.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "hair_accessory_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "hair_accessory_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "hair_accessory_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "hair_accessory_srm.dds"
+            ]
+          ]
+        }
+      ]
+    },
+    "textures": {
+      "hair_parts_trm": {
+        "size": [
+          1024,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_srm": {
+        "size": [
+          1024,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_accessory_color": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_nrm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_bsm_alp": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "repair": {
+          "missing_edge_payload_bytes": 2510,
+          "method": "replicate last complete BC block into incomplete bottom row"
+        }
+      },
+      "eye_occlusion_alp": {
+        "size": [
+          128,
+          64
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_bsm_alp": {
+        "size": [
+          1024,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_accessory_trm": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_accessory_srm": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_accessory_nrm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_bsm": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_trm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_srm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_nrm": {
+        "size": [
+          1024,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      }
+    }
+  },
+  "junior": {
+    "archive_sha256": "523677af047eb6186aa45b6a33e1dd97a946da753eb11dca118c90a0c3d7322d",
+    "archive_bytes": 5604207,
+    "archive_files": [
+      "Ronaldo Junior/#Win/face.fpk",
+      "Ronaldo Junior/#Win/face.fpkd",
+      "Ronaldo Junior/sourceimages/#windx11/eye_occlusion_alp.ftex",
+      "Ronaldo Junior/sourceimages/#windx11/face_bsm_alp.ftex",
+      "Ronaldo Junior/sourceimages/#windx11/face_nrm.ftex",
+      "Ronaldo Junior/sourceimages/#windx11/face_srm.ftex",
+      "Ronaldo Junior/sourceimages/#windx11/face_trm.ftex",
+      "Ronaldo Junior/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+      "Ronaldo Junior/sourceimages/#windx11/hair_parts_nrm.ftex",
+      "Ronaldo Junior/sourceimages/#windx11/hair_parts_srm.ftex",
+      "Ronaldo Junior/sourceimages/#windx11/hair_parts_trm.ftex"
+    ],
+    "models": {
+      "face_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 236,
+          "triangles": 369,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 1789,
+          "triangles": 3479,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "vertices": 162,
+          "triangles": 104,
+          "material": "fox_eyelash_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_eyelash_alp.tga"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_eyelash_nrm.tga"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_eyelash_srm.tga"
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "vertices": 40,
+          "triangles": 46,
+          "material": "fox_eyeOcclusion_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "eye_occlusion_alp.dds"
+            ]
+          ]
+        }
+      ],
+      "hair_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 341,
+          "triangles": 572,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 3896,
+          "triangles": 5258,
+          "material": "fox_hair_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "hair_parts_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "hair_parts_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "hair_parts_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "vertices": 1072,
+          "triangles": 1936,
+          "material": "fox_head_shell_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        }
+      ]
+    },
+    "textures": {
+      "hair_parts_trm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_srm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_nrm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_bsm_alp": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "eye_occlusion_alp": {
+        "size": [
+          128,
+          64
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_bsm_alp": {
+        "size": [
+          2048,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_trm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_srm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_nrm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      }
+    }
+  },
+  "dinh-bac": {
+    "archive_sha256": "f86e57893b31f97bc43d4c47a7b3f571c1d9f2b0083a723a002958cf256c6179",
+    "archive_bytes": 13793859,
+    "archive_files": [
+      "#Win/face.fpk",
+      "#Win/face.fpk.xml",
+      "#Win/face.fpkd",
+      "#Win/face_fpk/face_diff.bin",
+      "#Win/face_fpk/face_high.fmdl",
+      "#Win/face_fpk/hair_high.fmdl",
+      "sourceimages/#windx11/eye.dds",
+      "sourceimages/#windx11/eye.ftex",
+      "sourceimages/#windx11/EYES.dds",
+      "sourceimages/#windx11/EYES.ftex",
+      "sourceimages/#windx11/EYES_NRM.dds",
+      "sourceimages/#windx11/EYES_NRM.ftex",
+      "sourceimages/#windx11/EYES_SRM.dds",
+      "sourceimages/#windx11/EYES_SRM.ftex",
+      "sourceimages/#windx11/EYES_TRM.dds",
+      "sourceimages/#windx11/EYES_TRM.ftex",
+      "sourceimages/#windx11/eye_nrm.dds",
+      "sourceimages/#windx11/eye_nrm.ftex",
+      "sourceimages/#windx11/eye_occlusion_alp.dds",
+      "sourceimages/#windx11/eye_occlusion_alp.ftex",
+      "sourceimages/#windx11/eye_sclera_bsm.dds",
+      "sourceimages/#windx11/eye_sclera_bsm.ftex",
+      "sourceimages/#windx11/eye_srm.dds",
+      "sourceimages/#windx11/eye_srm.ftex",
+      "sourceimages/#windx11/face_bsm_alp.dds",
+      "sourceimages/#windx11/face_bsm_alp.ftex",
+      "sourceimages/#windx11/face_nrm.dds",
+      "sourceimages/#windx11/face_nrm.ftex",
+      "sourceimages/#windx11/face_srm.dds",
+      "sourceimages/#windx11/face_srm.ftex",
+      "sourceimages/#windx11/face_trm.dds",
+      "sourceimages/#windx11/face_trm.ftex",
+      "sourceimages/#windx11/hair_parts_bsm.dds",
+      "sourceimages/#windx11/hair_parts_bsm.ftex",
+      "sourceimages/#windx11/hair_parts_bsm_alp.dds",
+      "sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+      "sourceimages/#windx11/hair_parts_bsm_alp1.dds",
+      "sourceimages/#windx11/hair_parts_bsm_alp1.ftex",
+      "sourceimages/#windx11/hair_parts_bsm_alp2.dds",
+      "sourceimages/#windx11/hair_parts_bsm_alp2.ftex",
+      "sourceimages/#windx11/hair_parts_nrm.dds",
+      "sourceimages/#windx11/hair_parts_nrm.ftex",
+      "sourceimages/#windx11/hair_parts_nrm1.dds",
+      "sourceimages/#windx11/hair_parts_nrm1.ftex",
+      "sourceimages/#windx11/hair_parts_srm.dds",
+      "sourceimages/#windx11/hair_parts_srm.ftex",
+      "sourceimages/#windx11/hair_parts_srm1.dds",
+      "sourceimages/#windx11/hair_parts_srm1.ftex",
+      "sourceimages/#windx11/hair_parts_trm.dds",
+      "sourceimages/#windx11/hair_parts_trm.ftex",
+      "sourceimages/#windx11/hair_parts_trm1.dds",
+      "sourceimages/#windx11/hair_parts_trm1.ftex",
+      "sourceimages/#windx11/oral_bsm.dds",
+      "sourceimages/#windx11/oral_bsm.ftex",
+      "sourceimages/#windx11/oral_nrm.dds",
+      "sourceimages/#windx11/oral_nrm.ftex",
+      "sourceimages/#windx11/oral_srm.dds",
+      "sourceimages/#windx11/oral_srm.ftex",
+      "sourceimages/#windx11/oral_trm.dds",
+      "sourceimages/#windx11/oral_trm.ftex"
+    ],
+    "models": {
+      "face_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 648,
+          "triangles": 1101,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 429,
+          "triangles": 762,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "vertices": 1379,
+          "triangles": 2557,
+          "material": "fox_skin_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "face_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "face_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "face_srm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "face_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "face_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "vertices": 40,
+          "triangles": 46,
+          "material": "fox_eyeOcclusion_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "eye_occlusion_alp.dds"
+            ]
+          ]
+        }
+      ],
+      "hair_high.fmdl": [
+        {
+          "index": 0,
+          "vertices": 8049,
+          "triangles": 9100,
+          "material": "fox_hair_transfer_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "hair_parts_bsm_alp.dds"
+            ],
+            [
+              "Base_Tex_2_SRGB",
+              "hair_parts_bsm.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "hair_parts_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "hair_parts_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "vertices": 7724,
+          "triangles": 11392,
+          "material": "fox_hair_mat.001",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "hair_parts_bsm_alp.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "hair_parts_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "hair_parts_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "vertices": 410,
+          "triangles": 736,
+          "material": "fox_hair_transfer_mat",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              "hair_parts_bsm_alp.dds"
+            ],
+            [
+              "Base_Tex_2_SRGB",
+              "hair_parts_bsm.dds"
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              "hair_parts_nrm.dds"
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              "haircube_cbm.dds"
+            ],
+            [
+              "Translucent_Tex_LIN",
+              "hair_parts_trm.dds"
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              "hair_parts_srm.dds"
+            ]
+          ]
+        }
+      ]
+    },
+    "textures": {
+      "hair_parts_trm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_srm1": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_srm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_nrm1": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "EYES_NRM": {
+        "size": [
+          512,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_nrm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_trm1": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "EYES": {
+        "size": [
+          512,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_bsm_alp": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "repair": {
+          "missing_edge_payload_bytes": 5020,
+          "method": "replicate last complete BC block into incomplete bottom row"
+        }
+      },
+      "oral_srm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "eye_occlusion_alp": {
+        "size": [
+          128,
+          64
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "EYES_TRM": {
+        "size": [
+          512,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "oral_nrm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "oral_trm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_bsm_alp": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_bsm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "EYES_SRM": {
+        "size": [
+          512,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "eye_srm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "oral_bsm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_bsm_alp2": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_trm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_bsm_alp1": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "eye_nrm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "face_srm": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "eye_sclera_bsm": {
+        "size": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "hair_parts_nrm": {
+        "size": [
+          1024,
+          256
+        ],
+        "mode": "RGBA",
+        "repair": null
+      },
+      "eye": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "repair": null
+      }
+    }
+  }
+}

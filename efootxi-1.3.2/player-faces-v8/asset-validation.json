@@ -1,0 +1,1361 @@
+{
+  "status": "NINETEEN_HEADS_V7_LOD_CONTRACT_SEAMS_AND_FACIAL_CONTROLS_PASS",
+  "meshes": [
+    {
+      "profile": "ND01",
+      "variant": "4522",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 132,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 132,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 837,
+        "10": 108,
+        "11": 36,
+        "12": 95,
+        "13": 36,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011668457579305198
+    },
+    {
+      "profile": "ND06",
+      "variant": "4522",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 137,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 137,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 839,
+        "10": 100,
+        "11": 37,
+        "12": 86,
+        "13": 37,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011551073830913926
+    },
+    {
+      "profile": "ND13",
+      "variant": "4522",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 135,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 135,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 838,
+        "10": 100,
+        "11": 37,
+        "12": 86,
+        "13": 37,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011551073830322296
+    },
+    {
+      "profile": "ND27",
+      "variant": "4522",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 142,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 142,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 837,
+        "10": 108,
+        "11": 36,
+        "12": 95,
+        "13": 36,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011668457579305198
+    },
+    {
+      "profile": "ND01",
+      "variant": "4522lg00v0000",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 132,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 132,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 837,
+        "10": 108,
+        "11": 36,
+        "12": 95,
+        "13": 36,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011668457579305198
+    },
+    {
+      "profile": "ND06",
+      "variant": "4522lg00v0000",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 137,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 137,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 839,
+        "10": 100,
+        "11": 37,
+        "12": 86,
+        "13": 37,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011551073830913926
+    },
+    {
+      "profile": "ND13",
+      "variant": "4522lg00v0000",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 135,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 135,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 838,
+        "10": 100,
+        "11": 37,
+        "12": 86,
+        "13": 37,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011551073830322296
+    },
+    {
+      "profile": "ND27",
+      "variant": "4522lg00v0000",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 142,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 142,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 837,
+        "10": 108,
+        "11": 36,
+        "12": 95,
+        "13": 36,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011668457579305198
+    },
+    {
+      "profile": "ND01",
+      "variant": "4522ep01v0291",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 132,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 132,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 837,
+        "10": 108,
+        "11": 36,
+        "12": 95,
+        "13": 36,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011668457579305198
+    },
+    {
+      "profile": "ND06",
+      "variant": "4522ep01v0291",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 137,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 137,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 839,
+        "10": 100,
+        "11": 37,
+        "12": 86,
+        "13": 37,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011551073830913926
+    },
+    {
+      "profile": "ND13",
+      "variant": "4522ep01v0291",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 135,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 135,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 838,
+        "10": 100,
+        "11": 37,
+        "12": 86,
+        "13": 37,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011551073830322296
+    },
+    {
+      "profile": "ND27",
+      "variant": "4522ep01v0291",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 142,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 142,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 837,
+        "10": 108,
+        "11": 36,
+        "12": 95,
+        "13": 36,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011668457579305198
+    },
+    {
+      "profile": "ND01",
+      "variant": "4522ep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 132,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 132,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 837,
+        "10": 108,
+        "11": 36,
+        "12": 95,
+        "13": 36,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011668457579305198
+    },
+    {
+      "profile": "ND06",
+      "variant": "4522ep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 137,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 137,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 839,
+        "10": 100,
+        "11": 37,
+        "12": 86,
+        "13": 37,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011551073830913926
+    },
+    {
+      "profile": "ND13",
+      "variant": "4522ep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 135,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 135,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 838,
+        "10": 100,
+        "11": 37,
+        "12": 86,
+        "13": 37,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011551073830322296
+    },
+    {
+      "profile": "ND27",
+      "variant": "4522ep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 142,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 142,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 837,
+        "10": 108,
+        "11": 36,
+        "12": 95,
+        "13": 36,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011668457579305198
+    },
+    {
+      "profile": "NDJR",
+      "variant": "4522ep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 134,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 134,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 714,
+        "10": 108,
+        "11": 36,
+        "12": 95,
+        "13": 36,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.01236534593780938
+    },
+    {
+      "profile": "NDXS",
+      "variant": "4522ep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 208,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 208,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 733,
+        "10": 107,
+        "11": 43,
+        "12": 107,
+        "13": 43,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.011278214474515939
+    },
+    {
+      "profile": "NDDB",
+      "variant": "4522ep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 224,
+          "face_scalp_hair_positions_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "active_bones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "native_body_compact_pose_indices_identical": true,
+          "neck_vertices_moved": 0,
+          "neck_max_move_cm": 0.0,
+          "seam_groups_checked": 224,
+          "face_scalp_hair_positions_identical": true
+        }
+      ],
+      "platform_lod_properties": {
+        "MinLod": [
+          0
+        ],
+        "ScreenSize": [
+          0.30000001192092896,
+          0.05000000074505806
+        ]
+      },
+      "hq_accessory_vertices": 135,
+      "hq_facial_controls": {
+        "8": 762,
+        "10": 107,
+        "11": 43,
+        "12": 107,
+        "13": 43,
+        "14": 44,
+        "15": 44
+      },
+      "skin_pose_max_m": 0.012366559952511824
+    }
+  ],
+  "render_lods": 38,
+  "all_chunk_sha1": true,
+  "all_imports_resolved": true,
+  "v6_missing_body_bones_regression_detected": true,
+  "cutscene_renderer_tested": false,
+  "phone_tested": false,
+  "container_sha256": "bc97e462e3768734c467573486cf70f64a598d2a9bd50aeaaf999dc4f908ab31"
+}

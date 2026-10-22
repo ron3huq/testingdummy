@@ -1,0 +1,13 @@
+{
+  "engine_sha256": "3da06a36fb5c434a75c5739af65f16664347477bd653659eb354376410d52f98",
+  "outer_entry": "0x39cdb10",
+  "observed_argument_reads": [
+    "0x39cdb48: ldrsw x22,[x1,#8]",
+    "0x39cdb50: ldr x21,[x1]",
+    "0x39cdb70: lsl x2,x22,#1, followed by copy"
+  ],
+  "outer_argument_classification": "FString pointer plus UTF16 element count",
+  "lower_loader_argument": "opaque 24-byte FSoftObjectPath, unchanged from v7",
+  "engine_head_function_bodies_in_tests": "modeled at boundary",
+  "phone_tested": false
+}

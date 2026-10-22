@@ -1,0 +1,17 @@
+{
+  "repository": "ron3huq/testingdummy",
+  "checked_refs": {
+    "main": "1f84f36e67b4ad1f12e46310ef48a19123c7aff0",
+    "chat-downloads_before_v8": "ffe07fdd9e955f30bd3f1745cc15d78a62869b70"
+  },
+  "checked_sources": [
+    "repository filenames and face-related text",
+    "all conversation attachment names",
+    "entries and models in the three new RAR archives"
+  ],
+  "missing_authored_face_source": {
+    "name": "Nguyen Hoang Duc",
+    "card_id": "105850542916637"
+  },
+  "action": "leave this card unchanged, request matching source rather than substitute a different face"
+}

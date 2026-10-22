@@ -1,3 +1,5 @@
+> **Phản hồi điện thoại sau v7:** người dùng xác nhận cutscene không còn biến dạng; 2017/2027 bị mặt đen, 2006/2013 có khe nối nhẹ. [V8](../player-faces-v8/HUONG_DAN.md) giữ LOD v7 và sửa vật liệu/mép nối, nhưng chưa được xác nhận renderer trên máy.
+
 # Ronaldo v7 — bốn đầu, sửa lại LOD và cổ; áo dài tay trên nền v18
 
 **V6 đã bị người dùng xác nhận làm biến dạng thân trong replay/cutscene nặng hơn. Không tiếp tục dùng v6 làm bản sửa cutscene. V7 đã dựng và kiểm tra mã/asset nhưng chưa chạy renderer trên điện thoại.**
