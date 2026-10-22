@@ -9,6 +9,19 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Ronaldo tóc mì tôm — bản thử Android v1, chỉ Card ID 88044950524330
+
+Đã tạo7 package Unreal riêng:4 biến thể đầu Android giữ phần mặt/skeleton gốc, hai material tóc và texture alpha ETC2. Có container pc9298 và hook giới hạn full Card ID; không thay dt200, save hoặc cấu hình đội hình. **Chưa chạy trên điện thoại; đây là bản thử, không phải xác nhận tóc đã hiển thị đúng trong game.** Tóc dùng màu tối, chưa tái tạo lớp màu thứ hai/hiệu ứng ngọn tóc của mod PC.
+
+- [Tải bộ thử cho MT Manager (~0,7MB)](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-noodle-trial-v1/Ronaldo-noodle-trial-v1-88044950524330.zip)
+- [Tải file tắt tóc thử, buộc dừng/mở lại game sau khi chép](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-noodle-trial-v1/Tat-noodle-hair.zip)
+- [Hướng dẫn cài, đọc log và quay lại mặt cũ](efootxi-1.3.2/ronaldo-noodle-trial-v1/HUONG_DAN.md)
+- [Bằng chứng và giới hạn kiểm tra](efootxi-1.3.2/ronaldo-noodle-trial-v1/NGHIEN_CUU.md)
+
+Giải nén bộ thử, gộp work/ và livedata/ vào files/embedded-gateway/. Sao lưu gateway_runtime.py trước. Bộ ZIP không chứa myleague_editor.json hoặc libselect_team.so. Xem noodle-hair-status.json tại work/tools sau khi vào sân với đúng thẻ. Hook có nhánh gọi lại loader gốc khi callback tải mới trả null; nhánh này đã kiểm tra ARM64 với loader mô hình hóa, chưa kiểm tra I/O/renderer/GC thật của Android.
+
+Đã kiểm tra UEViewer đọc4 mesh/material/texture mới, so sánh mọi thuộc tính mặt và bind pose với nguồn, kiểm tra ARM64 scope/trampoline/fallback và gateway manifest/checksum/idempotence. Nguồn tóc NEUBE do người dùng cung cấp.
+
 ## Ronaldo tóc mì tôm — đã ghép lên đầu Android trong Blender, CHƯA có bản cài
 
 Đã giải nén đủ 8 phần RAR pc3700, trích 4 head Ronaldo đúng SHA1 theo TOC. Xuất đầu Android có166 xương, ghép5.005 đỉnh tóc PC vào sk_head của rig Android; xoay thử xương đầu, toàn bộ tóc đi theo. Giữ tọa độ đỉnh mặt Android. LOD0 được đánh dấu cooked_out, xuất phần LOD inline còn lại.

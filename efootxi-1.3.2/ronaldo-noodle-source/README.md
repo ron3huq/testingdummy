@@ -1,3 +1,5 @@
+> Cập nhật tiếp: đã có [bộ thử Android v1](../ronaldo-noodle-trial-v1/HUONG_DAN.md) với asset/container/runtime riêng. Chưa chạy trên điện thoại. Tài liệu dưới đây mô tả giai đoạn nguồn/tham khảo trước đó.
+
 > Cập nhật: đã lấy được đầu Android từ pc3700 và ghép tóc trong Blender. Xem [bản ghép Android mới](../ronaldo-android-fit/README.md). Chưa có bản cài trong game. Các ghi chú thiếu mesh dưới đây mô tả thời điểm của bản nguồn PC trước đó.
 
 # Ronaldo tóc mì tôm — bộ nguồn đã chuyển đổi

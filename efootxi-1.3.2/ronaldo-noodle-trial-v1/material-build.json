@@ -1,0 +1,47 @@
+{
+  "texture": "T_ND0001_Hair_D",
+  "material_templates": {
+    "MI_ND0001_Head_Hair_HQ": {
+      "template": "MI_133157_Head_Hair_MQ",
+      "texture_import_remap": {
+        "/Game/Assets/character/RealFace/T_133157_Hair_D": "/Game/Assets/character/RealFace/T_ND0001_Hair_D"
+      },
+      "shader": "M_Head_Hair_MQ"
+    },
+    "MI_ND0001_Head_Hair_MQ": {
+      "template": "MI_133157_Head_Hair_MQ",
+      "texture_import_remap": {
+        "/Game/Assets/character/RealFace/T_133157_Hair_D": "/Game/Assets/character/RealFace/T_ND0001_Hair_D"
+      },
+      "shader": "M_Head_Hair_MQ"
+    }
+  },
+  "head_import_remap": {
+    "/Game/Assets/character/RealFace/MI_4522_Head_Hair_HQ": "/Game/Assets/character/RealFace/MI_ND0001_Head_Hair_HQ",
+    "/Game/Assets/character/RealFace/MI_4522_Head_Hair_MQ": "/Game/Assets/character/RealFace/MI_ND0001_Head_Hair_MQ"
+  },
+  "format": "PF_ETC2_RGBA",
+  "mips": [
+    65536,
+    16384,
+    4096,
+    1024,
+    256,
+    64,
+    16,
+    16,
+    16
+  ],
+  "alpha_mae": 0.6706695556640625,
+  "shader_limitation": "Single-layer masked Android hair shader; no FOX UV1 color blend/blonde tips port",
+  "files": {
+    "SK_ND01lg00v0000_Face.uasset": "ad73b2a8c0e1df7fa635948bcdd4164a92d7c89b1dea1a810596d95b50c89a85",
+    "T_ND0001_Hair_D.uasset": "e3ed215cb8ae47933cd992addd8fe3996ceb77803762fe203dc81a999630d51a",
+    "SK_ND01_Face.uasset": "40c855bfab3f402a35f75f58c9a7fcfd7709995c133a6af212940de5c381e72b",
+    "MI_ND0001_Head_Hair_MQ.uasset": "911cacc2c43bce9806decf5aa69d0f29a683d71b5335a599c961c772b62e60f8",
+    "SK_ND01ep01v0291_Face.uasset": "7423243b1ac7824230a26e1de293d5e3175c3f544507d1dcb77ae00cb76185fa",
+    "T_ND0001_Hair_D.ubulk": "b047e13f8a3d8cb0f31fc4bda23f69c337ad41c16d448cc93cf4d0e5295b1236",
+    "MI_ND0001_Head_Hair_HQ.uasset": "202af752577c36d1af40eccaee97215a6a3c4b577636496894e32a2f2d132c2b",
+    "SK_ND01ep00v0313_Face.uasset": "8ae9d6fe03bf6b09a98e6eda6a48b85c6c73f72860d6df24f5ca30ba50bbdf10"
+  }
+}

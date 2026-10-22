@@ -1,0 +1,20 @@
+{
+  "version": "ronaldo-noodle-trial-v1",
+  "target_card_id": "88044950524330",
+  "container": "pc9298_mobile_and",
+  "files": {
+    "pc9298_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "pc9298_mobile_and.utoc": {
+      "size": 1429,
+      "sha256": "b2415474ebfb876c22ccb1165a4bb23d7d4b680722c7be637ac89a67370f2f72"
+    },
+    "pc9298_mobile_and.ucas": {
+      "size": 681983,
+      "sha256": "8ab5ae5b1febecdae684b38c9d903efd6c90a78a7a2e624b1ecc8f3b19a416fe"
+    }
+  },
+  "native_sha256": "8f392426b25087b39607ab4da390ceb3b4f89932132ce36328de02e50379f1e6"
+}

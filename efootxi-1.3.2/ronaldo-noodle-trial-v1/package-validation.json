@@ -1,0 +1,25 @@
+{
+  "status": "EXPERIMENTAL_ANDROID_TRIAL_NOT_DEVICE_VERIFIED",
+  "target_card_id": "88044950524330",
+  "files": [
+    "work/tools/gateway_runtime.py",
+    "work/tools/noodle_hair.py",
+    "work/tools/libnoodle_hair.so",
+    "work/tools/noodle_hair.json",
+    "work/tools/noodle_bundle.json",
+    "livedata/pc9298_mobile_and.pak",
+    "livedata/pc9298_mobile_and.utoc",
+    "livedata/pc9298_mobile_and.ucas"
+  ],
+  "artifacts": {
+    "Ronaldo-noodle-trial-v1-88044950524330.zip": {
+      "bytes": 694905,
+      "sha256": "ab502f5deeae6ccdf7be75addc9fa0d5e884ed7f25775b9d9c48503e1937fef4"
+    },
+    "Tat-noodle-hair.zip": {
+      "bytes": 172,
+      "sha256": "945269cd777f5853176130a87d909d62e91f04bbb6c4d3dbb942bbf0371be21d"
+    }
+  },
+  "phone_tested": false
+}

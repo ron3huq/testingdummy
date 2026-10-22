@@ -1,3 +1,5 @@
+> Cập nhật tiếp: đã có [bộ thử Android v1](../ronaldo-noodle-trial-v1/HUONG_DAN.md) với asset/container/runtime riêng. Chưa chạy trên điện thoại. Tài liệu dưới đây mô tả giai đoạn nguồn/tham khảo trước đó.
+
 # Ronaldo Android + tóc NEUBE: bản ghép tham khảo, chưa phải bản cài
 
 **Mục tiêu: riêng thẻ 88044950524330. Chưa phát hành asset hoặc hook tóc chạy trong game. Không chép ZIP này đè vào game.**

@@ -1,0 +1,50 @@
+{
+  "status": "INDEPENDENT_UNREAL_READER_AND_FOUR_VARIANT_ROUNDTRIP_PASS",
+  "assets": [
+    {
+      "source_variant": "4522",
+      "new_asset": "SK_ND01_Face",
+      "all_exported_face_attributes_and_indices_identical": true,
+      "native_bind_matrices_identical": true,
+      "hair_vertex_count": 5005,
+      "hair_triangles": 5179,
+      "hair_bone": 7,
+      "private_material_resolved": true
+    },
+    {
+      "source_variant": "4522lg00v0000",
+      "new_asset": "SK_ND01lg00v0000_Face",
+      "all_exported_face_attributes_and_indices_identical": true,
+      "native_bind_matrices_identical": true,
+      "hair_vertex_count": 5005,
+      "hair_triangles": 5179,
+      "hair_bone": 7,
+      "private_material_resolved": true
+    },
+    {
+      "source_variant": "4522ep01v0291",
+      "new_asset": "SK_ND01ep01v0291_Face",
+      "all_exported_face_attributes_and_indices_identical": true,
+      "native_bind_matrices_identical": true,
+      "hair_vertex_count": 5005,
+      "hair_triangles": 5179,
+      "hair_bone": 7,
+      "private_material_resolved": true
+    },
+    {
+      "source_variant": "4522ep00v0313",
+      "new_asset": "SK_ND01ep00v0313_Face",
+      "all_exported_face_attributes_and_indices_identical": true,
+      "native_bind_matrices_identical": true,
+      "hair_vertex_count": 5005,
+      "hair_triangles": 5179,
+      "hair_bone": 7,
+      "private_material_resolved": true
+    }
+  ],
+  "private_packages": 7,
+  "texture_format": "PF_ETC2_RGBA",
+  "alpha_mae": 0.6706695556640625,
+  "android_engine_loader_tested": false,
+  "phone_tested": false
+}
