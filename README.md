@@ -9,6 +9,16 @@ Người dùng xác nhận bản đầu và CRCFIX đều gây màn hình đen. 
 - [dt200 gốc để khôi phục](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/restore/dt200_mobile_all.cpk)
 - [Hướng dẫn khôi phục](efootxi-1.3.2/KHOI_PHUC.md)
 
+## Ronaldo tóc mì tôm — nguồn PES đã chuyển đổi, CHƯA cài được trên Android
+
+Mục tiêu riêng Card ID `88044950524330`. Đã trích xuất FMDL/FTEX và xuất Blender/FBX/GLB: 10 mesh, 10.705 tam giác, 12 texture. Lớp tóc xoăn 5.005 đỉnh chỉ gắn sk_head. **Chưa tạo asset Unreal Android, chưa sửa hay kiểm thử tóc trong game.** Cần đầu Ronaldo Android gốc, thích nghi rig/material và quy trình cook đúng game; không chép ZIP này đè vào game.
+
+- [Tải bộ nguồn Blender/FBX/GLB — không phải bản cài](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-noodle-source/Ronaldo-noodle-88044950524330-SOURCE-NOT-INSTALLABLE.zip)
+- [Kết quả, các giới hạn và hướng chuyển sang Android](efootxi-1.3.2/ronaldo-noodle-source/README.md)
+- [Ảnh render nguồn — không phải ảnh game](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/ronaldo-noodle-source/Ronaldo_source_preview.png)
+
+Nguồn mod NEUBE do người dùng cung cấp; giữ ghi công tác giả. Bộ đội hình v18 giữ nguyên.
+
 ## My League Studio v18 — đọc đội hình từ game, bỏ đội hình suy đoán
 
 - [Bộ cập nhật lấy đội hình từ game (10 file, giữ myleague_editor.json đang có)](https://github.com/ron3huq/testingdummy/raw/refs/heads/chat-downloads/efootxi-1.3.2/hotfix-v18/efootxi-v18-lineup-readback-update.zip)

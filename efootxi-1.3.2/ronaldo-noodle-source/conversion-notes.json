@@ -1,0 +1,31 @@
+{
+  "bounds_blender_meters": {
+    "min": [
+      -0.09870300441980362,
+      -0.18208900094032288,
+      1.3853999376296997
+    ],
+    "max": [
+      0.10518874228000641,
+      0.03689270094037056,
+      1.8540637493133545
+    ]
+  },
+  "missing_common_textures": [
+    "/Assets/pes16/model/character/common/sourceimages/dummy.tga",
+    "/Assets/pes16/model/character/common/sourceimages/dummy_dtm.tga",
+    "/Assets/pes16/model/character/common/sourceimages/dummy_nrm.tga",
+    "/Assets/pes16/model/character/common/sourceimages/dummy_srm.tga",
+    "/Assets/pes16/model/character/common/sourceimages/face_eyelash_alp.tga",
+    "/Assets/pes16/model/character/common/sourceimages/face_eyelash_nrm.tga",
+    "/Assets/pes16/model/character/common/sourceimages/face_eyelash_srm.tga",
+    "/Assets/pes16/model/character/common/sourceimages/haircube_cbm.dds",
+    "/Assets/pes16/model/character/common/sourceimages/head_wet_cbm.dds",
+    "/Assets/pes16/model/character/common/sourceimages/oral_bsm.tga",
+    "/Assets/pes16/model/character/common/sourceimages/oral_nrm.tga",
+    "/Assets/pes16/model/character/common/sourceimages/oral_srm.tga",
+    "/Assets/pes16/model/character/common/sourceimages/oral_trm.tga"
+  ],
+  "rig": "PES reference; Android retargeting pending",
+  "hair_material": "Preview approximation: primary Base_Tex UV0 color/alpha; secondary UV1 texture retained in nodes. FOX two-layer shader not ported."
+}

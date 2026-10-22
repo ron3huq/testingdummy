@@ -1,0 +1,98 @@
+[
+  {
+    "path": "face_diff.bin",
+    "bytes": 960,
+    "sha256": "167242b4ca453c5d62d0ddbbd82fef04e164fed2d55b4a2a90cd599fbeac6285",
+    "source": "face.fpk"
+  },
+  {
+    "path": "face_high.fmdl",
+    "bytes": 135490,
+    "sha256": "6c86ec08ed1e9067f2a30d256f888a10cf87ea75eff0eeb03deee6c6d214e4a6",
+    "source": "face.fpk"
+  },
+  {
+    "path": "hair_high.fmdl",
+    "bytes": 294318,
+    "sha256": "9238184409bb10effda824d0fc3be9309345aa6d14fb5989f45242d0770e7835",
+    "source": "face.fpk"
+  },
+  {
+    "path": "oral.fmdl",
+    "bytes": 18447,
+    "sha256": "9b7463d14a0de147bc090e5323722fbdfec08bfe4d02bee82a5a9444ee9baded",
+    "source": "face.fpk"
+  },
+  {
+    "path": "eye_occlusion_alp.ftex",
+    "bytes": 5408,
+    "sha256": "1f39e2f3839567b34526c40988135e04cf91d29effe840e1de42d33aec685941",
+    "source": "f.rar"
+  },
+  {
+    "path": "eye_sclera_bsm.ftex",
+    "bytes": 78864,
+    "sha256": "b13fa340f60aa100d9936255249b9c5cbfb12e7d4779558d62548f0f99996b39",
+    "source": "f.rar"
+  },
+  {
+    "path": "face_bsm_alp.ftex",
+    "bytes": 714488,
+    "sha256": "42428b4fc0737afaa8d5aca847da2509585a919b6a34d24858fc9416e176347c",
+    "source": "f.rar"
+  },
+  {
+    "path": "face_nrm.ftex",
+    "bytes": 1203888,
+    "sha256": "96ce9f7e3083c81211979ac7eb603a0bf6ef7afa2b4312d07193bf331837abed",
+    "source": "f.rar"
+  },
+  {
+    "path": "face_srm.ftex",
+    "bytes": 594520,
+    "sha256": "9b387a1c1a407785c7a003eadf9ab19d26827e3d46d5f32658f898a236ca36fa",
+    "source": "f.rar"
+  },
+  {
+    "path": "face_trm.ftex",
+    "bytes": 396992,
+    "sha256": "cd77721315f031ba611a1921a2b79320f9d841d6a9788e49fac3b6b178f0946b",
+    "source": "f.rar"
+  },
+  {
+    "path": "hair_alpha8.ftex",
+    "bytes": 61048,
+    "sha256": "692b762b789e7dc7388c2e4ee6fe365c5b6ab1e3f3da7db485d0363f7ffd9275",
+    "source": "f.rar"
+  },
+  {
+    "path": "hair_parts_bsm_alp.ftex",
+    "bytes": 1137464,
+    "sha256": "82a0c5db5c36065e193908b2787bfb84fe38b654cfeb8295fc27a0fcfba1f2d5",
+    "source": "f.rar"
+  },
+  {
+    "path": "hair_parts_nrm.ftex",
+    "bytes": 336080,
+    "sha256": "6accba2ef48ba05a25a8fa5e727c2c49adc3b1d5e53cd9d673dda984360eb6c6",
+    "source": "f.rar"
+  },
+  {
+    "path": "hair_parts_srm.ftex",
+    "bytes": 99504,
+    "sha256": "1c96e2a4c82f29a48c87cd3f2dc43ee716c36c8106c94c20e8756cd9674ab750",
+    "source": "f.rar"
+  },
+  {
+    "path": "hair_parts_trm.ftex",
+    "bytes": 93104,
+    "sha256": "4324362e3b00e3d2716640badf71d5abf9b22cc771a45747775369c023b5fee5",
+    "source": "f.rar"
+  },
+  {
+    "path": "arm_bsm.ftex",
+    "bytes": 1803392,
+    "sha256": "3d7c7d34c529d594c0829d34dfe2cb0c6dfaa997360f28d9712ebc7b3d52317a",
+    "source": "f.rar"
+  }
+]

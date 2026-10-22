@@ -1,0 +1,1758 @@
+{
+  "models": {
+    "face_high.fmdl": {
+      "bones": [
+        {
+          "name": "dsk_clavicle_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.01399776991456747,
+            "y": 1.4999990463256836,
+            "z": 0.0961185097694397,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_brow_i_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.015733100473880768,
+            "y": 1.7129499912261963,
+            "z": 0.171781986951828,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "dsk_neckback",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.5811569690704346,
+            "z": 0.04295431077480316,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_eyelid_b_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.027999000623822212,
+            "y": 1.6957852840423584,
+            "z": 0.1379571110010147,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_orbicularisoculi_b_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.028033999726176262,
+            "y": 1.6865699291229248,
+            "z": 0.1517850011587143,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_s_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.02358921244740486,
+            "y": 1.6296896934509277,
+            "z": 0.1614714413881302,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_nasolabialfold_t_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.021999899297952652,
+            "y": 1.6492698192596436,
+            "z": 0.16555863618850708,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_volume",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.6346099376678467,
+            "z": 0.1771789938211441,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "sk_chest",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.2627739906311035,
+            "z": 0.013793639838695526,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "sk_neck",
+          "parent": "sk_chest",
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.5320550203323364,
+            "z": 0.033468328416347504,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_jaw",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -9.999999974752427e-07,
+            "y": 1.636909008026123,
+            "z": 0.07954826205968857,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_t_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.015548476949334145,
+            "y": 1.6342241764068604,
+            "z": 0.1719813495874405,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_t_c",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.6353899240493774,
+            "z": 0.17718298733234406,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_nasolabialfold_t_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.021999899297952652,
+            "y": 1.6492698192596436,
+            "z": 0.16555863618850708,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_s_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.04786809906363487,
+            "y": 1.6214900016784668,
+            "z": 0.13958200812339783,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "dsk_clavicle_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.014002249576151371,
+            "y": 1.5,
+            "z": 0.09611842036247253,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.042531099170446396,
+            "y": 1.662310004234314,
+            "z": 0.15263600647449493,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "dsk_scm",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.5320550203323364,
+            "z": 0.033468328416347504,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_eyelid_b_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.028001001104712486,
+            "y": 1.6957849264144897,
+            "z": 0.13795551657676697,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_nose",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 9.99999993922529e-09,
+            "y": 1.6863199472427368,
+            "z": 0.17634598910808563,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_b_c",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.6220245361328125,
+            "z": 0.17281349003314972,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_glabella",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 9.99999993922529e-09,
+            "y": 1.7037800550460815,
+            "z": 0.16966600716114044,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_eyelid_t_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.028001001104712486,
+            "y": 1.6967864036560059,
+            "z": 0.13795651495456696,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_doublechin",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 9.99999993922529e-09,
+            "y": 1.5815798044204712,
+            "z": 0.14202357828617096,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_b_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.018454359844326973,
+            "y": 1.624387264251709,
+            "z": 0.1641380339860916,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "sk_head",
+          "parent": "sk_neck",
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.0,
+            "y": 1.6400580406188965,
+            "z": 0.054330550134181976,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.042531099170446396,
+            "y": 1.662310004234314,
+            "z": 0.15263600647449493,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_nosewing_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.015319700352847576,
+            "y": 1.6602998971939087,
+            "z": 0.1764719933271408,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_brow_o_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.04129030182957649,
+            "y": 1.7149099111557007,
+            "z": 0.1572519987821579,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_brow_i_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.015733100473880768,
+            "y": 1.7129497528076172,
+            "z": 0.17178072035312653,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_s_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.04786809906363487,
+            "y": 1.6214900016784668,
+            "z": 0.13958200812339783,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_brow_o_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.04129030182957649,
+            "y": 1.7149097919464111,
+            "z": 0.15725071728229523,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_eyelid_t_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.027999000623822212,
+            "y": 1.6967850923538208,
+            "z": 0.13795685768127441,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_nosewing_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.015319599770009518,
+            "y": 1.6602998971939087,
+            "z": 0.1764719933271408,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_t_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.015548476949334145,
+            "y": 1.6342241764068604,
+            "z": 0.1719813495874405,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_b_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.018454359844326973,
+            "y": 1.624387264251709,
+            "z": 0.1641380339860916,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_orbicularisoculi_b_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.028036199510097504,
+            "y": 1.6865698099136353,
+            "z": 0.15178267657756805,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_s_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.023588845506310463,
+            "y": 1.6296896934509277,
+            "z": 0.16147050261497498,
+            "w": 1.0
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "fox_skin_mat",
+          "shader": "pes_3ddf_skin_face",
+          "technique": "pes3DDF_Skin_Face",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              {
+                "filename": "face_bsm_alp.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              {
+                "filename": "face_nrm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              {
+                "filename": "face_srm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "Translucent_Tex_LIN",
+              {
+                "filename": "face_trm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              {
+                "filename": "face_srm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ]
+          ]
+        },
+        {
+          "name": "eyeline_SG",
+          "shader": "pes_3ddc_wet",
+          "technique": "pes3DDC_Wet",
+          "textures": [
+            [
+              "CubeMap_Tex_LIN",
+              {
+                "filename": "head_wet_cbm.dds",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              {
+                "filename": "dummy_nrm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "Mask_Tex_LIN",
+              {
+                "filename": "dummy_dtm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "SubNormalMap_Tex_NRM",
+              {
+                "filename": "dummy_nrm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ]
+          ]
+        },
+        {
+          "name": "collar_ao",
+          "shader": "pes_3ddc_adjust",
+          "technique": "pes3DDC_Adjust_100",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              {
+                "filename": "dummy.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              {
+                "filename": "dummy_nrm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              {
+                "filename": "dummy_srm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ]
+          ]
+        },
+        {
+          "name": "fox_eyelash_mat",
+          "shader": "fox_3ddc_basic",
+          "technique": "fox3DDC_Blin",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              {
+                "filename": "face_eyelash_alp.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              {
+                "filename": "face_eyelash_nrm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              {
+                "filename": "face_eyelash_srm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ]
+          ]
+        },
+        {
+          "name": "fox_eyeOcclusion_mat",
+          "shader": "pes_3dfw_eyeocclusion",
+          "technique": "pes3DFW_EyeOcclusion",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              {
+                "filename": "eye_occlusion_alp.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ]
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "vertices": 237,
+          "triangles": 370,
+          "material": "fox_skin_mat",
+          "alpha_flags": 0,
+          "uv_sets": 1,
+          "weighted_vertices": 237,
+          "weight_sum_range": [
+            0.9999999999999999,
+            1.0
+          ]
+        },
+        {
+          "vertices": 29,
+          "triangles": 34,
+          "material": "eyeline_SG",
+          "alpha_flags": 81,
+          "uv_sets": 1,
+          "weighted_vertices": 29,
+          "weight_sum_range": [
+            0.9999999999999999,
+            1.0
+          ]
+        },
+        {
+          "vertices": 1788,
+          "triangles": 3478,
+          "material": "fox_skin_mat",
+          "alpha_flags": 0,
+          "uv_sets": 1,
+          "weighted_vertices": 1788,
+          "weight_sum_range": [
+            0.9999999999999999,
+            1.0
+          ]
+        },
+        {
+          "vertices": 81,
+          "triangles": 90,
+          "material": "eyeline_SG",
+          "alpha_flags": 81,
+          "uv_sets": 1,
+          "weighted_vertices": 81,
+          "weight_sum_range": [
+            0.9999999999999999,
+            1.0
+          ]
+        },
+        {
+          "vertices": 184,
+          "triangles": 302,
+          "material": "collar_ao",
+          "alpha_flags": 80,
+          "uv_sets": 1,
+          "weighted_vertices": 184,
+          "weight_sum_range": [
+            0.9999999999999999,
+            1.0
+          ]
+        },
+        {
+          "vertices": 150,
+          "triangles": 104,
+          "material": "fox_eyelash_mat",
+          "alpha_flags": 112,
+          "uv_sets": 1,
+          "weighted_vertices": 150,
+          "weight_sum_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "vertices": 40,
+          "triangles": 46,
+          "material": "fox_eyeOcclusion_mat",
+          "alpha_flags": 112,
+          "uv_sets": 1,
+          "weighted_vertices": 40,
+          "weight_sum_range": [
+            0.9999999999999999,
+            1.0
+          ]
+        }
+      ]
+    },
+    "hair_high.fmdl": {
+      "bones": [
+        {
+          "name": "skf_brow_i_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.015733100473880768,
+            "y": 1.7129499912261963,
+            "z": 0.171781986951828,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_brow_i_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.015733100473880768,
+            "y": 1.7129497528076172,
+            "z": 0.17178072035312653,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_orbicularisoculi_b_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.028033999726176262,
+            "y": 1.6865699291229248,
+            "z": 0.1517850011587143,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_nosewing_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.015319700352847576,
+            "y": 1.6602998971939087,
+            "z": 0.1764719933271408,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_s_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.02358921244740486,
+            "y": 1.6296896934509277,
+            "z": 0.1614714413881302,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_nasolabialfold_t_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.021999899297952652,
+            "y": 1.6492698192596436,
+            "z": 0.16555863618850708,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_volume",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.6346099376678467,
+            "z": 0.1771789938211441,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "sk_chest",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.2627739906311035,
+            "z": 0.013793639838695526,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "sk_neck",
+          "parent": "sk_chest",
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.5320550203323364,
+            "z": 0.033468328416347504,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_jaw",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -9.999999974752427e-07,
+            "y": 1.636909008026123,
+            "z": 0.07954826205968857,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_t_c",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.6353899240493774,
+            "z": 0.17718298733234406,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_nasolabialfold_t_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.021999899297952652,
+            "y": 1.6492698192596436,
+            "z": 0.16555863618850708,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_s_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.04786809906363487,
+            "y": 1.6214900016784668,
+            "z": 0.13958200812339783,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_doublechin",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 9.99999993922529e-09,
+            "y": 1.5815798044204712,
+            "z": 0.14202357828617096,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.042531099170446396,
+            "y": 1.662310004234314,
+            "z": 0.15263600647449493,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "dsk_scm",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.5320550203323364,
+            "z": 0.033468328416347504,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_nosewing_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.015319599770009518,
+            "y": 1.6602998971939087,
+            "z": 0.1764719933271408,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_b_c",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.6220245361328125,
+            "z": 0.17281349003314972,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_glabella",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 9.99999993922529e-09,
+            "y": 1.7037800550460815,
+            "z": 0.16966600716114044,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_eyelid_t_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.028001001104712486,
+            "y": 1.6967864036560059,
+            "z": 0.13795651495456696,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_b_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.018454359844326973,
+            "y": 1.624387264251709,
+            "z": 0.1641380339860916,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.042531099170446396,
+            "y": 1.662310004234314,
+            "z": 0.15263600647449493,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "sk_head",
+          "parent": "sk_neck",
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.0,
+            "y": 1.6400580406188965,
+            "z": 0.054330550134181976,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_orbicularisoculi_b_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.028036199510097504,
+            "y": 1.6865698099136353,
+            "z": 0.15178267657756805,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_brow_o_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.04129030182957649,
+            "y": 1.7149099111557007,
+            "z": 0.1572519987821579,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "dsk_neckback",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.0,
+            "y": 1.5811569690704346,
+            "z": 0.04295431077480316,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_s_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.04786809906363487,
+            "y": 1.6214900016784668,
+            "z": 0.13958200812339783,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_brow_o_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.04129030182957649,
+            "y": 1.7149097919464111,
+            "z": 0.15725071728229523,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_eyelid_t_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.027999000623822212,
+            "y": 1.6967850923538208,
+            "z": 0.13795685768127441,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_t_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.015548476949334145,
+            "y": 1.6342241764068604,
+            "z": 0.1719813495874405,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_t_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.015548476949334145,
+            "y": 1.6342241764068604,
+            "z": 0.1719813495874405,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_b_r",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": -0.018454359844326973,
+            "y": 1.624387264251709,
+            "z": 0.1641380339860916,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_s_l",
+          "parent": null,
+          "local": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "global": {
+            "x": 0.023588845506310463,
+            "y": 1.6296896934509277,
+            "z": 0.16147050261497498,
+            "w": 1.0
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "Material.002",
+          "shader": "pes_3ddf_hair2_nrmuv",
+          "technique": "pes3DDF_Hair2_NrmUV",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              {
+                "filename": "hair_alpha8.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "Base_Tex_2_SRGB",
+              {
+                "filename": "hair_parts_bsm_alp.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              {
+                "filename": "hair_parts_nrm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              {
+                "filename": "hair_parts_srm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "CubeMap_Tex_LIN",
+              {
+                "filename": "haircube_cbm.dds",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "Translucent_Tex_LIN",
+              {
+                "filename": "hair_parts_trm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              {
+                "filename": "face_srm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ]
+          ]
+        },
+        {
+          "name": "fox_skin_mat",
+          "shader": "pes_3ddf_skin_face",
+          "technique": "pes3DDF_Skin_Face",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              {
+                "filename": "face_bsm_alp.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              {
+                "filename": "face_nrm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              {
+                "filename": "face_srm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "Translucent_Tex_LIN",
+              {
+                "filename": "face_trm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ],
+            [
+              "RoughnessMap_Tex_LIN",
+              {
+                "filename": "face_srm.dds",
+                "directory": "/Assets/pes16/model/character/face/real/4522/sourceimages/"
+              }
+            ]
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "vertices": 5005,
+          "triangles": 5179,
+          "material": "Material.002",
+          "alpha_flags": 160,
+          "uv_sets": 2,
+          "weighted_vertices": 5005,
+          "weight_sum_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "vertices": 341,
+          "triangles": 572,
+          "material": "fox_skin_mat",
+          "alpha_flags": 0,
+          "uv_sets": 1,
+          "weighted_vertices": 341,
+          "weight_sum_range": [
+            0.9999999999999999,
+            1.0
+          ]
+        }
+      ]
+    },
+    "oral.fmdl": {
+      "bones": [
+        {
+          "name": "sk_head",
+          "parent": null,
+          "local": {
+            "x": 4.6427635069790085e-09,
+            "y": 0.10800277441740036,
+            "z": 0.0208660289645195,
+            "w": 1.0
+          },
+          "global": {
+            "x": 0.0,
+            "y": 1.096119999885559,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_jaw",
+          "parent": null,
+          "local": {
+            "x": -0.0031500000040978193,
+            "y": -0.025219999253749847,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "global": {
+            "x": 0.0,
+            "y": 1.096119999885559,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_s_l",
+          "parent": null,
+          "local": {
+            "x": -0.005135759711265564,
+            "y": -0.0797462984919548,
+            "z": -0.041248295456171036,
+            "w": 1.0
+          },
+          "global": {
+            "x": 0.0,
+            "y": 1.096119999885559,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_cheek_s_r",
+          "parent": null,
+          "local": {
+            "x": -0.0071840896271169186,
+            "y": -0.08097700029611588,
+            "z": 0.04681139811873436,
+            "w": 1.0
+          },
+          "global": {
+            "x": 0.0,
+            "y": 1.096119999885559,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_s_l",
+          "parent": null,
+          "local": {
+            "x": 0.006726919673383236,
+            "y": -0.10190699249505997,
+            "z": -0.02326899953186512,
+            "w": 1.0
+          },
+          "global": {
+            "x": 0.0,
+            "y": 1.096119999885559,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        {
+          "name": "skf_lip_s_r",
+          "parent": null,
+          "local": {
+            "x": 0.005400329828262329,
+            "y": -0.10305699706077576,
+            "z": 0.02771119959652424,
+            "w": 1.0
+          },
+          "global": {
+            "x": 0.0,
+            "y": 1.096119999885559,
+            "z": 0.0,
+            "w": 1.0
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "fox_oral_teeth_mat",
+          "shader": "fox_3ddf_translucent",
+          "technique": "fox3DDF_Blin_Translucent",
+          "textures": [
+            [
+              "Base_Tex_SRGB",
+              {
+                "filename": "oral_bsm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "NormalMap_Tex_NRM",
+              {
+                "filename": "oral_nrm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "SpecularMap_Tex_LIN",
+              {
+                "filename": "oral_srm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ],
+            [
+              "Translucent_Tex_LIN",
+              {
+                "filename": "oral_trm.tga",
+                "directory": "/Assets/pes16/model/character/common/sourceimages/"
+              }
+            ]
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "vertices": 325,
+          "triangles": 530,
+          "material": "fox_oral_teeth_mat",
+          "alpha_flags": 0,
+          "uv_sets": 2,
+          "weighted_vertices": 325,
+          "weight_sum_range": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  },
+  "textures": {
+    "arm_bsm.ftex": {
+      "converted": true,
+      "size": [
+        2048,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "eye_occlusion_alp.ftex": {
+      "converted": true,
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA"
+    },
+    "eye_sclera_bsm.ftex": {
+      "converted": true,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    "face_bsm_alp.ftex": {
+      "converted": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "face_nrm.ftex": {
+      "converted": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "face_srm.ftex": {
+      "converted": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "face_trm.ftex": {
+      "converted": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "hair_alpha8.ftex": {
+      "converted": true,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "hair_parts_bsm_alp.ftex": {
+      "converted": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "hair_parts_nrm.ftex": {
+      "converted": true,
+      "size": [
+        1024,
+        256
+      ],
+      "mode": "RGB"
+    },
+    "hair_parts_srm.ftex": {
+      "converted": true,
+      "size": [
+        1024,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    "hair_parts_trm.ftex": {
+      "converted": true,
+      "size": [
+        1024,
+        256
+      ],
+      "mode": "RGBA"
+    }
+  }
+}

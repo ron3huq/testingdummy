@@ -1,0 +1,16 @@
+{
+  "status": "SOURCE_CONVERSION_VALIDATED_NOT_ANDROID_READY",
+  "target_card_id": "88044950524330",
+  "source_vertices": 8180,
+  "source_triangles": 10705,
+  "mesh_count": 10,
+  "converted_textures": 12,
+  "hair_curl_mesh_vertices": 5005,
+  "hair_curl_mesh_triangles": 5179,
+  "hair_curl_weights": "100% sk_head for all 5005 vertices",
+  "glb_triangle_count_matches": true,
+  "glb_uv_skin_attributes_present": true,
+  "android_asset_built": false,
+  "android_runtime_tested": false,
+  "game_files_modified": false
+}

@@ -1,4 +1,4 @@
-a6a1e23a90b2b838632a480fbeb5ef8881cacfd3c8fbe65c37fd4626d16a4ac0  README.md
+f38b75e4e16573ef015af8e8e9ca289e22bed8064d22a6d191ff8b317a2a0685  README.md
 8085bd7371730ba8ff4fe2b8a89dc986f762f056edd210f47e395cbc8cd1c1e8  efootxi-1.3.2/HUONG_DAN.txt
 6fce6ff5162abe46786d96dbeb39fc5183fd15a154b31500c005c9bc5206caa5  efootxi-1.3.2/KHOI_PHUC.md
 5ed68a8614e760249e8024f74d0247784d1d47bd1dbb11ddbe53af1e28689505  efootxi-1.3.2/STATUS.json
@@ -742,6 +742,19 @@ b47cca524072876d49e767695ef70162c2784427ae40ba27ac13a3f732a7cdd4  efootxi-1.3.2/
 62f59acb48b6d556d4632309219f802b1b94950f2bb1a2c4afd21c9335e822af  efootxi-1.3.2/myleague-realism/validate_realism.py
 53c59d284244b4cd6c31fc2c7bade4225ff547d0bd7ad4f7759c2750fcd3e260  efootxi-1.3.2/myleague-realism/validation.json
 088bb2e661cfcd8a1110c40402a461dac0c37eecdbce72ce692d505a77050954  efootxi-1.3.2/restore/dt200_mobile_all.cpk
+b5c85c9f2b32d6af3363f65e0a8aa98cd0c31ecec204046db791f1dfee0d272a  efootxi-1.3.2/ronaldo-noodle-source/README.md
+2637883f180989e7e788a32ba3e11c51e198d0f4fd157412e17a8d8d37131462  efootxi-1.3.2/ronaldo-noodle-source/Ronaldo-noodle-88044950524330-SOURCE-NOT-INSTALLABLE.zip
+f50e7fe9158ed69166290a8cfa963553c71fc31da5d3d55ad8950004d893bee6  efootxi-1.3.2/ronaldo-noodle-source/Ronaldo_source_preview.png
+d442cc0e6196643bcbd1a2b1f16bbae1742534cd763fa0ddf6bed8bf554f1ac1  efootxi-1.3.2/ronaldo-noodle-source/bone-name-comparison.json
+23df1ef304fa69c500fe2c5eb99a4eb92af7bd1f0a1e94b4e79fae2b6e8b3e1b  efootxi-1.3.2/ronaldo-noodle-source/build_blender.py
+6163bb712a86dbc73bdbd3c4898420d4f2e720663bfbbf0bb536439aa950d86e  efootxi-1.3.2/ronaldo-noodle-source/conversion-notes.json
+358386804b6663c2be22d3cb4151368d42b5f90bc944f077877047f929d7c465  efootxi-1.3.2/ronaldo-noodle-source/inspect_models.py
+c1e6fb08a472fd27c048184ef955f5dc3f59e5b8bf7409634915da0539b17f72  efootxi-1.3.2/ronaldo-noodle-source/model-analysis.json
+56ee422da78eedfdccc474518c3876ec3d27ffbbe743479db1bab8bd89f437f5  efootxi-1.3.2/ronaldo-noodle-source/package-validation.json
+9a505c822ed5fd99c2d8ae73fe628e05c9058b66eaf2c30de8d103e1196beecc  efootxi-1.3.2/ronaldo-noodle-source/package_source.py
+cd30735b8cadd14b4f829a4b371febb8e68e319484eff77d411c264ffd0b6948  efootxi-1.3.2/ronaldo-noodle-source/source-inventory.json
+7264a463c205b95db5d5e7e22d7d11604f4c71bbd6fbfcbec4c8422cb1aa60a5  efootxi-1.3.2/ronaldo-noodle-source/validate_conversion.py
+d7dce33bceeda3564d736dd57c702e45f94057f340c8bdf48c89f7f049417e0e  efootxi-1.3.2/ronaldo-noodle-source/validation.json
 5325c45eeec449f0567f876de3ffa215bae8938dc261c820d164b6d73fc638d9  efootxi-1.3.2/select-team-dt200-probe.zip
 78c73200c7570cd8b99f5a7ab4222969a8f21016e2933899de284a69b678788f  efootxi-1.3.2/select-team-native/BASELINE.json
 509473cdb21b1bd5e0b73c4ec7e6ab360bed4a85c45a28f4603115ba1cf6ca4f  efootxi-1.3.2/select-team-native/HUONG_DAN.md
