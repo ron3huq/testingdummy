@@ -1,0 +1,10 @@
+{
+  "status": "V20_OVERLAY_HASH_MANIFEST_IDEMPOTENCE_AND_ZIP_PASS",
+  "files_replaced": 3,
+  "v20_all_other_files_byte_identical": true,
+  "asset_manifest_revision_unchanged": true,
+  "native_sha256": "973a344de8d2be507219d4395354268945cfbd3bad8f0948f11f439a9672132b",
+  "zip_sha256": "0e8bc3c3a00084a75a44bed186b7399b83ee8a4104aec76936d365da63c30bb8",
+  "zip_size": 47588,
+  "phone_tested": false
+}

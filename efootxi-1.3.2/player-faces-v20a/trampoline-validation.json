@@ -1,0 +1,22 @@
+{
+  "status": "WHOLE_GAP_INTERSECTION_PASS",
+  "cases": [
+    {
+      "page_size": 4096,
+      "old_hints": [],
+      "new_hints": [
+        "0x7100082000",
+        "0x70fb884000"
+      ]
+    },
+    {
+      "page_size": 16384,
+      "old_hints": [],
+      "new_hints": [
+        "0x710007c000",
+        "0x70fb884000"
+      ]
+    }
+  ],
+  "phone_allocation_verified": false
+}
