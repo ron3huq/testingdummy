@@ -1,0 +1,16 @@
+{
+  "small_and_large_swapped": true,
+  "head_geometry_swapped": false,
+  "references": [
+    {
+      "card_id": "89135066911146",
+      "original_photo": "ronaldo 2008.png",
+      "sha256": "7034d3071a8a7dcd361c286d81e857037a584cf939b71b48d9c2538cc36e8ae7"
+    },
+    {
+      "card_id": "106726716084650",
+      "original_photo": "ronaldo 2006.png",
+      "sha256": "9e5e160cfe0be4922eddf7212329c4e34ecb412ee096f4c3f9c784843f073ab4"
+    }
+  ]
+}

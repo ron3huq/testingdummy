@@ -1,0 +1,18 @@
+Pak /workspace/ronaldo-work/v16-reader/pakchunk0-Android_ETC2.pak: 3901 files (43 encrypted), version 11
+Pak /workspace/ronaldo-work/v16-reader/pc0010_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v16-reader/pc0102_mobile_and.pak: 1 files, mount point: "/PesMobile/Content/Movies/PlayerCard/", version 11
+Pak /workspace/ronaldo-work/v16-reader/pc1000_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v16-reader/pc1001_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v16-reader/pc3611_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v16-reader/pc3611_mobile_and_optional.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v16-reader/pc3700_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v16-reader/pc9257_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v16-reader/pc9298_mobile_and.pak: 0 files, version 11
+Found 147306 game files (22 skipped) in 2424 folders at path "/workspace/ronaldo-work/v16-reader"
+Scanned game directory in 0.5 sec, 154038 allocs, 17.36 MBytes serialized in 4488 calls.
+Loaded in 0.0 sec, 19 allocs, 0.01 MBytes serialized in 3 calls.
+Loading Texture2D 88045755960841_ from package /Game/Assets/ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset
+Exporting objects ...
+Exporting Texture2D 88045755960841_ to /workspace/ronaldo-work/v16-verified/Game/Assets/ui/Data/Thumbnail/Player/Variation2022/88045755960841_.png
+Memory: allocated 29295646 bytes in 7593 blocks
+Exported 1/1 objects in 0.0 sec

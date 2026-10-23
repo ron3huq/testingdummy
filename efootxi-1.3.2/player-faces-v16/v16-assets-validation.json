@@ -1,0 +1,205 @@
+{
+  "status": "277_HEAD_CHUNKS_AND_22_NATIVE_CARD_EXPORTS_PASS",
+  "container_sha256": "e2e5cd3f9557858bd3a3796a426c954807eaeaf9fdb6e50fd40692c3c1221b28",
+  "cards": [
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 3.2352294921875,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 3.5223707116168477,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.5820159912109375,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.071342136548913,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.72900390625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.4118333899456523,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.8851776123046875,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 3.3899350373641304,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.5777740478515625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.8105150305706523,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.3099365234375,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.147689155910326,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.462310791015625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.494315769361413,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 3.2242431640625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.8947647758152173,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.699371337890625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.6133130944293477,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 3.470611572265625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 3.2388703719429346,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 3.2849578857421875,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.6642111073369565,
+      "independent_UEViewer_export": true
+    }
+  ],
+  "phone_tested": false
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "card_id": "105643042189511",
+    "sheet": "105643042189511-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "105765448873424",
+    "sheet": "105765448873424-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "105848932271764",
+    "sheet": "105848932271764-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "106726716084650",
+    "sheet": "106726716084650-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "106728863696709",
+    "sheet": "106728863696709-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "106781745353130",
+    "sheet": "106781745353130-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "88033139360669",
+    "sheet": "88033139360669-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "88038776539586",
+    "sheet": "88038776539586-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "88044950524330",
+    "sheet": "88044950524330-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "88045755960841",
+    "sheet": "88045755960841-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  },
+  {
+    "card_id": "89135066911146",
+    "sheet": "89135066911146-sheet.png",
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_and_crop": true,
+    "stretch": false,
+    "single_person_each_layout": true
+  }
+]

@@ -1,0 +1,853 @@
+{
+  "status": "V16_ALL_HEADS_PRESERVED_11_PHOTOGRAPHIC_CARD_PAIRS_PASS",
+  "cards": [
+    {
+      "card_id": "105848932271764",
+      "file": "105848932271764-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 5213182266070691153,
+      "sha256": "a344bbc7f47488b124ec628d4a74ac5627d7ffceac3bb2bee6ede04d3392516a",
+      "source_image_sha256": "83c86e310f2e1ff9dd43e24e04e201bf0f3cedb44e3663e4df9cc79f08ccb0fd"
+    },
+    {
+      "card_id": "105848932271764",
+      "file": "105848932271764-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 1746385964242018539,
+      "sha256": "d61dd34f4927d83465d0fb64e4dcf094ea11e7c15c4472bb0ef14ca6fdbc9dc1",
+      "source_image_sha256": "dbedfd101b5cd5dbce5db85c3c33070c2e8441e7dfca03ddc0674ee6884a6850"
+    },
+    {
+      "card_id": "88033139360669",
+      "file": "88033139360669-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 5201999164931024307,
+      "sha256": "eac460bd2864ef84d120aa0b69b8fa0e28d0a013bdbcd4d96579c64424d98da1",
+      "source_image_sha256": "04a57c009fe9ca3481c524f6e229153b5ce3490c9cc99321efc28fa97d7678bb"
+    },
+    {
+      "card_id": "88033139360669",
+      "file": "88033139360669-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 11371961701399147512,
+      "sha256": "3930485f967aa07ab7122cb472d1f604ed900aa0610768eba64ff5885527c038",
+      "source_image_sha256": "944cfb500b90a901207a654fb143cb5e76ab160b576b10e9850b173f90d73f7f"
+    },
+    {
+      "card_id": "88038776539586",
+      "file": "88038776539586-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 746566273451400897,
+      "sha256": "208d0b23d191fcd3ec0f82d18cba59be529d5fd131dc4bc360be545a70fdab14",
+      "source_image_sha256": "1c8e7577995272d9d6849b19173dacccea571bf3f071ed7a2ffa1694e61a1bd2"
+    },
+    {
+      "card_id": "88038776539586",
+      "file": "88038776539586-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 4960417343521438949,
+      "sha256": "2477ee47120d29fea81b41c9526953be129359c9db4b700743fee1484b43e4b3",
+      "source_image_sha256": "4ad36c3cbc6497fd2b3932bd966840689cf0a7e3fac6548216a754a647011128"
+    },
+    {
+      "card_id": "105643042189511",
+      "file": "105643042189511-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 3248988943263690563,
+      "sha256": "a57d1f5dec6ce20e58291fd45919ba58a9362c02d7e2b4c2c85ab8d1daaebf9c",
+      "source_image_sha256": "2bc41b6a1ba0c55aca9a57afecd3aafaaad2ac390c14e12cb2e1fe83285d0f7c"
+    },
+    {
+      "card_id": "105643042189511",
+      "file": "105643042189511-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 12054992088484018132,
+      "sha256": "37ae87f3c5166653e8d4a909753b781f2740dd6532bf025073a7f827dff5404f",
+      "source_image_sha256": "ecf7d8496d22c7d535d2b85377be10558ea5078c239afd32e9d2919267578d70"
+    },
+    {
+      "card_id": "89135066911146",
+      "file": "89135066911146-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 9305982251262965606,
+      "sha256": "e878ca287b42305377b33998a4d08407cb7bc17c662922f17e5d796552d16c60",
+      "source_image_sha256": "0ad00d278cbbf8793a1c1e0c072256477c95f03ba89e5f85286f8ba38d9c260b"
+    },
+    {
+      "card_id": "89135066911146",
+      "file": "89135066911146-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 16262292107700847055,
+      "sha256": "b0aab0a0bb4d5976407e18f2e6015e20fe4237e72f0b64238fc5607aa4402138",
+      "source_image_sha256": "9e6b7d4976548e58fd1f2ce3461503901102d004401a0e7d6dc1b10bcf3309e1"
+    },
+    {
+      "card_id": "106726716084650",
+      "file": "106726716084650-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 88048067346309324,
+      "sha256": "64ae2fd5d829108b72278ffa51059358714153d23011e327ac10313e177036af",
+      "source_image_sha256": "fa90cbbfc96ba52d12646baf8550586d8288961a1cdb63a279a71cf2200612a8"
+    },
+    {
+      "card_id": "106726716084650",
+      "file": "106726716084650-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 4934346694504767345,
+      "sha256": "4dd9186d4cdd9000b600fadb93befaf08323c3177574981a5c642214c2ed2d13",
+      "source_image_sha256": "b822540bd7f9e07e561c1d210ab8ec433b88455d82c2f2c311dfefa564933884"
+    },
+    {
+      "card_id": "106781745353130",
+      "file": "106781745353130-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 10430144033815992339,
+      "sha256": "6175529e1ae4d5a67bcf6d903c20b3453fc6eb4e9091bdf3de7e9ac633348a61",
+      "source_image_sha256": "e7e687d689550136d6837589df0f6dac64d2b06aeff8385963c8fcc00ec8d242"
+    },
+    {
+      "card_id": "106781745353130",
+      "file": "106781745353130-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 7391205255942417992,
+      "sha256": "df8e7487f13fb35d55a2267e91d8e3747f406f4fff3625a7f94f73b54ee8b326",
+      "source_image_sha256": "1982294498ff6b9392301449e581e510b4c00ebc2d5911d518f332802c948aad"
+    },
+    {
+      "card_id": "88044950524330",
+      "file": "88044950524330-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 15217801362831890422,
+      "sha256": "365e035a20768104d9c63559d67c9a4d16de9591facabbb8f2d2f5ee6643d588",
+      "source_image_sha256": "0b9d18574182ea6607642eda842e8eb0d71e88a69b18321fb667071717fba7e7"
+    },
+    {
+      "card_id": "88044950524330",
+      "file": "88044950524330-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 10239186702704238589,
+      "sha256": "c08a6e2ae95f0ec2aacb7bb314255dc8050d7dacca800715562621a124c6a768",
+      "source_image_sha256": "f01503c20d9725735103381d3feb6e4ffd287f6ea6179ea05d2c27455a57e565"
+    },
+    {
+      "card_id": "105765448873424",
+      "file": "105765448873424-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 11738483193869081676,
+      "sha256": "ede0a5968754ada842123d473a152a8c96d02ecad0c4ee524d61178414241ed5",
+      "source_image_sha256": "61cb95febf3d2cce03fdce1b07c38e6bf82a175aaccc749aef5fbc1ed168aa3c"
+    },
+    {
+      "card_id": "105765448873424",
+      "file": "105765448873424-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 7921398863175692433,
+      "sha256": "3088efd97b54ca45dbfb4a599f5e0947e512385db79bfe1239a137b09d784c24",
+      "source_image_sha256": "9a3b60c89c0a0b704f8339dbb1b8737206b04559739f88c41bfdbf3014ac4588"
+    },
+    {
+      "card_id": "88045755960841",
+      "file": "88045755960841-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 5046357595081060065,
+      "sha256": "960b9a3433be9ec16b05081618d38596c3e60e4fbfc9dd82112085a0937aef8c",
+      "source_image_sha256": "0e9d68d86cfd66eee52fbbef539186e647f83405868ed7feeacbfb82cc00e6f9"
+    },
+    {
+      "card_id": "88045755960841",
+      "file": "88045755960841-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 13535932536756553220,
+      "sha256": "950d12a999036eecd714ee3c2f6c8f20d5cf29a15bcd59053d74cc63874dc1a0",
+      "source_image_sha256": "62d9f65860a89582c6a549ac795cbe8a730cc16a28d370595df1f01116296fdb"
+    },
+    {
+      "card_id": "106728863696709",
+      "file": "106728863696709-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 16743904650954659845,
+      "sha256": "a58b36599d679aff10cd5ee51834576efc6b559f5015741fa6cbfa914ab41416",
+      "source_image_sha256": "2bb4d4b2a569644b44e47998ea4f94173b163d26a2bb43c4408eb10855f1d1ee"
+    },
+    {
+      "card_id": "106728863696709",
+      "file": "106728863696709-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 426116407175947436,
+      "sha256": "2e9b062ffb1e0bacf4ff8dc774b038ced5ab4f5503f19fe194c89956b29a211c",
+      "source_image_sha256": "6fa707bfcc306aecca8f2dd93b1dd73628ddfdf7530204e372507fd4f3bcd410"
+    }
+  ],
+  "changed_UI_textures": 22,
+  "head_chunks_byte_identical": 277,
+  "head_changes": {
+    "all_277_head_chunks_preserved_from_v15": true,
+    "root_cause_proven": false,
+    "phone_tested": false
+  },
+  "ignored_input": "ronaldo 2008 plus.png",
+  "phone_tested": false,
+  "container_sha256": "e2e5cd3f9557858bd3a3796a426c954807eaeaf9fdb6e50fd40692c3c1221b28",
+  "independent_ueviewer_export": [
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 3.2352294921875,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 3.5223707116168477,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.5820159912109375,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.071342136548913,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.72900390625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.4118333899456523,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.8851776123046875,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 3.3899350373641304,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.5777740478515625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.8105150305706523,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.3099365234375,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.147689155910326,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.462310791015625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.494315769361413,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 3.2242431640625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.8947647758152173,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 2.699371337890625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.6133130944293477,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 3.470611572265625,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 3.2388703719429346,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_.uasset",
+      "size": [
+        128,
+        128
+      ],
+      "ETC2_mean_error": 3.2849578857421875,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_l.uasset",
+      "size": [
+        184,
+        256
+      ],
+      "ETC2_mean_error": 2.6642111073369565,
+      "independent_UEViewer_export": true
+    }
+  ]
+}
