@@ -1,0 +1,3 @@
+# Preserve byte-pinned upstream inputs, including CRLF and 2441-byte padding.
+references/gateway_runtime.py -text -whitespace
+references/ueviewer-v5.patch -text -whitespace

@@ -1,0 +1,8 @@
+{
+  "status": "INDEPENDENT_SOURCE_INPUT_RECOVERY_AND_SECOND_FULL_ASSET_BUILD_BYTE_IDENTICAL_PASS",
+  "ucas_sha256": "cf4e27d4dc0eef4670bc6870d3c4bfa80a9d1eb3ba28d9221e782282f9286e59",
+  "source_recovery_rar_fpk_ftex_executed": true,
+  "decoded_native_donor_textures_match_prior_reference_PNG_pixels": true,
+  "minimal_Jr_HoangDuc_ND06_source_references_used": true,
+  "phone_tested": false
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "role": "GK",
+    "parameter": 13,
+    "rows": 1067,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "CB",
+    "parameter": 10,
+    "rows": 2153,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "LB",
+    "parameter": 11,
+    "rows": 801,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "RB",
+    "parameter": 12,
+    "rows": 845,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "DMF",
+    "parameter": 6,
+    "rows": 1143,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "CMF",
+    "parameter": 7,
+    "rows": 1593,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "LMF",
+    "parameter": 8,
+    "rows": 507,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "RMF",
+    "parameter": 9,
+    "rows": 522,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "AMF",
+    "parameter": 5,
+    "rows": 1389,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "LWF",
+    "parameter": 3,
+    "rows": 815,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "RWF",
+    "parameter": 4,
+    "rows": 821,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "SS",
+    "parameter": 2,
+    "rows": 279,
+    "all_primary_mastery": 2
+  },
+  {
+    "role": "CF",
+    "parameter": 1,
+    "rows": 2395,
+    "all_primary_mastery": 2
+  }
+]

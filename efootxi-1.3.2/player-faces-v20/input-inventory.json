@@ -1,0 +1,36 @@
+{
+  "user_latest_archives": [
+    {
+      "filename": "real madrid2011.rar",
+      "bytes": 7599175,
+      "sha256": "40cb5686efbacf44b110938dcbd87feba839df68c138ab988e0652d0e1ea5a5e"
+    },
+    {
+      "filename": "Ronaldo Noodle Hair 2017.rar",
+      "bytes": 6773927,
+      "sha256": "78c2f1f7e9034b1b070019f2b0d1171c3c69eb8044c101ed2694cfa4ca11464f"
+    },
+    {
+      "filename": "barcelona2017.rar",
+      "bytes": 21379936,
+      "sha256": "b02266912388bc94843d1f141b7857e94478aff5788c841cd224b4ab86063070"
+    },
+    {
+      "filename": "manchesterunited2007.rar",
+      "bytes": 10311922,
+      "sha256": "85666ce6c53491fc3b0dd83f17f68f2f46279b03b7cc922465f3b9ceb8c3eca2"
+    },
+    {
+      "filename": "Ozil.rar",
+      "bytes": 4258987,
+      "sha256": "261edacbbdc4678d69eac54326ce5b96fa167227ff0ffbeaff069dbcb95e553a"
+    },
+    {
+      "filename": "Ronaldo 2027.rar",
+      "bytes": 5246065,
+      "sha256": "5818625d3494e6d96b188f4b85efc67588578b8c4976993616ffca0093e433ed"
+    }
+  ],
+  "new_2017_2027_face_models_match_previous_source_sha256": true,
+  "instructions_inside_archives_executed": false
+}

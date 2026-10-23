@@ -1,0 +1,20 @@
+Pak /workspace/ronaldo-work/v20-final-reader/pakchunk0-Android_ETC2.pak: 3901 files (43 encrypted), version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc0010_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc0101_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc0102_mobile_and.pak: 1 files, mount point: "/PesMobile/Content/Movies/PlayerCard/", version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc0103_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc1000_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc1001_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc3611_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc3611_mobile_and_optional.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc3700_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc9257_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v20-final-reader/pc9298_mobile_and.pak: 0 files, version 11
+Found 157506 game files (26 skipped) in 2497 folders at path "/workspace/ronaldo-work/v20-final-reader"
+Scanned game directory in 0.4 sec, 164629 allocs, 18.60 MBytes serialized in 4815 calls.
+Loaded in 0.0 sec, 19 allocs, 0.01 MBytes serialized in 3 calls.
+Loading Texture2D 89135066911146_ from package /Game/Assets/ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset
+Exporting objects ...
+Exporting Texture2D 89135066911146_ to /workspace/ronaldo-work/v20-verified-images/Game/Assets/ui/Data/Thumbnail/Player/Variation2022/89135066911146_.png
+Memory: allocated 31284666 bytes in 7782 blocks
+Exported 1/1 objects in 0.0 sec

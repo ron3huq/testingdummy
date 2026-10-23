@@ -1,0 +1,209 @@
+{
+  "status": "V20_INDEPENDENT_MESH_CARD_FONT_CONTAINER_VALIDATION_PASS",
+  "new_mesh_LODs": [
+    {
+      "mesh": "SK_NW01_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 7509,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW01_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 7509,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW01lg00v0000_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 7509,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW01lg00v0000_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 7509,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW01ep01v0291_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 7509,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW01ep01v0291_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 7509,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW01ep00v0313_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 7509,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW01ep00v0313_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 7509,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW27_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 7078,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW27_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 7078,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW27lg00v0000_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 7078,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW27lg00v0000_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 7078,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW27ep01v0291_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 7078,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW27ep01v0291_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 7078,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW27ep00v0313_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 7078,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NW27ep00v0313_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 7078,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NWJRep00v0313_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 6400,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NWJRep00v0313_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 6400,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NWHDep00v0313_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 7316,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NWHDep00v0313_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 7316,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NWOZep00v0313_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "vertices": 4176,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    },
+    {
+      "mesh": "SK_NWOZep00v0313_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "vertices": 4176,
+      "native_bind_block_byte_identical": true,
+      "skin_weights_UVs_tangents_topology_match_phone_proven_ND06": true
+    }
+  ],
+  "approved_prior_head_hair_chunks_byte_identical": 187,
+  "glyph_assets_original_EAC_alpha_exact": 32,
+  "card_textures_independent_pixel_match": [
+    "88044950524330_",
+    "88044950524330_l",
+    "89135066911146_",
+    "89135066911146_l",
+    "106726716084650_",
+    "106726716084650_l",
+    "106781745353130_",
+    "106781745353130_l",
+    "106778792700170_",
+    "106778792700170_l",
+    "105874433662542_",
+    "105874433662542_l"
+  ],
+  "kit_team_ids": [
+    351,
+    352,
+    242,
+    245
+  ],
+  "kits": 8,
+  "kit_UI_previews": 16,
+  "all_package_store_IDs_consistent": true,
+  "container_sha256": "cf4e27d4dc0eef4670bc6870d3c4bfa80a9d1eb3ba28d9221e782282f9286e59",
+  "phone_tested": false,
+  "renderer_black_face_fixed_verified": false
+}

@@ -1,0 +1,369 @@
+{
+  "cards": [
+    {
+      "card_id": "88044950524330",
+      "native_path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "34d046f752e2f267548ff38d8a410cac4315ab50924441952fcb87c51212817e",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "supplied photo"
+    },
+    {
+      "card_id": "88044950524330",
+      "native_path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "34d046f752e2f267548ff38d8a410cac4315ab50924441952fcb87c51212817e",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "supplied photo"
+    },
+    {
+      "card_id": "89135066911146",
+      "native_path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "e44f441634e6078dc21f0b19fda643c164bc4a4c59752c643f7b88b68525226e",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "supplied photo"
+    },
+    {
+      "card_id": "89135066911146",
+      "native_path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "e44f441634e6078dc21f0b19fda643c164bc4a4c59752c643f7b88b68525226e",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "supplied photo"
+    },
+    {
+      "card_id": "106726716084650",
+      "native_path": "Assets/ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "c77a9765215281bb45ed655b44366b30e3c630f305f2e1e3728e75b54c5e6082",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "supplied photo"
+    },
+    {
+      "card_id": "106726716084650",
+      "native_path": "Assets/ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "c77a9765215281bb45ed655b44366b30e3c630f305f2e1e3728e75b54c5e6082",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "supplied photo"
+    },
+    {
+      "card_id": "106781745353130",
+      "native_path": "Assets/ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "0f41edb0902800acf5f1ce283da80548c125dc03fe1fc55c19f15f43b97d4b40",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "supplied photo"
+    },
+    {
+      "card_id": "106781745353130",
+      "native_path": "Assets/ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "0f41edb0902800acf5f1ce283da80548c125dc03fe1fc55c19f15f43b97d4b40",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "supplied photo"
+    },
+    {
+      "card_id": "106778792700170",
+      "native_path": "Assets/ui/Data/Thumbnail/Player/Variation2022/106778792700170_l.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "6c254fb3f7ec7777c5d1651b3dc0e653876a86b709de39a60e87cc98e8a7aab3",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "user supplied 3D face reference rendered in Blender then photographic art reconstruction"
+    },
+    {
+      "card_id": "106778792700170",
+      "native_path": "Assets/ui/Data/Thumbnail/Player/Variation2022/106778792700170_.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "6c254fb3f7ec7777c5d1651b3dc0e653876a86b709de39a60e87cc98e8a7aab3",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "user supplied 3D face reference rendered in Blender then photographic art reconstruction"
+    },
+    {
+      "card_id": "105874433662542",
+      "native_path": "ui/Data/Thumbnail/Player/Variation2022/105874433662542_l.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "27acd19823cbb3038b354e9a2ca0d871a062495e5dd8d86829996338a9a84deb",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "user supplied 3D face reference rendered in Blender then photographic art reconstruction"
+    },
+    {
+      "card_id": "105874433662542",
+      "native_path": "ui/Data/Thumbnail/Player/Variation2022/105874433662542_.uasset",
+      "new_missing_card_package_created": false,
+      "native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "separate_mini_and_large_compositions": true,
+      "aspect_preserved": true,
+      "source_sheet_sha256": "27acd19823cbb3038b354e9a2ca0d871a062495e5dd8d86829996338a9a84deb",
+      "background": "custom Big Time-inspired emerald/gold photographic stadium; not verified latest original game background",
+      "portrait_source": "user supplied 3D face reference rendered in Blender then photographic art reconstruction"
+    }
+  ],
+  "count": 12,
+  "phone_verified": false,
+  "latest_2026_2027_original_background_verified": false,
+  "native_UI_frame_rating_names_team_badges_not_baked_into_portrait": true,
+  "2006_and_2008_portrait_swap_preserved": true
+}
