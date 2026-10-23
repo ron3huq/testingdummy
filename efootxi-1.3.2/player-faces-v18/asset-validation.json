@@ -1,0 +1,200 @@
+{
+  "status": "TEN_REBASED_MESHES_TWENTY_LODS_ORIGINAL_GEOMETRY_AND_PIXELS_PRESERVED_PASS",
+  "meshes": [
+    {
+      "profile": "NV01",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    },
+    {
+      "profile": "NV01lg00v0000",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    },
+    {
+      "profile": "NV01ep01v0291",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    },
+    {
+      "profile": "NV01ep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    },
+    {
+      "profile": "NV27",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    },
+    {
+      "profile": "NV27lg00v0000",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    },
+    {
+      "profile": "NV27ep01v0291",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    },
+    {
+      "profile": "NV27ep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    },
+    {
+      "profile": "NVJRep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    },
+    {
+      "profile": "NVHDep00v0313",
+      "lods": [
+        {
+          "lod": 0,
+          "required_bones": 166,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        },
+        {
+          "lod": 1,
+          "required_bones": 153,
+          "all_vertex_arrays_and_bonemaps_identical": true,
+          "active_bones_identical": true
+        }
+      ],
+      "diffuse_UEViewer_readback_pixel_identical_to_original": true,
+      "all_texture_mip_and_bulk_payloads_identical": true
+    }
+  ],
+  "unchanged_chunks": 209,
+  "unchanged_card_art_chunks": 22,
+  "container_sha256": "f3344f06975aeba486590d4e74041060c285196f5d3543af5083ff0232a20237",
+  "phone_tested": false,
+  "renderer_black_face_fix_verified": false
+}

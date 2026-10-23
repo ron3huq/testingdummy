@@ -1,0 +1,120 @@
+{
+  "status": "FOUR_HEAD_ASSET_STACKS_REBASED_FROM_PHONE_PROVEN_ND06_SERIALIZATION_PASS",
+  "changed_meshes": [
+    {
+      "old_profile": "NF01",
+      "new_profile": "NV01",
+      "mesh": "SK_NV01_Face",
+      "template": "SK_ND06_Face",
+      "original_mesh_sha256": "7f2c18acac55650ddac3cb9e7eee4e17e1e143a8a51ea1924abcee03918e75eb",
+      "new_mesh_sha256": "c0e5ab6f491d3a8b8af5f1a29fb874faf160703b407a5adebc544140f557b642",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    },
+    {
+      "old_profile": "NF01lg00v0000",
+      "new_profile": "NV01lg00v0000",
+      "mesh": "SK_NV01lg00v0000_Face",
+      "template": "SK_ND06lg00v0000_Face",
+      "original_mesh_sha256": "4decc5f0b2b3dd8cd72f492895b5a1aa7679ed2719c1bf36d3ff97036fa1b98e",
+      "new_mesh_sha256": "aa71575fd009b13d210af18b56cc8cf6b7af34767c0d5bf119ff232c30867d47",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    },
+    {
+      "old_profile": "NF01ep01v0291",
+      "new_profile": "NV01ep01v0291",
+      "mesh": "SK_NV01ep01v0291_Face",
+      "template": "SK_ND06ep01v0291_Face",
+      "original_mesh_sha256": "316b4f4c750a9d930ce3dd9adf4bd83b37a0ff5b8e206b67fd61a2909216ac80",
+      "new_mesh_sha256": "69ce3c03a9bd017399f0bf56ab2ff3434eb7c0a2a38e6b170ec1d8efcbfbcf7f",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    },
+    {
+      "old_profile": "NF01ep00v0313",
+      "new_profile": "NV01ep00v0313",
+      "mesh": "SK_NV01ep00v0313_Face",
+      "template": "SK_ND06ep00v0313_Face",
+      "original_mesh_sha256": "38286e2108ad396e7a600d8201c0c125690a7e5ad0d4990221a5642ed7d81f92",
+      "new_mesh_sha256": "9c848fb797c5bd54ac481341980a9ac3331693bb8a4e724c13ef1b9a0ad06af5",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    },
+    {
+      "old_profile": "NF27",
+      "new_profile": "NV27",
+      "mesh": "SK_NV27_Face",
+      "template": "SK_ND06_Face",
+      "original_mesh_sha256": "8e6b2848a01b16843db042ee9d7cdd41eab241afcb192310dcdcf3393fb8378c",
+      "new_mesh_sha256": "1e86b39f06e1845206e762fbfb51d5ff5bdd280cae61cb32e8c36b6911d1fcd2",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    },
+    {
+      "old_profile": "NF27lg00v0000",
+      "new_profile": "NV27lg00v0000",
+      "mesh": "SK_NV27lg00v0000_Face",
+      "template": "SK_ND06lg00v0000_Face",
+      "original_mesh_sha256": "370ac33e37f49d11f1cd4cf563933c6ea8a94baa7a381614f5623e5da98cdb7d",
+      "new_mesh_sha256": "dcd561981d01e044bd4fc5884243b5d0eddfd14da40ebb2d85f6c40c6dba2ce5",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    },
+    {
+      "old_profile": "NF27ep01v0291",
+      "new_profile": "NV27ep01v0291",
+      "mesh": "SK_NV27ep01v0291_Face",
+      "template": "SK_ND06ep01v0291_Face",
+      "original_mesh_sha256": "dee97e19062b1013615784772560e66f0c8abb8f46c723c43ad0e8d6e2f88e49",
+      "new_mesh_sha256": "13dd3ce5c8a4b21162fef7c8db6b6e8c9abeb6ddccc4cb267bbd1da91b772280",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    },
+    {
+      "old_profile": "NF27ep00v0313",
+      "new_profile": "NV27ep00v0313",
+      "mesh": "SK_NV27ep00v0313_Face",
+      "template": "SK_ND06ep00v0313_Face",
+      "original_mesh_sha256": "febbd36c5df8fc1589da13bfd8e0c6f74119f9772746a0ea48d7189c372845aa",
+      "new_mesh_sha256": "49aa6c08d5484db2fc02821c293a7aa32482c4cc261835b1b29c7d87eb0eb83b",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    },
+    {
+      "old_profile": "NFJRep00v0313",
+      "new_profile": "NVJRep00v0313",
+      "mesh": "SK_NVJRep00v0313_Face",
+      "template": "SK_ND06ep00v0313_Face",
+      "original_mesh_sha256": "4b28dea122ec744fc8162870b7e11c822cfdcc6cded9e43962a5c18e110f6fbd",
+      "new_mesh_sha256": "95939a410613e913ac2b146ae57918f365ad6f065765df5eecda166f65fa8d82",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    },
+    {
+      "old_profile": "NDHDep00v0313",
+      "new_profile": "NVHDep00v0313",
+      "mesh": "SK_NVHDep00v0313_Face",
+      "template": "SK_ND06ep00v0313_Face",
+      "original_mesh_sha256": "76decf0ac9654ba3fff4e6da8ca919ce23d02dec36470cb0307c21b5f74f3a51",
+      "new_mesh_sha256": "7613652c884d248315fbcc1fb797e65ce5e218bfc485d6520b35f294ed024d37",
+      "source_geometry_positions_indices_UVs_weights_preserved": true,
+      "reference_skeleton_source": "phone-proven ND06, native166",
+      "phone_verified": false
+    }
+  ],
+  "unchanged_chunks": 209,
+  "original_four_face_and_hair_geometry_and_texture_payloads_preserved": true,
+  "phone_tested": false,
+  "black_face_fixed_on_device": false,
+  "container_sha256": "f3344f06975aeba486590d4e74041060c285196f5d3543af5083ff0232a20237"
+}

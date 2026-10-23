@@ -1,0 +1,22 @@
+{
+  "status": "V18_COMPLETE_BUNDLE_HASHES_CRC_NATIVE_GLYPHS_NOCLUB_REBASED_LODS_PASS",
+  "installed_files": 11,
+  "native_cases": 680,
+  "independent_rebased_meshes": 10,
+  "independent_rebased_LODs": 20,
+  "approved_asset_chunks_unchanged": 209,
+  "all_rebased_LOD_bytes_reference_skeleton_and_bind_pose_preserved": true,
+  "original_face_texture_mip_bulk_payloads_preserved": true,
+  "font_assets_and_layout_config_untouched": true,
+  "vietnam_club_clear_exact_cards": 6,
+  "phone_control_ND06_on_four_failing_cards_user_confirmed": true,
+  "v18_renderer_and_black_face_fix_device_verified": false,
+  "v18_jersey_and_club_UI_device_verified": false,
+  "native_sha256": "adebd6d41b964b6b83ea21e87706a53e0c3fd8fb14744a54210f3d1fb3d24e1e",
+  "artifacts": {
+    "Faces-v18-13-cards.zip": {
+      "bytes": 65714431,
+      "sha256": "2cc4930aa0659616fdb7138c5d12cff81bddfd6779344e26c0a798baf66abe2d"
+    }
+  }
+}
