@@ -1,0 +1,32 @@
+{
+  "status": "PINNED_CPK_COUNTRY_AND_PLAYER_WESYS_DECODE_PASS",
+  "country_row_bytes": 1488,
+  "player_row_bytes": 400,
+  "countries": {
+    "Vietnam": {
+      "internal_country_code": 38,
+      "flag_resource_id": 231,
+      "source_row": 36
+    },
+    "Portugal": {
+      "internal_country_code": 228,
+      "flag_resource_id": 49,
+      "source_row": 193
+    }
+  },
+  "source_cpk_sha256": "a37c2b81de7bb2172f2549d155bdd1e717f09efc4f8d50feba07ec390967cfe6",
+  "decoded_tables": [
+    {
+      "file": "Country.bin",
+      "decoded_bytes": 318432,
+      "decoded_sha256": "6dcb876a1922281cc5bf513f8ee117846fbeed42e48936f40af2007232c1b0a7"
+    },
+    {
+      "file": "Player.bin",
+      "decoded_bytes": 9681200,
+      "decoded_sha256": "82dbf12ee015da5f589bc97e34a7a54266a9e6d8287d856eb2beb5be328bde15"
+    }
+  ],
+  "native_importer": "0x824c5d0 -> wire country getter 0x8257850 -> Country lookup 0x8257878 -> native record setter 0x8257598 (uint16 record+0x198)",
+  "phone_verified": false
+}

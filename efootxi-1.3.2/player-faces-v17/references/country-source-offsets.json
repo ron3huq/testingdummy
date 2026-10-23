@@ -1,0 +1,17 @@
+{
+  "cpk_sha256": "a37c2b81de7bb2172f2549d155bdd1e717f09efc4f8d50feba07ec390967cfe6",
+  "rows": [
+    {
+      "file": "Country.bin",
+      "offset": 860608,
+      "size": 30067,
+      "sha256": "5a4cf3041b1a7967dfea116d3211bb0a1f592d2434eab1061e10a82862697896"
+    },
+    {
+      "file": "Player.bin",
+      "offset": 902400,
+      "size": 2289863,
+      "sha256": "923722ff8aa19f7053d8117bb34bb0963e4b4eba2eca42a34a72de20b5f58d72"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "status": "V17_JERSEY_RESOURCE_PRESERVATION_COUNTRY_AND_COMPARISON_PACKAGES_PASS",
+  "native_cases_per_mode": 692,
+  "twelve_detour_install_paths_per_mode": true,
+  "original_v16_container_byte_identical": true,
+  "gateway_bytes": 2441,
+  "source_native_sha256": "540e73e356f41ab032c322993b5a14e64f9407128fd6cfcc6b6c17d7b44b41ca",
+  "comparison_native_sha256": "92baed362309984275e8f47b99176272ee194f384e2a03ef5b1d75af0f15711c",
+  "four_black_faces_fixed": false,
+  "requires_phone_comparison_result": true,
+  "device_verified": false,
+  "black_face_root_cause_proven": false,
+  "jersey_render_and_flags_phone_verified": false,
+  "artifacts": {
+    "Faces-v17-jersey-nationality.zip": {
+      "bytes": 65708269,
+      "sha256": "2f45d1c756013416363426031e4908c185fefdfbf1f11a6cc075cbdaa29e48c4"
+    },
+    "Faces-v17-compare-four-with-2006.zip": {
+      "bytes": 42257,
+      "sha256": "f0f3484db98856d163fe45de5487df2fb463054b064e5fffaff7e1be06c3516d"
+    },
+    "Faces-v17-restore-own-heads.zip": {
+      "bytes": 42280,
+      "sha256": "a2a0a9d1ed2f7bdb565936114f1b51e7bde2dd78b9593e848c78e7baf03b381b"
+    }
+  }
+}

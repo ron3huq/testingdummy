@@ -1,0 +1,8 @@
+{
+  "fixed_jump_executed": true,
+  "twelve_full_python_install_paths_executed": true,
+  "worker_reaches_hook_active": true,
+  "original_engine_hash_and_both_prologues_verified": true,
+  "native_boundary": "ctypes mmap, memory writes and native functions modeled; no phone renderer tested",
+  "phone_tested": false
+}
