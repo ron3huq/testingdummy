@@ -1,0 +1,97 @@
+{
+  "status": "WORKING_AND_REPORTED_BLACK_PRIVATE_STATIC_MICS_EQUIVALENT_EXCEPT_NAMES_PASS",
+  "rows": [
+    {
+      "profile": "ND06",
+      "quality": "HQ",
+      "normalized_sha256": "3353fed1cf66cb125e8ae8d5a7d4e02aae8e1d32ba26836f9b3f8f4c2f333a01"
+    },
+    {
+      "profile": "ND13",
+      "quality": "HQ",
+      "normalized_sha256": "3353fed1cf66cb125e8ae8d5a7d4e02aae8e1d32ba26836f9b3f8f4c2f333a01"
+    },
+    {
+      "profile": "NF01",
+      "quality": "HQ",
+      "normalized_sha256": "3353fed1cf66cb125e8ae8d5a7d4e02aae8e1d32ba26836f9b3f8f4c2f333a01"
+    },
+    {
+      "profile": "NF27",
+      "quality": "HQ",
+      "normalized_sha256": "3353fed1cf66cb125e8ae8d5a7d4e02aae8e1d32ba26836f9b3f8f4c2f333a01"
+    },
+    {
+      "profile": "NFJR",
+      "quality": "HQ",
+      "normalized_sha256": "3353fed1cf66cb125e8ae8d5a7d4e02aae8e1d32ba26836f9b3f8f4c2f333a01"
+    },
+    {
+      "profile": "NDHD",
+      "quality": "HQ",
+      "normalized_sha256": "3353fed1cf66cb125e8ae8d5a7d4e02aae8e1d32ba26836f9b3f8f4c2f333a01"
+    },
+    {
+      "profile": "NDXS",
+      "quality": "HQ",
+      "normalized_sha256": "3353fed1cf66cb125e8ae8d5a7d4e02aae8e1d32ba26836f9b3f8f4c2f333a01"
+    },
+    {
+      "profile": "NDDB",
+      "quality": "HQ",
+      "normalized_sha256": "3353fed1cf66cb125e8ae8d5a7d4e02aae8e1d32ba26836f9b3f8f4c2f333a01"
+    },
+    {
+      "profile": "ND08",
+      "quality": "HQ",
+      "normalized_sha256": "3353fed1cf66cb125e8ae8d5a7d4e02aae8e1d32ba26836f9b3f8f4c2f333a01"
+    },
+    {
+      "profile": "ND06",
+      "quality": "MQ",
+      "normalized_sha256": "1a5466593674aa3c5a87048b1bdab572f30abda4d79131ef921f5078d549a49d"
+    },
+    {
+      "profile": "ND13",
+      "quality": "MQ",
+      "normalized_sha256": "1a5466593674aa3c5a87048b1bdab572f30abda4d79131ef921f5078d549a49d"
+    },
+    {
+      "profile": "NF01",
+      "quality": "MQ",
+      "normalized_sha256": "1a5466593674aa3c5a87048b1bdab572f30abda4d79131ef921f5078d549a49d"
+    },
+    {
+      "profile": "NF27",
+      "quality": "MQ",
+      "normalized_sha256": "1a5466593674aa3c5a87048b1bdab572f30abda4d79131ef921f5078d549a49d"
+    },
+    {
+      "profile": "NFJR",
+      "quality": "MQ",
+      "normalized_sha256": "1a5466593674aa3c5a87048b1bdab572f30abda4d79131ef921f5078d549a49d"
+    },
+    {
+      "profile": "NDHD",
+      "quality": "MQ",
+      "normalized_sha256": "1a5466593674aa3c5a87048b1bdab572f30abda4d79131ef921f5078d549a49d"
+    },
+    {
+      "profile": "NDXS",
+      "quality": "MQ",
+      "normalized_sha256": "1a5466593674aa3c5a87048b1bdab572f30abda4d79131ef921f5078d549a49d"
+    },
+    {
+      "profile": "NDDB",
+      "quality": "MQ",
+      "normalized_sha256": "1a5466593674aa3c5a87048b1bdab572f30abda4d79131ef921f5078d549a49d"
+    },
+    {
+      "profile": "ND08",
+      "quality": "MQ",
+      "normalized_sha256": "1a5466593674aa3c5a87048b1bdab572f30abda4d79131ef921f5078d549a49d"
+    }
+  ],
+  "runtime_binding_proven": false,
+  "phone_tested": false
+}

@@ -1,0 +1,749 @@
+{
+  "status": "NINE_CARD_PAIRS_AND_XUAN_SON_THUMBNAIL_WITH_13_HEADS_PRESERVED_PASS",
+  "cards": [
+    {
+      "card_id": "105848932271764",
+      "file": "Cao Pendant.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 5213182266070691153,
+      "sha256": "65b12e7abeceed45c325d11bbedfbe38c3c8ccf6df6de8549b21578aa1d6dd0a",
+      "source_image_sha256": "029effab29cafda667a87326e6b5cafc1eda010f11fa5ddb0b923bae8d7a3b56"
+    },
+    {
+      "card_id": "105848932271764",
+      "file": "Cao Pendant.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 1746385964242018539,
+      "sha256": "4b61e00d1d7fb082d0727f12d35cb4eb16fe864374db1ab3c711c0b40a71825b",
+      "source_image_sha256": "029effab29cafda667a87326e6b5cafc1eda010f11fa5ddb0b923bae8d7a3b56"
+    },
+    {
+      "card_id": "88033139360669",
+      "file": "ishowspeed.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and.utoc",
+      "package_id": 5201999164931024307,
+      "sha256": "de1816908c750ed2ecae00a8f579a5e6a9a336e76874e3307422a550b17a89c5",
+      "source_image_sha256": "2b2f03db40ebc60227022eaec17577f7f4b57429b6d0a45dfd4f76d0bdebd2c8"
+    },
+    {
+      "card_id": "88033139360669",
+      "file": "ishowspeed.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and.utoc",
+      "package_id": 11371961701399147512,
+      "sha256": "920449c6cb00248254610c83bc7f77eab48f15a28b8bfc3208be5eed6c775ed8",
+      "source_image_sha256": "2b2f03db40ebc60227022eaec17577f7f4b57429b6d0a45dfd4f76d0bdebd2c8"
+    },
+    {
+      "card_id": "88038776539586",
+      "file": "Nguyen Dinh Bac.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and.utoc",
+      "package_id": 746566273451400897,
+      "sha256": "ec4aea71115798e201e6d9248c358e040c67e7827c530da6e0b8a827fe8480a8",
+      "source_image_sha256": "6770093d688f8b7212e5ac5eb49fbf56f80da1a2d8ebccd7b523adf773c5be79"
+    },
+    {
+      "card_id": "88038776539586",
+      "file": "Nguyen Dinh Bac.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and.utoc",
+      "package_id": 4960417343521438949,
+      "sha256": "d152fba2a6da5004855cc3911699260289263805659b21b038def93ad0c711cc",
+      "source_image_sha256": "6770093d688f8b7212e5ac5eb49fbf56f80da1a2d8ebccd7b523adf773c5be79"
+    },
+    {
+      "card_id": "105643042189511",
+      "file": "Nguyen Hoang Duc.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 3248988943263690563,
+      "sha256": "30f38158b8983396f9b4b819be46a28b02ad73843449f03f07f857df71cdd227",
+      "source_image_sha256": "401e425f4c51c60ea8cbe8cd2e504a9fd423b9dac5d2125ddadbcc1514a8f88c"
+    },
+    {
+      "card_id": "105643042189511",
+      "file": "Nguyen Hoang Duc.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 12054992088484018132,
+      "sha256": "d0552d1a860667b34d3c29f3460bcd73ada7709f286d89e8155ef25070947280",
+      "source_image_sha256": "401e425f4c51c60ea8cbe8cd2e504a9fd423b9dac5d2125ddadbcc1514a8f88c"
+    },
+    {
+      "card_id": "89135066911146",
+      "file": "ronaldo 2006.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and.utoc",
+      "package_id": 9305982251262965606,
+      "sha256": "39bf5cfe7068d5abe5b56d09d0782e88d0db3a8d90ae4d81ce30aec4ca444a2c",
+      "source_image_sha256": "9e5e160cfe0be4922eddf7212329c4e34ecb412ee096f4c3f9c784843f073ab4"
+    },
+    {
+      "card_id": "89135066911146",
+      "file": "ronaldo 2006.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and.utoc",
+      "package_id": 16262292107700847055,
+      "sha256": "105f484147d929d9b8870d23aa9b016ae2022ab06092f324ba932914ab4fbd13",
+      "source_image_sha256": "9e5e160cfe0be4922eddf7212329c4e34ecb412ee096f4c3f9c784843f073ab4"
+    },
+    {
+      "card_id": "106726716084650",
+      "file": "ronaldo 2008.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 88048067346309324,
+      "sha256": "457939fa943b1a33e81eba5809cf6cf1e0ef857deae8a6f6bd9e6bbd2b5245a7",
+      "source_image_sha256": "7034d3071a8a7dcd361c286d81e857037a584cf939b71b48d9c2538cc36e8ae7"
+    },
+    {
+      "card_id": "106726716084650",
+      "file": "ronaldo 2008.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 4934346694504767345,
+      "sha256": "57e2af528327d4c3e95f421d38b12119e02773de97c0f5ebaf8f1aa37e880033",
+      "source_image_sha256": "7034d3071a8a7dcd361c286d81e857037a584cf939b71b48d9c2538cc36e8ae7"
+    },
+    {
+      "card_id": "106781745353130",
+      "file": "Ronaldo 2013.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 10430144033815992339,
+      "sha256": "ff6206cc70df83f9ac2ad817ce63548f34fa44813225b1e1d10f0453a58f5ca0",
+      "source_image_sha256": "511d9626ad039ac02644140d2d49850f0e7f891c6a557d82bf6a64f265ff96e7"
+    },
+    {
+      "card_id": "106781745353130",
+      "file": "Ronaldo 2013.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 7391205255942417992,
+      "sha256": "02daac44a1f06958d42b0377080906551163b543e839f3c51ef857ade3fa7d07",
+      "source_image_sha256": "511d9626ad039ac02644140d2d49850f0e7f891c6a557d82bf6a64f265ff96e7"
+    },
+    {
+      "card_id": "88044950524330",
+      "file": "ronaldo 2017.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and.utoc",
+      "package_id": 15217801362831890422,
+      "sha256": "f17c35fd681e2ebd6d4718395f80efcc6f5a708098ff89e5519e77114ca5321e",
+      "source_image_sha256": "2f2bab01161737ca5fe3a440f54783f605db6bb86eeec96385a88ad29208b390"
+    },
+    {
+      "card_id": "88044950524330",
+      "file": "ronaldo 2017.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and.utoc",
+      "package_id": 10239186702704238589,
+      "sha256": "a0515d55c026156815096e7f93b4f809ea75b55e3239a7e5f44c4aef12b3c8af",
+      "source_image_sha256": "2f2bab01161737ca5fe3a440f54783f605db6bb86eeec96385a88ad29208b390"
+    },
+    {
+      "card_id": "105765448873424",
+      "file": "ronaldo junior.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 11738483193869081676,
+      "sha256": "b6ae812a3db6938570af9cc9c528ed5b45115e8004ff00d5ae36a3b1d1148bf2",
+      "source_image_sha256": "0745f0d061c9cf287ad6f9cbbf3f53c579ef3280c16933aa9494a0d059d1fdf4"
+    },
+    {
+      "card_id": "105765448873424",
+      "file": "ronaldo junior.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and.utoc",
+      "package_id": 7921398863175692433,
+      "sha256": "e0217ed3d7a4f8f382e14b930d9a63c8e0f253a1b44e908baefa97f34ef4ff32",
+      "source_image_sha256": "0745f0d061c9cf287ad6f9cbbf3f53c579ef3280c16933aa9494a0d059d1fdf4"
+    },
+    {
+      "card_id": "88045755960841",
+      "file": "Nguyen-Xuan-Son-thumbnail.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and.utoc",
+      "package_id": 5046357595081060065,
+      "sha256": "1e7814dccb98627be86c0655b47552daab386fa772658e5c675c08f6e4342324",
+      "source_image_sha256": "46206b7a679d6a0a473f99129a9db82db30d1e6b78dd7242f4213db45f8761f0"
+    }
+  ],
+  "changed_UI_textures": 19,
+  "head_chunks_byte_identical": 277,
+  "xuan_son_large_portrait_byte_identical": true,
+  "ignored_input": "ronaldo 2008 plus.png",
+  "phone_tested": false,
+  "container_sha256": "6fe1f1028f874300d9c4a03dab0524caf9b8de23bce7be221831790c508274f3",
+  "independent_ueviewer_export": [
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.81475830078125
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.3402418053668477
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.5175323486328125
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.4655443274456523
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.411590576171875
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.6348505434782608
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.240081787109375
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.7055929432744565
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.3133544921875
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 1.8540145210597827
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.5535736083984375
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.7968431555706523
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.393096923828125
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.670293393342391
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.450103759765625
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.5409943953804346
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.4952392578125
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.0189474354619565
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 6.24267578125
+    }
+  ]
+}

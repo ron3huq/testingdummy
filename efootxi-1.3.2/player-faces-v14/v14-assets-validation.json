@@ -1,0 +1,180 @@
+{
+  "status": "277_HEAD_CHUNKS_AND_19_INDEPENDENT_CARD_EXPORTS_PASS",
+  "container_sha256": "6fe1f1028f874300d9c4a03dab0524caf9b8de23bce7be221831790c508274f3",
+  "head_meshes": 25,
+  "render_lods": 50,
+  "UI_exports": [
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.81475830078125
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.3402418053668477
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.5175323486328125
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.4655443274456523
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.411590576171875
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.6348505434782608
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.240081787109375
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.7055929432744565
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.3133544921875
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 1.8540145210597827
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.5535736083984375
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.7968431555706523
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.393096923828125
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.670293393342391
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 3.450103759765625
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.5409943953804346
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.4952392578125
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 2.0189474354619565
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "UEViewer_export_found": true,
+      "source_vs_export_mae": 6.24267578125
+    }
+  ],
+  "phone_tested": false
+}

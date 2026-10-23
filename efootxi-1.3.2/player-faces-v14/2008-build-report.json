@@ -1,0 +1,302 @@
+{
+  "status": "BUILT_NOT_PHONE_VERIFIED",
+  "meshes": [
+    {
+      "profile": "ND08",
+      "variant": "4522ep00v0313",
+      "skin_vertices": 3451,
+      "accessory_vertices": 135,
+      "hair_vertices": 7461,
+      "triangles": 17566,
+      "bone_map": {
+        "4": "sk_spine_03",
+        "5": "sk_cervicalspine_01",
+        "6": "sk_cervicalspine_02",
+        "7": "sk_head",
+        "8": "skf_jaw",
+        "10": "skf_eyelid_t_l",
+        "11": "skf_eyelid_b_l",
+        "12": "skf_eyelid_t_r",
+        "13": "skf_eyelid_b_r",
+        "14": "skf_eye_l",
+        "15": "skf_eye_r"
+      },
+      "native_accessory_groups": [
+        {
+          "kind": "mouth_cavity",
+          "count": 3
+        },
+        {
+          "kind": "mouth_cavity",
+          "count": 3
+        },
+        {
+          "kind": "eye_l",
+          "count": 7
+        },
+        {
+          "kind": "eye_r",
+          "count": 7
+        },
+        {
+          "kind": "eye_l",
+          "count": 7
+        },
+        {
+          "kind": "eye_l",
+          "count": 7
+        },
+        {
+          "kind": "eye_r",
+          "count": 7
+        },
+        {
+          "kind": "eye_r",
+          "count": 7
+        },
+        {
+          "kind": "upper_teeth",
+          "count": 9
+        },
+        {
+          "kind": "upper_teeth",
+          "count": 9
+        },
+        {
+          "kind": "lower_teeth",
+          "count": 9
+        },
+        {
+          "kind": "lower_teeth",
+          "count": 9
+        },
+        {
+          "kind": "eye_l",
+          "count": 23
+        },
+        {
+          "kind": "eye_r",
+          "count": 23
+        },
+        {
+          "kind": "mouth_cavity",
+          "count": 5
+        }
+      ],
+      "eye_fit_translation_cm": {
+        "l": [
+          0.443799652159214,
+          0.7434341162443161,
+          0.7389988899230957
+        ],
+        "r": [
+          0.5455639585852623,
+          0.5036640465259552,
+          0.8876076936721802
+        ],
+        "mouth_translation_cm": [
+          0.3982869066484063,
+          0.0680849575700293,
+          0.5336434963879526
+        ],
+        "mouth_width_scale": 0.9388167909387538
+      },
+      "face_and_hair_positions_preserved": true,
+      "neck_vertices": 311,
+      "render_lods": 2,
+      "required_bones_native_per_lod": true,
+      "active_bones": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "stitched_groups": 137,
+      "low_neck_native_weight_vertices": 311,
+      "phone_verified": false
+    }
+  ],
+  "textures": [
+    {
+      "name": "T_ND08ep00v0313_Face_D",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": [
+        2097152,
+        524288,
+        131072,
+        32768,
+        8192,
+        2048,
+        512,
+        128,
+        32,
+        8,
+        8,
+        8
+      ],
+      "alpha": false
+    },
+    {
+      "name": "T_ND08ep00v0313_Face_N",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": [
+        2097152,
+        524288,
+        131072,
+        32768,
+        8192,
+        2048,
+        512,
+        128,
+        32,
+        8,
+        8,
+        8
+      ],
+      "alpha": false
+    },
+    {
+      "name": "T_ND08ep00v0313_Face_SRO",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": [
+        2097152,
+        524288,
+        131072,
+        32768,
+        8192,
+        2048,
+        512,
+        128,
+        32,
+        8,
+        8,
+        8
+      ],
+      "alpha": false
+    },
+    {
+      "name": "T_ND0008_Hair_D",
+      "size": [
+        2048,
+        512
+      ],
+      "mips": [
+        1048576,
+        262144,
+        65536,
+        16384,
+        4096,
+        1024,
+        256,
+        64,
+        32,
+        16,
+        16,
+        16
+      ],
+      "alpha": true
+    }
+  ],
+  "packages": [
+    {
+      "name": "SK_ND08ep00v0313_Face",
+      "package_id": 16305035686907999485,
+      "imports": [
+        8549136900458166305,
+        16857419123524222514,
+        10320831434442763900,
+        14518482128170399501,
+        539638379709802540,
+        4779037144234493983
+      ]
+    },
+    {
+      "name": "T_ND08ep00v0313_Face_D",
+      "package_id": 3754815325265638652,
+      "imports": []
+    },
+    {
+      "name": "T_ND08ep00v0313_Face_N",
+      "package_id": 1648086791851788482,
+      "imports": []
+    },
+    {
+      "name": "T_ND08ep00v0313_Face_SRO",
+      "package_id": 7613139705476259296,
+      "imports": []
+    },
+    {
+      "name": "MI_ND08ep00v0313_Head_FaceLegacy_HQ",
+      "package_id": 16857419123524222514,
+      "imports": [
+        3754815325265638652,
+        1648086791851788482,
+        7613139705476259296,
+        10545891396931635536,
+        13954437197965610588,
+        12844131984236803113,
+        12950440448487854076,
+        12465215459419269350
+      ]
+    },
+    {
+      "name": "MI_ND08ep00v0313_Head_FaceLegacy_MQ",
+      "package_id": 10320831434442763900,
+      "imports": [
+        3754815325265638652,
+        10545891396931635536,
+        13954437197965610588,
+        3834741816563012230,
+        13399904312082565731
+      ]
+    },
+    {
+      "name": "T_ND0008_Hair_D",
+      "package_id": 17330439413731849281,
+      "imports": []
+    },
+    {
+      "name": "MI_ND0008_Head_Hair_HQ",
+      "package_id": 14518482128170399501,
+      "imports": [
+        17330439413731849281,
+        6941337695071511207,
+        9502198759194346440,
+        10363555497189196771,
+        7795173020020171517
+      ]
+    },
+    {
+      "name": "MI_ND0008_Head_Hair_MQ",
+      "package_id": 539638379709802540,
+      "imports": [
+        17330439413731849281,
+        6941337695071511207,
+        9502198759194346440,
+        10363555497189196771,
+        7795173020020171517
+      ]
+    }
+  ],
+  "container_roundtrip": true
+}

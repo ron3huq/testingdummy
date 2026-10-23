@@ -1,0 +1,33 @@
+{
+  "native_skin_property": {
+    "name": "skin_color",
+    "actor_offset": "0x42c",
+    "uht_property_descriptor": "0x9105988"
+  },
+  "native_skin_dirty_flag": "0x1a6b",
+  "native_skin_change_code": [
+    "0x39d3fb0",
+    "0x39d3fbc"
+  ],
+  "real_selector_tested": "0x39cac7c..0x39cacb8",
+  "texture_format": "T_Sk%d_%s_D",
+  "selected_skin_index": 6,
+  "texture_families": [
+    "Body",
+    "Lowbody",
+    "Skin"
+  ],
+  "target_card_ids": [
+    "88033139360669",
+    "88045755960841",
+    "105848932271764"
+  ],
+  "head_assets_unchanged": true,
+  "phone_verified": false,
+  "mesh_materials_offset": "0xd8",
+  "mesh_materials_uht_descriptor": "0x979ba70",
+  "skeletal_material_stride": "0x28",
+  "struct_descriptor": "0x979a120",
+  "texture_getter": "0x59b8a2c",
+  "texture_getter_native_stub": "0x626f488"
+}
