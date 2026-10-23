@@ -1,0 +1,19 @@
+{
+  "status": "V19_COMPLETE_BUNDLE_CHECKSUMS_CRC_752_NATIVE_14_INSTALLS_TWO_KITS_PASS",
+  "installed_files": 11,
+  "native_cases": 752,
+  "Python_install_paths": 14,
+  "all_v18_face_hair_card_asset_chunks_unchanged": 299,
+  "only_new_asset_chunks": "Sparta351p1,p2 Uni_D",
+  "common_head_guard_scope": "four failing cards; named native common face attachment only; main/depth/shadow suppression with original-state restoration",
+  "card_ui_club_scope": "six Vietnam cards no-club/no-league; Speed AlNassr18961 Portugal228",
+  "all_visual_changes_device_verified": false,
+  "black_face_cure_device_verified": false,
+  "native_sha256": "0949b6b5ca4e5bbab36bb22fa9526d6ebab96be6998258b813d1db1312c0e978",
+  "artifacts": {
+    "Faces-v19-13-cards-Sparta-kits.zip": {
+      "bytes": 65832924,
+      "sha256": "40ffebb97edd616138150c7967675b9f03dab12698b7642d9c5fd42197c4375d"
+    }
+  }
+}

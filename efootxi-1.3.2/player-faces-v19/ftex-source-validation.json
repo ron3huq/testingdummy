@@ -1,0 +1,25 @@
+{
+  "status": "TWO_FTEX_TOP_LEVEL_BC7_RECOVERY_PASS",
+  "files": [
+    {
+      "file": "u0109p1_home.ftex",
+      "size": [
+        5120,
+        5120
+      ],
+      "sha256": "786ae2b00cdee159abd941600dffdf11869333958c97f2d88f922308a1a208a1",
+      "recovered_top_level_bytes": 26214400,
+      "ignored_small_mips": true
+    },
+    {
+      "file": "u0109p1_third.ftex",
+      "size": [
+        5120,
+        5120
+      ],
+      "sha256": "d59f922982d75c369156d3194f4d1756b96cf4b99a379fe516ee083b4515e00a",
+      "recovered_top_level_bytes": 26214400,
+      "ignored_small_mips": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "SPARTA351_ONLY_TWO_NATIVE_ETC2_UNIFORM_TEXTURES_PASS",
+  "kits": [
+    {
+      "team_id": 351,
+      "native_name": "Sparta Rotterdam",
+      "slot": "p1",
+      "source_file": "u0109p1_home.ftex",
+      "native_texture": "character/Uniform/LowTextures/T_u0351p1_Uni_D.uasset",
+      "mips": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "original_texture_serialized_size_preserved": true,
+      "source_png_sha256": "79adc828a6cd84b4b5482d8ea31e18866d748d6042310edfd50c9e745358b20f",
+      "GPU_renderer_verified": false,
+      "UV_mapping": "source full-kit atlas resampled as a whole; no invented shirt/pants geometry",
+      "source_small_mips_discarded_native_mips_reencoded": true
+    },
+    {
+      "team_id": 351,
+      "native_name": "Sparta Rotterdam",
+      "slot": "p2",
+      "source_file": "u0109p1_third.ftex",
+      "native_texture": "character/Uniform/LowTextures/T_u0351p2_Uni_D.uasset",
+      "mips": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "original_texture_serialized_size_preserved": true,
+      "source_png_sha256": "9df51f3c4a01cbc13b74281d862966e7e4f4fd92a162bd8b9e203ed103381895",
+      "GPU_renderer_verified": false,
+      "UV_mapping": "source full-kit atlas resampled as a whole; no invented shirt/pants geometry",
+      "source_small_mips_discarded_native_mips_reencoded": true
+    }
+  ],
+  "existing_v18_chunks_unchanged": 299,
+  "new_chunks": 2,
+  "phone_verified": false
+}

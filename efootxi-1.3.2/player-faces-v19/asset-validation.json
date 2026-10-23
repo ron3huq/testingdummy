@@ -1,0 +1,13 @@
+{
+  "status": "V19_ALL299_PRIOR_ASSET_CHUNKS_IDENTICAL_TWO_SPARTA_TEXTURES_INDEPENDENT_READBACK_PASS",
+  "unchanged_v18_chunks": 299,
+  "new_uniform_chunks": 2,
+  "Sparta_team_id": 351,
+  "all_prior_heads_hair_LODs_weights_materials_and_card_art_byte_identical": true,
+  "independent_ETC2_readback_pixel_match": true,
+  "native_uniform_mip_layout": "one1024x1024 level per native template; no invalid source small FTEX mip reused",
+  "container_sha256": "527fcb9c0b4c55b32f21e522b42a11e6fe749f46054cd8968eebe0676a0cb8e4",
+  "kit_engine_shader_UV_application_verified": false,
+  "renderer_black_face_fix_verified": false,
+  "phone_tested": false
+}

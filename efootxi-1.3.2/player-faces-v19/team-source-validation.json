@@ -1,0 +1,17 @@
+{
+  "status": "PINNED_CPK_TEAM_NAMES_AND_IDS_VERIFIED",
+  "source_cpk_sha256": "a37c2b81de7bb2172f2549d155bdd1e717f09efc4f8d50feba07ec390967cfe6",
+  "Team_decoded_sha256": "b14652b9b47bd011cb93839a360eb79bf144c934c03c7c72ef8c70e52eadfc2c",
+  "rows": [
+    {
+      "row": 212,
+      "name": "Sparta Rotterdam",
+      "team_id": 351
+    },
+    {
+      "row": 911,
+      "name": "Al Nassr FC",
+      "team_id": 18961
+    }
+  ]
+}

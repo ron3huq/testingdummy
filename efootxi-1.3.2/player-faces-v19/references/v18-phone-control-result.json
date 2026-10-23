@@ -1,0 +1,14 @@
+{
+  "version": "player-faces-v17-compare-working-2006",
+  "user_confirmed": true,
+  "observed_on_originally_failing_card_ids": [
+    "88044950524330",
+    "106734785925546",
+    "105765448873424",
+    "105643042189511"
+  ],
+  "observation": "User explicitly confirmed these failing cards displayed ND06 2006 heads without black faces. This was not merely checking the original 2006 card.",
+  "supports": "Card IDs can render a known working head stack; focus on private asset/material stack.",
+  "does_not_prove": "A specific original four-face root cause or v18 GPU rendering success.",
+  "v18_device_verified": false
+}
