@@ -1,0 +1,28 @@
+Pak /workspace/ronaldo-work/v15-reader/pakchunk0-Android_ETC2.pak: 3901 files (43 encrypted), version 11
+Pak /workspace/ronaldo-work/v15-reader/pc0010_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v15-reader/pc0102_mobile_and.pak: 1 files, mount point: "/PesMobile/Content/Movies/PlayerCard/", version 11
+Pak /workspace/ronaldo-work/v15-reader/pc1000_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v15-reader/pc1001_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v15-reader/pc3611_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v15-reader/pc3611_mobile_and_optional.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v15-reader/pc3700_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v15-reader/pc9257_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v15-reader/pc9298_mobile_and.pak: 0 files, version 11
+Found 147306 game files (22 skipped) in 2424 folders at path "/workspace/ronaldo-work/v15-reader"
+Scanned game directory in 0.4 sec, 154038 allocs, 17.36 MBytes serialized in 4488 calls.
+Loaded in 0.0 sec, 105 allocs, 0.05 MBytes serialized in 13 calls.
+Loading MaterialInstanceConstant MI_NF01ep00v0313_Head_FaceLegacy_HQ from package /Game/Assets/character/RealFace/MI_NF01ep00v0313_Head_FaceLegacy_HQ.uasset
+ArrayProperty: unknown UMaterialInstanceConstant CachedReferencedTextures
+Loading Material3 M_Head_Face_MQ from package /Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ.uasset
+StructProperty: unknown UMaterial3 Specular
+Loading Texture2D T_NF01ep00v0313_Face_D from package /Game/Assets/character/RealFace/T_NF01ep00v0313_Face_D.uasset
+Loading Texture2D T_Base_Face_D from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_D.uasset
+Loading Texture2D T_Base_Face_N from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_N.uasset
+Loading Texture2D T_Base_Face_S from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_S.uasset
+Exporting objects ...
+Exporting Texture2D T_NF01ep00v0313_Face_D to /workspace/ronaldo-work/v15-verified/Game/Assets/character/RealFace/T_NF01ep00v0313_Face_D.png
+Exporting Texture2D T_Base_Face_D to /workspace/ronaldo-work/v15-verified/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_D.png
+Exporting Texture2D T_Base_Face_N to /workspace/ronaldo-work/v15-verified/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_N.png
+Exporting Texture2D T_Base_Face_S to /workspace/ronaldo-work/v15-verified/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_S.png
+Memory: allocated 29312870 bytes in 7631 blocks
+Exported 4/4 objects in 0.5 sec

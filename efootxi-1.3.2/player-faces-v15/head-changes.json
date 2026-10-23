@@ -1,0 +1,120 @@
+{
+  "mq_shader_substitutions": [
+    {
+      "path": "character/RealFace/MI_NFJRep00v0313_Head_FaceLegacy_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "dbcadf7881f5f966f6d8ec06ad19d6eb19f615e803af2393c17cd2d965d80c47"
+    },
+    {
+      "path": "character/RealFace/MI_NF27lg00v0000_Head_FaceUpcon_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "998ae0672136022c7b1e21b52ce9d4005dbb6499bc7b33fe68e45d029b0ae507"
+    },
+    {
+      "path": "character/RealFace/MI_NF27ep01v0291_Head_FaceLegacy_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "b1596ad42b0a1cfa7dab899f8fa85602da58c974a9f22bcce2c34beb780f1b7c"
+    },
+    {
+      "path": "character/RealFace/MI_NF27ep00v0313_Head_FaceLegacy_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "00c27cfc15ffedc5e7d8c5aff940fc0965a86d2dc22b7b9aa74b309a72df08a4"
+    },
+    {
+      "path": "character/RealFace/MI_NF27_Head_FaceLegacy_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "1f58ee9952e4692687e6240b49cc6d82d908bb467d2e2f1add589078365cc347"
+    },
+    {
+      "path": "character/RealFace/MI_NF01lg00v0000_Head_FaceUpcon_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "485e9770649d1914f2011b6c324402a92c275acc14d824ff0672bdb29a39b41b"
+    },
+    {
+      "path": "character/RealFace/MI_NF01ep01v0291_Head_FaceLegacy_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "cca741b7818d938f854f163e71e6769ded8a7a278cb696b5605ebfdf1816a4bb"
+    },
+    {
+      "path": "character/RealFace/MI_NF01ep00v0313_Head_FaceLegacy_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "d616590a652287e3e8adf1ea63f0fbef67116965ec43fa2d68868dc6e6b35d5a"
+    },
+    {
+      "path": "character/RealFace/MI_NF01_Head_FaceLegacy_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "79e9af451b0a598d0bf33e4de62806e2ec0ba48e742a640eb9218204bc1b26d5"
+    },
+    {
+      "path": "character/RealFace/MI_NDHDep00v0313_Head_FaceLegacy_HQ.uasset",
+      "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+      "diffuse_parameter": "BaseColorMap",
+      "original_HQ_package_id_preserved": true,
+      "mesh_unchanged": true,
+      "sha256": "ad36641a58f59af82876ebd7c2a451143aa06abf2f1f9a8d637f09caca05ff0a"
+    }
+  ],
+  "dinh_bac": {
+    "normal_seams": [
+      {
+        "lod": 0,
+        "smoothed_skin_seam_groups": 0,
+        "groups": [],
+        "atlas_edge_uv_vertices_clamped": 40,
+        "UV_edge_guard_atlas_pixels": 2
+      },
+      {
+        "lod": 1,
+        "smoothed_skin_seam_groups": 0,
+        "groups": [],
+        "atlas_edge_uv_vertices_clamped": 40,
+        "UV_edge_guard_atlas_pixels": 2
+      }
+    ],
+    "hair_mask_clip": [
+      {
+        "path": "character/RealFace/MI_ND00DB_Head_Hair_HQ.uasset",
+        "before": 0.33329999446868896,
+        "after": 0.2,
+        "hair_texture_RGBA_preserved": true,
+        "explicit_override_flag": true
+      },
+      {
+        "path": "character/RealFace/MI_ND00DB_Head_Hair_MQ.uasset",
+        "before": 0.33329999446868896,
+        "after": 0.2,
+        "hair_texture_RGBA_preserved": true,
+        "explicit_override_flag": true
+      }
+    ]
+  },
+  "phone_tested": false,
+  "root_cause_proven": false
+}

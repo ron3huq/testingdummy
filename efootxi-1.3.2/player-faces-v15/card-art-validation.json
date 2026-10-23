@@ -1,0 +1,990 @@
+{
+  "status": "V15_NATIVE_MQ_FOUR_HEADS_DINH_BAC_SEAMS_AND_11_CARD_PAIRS_PASS",
+  "cards": [
+    {
+      "card_id": "105848932271764",
+      "file": "105848932271764-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 5213182266070691153,
+      "sha256": "dd41cf403a942ea06d0993514a83d003183275dfe75b0bc92b49bab9787fdd24",
+      "source_image_sha256": "8a978cedc8e22b32d56f89a553cfb1b34a983783bd43f7eb1b123503bfe2aaf8"
+    },
+    {
+      "card_id": "105848932271764",
+      "file": "105848932271764-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 1746385964242018539,
+      "sha256": "d8d27f36c88644d967d53257e49f913315bfc656f920d88ee7bd26252c623469",
+      "source_image_sha256": "cc18fcd3621ca4f18a8ba1ee5519af7b9dd40275be837492c09fb8d136fec4a7"
+    },
+    {
+      "card_id": "88033139360669",
+      "file": "88033139360669-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 5201999164931024307,
+      "sha256": "f9f44c422ee159db48e8c7491b9c63a880f9ea455a26850edb684ef7b57adb59",
+      "source_image_sha256": "f09b9350ff205e51fb985ef79973e54f906b2b0e40b77928a66bdbd35f52114e"
+    },
+    {
+      "card_id": "88033139360669",
+      "file": "88033139360669-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 11371961701399147512,
+      "sha256": "36fec39fb458db7a85d44cbd779afc03db01f24502ca943f3e49eb396626b072",
+      "source_image_sha256": "22d415f4a3d020418efeb7a64f7e485c0e47402881b3a4d8cb4387cf7470defc"
+    },
+    {
+      "card_id": "88038776539586",
+      "file": "88038776539586-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 746566273451400897,
+      "sha256": "3f661f337af140f1c60244e745c97fbbc277102cf5612eaa2e2f2ad8e622f4e3",
+      "source_image_sha256": "3dec6115e30c9438223ed6e6badffd887231c521ccca3bc6995ddcb43932b0ec"
+    },
+    {
+      "card_id": "88038776539586",
+      "file": "88038776539586-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 4960417343521438949,
+      "sha256": "822d4435af38b28106113ac256c7805485179caa0633c6b131c35a7f986a0594",
+      "source_image_sha256": "777532974ce8bfaa88634dc83910bd3d6d3e41c9e6181b7b93d2db75fdf95a14"
+    },
+    {
+      "card_id": "105643042189511",
+      "file": "105643042189511-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 3248988943263690563,
+      "sha256": "fa971d317731e1e5a3fa520ad252f034c1e7722a934811b14117836366aa25b7",
+      "source_image_sha256": "2a7c9f2b6b748f2fa8413ad1db7b0a3571bd4f9fddeff16c4006645332339822"
+    },
+    {
+      "card_id": "105643042189511",
+      "file": "105643042189511-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 12054992088484018132,
+      "sha256": "371a60d9c50da46144e20067703570df6f27627ecf76b714441cdbe79472c212",
+      "source_image_sha256": "803e343b8968cb49bd90b2dc32bc0beff5dccf1e603191730a1cafd21a3820b2"
+    },
+    {
+      "card_id": "89135066911146",
+      "file": "89135066911146-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 9305982251262965606,
+      "sha256": "42b67240fdafadefb9f7e0652cc5b855f1ac09cad34c11ccdb09809cffd90b5e",
+      "source_image_sha256": "70248c7622d43d05df74d1b9e4748c9f5d72b20b7efd9f181ffc71f2b8ee4ace"
+    },
+    {
+      "card_id": "89135066911146",
+      "file": "89135066911146-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 16262292107700847055,
+      "sha256": "8300f82180fcd88af1abe0a511b3c14f2480663b5661d6db25269f30499430b6",
+      "source_image_sha256": "b41fb87b7015d5cfb848439345eb1f1735551e9bf45b03c3c173338be59390a3"
+    },
+    {
+      "card_id": "106726716084650",
+      "file": "106726716084650-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 88048067346309324,
+      "sha256": "789e58c71df750ad141f1696d8682f00854f99df3c67b079c1bc14b83ca44787",
+      "source_image_sha256": "ab4d01361b63ee0564bffe80a141f3444df209aaea3962155672b806d30edd3f"
+    },
+    {
+      "card_id": "106726716084650",
+      "file": "106726716084650-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 4934346694504767345,
+      "sha256": "bdb384ae95f045dea934fb29ea00b3572d59544e81d948c27d26a00ff03fe5a4",
+      "source_image_sha256": "40afa237ff773b8713bd778a187a0705c51615b6e5c9d95e77ff29c5e2e1b7c3"
+    },
+    {
+      "card_id": "106781745353130",
+      "file": "106781745353130-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 10430144033815992339,
+      "sha256": "f6e6127b74af1f7ae22b8121f2c257939b0a7d2198d142e3e33fb867433ac37e",
+      "source_image_sha256": "1448354a4c939b166ac7c828163eeef6383718ecce486c3baecb9f36d7b9ea38"
+    },
+    {
+      "card_id": "106781745353130",
+      "file": "106781745353130-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 7391205255942417992,
+      "sha256": "500b1f79a7e1596a50f53631ca766a6639e61eb2843730de187a574a86f5673f",
+      "source_image_sha256": "4ca23c35ec7a3b827837f0340d0933f513ff87a98e648b2c9bf76a76206a63dc"
+    },
+    {
+      "card_id": "88044950524330",
+      "file": "88044950524330-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 15217801362831890422,
+      "sha256": "f81640f6174203f2e9dcccefe9d4748d93e6cb1673a0275c80d5b190d52f3322",
+      "source_image_sha256": "74cdd98822f96fd645e517523e9dc3e6110953b625f93ba7f8c107b7747d9ba7"
+    },
+    {
+      "card_id": "88044950524330",
+      "file": "88044950524330-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 10239186702704238589,
+      "sha256": "64d662cee3955394f997d55a9ec768bd5dcfaf3fd401083183fdb12b0c6633c2",
+      "source_image_sha256": "2b1441874dcaf6805446eac7a031844761da58ea5110c21c321d084c85546b7a"
+    },
+    {
+      "card_id": "105765448873424",
+      "file": "105765448873424-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 11738483193869081676,
+      "sha256": "eb289ad05fb77602164cab81a809a296be1f4a7d058230031ad49236fc3573ee",
+      "source_image_sha256": "ddc396e53834d49be148269c967f807863055cc1045bf7873c10065e7504c7fc"
+    },
+    {
+      "card_id": "105765448873424",
+      "file": "105765448873424-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 7921398863175692433,
+      "sha256": "d3c4df308ff131c65360f40f8c3893db08ec1700ec51df28ca0fc12b6245da75",
+      "source_image_sha256": "e76dc8836ef5c739d8578829faa53a2ac5f386d3cd4b4900cd6f7a914312b271"
+    },
+    {
+      "card_id": "88045755960841",
+      "file": "88045755960841-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 5046357595081060065,
+      "sha256": "63ec996796a663575de2cbf07d6c256b1608c3fd449c2310b03f36212a059511",
+      "source_image_sha256": "76fe2fbc437536f0ca8d3d68d38445c6022ead7c316d52a99c4d00413b7edda9"
+    },
+    {
+      "card_id": "88045755960841",
+      "file": "88045755960841-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1000_mobile_and",
+      "package_id": 13535932536756553220,
+      "sha256": "57500cbaccf9e1d3f1f83a22c8f4dbd677021f2777cfcb9cb7ec3981cad02779",
+      "source_image_sha256": "918e44452a08d2d22b2395327cd60a96d49d1c26fd5216b8cb0252609f364973"
+    },
+    {
+      "card_id": "106728863696709",
+      "file": "106728863696709-small.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_.uasset",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 16743904650954659845,
+      "sha256": "3b07c18fa0710741df4fca5e6fb35cccc9b77a45475ecc40767e86c70f586363",
+      "source_image_sha256": "a87c485c3be3c5d76597385634759a75124bf01abd52d3e585b57e30006a034a"
+    },
+    {
+      "card_id": "106728863696709",
+      "file": "106728863696709-large.png",
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_l.uasset",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "source_container": "pc1001_mobile_and",
+      "package_id": 426116407175947436,
+      "sha256": "bd536b38e09727dd5048d7f9a5dd7ae840ae53e953e35462a8783c897c60b7e3",
+      "source_image_sha256": "b27c0170783ff19ba3a1201189db48f935c1c2c2154a6baf560a95eb531a91e2"
+    }
+  ],
+  "changed_UI_textures": 22,
+  "head_chunks_byte_identical": 264,
+  "head_changes": {
+    "mq_shader_substitutions": [
+      {
+        "path": "character/RealFace/MI_NFJRep00v0313_Head_FaceLegacy_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "dbcadf7881f5f966f6d8ec06ad19d6eb19f615e803af2393c17cd2d965d80c47"
+      },
+      {
+        "path": "character/RealFace/MI_NF27lg00v0000_Head_FaceUpcon_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "998ae0672136022c7b1e21b52ce9d4005dbb6499bc7b33fe68e45d029b0ae507"
+      },
+      {
+        "path": "character/RealFace/MI_NF27ep01v0291_Head_FaceLegacy_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "b1596ad42b0a1cfa7dab899f8fa85602da58c974a9f22bcce2c34beb780f1b7c"
+      },
+      {
+        "path": "character/RealFace/MI_NF27ep00v0313_Head_FaceLegacy_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "00c27cfc15ffedc5e7d8c5aff940fc0965a86d2dc22b7b9aa74b309a72df08a4"
+      },
+      {
+        "path": "character/RealFace/MI_NF27_Head_FaceLegacy_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "1f58ee9952e4692687e6240b49cc6d82d908bb467d2e2f1add589078365cc347"
+      },
+      {
+        "path": "character/RealFace/MI_NF01lg00v0000_Head_FaceUpcon_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "485e9770649d1914f2011b6c324402a92c275acc14d824ff0672bdb29a39b41b"
+      },
+      {
+        "path": "character/RealFace/MI_NF01ep01v0291_Head_FaceLegacy_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "cca741b7818d938f854f163e71e6769ded8a7a278cb696b5605ebfdf1816a4bb"
+      },
+      {
+        "path": "character/RealFace/MI_NF01ep00v0313_Head_FaceLegacy_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "d616590a652287e3e8adf1ea63f0fbef67116965ec43fa2d68868dc6e6b35d5a"
+      },
+      {
+        "path": "character/RealFace/MI_NF01_Head_FaceLegacy_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "79e9af451b0a598d0bf33e4de62806e2ec0ba48e742a640eb9218204bc1b26d5"
+      },
+      {
+        "path": "character/RealFace/MI_NDHDep00v0313_Head_FaceLegacy_HQ.uasset",
+        "parent": "/Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ",
+        "diffuse_parameter": "BaseColorMap",
+        "original_HQ_package_id_preserved": true,
+        "mesh_unchanged": true,
+        "sha256": "ad36641a58f59af82876ebd7c2a451143aa06abf2f1f9a8d637f09caca05ff0a"
+      }
+    ],
+    "dinh_bac": {
+      "normal_seams": [
+        {
+          "lod": 0,
+          "smoothed_skin_seam_groups": 0,
+          "groups": [],
+          "atlas_edge_uv_vertices_clamped": 40,
+          "UV_edge_guard_atlas_pixels": 2
+        },
+        {
+          "lod": 1,
+          "smoothed_skin_seam_groups": 0,
+          "groups": [],
+          "atlas_edge_uv_vertices_clamped": 40,
+          "UV_edge_guard_atlas_pixels": 2
+        }
+      ],
+      "hair_mask_clip": [
+        {
+          "path": "character/RealFace/MI_ND00DB_Head_Hair_HQ.uasset",
+          "before": 0.33329999446868896,
+          "after": 0.2,
+          "hair_texture_RGBA_preserved": true,
+          "explicit_override_flag": true
+        },
+        {
+          "path": "character/RealFace/MI_ND00DB_Head_Hair_MQ.uasset",
+          "before": 0.33329999446868896,
+          "after": 0.2,
+          "hair_texture_RGBA_preserved": true,
+          "explicit_override_flag": true
+        }
+      ]
+    },
+    "phone_tested": false,
+    "root_cause_proven": false
+  },
+  "ignored_input": "ronaldo 2008 plus.png",
+  "phone_tested": false,
+  "container_sha256": "989adf243c3c14c6a616a60e7656274ea5e49964a3ce6f882b85c6a17a634eb3",
+  "independent_ueviewer_export": [
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 4.070159912109375,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105848932271764_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 3.557611880095109,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 4.88848876953125,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88033139360669_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 4.590724779211956,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 4.2779541015625,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88038776539586_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 3.441963527513587,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 4.2285919189453125,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105643042189511_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 3.2117919921875,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 4.335784912109375,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 3.2090639860733696,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 4.40240478515625,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 3.870064113451087,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 4.008270263671875,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 2.832471764605978,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 4.589447021484375,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 3.3902216372282608,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 4.3760528564453125,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/105765448873424_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 3.718192722486413,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 5.2255706787109375,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 4.920855978260869,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_.uasset",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mean_ETC2_error": 3.7470703125,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/106728863696709_l.uasset",
+      "dimensions": [
+        184,
+        256
+      ],
+      "mean_ETC2_error": 3.1718643851902173,
+      "aspect_preserving_source": true,
+      "independent_UEViewer_export": true
+    }
+  ]
+}

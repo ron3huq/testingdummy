@@ -1,0 +1,47 @@
+{
+  "status": "RONALDO_2008_INDEPENDENT_TEXTURE_DECODERS_AND_SOURCE_HAIR_ALPHA_PASS",
+  "textures": [
+    {
+      "name": "T_ND08ep00v0313_Face_D",
+      "size": [
+        2048,
+        2048
+      ],
+      "two_decoder_mae": 0.2819209098815918,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND08ep00v0313_Face_N",
+      "size": [
+        2048,
+        2048
+      ],
+      "two_decoder_mae": 0.20048046112060547,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND08ep00v0313_Face_SRO",
+      "size": [
+        2048,
+        2048
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND0008_Hair_D",
+      "size": [
+        2048,
+        512
+      ],
+      "two_decoder_mae": 0.12476348876953125,
+      "p95": 1.0
+    }
+  ],
+  "hair_alpha_mae": 1.7285938262939453,
+  "source_resolution_preserved": true,
+  "collapsed_scalp_pole_zero_normals_repaired": 11,
+  "phone_tested": false,
+  "container_sha256": "989adf243c3c14c6a616a60e7656274ea5e49964a3ce6f882b85c6a17a634eb3",
+  "measurement_reused_from": "v14: mesh positions/tangents/weights/indices and all texture data unchanged; DB40skinUVedge vertices per LOD and 12MICs changed, independently inspected"
+}
