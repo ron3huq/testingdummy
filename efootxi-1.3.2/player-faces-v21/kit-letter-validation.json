@@ -1,0 +1,601 @@
+{
+  "glyphs": [
+    {
+      "team": 351,
+      "slot": 1,
+      "kind": "Name",
+      "RGB": [
+        2,
+        121,
+        165
+      ],
+      "native_dimensions": [
+        [
+          256,
+          64
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 351,
+      "slot": 1,
+      "kind": "Back",
+      "RGB": [
+        2,
+        121,
+        165
+      ],
+      "native_dimensions": [
+        [
+          1024,
+          128
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 351,
+      "slot": 1,
+      "kind": "Chest",
+      "RGB": [
+        2,
+        121,
+        165
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 351,
+      "slot": 1,
+      "kind": "Leg",
+      "RGB": [
+        2,
+        121,
+        165
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 351,
+      "slot": 2,
+      "kind": "Name",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          256,
+          64
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 351,
+      "slot": 2,
+      "kind": "Back",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          1024,
+          128
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 351,
+      "slot": 2,
+      "kind": "Chest",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 351,
+      "slot": 2,
+      "kind": "Leg",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 352,
+      "slot": 1,
+      "kind": "Name",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          256,
+          64
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 352,
+      "slot": 1,
+      "kind": "Back",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          1024,
+          128
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 352,
+      "slot": 1,
+      "kind": "Chest",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 352,
+      "slot": 1,
+      "kind": "Leg",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 352,
+      "slot": 2,
+      "kind": "Name",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          256,
+          64
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 352,
+      "slot": 2,
+      "kind": "Back",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          1024,
+          128
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 352,
+      "slot": 2,
+      "kind": "Chest",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 352,
+      "slot": 2,
+      "kind": "Leg",
+      "RGB": [
+        245,
+        245,
+        245
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 242,
+      "slot": 1,
+      "kind": "Name",
+      "RGB": [
+        154,
+        116,
+        68
+      ],
+      "native_dimensions": [
+        [
+          256,
+          64
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 242,
+      "slot": 1,
+      "kind": "Back",
+      "RGB": [
+        154,
+        116,
+        68
+      ],
+      "native_dimensions": [
+        [
+          1024,
+          128
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 242,
+      "slot": 1,
+      "kind": "Chest",
+      "RGB": [
+        154,
+        116,
+        68
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 242,
+      "slot": 1,
+      "kind": "Leg",
+      "RGB": [
+        154,
+        116,
+        68
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 242,
+      "slot": 2,
+      "kind": "Name",
+      "RGB": [
+        184,
+        167,
+        112
+      ],
+      "native_dimensions": [
+        [
+          256,
+          64
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 242,
+      "slot": 2,
+      "kind": "Back",
+      "RGB": [
+        184,
+        167,
+        112
+      ],
+      "native_dimensions": [
+        [
+          1024,
+          128
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 242,
+      "slot": 2,
+      "kind": "Chest",
+      "RGB": [
+        184,
+        167,
+        112
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 242,
+      "slot": 2,
+      "kind": "Leg",
+      "RGB": [
+        184,
+        167,
+        112
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 245,
+      "slot": 1,
+      "kind": "Name",
+      "RGB": [
+        244,
+        218,
+        59
+      ],
+      "native_dimensions": [
+        [
+          256,
+          64
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 245,
+      "slot": 1,
+      "kind": "Back",
+      "RGB": [
+        244,
+        218,
+        59
+      ],
+      "native_dimensions": [
+        [
+          1024,
+          128
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 245,
+      "slot": 1,
+      "kind": "Chest",
+      "RGB": [
+        244,
+        218,
+        59
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 245,
+      "slot": 1,
+      "kind": "Leg",
+      "RGB": [
+        244,
+        218,
+        59
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 245,
+      "slot": 2,
+      "kind": "Name",
+      "RGB": [
+        15,
+        35,
+        62
+      ],
+      "native_dimensions": [
+        [
+          256,
+          64
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 245,
+      "slot": 2,
+      "kind": "Back",
+      "RGB": [
+        15,
+        35,
+        62
+      ],
+      "native_dimensions": [
+        [
+          1024,
+          128
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 245,
+      "slot": 2,
+      "kind": "Chest",
+      "RGB": [
+        15,
+        35,
+        62
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    },
+    {
+      "team": 245,
+      "slot": 2,
+      "kind": "Leg",
+      "RGB": [
+        15,
+        35,
+        62
+      ],
+      "native_dimensions": [
+        [
+          256,
+          32
+        ]
+      ],
+      "original_font_and_exact_encoded_alpha_retained": true
+    }
+  ],
+  "native_font_size_layout_and_alpha_preserved": true,
+  "original_name_resource_config_not_rewritten": true,
+  "historical_color_palette": {
+    "351": [
+      [
+        2,
+        121,
+        165
+      ],
+      [
+        245,
+        245,
+        245
+      ]
+    ],
+    "352": [
+      [
+        245,
+        245,
+        245
+      ],
+      [
+        245,
+        245,
+        245
+      ]
+    ],
+    "242": [
+      [
+        154,
+        116,
+        68
+      ],
+      [
+        184,
+        167,
+        112
+      ]
+    ],
+    "245": [
+      [
+        244,
+        218,
+        59
+      ],
+      [
+        15,
+        35,
+        62
+      ]
+    ]
+  },
+  "missing_names_device_verified_fixed": false
+}

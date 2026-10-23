@@ -1,0 +1,33 @@
+{
+  "palettes": [
+    {
+      "kit": "Real 2017 home",
+      "supplied_atlas_sha256": "79adc828a6cd84b4b5482d8ea31e18866d748d6042310edfd50c9e745358b20f",
+      "selected_RGB": [
+        2,
+        121,
+        165
+      ]
+    },
+    {
+      "kit": "Real 2011 home",
+      "supplied_atlas_sha256": "b8284e418b655366cb348bf88ab802b3685ec9481d5f0e14fdfa726ff46e4f76",
+      "selected_RGB": [
+        154,
+        116,
+        68
+      ]
+    },
+    {
+      "kit": "Real 2011 away",
+      "supplied_atlas_sha256": "33bca9c9857cb94bde5c853c621c2667f0c4fb7491b22a3a29e515bc98e6d3fe",
+      "selected_RGB": [
+        184,
+        167,
+        112
+      ]
+    }
+  ],
+  "selection": "native font colors chosen to match historical kit palette; dominant source logo/trim colors sampled from supplied atlases",
+  "direct_photographic_back_number_color_measurement": false
+}

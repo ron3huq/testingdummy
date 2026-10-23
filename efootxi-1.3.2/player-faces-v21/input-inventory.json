@@ -1,0 +1,96 @@
+{
+  "archive": "Diomande.rar",
+  "sha256": "8b98471f5e6d860f17b2c011e5b0a07635e038de395376046bf9e267e0d55f3c",
+  "files_opened": [
+    {
+      "path": "sourceimages/#windx11/eye_occlusion_alp.ftex",
+      "bytes": 6808,
+      "sha256": "acda6e6a1a58f899d8813c9290d57f199c5532962c2612302fb3e90481a94b98"
+    },
+    {
+      "path": "sourceimages/#windx11/eye_sclera_bsm.ftex",
+      "bytes": 63320,
+      "sha256": "1b04f7bcf0ae86741253e3c16263e8bf2b98537673220f9158057ebe691a3ea0"
+    },
+    {
+      "path": "sourceimages/#windx11/face_bsm_alp.ftex",
+      "bytes": 362224,
+      "sha256": "dcc6d05b43f0eadeda80d26127b370544d8fb24491e56a7dd02c4ae2bd469080"
+    },
+    {
+      "path": "sourceimages/#windx11/face_nrm.ftex",
+      "bytes": 570504,
+      "sha256": "ff18553fe9ac39c3d2036333364e18d7b87759d6515a706226843c6f80e97e89"
+    },
+    {
+      "path": "sourceimages/#windx11/face_srm.ftex",
+      "bytes": 528744,
+      "sha256": "e15aa9608b6d89676783212b113e2f54a828db3810f9b19d02510f3bb49d5f3d"
+    },
+    {
+      "path": "sourceimages/#windx11/face_trm.ftex",
+      "bytes": 363192,
+      "sha256": "b1f2668a96e40b6ff523986a0420132ac7e18d7686b1ec62e939a5a6ea15f2b9"
+    },
+    {
+      "path": "sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+      "bytes": 724584,
+      "sha256": "f831fef702d95b7ee166ca1b34c99b8c5c4eafce8d83971085ced1b01be31f70"
+    },
+    {
+      "path": "sourceimages/#windx11/hair_parts_bsm_alp1.ftex",
+      "bytes": 735720,
+      "sha256": "56cb6c8e3449b964b60006e11387f4bb28a001045b20620a7ea6ccc0801ae96d"
+    },
+    {
+      "path": "sourceimages/#windx11/hair_parts_bsm_alp2.ftex",
+      "bytes": 1029240,
+      "sha256": "851123a1ccc44a10d18fac2df1dbd1263363d2761d1cb6f35e1e42b723bde07f"
+    },
+    {
+      "path": "sourceimages/#windx11/hair_parts_nrm.ftex",
+      "bytes": 569304,
+      "sha256": "476af5ad29b86c19c4dc4bff8ff37ba336aa409d4d155027706d242ba9defef8"
+    },
+    {
+      "path": "sourceimages/#windx11/hair_parts_nrm1.ftex",
+      "bytes": 569304,
+      "sha256": "476af5ad29b86c19c4dc4bff8ff37ba336aa409d4d155027706d242ba9defef8"
+    },
+    {
+      "path": "sourceimages/#windx11/hair_parts_srm.ftex",
+      "bytes": 475400,
+      "sha256": "328482d03b596e4ac80a5bcd6f3ef8c61fbf6912b7e67d2d0f2bb8e0121cdf15"
+    },
+    {
+      "path": "sourceimages/#windx11/hair_parts_srm1.ftex",
+      "bytes": 475400,
+      "sha256": "328482d03b596e4ac80a5bcd6f3ef8c61fbf6912b7e67d2d0f2bb8e0121cdf15"
+    },
+    {
+      "path": "sourceimages/#windx11/hair_parts_trm.ftex",
+      "bytes": 538264,
+      "sha256": "cf133bce0fd62f2493d43fe23e0cfd9eae995615cde3406cefe8c30669d79ac3"
+    },
+    {
+      "path": "sourceimages/#windx11/hair_parts_trm1.ftex",
+      "bytes": 538264,
+      "sha256": "cf133bce0fd62f2493d43fe23e0cfd9eae995615cde3406cefe8c30669d79ac3"
+    },
+    {
+      "path": "#Win/face.fpk",
+      "bytes": 434448,
+      "sha256": "f003ed462f1f958e32f70139c8e8be75858b9ea9bfb96a17ac587be5db03dc73"
+    },
+    {
+      "path": "#Win/face.fpkd",
+      "bytes": 48,
+      "sha256": "3df4d69b4f0cc2c7f0524370651d0d685b5191a6b19c87ac2259d21350b66c26"
+    }
+  ],
+  "instructions_from_archives_executed": false,
+  "base_player_ids": [
+    176104,
+    84062184
+  ]
+}

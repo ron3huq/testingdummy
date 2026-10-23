@@ -1,0 +1,229 @@
+{
+  "repairs": [
+    {
+      "profile": "NWOZep00v0313",
+      "lod": 0,
+      "exterior_folded_triangles_before": 0,
+      "exterior_folded_triangles_after": 0,
+      "fold_repair_vertices": 0,
+      "coincident_chin_neck_weight_groups_unified": [
+        [
+          404,
+          426
+        ],
+        [
+          450,
+          517
+        ],
+        [
+          451,
+          529
+        ],
+        [
+          452,
+          540
+        ],
+        [
+          453,
+          551
+        ],
+        [
+          454,
+          559
+        ],
+        [
+          455,
+          582
+        ],
+        [
+          468,
+          583
+        ],
+        [
+          469,
+          557
+        ],
+        [
+          476,
+          601
+        ],
+        [
+          477,
+          600
+        ],
+        [
+          478,
+          603
+        ],
+        [
+          479,
+          902
+        ],
+        [
+          493,
+          507
+        ],
+        [
+          494,
+          502
+        ],
+        [
+          495,
+          501
+        ],
+        [
+          800,
+          808
+        ],
+        [
+          835,
+          836
+        ],
+        [
+          840,
+          874
+        ],
+        [
+          841,
+          871
+        ],
+        [
+          842,
+          859
+        ],
+        [
+          843,
+          844
+        ],
+        [
+          861,
+          862
+        ],
+        [
+          888,
+          1710
+        ],
+        [
+          894,
+          1708
+        ],
+        [
+          897,
+          1705
+        ]
+      ],
+      "jaw_normals_rebuilt": 985,
+      "max_bind_displacement_cm": 0.011736482381820679,
+      "rig_and_bone_palettes_unchanged": true
+    },
+    {
+      "profile": "NWOZep00v0313",
+      "lod": 1,
+      "exterior_folded_triangles_before": 0,
+      "exterior_folded_triangles_after": 0,
+      "fold_repair_vertices": 0,
+      "coincident_chin_neck_weight_groups_unified": [],
+      "jaw_normals_rebuilt": 985,
+      "max_bind_displacement_cm": 0.011736482381820679,
+      "rig_and_bone_palettes_unchanged": true
+    },
+    {
+      "profile": "NDDBep00v0313",
+      "lod": 0,
+      "exterior_folded_triangles_before": 0,
+      "exterior_folded_triangles_after": 0,
+      "fold_repair_vertices": 0,
+      "coincident_chin_neck_weight_groups_unified": [
+        [
+          443,
+          610
+        ],
+        [
+          564,
+          1077
+        ],
+        [
+          570,
+          1048
+        ],
+        [
+          585,
+          878
+        ],
+        [
+          640,
+          1058
+        ],
+        [
+          654,
+          830,
+          1229
+        ],
+        [
+          676,
+          737
+        ],
+        [
+          905,
+          921
+        ],
+        [
+          916,
+          1223
+        ],
+        [
+          939,
+          1219
+        ],
+        [
+          956,
+          1203
+        ],
+        [
+          983,
+          1197
+        ],
+        [
+          1018,
+          1040
+        ],
+        [
+          1052,
+          1108
+        ],
+        [
+          1078,
+          1238
+        ],
+        [
+          1092,
+          1136
+        ],
+        [
+          1110,
+          1149
+        ],
+        [
+          1154,
+          1174
+        ]
+      ],
+      "jaw_normals_rebuilt": 1049,
+      "max_bind_displacement_cm": 0.012622390873730183,
+      "rig_and_bone_palettes_unchanged": true
+    },
+    {
+      "profile": "NDDBep00v0313",
+      "lod": 1,
+      "exterior_folded_triangles_before": 0,
+      "exterior_folded_triangles_after": 0,
+      "fold_repair_vertices": 0,
+      "coincident_chin_neck_weight_groups_unified": [],
+      "jaw_normals_rebuilt": 1049,
+      "max_bind_displacement_cm": 0.012622390873730183,
+      "rig_and_bone_palettes_unchanged": true
+    }
+  ],
+  "synthetic_geometry_checks_only": true,
+  "phone_verified": false
+}

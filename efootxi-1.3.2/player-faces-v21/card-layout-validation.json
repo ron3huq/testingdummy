@@ -1,0 +1,328 @@
+{
+  "portraits": [
+    {
+      "card": "88038776539586",
+      "kind": "minis",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true,
+      "transparent_pixel_fraction": 0.4630126953125,
+      "head_top": 8,
+      "head_center_x": 64.01663485137715,
+      "head_width": 64
+    },
+    {
+      "card": "106778792700170",
+      "kind": "minis",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true,
+      "transparent_pixel_fraction": 0.49127197265625,
+      "head_top": 10,
+      "head_center_x": 62.51213735938425,
+      "head_width": 59
+    },
+    {
+      "card": "106781745353130",
+      "kind": "minis",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true,
+      "transparent_pixel_fraction": 0.51458740234375,
+      "head_top": 8,
+      "head_center_x": 65.79898899791853,
+      "head_width": 60
+    },
+    {
+      "card": "106726716084650",
+      "kind": "minis",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true,
+      "transparent_pixel_fraction": 0.434326171875,
+      "head_top": 3,
+      "head_center_x": 65.01103752759381,
+      "head_width": 60
+    },
+    {
+      "card": "89135066911146",
+      "kind": "minis",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true,
+      "transparent_pixel_fraction": 0.43438720703125,
+      "head_top": 4,
+      "head_center_x": 64.04560716284276,
+      "head_width": 58
+    },
+    {
+      "card": "88044950524330",
+      "kind": "minis",
+      "dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true,
+      "transparent_pixel_fraction": 0.44793701171875,
+      "head_top": 4,
+      "head_center_x": 64.71976080456646,
+      "head_width": 61
+    },
+    {
+      "card": "88044950524330",
+      "kind": "large",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true
+    },
+    {
+      "card": "89135066911146",
+      "kind": "large",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true
+    },
+    {
+      "card": "106726716084650",
+      "kind": "large",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true
+    },
+    {
+      "card": "106781745353130",
+      "kind": "large",
+      "dimensions": [
+        [
+          184,
+          256
+        ]
+      ],
+      "aspect_preserved": true,
+      "native_UI_frame_rating_and_names_not_baked": true,
+      "independent_mini_and_large_assets": true
+    }
+  ],
+  "large_art_style": "custom photographic collector-card compositions using user references; no claim of official Big Time background",
+  "phone_verified": false
+}

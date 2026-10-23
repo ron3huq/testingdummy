@@ -1,0 +1,302 @@
+{
+  "v20_before": {
+    "passed": false,
+    "enabled": 0,
+    "fault": "Invalid memory read (UC_ERR_READ_UNMAPPED)",
+    "phase": "pointer",
+    "seen": [
+      {
+        "pc": "0x38832a0",
+        "argument": 8,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883294",
+        "argument": 9,
+        "actual": 805323009,
+        "expected": 805323009
+      },
+      {
+        "pc": "0x3883530",
+        "argument": 10,
+        "actual": 0,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883528",
+        "argument": 11,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x3883524",
+        "argument": 12,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883520",
+        "argument": 13,
+        "actual": 1,
+        "expected": 0
+      },
+      {
+        "pc": "0x388351c",
+        "argument": 14,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883518",
+        "argument": 15,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x38835e4",
+        "argument": 16,
+        "actual": 1,
+        "expected": 805324808
+      },
+      {
+        "pc": "0x3883610",
+        "argument": 17,
+        "actual": 0,
+        "expected": 805325065
+      },
+      {
+        "pc": "0x388365c",
+        "argument": 18,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x388366c",
+        "argument": 19,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x3883740",
+        "argument": 20,
+        "actual": 805324808,
+        "expected": 93
+      },
+      {
+        "pc": "0x3883664",
+        "argument": 21,
+        "actual": 9,
+        "expected": 0
+      },
+      {
+        "pc": "0x38836d8",
+        "argument": 22,
+        "actual": 1,
+        "expected": 805326350
+      }
+    ],
+    "dereference": null
+  },
+  "v20a_disabled": {
+    "passed": true,
+    "enabled": 0,
+    "fault": null,
+    "phase": "epilogue",
+    "seen": [
+      {
+        "pc": "0x38832a0",
+        "argument": 8,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883294",
+        "argument": 9,
+        "actual": 805323009,
+        "expected": 805323009
+      },
+      {
+        "pc": "0x3883530",
+        "argument": 10,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883528",
+        "argument": 11,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x3883524",
+        "argument": 12,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883520",
+        "argument": 13,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x388351c",
+        "argument": 14,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883518",
+        "argument": 15,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x38835e4",
+        "argument": 16,
+        "actual": 805324808,
+        "expected": 805324808
+      },
+      {
+        "pc": "0x3883610",
+        "argument": 17,
+        "actual": 805325065,
+        "expected": 805325065
+      },
+      {
+        "pc": "0x388365c",
+        "argument": 18,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x388366c",
+        "argument": 19,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x3883740",
+        "argument": 20,
+        "actual": 93,
+        "expected": 93
+      },
+      {
+        "pc": "0x3883664",
+        "argument": 21,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x38836d8",
+        "argument": 22,
+        "actual": 805326350,
+        "expected": 805326350
+      }
+    ],
+    "dereference": 19
+  },
+  "v20a_enabled": {
+    "passed": true,
+    "enabled": 1,
+    "fault": null,
+    "phase": "epilogue",
+    "seen": [
+      {
+        "pc": "0x38832a0",
+        "argument": 8,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883294",
+        "argument": 9,
+        "actual": 805323009,
+        "expected": 805323009
+      },
+      {
+        "pc": "0x3883530",
+        "argument": 10,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883528",
+        "argument": 11,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x3883524",
+        "argument": 12,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883520",
+        "argument": 13,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x388351c",
+        "argument": 14,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x3883518",
+        "argument": 15,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x38835e4",
+        "argument": 16,
+        "actual": 805324808,
+        "expected": 805324808
+      },
+      {
+        "pc": "0x3883610",
+        "argument": 17,
+        "actual": 805325065,
+        "expected": 805325065
+      },
+      {
+        "pc": "0x388365c",
+        "argument": 18,
+        "actual": 1,
+        "expected": 1
+      },
+      {
+        "pc": "0x388366c",
+        "argument": 19,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x3883740",
+        "argument": 20,
+        "actual": 93,
+        "expected": 93
+      },
+      {
+        "pc": "0x3883664",
+        "argument": 21,
+        "actual": 0,
+        "expected": 0
+      },
+      {
+        "pc": "0x38836d8",
+        "argument": 22,
+        "actual": 805326350,
+        "expected": 805326350
+      }
+    ],
+    "dereference": 19
+  },
+  "status": "OLD_CRASH_REPRODUCED_NEW_23_ARGUMENTS_PASS",
+  "phone_tested": false,
+  "boundary": "Original prologue/15 stack loads/FString pointer load/epilogue execute; unrelated native builder body skipped."
+}

@@ -1,0 +1,111 @@
+{
+  "status": "V21_INDEPENDENT_READER_RIG_GLYPH_JAW_AND_CARD_PASS",
+  "new_head_LODs": [
+    {
+      "mesh": "SK_NWDYep00v0313_Face",
+      "lod": 0,
+      "required_bones": 166,
+      "native_bind_block_exact": true,
+      "vertices": 8082
+    },
+    {
+      "mesh": "SK_NWDYep00v0313_Face",
+      "lod": 1,
+      "required_bones": 153,
+      "native_bind_block_exact": true,
+      "vertices": 8082
+    }
+  ],
+  "approved_prior_head_hair_chunks_byte_identical": 288,
+  "old_container_changed_chunks": [
+    "ui/Data/Thumbnail/Player/Variation2022/89135066911146_l.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/88044950524330_l.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/88038776539586_.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/106781745353130_l.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/106778792700170_.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/106726716084650_l.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+    "character/Uniform/LowTextures/T_u0351p2_FontName_D.uasset",
+    "character/Uniform/LowTextures/T_u0351p2_FontLeg_D.uasset",
+    "character/Uniform/LowTextures/T_u0351p2_FontChest_D.uasset",
+    "character/Uniform/LowTextures/T_u0351p2_FontBack_D.uasset",
+    "character/Uniform/LowTextures/T_u0351p1_FontName_D.uasset",
+    "character/Uniform/LowTextures/T_u0351p1_FontLeg_D.uasset",
+    "character/Uniform/LowTextures/T_u0351p1_FontChest_D.uasset",
+    "character/Uniform/LowTextures/T_u0351p1_FontBack_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p2_FontName_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p2_FontLeg_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p2_FontChest_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p2_FontBack_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p1_FontName_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p1_FontLeg_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p1_FontChest_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p1_FontBack_D.uasset",
+    "character/Uniform/LowTextures/T_u0242p2_FontName_D.uasset",
+    "character/Uniform/LowTextures/T_u0242p2_FontLeg_D.uasset",
+    "character/Uniform/LowTextures/T_u0242p2_FontChest_D.uasset",
+    "character/Uniform/LowTextures/T_u0242p2_FontBack_D.uasset",
+    "character/Uniform/LowTextures/T_u0242p1_FontName_D.uasset",
+    "character/Uniform/LowTextures/T_u0242p1_FontLeg_D.uasset",
+    "character/Uniform/LowTextures/T_u0242p1_FontChest_D.uasset",
+    "character/Uniform/LowTextures/T_u0242p1_FontBack_D.uasset",
+    "character/RealFace/SK_NWOZep00v0313_Face.uasset",
+    "character/RealFace/SK_NDDBep00v0313_Face.uasset"
+  ],
+  "native_EAC_alpha_exact_glyph_assets": 32,
+  "independently_read_card_images": [
+    "88038776539586_",
+    "106778792700170_",
+    "106781745353130_",
+    "106726716084650_",
+    "89135066911146_",
+    "88044950524330_",
+    "88044950524330_l",
+    "89135066911146_l",
+    "106726716084650_l",
+    "106781745353130_l"
+  ],
+  "jaw_pose_checks": [
+    {
+      "mesh": "SK_NWOZep00v0313_Face",
+      "closed_groups": 26,
+      "cases": [
+        {
+          "direction": -1,
+          "before_max_gap_mm": 0.8846692485177318,
+          "after_max_gap_mm": 0.0
+        },
+        {
+          "direction": 1,
+          "before_max_gap_mm": 1.9208476800552823,
+          "after_max_gap_mm": 0.0
+        }
+      ],
+      "pose_is_synthetic": true
+    },
+    {
+      "mesh": "SK_NDDBep00v0313_Face",
+      "closed_groups": 18,
+      "cases": [
+        {
+          "direction": -1,
+          "before_max_gap_mm": 1.2752828260555564,
+          "after_max_gap_mm": 0.0
+        },
+        {
+          "direction": 1,
+          "before_max_gap_mm": 2.5039613865463974,
+          "after_max_gap_mm": 0.0
+        }
+      ],
+      "pose_is_synthetic": true
+    }
+  ],
+  "all_package_store_ids_consistent": true,
+  "phone_tested": false,
+  "black_faces_renderer_fixed_verified": false,
+  "jersey_names_visible_device_verified": false
+}

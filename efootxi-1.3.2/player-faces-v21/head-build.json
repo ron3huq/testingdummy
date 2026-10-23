@@ -1,0 +1,22 @@
+{
+  "status": "BUILT_NOT_DEVICE_VERIFIED",
+  "method": "supplied Diomande geometry/UVs, named Android retarget, native accessories and exact per-LOD RequiredBones",
+  "heads": [
+    {
+      "label": "diomande",
+      "profile": "NWDYep00v0313",
+      "skin_topology_vertices": 2766,
+      "accessory_vertices": 135,
+      "hair_vertices": 5181,
+      "source_UVs_preserved_exactly": true,
+      "native166_skeleton_unchanged": true,
+      "full_native_required_bones_per_LOD": true,
+      "source_skin_geometry_UVs_and_triangles_preserved": true,
+      "named_retarget_to_native_skeleton": true,
+      "source_hair_geometry_used": true,
+      "phone_verified": false
+    }
+  ],
+  "black_face_root_cause_proven": false,
+  "phone_tested": false
+}
