@@ -21,7 +21,7 @@ FUNC 0x58e771c
 0x58e7734 cset w9, eq
 0x58e7738 eor w9, w9, w1
 0x58e773c tbz w9, #0, #0x58e7744
-0x58e7740 ret 
+0x58e7740 ret
 0x58e7744 tst w1, #1
 0x58e7748 mov w10, #0x10000000
 0x58e774c and x8, x8, #0xffffffffefffffff
