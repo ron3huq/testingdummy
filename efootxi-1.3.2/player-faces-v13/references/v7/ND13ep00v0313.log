@@ -1,0 +1,59 @@
+Pak /workspace/ronaldo-work/v7-reader/pakchunk0-Android_ETC2.pak: 3901 files (43 encrypted), version 11
+Pak /workspace/ronaldo-work/v7-reader/pc0010_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v7-reader/pc0102_mobile_and.pak: 1 files, mount point: "/PesMobile/Content/Movies/PlayerCard/", version 11
+Pak /workspace/ronaldo-work/v7-reader/pc3611_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v7-reader/pc3611_mobile_and_optional.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v7-reader/pc3700_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v7-reader/pc9257_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v7-reader/pc9298_mobile_and.pak: 0 files, version 11
+Found 66884 game files (18 skipped) in 1484 folders at path "/workspace/ronaldo-work/v7-reader"
+Scanned game directory in 0.1 sec, 70790 allocs, 8.85 MBytes serialized in 2300 calls.
+Loaded in 0.0 sec, 499 allocs, 0.26 MBytes serialized in 66 calls.
+Loading SkeletalMesh4 SK_ND13ep00v0313_Face from package /Game/Assets/character/RealFace/SK_ND13ep00v0313_Face.uasset
+ArrayProperty: unknown USkeletalMesh4 AssetUserData
+RANGE BOUNDS_BEGIN 12591
+RANGE REF_BEGIN 12823
+RANGE REF_END 23459
+RANGE LOD_BEGIN 23467
+LOD audit: cooked_out=0 inlined=1 server_stripped=0
+RANGE SECTIONS_BEGIN 23813
+RANGE SECTION_BEGIN 23817
+RANGE SECTION_BEGIN 23906
+RANGE SECTIONS_END 23975
+RANGE ACTIVE_BEGIN 23975
+RANGE ACTIVE_END 24009
+RANGE BUFFERS_SIZE 24009
+RANGE STREAM_BEGIN 24013
+RANGE INDICES_BEGIN 24015
+RANGE POSITIONS_BEGIN 64356
+RANGE POSITIONS_END 121756
+RANGE TANGENT_UV_BEGIN 121756
+RANGE TANGENT_UV_END 198302
+RANGE SKIN_WEIGHTS_BEGIN 198302
+RANGE SKIN_WEIGHTS_END 236602
+RANGE STREAM_END 255752
+RANGE LOD_BEGIN 255752
+LOD audit: cooked_out=0 inlined=1 server_stripped=0
+RANGE SECTIONS_BEGIN 256072
+RANGE SECTION_BEGIN 256076
+RANGE SECTION_BEGIN 256151
+RANGE SECTIONS_END 256220
+RANGE ACTIVE_BEGIN 256220
+RANGE ACTIVE_END 256240
+RANGE BUFFERS_SIZE 256240
+RANGE STREAM_BEGIN 256244
+RANGE INDICES_BEGIN 256246
+RANGE POSITIONS_BEGIN 296587
+RANGE POSITIONS_END 353987
+RANGE TANGENT_UV_BEGIN 353987
+RANGE TANGENT_UV_END 430533
+RANGE SKIN_WEIGHTS_BEGIN 430533
+RANGE SKIN_WEIGHTS_END 468833
+RANGE STREAM_END 487983
+Loading Skeleton SKEL_Body from package /Game/Assets/character/Body/Skeleton/SKEL_Body.uasset
+StructProperty: unknown USkeleton VirtualBoneGuid
+Exporting objects ...
+Exporting SkeletalMesh4 SK_ND13ep00v0313_Face to /workspace/ronaldo-work/v7-export/Game/Assets/character/RealFace/SK_ND13ep00v0313_Face.gltf
+ERROR: glTF animation could be exported from mesh viewer only.
+Memory: allocated 14794413 bytes in 6116 blocks
+Exported 1/1 objects in 0.0 sec

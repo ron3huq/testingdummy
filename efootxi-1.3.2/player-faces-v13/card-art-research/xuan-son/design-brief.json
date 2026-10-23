@@ -1,0 +1,39 @@
+{
+  "target_card_id": "88045755960841",
+  "replace_portrait_of": "Adriano",
+  "new_subject": "Nguyen Xuan Son",
+  "visual_direction": "eFootball Adriano card language; preserve native card frame and dynamic stats, replace only subject artwork",
+  "foreground_reference": "user photo: Vietnam number 12, pointing upwards",
+  "background_reference": "user photo: side-view celebration, headband",
+  "head_skin": "preserve approved current texture",
+  "small_texture": {
+    "name": "88045755960841_",
+    "size": [
+      128,
+      128
+    ],
+    "alpha": true
+  },
+  "large_texture": {
+    "name": "88045755960841_l",
+    "size": [
+      184,
+      256
+    ],
+    "alpha": true
+  },
+  "generation_attempt": {
+    "tool": "image_gen.imagegen",
+    "result": "HTTP 400 Unknown parameter: reasoning"
+  },
+  "artwork_created": true,
+  "artwork_installed": false,
+  "avoid": [
+    "duplicate native rating/position/name overlays",
+    "shared-frame edits affecting other cards"
+  ],
+  "installed_in_package": true,
+  "phone_verified": false,
+  "people_in_artwork": 1,
+  "background_second_portrait_removed": true
+}

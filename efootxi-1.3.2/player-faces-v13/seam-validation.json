@@ -1,0 +1,41 @@
+{
+  "status": "V7_NECK_SEAM_POSE_REGRESSION_AND_V10_CLOSED_SEAMS_PASS",
+  "checks": [
+    {
+      "profile": "ND06",
+      "v7_weight_mismatch_groups": 22,
+      "cases": [
+        {
+          "turn_sign": -1,
+          "v7_max_gap_mm": 13.904606399635139,
+          "v10_max_gap_mm": 0.0
+        },
+        {
+          "turn_sign": 1,
+          "v7_max_gap_mm": 12.857537127929989,
+          "v10_max_gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "profile": "ND13",
+      "v7_weight_mismatch_groups": 22,
+      "cases": [
+        {
+          "turn_sign": -1,
+          "v7_max_gap_mm": 13.904606399635139,
+          "v10_max_gap_mm": 0.0
+        },
+        {
+          "turn_sign": 1,
+          "v7_max_gap_mm": 12.857537127929989,
+          "v10_max_gap_mm": 0.0
+        }
+      ]
+    }
+  ],
+  "pose_is_synthetic": true,
+  "phone_tested": false,
+  "container_sha256": "70be3b40cdabe82a2725bbec0f6b24ce9cb5ec93e99001b12505d281b224068b",
+  "measurement_reused_from": "v12/10: all 264 old head chunks byte-identical. New 2008 checked separately."
+}

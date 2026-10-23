@@ -1,0 +1,46 @@
+{
+  "status": "RONALDO_2008_INDEPENDENT_TEXTURE_DECODERS_AND_SOURCE_HAIR_ALPHA_PASS",
+  "textures": [
+    {
+      "name": "T_ND08ep00v0313_Face_D",
+      "size": [
+        2048,
+        2048
+      ],
+      "two_decoder_mae": 0.2819209098815918,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND08ep00v0313_Face_N",
+      "size": [
+        2048,
+        2048
+      ],
+      "two_decoder_mae": 0.20048046112060547,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND08ep00v0313_Face_SRO",
+      "size": [
+        2048,
+        2048
+      ],
+      "two_decoder_mae": 0.17078006267547607,
+      "p95": 2.0
+    },
+    {
+      "name": "T_ND0008_Hair_D",
+      "size": [
+        2048,
+        512
+      ],
+      "two_decoder_mae": 0.12476348876953125,
+      "p95": 1.0
+    }
+  ],
+  "hair_alpha_mae": 1.7285938262939453,
+  "source_resolution_preserved": true,
+  "collapsed_scalp_pole_zero_normals_repaired": 11,
+  "phone_tested": false,
+  "container_sha256": "70be3b40cdabe82a2725bbec0f6b24ce9cb5ec93e99001b12505d281b224068b"
+}

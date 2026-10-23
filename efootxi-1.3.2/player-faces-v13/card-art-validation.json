@@ -1,0 +1,85 @@
+{
+  "status": "EXACT_CARD_TWO_NATIVE_PORTRAITS_AND_ALL_HEAD_CHUNKS_PRESERVED_PASS",
+  "card_id": "88045755960841",
+  "artwork_sha256": "1ef5cd0308dff02ea97f270c4d6f35fb30e413950ffc36c154ee8293ce81a653",
+  "head_chunks_copied_verbatim": 264,
+  "textures": [
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_.uasset",
+      "package_id": 5046357595081060065,
+      "mips": [
+        [
+          128,
+          128,
+          16384
+        ],
+        [
+          64,
+          64,
+          4096
+        ],
+        [
+          32,
+          32,
+          1024
+        ],
+        [
+          16,
+          16,
+          256
+        ],
+        [
+          8,
+          8,
+          64
+        ],
+        [
+          4,
+          4,
+          16
+        ],
+        [
+          4,
+          4,
+          16
+        ],
+        [
+          4,
+          4,
+          16
+        ]
+      ],
+      "bytes": 23343,
+      "sha256": "41981c246d8b0715baa66bd06cc0f148651d41599ef7aea0944070b77d43c759",
+      "native_header_and_size_preserved": true
+    },
+    {
+      "path": "ui/Data/Thumbnail/Player/Variation2022/88045755960841_l.uasset",
+      "package_id": 13535932536756553220,
+      "mips": [
+        [
+          184,
+          256,
+          47104
+        ]
+      ],
+      "bytes": 48235,
+      "sha256": "b37538666940d544666f795f6d2b2353be38efca5ca27bcdc4ff7f096f091c22",
+      "native_header_and_size_preserved": true
+    }
+  ],
+  "container_sha256": "70be3b40cdabe82a2725bbec0f6b24ce9cb5ec93e99001b12505d281b224068b",
+  "phone_tested": false,
+  "native_UI_overlays_preserved": true,
+  "people_in_artwork": 1,
+  "independent_ueviewer_export": {
+    "large": [
+      184,
+      256
+    ],
+    "small": [
+      128,
+      128
+    ]
+  }
+}

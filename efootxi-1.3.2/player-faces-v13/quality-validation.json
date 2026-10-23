@@ -1,0 +1,70 @@
+{
+  "status": "FOUR_NECK_NORMAL_REGIONS_AND_NATIVE_RESOLUTION_ALPHA_HAIR_PASS",
+  "checks": [
+    {
+      "profile": "NF01",
+      "neck_normal_sample_vertices": 237,
+      "neutral_xy_error_median": 8.48528137423857,
+      "neck_sro_median_absolute_deviation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "profile": "ND06",
+      "neck_normal_sample_vertices": 239,
+      "neutral_xy_error_median": 8.48528137423857,
+      "neck_sro_median_absolute_deviation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hair_size": [
+        2048,
+        512
+      ],
+      "hair_alpha_mae": 1.0904855728149414,
+      "source_resolution_retained": true,
+      "unsharp_rgb_only": true
+    },
+    {
+      "profile": "ND13",
+      "neck_normal_sample_vertices": 239,
+      "neutral_xy_error_median": 8.48528137423857,
+      "neck_sro_median_absolute_deviation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hair_size": [
+        2048,
+        512
+      ],
+      "hair_alpha_mae": 1.4588260650634766,
+      "source_resolution_retained": true,
+      "unsharp_rgb_only": true
+    },
+    {
+      "profile": "NF27",
+      "neck_normal_sample_vertices": 237,
+      "neutral_xy_error_median": 8.48528137423857,
+      "neck_sro_median_absolute_deviation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hair_size": [
+        2048,
+        512
+      ],
+      "hair_alpha_mae": 1.6834735870361328,
+      "source_resolution_retained": true,
+      "unsharp_rgb_only": true
+    }
+  ],
+  "renderer_tested": false,
+  "phone_tested": false,
+  "container_sha256": "70be3b40cdabe82a2725bbec0f6b24ce9cb5ec93e99001b12505d281b224068b",
+  "measurement_reused_from": "v12/10: all 264 old head chunks byte-identical. New 2008 checked separately."
+}

@@ -1,0 +1,793 @@
+{
+  "v7_lod_writer_sha256": "4bdf7af41f43172a65f4e7ec3b8a50a94cb01d4bdfa6d537e5428990e3a708fe",
+  "prior_good_assets": "player-faces-v8",
+  "new_inputs": {
+    "hoang-duc": {
+      "files": [
+        "Nguyen Hoang Duc/ID player/#Win/face.fpk",
+        "Nguyen Hoang Duc/ID player/#Win/face.fpkd",
+        "Nguyen Hoang Duc/ID player/#Win/face_fpk/face_high.fmdl",
+        "Nguyen Hoang Duc/ID player/#Win/face_fpk/face_diff.bin",
+        "Nguyen Hoang Duc/ID player/#Win/face_fpk/hair_high.fmdl",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/hair_parts_trm.ftex",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/hair_parts_srm.ftex",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/face_nrm.ftex",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/face_bsm_alp.ftex",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/eye_occlusion_alp.ftex",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/hair_parts_bsm.ftex",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/face_trm.ftex",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/face_srm.ftex",
+        "Nguyen Hoang Duc/ID player/sourceimages/#windx11/hair_parts_nrm.ftex"
+      ],
+      "models": {
+        "Nguyen Hoang Duc/ID player/#Win/face_fpk/face_high.fmdl": [
+          {
+            "verts": 94,
+            "tris": 124,
+            "mat": "eyeline_SG",
+            "textures": [
+              [
+                "CubeMap_Tex_LIN",
+                "head_wet_cbm.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "dummy_nrm.tga"
+              ],
+              [
+                "Mask_Tex_LIN",
+                "dummy_dtm.tga"
+              ],
+              [
+                "SubNormalMap_Tex_NRM",
+                "dummy_nrm.tga"
+              ]
+            ]
+          },
+          {
+            "verts": 949,
+            "tris": 1769,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 1425,
+            "tris": 2651,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 138,
+            "tris": 104,
+            "mat": "fox_eyelash_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_eyelash_alp.tga"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_eyelash_nrm.tga"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_eyelash_srm.tga"
+              ]
+            ]
+          },
+          {
+            "verts": 40,
+            "tris": 46,
+            "mat": "fox_eyeOcclusion_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "eye_occlusion_alp.dds"
+              ]
+            ]
+          }
+        ],
+        "Nguyen Hoang Duc/ID player/#Win/face_fpk/hair_high.fmdl": [
+          {
+            "verts": 4456,
+            "tris": 4260,
+            "mat": "fox_hair_transfer_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "hair_parts_bsm_alp.dds"
+              ],
+              [
+                "Base_Tex_2_SRGB",
+                "hair_parts_bsm.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "hair_parts_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ],
+              [
+                "CubeMap_Tex_LIN",
+                "haircube_cbm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "hair_parts_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 356,
+            "tris": 634,
+            "mat": "fox_hair_transfer_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "hair_parts_bsm_alp.dds"
+              ],
+              [
+                "Base_Tex_2_SRGB",
+                "hair_parts_bsm.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "hair_parts_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ],
+              [
+                "CubeMap_Tex_LIN",
+                "haircube_cbm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "hair_parts_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 544,
+            "tris": 951,
+            "mat": "fox_head_shell_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "CubeMap_Tex_LIN",
+                "haircube_cbm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 582,
+            "tris": 1005,
+            "mat": "fox_head_shell_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "CubeMap_Tex_LIN",
+                "haircube_cbm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "hoang-hen": {
+      "files": [
+        "Do Hoang Hen/ID PLAYER/#Win/face.fpk",
+        "Do Hoang Hen/ID PLAYER/#Win/face.fpkd",
+        "Do Hoang Hen/ID PLAYER/#Win/face_fpk/oral.fmdl",
+        "Do Hoang Hen/ID PLAYER/#Win/face_fpk/face_high.fmdl",
+        "Do Hoang Hen/ID PLAYER/#Win/face_fpk/face_diff.bin",
+        "Do Hoang Hen/ID PLAYER/#Win/face_fpk/hair_high.fmdl",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/hair_parts_trm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/23hair_parts_srm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/23hair_parts_bsm_alp.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/hair_parts_srm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/23hair_parts_nrm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/hair_parts_alpha.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/face_nrm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/face_bsm_alp.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/eye_occlusion_alp.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/23hair_parts_trm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/arm_bsm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/face_trm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/face_srm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/eye_sclera_bsm.ftex",
+        "Do Hoang Hen/ID PLAYER/sourceimages/#windx11/hair_parts_nrm.ftex"
+      ],
+      "models": {
+        "Do Hoang Hen/ID PLAYER/#Win/face_fpk/oral.fmdl": [
+          {
+            "verts": 325,
+            "tris": 530,
+            "mat": "fox_oral_teeth_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "oral_bsm.tga"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "oral_nrm.tga"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "oral_srm.tga"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "oral_trm.tga"
+              ]
+            ]
+          }
+        ],
+        "Do Hoang Hen/ID PLAYER/#Win/face_fpk/face_high.fmdl": [
+          {
+            "verts": 237,
+            "tris": 370,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 1788,
+            "tris": 3478,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 40,
+            "tris": 46,
+            "mat": "fox_eyeOcclusion_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "eye_occlusion_alp.dds"
+              ]
+            ]
+          }
+        ],
+        "Do Hoang Hen/ID PLAYER/#Win/face_fpk/hair_high.fmdl": [
+          {
+            "verts": 458,
+            "tris": 790,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 5473,
+            "tris": 5966,
+            "mat": "fox_skin_mat.002",
+            "textures": [
+              [
+                "CubeMap_Tex_LIN",
+                "haircube_cbm.dds"
+              ],
+              [
+                "Base_Tex_2_SRGB",
+                "hair_parts_bsm_alp.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "hair_parts_trm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "hair_parts_nrm.dds"
+              ],
+              [
+                "Base_Tex_SRGB",
+                "hair_parts_alpha.dds"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "pendant": {
+      "files": [
+        "Cao Pendant/ID Player/#Win/face.fpk",
+        "Cao Pendant/ID Player/#Win/face.fpkd",
+        "Cao Pendant/ID Player/#Win/face_fpk/face_high.fmdl",
+        "Cao Pendant/ID Player/#Win/face_fpk/face_diff.bin",
+        "Cao Pendant/ID Player/#Win/face_fpk/hair_high.fmdl",
+        "Cao Pendant/ID Player/sourceimages/#windx11/hair_parts_trm.ftex",
+        "Cao Pendant/ID Player/sourceimages/#windx11/hair_parts_srm.ftex",
+        "Cao Pendant/ID Player/sourceimages/#windx11/face_nrm.ftex",
+        "Cao Pendant/ID Player/sourceimages/#windx11/face_bsm_alp.ftex",
+        "Cao Pendant/ID Player/sourceimages/#windx11/eye_occlusion_alp.ftex",
+        "Cao Pendant/ID Player/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+        "Cao Pendant/ID Player/sourceimages/#windx11/face_trm.ftex",
+        "Cao Pendant/ID Player/sourceimages/#windx11/face_srm.ftex",
+        "Cao Pendant/ID Player/sourceimages/#windx11/eye_sclera_bsm.ftex",
+        "Cao Pendant/ID Player/sourceimages/#windx11/hair_parts_nrm.ftex"
+      ],
+      "models": {
+        "Cao Pendant/ID Player/#Win/face_fpk/face_high.fmdl": [
+          {
+            "verts": 3391,
+            "tris": 6507,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 5794,
+            "tris": 11173,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 40,
+            "tris": 46,
+            "mat": "fox_eyeOcclusion_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "eye_occlusion_alp.dds"
+              ]
+            ]
+          }
+        ],
+        "Cao Pendant/ID Player/#Win/face_fpk/hair_high.fmdl": [
+          {
+            "verts": 635,
+            "tris": 1169,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "hair_parts_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "hair_parts_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ],
+              [
+                "CubeMap_Tex_LIN",
+                "haircube_cbm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "hair_parts_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 976,
+            "tris": 488,
+            "mat": "fox_hair_transfer_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "hair_parts_bsm_alp.dds"
+              ],
+              [
+                "Base_Tex_2_SRGB",
+                "hair_parts_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "hair_parts_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ],
+              [
+                "CubeMap_Tex_LIN",
+                "haircube_cbm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "hair_parts_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "tai-loc": {
+      "files": [
+        "Nguyen Tai Loc/ID PLAYER/#Win/face.fpk",
+        "Nguyen Tai Loc/ID PLAYER/#Win/face.fpkd",
+        "Nguyen Tai Loc/ID PLAYER/#Win/face_fpk/face_high.fmdl",
+        "Nguyen Tai Loc/ID PLAYER/#Win/face_fpk/face_diff.bin",
+        "Nguyen Tai Loc/ID PLAYER/#Win/face_fpk/hair_high.fmdl",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/hair_parts_trm.ftex",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/hair_parts_srm.ftex",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/face_nrm.ftex",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/face_bsm_alp.ftex",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/eye_occlusion_alp.ftex",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/hair_parts_bsm.ftex",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/face_trm.ftex",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/face_srm.ftex",
+        "Nguyen Tai Loc/ID PLAYER/sourceimages/#windx11/hair_parts_nrm.ftex"
+      ],
+      "models": {
+        "Nguyen Tai Loc/ID PLAYER/#Win/face_fpk/face_high.fmdl": [
+          {
+            "verts": 884,
+            "tris": 1639,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 1490,
+            "tris": 2781,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 40,
+            "tris": 46,
+            "mat": "fox_eyeOcclusion_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "eye_occlusion_alp.dds"
+              ]
+            ]
+          }
+        ],
+        "Nguyen Tai Loc/ID PLAYER/#Win/face_fpk/hair_high.fmdl": [
+          {
+            "verts": 344,
+            "tris": 578,
+            "mat": "fox_skin_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "face_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "face_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "face_srm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "face_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "face_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 10537,
+            "tris": 14061,
+            "mat": "fox_hair_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "hair_parts_bsm_alp.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "hair_parts_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ],
+              [
+                "CubeMap_Tex_LIN",
+                "haircube_cbm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "hair_parts_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ]
+            ]
+          },
+          {
+            "verts": 727,
+            "tris": 364,
+            "mat": "fox_hair_transfer_mat",
+            "textures": [
+              [
+                "Base_Tex_SRGB",
+                "hair_parts_bsm_alp.dds"
+              ],
+              [
+                "Base_Tex_2_SRGB",
+                "hair_parts_bsm.dds"
+              ],
+              [
+                "NormalMap_Tex_NRM",
+                "hair_parts_nrm.dds"
+              ],
+              [
+                "SpecularMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ],
+              [
+                "CubeMap_Tex_LIN",
+                "haircube_cbm.dds"
+              ],
+              [
+                "Translucent_Tex_LIN",
+                "hair_parts_trm.dds"
+              ],
+              [
+                "RoughnessMap_Tex_LIN",
+                "hair_parts_srm.dds"
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "CRISTIANO RONALDO 2008/55423/#Win/face_fpk/face_high.fmdl": [
+    {
+      "verts": 239,
+      "tris": 373,
+      "material": "fox_skin_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_srm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "face_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "face_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 32,
+      "tris": 38,
+      "material": "eyeline_SG",
+      "textures": [
+        [
+          "CubeMap_Tex_LIN",
+          "head_wet_cbm.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "dummy_nrm.tga"
+        ],
+        [
+          "Mask_Tex_LIN",
+          "dummy_dtm.tga"
+        ],
+        [
+          "SubNormalMap_Tex_NRM",
+          "dummy_nrm.tga"
+        ]
+      ]
+    },
+    {
+      "verts": 1789,
+      "tris": 3475,
+      "material": "fox_skin_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_srm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "face_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "face_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 72,
+      "tris": 86,
+      "material": "eyeline_SG",
+      "textures": [
+        [
+          "CubeMap_Tex_LIN",
+          "head_wet_cbm.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "dummy_nrm.tga"
+        ],
+        [
+          "Mask_Tex_LIN",
+          "dummy_dtm.tga"
+        ],
+        [
+          "SubNormalMap_Tex_NRM",
+          "dummy_nrm.tga"
+        ]
+      ]
+    },
+    {
+      "verts": 159,
+      "tris": 104,
+      "material": "fox_eyelash_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_eyelash_alp.tga"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_eyelash_nrm.tga"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_eyelash_srm.tga"
+        ]
+      ]
+    },
+    {
+      "verts": 184,
+      "tris": 302,
+      "material": "collar_ao",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "dummy.tga"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "dummy_nrm.tga"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "dummy_srm.tga"
+        ]
+      ]
+    },
+    {
+      "verts": 40,
+      "tris": 46,
+      "material": "fox_eyeOcclusion_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "eye_occlusion_alp.dds"
+        ]
+      ]
+    }
+  ],
+  "CRISTIANO RONALDO 2008/55423/#Win/face_fpk/hair_high.fmdl": [
+    {
+      "verts": 341,
+      "tris": 572,
+      "material": "fox_skin_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_srm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "face_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "face_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 7461,
+      "tris": 11072,
+      "material": "fox_hair_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "hair_parts_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "hair_parts_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "hair_parts_srm.dds"
+        ],
+        [
+          "CubeMap_Tex_LIN",
+          "haircube_cbm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "hair_parts_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "hair_parts_srm.dds"
+        ]
+      ]
+    },
+    {
+      "verts": 1082,
+      "tris": 1956,
+      "material": "fox_head_shell_mat",
+      "textures": [
+        [
+          "Base_Tex_SRGB",
+          "face_bsm_alp.dds"
+        ],
+        [
+          "NormalMap_Tex_NRM",
+          "face_nrm.dds"
+        ],
+        [
+          "SpecularMap_Tex_LIN",
+          "face_srm.dds"
+        ],
+        [
+          "CubeMap_Tex_LIN",
+          "haircube_cbm.dds"
+        ],
+        [
+          "Translucent_Tex_LIN",
+          "face_trm.dds"
+        ],
+        [
+          "RoughnessMap_Tex_LIN",
+          "face_srm.dds"
+        ]
+      ]
+    }
+  ]
+}

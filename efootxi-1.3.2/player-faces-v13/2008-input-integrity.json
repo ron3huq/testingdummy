@@ -1,0 +1,14 @@
+{
+  "file": "CRISTIANO RONALDO 2008.rar",
+  "bytes": 13645310,
+  "sha256": "cdd4c54ca236b5246315edb0bd95cd8746f09cdc6656066516690bd654075c1c",
+  "face_source": {
+    "neck_vertices": 239,
+    "face_vertices": 1789,
+    "scalp_vertices": 341,
+    "head_shell_vertices": 1082,
+    "hair_vertices": 7461
+  },
+  "target_card_id": "106726716084650",
+  "instructions_from_archive_executed": false
+}
