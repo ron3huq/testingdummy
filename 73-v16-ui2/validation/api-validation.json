@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "cached_owned_read_seconds": 8.239003363996744e-06,
+  "checks": [
+    "shared alias index reused, full renamed owned list correct",
+    "two full64 card skill replacement in native-style parameters and innate editor display",
+    "wire commands preserve other parameters and do not mutate source",
+    "cache invalidated by own/external DB writes and other commands",
+    "input save and owned-player rows unchanged",
+    "no body/motion projection or metadata lookup"
+  ]
+}

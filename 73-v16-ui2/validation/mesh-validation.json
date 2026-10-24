@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "private_models": 356,
+  "two_lods_per_model": true,
+  "source_assets_written": false,
+  "stock_names_overridden": false,
+  "native_reader_samples": 4,
+  "unsupported_source_variants_kept_native": [
+    {
+      "model": "017d01",
+      "error": "arm masks unavailable"
+    },
+    {
+      "model": "125d07",
+      "error": "arm masks unavailable"
+    },
+    {
+      "model": "136d09",
+      "error": "arm masks unavailable"
+    }
+  ],
+  "samples": [
+    {
+      "source": "SK_015a07",
+      "private_mesh": "SK_2015b07",
+      "vertices": 2988,
+      "changed_cuff_vertices": 352,
+      "skin_vertices_exact": true,
+      "indices_uv_skeleton_bind_matrices_exact": true
+    },
+    {
+      "source": "SK_015d07",
+      "private_mesh": "SK_2015e07",
+      "vertices": 2708,
+      "changed_cuff_vertices": 352,
+      "skin_vertices_exact": true,
+      "indices_uv_skeleton_bind_matrices_exact": true
+    }
+  ],
+  "android_gpu_tested": false
+}

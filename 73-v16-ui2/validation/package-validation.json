@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "rolled mesh and all designer assets match installation manifests",
+    "entire release manifest matches base APK + update overlay",
+    "all native/runtime integrity hashes agree",
+    "working face engine adapter/native library/container bytes and target mapping unchanged",
+    "both full64 custom IDs have long sleeves and canonical skill flags",
+    "original full My League overlay retained",
+    "no save or private database in package"
+  ],
+  "manifest_entries": 7365,
+  "patch_entries": 366,
+  "zip_sha256": "95b26af41e5521f49d8f0c155e6ba44185809c34167322101773386e2cb620af",
+  "device_tested": false
+}
