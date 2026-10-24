@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "both custom64 cards: appearance build hook sets long sleeves and accessory entries before entity dispatch",
+    "unrelated card sleeve unchanged",
+    "all physical field bounds round-trip through actual73 getter/setter"
+  ],
+  "device_tested": false
+}

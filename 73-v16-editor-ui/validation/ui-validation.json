@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "DEX signature/checksum parse and original classes retained",
+    "all class method signatures unique; helper calls and idle hooks present",
+    "English forced and extra translations installed",
+    "10-second timer uses monotonic time; touch/busy/editor/notice/window/pause guards present; exact remaining-delay scheduling",
+    "launcher subtitle explains idle enter; Enter minimum height doubled"
+  ],
+  "android_device_tested": false,
+  "original_classes": 267,
+  "updated_classes": 280
+}

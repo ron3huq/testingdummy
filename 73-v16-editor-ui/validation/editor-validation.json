@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "actual protected73 editor aliases on supplied save",
+    "both native canonical147 card records validated without owned progression writes",
+    "get/apply body fields and save-backed overlay reconstruction",
+    "invalid values/unknown preset/wrong player instance rejected without mutation",
+    "simulated disk failure rolls back metadata and overlay",
+    "other gameplayers and metadata byte-exact; source save untouched",
+    "interceptor idempotent and original actions preserved"
+  ],
+  "device_tested": false
+}

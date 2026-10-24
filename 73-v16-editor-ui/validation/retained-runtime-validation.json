@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "all_23_native_hook_prologues_match_real_73_engine",
+    "late_hook_conflict_detected_before_any_patch",
+    "CBZ_zero_path_reaches_original_target",
+    "CBZ_nonzero_path_reaches_original_fallthrough",
+    "no_overlap_with_15_working_face_hook_entries",
+    "eight_kit_textures_32_font_textures_16_thumbnails_present"
+  ],
+  "phone_tested": false
+}

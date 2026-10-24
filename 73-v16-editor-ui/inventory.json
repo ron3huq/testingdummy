@@ -1,0 +1,98 @@
+{
+  "assets/card-designer/index.html": {
+    "bytes": 237019,
+    "sha256": "b148d867e2816c57d195ca47616ac463343ef0323639dc66f57857ad170818df"
+  },
+  "assets/editor-english.json": {
+    "bytes": 141112,
+    "sha256": "0bb75da99cd99213529f32d355fac63fa34cdcde01021d082edb6500024ab8f7"
+  },
+  "assets/gateway-release/release-manifest.json": {
+    "bytes": 1378667,
+    "sha256": "2169809d19557b1ec8688cee2e1c23c4f37eaa37e81e7f29cba91cfb19c97f84"
+  },
+  "assets/gateway-release/work/tools/bridge_73.py": {
+    "bytes": 1486,
+    "sha256": "c34ed27371a9944860424803aa2e38e17447f0a8412abe11e576903a2bb40d39"
+  },
+  "assets/gateway-release/work/tools/editor_names.py": {
+    "bytes": 1092,
+    "sha256": "134732e2d5e4ca9fda0cb32888e8ff3f06a22a75e353294c89b6e20812bac366"
+  },
+  "assets/gateway-release/work/tools/libselect_team.so": {
+    "bytes": 208872,
+    "sha256": "6cedaa2b10c5250f750996d95ed33955be624b642115fe75d052660cffa63c40"
+  },
+  "assets/gateway-release/work/tools/myleague-73-status.json": {
+    "bytes": 550,
+    "sha256": "20a2fc8486b7cf27438f88eafcae64fadd3eb52c4a6acf02ebd743ba93ac5a3e"
+  },
+  "assets/gateway-release/work/tools/myleague-environment-status.json": {
+    "bytes": 646,
+    "sha256": "ec648a9539fc38607f717fd659eb60468ee2103b985d5d68cdd2c3d640af56dc"
+  },
+  "assets/gateway-release/work/tools/myleague_73.py": {
+    "bytes": 12149,
+    "sha256": "07c27ad5af9d415d8b60c5722b5af32be6a9e2f6d631c5a0e1a8d114ebe6ae1b"
+  },
+  "assets/gateway-release/work/tools/myleague_balance.py": {
+    "bytes": 2948,
+    "sha256": "361fbe202fe1e8647a26580cf1de522fc9d9351de266ef522c90367093dc9c54"
+  },
+  "assets/gateway-release/work/tools/myleague_base_rosters.json.gz": {
+    "bytes": 147706,
+    "sha256": "caa167558b3149593b914cfc896d664b8f50f83bf73d9b8c42b9ecf68aa81210"
+  },
+  "assets/gateway-release/work/tools/myleague_custom.json": {
+    "bytes": 435210,
+    "sha256": "cd357cb4f50ab20c182fefbcd6800059c14ef7761c176bb26ace719ce04282c2"
+  },
+  "assets/gateway-release/work/tools/myleague_editor.json": {
+    "bytes": 3116,
+    "sha256": "149b908742c3d80666bfd4b814cdb995a7f360b731139d2cda0f5dc0d2448cb1"
+  },
+  "assets/gateway-release/work/tools/myleague_editor_runtime.py": {
+    "bytes": 9897,
+    "sha256": "cb13f359c6068cb974da0c3eff0ee41d2051ca9d859ee23cf5759d91ec270371"
+  },
+  "assets/gateway-release/work/tools/myleague_packs.py": {
+    "bytes": 6628,
+    "sha256": "ae2ae1b8f20a5f000c53c7bf7b49161107097e36ce87ed5d53e428de89586f38"
+  },
+  "assets/gateway-release/work/tools/myleague_realism.py": {
+    "bytes": 35590,
+    "sha256": "00eb323c48f3a3952eb1794710b0fd2cc00058f19572eeec88863717b6da46d6"
+  },
+  "assets/gateway-release/work/tools/myleague_team_snapshot.py": {
+    "bytes": 3524,
+    "sha256": "09bfe8101fa4e8eabc8d042cea897c109488dc95ca0316aee7af9ea7a684db45"
+  },
+  "assets/gateway-release/work/tools/myleague_worlds.py": {
+    "bytes": 17318,
+    "sha256": "17adec5b32ede745b33dc73d25884672849ec1f2810a507cb30bfbf0af37fc2b"
+  },
+  "assets/gateway-release/work/tools/native_overall.py": {
+    "bytes": 3709,
+    "sha256": "bda80d46613b2fbbf80318f9d1e9d6a3185465d88dc05595642f3de973ce6bdc"
+  },
+  "assets/gateway-release/work/tools/noodle_bundle.json": {
+    "bytes": 2706,
+    "sha256": "399e4560104766baa743dde9a2920e20829aa46adc211833c9c6c0fbfd0e0101"
+  },
+  "assets/gateway-release/work/tools/physical_runtime.py": {
+    "bytes": 6070,
+    "sha256": "872eec018d2f3a22d0c2e9e530df90a6c2620dd9e7b1893b98e5bb082900a95f"
+  },
+  "assets/gateway-release/work/tools/select_team_runtime.py": {
+    "bytes": 21133,
+    "sha256": "6c99dedabd8599d6b7d8e24dd61c9ecc1c809e8a849bad6709f3218a870d2f68"
+  },
+  "assets/gateway-release/work/tools/team_kits.py": {
+    "bytes": 2175,
+    "sha256": "7090d8a414930ae996c7ba99beeeb6f0a12204efa1791b250c9fee5244d14e1d"
+  },
+  "classes5.dex": {
+    "bytes": 446708,
+    "sha256": "87d1c234c401ce3f32f6138f2570a6e55023a65c28cdc8b5f76b099d9665dea8"
+  }
+}
