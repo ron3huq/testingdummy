@@ -1,0 +1,12 @@
+{
+  "status": "V22_READ_ONLY_PROBE_AND_FULL64_DIAGNOSTICS_PASS",
+  "checks": [
+    "primary_material_texture_shader_chain_and_secondary_names_collected_without_render_writes",
+    "native_probe_throttled_256_bakes",
+    "per_card_samples_retained_for_test_original_and_working_control",
+    "full64_ID_diagnostics_reconstructed_even_with_signed32_ctypes_returns",
+    "material_control_mesh_NT01_and_texture_ND06_paths_are_consistent"
+  ],
+  "query_bodies_modeled": true,
+  "phone_tested": false
+}

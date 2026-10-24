@@ -1,0 +1,363 @@
+{
+  "phone_tested": false,
+  "jaw": [
+    {
+      "profile": "NWOZep00v0313",
+      "lod": 0,
+      "anatomical_field": [
+        12,
+        19,
+        157,
+        168
+      ],
+      "changed_skin_weight_vertices": 739,
+      "geometry_UVs_normals_native_accessories_and_hair_exact": true
+    },
+    {
+      "profile": "NWOZep00v0313",
+      "lod": 1,
+      "unchanged_native_reduced_LOD": true
+    },
+    {
+      "profile": "NDDBep00v0313",
+      "lod": 0,
+      "anatomical_field": [
+        10,
+        19,
+        159,
+        170
+      ],
+      "changed_skin_weight_vertices": 744,
+      "geometry_UVs_normals_native_accessories_and_hair_exact": true
+    },
+    {
+      "profile": "NDDBep00v0313",
+      "lod": 1,
+      "unchanged_native_reduced_LOD": true
+    }
+  ],
+  "extended_fonts": [
+    {
+      "team": 351,
+      "slot": 1,
+      "native_source": "character/Uniform/LowTextures/T_u0014p1_FontName_Ex_D.uasset",
+      "target": "T_u0351p1_FontName_Ex_D",
+      "dimensions": [
+        [
+          256,
+          128
+        ]
+      ],
+      "ordinary_AZ_font_unchanged": true,
+      "extended_accent_font_is_native_fallback_not_exact_original_family": true,
+      "RGB": [
+        2,
+        121,
+        165
+      ]
+    },
+    {
+      "team": 351,
+      "slot": 2,
+      "native_source": "character/Uniform/LowTextures/T_u0014p1_FontName_Ex_D.uasset",
+      "target": "T_u0351p2_FontName_Ex_D",
+      "dimensions": [
+        [
+          256,
+          128
+        ]
+      ],
+      "ordinary_AZ_font_unchanged": true,
+      "extended_accent_font_is_native_fallback_not_exact_original_family": true,
+      "RGB": [
+        245,
+        245,
+        245
+      ]
+    },
+    {
+      "team": 352,
+      "slot": 1,
+      "native_source": "character/Uniform/LowTextures/T_u0014p1_FontName_Ex_D.uasset",
+      "target": "T_u0352p1_FontName_Ex_D",
+      "dimensions": [
+        [
+          256,
+          128
+        ]
+      ],
+      "ordinary_AZ_font_unchanged": true,
+      "extended_accent_font_is_native_fallback_not_exact_original_family": true,
+      "RGB": [
+        245,
+        245,
+        245
+      ]
+    },
+    {
+      "team": 352,
+      "slot": 2,
+      "native_source": "character/Uniform/LowTextures/T_u0014p1_FontName_Ex_D.uasset",
+      "target": "T_u0352p2_FontName_Ex_D",
+      "dimensions": [
+        [
+          256,
+          128
+        ]
+      ],
+      "ordinary_AZ_font_unchanged": true,
+      "extended_accent_font_is_native_fallback_not_exact_original_family": true,
+      "RGB": [
+        245,
+        245,
+        245
+      ]
+    },
+    {
+      "team": 242,
+      "slot": 1,
+      "native_source": "character/Uniform/LowTextures/T_u0136p1_FontName_Ex_D.uasset",
+      "target": "T_u0242p1_FontName_Ex_D",
+      "dimensions": [
+        [
+          256,
+          128
+        ]
+      ],
+      "ordinary_AZ_font_unchanged": true,
+      "extended_accent_font_is_native_fallback_not_exact_original_family": true,
+      "RGB": [
+        154,
+        116,
+        68
+      ]
+    },
+    {
+      "team": 242,
+      "slot": 2,
+      "native_source": "character/Uniform/LowTextures/T_u0136p1_FontName_Ex_D.uasset",
+      "target": "T_u0242p2_FontName_Ex_D",
+      "dimensions": [
+        [
+          256,
+          128
+        ]
+      ],
+      "ordinary_AZ_font_unchanged": true,
+      "extended_accent_font_is_native_fallback_not_exact_original_family": true,
+      "RGB": [
+        184,
+        167,
+        112
+      ]
+    },
+    {
+      "team": 245,
+      "slot": 1,
+      "native_source": "character/Uniform/LowTextures/T_u0014p1_FontName_Ex_D.uasset",
+      "target": "T_u0245p1_FontName_Ex_D",
+      "dimensions": [
+        [
+          256,
+          128
+        ]
+      ],
+      "ordinary_AZ_font_unchanged": true,
+      "extended_accent_font_is_native_fallback_not_exact_original_family": true,
+      "RGB": [
+        244,
+        218,
+        59
+      ]
+    },
+    {
+      "team": 245,
+      "slot": 2,
+      "native_source": "character/Uniform/LowTextures/T_u0014p1_FontName_Ex_D.uasset",
+      "target": "T_u0245p2_FontName_Ex_D",
+      "dimensions": [
+        [
+          256,
+          128
+        ]
+      ],
+      "ordinary_AZ_font_unchanged": true,
+      "extended_accent_font_is_native_fallback_not_exact_original_family": true,
+      "RGB": [
+        15,
+        35,
+        62
+      ]
+    }
+  ],
+  "minis": [
+    {
+      "card": "88044950524330",
+      "square_native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "distinct_pose": 0,
+      "alpha_background": true,
+      "large_card_background_byte_unchanged": true
+    },
+    {
+      "card": "89135066911146",
+      "square_native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "distinct_pose": 1,
+      "alpha_background": true,
+      "large_card_background_byte_unchanged": true
+    },
+    {
+      "card": "106726716084650",
+      "square_native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "distinct_pose": 2,
+      "alpha_background": true,
+      "large_card_background_byte_unchanged": true
+    },
+    {
+      "card": "106781745353130",
+      "square_native_dimensions": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "distinct_pose": 3,
+      "alpha_background": true,
+      "large_card_background_byte_unchanged": true
+    }
+  ],
+  "material_control": {
+    "card_id": "105807861630781",
+    "profile": "NT01ep00v0313",
+    "skin_materials": "literal ND06 assets",
+    "mesh_positions_UVs_weights_hair_source": "2017 NW01 byte-identical arrays",
+    "original_four_profiles_unchanged": true,
+    "intended_as_diagnostic_not_proven_black_face_fix": true
+  }
+}

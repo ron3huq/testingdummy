@@ -1,0 +1,57 @@
+{
+  "status": "V22_COMPLETE_ZIP_CRC_CHECKSUM_AND_SCOPED_PAYLOAD_PASS",
+  "main_sha256": "6d1813d0bea06474481d69d55e4250b1d2ab73ff3ca0cb89865ab9070febb843",
+  "main_bytes": 76969210,
+  "files": {
+    "work/tools/gateway_runtime.py": {
+      "bytes": 2441,
+      "sha256": "5b9a373cc8c17c1b725f0a5d9033fe5597199ca068b86d1ef4710aeb39e163f9"
+    },
+    "work/tools/noodle_hair.py": {
+      "bytes": 20609,
+      "sha256": "fa8d2dc1a1a6856463f5323fdae29ed01fbf154a33364127bdf1914bbfc59cb9"
+    },
+    "work/tools/libnoodle_hair.so": {
+      "bytes": 118176,
+      "sha256": "4157cb5c1480a6f72ae8470566cf04d3dc117384f6bea64a0462bc36c9cdf093"
+    },
+    "work/tools/noodle_hair.json": {
+      "bytes": 16,
+      "sha256": "26b3426b2593763c96d0890b4a77a0bbf66d13fc512b0c6b138a23c290f30a2a"
+    },
+    "work/tools/noodle_bundle.json": {
+      "bytes": 2118,
+      "sha256": "f6a1d57c486d5da6a8dee79c5b8437599466bc38746a49debbf3335fdb0a288d"
+    },
+    "work/tools/myleague_editor_runtime.py": {
+      "bytes": 9379,
+      "sha256": "dd45d9a1892f3d855ef3de2e89186d4a6b975d8835c46ef649dfa3a915cb513f"
+    },
+    "work/tools/select_team_runtime.py": {
+      "bytes": 19315,
+      "sha256": "02a00dc266b504e8ec273f874506024191d8377322ad9fb0272322cd6fce05ba"
+    },
+    "work/tools/libselect_team.so": {
+      "bytes": 203488,
+      "sha256": "1f1ad4ffee08464c01fd31bafb05e73a39a2eab987b3c726c121f768aba92292"
+    },
+    "livedata/pc9298_mobile_and.pak": {
+      "bytes": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "livedata/pc9298_mobile_and.utoc": {
+      "bytes": 95757,
+      "sha256": "84493ad09a977f46d550deadbcef9a7392fb18362ded01b79d28857a346e92e9"
+    },
+    "livedata/pc9298_mobile_and.ucas": {
+      "bytes": 77644858,
+      "sha256": "8af25a5fe5736d71d87d6f989df76a3e173436a30828907b629e458d77fb15f5"
+    }
+  },
+  "target_ids": 17,
+  "native_checks": 578,
+  "phone_tested": false,
+  "black_faces_device_verified_fixed": false,
+  "jersey_names_device_verified_fixed": false,
+  "unchanged_work_files_exact_to_published_v21": true
+}

@@ -1,0 +1,121 @@
+{
+  "status": "V22_NATIVE_ASSETS_JAW_POSES_EX_GLYPHS_AND_MINIS_PASS",
+  "changed_prior_chunks": [
+    "ui/Data/Thumbnail/Player/Variation2022/89135066911146_.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/88044950524330_.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/106781745353130_.uasset",
+    "ui/Data/Thumbnail/Player/Variation2022/106726716084650_.uasset",
+    "character/RealFace/SK_NWOZep00v0313_Face.uasset",
+    "character/RealFace/SK_NDDBep00v0313_Face.uasset"
+  ],
+  "new_chunks": [
+    "character/RealFace/SK_NT01ep00v0313_Face.uasset",
+    "character/Uniform/LowTextures/T_u0242p1_FontName_Ex_D.uasset",
+    "character/Uniform/LowTextures/T_u0242p2_FontName_Ex_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p1_FontName_Ex_D.uasset",
+    "character/Uniform/LowTextures/T_u0245p2_FontName_Ex_D.uasset",
+    "character/Uniform/LowTextures/T_u0351p1_FontName_Ex_D.uasset",
+    "character/Uniform/LowTextures/T_u0351p2_FontName_Ex_D.uasset",
+    "character/Uniform/LowTextures/T_u0352p1_FontName_Ex_D.uasset",
+    "character/Uniform/LowTextures/T_u0352p2_FontName_Ex_D.uasset"
+  ],
+  "all_v21_large_portraits_backgrounds_byte_identical": true,
+  "original_four_failing_head_assets_byte_identical": true,
+  "control_only_skin_materials_differ_from_2017": true,
+  "jaw": [
+    {
+      "profile": "NWOZep00v0313",
+      "synthetic_jaw_cases": [
+        {
+          "axis": 0,
+          "degrees": 10,
+          "before": 89,
+          "after": 0
+        },
+        {
+          "axis": 0,
+          "degrees": 25,
+          "before": 169,
+          "after": 2
+        },
+        {
+          "axis": 0,
+          "degrees": 35,
+          "before": 204,
+          "after": 14
+        },
+        {
+          "axis": 1,
+          "degrees": 15,
+          "before": 147,
+          "after": 34
+        },
+        {
+          "axis": 2,
+          "degrees": 15,
+          "before": 19,
+          "after": 0
+        },
+        {
+          "axis": 0,
+          "degrees": -10,
+          "before": 90,
+          "after": 2
+        }
+      ],
+      "chin_mean_jaw_weight_after": 0.701131221719457,
+      "upper_face_and_native_accessory_weights_preserved": true,
+      "jaw_motion_not_frozen": true
+    },
+    {
+      "profile": "NDDBep00v0313",
+      "synthetic_jaw_cases": [
+        {
+          "axis": 0,
+          "degrees": 10,
+          "before": 55,
+          "after": 0
+        },
+        {
+          "axis": 0,
+          "degrees": 25,
+          "before": 140,
+          "after": 0
+        },
+        {
+          "axis": 0,
+          "degrees": 35,
+          "before": 183,
+          "after": 6
+        },
+        {
+          "axis": 1,
+          "degrees": 15,
+          "before": 138,
+          "after": 35
+        },
+        {
+          "axis": 2,
+          "degrees": 15,
+          "before": 20,
+          "after": 0
+        },
+        {
+          "axis": 0,
+          "degrees": -10,
+          "before": 55,
+          "after": 0
+        }
+      ],
+      "chin_mean_jaw_weight_after": 0.7869124963418204,
+      "upper_face_and_native_accessory_weights_preserved": true,
+      "jaw_motion_not_frozen": true
+    }
+  ],
+  "eight_Ex_fonts_native_alpha_exact": true,
+  "ordinary_ASCII_fonts_byte_unchanged": true,
+  "extended_accent_fallback_family_not_exact_original": true,
+  "phone_tested": false,
+  "black_faces_fixed_verified": false,
+  "jersey_names_visible_verified": false
+}
