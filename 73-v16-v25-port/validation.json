@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "all_payload_hashes_and_native_hash_verified",
+    "all_15_hook_prologues_match_real_73_engine",
+    "wrong_engine_rejected",
+    "last_entry_conflict_rejected_before_any_install",
+    "original_initialize_result_retained",
+    "73_local_url_conversion_retained",
+    "bridge_starts_native_worker",
+    "bridge_wrapper_idempotent",
+    "all_original_encrypted_python_modules_byte_exact"
+  ],
+  "passed": true,
+  "phone_tested": false,
+  "gpu_render_verified": false,
+  "native_code": "V25 library unchanged; only engine SHA allowlist and all-entry preflight adapted",
+  "base_apk_sha256": "04f3e86e129bc7ef1705120caa93e43284f2033fffc376c4d597e5c7ddc15499"
+}

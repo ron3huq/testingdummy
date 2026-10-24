@@ -1,0 +1,8 @@
+{
+  "signed_apk_sha256": "9e51f7c96a299ff9979c922bd064da227a127e5c4f9e440738646e2a5dcbdf1f",
+  "bytes": 2298617466,
+  "signed_v3_verified": true,
+  "zipalign_verified": true,
+  "all_11_payload_files_verified_in_signed_apk": true,
+  "phone_tested": false
+}

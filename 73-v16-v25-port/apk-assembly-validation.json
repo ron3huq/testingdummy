@@ -1,0 +1,11 @@
+{
+  "only_original_files_changed": [
+    "assets/gateway-release/release-manifest.json",
+    "assets/chaquopy/app.imy"
+  ],
+  "all_original_native_library_offsets_preserved": true,
+  "new_asset_files": 11,
+  "original_engine_sha256": "efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8",
+  "apk_crc_error": null,
+  "phone_tested": false
+}

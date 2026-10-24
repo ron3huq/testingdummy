@@ -1,0 +1,26 @@
+source:
+	/workspace/ronaldo-work/73-v25-port/package/output
+zipalign location: BUILT_IN 
+	/tmp/uapksigner-15940515174614696756/linux-zipalign-33_0_22128884081150277634.tmp
+keystore:
+	[0] 161a0018 /tmp/temp_15644826591356611222_debug.keystore (DEBUG_EMBEDDED)
+
+01. 73-V16-V25-unsigned.apk
+
+	SIGN
+	file: /workspace/ronaldo-work/73-v25-port/package/output/73-V16-V25-unsigned.apk (2194.77 MiB)
+	checksum: cb0db4c658df39022c99c4f31d80750b4101f2e336ecc23282cc5f9a5bcb608f (sha256)
+	- zipalign success
+	- sign success
+
+	VERIFY
+	file: /workspace/ronaldo-work/73-v25-port/package/output/73-V16-V25-aligned-debugSigned.apk (2192.13 MiB)
+	checksum: 9e51f7c96a299ff9979c922bd064da227a127e5c4f9e440738646e2a5dcbdf1f (sha256)
+	- zipalign verified
+	- signature verified [v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Thu Mar 10 20:10:05 UTC 2044
+
+[Sat Oct 24 13:56:03 UTC 2026][v1.3.0]
+Successfully processed 1 APKs and 0 errors in 36.75 seconds.
