@@ -1,0 +1,24 @@
+{
+  "year": "2017",
+  "scalp_topology": "native 2006 geometry, UV, normals and weights unchanged; donor sampled per texel",
+  "scalp_uv_transfer_removed": true,
+  "physical_open_boundary_edges": 60,
+  "uv_seams_excluded_from_boundary_feather": true,
+  "cap_texture_baked": true,
+  "baked_texels": 357004,
+  "shaved_line_texture_pixels": 0,
+  "temple_texture_pixels_cleaned": 116402,
+  "sculpt": {
+    "face_high_0_fox_skin_mat": {
+      "changed": 95,
+      "max_displacement_m": 0.004434102785840994
+    },
+    "face_high_2_fox_skin_mat": {
+      "changed": 978,
+      "max_displacement_m": 0.00576395687854778
+    }
+  },
+  "source_hair": "/workspace/ronaldo-work/new-hair-sources/2017/fpk/hair_high.fmdl",
+  "source_2013_hair_restyled": false,
+  "android_verified": false
+}

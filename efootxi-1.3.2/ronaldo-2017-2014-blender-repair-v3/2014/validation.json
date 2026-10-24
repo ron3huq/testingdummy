@@ -1,0 +1,29 @@
+{
+  "year": "2014",
+  "blender_reopen": "4.3.2",
+  "android_verified": false,
+  "original_cap_geometry_uv_normals_weights_exact": true,
+  "face_topology_uv_weights_preserved": true,
+  "all_new_textures_packed_and_png_hashes_match": true,
+  "reference_rig_weights_valid": true,
+  "max_face_vertex_displacements_m": {
+    "face_high_0_fox_skin_mat": 0.0,
+    "face_high_1_eyeline_SG": 0.0,
+    "face_high_2_fox_skin_mat": 0.0,
+    "face_high_3_eyeline_SG": 0.0,
+    "face_high_4_fox_eyelash_mat": 0.0,
+    "face_high_5_collar_ao": 0.0,
+    "face_high_6_fox_eyeOcclusion_mat": 0.0
+  },
+  "protected_nose_lips_central_face_texture_max_error": 0.0,
+  "baked_texture_sha256": {
+    "2014_Hair_Dark_BAKED.001": "4f1a58e5f3c3084a0652481f45ba22adb7415b99742d051a52a47bc25fb549f8",
+    "2014_Face_HairMask_BAKED": "632202299e46d05c5911467c037faedbb37827b574eb343d10c2aa8a3726ac5b",
+    "2014_Scalp_SeamMatched_BAKED": "54de0f13a5ac614e44dffa6e549394a38c10a9a91887780fe9c52090302913e4",
+    "2014_Face_Temples_Clean_BAKED": "f2a76c5791dbcdfb683be6b778c784b9580a41aaccf1e524b17e5f0f80eb45f6",
+    "2014_Scalp_HairMask_BAKED": "daaeec8073f325b1deb8d1b5ee5fb55bd95ceebbf438733e2bc3e790df8d4589"
+  },
+  "total_source_mesh_vertices": 4814,
+  "shaved_lines_in_baked_texture_no_floating_line_meshes": true,
+  "reference_head_pose_finite": true
+}

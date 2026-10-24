@@ -1,0 +1,24 @@
+{
+  "year": "2014",
+  "scalp_topology": "native 2006 geometry, UV, normals and weights unchanged; donor sampled per texel",
+  "scalp_uv_transfer_removed": true,
+  "physical_open_boundary_edges": 60,
+  "uv_seams_excluded_from_boundary_feather": true,
+  "cap_texture_baked": true,
+  "baked_texels": 357004,
+  "shaved_line_texture_pixels": 2667,
+  "temple_texture_pixels_cleaned": 116402,
+  "sculpt": {
+    "face_high_0_fox_skin_mat": {
+      "changed": 0,
+      "max_displacement_m": 0.0
+    },
+    "face_high_2_fox_skin_mat": {
+      "changed": 0,
+      "max_displacement_m": 0.0
+    }
+  },
+  "source_hair": "/workspace/ronaldo-work/input-2013/2013/Sider/4522/#Win/face_fpk/hair_high.fmdl",
+  "source_2013_hair_restyled": true,
+  "android_verified": false
+}

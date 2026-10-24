@@ -1,0 +1,47 @@
+[
+  {
+    "source": "2017",
+    "file": "hair_high.fmdl",
+    "sha256": "9238184409bb10effda824d0fc3be9309345aa6d14fb5989f45242d0770e7835"
+  },
+  {
+    "source": "2017",
+    "file": "face_high.fmdl",
+    "sha256": "6c86ec08ed1e9067f2a30d256f888a10cf87ea75eff0eeb03deee6c6d214e4a6"
+  },
+  {
+    "source": "2017",
+    "file": "face_bsm_alp.png",
+    "sha256": "1c84530fee55c05bd270749286e815bd76db516109a86ef50a7a6d9ed1b1d521"
+  },
+  {
+    "source": "2017",
+    "file": "hair_parts_bsm_alp.png",
+    "sha256": "cf3d8ac3a66e00d9a3a5308ae65266730ed037661c9b649bdb69fafea18a4135"
+  },
+  {
+    "source": "2017",
+    "file": "hair_alpha8.png",
+    "sha256": "8cbb1aac9cb0ba2cc232c4e27ca49894acff7182744f2d17d6450e58e7ae6a2d"
+  },
+  {
+    "source": "2013",
+    "file": "hair_high.fmdl",
+    "sha256": "cc94ea8bf10704bbd30abd4805f733b744897a51c42f22b29a148da846671ae9"
+  },
+  {
+    "source": "2013",
+    "file": "face_high.fmdl",
+    "sha256": "67e1f32c8f225fc293b01c6a32a2af220f9d2293d3e90a44d5f28c75c6bc7c1a"
+  },
+  {
+    "source": "2013",
+    "file": "face_bsm_alp.png",
+    "sha256": "35a3ec2e5c8b8cac83ad2be6c6bce76a411f4300a689ea8ae67b1869cc648e9f"
+  },
+  {
+    "source": "2013",
+    "file": "hair_parts_bsm_alp.png",
+    "sha256": "d9c186bcc0bba7096897a2e4348780851174c6558b7aa24d7d92a38aa59eca7f"
+  }
+]

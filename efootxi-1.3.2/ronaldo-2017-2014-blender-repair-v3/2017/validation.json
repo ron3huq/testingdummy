@@ -1,0 +1,28 @@
+{
+  "year": "2017",
+  "blender_reopen": "4.3.2",
+  "android_verified": false,
+  "original_cap_geometry_uv_normals_weights_exact": true,
+  "face_topology_uv_weights_preserved": true,
+  "all_new_textures_packed_and_png_hashes_match": true,
+  "reference_rig_weights_valid": true,
+  "max_face_vertex_displacements_m": {
+    "face_high_0_fox_skin_mat": 0.004434102689499956,
+    "face_high_1_eyeline_SG": 0.0,
+    "face_high_2_fox_skin_mat": 0.005763956926667755,
+    "face_high_3_eyeline_SG": 0.0,
+    "face_high_4_fox_eyelash_mat": 0.0,
+    "face_high_5_collar_ao": 0.0,
+    "face_high_6_fox_eyeOcclusion_mat": 0.0
+  },
+  "protected_nose_lips_central_face_texture_max_error": 0.0,
+  "baked_texture_sha256": {
+    "2017_Face_Temples_Clean_BAKED": "f13f9e4b3822a023eb105eb6d541e643df6ffb76eb4c8bfdbcc0b998608ea380",
+    "2017_Scalp_SeamMatched_BAKED": "515334b544443db8fc12d54c2537759737dc4e7381e7d9bb51d88c17a01441f9",
+    "2017_Face_HairMask_BAKED": "ae44410adabfa5a811229e1d8e7435aaa4a1087375fa0773f3b2b6492506d75f",
+    "2017_Scalp_HairMask_BAKED": "daaeec8073f325b1deb8d1b5ee5fb55bd95ceebbf438733e2bc3e790df8d4589"
+  },
+  "total_source_mesh_vertices": 7861,
+  "supplied_2017_hair_geometry_and_two_uvs_preserved": true,
+  "reference_head_pose_finite": true
+}
