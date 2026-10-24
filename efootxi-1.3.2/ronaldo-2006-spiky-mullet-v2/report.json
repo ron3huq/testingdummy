@@ -1,0 +1,8 @@
+{
+  "style": "upright separated spikes, shorter sides, original mullet",
+  "spike_bundles": 201,
+  "protected_tail_vertices": 760,
+  "tail_coordinates_unchanged": true,
+  "nape_skin_material": "original skin texture below 1.775m, scalp-only height mask above",
+  "android_game_ready": false
+}
