@@ -1,0 +1,8 @@
+{
+  "exact_hook_address_references_in_original_python": {
+    "diy_native_reader": [
+      "0x823c8d4"
+    ]
+  },
+  "runtime_assembly_indirect_addresses_not_exhaustively_audited": true
+}

@@ -1,0 +1,21 @@
+{
+  "working_face_runtime_and_library_not_replaced": true,
+  "all_three_face_card_kit_container_files_byte_exact": true,
+  "original_MyLeague_config_sha256": "cd357cb4f50ab20c182fefbcd6800059c14ef7761c176bb26ace719ce04282c2",
+  "leagues": {
+    "122": "Uefa Champion League",
+    "566": "AFC Nation League",
+    "128": "World Nation League",
+    "125": "Eredivisie",
+    "549": "Asia-Pacific League",
+    "518": "Y17 Champion League"
+  },
+  "native_custom_kit_teams": [
+    351,
+    352,
+    242,
+    245
+  ],
+  "face_user_reported_working": true,
+  "myleague_kits_phone_tested": false
+}
