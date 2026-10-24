@@ -1,0 +1,10 @@
+{
+  "variant": "2014",
+  "blender": "4.3.2",
+  "face_2006_geometry_uv_weights_materials_identical": true,
+  "packed_images": true,
+  "new_mesh_weights_valid": true,
+  "android_verified": false,
+  "missing_common_eye_textures_in_original": true,
+  "original_2006_scalp_neck_geometry_weights_unchanged": true
+}
