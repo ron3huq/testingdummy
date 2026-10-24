@@ -1,0 +1,12 @@
+{
+  "version": "player-faces-v22-draw-probe-jaw-fonts",
+  "runtime_sha256": "fa8d2dc1a1a6856463f5323fdae29ed01fbf154a33364127bdf1914bbfc59cb9",
+  "native_sha256": "4157cb5c1480a6f72ae8470566cf04d3dc117384f6bea64a0462bc36c9cdf093",
+  "installed_payload_matches_published_v22": true,
+  "redirects": 9,
+  "nonnull_callbacks": 0,
+  "head_draw_probes": [],
+  "fatal_stacktrace_provided": false,
+  "user_reports_pre_match_and_match_entry_crash_and_still_black": true,
+  "snapshot_does_not_establish_exact_crash_site": true
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "card": "88044950524330",
+    "measured_head_bounds_source": [
+      200,
+      20,
+      500,
+      445
+    ],
+    "head_center_x_after": 64.0,
+    "head_top_after": 8.0,
+    "head_width_after": 60.0,
+    "head_height_after": 85.0,
+    "uniform_scale": 0.2,
+    "independent_mini_not_squeezed_large_card": true
+  },
+  {
+    "card": "89135066911146",
+    "measured_head_bounds_source": [
+      135,
+      25,
+      500,
+      440
+    ],
+    "head_center_x_after": 64.0,
+    "head_top_after": 8.0,
+    "head_width_after": 74.75903614457832,
+    "head_height_after": 85.0,
+    "uniform_scale": 0.20481927710843373,
+    "independent_mini_not_squeezed_large_card": true
+  },
+  {
+    "card": "106726716084650",
+    "measured_head_bounds_source": [
+      170,
+      8,
+      465,
+      448
+    ],
+    "head_center_x_after": 64.0,
+    "head_top_after": 8.0,
+    "head_width_after": 56.98863636363636,
+    "head_height_after": 85.0,
+    "uniform_scale": 0.19318181818181818,
+    "independent_mini_not_squeezed_large_card": true
+  },
+  {
+    "card": "106781745353130",
+    "measured_head_bounds_source": [
+      170,
+      12,
+      465,
+      450
+    ],
+    "head_center_x_after": 64.0,
+    "head_top_after": 8.0,
+    "head_width_after": 57.24885844748858,
+    "head_height_after": 85.0,
+    "uniform_scale": 0.19406392694063926,
+    "independent_mini_not_squeezed_large_card": true
+  }
+]

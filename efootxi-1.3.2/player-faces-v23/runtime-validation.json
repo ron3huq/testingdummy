@@ -1,0 +1,7 @@
+{
+  "status": "V23_BUNDLE_HASH_17_IDS_MANIFEST_PLUS41_IDEMPOTENCE_FAILURE_FALLBACK_PASS",
+  "gateway_bytes": 2441,
+  "myleague_user_configuration_files_not_in_package": true,
+  "appearance_overlay_and_native_module_byte_identical_to_v20": true,
+  "phone_tested": false
+}

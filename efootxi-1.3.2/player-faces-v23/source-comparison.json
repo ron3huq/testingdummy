@@ -1,0 +1,753 @@
+{
+  "sources": [
+    {
+      "source": "2006",
+      "blend_files_in_recovered_archive_tree": [],
+      "models": [
+        {
+          "file": "face_high.fmdl",
+          "sha256": "36a28ca0ecfcc3b9124ea7cd684ebc97a33712d6d254cc3530e2f2b1b1756ea3",
+          "bones": 38,
+          "meshes": [
+            {
+              "material": "fox_skin_mat",
+              "vertices": 239,
+              "triangles": 373,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "eyeline_SG",
+              "vertices": 32,
+              "triangles": 38,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": []
+            },
+            {
+              "material": "fox_skin_mat",
+              "vertices": 1789,
+              "triangles": 3475,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "eyeline_SG",
+              "vertices": 72,
+              "triangles": 86,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": []
+            },
+            {
+              "material": "fox_eyelash_mat",
+              "vertices": 159,
+              "triangles": 104,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_eyelash_alp.tga"
+                ]
+              ]
+            },
+            {
+              "material": "collar_ao",
+              "vertices": 184,
+              "triangles": 302,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "dummy.tga"
+                ]
+              ]
+            },
+            {
+              "material": "fox_eyeOcclusion_mat",
+              "vertices": 40,
+              "triangles": 46,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "eye_occlusion_alp.dds"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "file": "hair_high.fmdl",
+          "sha256": "dfed582dea0bff3f87c4f73c1ca565c960f622966e7f189bbb998cdc12804d97",
+          "bones": 31,
+          "meshes": [
+            {
+              "material": "fox_skin_mat",
+              "vertices": 341,
+              "triangles": 572,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_hair_mat",
+              "vertices": 2097,
+              "triangles": 2164,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "hair_parts_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_head_shell_mat",
+              "vertices": 1082,
+              "triangles": 1956,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "hair_shell_distance_to_skin": [
+        {
+          "vertices": 1082,
+          "fraction_within_0_05_cm_of_opaque_skin": 0.0,
+          "mean_distance_cm": 4.4122895072950925
+        }
+      ]
+    },
+    {
+      "source": "2017",
+      "blend_files_in_recovered_archive_tree": [],
+      "models": [
+        {
+          "file": "face_high.fmdl",
+          "sha256": "6c86ec08ed1e9067f2a30d256f888a10cf87ea75eff0eeb03deee6c6d214e4a6",
+          "bones": 38,
+          "meshes": [
+            {
+              "material": "fox_skin_mat",
+              "vertices": 237,
+              "triangles": 370,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "eyeline_SG",
+              "vertices": 29,
+              "triangles": 34,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": []
+            },
+            {
+              "material": "fox_skin_mat",
+              "vertices": 1788,
+              "triangles": 3478,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "eyeline_SG",
+              "vertices": 81,
+              "triangles": 90,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": []
+            },
+            {
+              "material": "collar_ao",
+              "vertices": 184,
+              "triangles": 302,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "dummy.tga"
+                ]
+              ]
+            },
+            {
+              "material": "fox_eyelash_mat",
+              "vertices": 150,
+              "triangles": 104,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_eyelash_alp.tga"
+                ]
+              ]
+            },
+            {
+              "material": "fox_eyeOcclusion_mat",
+              "vertices": 40,
+              "triangles": 46,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "eye_occlusion_alp.dds"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "file": "hair_high.fmdl",
+          "sha256": "9238184409bb10effda824d0fc3be9309345aa6d14fb5989f45242d0770e7835",
+          "bones": 33,
+          "meshes": [
+            {
+              "material": "Material.002",
+              "vertices": 5005,
+              "triangles": 5179,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "hair_alpha8.dds"
+                ],
+                [
+                  "Base_Tex_2_SRGB",
+                  "hair_parts_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_skin_mat",
+              "vertices": 341,
+              "triangles": 572,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "hair_shell_distance_to_skin": []
+    },
+    {
+      "source": "2027",
+      "blend_files_in_recovered_archive_tree": [],
+      "models": [
+        {
+          "file": "face_high.fmdl",
+          "sha256": "f5e5a39317d7937df3738686ea405b28b7f54703443b8190d5e7f709cd4d4ad5",
+          "bones": 38,
+          "meshes": [
+            {
+              "material": "fox_skin_mat",
+              "vertices": 237,
+              "triangles": 370,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "eyeline_SG",
+              "vertices": 29,
+              "triangles": 34,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": []
+            },
+            {
+              "material": "fox_skin_mat",
+              "vertices": 1788,
+              "triangles": 3478,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "eyeline_SG",
+              "vertices": 81,
+              "triangles": 90,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": []
+            },
+            {
+              "material": "collar_ao",
+              "vertices": 184,
+              "triangles": 302,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "dummy.tga"
+                ]
+              ]
+            },
+            {
+              "material": "fox_eyelash_mat",
+              "vertices": 150,
+              "triangles": 104,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_eyelash_alp.tga"
+                ]
+              ]
+            },
+            {
+              "material": "fox_eyeOcclusion_mat",
+              "vertices": 40,
+              "triangles": 46,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "eye_occlusion_alp.dds"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "file": "hair_high.fmdl",
+          "sha256": "039f93bdd1f94189367ac7756367a65111da975910033e8e2acfd9c0c6ff0d79",
+          "bones": 33,
+          "meshes": [
+            {
+              "material": "fox_skin_mat",
+              "vertices": 458,
+              "triangles": 790,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_hair_transfer_mat",
+              "vertices": 4574,
+              "triangles": 5081,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "hair_parts_bsm_alp.dds"
+                ],
+                [
+                  "Base_Tex_2_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_head_shell_mat",
+              "vertices": 20,
+              "triangles": 20,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_head_shell_mat",
+              "vertices": 1187,
+              "triangles": 2154,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm_alp.dds"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "hair_shell_distance_to_skin": [
+        {
+          "vertices": 20,
+          "fraction_within_0_05_cm_of_opaque_skin": 1.0,
+          "mean_distance_cm": 0.010090389046739902
+        },
+        {
+          "vertices": 1187,
+          "fraction_within_0_05_cm_of_opaque_skin": 1.0,
+          "mean_distance_cm": 0.010007144716391494
+        }
+      ]
+    },
+    {
+      "source": "ozilV2",
+      "blend_files_in_recovered_archive_tree": [],
+      "models": [
+        {
+          "file": "face_high.fmdl",
+          "sha256": "102f8694f16478447eb5f72116268141a932f46e0c1ed9d594a24617eb4b2dd0",
+          "bones": 46,
+          "meshes": [
+            {
+              "material": "fox_skin_mat",
+              "vertices": 713,
+              "triangles": 1066,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_skin_mat",
+              "vertices": 806,
+              "triangles": 1387,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_skin_mat",
+              "vertices": 1089,
+              "triangles": 1743,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                0.9999999999999999,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_skin_mat",
+              "vertices": 153,
+              "triangles": 224,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_bsm.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_eyeOcclusion_mat",
+              "vertices": 16,
+              "triangles": 15,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "eye_occlusion_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_eyelash_mat",
+              "vertices": 99,
+              "triangles": 73,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_eyelash_alp.tga"
+                ]
+              ]
+            },
+            {
+              "material": "fox_eyeOcclusion_mat",
+              "vertices": 30,
+              "triangles": 31,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "eye_occlusion_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_eyelash_mat",
+              "vertices": 43,
+              "triangles": 31,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "face_eyelash_alp.tga"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "file": "hair_high.fmdl",
+          "sha256": "2accab694b40e916dff801f5dd6940c5392c63a83edf05c6e89faaf10c1c2384",
+          "bones": 11,
+          "meshes": [
+            {
+              "material": "fox_skin_mat",
+              "vertices": 425,
+              "triangles": 700,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "hair_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_hair_mat",
+              "vertices": 1731,
+              "triangles": 1840,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "hair_parts_bsm_alp.dds"
+                ]
+              ]
+            },
+            {
+              "material": "fox_head_shell_mat",
+              "vertices": 425,
+              "triangles": 700,
+              "finite_positions": true,
+              "weight_sum_min_max": [
+                1.0,
+                1.0
+              ],
+              "base_textures": [
+                [
+                  "Base_Tex_SRGB",
+                  "hair_bsm_alp.dds"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "hair_shell_distance_to_skin": [
+        {
+          "vertices": 425,
+          "fraction_within_0_05_cm_of_opaque_skin": 0.0,
+          "mean_distance_cm": 0.21077230056137225
+        }
+      ]
+    }
+  ],
+  "separate_2006_blender_reference_available": true,
+  "missing_source_or_bad_Blender_proven": false,
+  "notes": [
+    "No blend file in recovered 2017/2027 source archives. FMDL vertex positions and skin weight sums are finite.",
+    "FOX pass selection and atlas layout differ; neither proves the black-face root cause.",
+    "All 2027 hair-shell vertices lie within 0.05 cm of opaque skin; do not render those passes as additional opaque skin.",
+    "Ozil V2 uses face_bsm rather than face_bsm_alp, plus a separate hair_bsm_alp scalp tile. Native eye/oral assets replace unsupported PC common eye/oral dependencies."
+  ]
+}

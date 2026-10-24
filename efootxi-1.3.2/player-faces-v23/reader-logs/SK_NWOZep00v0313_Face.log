@@ -1,0 +1,118 @@
+Pak /workspace/ronaldo-work/v23-reader/pakchunk0-Android_ETC2.pak: 3901 files (43 encrypted), version 11
+Pak /workspace/ronaldo-work/v23-reader/pc0010_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v23-reader/pc0101_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v23-reader/pc0102_mobile_and.pak: 1 files, mount point: "/PesMobile/Content/Movies/PlayerCard/", version 11
+Pak /workspace/ronaldo-work/v23-reader/pc0103_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v23-reader/pc1000_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v23-reader/pc1001_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v23-reader/pc3611_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v23-reader/pc3611_mobile_and_optional.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v23-reader/pc3700_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v23-reader/pc9257_mobile_and.pak: 0 files, version 11
+Pak /workspace/ronaldo-work/v23-reader/pc9298_mobile_and.pak: 0 files, version 11
+Found 157519 game files (26 skipped) in 2497 folders at path "/workspace/ronaldo-work/v23-reader"
+Scanned game directory in 0.3 sec, 164642 allocs, 18.61 MBytes serialized in 4816 calls.
+Loaded in 0.0 sec, 500 allocs, 0.26 MBytes serialized in 66 calls.
+Loading SkeletalMesh4 SK_NWOZep00v0313_Face from package /Game/Assets/character/RealFace/SK_NWOZep00v0313_Face.uasset
+ArrayProperty: unknown USkeletalMesh4 AssetUserData
+RANGE BOUNDS_BEGIN 12591
+RANGE REF_BEGIN 12823
+RANGE REF_END 23459
+RANGE LOD_BEGIN 23467
+LOD audit: cooked_out=0 inlined=1 server_stripped=0
+RANGE SECTIONS_BEGIN 23813
+RANGE SECTION_BEGIN 23817
+RANGE SECTION_BEGIN 23906
+RANGE SECTIONS_END 23975
+RANGE ACTIVE_BEGIN 23975
+RANGE ACTIVE_END 24011
+RANGE BUFFERS_SIZE 24011
+RANGE STREAM_BEGIN 24015
+RANGE INDICES_BEGIN 24017
+RANGE POSITIONS_BEGIN 66494
+RANGE POSITIONS_END 127134
+RANGE TANGENT_UV_BEGIN 127134
+RANGE TANGENT_UV_END 208000
+RANGE SKIN_WEIGHTS_BEGIN 208000
+RANGE SKIN_WEIGHTS_END 248460
+RANGE STREAM_END 268690
+RANGE LOD_BEGIN 268690
+LOD audit: cooked_out=0 inlined=1 server_stripped=0
+RANGE SECTIONS_BEGIN 269010
+RANGE SECTION_BEGIN 269014
+RANGE SECTION_BEGIN 269089
+RANGE SECTIONS_END 269158
+RANGE ACTIVE_BEGIN 269158
+RANGE ACTIVE_END 269178
+RANGE BUFFERS_SIZE 269178
+RANGE STREAM_BEGIN 269182
+RANGE INDICES_BEGIN 269184
+RANGE POSITIONS_BEGIN 311661
+RANGE POSITIONS_END 372301
+RANGE TANGENT_UV_BEGIN 372301
+RANGE TANGENT_UV_END 453167
+RANGE SKIN_WEIGHTS_BEGIN 453167
+RANGE SKIN_WEIGHTS_END 493627
+RANGE STREAM_END 513857
+Loading Skeleton SKEL_Body from package /Game/Assets/character/Body/Skeleton/SKEL_Body.uasset
+StructProperty: unknown USkeleton VirtualBoneGuid
+Loading MaterialInstanceConstant MI_NWOZep00v0313_Head_FaceLegacy_HQ from package /Game/Assets/character/RealFace/MI_NWOZep00v0313_Head_FaceLegacy_HQ.uasset
+ArrayProperty: unknown UMaterialInstanceConstant CachedReferencedTextures
+Loading MaterialInstanceConstant MI_NW00OZ_Head_Hair_HQ from package /Game/Assets/character/RealFace/MI_NW00OZ_Head_Hair_HQ.uasset
+ArrayProperty: unknown UMaterialInstanceConstant CachedReferencedTextures
+Loading MaterialInstanceConstant MI_Head_Eyelash01Occlusion00 from package /Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/MI_Head_Eyelash01Occlusion00.uasset
+ArrayProperty: unknown UMaterialInstanceConstant CachedReferencedTextures
+Loading MaterialInstanceConstant MI_NWOZep00v0313_Head_FaceLegacy_MQ from package /Game/Assets/character/RealFace/MI_NWOZep00v0313_Head_FaceLegacy_MQ.uasset
+ArrayProperty: unknown UMaterialInstanceConstant CachedReferencedTextures
+Loading MaterialInstanceConstant MI_NW00OZ_Head_Hair_MQ from package /Game/Assets/character/RealFace/MI_NW00OZ_Head_Hair_MQ.uasset
+ArrayProperty: unknown UMaterialInstanceConstant CachedReferencedTextures
+Loading MaterialInstanceConstant MI_Head_FaceLegacy_HQ from package /Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/MI_Head_FaceLegacy_HQ.uasset
+ArrayProperty: unknown UMaterialInstanceConstant CachedReferencedTextures
+Loading Texture2D T_NWOZep00v0313_Face_D from package /Game/Assets/character/RealFace/T_NWOZep00v0313_Face_D.uasset
+Loading Texture2D T_NWOZep00v0313_Face_N from package /Game/Assets/character/RealFace/T_NWOZep00v0313_Face_N.uasset
+Loading Texture2D T_NWOZep00v0313_Face_SRO from package /Game/Assets/character/RealFace/T_NWOZep00v0313_Face_SRO.uasset
+Loading Material3 M_Head_Hair_HQ from package /Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Hair_HQ.uasset
+StructProperty: unknown UMaterial3 Metallic
+StructProperty: unknown UMaterial3 Specular
+Loading Texture2D T_NW00OZ_Hair_D from package /Game/Assets/character/RealFace/T_NW00OZ_Hair_D.uasset
+Loading Texture2D T_133157_Hair_High_SRO from package /Game/Assets/character/RealFace/T_133157_Hair_High_SRO.uasset
+Loading Material3 M_Head_EyelashOcclusion from package /Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_EyelashOcclusion.uasset
+StructProperty: unknown UMaterial3 Specular
+StructProperty: unknown UMaterial3 WorldPositionOffset
+ByteProperty: unknown UMaterial3 TranslucencyLightingMode
+BoolProperty: unknown UMaterial3 bCastRayTracedShadows
+Loading Texture2D T_Base_Eyelash01Occ00_D from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Eyelash01Occ00_D.uasset
+Loading Material3 M_Head_Face_MQ from package /Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_MQ.uasset
+StructProperty: unknown UMaterial3 Specular
+Loading Material3 M_Head_Face_HQ from package /Game/Assets/MaterialLibrary/Character/Head/MasterMaterials/M_Head_Face_HQ.uasset
+StructProperty: unknown UMaterial3 Metallic
+StructProperty: unknown UMaterial3 Specular
+Loading Texture2D T_Base_FaceLegacy_SRO from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_FaceLegacy_SRO.uasset
+Loading Texture2D T_Base_Hair_High_SRO from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Hair_High_SRO.uasset
+Loading Texture2D T_Base_Hair_D from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Hair_D.uasset
+Loading Texture2D T_Base_Eyelash00Occ00_D from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Eyelash00Occ00_D.uasset
+Loading Texture2D T_Base_Eyelash_Detail from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Eyelash_Detail.uasset
+Loading Texture2D T_Base_Face_D from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_D.uasset
+Loading Texture2D T_Base_Face_N from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_N.uasset
+Loading Texture2D T_Base_Face_S from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_S.uasset
+Loading Texture2D T_Base_Hair_Mask from package /Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Hair_Mask.uasset
+Exporting objects ...
+Exporting SkeletalMesh4 SK_NWOZep00v0313_Face to /workspace/ronaldo-work/v23-export/Game/Assets/character/RealFace/SK_NWOZep00v0313_Face.gltf
+ERROR: glTF animation could be exported from mesh viewer only.
+Exporting Texture2D T_NWOZep00v0313_Face_D to /workspace/ronaldo-work/v23-export/Game/Assets/character/RealFace/T_NWOZep00v0313_Face_D.png
+Exporting Texture2D T_NWOZep00v0313_Face_N to /workspace/ronaldo-work/v23-export/Game/Assets/character/RealFace/T_NWOZep00v0313_Face_N.png
+Exporting Texture2D T_NWOZep00v0313_Face_SRO to /workspace/ronaldo-work/v23-export/Game/Assets/character/RealFace/T_NWOZep00v0313_Face_SRO.png
+Exporting Texture2D T_NW00OZ_Hair_D to /workspace/ronaldo-work/v23-export/Game/Assets/character/RealFace/T_NW00OZ_Hair_D.png
+Exporting Texture2D T_133157_Hair_High_SRO to /workspace/ronaldo-work/v23-export/Game/Assets/character/RealFace/T_133157_Hair_High_SRO.png
+Exporting Texture2D T_Base_Eyelash01Occ00_D to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Eyelash01Occ00_D.png
+Exporting Texture2D T_Base_FaceLegacy_SRO to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_FaceLegacy_SRO.png
+Exporting Texture2D T_Base_Hair_High_SRO to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Hair_High_SRO.png
+Exporting Texture2D T_Base_Hair_D to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Hair_D.png
+Exporting Texture2D T_Base_Eyelash00Occ00_D to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Eyelash00Occ00_D.png
+Exporting Texture2D T_Base_Eyelash_Detail to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Eyelash_Detail.png
+Exporting Texture2D T_Base_Face_D to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_D.png
+Exporting Texture2D T_Base_Face_N to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_N.png
+Exporting Texture2D T_Base_Face_S to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Face_S.png
+Exporting Texture2D T_Base_Hair_Mask to /workspace/ronaldo-work/v23-export/Game/Assets/MaterialLibrary/Character/Head/CommonTextures/T_Base_Hair_Mask.png
+Memory: allocated 31399194 bytes in 7995 blocks
+Exported 16/16 objects in 1.2 sec
