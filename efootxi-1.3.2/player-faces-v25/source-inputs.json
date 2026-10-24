@@ -1,0 +1,10 @@
+{
+  "blender_commit": "e0acfc849a5dc573cc7cbb914e9239260c1fec3d",
+  "blender_sha256": "4d4726abb2d4c6d1db0e18f599e200e1960fa54d7b8380006c5bb0969a8a0d0d",
+  "baseline_v24_zip_sha256": "305e85113a2ff0ca7a3dea298edece59aa3abbea44197502e069e07bbeb5a2c9",
+  "export_npz_sha256": "79631417b01368af914550acbeb30851856637792e234acab2aeb68ea74a56a1",
+  "changed_card_ids": [
+    "88044950524330"
+  ],
+  "phone_verified": false
+}

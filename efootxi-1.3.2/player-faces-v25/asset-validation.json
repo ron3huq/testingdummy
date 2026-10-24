@@ -1,0 +1,90 @@
+{
+  "device_verified": false,
+  "meshes": [
+    {
+      "profile": "NV17",
+      "lods": 2,
+      "skin_uv_weights_accessories_and_topology_exact": true,
+      "native_skeleton_required166_153_exact": true,
+      "source_hair_and_sculpt_readback_match": true,
+      "working_ND06_materials_N_SRO_exact": true
+    },
+    {
+      "profile": "NV17lg00v0000",
+      "lods": 2,
+      "skin_uv_weights_accessories_and_topology_exact": true,
+      "native_skeleton_required166_153_exact": true,
+      "source_hair_and_sculpt_readback_match": true,
+      "working_ND06_materials_N_SRO_exact": true
+    },
+    {
+      "profile": "NV17ep01v0291",
+      "lods": 2,
+      "skin_uv_weights_accessories_and_topology_exact": true,
+      "native_skeleton_required166_153_exact": true,
+      "source_hair_and_sculpt_readback_match": true,
+      "working_ND06_materials_N_SRO_exact": true
+    },
+    {
+      "profile": "NV17ep00v0313",
+      "lods": 2,
+      "skin_uv_weights_accessories_and_topology_exact": true,
+      "native_skeleton_required166_153_exact": true,
+      "source_hair_and_sculpt_readback_match": true,
+      "working_ND06_materials_N_SRO_exact": true
+    }
+  ],
+  "status": "V25_ONE_CARD_ALL_OLD_CHUNKS_EXACT_NATIVE_READER_PASS",
+  "changed_old_chunks": [],
+  "removed_old_chunks": [],
+  "added_profile_files": [
+    "character/RealFace/MI_NV17_Head_FaceLegacy_HQ.uasset",
+    "character/RealFace/MI_NV17_Head_FaceLegacy_MQ.uasset",
+    "character/RealFace/MI_NV17ep00v0313_Head_FaceLegacy_HQ.uasset",
+    "character/RealFace/MI_NV17ep00v0313_Head_FaceLegacy_MQ.uasset",
+    "character/RealFace/MI_NV17ep01v0291_Head_FaceLegacy_HQ.uasset",
+    "character/RealFace/MI_NV17ep01v0291_Head_FaceLegacy_MQ.uasset",
+    "character/RealFace/MI_NV17lg00v0000_Head_FaceUpcon_HQ.uasset",
+    "character/RealFace/MI_NV17lg00v0000_Head_FaceUpcon_MQ.uasset",
+    "character/RealFace/MI_NVH1_Head_Hair_HQ.uasset",
+    "character/RealFace/MI_NVH1_Head_Hair_MQ.uasset",
+    "character/RealFace/SK_NV17_Face.uasset",
+    "character/RealFace/SK_NV17ep00v0313_Face.uasset",
+    "character/RealFace/SK_NV17ep01v0291_Face.uasset",
+    "character/RealFace/SK_NV17lg00v0000_Face.uasset",
+    "character/RealFace/T_NV17_Face_D.uasset",
+    "character/RealFace/T_NV17_Face_D.ubulk",
+    "character/RealFace/T_NV17_Face_N.uasset",
+    "character/RealFace/T_NV17_Face_N.ubulk",
+    "character/RealFace/T_NV17_Face_SRO.uasset",
+    "character/RealFace/T_NV17_Face_SRO.ubulk",
+    "character/RealFace/T_NV17ep00v0313_Face_D.uasset",
+    "character/RealFace/T_NV17ep00v0313_Face_D.ubulk",
+    "character/RealFace/T_NV17ep00v0313_Face_N.uasset",
+    "character/RealFace/T_NV17ep00v0313_Face_N.ubulk",
+    "character/RealFace/T_NV17ep00v0313_Face_SRO.uasset",
+    "character/RealFace/T_NV17ep00v0313_Face_SRO.ubulk",
+    "character/RealFace/T_NV17ep01v0291_Face_D.uasset",
+    "character/RealFace/T_NV17ep01v0291_Face_D.ubulk",
+    "character/RealFace/T_NV17ep01v0291_Face_N.uasset",
+    "character/RealFace/T_NV17ep01v0291_Face_N.ubulk",
+    "character/RealFace/T_NV17ep01v0291_Face_SRO.uasset",
+    "character/RealFace/T_NV17ep01v0291_Face_SRO.ubulk",
+    "character/RealFace/T_NV17lg00v0000_Face_D.uasset",
+    "character/RealFace/T_NV17lg00v0000_Face_D.ubulk",
+    "character/RealFace/T_NV17lg00v0000_Face_N.uasset",
+    "character/RealFace/T_NV17lg00v0000_Face_N.ubulk",
+    "character/RealFace/T_NV17lg00v0000_Face_SRO.uasset",
+    "character/RealFace/T_NV17lg00v0000_Face_SRO.ubulk",
+    "character/RealFace/T_NVH1_Hair_D.uasset",
+    "character/RealFace/T_NVH1_Hair_D.ubulk"
+  ],
+  "native_hair_dimensions": [
+    2048,
+    512
+  ],
+  "native_hair_format_and_dimensions_preserved": true,
+  "hair_rgb_MAE_opaque": 3.2365451233172684,
+  "hair_alpha_MAE": 0.8486175537109375,
+  "all_other_faces_kits_cards_working_assets_byte_exact": true
+}

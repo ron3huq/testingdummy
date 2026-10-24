@@ -1,0 +1,22 @@
+{
+  "status": "V25_R2017_THREE_VIEWS_CPU_BACKFACE_CULLING_PASS",
+  "views": [
+    {
+      "profile": "NV17",
+      "yaw": -55,
+      "visible_skin_pixels_with_backface_culling": 14185
+    },
+    {
+      "profile": "NV17",
+      "yaw": 0,
+      "visible_skin_pixels_with_backface_culling": 14414
+    },
+    {
+      "profile": "NV17",
+      "yaw": 55,
+      "visible_skin_pixels_with_backface_culling": 14782
+    }
+  ],
+  "scope": "static diffuse triangle review, not Unreal materials, animation or Android GPU",
+  "phone_tested": false
+}

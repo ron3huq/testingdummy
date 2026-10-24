@@ -1,0 +1,57 @@
+{
+  "status": "V25_COMPLETE_ZIP_HASH_CRC_PASS",
+  "file": "Faces-v25-Ronaldo2017-BlenderV3-test.zip",
+  "bytes": 92743905,
+  "sha256": "904565786fa8ca69418ab2f246c34b6a4a393b56599272eb2a402c39743fb5b5",
+  "changed_card_ids": [
+    "88044950524330"
+  ],
+  "device_verified": false,
+  "native_checks": 578,
+  "files": {
+    "work/tools/gateway_runtime.py": {
+      "bytes": 2441,
+      "sha256": "5b9a373cc8c17c1b725f0a5d9033fe5597199ca068b86d1ef4710aeb39e163f9"
+    },
+    "work/tools/noodle_hair.py": {
+      "bytes": 18827,
+      "sha256": "a2936fae92b7c8110d1db459c26b4f814d21e6983dbc84371fcead5815cc9d1f"
+    },
+    "work/tools/libnoodle_hair.so": {
+      "bytes": 98856,
+      "sha256": "7cb158c8a7b758f2c0809edb0edada81a33f6b5c4ea7317a58353dcd7add7d5b"
+    },
+    "work/tools/noodle_hair.json": {
+      "bytes": 16,
+      "sha256": "26b3426b2593763c96d0890b4a77a0bbf66d13fc512b0c6b138a23c290f30a2a"
+    },
+    "work/tools/noodle_bundle.json": {
+      "bytes": 2405,
+      "sha256": "31af45e240723dc76e2ff9df24f3a98d5c1e8730e6f71a47abe5f91e96e53033"
+    },
+    "work/tools/myleague_editor_runtime.py": {
+      "bytes": 9379,
+      "sha256": "dd45d9a1892f3d855ef3de2e89186d4a6b975d8835c46ef649dfa3a915cb513f"
+    },
+    "work/tools/select_team_runtime.py": {
+      "bytes": 19315,
+      "sha256": "02a00dc266b504e8ec273f874506024191d8377322ad9fb0272322cd6fce05ba"
+    },
+    "work/tools/libselect_team.so": {
+      "bytes": 203488,
+      "sha256": "1f1ad4ffee08464c01fd31bafb05e73a39a2eab987b3c726c121f768aba92292"
+    },
+    "livedata/pc9298_mobile_and.pak": {
+      "bytes": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "livedata/pc9298_mobile_and.utoc": {
+      "bytes": 111634,
+      "sha256": "8cfdf5027111c09127843dcca640ea1e06402ddc38d93f679c44c6f775db2b50"
+    },
+    "livedata/pc9298_mobile_and.ucas": {
+      "bytes": 93519091,
+      "sha256": "97cfdbfcfc23d6318b33293bc6c56ef391392f141233d9894f54253799226b53"
+    }
+  }
+}

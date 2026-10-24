@@ -1,0 +1,345 @@
+{
+  "status": "V25_TARGET_2017_BUILT_NOT_DEVICE_VERIFIED",
+  "changed_card_id": "88044950524330",
+  "base": "phone-proven ND06 native materials/skeleton/skin topology",
+  "heads": [
+    {
+      "profile": "NV17",
+      "skin_vertices": 2504,
+      "hair_vertices": 6637,
+      "skin_weights_uv_triangles_native_accessories_unchanged": true,
+      "source_sculpt_delta_applied": true,
+      "max_sculpt_cm": 0.5763956926667756,
+      "native166_153_skeleton_unchanged": true,
+      "original_face_alpha_normal_SRO_preserved": true,
+      "mip_rgb_and_alpha_retention": [
+        {
+          "mip": 0,
+          "unchanged_rgb_blocks_retained": 237753,
+          "edited_skin_rgb_blocks": 24391,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 1,
+          "unchanged_rgb_blocks_retained": 59177,
+          "edited_skin_rgb_blocks": 6359,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 2,
+          "unchanged_rgb_blocks_retained": 14714,
+          "edited_skin_rgb_blocks": 1670,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 3,
+          "unchanged_rgb_blocks_retained": 3643,
+          "edited_skin_rgb_blocks": 453,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 4,
+          "unchanged_rgb_blocks_retained": 897,
+          "edited_skin_rgb_blocks": 127,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 5,
+          "unchanged_rgb_blocks_retained": 220,
+          "edited_skin_rgb_blocks": 36,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 6,
+          "unchanged_rgb_blocks_retained": 53,
+          "edited_skin_rgb_blocks": 11,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 7,
+          "unchanged_rgb_blocks_retained": 13,
+          "edited_skin_rgb_blocks": 3,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 8,
+          "unchanged_rgb_blocks_retained": 3,
+          "edited_skin_rgb_blocks": 1,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 9,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 10,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 11,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        }
+      ]
+    },
+    {
+      "profile": "NV17lg00v0000",
+      "skin_vertices": 2504,
+      "hair_vertices": 6637,
+      "skin_weights_uv_triangles_native_accessories_unchanged": true,
+      "source_sculpt_delta_applied": true,
+      "max_sculpt_cm": 0.5763956926667756,
+      "native166_153_skeleton_unchanged": true,
+      "original_face_alpha_normal_SRO_preserved": true,
+      "mip_rgb_and_alpha_retention": [
+        {
+          "mip": 0,
+          "unchanged_rgb_blocks_retained": 237753,
+          "edited_skin_rgb_blocks": 24391,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 1,
+          "unchanged_rgb_blocks_retained": 59177,
+          "edited_skin_rgb_blocks": 6359,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 2,
+          "unchanged_rgb_blocks_retained": 14714,
+          "edited_skin_rgb_blocks": 1670,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 3,
+          "unchanged_rgb_blocks_retained": 3643,
+          "edited_skin_rgb_blocks": 453,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 4,
+          "unchanged_rgb_blocks_retained": 897,
+          "edited_skin_rgb_blocks": 127,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 5,
+          "unchanged_rgb_blocks_retained": 220,
+          "edited_skin_rgb_blocks": 36,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 6,
+          "unchanged_rgb_blocks_retained": 53,
+          "edited_skin_rgb_blocks": 11,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 7,
+          "unchanged_rgb_blocks_retained": 13,
+          "edited_skin_rgb_blocks": 3,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 8,
+          "unchanged_rgb_blocks_retained": 3,
+          "edited_skin_rgb_blocks": 1,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 9,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 10,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 11,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        }
+      ]
+    },
+    {
+      "profile": "NV17ep01v0291",
+      "skin_vertices": 2504,
+      "hair_vertices": 6637,
+      "skin_weights_uv_triangles_native_accessories_unchanged": true,
+      "source_sculpt_delta_applied": true,
+      "max_sculpt_cm": 0.5763956926667756,
+      "native166_153_skeleton_unchanged": true,
+      "original_face_alpha_normal_SRO_preserved": true,
+      "mip_rgb_and_alpha_retention": [
+        {
+          "mip": 0,
+          "unchanged_rgb_blocks_retained": 237753,
+          "edited_skin_rgb_blocks": 24391,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 1,
+          "unchanged_rgb_blocks_retained": 59177,
+          "edited_skin_rgb_blocks": 6359,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 2,
+          "unchanged_rgb_blocks_retained": 14714,
+          "edited_skin_rgb_blocks": 1670,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 3,
+          "unchanged_rgb_blocks_retained": 3643,
+          "edited_skin_rgb_blocks": 453,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 4,
+          "unchanged_rgb_blocks_retained": 897,
+          "edited_skin_rgb_blocks": 127,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 5,
+          "unchanged_rgb_blocks_retained": 220,
+          "edited_skin_rgb_blocks": 36,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 6,
+          "unchanged_rgb_blocks_retained": 53,
+          "edited_skin_rgb_blocks": 11,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 7,
+          "unchanged_rgb_blocks_retained": 13,
+          "edited_skin_rgb_blocks": 3,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 8,
+          "unchanged_rgb_blocks_retained": 3,
+          "edited_skin_rgb_blocks": 1,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 9,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 10,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 11,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        }
+      ]
+    },
+    {
+      "profile": "NV17ep00v0313",
+      "skin_vertices": 2504,
+      "hair_vertices": 6637,
+      "skin_weights_uv_triangles_native_accessories_unchanged": true,
+      "source_sculpt_delta_applied": true,
+      "max_sculpt_cm": 0.5763956926667756,
+      "native166_153_skeleton_unchanged": true,
+      "original_face_alpha_normal_SRO_preserved": true,
+      "mip_rgb_and_alpha_retention": [
+        {
+          "mip": 0,
+          "unchanged_rgb_blocks_retained": 237753,
+          "edited_skin_rgb_blocks": 24391,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 1,
+          "unchanged_rgb_blocks_retained": 59177,
+          "edited_skin_rgb_blocks": 6359,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 2,
+          "unchanged_rgb_blocks_retained": 14714,
+          "edited_skin_rgb_blocks": 1670,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 3,
+          "unchanged_rgb_blocks_retained": 3643,
+          "edited_skin_rgb_blocks": 453,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 4,
+          "unchanged_rgb_blocks_retained": 897,
+          "edited_skin_rgb_blocks": 127,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 5,
+          "unchanged_rgb_blocks_retained": 220,
+          "edited_skin_rgb_blocks": 36,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 6,
+          "unchanged_rgb_blocks_retained": 53,
+          "edited_skin_rgb_blocks": 11,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 7,
+          "unchanged_rgb_blocks_retained": 13,
+          "edited_skin_rgb_blocks": 3,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 8,
+          "unchanged_rgb_blocks_retained": 3,
+          "edited_skin_rgb_blocks": 1,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 9,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 10,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        },
+        {
+          "mip": 11,
+          "unchanged_rgb_blocks_retained": 1,
+          "edited_skin_rgb_blocks": 0,
+          "all_original_alpha_blocks_exact": true
+        }
+      ]
+    }
+  ],
+  "all_old_v24_chunks_retained_byte_exact": true,
+  "device_verified": false
+}

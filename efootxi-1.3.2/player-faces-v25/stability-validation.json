@@ -1,0 +1,6 @@
+{
+  "status": "ONLY_R2017_PROFILE_STRING_CHANGED_PASS",
+  "other_native_behavior_exact_v24": true,
+  "new_hook_queries_or_render_writes": false,
+  "changed_card_id": "88044950524330"
+}
