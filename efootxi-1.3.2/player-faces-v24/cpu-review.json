@@ -1,0 +1,67 @@
+{
+  "status": "V24_FOUR_HEADS_THREE_VIEWS_CPU_BACKFACE_CULLING_PASS",
+  "views": [
+    {
+      "profile": "NX01",
+      "yaw": -55,
+      "visible_skin_pixels_with_backface_culling": 15690
+    },
+    {
+      "profile": "NX01",
+      "yaw": 0,
+      "visible_skin_pixels_with_backface_culling": 15729
+    },
+    {
+      "profile": "NX01",
+      "yaw": 55,
+      "visible_skin_pixels_with_backface_culling": 15931
+    },
+    {
+      "profile": "NXJR",
+      "yaw": -55,
+      "visible_skin_pixels_with_backface_culling": 14404
+    },
+    {
+      "profile": "NXJR",
+      "yaw": 0,
+      "visible_skin_pixels_with_backface_culling": 14348
+    },
+    {
+      "profile": "NXJR",
+      "yaw": 55,
+      "visible_skin_pixels_with_backface_culling": 14419
+    },
+    {
+      "profile": "NXNC",
+      "yaw": -55,
+      "visible_skin_pixels_with_backface_culling": 13957
+    },
+    {
+      "profile": "NXNC",
+      "yaw": 0,
+      "visible_skin_pixels_with_backface_culling": 13984
+    },
+    {
+      "profile": "NXNC",
+      "yaw": 55,
+      "visible_skin_pixels_with_backface_culling": 13911
+    },
+    {
+      "profile": "NX27",
+      "yaw": -55,
+      "visible_skin_pixels_with_backface_culling": 14665
+    },
+    {
+      "profile": "NX27",
+      "yaw": 0,
+      "visible_skin_pixels_with_backface_culling": 14493
+    },
+    {
+      "profile": "NX27",
+      "yaw": 55,
+      "visible_skin_pixels_with_backface_culling": 14753
+    }
+  ],
+  "scope": "static diffuse triangle review, not Unreal materials, animation or Android GPU",
+  "phone_tested": false
+}

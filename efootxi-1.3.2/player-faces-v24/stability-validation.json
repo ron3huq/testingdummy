@@ -1,0 +1,6 @@
+{
+  "status": "V24_ONLY_FOUR_PROFILE_MAPPINGS_CHANGED_NO_PROBE_FULL64_PASS",
+  "native_behavior_exact_v23_except_four_profile_mappings": true,
+  "no_new_engine_queries_or_render_writes": true,
+  "phone_tested": false
+}

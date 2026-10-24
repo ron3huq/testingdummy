@@ -1,0 +1,343 @@
+{
+  "mappings": [
+    {
+      "card": "88044950524330",
+      "archive": "PES 2017 C. Ronaldo 2017-18 by RP Facemaker_moddingway.ir.rar",
+      "archive_bytes": 10108290,
+      "sha256": "cd8fc601d20702da5fafaee4f4f91b1adb068c16b63f4dba656cbf9db5288f91",
+      "source_format": "PES17 model",
+      "variant": "No Real Eyes",
+      "hair_model": "hair_style",
+      "extracted_files": [
+        {
+          "file": "@#$*aaaaaaaa/@#$*aaaaaaaa",
+          "bytes": 4
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/eye_occlusion.dds",
+          "bytes": 4812
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face.dds",
+          "bytes": 519024
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face.mtl",
+          "bytes": 440
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face.xml",
+          "bytes": 1608
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face_high_win32.model",
+          "bytes": 316995
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face_normal.dds",
+          "bytes": 1162985
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face_specular_roughness.dds",
+          "bytes": 560111
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair.mtl",
+          "bytes": 379
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_col.dds",
+          "bytes": 61841
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_d_win32.model",
+          "bytes": 31210
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_high_win32.model",
+          "bytes": 740687
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_parts_col.dds",
+          "bytes": 363271
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_parts_col2.dds",
+          "bytes": 294253
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_parts_spe.dds",
+          "bytes": 56793
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_spe.dds",
+          "bytes": 202
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_style.mtl",
+          "bytes": 2475
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_style_win32.model",
+          "bytes": 312830
+        },
+        {
+          "file": "common/character1/model/character/uniform/dummy/dummy1.cache",
+          "bytes": 954608
+        },
+        {
+          "file": "common/character1/model/character/uniform/dummy/dummy2.cache",
+          "bytes": 16600
+        },
+        {
+          "file": "common/character1/model/character/uniform/dummy/dummy3.cache",
+          "bytes": 1358040
+        }
+      ]
+    },
+    {
+      "card": "105765448873424",
+      "archive": "Cristiano Ronaldo V6 PES2017 by Prince Shieka_moddingway.ir.rar",
+      "archive_bytes": 3864272,
+      "sha256": "0c8acbacee953e937ce03a79ee84a630b674ae5ee9ed8db25f9e08ac605560b6",
+      "source_format": "PES17 model",
+      "variant": "default",
+      "hair_model": "hair_2",
+      "extracted_files": [
+        {
+          "file": "common/character0/model/character/face/real/4522/eye_occlusion.dds",
+          "bytes": 5551
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face.dds",
+          "bytes": 1398256
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face.mtl",
+          "bytes": 440
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face.xml",
+          "bytes": 1603
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face_high_win32.model",
+          "bytes": 151588
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face_normal.dds",
+          "bytes": 1398256
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face_specular_roughness.dds",
+          "bytes": 699192
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair.mtl",
+          "bytes": 379
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_2_win32.model",
+          "bytes": 440891
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_col.dds",
+          "bytes": 174928
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_d_win32.model",
+          "bytes": 36933
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_high_win32.model",
+          "bytes": 69343
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_parts_col.dds",
+          "bytes": 349680
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_parts_spe.dds",
+          "bytes": 349712
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_spe.dds",
+          "bytes": 9167
+        }
+      ]
+    },
+    {
+      "card": "105807861630781",
+      "archive": "Cristiano Ronaldo Nodle Hair Pes 2021 From FIFA_moddingway.ir.rar",
+      "archive_bytes": 10459911,
+      "sha256": "b936df861932c023f0a722be12d208000472bbeffda231256f1104b9e1e68cc5",
+      "source_format": "FMDL",
+      "variant": "default",
+      "hair_model": "hair_high",
+      "extracted_files": [
+        {
+          "file": "Asset/model/character/face/real/4522/#Win/face.fpk",
+          "bytes": 449536
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/#Win/face.fpkd",
+          "bytes": 48
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/arm_bsm.ftex",
+          "bytes": 1803392
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/eye_occlusion_alp.ftex",
+          "bytes": 5408
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/eye_sclera_bsm.ftex",
+          "bytes": 78864
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/face_bsm_alp.ftex",
+          "bytes": 714488
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/face_nrm.ftex",
+          "bytes": 1203888
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/face_srm.ftex",
+          "bytes": 594520
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/face_trm.ftex",
+          "bytes": 396992
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_alpha8.ftex",
+          "bytes": 61048
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+          "bytes": 1137464
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_parts_nrm.ftex",
+          "bytes": 336080
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_parts_srm.ftex",
+          "bytes": 99504
+        },
+        {
+          "file": "Asset/model/character/face/real/4522/sourceimages/#windx11/hair_parts_trm.ftex",
+          "bytes": 93104
+        }
+      ]
+    },
+    {
+      "card": "106734785925546",
+      "archive": "ronaldo2027.rar",
+      "archive_bytes": 7315571,
+      "sha256": "770a4c2ef0cbf3e5077de40ed23ec57026bf233af0b3753a1625629620fd8037",
+      "source_format": "PES17 model",
+      "variant": "default",
+      "hair_model": "hair_high",
+      "extracted_files": [
+        {
+          "file": "common/character0/model/character/face/real/4522/eye_color.dds",
+          "bytes": 65664
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/eye_color_sub.dds",
+          "bytes": 22000
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/eye_normal.dds",
+          "bytes": 87536
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/eye_occlusion.dds",
+          "bytes": 11056
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/eye_specular_roughness.dds",
+          "bytes": 16512
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/eye_translucent_height.dds",
+          "bytes": 144
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/eye_view_reflection.dds",
+          "bytes": 16512
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face.dds",
+          "bytes": 1048704
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face.mtl",
+          "bytes": 3151
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face.xml",
+          "bytes": 1600
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face_high_win32.model",
+          "bytes": 419902
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face_normal.dds",
+          "bytes": 1048704
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/face_specular_roughness.dds",
+          "bytes": 1048704
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair.mtl",
+          "bytes": 3419
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hairHi.mtl",
+          "bytes": 411
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_col.dds",
+          "bytes": 174928
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_d_win32.model",
+          "bytes": 36897
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_high_win32.model",
+          "bytes": 464062
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_parts_col.dds",
+          "bytes": 1398256
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_parts_spe.dds",
+          "bytes": 174904
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/hair_spe.dds",
+          "bytes": 32896
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/mouthHi.mtl",
+          "bytes": 1129
+        },
+        {
+          "file": "common/character0/model/character/face/real/4522/oral_win32.model",
+          "bytes": 19292
+        }
+      ]
+    }
+  ],
+  "FIFA_face_and_hair_FMDL_byte_identical_to_prior_2017_source": true,
+  "archive_notes_not_executed_as_instructions": true,
+  "native_eye_oral_reused": true
+}

@@ -1,0 +1,44 @@
+{
+  "status": "V24_DXT5NM_ALPHA_GREEN_NATIVE_READBACK_PASS",
+  "profiles": [
+    {
+      "profile": "NX01",
+      "decoded_normal_mean_absolute_error": 0.0212270321753521,
+      "normal_source_X_channel": "A",
+      "normal_source_Y_channel": "G",
+      "source_R_std": 0.06389108253363059,
+      "source_A_std": 0.06380537244451238,
+      "mean_reconstructed_Z": 0.982657664326003
+    },
+    {
+      "profile": "NX27",
+      "decoded_normal_mean_absolute_error": 0.022295706432790524,
+      "normal_source_X_channel": "A",
+      "normal_source_Y_channel": "G",
+      "source_R_std": 0.05211637130467117,
+      "source_A_std": 0.04289714339810768,
+      "mean_reconstructed_Z": 0.9908087950430928
+    },
+    {
+      "profile": "NXJR",
+      "decoded_normal_mean_absolute_error": 0.0358775512873126,
+      "normal_source_X_channel": "A",
+      "normal_source_Y_channel": "G",
+      "source_R_std": 0.06475336289795051,
+      "source_A_std": 0.06899863066865164,
+      "mean_reconstructed_Z": 0.9814956352891429
+    },
+    {
+      "profile": "NXNC",
+      "decoded_normal_mean_absolute_error": 0.03588526120181636,
+      "normal_source_X_channel": "A",
+      "normal_source_Y_channel": "G",
+      "source_R_std": 0.0,
+      "source_A_std": 0.0690010328250201,
+      "mean_reconstructed_Z": 0.9814937476593593
+    }
+  ],
+  "v23_FIFA_R_equals_255_was_proven_incorrect_X_source": true,
+  "does_not_prove_sole_cause_of_black_faces": true,
+  "phone_tested": false
+}

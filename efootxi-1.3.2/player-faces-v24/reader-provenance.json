@@ -1,0 +1,10 @@
+{
+  "PES17_ModelFile": {
+    "repo": "https://github.com/the4chancup/pes-model-blender",
+    "commit": "0cc551bafe9d23dfd6836bc4509150729866b85a"
+  },
+  "FMDL": {
+    "repo": "https://github.com/the4chancup/pes-fmdl-blender",
+    "commit": "231093d3a056176b8d6e33e79d13f5563b27b985"
+  }
+}
