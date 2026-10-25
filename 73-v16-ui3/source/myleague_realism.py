@@ -147,7 +147,7 @@ def _hierarchy_score(season,home,away,rng):
     ht,at=tiers[str(home)],tiers[str(away)]
     strengths={'122':[2.15,1.9,1.1,.1,-1.15],
                '128':[2.1,1.55,.75,.4,-.5],
-               
+
                '549':[2.1,1.1,.2]}
     values=strengths.get(cid)
     if not values:return None
