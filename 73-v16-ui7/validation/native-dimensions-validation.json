@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "unchanged production ARM64 editor writes exact height47/weight48",
+    "original73 native parameter getters read back190cm/88kg",
+    "all other145 parameters unchanged",
+    "works global/Y08/Y17/other competition scopes"
+  ],
+  "synthetic_records": true,
+  "device_tested": false
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "static_native_canvas": true,
+  "shared_earth_bitmap_pixels": [
+    384,
+    384
+  ],
+  "bitmap_bytes": 589824,
+  "star_points_per_background": 48,
+  "no_animation_timer": true,
+  "no_network_images_or_video": true,
+  "no_allocation_inside_draw": true,
+  "existing_launcher_layout_and_handlers_retained": true,
+  "new_measurement_dialog_scrollable": true,
+  "measurement_io_off_main_thread": true,
+  "catalogue_index_and_filter_off_main_thread": true,
+  "debounce_ms": 120,
+  "superseded_search_cancelled": true,
+  "view_detach_stops_executor": true,
+  "device_fps_measured": false
+}

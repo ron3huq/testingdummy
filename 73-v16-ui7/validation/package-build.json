@@ -1,0 +1,27 @@
+{
+  "parts": [
+    {
+      "file": "V25-73-UI7-FULL-Part1-Faces-MT.zip",
+      "bytes": 92617158,
+      "sha256": "936558cb02c6aa480a66365c8e5dff7527b7ee3f06526403469613f1825d4e4f",
+      "entries": 3
+    },
+    {
+      "file": "V25-73-UI7-FULL-Part2-Main-MT.zip",
+      "bytes": 15766913,
+      "sha256": "7117101879c5acfee4ffa8591a5be3df0b7e82ed2f10ad4f9cc53813ea4944cc",
+      "entries": 58
+    }
+  ],
+  "changed_gateway_files": 50,
+  "critical_files": 45,
+  "changed_frontend_assets": 7,
+  "stock_manifest_entries": 7331,
+  "full_manifest_entries": 7380,
+  "carried_from_v25": [
+    "livedata/pc9298_mobile_and.pak",
+    "livedata/pc9298_mobile_and.ucas",
+    "livedata/pc9298_mobile_and.utoc",
+    "work/tools/noodle_hair.json"
+  ]
+}

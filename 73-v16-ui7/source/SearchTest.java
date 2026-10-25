@@ -1,0 +1,12 @@
+import org.efootballrevival.runtimeprobe.*;import org.json.*;import java.util.*;
+public class SearchTest{
+ static void check(boolean ok){if(!ok)throw new AssertionError();}
+ static JSONObject row(String n,String id,int pos,int ovr,int owned)throws Exception{return new JSONObject().put("name",n).put("id",id).put("position",pos).put("overall",ovr).put("owned",owned).put("level_limit",10+ovr).put("card_type_label","Legendary");}
+ public static void main(String[] args)throws Exception{
+  String[][] cases={{"kaka","Kaká"},{"KAKÁ","Kaka"},{"kaka","Kaka\u0301"},{"muller","Müller"},{"joao felix","João Félix"},{"dang van lam","Đặng Văn Lâm"},{"haaland","Haaland"},{"strasse","Straße"},{"89136418985303","C.Ronaldo 89136418985303"}};
+  for(String[] c:cases)check(EditorSearch.matches(c[0],c[1],0,false,false,false));check(!EditorSearch.matches("kaka", "Kaká",1,false,true,false));check(EditorSearch.matches("kaka", "Kaká",1,true,false,false));check(!EditorSearch.matches("", "Kaká",4,false,true,false));
+  JSONArray rows=new JSONArray().put(row("Kaká","1",9,96,2)).put(row("João Félix","2",9,93,0)).put(row("Gerd Müller","3",12,98,1));String before=rows.toString();PlayerSearchIndex idx=new PlayerSearchIndex(rows,new JSONArray(),x->x,()->false);
+  check(idx.filter("kaka",-1,"",0,()->false).get(0).getString("name").equals("Kaká"));check(idx.filter("joao 2",9,"Legendary",0,()->false).size()==1);check(idx.filter("joao",12,"",0,()->false).isEmpty());check(idx.filter("",-1,"",0,()->false).get(0).getString("id").equals("3"));check(idx.filter("",-1,"",3,()->false).get(0).getString("id").equals("2"));check(rows.toString().equals(before));boolean cancelled=false;try{idx.filter("",-1,"",0,()->true);}catch(java.util.concurrent.CancellationException e){cancelled=true;}check(cancelled);
+  JSONArray large=new JSONArray();for(int i=0;i<50000;i++)large.put(row(i%2==0?"Kaká "+i:"João Félix "+i,String.valueOf(80000000000000L+i),i%13,80+i%19,i%3));long t=System.nanoTime();PlayerSearchIndex big=new PlayerSearchIndex(large,new JSONArray(),x->x,()->false);double build=(System.nanoTime()-t)/1e6;big.filter("kaka",-1,"",0,()->false);t=System.nanoTime();for(int i=0;i<20;i++)big.filter(i%2==0?"kaka 200":"joao 499",-1,"",0,()->false);double warm=(System.nanoTime()-t)/1e6/20;System.out.printf(java.util.Locale.ROOT,"{\"passed\":true,\"fixture_rows\":50000,\"host_index_build_ms\":%.2f,\"host_warm_query_average_ms\":%.2f,\"device_tested\":false}%n",build,warm);
+ }
+}

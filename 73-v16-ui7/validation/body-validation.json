@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "only parameters47/48 and matching career base changed; progression/skills/boosters intact",
+    "selected SQL card instance only; exact64 ID lookup",
+    "indexed read: first2 SQL, repeated1 SQL; wire projection zero SQL",
+    "strict bounds and owned-card validation",
+    "SQL/config rollback on injected write failure",
+    "edit blocked while engine loaded",
+    "dimensions persist and survive startup skill migration"
+  ],
+  "device_tested": false
+}

@@ -1,0 +1,90 @@
+{
+  "version": "player-faces-v25-73-v16-port-test",
+  "target_card_ids": [
+    "88044950524330",
+    "89135066911146",
+    "106781745353130",
+    "106734785925546",
+    "105765448873424",
+    "88045755960841",
+    "88038776539586",
+    "105643042189511",
+    "106728863696709",
+    "105848932271764",
+    "105874433662542",
+    "88033139360669",
+    "106726716084650",
+    "106778792700170",
+    "105807861630781",
+    "176104",
+    "84062184",
+    "89138556572074",
+    "89136418985303"
+  ],
+  "container": "pc9298_mobile_and",
+  "files": {
+    "pc9298_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "pc9298_mobile_and.ucas": {
+      "size": 93519091,
+      "sha256": "97cfdbfcfc23d6318b33293bc6c56ef391392f141233d9894f54253799226b53"
+    },
+    "pc9298_mobile_and.utoc": {
+      "size": 111634,
+      "sha256": "8cfdf5027111c09127843dcca640ea1e06402ddc38d93f679c44c6f775db2b50"
+    }
+  },
+  "native_sha256": "746e0a1767c5c0917d3559fd5d29ed24b21ca0030897361ff89755945d5aec86",
+  "asset_revision": "v25-only-R2017-V3-on-working-2006-base",
+  "active_head_bones": [
+    15,
+    8
+  ],
+  "reference_skeleton_bones": 166,
+  "appearance_files": {
+    "select_team_runtime.py": "4561e1cfbc6978c754074fa129823cb4bb2f7e3afbb8c0b991f8526d5e8ab15e",
+    "libselect_team.so": "4649bdfa69b23fd690a184b2fc7018247d4f0f171f6b916b234d364581383f07",
+    "myleague_editor_runtime.py": "f74ac96a96410633ce4953ddbf01a87464f4ca267d96e8bb3a9296e535218179"
+  },
+  "appearance_overlay_sha256": "f74ac96a96410633ce4953ddbf01a87464f4ca267d96e8bb3a9296e535218179",
+  "phone_tested": false,
+  "replay_verified": false,
+  "retarget": "named Android eye/jaw/eyelid controls, reduced PC facial rig; not all PC expressions",
+  "accessory_source": "135 vertices from original Android face section; PC oral.fmdl inspected but not used with missing FOX common oral textures",
+  "four_black_faces_renderer_verified_fixed": false,
+  "jersey_names_device_verified_fixed": false,
+  "v22_draw_probe_removed": true,
+  "v22_test_material_control_removed": true,
+  "v22_Ex_atlas_additions_removed": true,
+  "source_profiles": {
+    "88044950524330": "NV17-2006-base-R2017-Blender-V3",
+    "105765448873424": "NXJR-Prince",
+    "105807861630781": "NXNC-FIFA",
+    "106734785925546": "NX27-Kodigo"
+  },
+  "black_faces_verified_fixed": false,
+  "experimental_changed_card_ids": [
+    "88044950524330"
+  ],
+  "new_2017_profile": "NV17",
+  "all_other_v24_assets_byte_exact": true,
+  "device_verified": false,
+  "base_package": "com.efootball.revival.local",
+  "engine_sha256": "efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8",
+  "myleague_port": "v25-73-full1",
+  "editor_ui": "73-ui7-full-earth-accent-search-on-demand-dimensions",
+  "face_copies": [
+    {
+      "source": "106734785925546",
+      "destination": "89138556572074",
+      "profile": "NX27"
+    },
+    {
+      "source": "88044950524330",
+      "destination": "89136418985303",
+      "profile": "NV17"
+    }
+  ]
+}
