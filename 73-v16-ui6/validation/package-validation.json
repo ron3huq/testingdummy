@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "manifest_entries": 7379,
+  "patch_entries": 384,
+  "repair_manifest_immutable_entries": 43,
+  "all_repair_sources_exist_in_APK_or_patch": true,
+  "original_face_assets_unchanged": true,
+  "19_face_targets_with_two_exact_aliases": true,
+  "10_component_reports_passed": true,
+  "save_and_mutable_editor_configuration_not_repaired_over": true,
+  "ZIP_SHA256": "3aea04a659bfe0aabc28434bbf3fdf7e9f7410252f31cf639f524118f8e50a3d",
+  "device_tested": false
+}

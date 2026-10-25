@@ -1,0 +1,266 @@
+[
+  {
+    "team": 1706,
+    "donor": 352,
+    "source": "common/etc/uniform/team/352/352_DEF_1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1706/1706_DEF_1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 96
+  },
+  {
+    "team": 1706,
+    "donor": 352,
+    "source": "common/etc/uniform/team/352/352_DEF_2nd_realUni.bin",
+    "destination": "common/etc/uniform/team/1706/1706_DEF_2nd_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 91
+  },
+  {
+    "team": 1706,
+    "donor": 352,
+    "source": "common/etc/uniform/team/352/352_DEF_GK1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1706/1706_DEF_GK1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 91
+  },
+  {
+    "team": 4937,
+    "donor": 242,
+    "source": "common/etc/uniform/team/242/242_DEF_1st_realUni.bin",
+    "destination": "common/etc/uniform/team/4937/4937_DEF_1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 93
+  },
+  {
+    "team": 4937,
+    "donor": 242,
+    "source": "common/etc/uniform/team/242/242_DEF_2nd_realUni.bin",
+    "destination": "common/etc/uniform/team/4937/4937_DEF_2nd_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 97
+  },
+  {
+    "team": 4937,
+    "donor": 242,
+    "source": "common/etc/uniform/team/242/242_DEF_GK1st_realUni.bin",
+    "destination": "common/etc/uniform/team/4937/4937_DEF_GK1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 95
+  },
+  {
+    "team": 1957,
+    "donor": 108,
+    "source": "common/etc/uniform/team/108/108_DEF_1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1957/1957_DEF_1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 100
+  },
+  {
+    "team": 1957,
+    "donor": 108,
+    "source": "common/etc/uniform/team/108/108_DEF_2nd_realUni.bin",
+    "destination": "common/etc/uniform/team/1957/1957_DEF_2nd_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 97
+  },
+  {
+    "team": 1957,
+    "donor": 108,
+    "source": "common/etc/uniform/team/108/108_DEF_3rd_realUni.bin",
+    "destination": "common/etc/uniform/team/1957/1957_DEF_3rd_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 102
+  },
+  {
+    "team": 1957,
+    "donor": 108,
+    "source": "common/etc/uniform/team/108/108_DEF_GK1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1957/1957_DEF_GK1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 96
+  },
+  {
+    "team": 1956,
+    "donor": 121,
+    "source": "common/etc/uniform/team/121/121_DEF_1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1956/1956_DEF_1st_realUni.bin",
+    "archive": "original-dt870.cpk",
+    "bytes": 94
+  },
+  {
+    "team": 1956,
+    "donor": 121,
+    "source": "common/etc/uniform/team/121/121_DEF_2nd_realUni.bin",
+    "destination": "common/etc/uniform/team/1956/1956_DEF_2nd_realUni.bin",
+    "archive": "original-dt870.cpk",
+    "bytes": 99
+  },
+  {
+    "team": 1956,
+    "donor": 121,
+    "source": "common/etc/uniform/team/121/121_DEF_3rd_realUni.bin",
+    "destination": "common/etc/uniform/team/1956/1956_DEF_3rd_realUni.bin",
+    "archive": "original-dt870.cpk",
+    "bytes": 96
+  },
+  {
+    "team": 1956,
+    "donor": 121,
+    "source": "common/etc/uniform/team/121/121_DEF_GK1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1956/1956_DEF_GK1st_realUni.bin",
+    "archive": "original-dt870.cpk",
+    "bytes": 97
+  },
+  {
+    "team": 4962,
+    "donor": 120,
+    "source": "common/etc/uniform/team/120/120_DEF_1st.bin",
+    "destination": "common/etc/uniform/team/4962/4962_DEF_1st.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 4962,
+    "donor": 120,
+    "source": "common/etc/uniform/team/120/120_DEF_2nd.bin",
+    "destination": "common/etc/uniform/team/4962/4962_DEF_2nd.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 4962,
+    "donor": 120,
+    "source": "common/etc/uniform/team/120/120_DEF_GK1st.bin",
+    "destination": "common/etc/uniform/team/4962/4962_DEF_GK1st.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 4964,
+    "donor": 102,
+    "source": "common/etc/uniform/team/102/102_DEF_1st.bin",
+    "destination": "common/etc/uniform/team/4964/4964_DEF_1st.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 4964,
+    "donor": 102,
+    "source": "common/etc/uniform/team/102/102_DEF_2nd.bin",
+    "destination": "common/etc/uniform/team/4964/4964_DEF_2nd.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 4964,
+    "donor": 102,
+    "source": "common/etc/uniform/team/102/102_DEF_GK1st.bin",
+    "destination": "common/etc/uniform/team/4964/4964_DEF_GK1st.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 4938,
+    "donor": 103,
+    "source": "common/etc/uniform/team/103/103_DEF_1st.bin",
+    "destination": "common/etc/uniform/team/4938/4938_DEF_1st.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 4938,
+    "donor": 103,
+    "source": "common/etc/uniform/team/103/103_DEF_2nd.bin",
+    "destination": "common/etc/uniform/team/4938/4938_DEF_2nd.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 4938,
+    "donor": 103,
+    "source": "common/etc/uniform/team/103/103_DEF_GK1st.bin",
+    "destination": "common/etc/uniform/team/4938/4938_DEF_GK1st.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 1950,
+    "donor": 119,
+    "source": "common/etc/uniform/team/119/119_DEF_1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1950/1950_DEF_1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 95
+  },
+  {
+    "team": 1950,
+    "donor": 119,
+    "source": "common/etc/uniform/team/119/119_DEF_2nd_realUni.bin",
+    "destination": "common/etc/uniform/team/1950/1950_DEF_2nd_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 101
+  },
+  {
+    "team": 1950,
+    "donor": 119,
+    "source": "common/etc/uniform/team/119/119_DEF_GK1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1950/1950_DEF_GK1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 98
+  },
+  {
+    "team": 1228,
+    "donor": 101,
+    "source": "common/etc/uniform/team/101/101_DEF_1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1228/1228_DEF_1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 97
+  },
+  {
+    "team": 1228,
+    "donor": 101,
+    "source": "common/etc/uniform/team/101/101_DEF_2nd_realUni.bin",
+    "destination": "common/etc/uniform/team/1228/1228_DEF_2nd_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 97
+  },
+  {
+    "team": 1228,
+    "donor": 101,
+    "source": "common/etc/uniform/team/101/101_DEF_3rd_realUni.bin",
+    "destination": "common/etc/uniform/team/1228/1228_DEF_3rd_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 97
+  },
+  {
+    "team": 1228,
+    "donor": 101,
+    "source": "common/etc/uniform/team/101/101_DEF_GK1st_realUni.bin",
+    "destination": "common/etc/uniform/team/1228/1228_DEF_GK1st_realUni.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 101
+  },
+  {
+    "team": 1955,
+    "donor": 127,
+    "source": "common/etc/uniform/team/127/127_DEF_1st.bin",
+    "destination": "common/etc/uniform/team/1955/1955_DEF_1st.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 1955,
+    "donor": 127,
+    "source": "common/etc/uniform/team/127/127_DEF_2nd.bin",
+    "destination": "common/etc/uniform/team/1955/1955_DEF_2nd.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  },
+  {
+    "team": 1955,
+    "donor": 127,
+    "source": "common/etc/uniform/team/127/127_DEF_GK1st.bin",
+    "destination": "common/etc/uniform/team/1955/1955_DEF_GK1st.bin",
+    "archive": "base-dt200.cpk",
+    "bytes": 92
+  }
+]

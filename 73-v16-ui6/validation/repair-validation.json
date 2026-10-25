@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "production_Java_helper_executed_on_host_JVM": true,
+  "Android_context_asset_api_stubbed": true,
+  "missing_file_restored": true,
+  "same_size_corrupt_code_restored": true,
+  "changed_large_resource_rehashed_and_restored": true,
+  "unchanged_file_not_rewritten": true,
+  "mutable_editor_config_preserved": true,
+  "path_escape_rejected": true,
+  "Android_phone_tested": false
+}

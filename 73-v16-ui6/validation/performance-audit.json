@@ -1,0 +1,14 @@
+{
+ "scope": "Static APK/resource inspection and component tests; no phone FPS/RAM/GPU measurements",
+ "changes": [
+  {"area":"rolled_body","old":"356 custom models, twoLODs, approximately42MB container; body-loader detours","new":"removed from update advertisement; default native long-sleeve path; no detailed/common body detours","expected_effect":"less custom asset loading and simpler skinning; container size is not a VRAM measurement"},
+  {"area":"coaches","old":"ported manager meshes/textures","new":"original native manager assets and portraits restored","expected_effect":"removes the added manager rendering workload"},
+  {"area":"decompression","old":"global inflate callback tracked every zlib stream","new":"no inflate detour; identical glyph layouts are applied once to12 resource files","expected_effect":"removes extra tracking and locks during decompression"},
+  {"area":"native_ratings","old":"classic NPC rating projection ran twice per lookup","new":"one projection after position proficiency is set; native regression suite passed","expected_effect":"less repeated CPU work; rating targets unchanged"},
+  {"area":"startup_integrity","old":"two independent engine hash scans; a matching release marker skipped repair","new":"shared process hash cache plus immutable-file repair; verified large resources reuse size/mtime cache","expected_effect":"less duplicate reading on repeated starts; first verification still reads the files"},
+  {"area":"diagnostics","old":"one-second native counters/status polling","new":"ten-second monitoring; repeated configuration-file polling removed","expected_effect":"less background file I/O"},
+  {"area":"faces","new":"same existing face assets; two new exact-card aliases reuse the NV17/NX27 profiles","expected_effect":"no new face textures created; current quality retained"},
+  {"area":"designer_and_save","new":"UI5 lazy preview/render batching and editor response caching retained; user save is not rewritten","expected_effect":"no speculative FPS claim for the phone"}
+ ],
+ "limits":"A large APK/resource download alone does not identify a runtime frame-rate bottleneck. Remaining phone-specific throttling, GPU load and storage latency require measurements on that device."
+}

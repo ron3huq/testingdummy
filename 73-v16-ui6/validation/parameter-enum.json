@@ -1,0 +1,737 @@
+[
+  {
+    "index": 0,
+    "name": "DATA_PARAMETER_POSITION",
+    "value": 0
+  },
+  {
+    "index": 1,
+    "name": "DATA_PARAMETER_CF",
+    "value": 1
+  },
+  {
+    "index": 2,
+    "name": "DATA_PARAMETER_ST",
+    "value": 2
+  },
+  {
+    "index": 3,
+    "name": "DATA_PARAMETER_LWG",
+    "value": 3
+  },
+  {
+    "index": 4,
+    "name": "DATA_PARAMETER_RWG",
+    "value": 4
+  },
+  {
+    "index": 5,
+    "name": "DATA_PARAMETER_OMF",
+    "value": 5
+  },
+  {
+    "index": 6,
+    "name": "DATA_PARAMETER_DMF",
+    "value": 6
+  },
+  {
+    "index": 7,
+    "name": "DATA_PARAMETER_CMF",
+    "value": 7
+  },
+  {
+    "index": 8,
+    "name": "DATA_PARAMETER_LMF",
+    "value": 8
+  },
+  {
+    "index": 9,
+    "name": "DATA_PARAMETER_RMF",
+    "value": 9
+  },
+  {
+    "index": 10,
+    "name": "DATA_PARAMETER_CB",
+    "value": 10
+  },
+  {
+    "index": 11,
+    "name": "DATA_PARAMETER_LSB",
+    "value": 11
+  },
+  {
+    "index": 12,
+    "name": "DATA_PARAMETER_RSB",
+    "value": 12
+  },
+  {
+    "index": 13,
+    "name": "DATA_PARAMETER_GK",
+    "value": 13
+  },
+  {
+    "index": 14,
+    "name": "DATA_PARAMETER_OFFENSE_DECISION",
+    "value": 14
+  },
+  {
+    "index": 15,
+    "name": "DATA_PARAMETER_DEFENSE_DECISION",
+    "value": 15
+  },
+  {
+    "index": 16,
+    "name": "DATA_PARAMETER_GK_DECISION",
+    "value": 16
+  },
+  {
+    "index": 17,
+    "name": "DATA_PARAMETER_DRIBBLE",
+    "value": 17
+  },
+  {
+    "index": 18,
+    "name": "DATA_PARAMETER_TRAP",
+    "value": 18
+  },
+  {
+    "index": 19,
+    "name": "DATA_PARAMETER_BALL_TOUCH",
+    "value": 19
+  },
+  {
+    "index": 20,
+    "name": "DATA_PARAMETER_SHOT",
+    "value": 20
+  },
+  {
+    "index": 21,
+    "name": "DATA_PARAMETER_SHORT_PASS",
+    "value": 21
+  },
+  {
+    "index": 22,
+    "name": "DATA_PARAMETER_LONG_PASS",
+    "value": 22
+  },
+  {
+    "index": 23,
+    "name": "DATA_PARAMETER_HEADING",
+    "value": 23
+  },
+  {
+    "index": 24,
+    "name": "DATA_PARAMETER_INTERCEPT",
+    "value": 24
+  },
+  {
+    "index": 25,
+    "name": "DATA_PARAMETER_AGGRESSIVENESS",
+    "value": 25
+  },
+  {
+    "index": 26,
+    "name": "DATA_PARAMETER_CONSCIOUS_DEFENSE",
+    "value": 26
+  },
+  {
+    "index": 27,
+    "name": "DATA_PARAMETER_PLACE_KICKING",
+    "value": 27
+  },
+  {
+    "index": 28,
+    "name": "DATA_PARAMETER_BALL_SPIN_CONTROL",
+    "value": 28
+  },
+  {
+    "index": 29,
+    "name": "DATA_PARAMETER_CATCHING",
+    "value": 29
+  },
+  {
+    "index": 30,
+    "name": "DATA_PARAMETER_CLEARANCES",
+    "value": 30
+  },
+  {
+    "index": 31,
+    "name": "DATA_PARAMETER_COLLAPSING",
+    "value": 31
+  },
+  {
+    "index": 32,
+    "name": "DATA_PARAMETER_DEFLECTING",
+    "value": 32
+  },
+  {
+    "index": 33,
+    "name": "DATA_PARAMETER_R_FOOT_ACC",
+    "value": 33
+  },
+  {
+    "index": 34,
+    "name": "DATA_PARAMETER_SPEED",
+    "value": 34
+  },
+  {
+    "index": 35,
+    "name": "DATA_PARAMETER_BODY_BALANCE",
+    "value": 35
+  },
+  {
+    "index": 36,
+    "name": "DATA_PARAMETER_BODY_CONTROL",
+    "value": 36
+  },
+  {
+    "index": 37,
+    "name": "DATA_PARAMETER_KICK_POWER",
+    "value": 37
+  },
+  {
+    "index": 38,
+    "name": "DATA_PARAMETER_AGILITY",
+    "value": 38
+  },
+  {
+    "index": 39,
+    "name": "DATA_PARAMETER_JUMP",
+    "value": 39
+  },
+  {
+    "index": 40,
+    "name": "DATA_PARAMETER_STAMINA",
+    "value": 40
+  },
+  {
+    "index": 41,
+    "name": "DATA_PARAMETER_STABILITY",
+    "value": 41
+  },
+  {
+    "index": 42,
+    "name": "DATA_PARAMETER_DURABILITY",
+    "value": 42
+  },
+  {
+    "index": 43,
+    "name": "DATA_PARAMETER_STRONGER_FOOT",
+    "value": 43
+  },
+  {
+    "index": 44,
+    "name": "DATA_PARAMETER_STRONGER_HAND",
+    "value": 44
+  },
+  {
+    "index": 45,
+    "name": "DATA_PARAMETER_R_FOOT_FREQUENCY",
+    "value": 45
+  },
+  {
+    "index": 46,
+    "name": "DATA_PARAMETER_AGE",
+    "value": 46
+  },
+  {
+    "index": 47,
+    "name": "DATA_PARAMETER_HEIGHT",
+    "value": 47
+  },
+  {
+    "index": 48,
+    "name": "DATA_PARAMETER_WEIGHT",
+    "value": 48
+  },
+  {
+    "index": 49,
+    "name": "DATA_PARAMETER_STAR",
+    "value": 49
+  },
+  {
+    "index": 50,
+    "name": "DATA_PARAMETER_COOL",
+    "value": 50
+  },
+  {
+    "index": 51,
+    "name": "DATA_PARAMETER_DRIBBLE_TYPE",
+    "value": 51
+  },
+  {
+    "index": 52,
+    "name": "DATA_PARAMETER_DRIBBLING_POSTURE",
+    "value": 52
+  },
+  {
+    "index": 53,
+    "name": "DATA_PARAMETER_DRIBBLING_ARM",
+    "value": 53
+  },
+  {
+    "index": 54,
+    "name": "DATA_PARAMETER_RUNNING_POSTURE",
+    "value": 54
+  },
+  {
+    "index": 55,
+    "name": "DATA_PARAMETER_RUNNING_ARM",
+    "value": 55
+  },
+  {
+    "index": 56,
+    "name": "DATA_PARAMETER_FREE_KICK_TYPE",
+    "value": 56
+  },
+  {
+    "index": 57,
+    "name": "DATA_PARAMETER_PENALTY_KICK_TYPE",
+    "value": 57
+  },
+  {
+    "index": 58,
+    "name": "DATA_PARAMETER_CORNER_KICK_PATTERN",
+    "value": 58
+  },
+  {
+    "index": 59,
+    "name": "DATA_PARAMETER_GOAL_PERFORMANCE",
+    "value": 59
+  },
+  {
+    "index": 60,
+    "name": "DATA_PARAMETER_MEMORIAL_CELEBRATION",
+    "value": 60
+  },
+  {
+    "index": 61,
+    "name": "DATA_PARAMETER_PLAYSTYLE",
+    "value": 61
+  },
+  {
+    "index": 62,
+    "name": "DATA_PARAMETER_PLAYSTYLE2",
+    "value": 62
+  },
+  {
+    "index": 63,
+    "name": "DATA_PARAMETER_PS_FEINT_STAR",
+    "value": 63
+  },
+  {
+    "index": 64,
+    "name": "DATA_PARAMETER_PS_QUICK_STAR",
+    "value": 64
+  },
+  {
+    "index": 65,
+    "name": "DATA_PARAMETER_PS_DARTING_RUN",
+    "value": 65
+  },
+  {
+    "index": 66,
+    "name": "DATA_PARAMETER_PS_INSIDE_CUTTER",
+    "value": 66
+  },
+  {
+    "index": 67,
+    "name": "DATA_PARAMETER_PS_LONG_PASSER",
+    "value": 67
+  },
+  {
+    "index": 68,
+    "name": "DATA_PARAMETER_PS_EARLY_CROSSER",
+    "value": 68
+  },
+  {
+    "index": 69,
+    "name": "DATA_PARAMETER_PS_MIDDLE_SHOOTER",
+    "value": 69
+  },
+  {
+    "index": 70,
+    "name": "DATA_PARAMETER_S_SCISSORS",
+    "value": 70
+  },
+  {
+    "index": 71,
+    "name": "DATA_PARAMETER_S_ELASTICO",
+    "value": 71
+  },
+  {
+    "index": 72,
+    "name": "DATA_PARAMETER_S_MARSEILLE",
+    "value": 72
+  },
+  {
+    "index": 73,
+    "name": "DATA_PARAMETER_S_CHAPEAU",
+    "value": 73
+  },
+  {
+    "index": 74,
+    "name": "DATA_PARAMETER_S_QUICK_TOUCH",
+    "value": 74
+  },
+  {
+    "index": 75,
+    "name": "DATA_PARAMETER_S_PIVOT_FOOT_TOUCH",
+    "value": 75
+  },
+  {
+    "index": 76,
+    "name": "DATA_PARAMETER_S_HEADER",
+    "value": 76
+  },
+  {
+    "index": 77,
+    "name": "DATA_PARAMETER_S_CONTROL_CURVE",
+    "value": 77
+  },
+  {
+    "index": 78,
+    "name": "DATA_PARAMETER_S_NON_ROTATING_SHOT",
+    "value": 78
+  },
+  {
+    "index": 79,
+    "name": "DATA_PARAMETER_S_ACROBATIC_SHOT",
+    "value": 79
+  },
+  {
+    "index": 80,
+    "name": "DATA_PARAMETER_S_HEEL_TRICK",
+    "value": 80
+  },
+  {
+    "index": 81,
+    "name": "DATA_PARAMETER_S_ONE_TOUCH_SHOT",
+    "value": 81
+  },
+  {
+    "index": 82,
+    "name": "DATA_PARAMETER_S_DIRECT_PASS",
+    "value": 82
+  },
+  {
+    "index": 83,
+    "name": "DATA_PARAMETER_S_BACK_SPIN_LOB",
+    "value": 83
+  },
+  {
+    "index": 84,
+    "name": "DATA_PARAMETER_S_PIN_POINT_CROSS",
+    "value": 84
+  },
+  {
+    "index": 85,
+    "name": "DATA_PARAMETER_S_OUT_SIDE_LONG",
+    "value": 85
+  },
+  {
+    "index": 86,
+    "name": "DATA_PARAMETER_S_RABONA",
+    "value": 86
+  },
+  {
+    "index": 87,
+    "name": "DATA_PARAMETER_S_LOW_LOB",
+    "value": 87
+  },
+  {
+    "index": 88,
+    "name": "DATA_PARAMETER_S_LOW_PUNT_KICK",
+    "value": 88
+  },
+  {
+    "index": 89,
+    "name": "DATA_PARAMETER_S_LONGTHROW",
+    "value": 89
+  },
+  {
+    "index": 90,
+    "name": "DATA_PARAMETER_S_GK_LONGTHROW",
+    "value": 90
+  },
+  {
+    "index": 91,
+    "name": "DATA_PARAMETER_S_MALICIA",
+    "value": 91
+  },
+  {
+    "index": 92,
+    "name": "DATA_PARAMETER_S_MAN_MARK",
+    "value": 92
+  },
+  {
+    "index": 93,
+    "name": "DATA_PARAMETER_S_CHASING",
+    "value": 93
+  },
+  {
+    "index": 94,
+    "name": "DATA_PARAMETER_S_ACROBATIC_CLEAR",
+    "value": 94
+  },
+  {
+    "index": 95,
+    "name": "DATA_PARAMETER_S_CAPTAINCY",
+    "value": 95
+  },
+  {
+    "index": 96,
+    "name": "DATA_PARAMETER_S_SUPERSUB",
+    "value": 96
+  },
+  {
+    "index": 97,
+    "name": "DATA_PARAMETER_S_COMBATIVE_SPIRIT",
+    "value": 97
+  },
+  {
+    "index": 98,
+    "name": "DATA_PARAMETER_S_NO_LOOK_PASS",
+    "value": 98
+  },
+  {
+    "index": 99,
+    "name": "DATA_PARAMETER_S_PK_KICKER",
+    "value": 99
+  },
+  {
+    "index": 100,
+    "name": "DATA_PARAMETER_S_PK_STOPPER",
+    "value": 100
+  },
+  {
+    "index": 101,
+    "name": "DATA_PARAMETER_S_CONTROL_LOOP_SHOT",
+    "value": 101
+  },
+  {
+    "index": 102,
+    "name": "DATA_PARAMETER_S_SOLE_CONTROL",
+    "value": 102
+  },
+  {
+    "index": 103,
+    "name": "DATA_PARAMETER_S_DROP_SHOT",
+    "value": 103
+  },
+  {
+    "index": 104,
+    "name": "DATA_PARAMETER_S_RISING_SHOT",
+    "value": 104
+  },
+  {
+    "index": 105,
+    "name": "DATA_PARAMETER_S_HIGH_PUNT_KICK",
+    "value": 105
+  },
+  {
+    "index": 106,
+    "name": "DATA_PARAMETER_S_INTERCEPT",
+    "value": 106
+  },
+  {
+    "index": 107,
+    "name": "DATA_PARAMETER_S_DOUBLE_TOUCH",
+    "value": 107
+  },
+  {
+    "index": 108,
+    "name": "DATA_PARAMETER_S_EDGE_TURN",
+    "value": 108
+  },
+  {
+    "index": 109,
+    "name": "DATA_PARAMETER_S_MIDDLE_SHOT",
+    "value": 109
+  },
+  {
+    "index": 110,
+    "name": "DATA_PARAMETER_S_THROUGH_PASS",
+    "value": 110
+  },
+  {
+    "index": 111,
+    "name": "DATA_PARAMETER_S_BLOCKER",
+    "value": 111
+  },
+  {
+    "index": 112,
+    "name": "DATA_PARAMETER_S_AIR_BATTLE",
+    "value": 112
+  },
+  {
+    "index": 113,
+    "name": "DATA_PARAMETER_S_SLIDING",
+    "value": 113
+  },
+  {
+    "index": 114,
+    "name": "DATA_PARAMETER_S_IMPROVISER",
+    "value": 114
+  },
+  {
+    "index": 115,
+    "name": "DATA_PARAMETER_S_FORTRESS",
+    "value": 115
+  },
+  {
+    "index": 116,
+    "name": "DATA_PARAMETER_S_MOMENTUM_DRIBBLING",
+    "value": 116
+  },
+  {
+    "index": 117,
+    "name": "DATA_PARAMETER_S_GAME_CHANGING_PASS",
+    "value": 117
+  },
+  {
+    "index": 118,
+    "name": "DATA_PARAMETER_S_VISIONARY_PASS",
+    "value": 118
+  },
+  {
+    "index": 119,
+    "name": "DATA_PARAMETER_S_BLITZ_CROSSING",
+    "value": 119
+  },
+  {
+    "index": 120,
+    "name": "DATA_PARAMETER_S_BLITZ_CURLER",
+    "value": 120
+  },
+  {
+    "index": 121,
+    "name": "DATA_PARAMETER_S_BULLET_HEADER",
+    "value": 121
+  },
+  {
+    "index": 122,
+    "name": "DATA_PARAMETER_S_PHENOMENAL_PASS",
+    "value": 122
+  },
+  {
+    "index": 123,
+    "name": "DATA_PARAMETER_S_DF_SKY_HIGH",
+    "value": 123
+  },
+  {
+    "index": 124,
+    "name": "DATA_PARAMETER_S_ACCEL_BURST",
+    "value": 124
+  },
+  {
+    "index": 125,
+    "name": "DATA_PARAMETER_S_PHYSICAL_TACKLE",
+    "value": 125
+  },
+  {
+    "index": 126,
+    "name": "DATA_PARAMETER_S_GK_COACHING",
+    "value": 126
+  },
+  {
+    "index": 127,
+    "name": "DATA_PARAMETER_S_LOW_IMPACT_SHOT",
+    "value": 127
+  },
+  {
+    "index": 128,
+    "name": "DATA_PARAMETER_S_AGGRESSIVE_SHOOTER",
+    "value": 128
+  },
+  {
+    "index": 129,
+    "name": "DATA_PARAMETER_S_GK_ALERT",
+    "value": 129
+  },
+  {
+    "index": 130,
+    "name": "DATA_PARAMETER_S_BREAKTHROUGH_DRIBBLE",
+    "value": 130
+  },
+  {
+    "index": 131,
+    "name": "DATA_PARAMETER_S_MAESTRO_SIGNAL",
+    "value": 131
+  },
+  {
+    "index": 132,
+    "name": "DATA_PARAMETER_S_SHADOW_GUARDIAN",
+    "value": 132
+  },
+  {
+    "index": 133,
+    "name": "DATA_PARAMETER_S_BREAK_SPRINT",
+    "value": 133
+  },
+  {
+    "index": 134,
+    "name": "DATA_PARAMETER_S_TONE",
+    "value": 134
+  },
+  {
+    "index": 135,
+    "name": "DATA_PARAMETER_S_TAP_FAKE",
+    "value": 135
+  },
+  {
+    "index": 136,
+    "name": "DATA_PARAMETER_S_SPRING_CUT",
+    "value": 136
+  },
+  {
+    "index": 137,
+    "name": "DATA_PARAMETER_S_GANGES",
+    "value": 137
+  },
+  {
+    "index": 138,
+    "name": "DATA_PARAMETER_S_THAMES",
+    "value": 138
+  },
+  {
+    "index": 139,
+    "name": "DATA_PARAMETER_S_NILE",
+    "value": 139
+  },
+  {
+    "index": 140,
+    "name": "DATA_PARAMETER_S_AMAZON",
+    "value": 140
+  },
+  {
+    "index": 141,
+    "name": "DATA_PARAMETER_S_MEKONG",
+    "value": 141
+  },
+  {
+    "index": 142,
+    "name": "DATA_PARAMETER_S_CONGO",
+    "value": 142
+  },
+  {
+    "index": 143,
+    "name": "DATA_PARAMETER_S_INDUS",
+    "value": 143
+  },
+  {
+    "index": 144,
+    "name": "DATA_PARAMETER_ABILITY1",
+    "value": 144
+  },
+  {
+    "index": 145,
+    "name": "DATA_PARAMETER_ABILITY2",
+    "value": 145
+  },
+  {
+    "index": 146,
+    "name": "DATA_PARAMETER_ABILITY3",
+    "value": 146
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "mirrored_assets": 170,
+  "mirrored_diffuse_thumbnails_decode_equal_to_source": true,
+  "MU2008_uses_working_custom_pack": true,
+  "approved_Y17_glyph_assets_unchanged": true,
+  "native_manager_assets_restored_exactly": 8,
+  "dt870_protocol_hash_and_size_correct": true,
+  "resource_advertisement_idempotent": true,
+  "old_cuff_containers_not_advertised": true,
+  "base_face_container_bytes_unchanged": true,
+  "phone_tested": false
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "actual_compiled_arm64_hooks": true,
+  "engine_callbacks_modeled": true,
+  "copies": [
+    {
+      "source": 106734785925546,
+      "destination": 89138556572074,
+      "profile": "NX27",
+      "three_face_variants_same_native_paths": true,
+      "full64_collision_rejected": true
+    },
+    {
+      "source": 88044950524330,
+      "destination": 89136418985303,
+      "profile": "NV17",
+      "three_face_variants_same_native_paths": true,
+      "full64_collision_rejected": true
+    }
+  ],
+  "device_tested": false
+}

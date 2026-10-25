@@ -1,0 +1,12 @@
+{
+  "status": "PLAYER_OWNERSHIP_NOT_VERIFIED_NO_CHANGE_APPLIED",
+  "requested_animation_labels": ["0542", "0571", "0595"],
+  "native_engine_parameter_mapping": {
+    "59": {"name": "DATA_PARAMETER_GOAL_PERFORMANCE", "storage_bits": 9, "range": [0, 511], "getter": "0x82a8994: LDR W8,[X0,#4]; AND W8,W8,#0x1ff"},
+    "60": {"name": "DATA_PARAMETER_MEMORIAL_CELEBRATION", "storage_bits": 7, "range": [0, 127], "getter": "0x82a89a8: LDR W8,[X0,#0x20]; UBFX W8,W8,#7,#7"}
+  },
+  "inspection": "All47 APK CPK directory indexes, resource IoStore directory indexes and named celebration symbols in the native engine were checked. Numerical fragments in hashed file names and player face IDs were excluded as unrelated.",
+  "result": "No verified player-to-animation mapping for these three labels was recovered. Animation labels must not be treated as direct wire/native parameter values. No assertion that the animations are absent from every data blob is made.",
+  "conditional_changes": {"542_Japanese_player_for_two_custom_Ronaldos": "NOT_APPLIED_CONDITION_UNVERIFIED", "595_Kvaratskhelia_for_89138019825360": "NOT_APPLIED_CONDITION_UNVERIFIED"},
+  "raw_file_scan": "Directly copying packed Player.bin rows into runtime record storage is invalid because the importer changes the layout; that exploratory scan is not evidence of zero celebration values."
+}

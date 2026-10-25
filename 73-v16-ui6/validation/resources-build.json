@@ -1,0 +1,1205 @@
+{
+  "restored_original_manager_assets": [
+    "character/DemoFace/Manager/T_26sp00v0047_Hair_D.ubulk",
+    "character/DemoFace/Manager/T_26sp00v0047_Hair_D.uasset",
+    "character/DemoFace/Manager/T_26sp00v0047_Face_D.ubulk",
+    "character/DemoFace/Manager/T_26sp00v0047_Face_D.uasset",
+    "character/DemoFace/Manager/T_1sp00v0052_Face_D.ubulk",
+    "character/DemoFace/Manager/T_1sp00v0052_Face_D.uasset",
+    "character/DemoFace/Manager/SK_26sp00v0047_Face.uasset",
+    "character/DemoFace/Manager/SK_1sp00v0052_Face.uasset"
+  ],
+  "restored_native_portraits": 2,
+  "mirrored_kits": [
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p2_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p2_Uni_D.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p1_Uni_D.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352g1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706g1_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p2_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p2_Uni_D.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p1_Uni_D.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242g1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937g1_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p3_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p3_Uni_D.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p2_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p2_Uni_D.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p1_Uni_D.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121g1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956g1_Uni_D.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p2_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p2_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p1_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119g1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950g1_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p3_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p3_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p2_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p2_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p1_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108g1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957g1_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p3_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p3_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p2_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p2_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p1_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101g1_Uni_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228g1_Uni_D.uasset",
+      "source_container": "pc0101_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p2_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p2_FontName_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p2_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p2_FontLeg_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p2_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p2_FontChest_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p2_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p2_FontBack_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p1_FontName_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p1_FontLeg_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p1_FontChest_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p1_FontBack_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352g1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706g1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352g1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706g1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352g1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706g1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352g1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706g1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p2_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p2_FontName_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p2_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p2_FontLeg_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p2_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p2_FontChest_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p2_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p2_FontBack_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p1_FontName_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p1_FontLeg_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p1_FontChest_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p1_FontBack_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242g1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937g1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242g1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937g1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242g1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937g1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242g1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937g1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p3_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p3_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p3_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p3_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p3_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p3_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p3_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p3_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p3_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p3_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p2_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p2_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p2_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p2_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p2_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p2_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p2_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p2_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p2_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p2_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p1_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121p1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956p1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121g1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956g1_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121g1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956g1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121g1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956g1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121g1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956g1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "character/Uniform/LowTextures/T_u0121g1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1956g1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p2_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p2_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p2_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p2_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p2_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p2_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p2_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p2_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p2_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p2_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p1_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119p1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950p1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119g1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950g1_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119g1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950g1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119g1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950g1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119g1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950g1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "character/Uniform/LowTextures/T_u0119g1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1950g1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p3_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p3_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p3_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p3_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p3_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p3_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p3_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p3_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p3_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p3_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p2_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p2_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p2_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p2_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p2_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p2_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p2_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p2_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p2_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p2_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p1_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108p1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957p1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108g1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957g1_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108g1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957g1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108g1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957g1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108g1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957g1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "character/Uniform/LowTextures/T_u0108g1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1957g1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p3_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p3_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p3_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p3_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p3_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p3_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p3_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p3_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p3_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p3_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p2_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p2_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p2_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p2_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p2_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p2_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p2_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p2_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p2_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p2_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p1_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101p1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228p1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101g1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228g1_FontName_Ex_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101g1_FontName_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228g1_FontName_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101g1_FontLeg_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228g1_FontLeg_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101g1_FontChest_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228g1_FontChest_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "character/Uniform/LowTextures/T_u0101g1_FontBack_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1228g1_FontBack_D.uasset",
+      "source_container": "pc0103_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "ui/Data/Thumbnail/Uniform/uni5767169_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni27951105_r.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "ui/Data/Thumbnail/Uniform/uni5767169_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni27951105_full_r.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "ui/Data/Thumbnail/Uniform/uni5767168_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni27951104_r.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "ui/Data/Thumbnail/Uniform/uni5767168_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni27951104_full_r.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "ui/Data/Thumbnail/Uniform/uni3964929_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni80887809_r.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "ui/Data/Thumbnail/Uniform/uni3964929_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni80887809_full_r.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "ui/Data/Thumbnail/Uniform/uni3964928_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni80887808_r.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "ui/Data/Thumbnail/Uniform/uni3964928_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni80887808_full_r.uasset",
+      "source_container": "pc9298_mobile_and.utoc"
+    },
+    {
+      "team": 1955,
+      "donor": 127,
+      "source": "ui/Data/Thumbnail/Uniform/uni2080769_full_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32030721_full_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1955,
+      "donor": 127,
+      "source": "ui/Data/Thumbnail/Uniform/uni2080769_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32030721_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1955,
+      "donor": 127,
+      "source": "ui/Data/Thumbnail/Uniform/uni2080768_full_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32030720_full_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1955,
+      "donor": 127,
+      "source": "ui/Data/Thumbnail/Uniform/uni2080768_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32030720_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "ui/Data/Thumbnail/Uniform/uni1982466_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32047106_r.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "ui/Data/Thumbnail/Uniform/uni1982466_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32047106_full_r.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "ui/Data/Thumbnail/Uniform/uni1982465_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32047105_r.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "ui/Data/Thumbnail/Uniform/uni1982465_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32047105_full_r.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "ui/Data/Thumbnail/Uniform/uni1982464_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32047104_r.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 1956,
+      "donor": 121,
+      "source": "ui/Data/Thumbnail/Uniform/uni1982464_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32047104_full_r.uasset",
+      "source_container": "pc9261_mobile_and.utoc"
+    },
+    {
+      "team": 4962,
+      "donor": 120,
+      "source": "ui/Data/Thumbnail/Uniform/uni1966081_full_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni81297409_full_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4962,
+      "donor": 120,
+      "source": "ui/Data/Thumbnail/Uniform/uni1966081_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni81297409_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4962,
+      "donor": 120,
+      "source": "ui/Data/Thumbnail/Uniform/uni1966080_full_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni81297408_full_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4962,
+      "donor": 120,
+      "source": "ui/Data/Thumbnail/Uniform/uni1966080_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni81297408_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "ui/Data/Thumbnail/Uniform/uni1949697_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni31948801_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "ui/Data/Thumbnail/Uniform/uni1949697_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni31948801_full_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "ui/Data/Thumbnail/Uniform/uni1949696_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni31948800_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1950,
+      "donor": 119,
+      "source": "ui/Data/Thumbnail/Uniform/uni1949696_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni31948800_full_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "ui/Data/Thumbnail/Uniform/uni1769474_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32063490_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "ui/Data/Thumbnail/Uniform/uni1769474_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32063490_full_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "ui/Data/Thumbnail/Uniform/uni1769473_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32063489_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "ui/Data/Thumbnail/Uniform/uni1769473_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32063489_full_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "ui/Data/Thumbnail/Uniform/uni1769472_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32063488_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1957,
+      "donor": 108,
+      "source": "ui/Data/Thumbnail/Uniform/uni1769472_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni32063488_full_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4938,
+      "donor": 103,
+      "source": "ui/Data/Thumbnail/Uniform/uni1687553_full_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni80904193_full_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4938,
+      "donor": 103,
+      "source": "ui/Data/Thumbnail/Uniform/uni1687553_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni80904193_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4938,
+      "donor": 103,
+      "source": "ui/Data/Thumbnail/Uniform/uni1687552_full_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni80904192_full_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4938,
+      "donor": 103,
+      "source": "ui/Data/Thumbnail/Uniform/uni1687552_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni80904192_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4964,
+      "donor": 102,
+      "source": "ui/Data/Thumbnail/Uniform/uni1671169_full_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni81330177_full_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4964,
+      "donor": 102,
+      "source": "ui/Data/Thumbnail/Uniform/uni1671169_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni81330177_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4964,
+      "donor": 102,
+      "source": "ui/Data/Thumbnail/Uniform/uni1671168_full_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni81330176_full_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 4964,
+      "donor": 102,
+      "source": "ui/Data/Thumbnail/Uniform/uni1671168_f.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni81330176_f.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "ui/Data/Thumbnail/Uniform/uni1654786_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni20119554_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "ui/Data/Thumbnail/Uniform/uni1654786_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni20119554_full_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "ui/Data/Thumbnail/Uniform/uni1654785_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni20119553_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "ui/Data/Thumbnail/Uniform/uni1654785_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni20119553_full_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "ui/Data/Thumbnail/Uniform/uni1654784_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni20119552_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1228,
+      "donor": 101,
+      "source": "ui/Data/Thumbnail/Uniform/uni1654784_full_r.uasset",
+      "destination": "ui/Data/Thumbnail/Uniform/uni20119552_full_r.uasset",
+      "source_container": "pc1000_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p2_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p2_FontName_Ex_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 1706,
+      "donor": 352,
+      "source": "character/Uniform/LowTextures/T_u0352p1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u1706p1_FontName_Ex_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p2_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p2_FontName_Ex_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    },
+    {
+      "team": 4937,
+      "donor": 242,
+      "source": "character/Uniform/LowTextures/T_u0242p1_FontName_Ex_D.uasset",
+      "destination": "character/Uniform/LowTextures/T_u4937p1_FontName_Ex_D.uasset",
+      "source_container": "pc9300_mobile_and.utoc"
+    }
+  ]
+}

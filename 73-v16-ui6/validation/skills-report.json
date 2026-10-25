@@ -1,0 +1,43 @@
+{
+  "source": "Exact-card runtime rules checked against native parameter/message mapping; additional learned skills excluded",
+  "cards": [
+    {
+      "card_id": "89136418985303",
+      "current_innate_skills": [
+        "Scissors Feint",
+        "Heading",
+        "Knuckle Shot",
+        "Acrobatic Finishing",
+        "First-time Shot",
+        "Captaincy",
+        "Fighting Spirit",
+        "Penalty Specialist",
+        "Long-range Shooting",
+        "Long-reach Tackle"
+      ],
+      "change_from_original": {
+        "removed": "Chop Turn",
+        "added": "Long-reach Tackle"
+      }
+    },
+    {
+      "card_id": "89136418985302",
+      "current_innate_skills": [
+        "Scissors Feint",
+        "Heading",
+        "Knuckle Shot",
+        "Acrobatic Finishing",
+        "First-time Shot",
+        "Captaincy",
+        "Fighting Spirit",
+        "Penalty Specialist",
+        "Long-range Shooting",
+        "Long-reach Tackle"
+      ],
+      "change_from_original": {
+        "removed": "Chop Turn",
+        "added": "Long-reach Tackle"
+      }
+    }
+  ]
+}

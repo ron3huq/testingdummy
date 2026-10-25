@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "compiled_ARM64": true,
+  "sleeves": [
+    {
+      "id": 88044950524330,
+      "all_8_kits_3_slots_4_competition_contexts_long": true,
+      "native_builder_long": true,
+      "serialized_long": true,
+      "obsolete_rolled_model_disabled": true
+    },
+    {
+      "id": 89135066911146,
+      "all_8_kits_3_slots_4_competition_contexts_long": true,
+      "native_builder_long": true,
+      "serialized_long": true,
+      "obsolete_rolled_model_disabled": true
+    },
+    {
+      "id": 89136418985303,
+      "all_8_kits_3_slots_4_competition_contexts_long": true,
+      "native_builder_long": true,
+      "serialized_long": true,
+      "obsolete_rolled_model_disabled": true
+    },
+    {
+      "id": 89136418985302,
+      "all_8_kits_3_slots_4_competition_contexts_long": true,
+      "native_builder_long": true,
+      "serialized_long": true,
+      "obsolete_rolled_model_disabled": true
+    }
+  ],
+  "entire_original_coach_table_unchanged": true,
+  "phone_tested": false
+}

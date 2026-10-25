@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "noodle_hair: actual worker setup reaches READY; required names and ctypes wiring valid",
+    "noodle_hair: still initializes after350 pre-game polls; no old five-minute expiry",
+    "noodle_hair: partial failures retry; third successful attempt completes",
+    "select_team_runtime: actual worker setup reaches READY; required names and ctypes wiring valid",
+    "select_team_runtime: still initializes after350 pre-game polls; no old five-minute expiry",
+    "select_team_runtime: partial failures retry; third successful attempt completes",
+    "noodle_hair: existing own hook idempotent; foreign mutation rejected",
+    "select_team_runtime: existing own hook idempotent; foreign mutation rejected",
+    "Login readiness guard blocks missing patches, fast path is rechecked after failure"
+  ],
+  "device_tested": false
+}

@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "common/etc/uniform/team/351/351_DEF_1st_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/351/351_DEF_2nd_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/352/352_DEF_1st_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/352/352_DEF_2nd_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/245/245_DEF_1st_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/245/245_DEF_2nd_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/4937/4937_DEF_1st_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/4937/4937_DEF_2nd_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/1706/1706_DEF_2nd_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/1706/1706_DEF_1st_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/242/242_DEF_2nd_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    },
+    {
+      "file": "common/etc/uniform/team/242/242_DEF_1st_realUni.bin",
+      "change": "same57-byte layout formerly applied by runtime inflate hook",
+      "all_other_decoded_bytes_preserved": true
+    }
+  ],
+  "global_engine_inflate_hook_needed": false,
+  "Y17_decoded_layouts_same_as_UI5": true
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "original_files_preserved": 101,
+  "added_exact_kit_recipes": 41,
+  "original_file_IDs_preserved": true,
+  "original_TOC_schema_preserved": true,
+  "readback_files": 142,
+  "bytes": 7651328,
+  "sha256": "6595e6667dc40a6b6333886f919a52d75446d27c1f01670afa6854cc13918f84",
+  "phone_tested": false
+}
