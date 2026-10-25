@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "all110 Y08 cards, exact requested IDs and membership; native loader checksum matches",
+    "rolled mesh and all designer assets match installation manifests",
+    "entire release manifest matches base APK + update overlay",
+    "all native/runtime integrity hashes agree",
+    "working face engine adapter/native library/container bytes and target mapping unchanged",
+    "both full64 custom IDs have long sleeves and canonical skill flags",
+    "original full My League overlay retained",
+    "no save or private database in package"
+  ],
+  "manifest_entries": 7365,
+  "patch_entries": 366,
+  "zip_sha256": "83e50aa3ab1231cc63a2000ce5e161bb7ea71bec7f7e892c264ac146466561e9",
+  "device_tested": false
+}

@@ -1,0 +1,1976 @@
+{
+  "passed": true,
+  "native_table_decoded_records": 46623,
+  "teams": {
+    "1706": {
+      "name": "Manchester United",
+      "short": "MUN",
+      "visual_team": 100,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "Edwin van der Sar",
+          "source_name": "Edwin van der Sar",
+          "player_id": 88038776505238,
+          "role": "GK",
+          "shirt": 1,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 97
+        },
+        {
+          "name": "Rio Ferdinand",
+          "source_name": "Rio Ferdinand",
+          "player_id": 88038776505140,
+          "role": "CB",
+          "shirt": 5,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 98
+        },
+        {
+          "name": "Jaap Stam",
+          "source_name": "Jaap Stam",
+          "player_id": 88040655690467,
+          "role": "CB",
+          "shirt": 6,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 97
+        },
+        {
+          "name": "John O'Shea",
+          "source_name": "John O'Shea",
+          "player_id": 88039850249642,
+          "role": "RB",
+          "shirt": 22,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 93
+        },
+        {
+          "name": "Denis Irwin",
+          "source_name": "Denis Irwin",
+          "player_id": 17592186179032,
+          "role": "LB",
+          "shirt": 3,
+          "starting": true,
+          "source_primary_role": 2,
+          "target_ovr": 95
+        },
+        {
+          "name": "Darren Fletcher",
+          "source_name": "Darren Fletcher",
+          "player_id": 88032065623324,
+          "role": "DMF",
+          "shirt": 24,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 94
+        },
+        {
+          "name": "Paul Scholes",
+          "source_name": "Paul Scholes",
+          "player_id": 17592186178994,
+          "role": "CMF",
+          "shirt": 18,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 97
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "source_name": "Cristiano Ronaldo",
+          "player_id": 89135066911146,
+          "role": "RMF",
+          "shirt": 7,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 98
+        },
+        {
+          "name": "Ryan Giggs",
+          "source_name": "Ryan Giggs",
+          "player_id": 17592186178992,
+          "role": "LMF",
+          "shirt": 11,
+          "starting": true,
+          "source_primary_role": 6,
+          "target_ovr": 97
+        },
+        {
+          "name": "Wayne Rooney",
+          "source_name": "Wayne Rooney",
+          "player_id": 88037702766648,
+          "role": "SS",
+          "shirt": 10,
+          "starting": true,
+          "source_primary_role": 11,
+          "target_ovr": 97
+        },
+        {
+          "name": "Carlos Tévez",
+          "source_name": "Carlos Tévez",
+          "player_id": 88038776508032,
+          "role": "CF",
+          "shirt": 32,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 96
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          4,
+          23,
+          60
+        ],
+        [
+          5,
+          27,
+          42
+        ],
+        [
+          7,
+          34,
+          85
+        ],
+        [
+          6,
+          34,
+          18
+        ],
+        [
+          11,
+          42,
+          35
+        ],
+        [
+          12,
+          46,
+          65
+        ]
+      ],
+      "responsibilities": {
+        "captain": 8,
+        "long_free_kick": 7,
+        "short_free_kick": 7,
+        "second_free_kick": 6,
+        "left_corner": 8,
+        "right_corner": 7,
+        "penalty": 7
+      },
+      "set_piece_taker": [
+        7,
+        7,
+        6,
+        8,
+        7,
+        7
+      ],
+      "era_notes": [
+        "Brown/Vidić/Evra/Hargreaves/Carrick absent; O’Shea/Stam/Irwin/Fletcher selected from actual MU 2000s players."
+      ]
+    },
+    "4937": {
+      "name": "Real Madrid CF",
+      "short": "RMA",
+      "visual_team": 109,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "Iker Casillas",
+          "source_name": "Iker Casillas",
+          "player_id": 17592186045268,
+          "role": "GK",
+          "shirt": 1,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 98
+        },
+        {
+          "name": "Fabio Cannavaro",
+          "source_name": "Fabio Cannavaro",
+          "player_id": 17592186182373,
+          "role": "CB",
+          "shirt": 13,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 97
+        },
+        {
+          "name": "Pepe",
+          "source_name": "Pepe",
+          "player_id": 88038776513453,
+          "role": "CB",
+          "shirt": 2,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 96
+        },
+        {
+          "name": "Sergio Ramos",
+          "source_name": "Sergio Ramos",
+          "player_id": 89136418985308,
+          "role": "RB",
+          "shirt": 4,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 97
+        },
+        {
+          "name": "Roberto Carlos",
+          "source_name": "Roberto Carlos",
+          "player_id": 17592186179020,
+          "role": "LB",
+          "shirt": 3,
+          "starting": true,
+          "source_primary_role": 2,
+          "target_ovr": 98
+        },
+        {
+          "name": "Guti",
+          "source_name": "Guti",
+          "player_id": 17592186179087,
+          "role": "CMF",
+          "shirt": 14,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 95
+        },
+        {
+          "name": "David Beckham",
+          "source_name": "David Beckham",
+          "player_id": 88044145348017,
+          "role": "CMF",
+          "shirt": 23,
+          "starting": true,
+          "source_primary_role": 7,
+          "target_ovr": 96
+        },
+        {
+          "name": "Zinedine Zidane",
+          "source_name": "Zinedine Zidane",
+          "player_id": 89136418985301,
+          "role": "AMF",
+          "shirt": 5,
+          "starting": true,
+          "source_primary_role": 8,
+          "target_ovr": 98
+        },
+        {
+          "name": "Luís Figo",
+          "source_name": "Luís Figo",
+          "player_id": 17592186178997,
+          "role": "RWF",
+          "shirt": 10,
+          "starting": true,
+          "source_primary_role": 10,
+          "target_ovr": 97
+        },
+        {
+          "name": "Raúl",
+          "source_name": "Raúl",
+          "player_id": 17592186108278,
+          "role": "SS",
+          "shirt": 7,
+          "starting": true,
+          "source_primary_role": 11,
+          "target_ovr": 97
+        },
+        {
+          "name": "Ronaldo Nazário",
+          "source_name": "Ronaldo Nazário",
+          "player_id": 88046292734664,
+          "role": "CF",
+          "shirt": 9,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 98
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          5,
+          25,
+          35
+        ],
+        [
+          5,
+          25,
+          69
+        ],
+        [
+          8,
+          35,
+          52
+        ],
+        [
+          10,
+          41,
+          87
+        ],
+        [
+          11,
+          42,
+          20
+        ],
+        [
+          12,
+          47,
+          52
+        ]
+      ],
+      "responsibilities": {
+        "captain": 0,
+        "long_free_kick": 6,
+        "short_free_kick": 4,
+        "second_free_kick": 7,
+        "left_corner": 6,
+        "right_corner": 5,
+        "penalty": 10
+      },
+      "set_piece_taker": [
+        6,
+        4,
+        7,
+        6,
+        5,
+        10
+      ],
+      "era_notes": [
+        "Fernando Hierro absent; Pepe (joined2007) selected. R9 ID corrected with user approval. Cross-era number collision: Cannavaro uses Italy13 and Pepe Portugal2, leaving Zidane5 and Roberto Carlos3."
+      ]
+    },
+    "1957": {
+      "name": "Barcelona FC",
+      "short": "BAR",
+      "visual_team": 108,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "Marc ter Stegen",
+          "source_name": "Marc ter Stegen",
+          "player_id": 52847156719848,
+          "role": "GK",
+          "shirt": 1,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 96
+        },
+        {
+          "name": "Carles Puyol",
+          "source_name": "Carles Puyol",
+          "player_id": 17592186179001,
+          "role": "CB",
+          "shirt": 5,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 98
+        },
+        {
+          "name": "Gerard Piqué",
+          "source_name": "Gerard Piqué",
+          "player_id": 88039581819327,
+          "role": "CB",
+          "shirt": 3,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 96
+        },
+        {
+          "name": "Dani Alves",
+          "source_name": "Dani Alves",
+          "player_id": 70375186635920,
+          "role": "RB",
+          "shirt": 2,
+          "starting": true,
+          "source_primary_role": 7,
+          "target_ovr": 97
+        },
+        {
+          "name": "G. van Bronckhorst",
+          "source_name": "G. van Bronckhorst",
+          "player_id": 88044145277054,
+          "role": "LB",
+          "shirt": 12,
+          "starting": true,
+          "source_primary_role": 2,
+          "target_ovr": 94
+        },
+        {
+          "name": "Sergio Busquets",
+          "source_name": "Sergio Busquets",
+          "player_id": 70375186667176,
+          "role": "DMF",
+          "shirt": 16,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 96
+        },
+        {
+          "name": "Xavi",
+          "source_name": "Xavi",
+          "player_id": 17592186045282,
+          "role": "CMF",
+          "shirt": 6,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 98
+        },
+        {
+          "name": "Andrés Iniesta",
+          "source_name": "Andrés Iniesta",
+          "player_id": 17592186048489,
+          "role": "CMF",
+          "shirt": 8,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 98
+        },
+        {
+          "name": "Lionel Messi",
+          "source_name": "Lionel Messi",
+          "player_id": 89136409091415,
+          "role": "RWF",
+          "shirt": 19,
+          "starting": true,
+          "source_primary_role": 10,
+          "target_ovr": 98
+        },
+        {
+          "name": "Ronaldinho Gaúcho",
+          "source_name": "Ronaldinho Gaúcho",
+          "player_id": 89067152870864,
+          "role": "LWF",
+          "shirt": 10,
+          "starting": true,
+          "source_primary_role": 9,
+          "target_ovr": 98
+        },
+        {
+          "name": "Samuel Eto'o",
+          "source_name": "Samuel Eto'o",
+          "player_id": 17592186045914,
+          "role": "CF",
+          "shirt": 9,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 97
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          4,
+          23,
+          52
+        ],
+        [
+          5,
+          29,
+          70
+        ],
+        [
+          5,
+          29,
+          34
+        ],
+        [
+          10,
+          43,
+          85
+        ],
+        [
+          9,
+          43,
+          18
+        ],
+        [
+          12,
+          47,
+          52
+        ]
+      ],
+      "responsibilities": {
+        "captain": 1,
+        "long_free_kick": 8,
+        "short_free_kick": 9,
+        "second_free_kick": 6,
+        "left_corner": 6,
+        "right_corner": 7,
+        "penalty": 8
+      },
+      "set_piece_taker": [
+        8,
+        9,
+        6,
+        6,
+        7,
+        8
+      ],
+      "era_notes": [
+        "Valdés/Pinto and Abidal absent; ter Stegen is a 2010s goalkeeper fallback, van Bronckhorst is the2003–07 left-back. Messi wears his actual2006–08 number19 and Ronaldinho10."
+      ]
+    },
+    "1956": {
+      "name": "AC Milan",
+      "short": "MIL",
+      "visual_team": 121,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "Dida",
+          "source_name": "Dida",
+          "player_id": 17593796791755,
+          "role": "GK",
+          "shirt": 1,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 97
+        },
+        {
+          "name": "Alessandro Nesta",
+          "source_name": "Alessandro Nesta",
+          "player_id": 17592186160297,
+          "role": "CB",
+          "shirt": 13,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 98
+        },
+        {
+          "name": "Paolo Maldini",
+          "source_name": "Paolo Maldini",
+          "player_id": 88045755960770,
+          "role": "CB",
+          "shirt": 3,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 98
+        },
+        {
+          "name": "Cafu",
+          "source_name": "Cafu",
+          "player_id": 17592186179021,
+          "role": "RB",
+          "shirt": 2,
+          "starting": true,
+          "source_primary_role": 3,
+          "target_ovr": 97
+        },
+        {
+          "name": "A. Costacurta",
+          "source_name": "A. Costacurta",
+          "player_id": 88036360587367,
+          "role": "LB",
+          "shirt": 5,
+          "starting": true,
+          "source_primary_role": 3,
+          "target_ovr": 96
+        },
+        {
+          "name": "Gennaro Gattuso",
+          "source_name": "Gennaro Gattuso",
+          "player_id": 88040387180672,
+          "role": "DMF",
+          "shirt": 8,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 96
+        },
+        {
+          "name": "Andrea Pirlo",
+          "source_name": "Andrea Pirlo",
+          "player_id": 17592186179040,
+          "role": "DMF",
+          "shirt": 21,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 98
+        },
+        {
+          "name": "Clarence Seedorf",
+          "source_name": "Clarence Seedorf",
+          "player_id": 17592991351709,
+          "role": "CMF",
+          "shirt": 20,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 97
+        },
+        {
+          "name": "Kaká",
+          "source_name": "Kaká",
+          "player_id": 17592186048174,
+          "role": "AMF",
+          "shirt": 22,
+          "starting": true,
+          "source_primary_role": 8,
+          "target_ovr": 98
+        },
+        {
+          "name": "Andriy Shevchenko",
+          "source_name": "Andriy Shevchenko",
+          "player_id": 88045755964138,
+          "role": "CF",
+          "shirt": 7,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 98
+        },
+        {
+          "name": "Filippo Inzaghi",
+          "source_name": "Filippo Inzaghi",
+          "player_id": 88044145348036,
+          "role": "CF",
+          "shirt": 9,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 97
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          4,
+          25,
+          72
+        ],
+        [
+          4,
+          24,
+          52
+        ],
+        [
+          5,
+          28,
+          31
+        ],
+        [
+          8,
+          35,
+          52
+        ],
+        [
+          12,
+          45,
+          32
+        ],
+        [
+          12,
+          46,
+          70
+        ]
+      ],
+      "responsibilities": {
+        "captain": 2,
+        "long_free_kick": 6,
+        "short_free_kick": 6,
+        "second_free_kick": 8,
+        "left_corner": 6,
+        "right_corner": 7,
+        "penalty": 9
+      },
+      "set_piece_taker": [
+        6,
+        6,
+        8,
+        6,
+        7,
+        9
+      ],
+      "era_notes": [
+        "Kaladze absent; Costacurta (Milan through2007, played LB/CB/RB) selected."
+      ]
+    },
+    "4962": {
+      "name": "Juventus",
+      "short": "JUV",
+      "visual_team": 120,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "Gianluigi Buffon",
+          "source_name": "Gianluigi Buffon",
+          "player_id": 88040387118039,
+          "role": "GK",
+          "shirt": 1,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 98
+        },
+        {
+          "name": "Fabio Cannavaro",
+          "source_name": "Fabio Cannavaro",
+          "player_id": 17593528359653,
+          "role": "CB",
+          "shirt": 28,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 97
+        },
+        {
+          "name": "Giorgio Chiellini",
+          "source_name": "Giorgio Chiellini",
+          "player_id": 88045755835027,
+          "role": "CB",
+          "shirt": 3,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 96
+        },
+        {
+          "name": "Lilian Thuram",
+          "source_name": "Lilian Thuram",
+          "player_id": 88044145351392,
+          "role": "RB",
+          "shirt": 21,
+          "starting": true,
+          "source_primary_role": 3,
+          "target_ovr": 97
+        },
+        {
+          "name": "Gianluca Zambrotta",
+          "source_name": "Gianluca Zambrotta",
+          "player_id": 88044413760689,
+          "role": "LB",
+          "shirt": 19,
+          "starting": true,
+          "source_primary_role": 3,
+          "target_ovr": 96
+        },
+        {
+          "name": "Edgar Davids",
+          "source_name": "Edgar Davids",
+          "player_id": 88045755827099,
+          "role": "DMF",
+          "shirt": 26,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 96
+        },
+        {
+          "name": "Patrick Vieira",
+          "source_name": "Patrick Vieira",
+          "player_id": 17592186179005,
+          "role": "CMF",
+          "shirt": 4,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 96
+        },
+        {
+          "name": "Hasan Salihamidžić",
+          "source_name": "Hasan Salihamidžić",
+          "player_id": 17592186191013,
+          "role": "RMF",
+          "shirt": 7,
+          "starting": true,
+          "source_primary_role": 7,
+          "target_ovr": 93
+        },
+        {
+          "name": "Pavel Nedvěd",
+          "source_name": "Pavel Nedvěd",
+          "player_id": 17592186179013,
+          "role": "LMF",
+          "shirt": 11,
+          "starting": true,
+          "source_primary_role": 6,
+          "target_ovr": 97
+        },
+        {
+          "name": "Alessandro Del Piero",
+          "source_name": "Alessandro Del Piero",
+          "player_id": 17592186179086,
+          "role": "SS",
+          "shirt": 10,
+          "starting": true,
+          "source_primary_role": 11,
+          "target_ovr": 98
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "source_name": "Zlatan Ibrahimović",
+          "player_id": 88040387119642,
+          "role": "CF",
+          "shirt": 9,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 96
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          4,
+          24,
+          59
+        ],
+        [
+          5,
+          26,
+          40
+        ],
+        [
+          7,
+          33,
+          87
+        ],
+        [
+          6,
+          33,
+          17
+        ],
+        [
+          11,
+          42,
+          34
+        ],
+        [
+          12,
+          46,
+          65
+        ]
+      ],
+      "responsibilities": {
+        "captain": 9,
+        "long_free_kick": 9,
+        "short_free_kick": 9,
+        "second_free_kick": 8,
+        "left_corner": 8,
+        "right_corner": 9,
+        "penalty": 9
+      },
+      "set_piece_taker": [
+        9,
+        9,
+        8,
+        8,
+        9,
+        9
+      ],
+      "era_notes": [
+        "Montero/Camoranesi/Emerson/Tacchinardi/Trezeguet absent; Chiellini/Salihamidžić/Davids/Vieira/Ibrahimović are actual Juventus2000s replacements."
+      ]
+    },
+    "4964": {
+      "name": "Chelsea FC",
+      "short": "CHE",
+      "visual_team": 102,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "Petr Čech",
+          "source_name": "Petr Čech",
+          "player_id": 17592991353975,
+          "role": "GK",
+          "shirt": 1,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 98
+        },
+        {
+          "name": "Marcel Desailly",
+          "source_name": "Marcel Desailly",
+          "player_id": 88039850384095,
+          "role": "CB",
+          "shirt": 6,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 97
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "source_name": "Antonio Rüdiger",
+          "player_id": 55067654854885,
+          "role": "CB",
+          "shirt": 2,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 95
+        },
+        {
+          "name": "Belletti",
+          "source_name": "Belletti",
+          "player_id": 17593796791819,
+          "role": "RB",
+          "shirt": 35,
+          "starting": true,
+          "source_primary_role": 3,
+          "target_ovr": 93
+        },
+        {
+          "name": "Marcos Alonso",
+          "source_name": "Marcos Alonso",
+          "player_id": 55070339147925,
+          "role": "LB",
+          "shirt": 3,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 93
+        },
+        {
+          "name": "Claude Makélélé",
+          "source_name": "Claude Makélélé",
+          "player_id": 17592186182370,
+          "role": "DMF",
+          "shirt": 4,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 97
+        },
+        {
+          "name": "Emmanuel Petit",
+          "source_name": "Emmanuel Petit",
+          "player_id": 88044145348028,
+          "role": "CMF",
+          "shirt": 17,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 94
+        },
+        {
+          "name": "Deco",
+          "source_name": "Deco",
+          "player_id": 88032334188031,
+          "role": "CMF",
+          "shirt": 20,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 95
+        },
+        {
+          "name": "Frank Lampard",
+          "source_name": "Frank Lampard",
+          "player_id": 17592186179036,
+          "role": "AMF",
+          "shirt": 8,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 98
+        },
+        {
+          "name": "Gianfranco Zola",
+          "source_name": "Gianfranco Zola",
+          "player_id": 88040655554414,
+          "role": "SS",
+          "shirt": 25,
+          "starting": true,
+          "source_primary_role": 11,
+          "target_ovr": 96
+        },
+        {
+          "name": "Didier Drogba",
+          "source_name": "Didier Drogba",
+          "player_id": 17592186179073,
+          "role": "CF",
+          "shirt": 11,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 98
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          4,
+          22,
+          52
+        ],
+        [
+          5,
+          28,
+          72
+        ],
+        [
+          5,
+          28,
+          31
+        ],
+        [
+          8,
+          35,
+          52
+        ],
+        [
+          11,
+          43,
+          33
+        ],
+        [
+          12,
+          47,
+          65
+        ]
+      ],
+      "responsibilities": {
+        "captain": 8,
+        "long_free_kick": 8,
+        "short_free_kick": 9,
+        "second_free_kick": 7,
+        "left_corner": 8,
+        "right_corner": 7,
+        "penalty": 10
+      },
+      "set_piece_taker": [
+        8,
+        9,
+        7,
+        8,
+        7,
+        10
+      ],
+      "era_notes": [
+        "Ferreira/Terry/Carvalho/Cole/Essien/Ballack absent; Belletti/Desailly/Petit/Deco are2000s Chelsea players. Rüdiger/Marcos Alonso fill missing CB/LB with user-approved2010s exceptions."
+      ]
+    },
+    "4938": {
+      "name": "Liverpool FC",
+      "short": "LIV",
+      "visual_team": 103,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "Pepe Reina",
+          "source_name": "Pepe Reina",
+          "player_id": 105625862277578,
+          "role": "GK",
+          "shirt": 25,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 95
+        },
+        {
+          "name": "Virgil van Dijk",
+          "source_name": "Virgil van Dijk",
+          "player_id": 89135066951464,
+          "role": "CB",
+          "shirt": 4,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 97
+        },
+        {
+          "name": "Joël Matip",
+          "source_name": "Joël Matip",
+          "player_id": 52778168787119,
+          "role": "CB",
+          "shirt": 32,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 94
+        },
+        {
+          "name": "T. Alexander-Arnold",
+          "source_name": "T. Alexander-Arnold",
+          "player_id": 87961735641853,
+          "role": "RB",
+          "shirt": 66,
+          "starting": true,
+          "source_primary_role": 3,
+          "target_ovr": 95
+        },
+        {
+          "name": "Andrew Robertson",
+          "source_name": "Andrew Robertson",
+          "player_id": 52845814581924,
+          "role": "LB",
+          "shirt": 26,
+          "starting": true,
+          "source_primary_role": 2,
+          "target_ovr": 95
+        },
+        {
+          "name": "Xabi Alonso",
+          "source_name": "Xabi Alonso",
+          "player_id": 17592186179069,
+          "role": "DMF",
+          "shirt": 14,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 97
+        },
+        {
+          "name": "James Milner",
+          "source_name": "James Milner",
+          "player_id": 52898427835154,
+          "role": "CMF",
+          "shirt": 7,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 93
+        },
+        {
+          "name": "Steven Gerrard",
+          "source_name": "Steven Gerrard",
+          "player_id": 17592186178996,
+          "role": "AMF",
+          "shirt": 8,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 98
+        },
+        {
+          "name": "Dirk Kuyt",
+          "source_name": "Dirk Kuyt",
+          "player_id": 88040655687168,
+          "role": "RWF",
+          "shirt": 18,
+          "starting": true,
+          "source_primary_role": 10,
+          "target_ovr": 95
+        },
+        {
+          "name": "Luis García",
+          "source_name": "Luis García",
+          "player_id": 88030455139856,
+          "role": "LWF",
+          "shirt": 10,
+          "starting": true,
+          "source_primary_role": 10,
+          "target_ovr": 94
+        },
+        {
+          "name": "Fernando Torres",
+          "source_name": "Fernando Torres",
+          "player_id": 88046292701296,
+          "role": "CF",
+          "shirt": 9,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 98
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          4,
+          24,
+          37
+        ],
+        [
+          5,
+          26,
+          69
+        ],
+        [
+          8,
+          35,
+          52
+        ],
+        [
+          10,
+          41,
+          87
+        ],
+        [
+          9,
+          41,
+          18
+        ],
+        [
+          12,
+          47,
+          52
+        ]
+      ],
+      "responsibilities": {
+        "captain": 7,
+        "long_free_kick": 7,
+        "short_free_kick": 7,
+        "second_free_kick": 5,
+        "left_corner": 5,
+        "right_corner": 7,
+        "penalty": 7
+      },
+      "set_piece_taker": [
+        7,
+        7,
+        5,
+        5,
+        7,
+        7
+      ],
+      "era_notes": [
+        "Requested back four and Mascherano/Riera absent; van Dijk/Matip/Trent/Robertson/Milner are approved2010s positional fallbacks. Luis García played Liverpool2004–07."
+      ]
+    },
+    "1950": {
+      "name": "Inter Milan",
+      "short": "INT",
+      "visual_team": 119,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "Júlio César",
+          "source_name": "Júlio César",
+          "player_id": 17593796661920,
+          "role": "GK",
+          "shirt": 12,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 97
+        },
+        {
+          "name": "Iván Córdoba",
+          "source_name": "Iván Córdoba",
+          "player_id": 17593796791754,
+          "role": "CB",
+          "shirt": 2,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 96
+        },
+        {
+          "name": "Marco Materazzi",
+          "source_name": "Marco Materazzi",
+          "player_id": 88029918197892,
+          "role": "CB",
+          "shirt": 23,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 95
+        },
+        {
+          "name": "Maicon",
+          "source_name": "Maicon",
+          "player_id": 17593796664224,
+          "role": "RB",
+          "shirt": 13,
+          "starting": true,
+          "source_primary_role": 3,
+          "target_ovr": 97
+        },
+        {
+          "name": "Javier Zanetti",
+          "source_name": "Javier Zanetti",
+          "player_id": 88039045074389,
+          "role": "LB",
+          "shirt": 4,
+          "starting": true,
+          "source_primary_role": 2,
+          "target_ovr": 97
+        },
+        {
+          "name": "Esteban Cambiasso",
+          "source_name": "Esteban Cambiasso",
+          "player_id": 17593796791800,
+          "role": "DMF",
+          "shirt": 19,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 97
+        },
+        {
+          "name": "Juan Sebastián Verón",
+          "source_name": "Juan Sebastián Verón",
+          "player_id": 88033407796938,
+          "role": "CMF",
+          "shirt": 14,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 95
+        },
+        {
+          "name": "Wesley Sneijder",
+          "source_name": "Wesley Sneijder",
+          "player_id": 17593796662070,
+          "role": "AMF",
+          "shirt": 10,
+          "starting": true,
+          "source_primary_role": 8,
+          "target_ovr": 98
+        },
+        {
+          "name": "Samuel Eto'o",
+          "source_name": "Samuel Eto'o",
+          "player_id": 17593528223194,
+          "role": "RWF",
+          "shirt": 9,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 97
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "source_name": "Zlatan Ibrahimović",
+          "player_id": 89136140651034,
+          "role": "SS",
+          "shirt": 8,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 97
+        },
+        {
+          "name": "Adriano",
+          "source_name": "Adriano",
+          "player_id": 89066884435465,
+          "role": "CF",
+          "shirt": 29,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 98
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          4,
+          24,
+          38
+        ],
+        [
+          5,
+          27,
+          69
+        ],
+        [
+          8,
+          35,
+          52
+        ],
+        [
+          10,
+          42,
+          87
+        ],
+        [
+          11,
+          42,
+          20
+        ],
+        [
+          12,
+          47,
+          52
+        ]
+      ],
+      "responsibilities": {
+        "captain": 4,
+        "long_free_kick": 7,
+        "short_free_kick": 7,
+        "second_free_kick": 6,
+        "left_corner": 7,
+        "right_corner": 6,
+        "penalty": 10
+      },
+      "set_piece_taker": [
+        7,
+        7,
+        6,
+        7,
+        6,
+        10
+      ],
+      "era_notes": [
+        "Lúcio/Samuel/Chivu absent; Córdoba/Materazzi used at CB, Zanetti at LB; Verón fills CMF. All replacements played Inter2000s."
+      ]
+    },
+    "1228": {
+      "name": "Arsenal FC",
+      "short": "ARS",
+      "visual_team": 101,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "David Seaman",
+          "source_name": "David Seaman",
+          "player_id": 17593796657960,
+          "role": "GK",
+          "shirt": 1,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 96
+        },
+        {
+          "name": "Sol Campbell",
+          "source_name": "Sol Campbell",
+          "player_id": 17592186179044,
+          "role": "CB",
+          "shirt": 23,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 97
+        },
+        {
+          "name": "Tony Adams",
+          "source_name": "Tony Adams",
+          "player_id": 88030991876915,
+          "role": "CB",
+          "shirt": 6,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 97
+        },
+        {
+          "name": "Lee Dixon",
+          "source_name": "Lee Dixon",
+          "player_id": 88035823874883,
+          "role": "RB",
+          "shirt": 2,
+          "starting": true,
+          "source_primary_role": 3,
+          "target_ovr": 94
+        },
+        {
+          "name": "Mikaël Silvestre",
+          "source_name": "Mikaël Silvestre",
+          "player_id": 88036360587096,
+          "role": "LB",
+          "shirt": 18,
+          "starting": true,
+          "source_primary_role": 2,
+          "target_ovr": 93
+        },
+        {
+          "name": "Patrick Vieira",
+          "source_name": "Patrick Vieira",
+          "player_id": 17592723049917,
+          "role": "DMF",
+          "shirt": 4,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 98
+        },
+        {
+          "name": "Gilberto Silva",
+          "source_name": "Gilberto Silva",
+          "player_id": 17592186179066,
+          "role": "DMF",
+          "shirt": 19,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 96
+        },
+        {
+          "name": "Freddie Ljungberg",
+          "source_name": "Freddie Ljungberg",
+          "player_id": 17592186179090,
+          "role": "RMF",
+          "shirt": 8,
+          "starting": true,
+          "source_primary_role": 7,
+          "target_ovr": 96
+        },
+        {
+          "name": "Robert Pirès",
+          "source_name": "Robert Pirès",
+          "player_id": 17592186179085,
+          "role": "LMF",
+          "shirt": 7,
+          "starting": true,
+          "source_primary_role": 6,
+          "target_ovr": 97
+        },
+        {
+          "name": "Dennis Bergkamp",
+          "source_name": "Dennis Bergkamp",
+          "player_id": 17592186179034,
+          "role": "SS",
+          "shirt": 10,
+          "starting": true,
+          "source_primary_role": 11,
+          "target_ovr": 98
+        },
+        {
+          "name": "Thierry Henry",
+          "source_name": "Thierry Henry",
+          "player_id": 88046312750111,
+          "role": "CF",
+          "shirt": 14,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 98
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          4,
+          24,
+          60
+        ],
+        [
+          4,
+          24,
+          40
+        ],
+        [
+          7,
+          34,
+          86
+        ],
+        [
+          6,
+          34,
+          18
+        ],
+        [
+          11,
+          42,
+          34
+        ],
+        [
+          12,
+          47,
+          65
+        ]
+      ],
+      "responsibilities": {
+        "captain": 2,
+        "long_free_kick": 10,
+        "short_free_kick": 10,
+        "second_free_kick": 9,
+        "left_corner": 8,
+        "right_corner": 9,
+        "penalty": 10
+      },
+      "set_piece_taker": [
+        10,
+        10,
+        9,
+        8,
+        9,
+        10
+      ],
+      "era_notes": [
+        "Lehmann/Lauren/Kolo Touré/Ashley Cole absent; Seaman/Dixon/Adams/Silvestre are actual Arsenal2000s replacements."
+      ]
+    },
+    "1955": {
+      "name": "Bayern Munchen",
+      "short": "BAY",
+      "visual_team": 127,
+      "competition": 473,
+      "slots": [
+        {
+          "name": "Oliver Kahn",
+          "source_name": "Oliver Kahn",
+          "player_id": 17592186179015,
+          "role": "GK",
+          "shirt": 1,
+          "starting": true,
+          "source_primary_role": 0,
+          "target_ovr": 98
+        },
+        {
+          "name": "Martín Demichelis",
+          "source_name": "Martín Demichelis",
+          "player_id": 17592991485433,
+          "role": "CB",
+          "shirt": 6,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 95
+        },
+        {
+          "name": "Daniel Van Buyten",
+          "source_name": "Daniel Van Buyten",
+          "player_id": 88035555413488,
+          "role": "CB",
+          "shirt": 5,
+          "starting": true,
+          "source_primary_role": 1,
+          "target_ovr": 95
+        },
+        {
+          "name": "Philipp Lahm",
+          "source_name": "Philipp Lahm",
+          "player_id": 89138288138433,
+          "role": "RB",
+          "shirt": 21,
+          "starting": true,
+          "source_primary_role": 3,
+          "target_ovr": 98
+        },
+        {
+          "name": "Bixente Lizarazu",
+          "source_name": "Bixente Lizarazu",
+          "player_id": 88033407929787,
+          "role": "LB",
+          "shirt": 3,
+          "starting": true,
+          "source_primary_role": 2,
+          "target_ovr": 96
+        },
+        {
+          "name": "Mark van Bommel",
+          "source_name": "Mark van Bommel",
+          "player_id": 88038776506440,
+          "role": "DMF",
+          "shirt": 17,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 95
+        },
+        {
+          "name": "B. Schweinsteiger",
+          "source_name": "B. Schweinsteiger",
+          "player_id": 88044413653830,
+          "role": "CMF",
+          "shirt": 31,
+          "starting": true,
+          "source_primary_role": 4,
+          "target_ovr": 97
+        },
+        {
+          "name": "Lothar Matthäus",
+          "source_name": "Lothar Matthäus",
+          "player_id": 17592186179045,
+          "role": "CMF",
+          "shirt": 10,
+          "starting": true,
+          "source_primary_role": 5,
+          "target_ovr": 97
+        },
+        {
+          "name": "Zé Roberto",
+          "source_name": "Zé Roberto",
+          "player_id": 88033407796838,
+          "role": "LMF",
+          "shirt": 11,
+          "starting": true,
+          "source_primary_role": 6,
+          "target_ovr": 95
+        },
+        {
+          "name": "Gerd Müller",
+          "source_name": "Gerd Müller",
+          "player_id": 88040655554922,
+          "role": "CF",
+          "shirt": 9,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 98
+        },
+        {
+          "name": "Miroslav Klose",
+          "source_name": "Miroslav Klose",
+          "player_id": 88044413651570,
+          "role": "CF",
+          "shirt": 18,
+          "starting": true,
+          "source_primary_role": 12,
+          "target_ovr": 96
+        }
+      ],
+      "formation": [
+        [
+          0,
+          3,
+          52
+        ],
+        [
+          1,
+          11,
+          70
+        ],
+        [
+          1,
+          11,
+          34
+        ],
+        [
+          3,
+          13,
+          88
+        ],
+        [
+          2,
+          13,
+          16
+        ],
+        [
+          4,
+          24,
+          59
+        ],
+        [
+          5,
+          27,
+          39
+        ],
+        [
+          5,
+          33,
+          72
+        ],
+        [
+          6,
+          33,
+          18
+        ],
+        [
+          12,
+          46,
+          34
+        ],
+        [
+          12,
+          46,
+          70
+        ]
+      ],
+      "responsibilities": {
+        "captain": 0,
+        "long_free_kick": 7,
+        "short_free_kick": 7,
+        "second_free_kick": 6,
+        "left_corner": 8,
+        "right_corner": 6,
+        "penalty": 9
+      },
+      "set_piece_taker": [
+        7,
+        7,
+        6,
+        8,
+        6,
+        9
+      ],
+      "era_notes": [
+        "Sagnol/Lúcio/Ballack absent; Lahm/Demichelis/Matthäus used. Gerd Müller retained exactly as requested despite his earlier era."
+      ]
+    }
+  },
+  "new_cards": 110,
+  "duplicate_cards_in_Y08": 0,
+  "overlap_with_existing_leagues": [],
+  "fixed_ids": {
+    "Wayne Rooney": "88037702766648",
+    "Cristiano Ronaldo": "89135066911146",
+    "Ronaldo Nazário": "88046292734664",
+    "Zinedine Zidane": "89136418985301",
+    "Thierry Henry": "88046312750111",
+    "Lionel Messi": "89136409091415",
+    "Ronaldinho Gaúcho": "89067152870864",
+    "Adriano": "89066884435465"
+  },
+  "removed_teams": [
+    1958,
+    4965
+  ],
+  "phone_tested": false,
+  "clubs_checked_in_other_leagues": 429,
+  "exact_card_ids_checked_in_other_leagues": 13003
+}

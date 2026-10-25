@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "private_models": 356,
+  "two_lods_per_model": true,
+  "stock_names_overridden": false,
+  "native_reader_samples": 4,
+  "samples": [
+    {
+      "mesh": "SK_2015b07",
+      "vertices": 2988,
+      "UI2_sleeve_depth_cm": 19.25,
+      "UI3_sleeve_depth_cm": 12.09,
+      "cuff_lowered_cm": 3.44,
+      "changed_vertices": 816,
+      "hidden_skin_tucked": 428,
+      "visible_wrist_and_torso_unchanged": true,
+      "indices_uv_skeleton_bind_matrices_exact": true
+    },
+    {
+      "mesh": "SK_2015e07",
+      "vertices": 2708,
+      "UI2_sleeve_depth_cm": 18.9,
+      "UI3_sleeve_depth_cm": 11.98,
+      "cuff_lowered_cm": 3.47,
+      "changed_vertices": 602,
+      "hidden_skin_tucked": 214,
+      "visible_wrist_and_torso_unchanged": true,
+      "indices_uv_skeleton_bind_matrices_exact": true
+    }
+  ],
+  "android_gpu_tested": false
+}
