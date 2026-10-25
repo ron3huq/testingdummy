@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "meshes": 356,
+  "LODs": 2,
+  "native_reader_samples": 4,
+  "stock_long_skinning_preserved": true,
+  "samples": [
+    {
+      "mesh": "SK_2015b07",
+      "vertices": 2652,
+      "changed": 415,
+      "native_joint_weight_index_bind_exact": true,
+      "posed_samples": [
+        {
+          "elbow_degrees": 0,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        },
+        {
+          "elbow_degrees": 30,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        },
+        {
+          "elbow_degrees": 60,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        },
+        {
+          "elbow_degrees": 90,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        },
+        {
+          "elbow_degrees": 120,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        }
+      ]
+    },
+    {
+      "mesh": "SK_2015e07",
+      "vertices": 2652,
+      "changed": 415,
+      "native_joint_weight_index_bind_exact": true,
+      "posed_samples": [
+        {
+          "elbow_degrees": 0,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        },
+        {
+          "elbow_degrees": 30,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        },
+        {
+          "elbow_degrees": 60,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        },
+        {
+          "elbow_degrees": 90,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        },
+        {
+          "elbow_degrees": 120,
+          "max_delta_from_native_long_cm": 3.212,
+          "max_triangle_edge_cm": 18.17
+        }
+      ]
+    }
+  ],
+  "android_gpu_tested": false,
+  "self_intersection_not_proven_absent": true
+}

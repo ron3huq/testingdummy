@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "pc9299 payload verifies once; advertisement idempotent; face rows and source reply retained",
+    "28 hook prologues match original73 engine; added-helper conflict caught before patching",
+    "no overlap with fifteen working face hooks",
+    "runtime native SHA matches compiled library"
+  ]
+}

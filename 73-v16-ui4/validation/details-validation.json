@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Owned-instance edit read back; valid native height/mass and Chop Turn removal/Long-reach Tackle replacement",
+    "Unrelated stats/progression/booster/additional-skill data exact",
+    "Invalid requests rejected; SQLite and config rollback; fresh config has only chosen exact card ID",
+    "10000 edited-card wire projections no SQL or catalogue scans; immutable source",
+    "Only two coach wires altered; source and unrelated coaches immutable"
+  ],
+  "wire_10000_seconds": 0.099,
+  "phone_tested": false
+}

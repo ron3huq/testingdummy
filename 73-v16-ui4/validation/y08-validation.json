@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "clubs_checked_in_other_leagues": 429,
+  "existing_exact_card_ids": 13003,
+  "Y08_cards": 110,
+  "native_table_ids_verified": true,
+  "duplicate_cards": 0,
+  "overlap_other_MyLeague_leagues": [],
+  "existing_six_leagues_unchanged": true,
+  "tier0_win_rate_over_tier1": 0.539,
+  "milan_mean_AI_conceded": 0.425,
+  "others_mean_AI_conceded": 0.985,
+  "R9_Messi_own_club_goal_event_shares": {
+    "88046292734664": 0.641,
+    "89136409091415": 0.429
+  },
+  "simulation_games": 36000,
+  "scorer_ranking_guaranteed": false,
+  "phone_tested": false
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "chromium_device_emulation": true,
+  "android_phone_tested": false,
+  "results": [
+    {
+      "android_bridge": false,
+      "ready": true,
+      "boot_overlay_hidden": true,
+      "project_loaded_and_saved": true,
+      "static_default_preview": true,
+      "idle_continuous_repaints": 0,
+      "burst_100_requests_batched": true,
+      "video_does_not_redraw_entire_editor": true,
+      "tab_switch_works": true,
+      "missing_assets": [],
+      "errors": []
+    },
+    {
+      "android_bridge": true,
+      "ready": true,
+      "boot_overlay_hidden": true,
+      "project_loaded_and_saved": true,
+      "static_default_preview": true,
+      "idle_continuous_repaints": 0,
+      "burst_100_requests_batched": true,
+      "video_does_not_redraw_entire_editor": true,
+      "tab_switch_works": true,
+      "missing_assets": [],
+      "errors": []
+    }
+  ]
+}

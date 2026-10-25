@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Compiled ARM64 callback reaches face library; all13 positions survive late face lookup in518/473",
+    "Original exact CR7 position policy retained outside the two leagues; custom cards/unrelated cards unchanged",
+    "Face native C source identical after removing three added scope-guard lines; renderer, material lifecycle, mappings, retargeting unchanged"
+  ],
+  "phone_tested": false
+}

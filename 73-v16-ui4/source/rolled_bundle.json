@@ -1,0 +1,16 @@
+{
+  "files": {
+    "pc9299_mobile_and.pak": {
+      "size": 365,
+      "sha256": "8676453f1a9f0a15f3b9beaea8aac4d86af198b1cfdb27f1acb7f73bce1a1a48"
+    },
+    "pc9299_mobile_and.ucas": {
+      "size": 40944429,
+      "sha256": "1f1478b56fd45cccbb0939ce2933eec19b669c5d87b59b4389925ca178433ca8"
+    },
+    "pc9299_mobile_and.utoc": {
+      "size": 49173,
+      "sha256": "58204d1b64259cffc880d1f16a2cbaeb3e2c45e3999149931a3d39200566bad1"
+    }
+  }
+}

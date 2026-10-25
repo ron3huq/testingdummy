@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "Actual original73 inflateInit2/inflate/inflateEnd execute with compiled raw_inflate_hook; unrelated bytes exact",
+    "All eight native custom home/away layouts receive exact licensed glyph layout; team100 remains byte exact",
+    "Actual292336-byte Coach table decompresses and changes exactly two pinned176-byte rows; names/country/age decoded back"
+  ],
+  "real_engine_zlib": true,
+  "phone_tested": false
+}

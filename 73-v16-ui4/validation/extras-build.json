@@ -1,0 +1,786 @@
+[
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 1,
+    "name": "Name_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        256,
+        64
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 1,
+    "name": "Name_Ex_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        256,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 1,
+    "name": "Back_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        1024,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 1,
+    "name": "Chest_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 1,
+    "name": "Leg_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 2,
+    "name": "Name_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        256,
+        64
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 2,
+    "name": "Name_Ex_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        256,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 2,
+    "name": "Back_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        1024,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 2,
+    "name": "Chest_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 242,
+    "slot": 2,
+    "name": "Leg_D",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 1,
+    "name": "Name_D",
+    "color": [
+      2,
+      121,
+      165
+    ],
+    "dimensions": [
+      [
+        256,
+        64
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 1,
+    "name": "Name_Ex_D",
+    "color": [
+      2,
+      121,
+      165
+    ],
+    "dimensions": [
+      [
+        256,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 1,
+    "name": "Back_D",
+    "color": [
+      2,
+      121,
+      165
+    ],
+    "dimensions": [
+      [
+        1024,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 1,
+    "name": "Chest_D",
+    "color": [
+      2,
+      121,
+      165
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 1,
+    "name": "Leg_D",
+    "color": [
+      2,
+      121,
+      165
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 2,
+    "name": "Name_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        64
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 2,
+    "name": "Name_Ex_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 2,
+    "name": "Back_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        1024,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 2,
+    "name": "Chest_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 351,
+    "slot": 2,
+    "name": "Leg_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 1,
+    "name": "Name_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        64
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 1,
+    "name": "Name_Ex_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 1,
+    "name": "Back_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        1024,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 1,
+    "name": "Chest_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 1,
+    "name": "Leg_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 2,
+    "name": "Name_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        64
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 2,
+    "name": "Name_Ex_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 2,
+    "name": "Back_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        1024,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 2,
+    "name": "Chest_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 352,
+    "slot": 2,
+    "name": "Leg_D",
+    "color": [
+      245,
+      245,
+      245
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 1,
+    "name": "Name_D",
+    "color": [
+      244,
+      218,
+      59
+    ],
+    "dimensions": [
+      [
+        256,
+        64
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 1,
+    "name": "Name_Ex_D",
+    "color": [
+      244,
+      218,
+      59
+    ],
+    "dimensions": [
+      [
+        256,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 1,
+    "name": "Back_D",
+    "color": [
+      244,
+      218,
+      59
+    ],
+    "dimensions": [
+      [
+        1024,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 1,
+    "name": "Chest_D",
+    "color": [
+      244,
+      218,
+      59
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 1,
+    "name": "Leg_D",
+    "color": [
+      244,
+      218,
+      59
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 2,
+    "name": "Name_D",
+    "color": [
+      15,
+      35,
+      62
+    ],
+    "dimensions": [
+      [
+        256,
+        64
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 2,
+    "name": "Name_Ex_D",
+    "color": [
+      15,
+      35,
+      62
+    ],
+    "dimensions": [
+      [
+        256,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 2,
+    "name": "Back_D",
+    "color": [
+      15,
+      35,
+      62
+    ],
+    "dimensions": [
+      [
+        1024,
+        128
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 2,
+    "name": "Chest_D",
+    "color": [
+      15,
+      35,
+      62
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "glyph",
+    "team": 245,
+    "slot": 2,
+    "name": "Leg_D",
+    "color": [
+      15,
+      35,
+      62
+    ],
+    "dimensions": [
+      [
+        256,
+        32
+      ]
+    ],
+    "template": "nativeMU100",
+    "encoded_alpha_unchanged": true
+  },
+  {
+    "kind": "coach_portrait",
+    "id": "17606144688129",
+    "source": "zidane.rar",
+    "dimensions": [
+      [
+        128,
+        128
+      ]
+    ],
+    "source_image_sha256": "bcfebaf75adca5c5807cad397a829b93fc94c5a600ce87f049e5297fbf8384e7"
+  },
+  {
+    "kind": "coach_portrait",
+    "id": "17604802510874",
+    "source": "ferguson.rar",
+    "dimensions": [
+      [
+        128,
+        128
+      ]
+    ],
+    "source_image_sha256": "e25128f27a64fd2038380b17af7f7bedad1862c2ef396994014b53cae509c34e"
+  }
+]

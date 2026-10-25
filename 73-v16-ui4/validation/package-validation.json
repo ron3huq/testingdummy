@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "manifest_entries": 7373,
+  "patch_entries": 376,
+  "zip_sha256": "db00a3c7c01d7fdce38a5aa75fcffa0c2eb72c920de7a1b241aec7863b2bb4c0",
+  "face_container_and_mapping_unchanged": true,
+  "face_loader_only_integrity_pin_changed": true,
+  "native_face_source_only_adds_league_position_guard": true,
+  "three_native_resource_hooks": true,
+  "all_11_component_reports_pass": true,
+  "no_user_save_or_database": true,
+  "android_device_tested": false
+}

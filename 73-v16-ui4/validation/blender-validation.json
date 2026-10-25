@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "Blender": "4.3.2",
+  "files": [
+    {
+      "file": "Ronaldo_89136418985302_NATIVE.blend",
+      "sha256": "308139af7de8a003cdd3fdde9b8fd0b5a676f4e9ce90fa668ab4f64e23e53060",
+      "meshes": 2,
+      "rigs": 1,
+      "packed_images": 2,
+      "vertices": 1386,
+      "loads_in_Blender": true
+    },
+    {
+      "file": "Ronaldo_89136418985303_NATIVE.blend",
+      "sha256": "998bc40ee5632ea61fd35358d3d1f67de1da7525e8330daf21543e907655704e",
+      "meshes": 2,
+      "rigs": 1,
+      "packed_images": 2,
+      "vertices": 1386,
+      "loads_in_Blender": true
+    },
+    {
+      "file": "zidane_SOURCE_REVIEW.blend",
+      "sha256": "1ecfaa8d34e4b270bcc1745fd614e07f3820bb7ae40124071ceb8b5ff4b4c084",
+      "meshes": 31,
+      "rigs": 1,
+      "packed_images": 19,
+      "vertices": 41852,
+      "loads_in_Blender": true
+    },
+    {
+      "file": "ferguson_SOURCE_REVIEW.blend",
+      "sha256": "a91cee6d02e8e5121e705d0729f50e82db5a72697b81b30fd6b93e6cd14deb62",
+      "meshes": 33,
+      "rigs": 1,
+      "packed_images": 21,
+      "vertices": 44693,
+      "loads_in_Blender": true
+    }
+  ],
+  "native_Ronaldo_pair_same_appearance": true,
+  "coach_eyes_added_for_standalone_preview": true
+}
