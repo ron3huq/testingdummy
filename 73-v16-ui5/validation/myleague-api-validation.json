@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    "actual_73_protected_modules_imported",
+    "all_seven_leagues_adapter_installs",
+    "73_finish_and_save_and_receipts_bytecode_untouched",
+    "adapter_idempotent",
+    "seven_league_memberships_and_names",
+    "all_custom_native_rosters",
+    "round_robin_unique_teams_per_round",
+    "deterministic_cpu_scores_in_native_schema",
+    "saved_results_not_recalculated",
+    "original_73_prepare_and_start_wrapped_not_replaced",
+    "all_reference_sources_load_without_Android_or_network",
+    "actual_73_SQLite_info_route",
+    "scorers_are_current_club_roster_members",
+    "known_goalkeepers_never_selected_as_scorers",
+    "AI_goal_events_match_actual_simulated_scores",
+    "menu_reads_do_not_add_played_rounds",
+    "working_face_bundle_accepts_updated_MyLeague_runtime_hashes",
+    "Y08 ten starting clubs actual73 state/info;18 rounds, five matches per round, valid in-roster scorers",
+    "actual_73_login_and_warehouse_wire_shapes_preserved",
+    "player_source_not_mutated_by_projection",
+    "START fixture routing: all10Y08 teams and both user sides; ignores zero/default wire team IDs",
+    "Y17 previous kit behavior preserved; owned START entries bypass opponent rating caps in Y08/Y17"
+  ],
+  "phone_tested": false
+}

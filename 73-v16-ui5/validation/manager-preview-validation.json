@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "native_export_imported_in_Blender": true,
+  "two_ported_heads_rendered": true,
+  "original_manager_heads_rendered_for_comparison": true,
+  "shared_game_eye_shader_not_reproduced_in_Blender": true,
+  "android_gpu_tested": false
+}

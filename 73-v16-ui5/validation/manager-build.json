@@ -1,0 +1,120 @@
+[
+  {
+    "label": "zidane",
+    "variant": "1sp00v0052",
+    "vertices": 2719,
+    "triangles": 4740,
+    "materials": 2,
+    "native_eyes_mouth_neck_vertices": 177,
+    "native_bone_maps_required_bones_preserved": true,
+    "texture_dimensions": [
+      [
+        2048,
+        2048
+      ],
+      [
+        1024,
+        1024
+      ],
+      [
+        512,
+        512
+      ],
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        4
+      ]
+    ]
+  },
+  {
+    "label": "ferguson",
+    "variant": "26sp00v0047",
+    "vertices": 6644,
+    "triangles": 10049,
+    "materials": 3,
+    "native_eyes_mouth_neck_vertices": 175,
+    "native_bone_maps_required_bones_preserved": true,
+    "texture_dimensions": [
+      [
+        2048,
+        2048
+      ],
+      [
+        1024,
+        1024
+      ],
+      [
+        512,
+        512
+      ],
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        4
+      ]
+    ]
+  }
+]

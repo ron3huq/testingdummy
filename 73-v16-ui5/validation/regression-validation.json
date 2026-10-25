@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "Actual compiled select-team->face-library->soft-path chain; native model15 and six arguments preserved; exact four IDs/two kits/two slots only",
+    "Common/low-body loader remains native; no forced detailed mesh; resource substitution ends with body call; physics paths untouched",
+    "Original native18-entry accessory vector: left tape white/on, right off, other bytes exact; applies before editor ready; rolled-card appearance starts with accessory-compatible short flag",
+    "68 skill message IDs checked through actual82bb60c; missing names obtain valid short UTF8 strings; custom-card page scope repairs names, unrelated nonempty messages preserved",
+    "Six league-logo FString returns: hiddenX8, original allocator/ownership, small/large suffix and quote/object syntax retained; unrelated125 uses original path"
+  ],
+  "android_phone_tested": false
+}

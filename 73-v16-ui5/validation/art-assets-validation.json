@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "managers": [
+    {
+      "manager": "zidane",
+      "LODs": 2,
+      "vertices": 2719,
+      "triangles": 4740,
+      "native_reader": true,
+      "finite_head_size": true
+    },
+    {
+      "manager": "ferguson",
+      "LODs": 2,
+      "vertices": 6644,
+      "triangles": 10049,
+      "native_reader": true,
+      "finite_head_size": true
+    }
+  ],
+  "unchanged_kit_glyph_assets": 40,
+  "private_logos": [
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_Y17_s.uasset",
+      "size": 64
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_Y17_l.uasset",
+      "size": 256
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_Y17.uasset",
+      "size": 128
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_Y08_s.uasset",
+      "size": 64
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_Y08_l.uasset",
+      "size": 256
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_Y08.uasset",
+      "size": 128
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_WORLD_s.uasset",
+      "size": 64
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_WORLD_l.uasset",
+      "size": 256
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_WORLD.uasset",
+      "size": 128
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_UCL_s.uasset",
+      "size": 64
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_UCL_l.uasset",
+      "size": 256
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_UCL.uasset",
+      "size": 128
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_AP_s.uasset",
+      "size": 64
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_AP_l.uasset",
+      "size": 256
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_AP.uasset",
+      "size": 128
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_AFC_s.uasset",
+      "size": 64
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_AFC_l.uasset",
+      "size": 256
+    },
+    {
+      "path": "ui/Data/Symbol/Other/emblemOther-UI5_AFC.uasset",
+      "size": 128
+    }
+  ],
+  "android_gpu_tested": false
+}

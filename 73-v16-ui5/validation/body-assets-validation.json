@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "models": 356,
+  "LODs_per_model": 2,
+  "vertices_checked": 1443317,
+  "all_skin_positions_and_weights_exact": true,
+  "all_UV_colors_indices_exact": true,
+  "four_native_reader_samples": true,
+  "source_bone_palettes_and_skeletons_retained": true,
+  "android_gpu_tested": false
+}

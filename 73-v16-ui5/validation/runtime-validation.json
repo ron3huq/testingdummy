@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "mandatory_hook_prologues": 25,
+  "inline_hook_prologues_checked": 25,
+  "resource_containers_idempotent": 3,
+  "original_face_advertisement_preserved": true,
+  "native_SHA_verified": true,
+  "android_device_tested": false
+}

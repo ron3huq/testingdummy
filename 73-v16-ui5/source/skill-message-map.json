@@ -1,0 +1,410 @@
+[
+  {
+    "message_id": 23068750,
+    "skill_id": 0,
+    "parameter": 70,
+    "label": "Scissors Feint"
+  },
+  {
+    "message_id": 23068775,
+    "skill_id": 1,
+    "parameter": 107,
+    "label": "Double Touch"
+  },
+  {
+    "message_id": 23068716,
+    "skill_id": 2,
+    "parameter": 71,
+    "label": "Flip Flap"
+  },
+  {
+    "message_id": 23068751,
+    "skill_id": 3,
+    "parameter": 72,
+    "label": "Marseille Turn"
+  },
+  {
+    "message_id": 23068752,
+    "skill_id": 4,
+    "parameter": 73,
+    "label": "Sombrero"
+  },
+  {
+    "message_id": 23068776,
+    "skill_id": 5,
+    "parameter": 108,
+    "label": "Chop Turn"
+  },
+  {
+    "message_id": 23068766,
+    "skill_id": 6,
+    "parameter": 74,
+    "label": "Cut Behind & Turn"
+  },
+  {
+    "message_id": 23068767,
+    "skill_id": 7,
+    "parameter": 75,
+    "label": "Scotch Move"
+  },
+  {
+    "message_id": 23068816,
+    "skill_id": 8,
+    "parameter": 135,
+    "label": "Tap Fake"
+  },
+  {
+    "message_id": 23068817,
+    "skill_id": 9,
+    "parameter": 136,
+    "label": "Spring Cut"
+  },
+  {
+    "message_id": 23068777,
+    "skill_id": 10,
+    "parameter": 102,
+    "label": "Sole Control"
+  },
+  {
+    "message_id": 23068797,
+    "skill_id": 11,
+    "parameter": 116,
+    "label": "Momentum Dribbling"
+  },
+  {
+    "message_id": 23068804,
+    "skill_id": 12,
+    "parameter": 124,
+    "label": "Accel Burst"
+  },
+  {
+    "message_id": 23068810,
+    "skill_id": 13,
+    "parameter": 130,
+    "label": "Magnetic Feet"
+  },
+  {
+    "message_id": 23068769,
+    "skill_id": 15,
+    "parameter": 76,
+    "label": "Heading"
+  },
+  {
+    "message_id": 23068803,
+    "skill_id": 16,
+    "parameter": 121,
+    "label": "Bullet Header"
+  },
+  {
+    "message_id": 23068733,
+    "skill_id": 17,
+    "parameter": 77,
+    "label": "Long-range Curler"
+  },
+  {
+    "message_id": 23068801,
+    "skill_id": 18,
+    "parameter": 120,
+    "label": "Blitz Curler"
+  },
+  {
+    "message_id": 23068778,
+    "skill_id": 19,
+    "parameter": 101,
+    "label": "Chip Shot Control"
+  },
+  {
+    "message_id": 23068738,
+    "skill_id": 20,
+    "parameter": 78,
+    "label": "Knuckle Shot"
+  },
+  {
+    "message_id": 23068779,
+    "skill_id": 21,
+    "parameter": 103,
+    "label": "Dipping Shot"
+  },
+  {
+    "message_id": 23068780,
+    "skill_id": 22,
+    "parameter": 104,
+    "label": "Rising Shot"
+  },
+  {
+    "message_id": 23068786,
+    "skill_id": 23,
+    "parameter": 109,
+    "label": "Long-range Shooting"
+  },
+  {
+    "message_id": 23068808,
+    "skill_id": 24,
+    "parameter": 127,
+    "label": "Low Screamer"
+  },
+  {
+    "message_id": 23068813,
+    "skill_id": 26,
+    "parameter": 134,
+    "label": "Snap Strike"
+  },
+  {
+    "message_id": 23068754,
+    "skill_id": 27,
+    "parameter": 79,
+    "label": "Acrobatic Finishing"
+  },
+  {
+    "message_id": 23068770,
+    "skill_id": 28,
+    "parameter": 80,
+    "label": "Heel Trick"
+  },
+  {
+    "message_id": 23068755,
+    "skill_id": 29,
+    "parameter": 81,
+    "label": "First-time Shot"
+  },
+  {
+    "message_id": 23068792,
+    "skill_id": 30,
+    "parameter": 114,
+    "label": "Improviser"
+  },
+  {
+    "message_id": 23068809,
+    "skill_id": 31,
+    "parameter": 128,
+    "label": "Willpower"
+  },
+  {
+    "message_id": 23068756,
+    "skill_id": 32,
+    "parameter": 82,
+    "label": "Direct Pass"
+  },
+  {
+    "message_id": 23068787,
+    "skill_id": 33,
+    "parameter": 110,
+    "label": "Through Pass"
+  },
+  {
+    "message_id": 23068757,
+    "skill_id": 34,
+    "parameter": 83,
+    "label": "Weighted Pass"
+  },
+  {
+    "message_id": 23068758,
+    "skill_id": 35,
+    "parameter": 84,
+    "label": "Pin Point Cross"
+  },
+  {
+    "message_id": 23068800,
+    "skill_id": 36,
+    "parameter": 119,
+    "label": "Blitz Crossing"
+  },
+  {
+    "message_id": 23068759,
+    "skill_id": 37,
+    "parameter": 85,
+    "label": "Out Side Long"
+  },
+  {
+    "message_id": 23068771,
+    "skill_id": 38,
+    "parameter": 86,
+    "label": "Rabona"
+  },
+  {
+    "message_id": 23068781,
+    "skill_id": 39,
+    "parameter": 98,
+    "label": "No Look Pass"
+  },
+  {
+    "message_id": 23068798,
+    "skill_id": 40,
+    "parameter": 117,
+    "label": "Game-changing Pass"
+  },
+  {
+    "message_id": 23068799,
+    "skill_id": 41,
+    "parameter": 118,
+    "label": "Visionary Pass"
+  },
+  {
+    "message_id": 23068802,
+    "skill_id": 42,
+    "parameter": 122,
+    "label": "Phenomenal Pass"
+  },
+  {
+    "message_id": 23068772,
+    "skill_id": 44,
+    "parameter": 87,
+    "label": "Low Lofted Pass"
+  },
+  {
+    "message_id": 23068760,
+    "skill_id": 45,
+    "parameter": 88,
+    "label": "GK Low Punt"
+  },
+  {
+    "message_id": 23068782,
+    "skill_id": 46,
+    "parameter": 105,
+    "label": "GK High Punt"
+  },
+  {
+    "message_id": 2424859,
+    "skill_id": 47,
+    "parameter": 89,
+    "label": "Longthrow"
+  },
+  {
+    "message_id": 23068747,
+    "skill_id": 48,
+    "parameter": 90,
+    "label": "Gk Long Throw"
+  },
+  {
+    "message_id": 23068783,
+    "skill_id": 49,
+    "parameter": 99,
+    "label": "Penalty Specialist"
+  },
+  {
+    "message_id": 23068784,
+    "skill_id": 50,
+    "parameter": 100,
+    "label": "Pk Stopper"
+  },
+  {
+    "message_id": 23068807,
+    "skill_id": 53,
+    "parameter": 126,
+    "label": "GK Directing Defence"
+  },
+  {
+    "message_id": 74973340,
+    "skill_id": 54,
+    "parameter": 129,
+    "label": "GK Spirit Roar"
+  },
+  {
+    "message_id": 23068773,
+    "skill_id": 55,
+    "parameter": 91,
+    "label": "Malicia"
+  },
+  {
+    "message_id": 23068706,
+    "skill_id": 56,
+    "parameter": 92,
+    "label": "Man Marking"
+  },
+  {
+    "message_id": 23068735,
+    "skill_id": 57,
+    "parameter": 93,
+    "label": "Chasing"
+  },
+  {
+    "message_id": 23068785,
+    "skill_id": 58,
+    "parameter": 106,
+    "label": "Intercept"
+  },
+  {
+    "message_id": 23068789,
+    "skill_id": 59,
+    "parameter": 111,
+    "label": "Blocker"
+  },
+  {
+    "message_id": 2359430,
+    "skill_id": 60,
+    "parameter": 112,
+    "label": "Aerial Superiority"
+  },
+  {
+    "message_id": 23068790,
+    "skill_id": 61,
+    "parameter": 113,
+    "label": "Sliding Tackle"
+  },
+  {
+    "message_id": 23068806,
+    "skill_id": 62,
+    "parameter": 125,
+    "label": "Long-reach Tackle"
+  },
+  {
+    "message_id": 23068818,
+    "skill_id": 63,
+    "parameter": 137,
+    "label": "Power Tackle"
+  },
+  {
+    "message_id": 23068793,
+    "skill_id": 64,
+    "parameter": 115,
+    "label": "Fortress"
+  },
+  {
+    "message_id": 23068774,
+    "skill_id": 65,
+    "parameter": 94,
+    "label": "Acrobatic Clearance"
+  },
+  {
+    "message_id": 23068805,
+    "skill_id": 66,
+    "parameter": 123,
+    "label": "Df Sky High"
+  },
+  {
+    "message_id": 23068814,
+    "skill_id": 67,
+    "parameter": 132,
+    "label": "Shadow Hunt"
+  },
+  {
+    "message_id": 23068761,
+    "skill_id": 69,
+    "parameter": 95,
+    "label": "Captaincy"
+  },
+  {
+    "message_id": 23068812,
+    "skill_id": 70,
+    "parameter": 131,
+    "label": "Attack Trigger"
+  },
+  {
+    "message_id": 23068720,
+    "skill_id": 71,
+    "parameter": 96,
+    "label": "Super Sub"
+  },
+  {
+    "message_id": 23068768,
+    "skill_id": 72,
+    "parameter": 97,
+    "label": "Fighting Spirit"
+  },
+  {
+    "message_id": 23068815,
+    "skill_id": 73,
+    "parameter": 133,
+    "label": "Attacking Surge"
+  }
+]

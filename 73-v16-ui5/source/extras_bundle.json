@@ -1,0 +1,16 @@
+{
+  "files": {
+    "pc9300_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "pc9300_mobile_and.utoc": {
+      "size": 5411,
+      "sha256": "79dc4c2dbeb32146d2d6e22f63e9a9b7767d83eefb98a45ca4d9e6f712b5d605"
+    },
+    "pc9300_mobile_and.ucas": {
+      "size": 224823,
+      "sha256": "b0b7a870af35918217fcccd83fe29754cf0027713a02f6e10fc406a836d2fc09"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "native_export_skinning": true,
+  "weight_values_normalized_before_skinning": true,
+  "samples": [
+    {
+      "mesh": "SK_4015a07",
+      "samples": [
+        {
+          "elbow_degrees": 0,
+          "largest_arm_triangle_edge_cm": 15.967
+        },
+        {
+          "elbow_degrees": 30,
+          "largest_arm_triangle_edge_cm": 15.998
+        },
+        {
+          "elbow_degrees": 60,
+          "largest_arm_triangle_edge_cm": 16.027
+        },
+        {
+          "elbow_degrees": 90,
+          "largest_arm_triangle_edge_cm": 16.044
+        },
+        {
+          "elbow_degrees": 120,
+          "largest_arm_triangle_edge_cm": 16.047
+        }
+      ]
+    },
+    {
+      "mesh": "SK_4015d07",
+      "samples": [
+        {
+          "elbow_degrees": 0,
+          "largest_arm_triangle_edge_cm": 16.011
+        },
+        {
+          "elbow_degrees": 30,
+          "largest_arm_triangle_edge_cm": 16.041
+        },
+        {
+          "elbow_degrees": 60,
+          "largest_arm_triangle_edge_cm": 16.068
+        },
+        {
+          "elbow_degrees": 90,
+          "largest_arm_triangle_edge_cm": 16.085
+        },
+        {
+          "elbow_degrees": 120,
+          "largest_arm_triangle_edge_cm": 16.087
+        }
+      ]
+    },
+    {
+      "mesh": "SK_4015a02",
+      "samples": [
+        {
+          "elbow_degrees": 0,
+          "largest_arm_triangle_edge_cm": 15.967
+        },
+        {
+          "elbow_degrees": 30,
+          "largest_arm_triangle_edge_cm": 15.998
+        },
+        {
+          "elbow_degrees": 60,
+          "largest_arm_triangle_edge_cm": 16.027
+        },
+        {
+          "elbow_degrees": 90,
+          "largest_arm_triangle_edge_cm": 16.044
+        },
+        {
+          "elbow_degrees": 120,
+          "largest_arm_triangle_edge_cm": 16.047
+        }
+      ]
+    },
+    {
+      "mesh": "SK_4123d07",
+      "samples": [
+        {
+          "elbow_degrees": 0,
+          "largest_arm_triangle_edge_cm": 16.011
+        },
+        {
+          "elbow_degrees": 30,
+          "largest_arm_triangle_edge_cm": 16.041
+        },
+        {
+          "elbow_degrees": 60,
+          "largest_arm_triangle_edge_cm": 16.068
+        },
+        {
+          "elbow_degrees": 90,
+          "largest_arm_triangle_edge_cm": 16.085
+        },
+        {
+          "elbow_degrees": 120,
+          "largest_arm_triangle_edge_cm": 16.087
+        }
+      ]
+    }
+  ],
+  "android_gpu_tested": false,
+  "absence_of_all_self_intersections_not_proven": true
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "competition": 473,
+    "code": "Y08",
+    "suffix": "",
+    "dimensions": [
+      [
+        128,
+        128
+      ]
+    ],
+    "drawn_content_size": [
+      97,
+      115
+    ]
+  },
+  {
+    "competition": 473,
+    "code": "Y08",
+    "suffix": "_s",
+    "dimensions": [
+      [
+        64,
+        64
+      ]
+    ],
+    "drawn_content_size": [
+      49,
+      58
+    ]
+  },
+  {
+    "competition": 473,
+    "code": "Y08",
+    "suffix": "_l",
+    "dimensions": [
+      [
+        256,
+        256
+      ]
+    ],
+    "drawn_content_size": [
+      193,
+      230
+    ]
+  },
+  {
+    "competition": 518,
+    "code": "Y17",
+    "suffix": "",
+    "dimensions": [
+      [
+        128,
+        128
+      ]
+    ],
+    "drawn_content_size": [
+      108,
+      115
+    ]
+  },
+  {
+    "competition": 518,
+    "code": "Y17",
+    "suffix": "_s",
+    "dimensions": [
+      [
+        64,
+        64
+      ]
+    ],
+    "drawn_content_size": [
+      55,
+      58
+    ]
+  },
+  {
+    "competition": 518,
+    "code": "Y17",
+    "suffix": "_l",
+    "dimensions": [
+      [
+        256,
+        256
+      ]
+    ],
+    "drawn_content_size": [
+      217,
+      230
+    ]
+  },
+  {
+    "competition": 122,
+    "code": "UCL",
+    "suffix": "",
+    "dimensions": [
+      [
+        128,
+        128
+      ]
+    ],
+    "drawn_content_size": [
+      104,
+      115
+    ]
+  },
+  {
+    "competition": 122,
+    "code": "UCL",
+    "suffix": "_s",
+    "dimensions": [
+      [
+        64,
+        64
+      ]
+    ],
+    "drawn_content_size": [
+      52,
+      58
+    ]
+  },
+  {
+    "competition": 122,
+    "code": "UCL",
+    "suffix": "_l",
+    "dimensions": [
+      [
+        256,
+        256
+      ]
+    ],
+    "drawn_content_size": [
+      208,
+      230
+    ]
+  },
+  {
+    "competition": 549,
+    "code": "AP",
+    "suffix": "",
+    "dimensions": [
+      [
+        128,
+        128
+      ]
+    ],
+    "drawn_content_size": [
+      111,
+      115
+    ]
+  },
+  {
+    "competition": 549,
+    "code": "AP",
+    "suffix": "_s",
+    "dimensions": [
+      [
+        64,
+        64
+      ]
+    ],
+    "drawn_content_size": [
+      56,
+      58
+    ]
+  },
+  {
+    "competition": 549,
+    "code": "AP",
+    "suffix": "_l",
+    "dimensions": [
+      [
+        256,
+        256
+      ]
+    ],
+    "drawn_content_size": [
+      222,
+      230
+    ]
+  },
+  {
+    "competition": 128,
+    "code": "WORLD",
+    "suffix": "",
+    "dimensions": [
+      [
+        128,
+        128
+      ]
+    ],
+    "drawn_content_size": [
+      109,
+      115
+    ]
+  },
+  {
+    "competition": 128,
+    "code": "WORLD",
+    "suffix": "_s",
+    "dimensions": [
+      [
+        64,
+        64
+      ]
+    ],
+    "drawn_content_size": [
+      55,
+      58
+    ]
+  },
+  {
+    "competition": 128,
+    "code": "WORLD",
+    "suffix": "_l",
+    "dimensions": [
+      [
+        256,
+        256
+      ]
+    ],
+    "drawn_content_size": [
+      218,
+      230
+    ]
+  },
+  {
+    "competition": 566,
+    "code": "AFC",
+    "suffix": "",
+    "dimensions": [
+      [
+        128,
+        128
+      ]
+    ],
+    "drawn_content_size": [
+      108,
+      115
+    ]
+  },
+  {
+    "competition": 566,
+    "code": "AFC",
+    "suffix": "_s",
+    "dimensions": [
+      [
+        64,
+        64
+      ]
+    ],
+    "drawn_content_size": [
+      55,
+      58
+    ]
+  },
+  {
+    "competition": 566,
+    "code": "AFC",
+    "suffix": "_l",
+    "dimensions": [
+      [
+        256,
+        256
+      ]
+    ],
+    "drawn_content_size": [
+      216,
+      230
+    ]
+  }
+]
