@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "old_dimension_bounds_restored": true,
+  "UI77_extremes_migrated_to_original_card_values_with_backup": true,
+  "64_corrected_English_skill_labels": true,
+  "innate_flags_and_additional_slots_independent": true,
+  "celebration_parameters59_60_saved_and_projected": true,
+  "only_observed_celebration_values_accepted": true,
+  "skin_profiles_saved_and_original_reset": true,
+  "custom_RGB_rejected_not_faked": true,
+  "SQL_config_cache_rollback": true,
+  "wire_projection_zero_SQL": true,
+  "ownership_enforced": true,
+  "device_tested": false
+}
