@@ -1,0 +1,55 @@
+{
+  "facebuilder_used": false,
+  "game_tested": false,
+  "original_ronaldo_unchanged": true,
+  "meshes": {
+    "face_high_0_fox_skin_mat": {
+      "vertices": 239,
+      "faces": 373
+    },
+    "hair_high_0_fox_skin_mat": {
+      "vertices": 341,
+      "faces": 572
+    },
+    "HULK_EYE_-1": {
+      "vertices": 922,
+      "faces": 960
+    },
+    "HULK_EYE_1": {
+      "vertices": 922,
+      "faces": 960
+    },
+    "HULK_FACE_SCULPT": {
+      "vertices": 41918,
+      "faces": 41700
+    },
+    "HULK_HAIR_ROOTS": {
+      "vertices": 19212,
+      "faces": 6404
+    },
+    "HULK_SHORT_HAIR": {
+      "vertices": 268968,
+      "faces": 89656
+    },
+    "IRIS_-1": {
+      "vertices": 922,
+      "faces": 960
+    },
+    "IRIS_1": {
+      "vertices": 922,
+      "faces": 960
+    },
+    "PUPIL_-1": {
+      "vertices": 922,
+      "faces": 960
+    },
+    "PUPIL_1": {
+      "vertices": 922,
+      "faces": 960
+    }
+  },
+  "packed_images": [
+    "Hulk_skin_PACKED"
+  ],
+  "face_edit_mode_matches_object": true
+}
