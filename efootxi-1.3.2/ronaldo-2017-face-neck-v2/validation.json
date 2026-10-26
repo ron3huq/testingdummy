@@ -1,0 +1,366 @@
+{
+  "neck_total_reduction_mm": 7,
+  "extra_reduction_from_v1_mm": 1,
+  "adam_apple_default_mm": 1.2,
+  "skin_srgb_multipliers": [
+    0.95,
+    0.945,
+    0.94
+  ],
+  "source_overlap_rgb_mae": [
+    0.473,
+    0.626,
+    0.595
+  ],
+  "lip_mobile_fixed": false,
+  "phone_tested": false,
+  "weights_changed": [
+    {
+      "vertex": 176,
+      "before": {
+        "skf_lip_t_c": 0.40784314274787903,
+        "skf_lip_volume": 0.24705882370471954,
+        "skf_lip_t_l": 0.24705882370471954,
+        "sk_head": 0.09803921729326248
+      },
+      "after": {
+        "skf_lip_t_c": 0.561700165271759,
+        "sk_head": 0.09803921729326248,
+        "skf_lip_t_l": 0.34026065468788147
+      }
+    },
+    {
+      "vertex": 177,
+      "before": {
+        "skf_lip_t_c": 0.34117648005485535,
+        "skf_lip_volume": 0.3137255012989044,
+        "skf_lip_t_l": 0.3137255012989044,
+        "skf_nasolabialfold_t_l": 0.0313725508749485
+      },
+      "after": {
+        "skf_lip_t_c": 0.5046142935752869,
+        "skf_nasolabialfold_t_l": 0.0313725508749485,
+        "skf_lip_t_l": 0.46401315927505493
+      }
+    },
+    {
+      "vertex": 178,
+      "before": {
+        "skf_lip_t_l": 0.38823530077934265,
+        "skf_lip_t_c": 0.3450980484485626,
+        "skf_lip_volume": 0.14901961386203766,
+        "skf_nasolabialfold_t_l": 0.11764705926179886
+      },
+      "after": {
+        "skf_lip_t_l": 0.46712803840637207,
+        "skf_lip_t_c": 0.41522493958473206,
+        "skf_nasolabialfold_t_l": 0.11764705926179886
+      }
+    },
+    {
+      "vertex": 179,
+      "before": {
+        "skf_lip_volume": 0.5058823823928833,
+        "skf_lip_t_l": 0.2980392277240753,
+        "skf_lip_t_c": 0.14901961386203766,
+        "skf_lip_t_r": 0.0470588244497776
+      },
+      "after": {
+        "skf_lip_t_r": 0.095238097012043,
+        "skf_lip_t_l": 0.60317462682724,
+        "skf_lip_t_c": 0.30158731341362
+      }
+    },
+    {
+      "vertex": 180,
+      "before": {
+        "skf_lip_t_l": 0.42352941632270813,
+        "skf_lip_volume": 0.33725491166114807,
+        "skf_lip_t_c": 0.21176470816135406,
+        "skf_lip_s_l": 0.027450980618596077
+      },
+      "after": {
+        "skf_lip_t_l": 0.6483660340309143,
+        "skf_lip_s_l": 0.027450980618596077,
+        "skf_lip_t_c": 0.32418301701545715
+      }
+    },
+    {
+      "vertex": 195,
+      "before": {
+        "skf_lip_t_l": 0.42352941632270813,
+        "skf_lip_volume": 0.33725491166114807,
+        "skf_lip_t_c": 0.21176470816135406,
+        "skf_lip_s_l": 0.027450980618596077
+      },
+      "after": {
+        "skf_lip_t_l": 0.6483660340309143,
+        "skf_lip_s_l": 0.027450980618596077,
+        "skf_lip_t_c": 0.32418301701545715
+      }
+    },
+    {
+      "vertex": 196,
+      "before": {
+        "skf_lip_volume": 0.5058823823928833,
+        "skf_lip_t_l": 0.2980392277240753,
+        "skf_lip_t_c": 0.14901961386203766,
+        "skf_lip_t_r": 0.0470588244497776
+      },
+      "after": {
+        "skf_lip_t_r": 0.095238097012043,
+        "skf_lip_t_l": 0.60317462682724,
+        "skf_lip_t_c": 0.30158731341362
+      }
+    },
+    {
+      "vertex": 197,
+      "before": {
+        "skf_lip_t_c": 0.40392157435417175,
+        "skf_lip_volume": 0.27843138575553894,
+        "skf_lip_t_l": 0.21960784494876862,
+        "skf_lip_t_r": 0.09803921729326248
+      },
+      "after": {
+        "skf_lip_t_c": 0.5597826242446899,
+        "skf_lip_t_r": 0.135869562625885,
+        "skf_lip_t_l": 0.30434784293174744
+      }
+    },
+    {
+      "vertex": 198,
+      "before": {
+        "skf_lip_t_c": 0.40392157435417175,
+        "skf_lip_volume": 0.27843138575553894,
+        "skf_lip_t_l": 0.21960784494876862,
+        "skf_lip_t_r": 0.09803921729326248
+      },
+      "after": {
+        "skf_lip_t_c": 0.5597826242446899,
+        "skf_lip_t_r": 0.135869562625885,
+        "skf_lip_t_l": 0.30434784293174744
+      }
+    },
+    {
+      "vertex": 221,
+      "before": {
+        "skf_lip_t_c": 0.40392157435417175,
+        "skf_lip_volume": 0.27843138575553894,
+        "skf_lip_t_r": 0.21960784494876862,
+        "skf_lip_t_l": 0.09803921729326248
+      },
+      "after": {
+        "skf_lip_t_c": 0.5597826242446899,
+        "skf_lip_t_l": 0.135869562625885,
+        "skf_lip_t_r": 0.30434784293174744
+      }
+    },
+    {
+      "vertex": 222,
+      "before": {
+        "skf_lip_t_c": 0.40392157435417175,
+        "skf_lip_volume": 0.27843138575553894,
+        "skf_lip_t_r": 0.21960784494876862,
+        "skf_lip_t_l": 0.09803921729326248
+      },
+      "after": {
+        "skf_lip_t_c": 0.5597826242446899,
+        "skf_lip_t_l": 0.135869562625885,
+        "skf_lip_t_r": 0.30434784293174744
+      }
+    },
+    {
+      "vertex": 223,
+      "before": {
+        "skf_lip_volume": 0.5058823823928833,
+        "skf_lip_t_r": 0.2980392277240753,
+        "skf_lip_t_c": 0.14901961386203766,
+        "skf_lip_t_l": 0.0470588244497776
+      },
+      "after": {
+        "skf_lip_t_l": 0.095238097012043,
+        "skf_lip_t_r": 0.60317462682724,
+        "skf_lip_t_c": 0.30158731341362
+      }
+    },
+    {
+      "vertex": 224,
+      "before": {
+        "skf_lip_volume": 0.5058823823928833,
+        "skf_lip_t_r": 0.2980392277240753,
+        "skf_lip_t_c": 0.14901961386203766,
+        "skf_lip_t_l": 0.0470588244497776
+      },
+      "after": {
+        "skf_lip_t_l": 0.095238097012043,
+        "skf_lip_t_r": 0.60317462682724,
+        "skf_lip_t_c": 0.30158731341362
+      }
+    },
+    {
+      "vertex": 1431,
+      "before": {
+        "skf_lip_t_c": 0.40784314274787903,
+        "skf_lip_volume": 0.24705882370471954,
+        "skf_lip_t_r": 0.24705882370471954,
+        "sk_head": 0.09803921729326248
+      },
+      "after": {
+        "skf_lip_t_c": 0.561700165271759,
+        "sk_head": 0.09803921729326248,
+        "skf_lip_t_r": 0.34026065468788147
+      }
+    },
+    {
+      "vertex": 1432,
+      "before": {
+        "skf_lip_t_c": 0.34117648005485535,
+        "skf_lip_volume": 0.3137255012989044,
+        "skf_lip_t_r": 0.3137255012989044,
+        "skf_nasolabialfold_t_r": 0.0313725508749485
+      },
+      "after": {
+        "skf_lip_t_c": 0.5046142935752869,
+        "skf_nasolabialfold_t_r": 0.0313725508749485,
+        "skf_lip_t_r": 0.46401315927505493
+      }
+    },
+    {
+      "vertex": 1433,
+      "before": {
+        "skf_lip_t_r": 0.38823530077934265,
+        "skf_lip_t_c": 0.3450980484485626,
+        "skf_lip_volume": 0.14901961386203766,
+        "skf_nasolabialfold_t_r": 0.11764705926179886
+      },
+      "after": {
+        "skf_lip_t_r": 0.46712803840637207,
+        "skf_lip_t_c": 0.41522493958473206,
+        "skf_nasolabialfold_t_r": 0.11764705926179886
+      }
+    },
+    {
+      "vertex": 1435,
+      "before": {
+        "skf_lip_t_r": 0.42352941632270813,
+        "skf_lip_volume": 0.33725491166114807,
+        "skf_lip_t_c": 0.21176470816135406,
+        "skf_lip_s_r": 0.027450980618596077
+      },
+      "after": {
+        "skf_lip_t_r": 0.6483660340309143,
+        "skf_lip_s_r": 0.027450980618596077,
+        "skf_lip_t_c": 0.32418301701545715
+      }
+    },
+    {
+      "vertex": 1462,
+      "before": {
+        "skf_lip_t_r": 0.42352941632270813,
+        "skf_lip_volume": 0.33725491166114807,
+        "skf_lip_t_c": 0.21176470816135406,
+        "skf_lip_s_r": 0.027450980618596077
+      },
+      "after": {
+        "skf_lip_t_r": 0.6483660340309143,
+        "skf_lip_s_r": 0.027450980618596077,
+        "skf_lip_t_c": 0.32418301701545715
+      }
+    }
+  ],
+  "upper_lip_candidate_vertices": [
+    {
+      "vertex": 176,
+      "volume_weight": 0.24705882370471954
+    },
+    {
+      "vertex": 177,
+      "volume_weight": 0.3137255012989044
+    },
+    {
+      "vertex": 178,
+      "volume_weight": 0.14901961386203766
+    },
+    {
+      "vertex": 179,
+      "volume_weight": 0.5058823823928833
+    },
+    {
+      "vertex": 180,
+      "volume_weight": 0.33725491166114807
+    },
+    {
+      "vertex": 195,
+      "volume_weight": 0.33725491166114807
+    },
+    {
+      "vertex": 196,
+      "volume_weight": 0.5058823823928833
+    },
+    {
+      "vertex": 197,
+      "volume_weight": 0.27843138575553894
+    },
+    {
+      "vertex": 198,
+      "volume_weight": 0.27843138575553894
+    },
+    {
+      "vertex": 221,
+      "volume_weight": 0.27843138575553894
+    },
+    {
+      "vertex": 222,
+      "volume_weight": 0.27843138575553894
+    },
+    {
+      "vertex": 223,
+      "volume_weight": 0.5058823823928833
+    },
+    {
+      "vertex": 224,
+      "volume_weight": 0.5058823823928833
+    },
+    {
+      "vertex": 1431,
+      "volume_weight": 0.24705882370471954
+    },
+    {
+      "vertex": 1432,
+      "volume_weight": 0.3137255012989044
+    },
+    {
+      "vertex": 1433,
+      "volume_weight": 0.14901961386203766
+    },
+    {
+      "vertex": 1435,
+      "volume_weight": 0.33725491166114807
+    },
+    {
+      "vertex": 1462,
+      "volume_weight": 0.33725491166114807
+    }
+  ],
+  "upper_lip_candidate_applied": true,
+  "checks": {
+    "reopened_blender": true,
+    "topology_uv_preserved": [
+      "hair_high_2_fox_head_shell_mat",
+      "hair_high_1_fox_hair_mat",
+      "hair_high_0_fox_skin_mat",
+      "face_high_6_fox_eyeOcclusion_mat",
+      "face_high_5_collar_ao",
+      "face_high_4_fox_eyelash_mat",
+      "face_high_3_eyeline_SG",
+      "face_high_2_fox_skin_mat",
+      "face_high_1_eyeline_SG",
+      "face_high_0_fox_skin_mat"
+    ],
+    "all_weights_normalised": true,
+    "local_upper_lip_edits_only": 18,
+    "one_skin_material": true,
+    "head_style_unchanged": true
+  },
+  "upper_lip_test": "Removed only upper-lip volume control from selected source vertices; native animation/mapping must be checked in game. Not an engine pose test."
+}
