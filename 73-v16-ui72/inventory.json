@@ -1,0 +1,238 @@
+{
+  "assets/card-designer/MANIFEST.json": {
+    "bytes": 50142,
+    "sha256": "d019513f65d4935c114ddb5c922e7b6e9e90b2636333e5eaad2f965e34c9b60e"
+  },
+  "assets/card-designer/background-picker.js": {
+    "bytes": 5338,
+    "sha256": "17d38a1cd27b9d8473babab44606ec91eaac205bd6c197a7f30432f960208f47"
+  },
+  "assets/card-designer/card-suites.js": {
+    "bytes": 6206,
+    "sha256": "0ac4fe874cc22436cd45cc2297e916ac83050f87c888feb87124bb44de4b7d5b"
+  },
+  "assets/card-designer/index.html": {
+    "bytes": 237608,
+    "sha256": "358dd5aab1e872847bca586131f5ffcd2a2733ac05af9d5bd4f12d90366f616e"
+  },
+  "assets/card-designer/mobile-ui.js": {
+    "bytes": 9901,
+    "sha256": "275089a85ebc94f733e96d34e58c63db8a0a34b12a4994dc7f0d129f9a9e31eb"
+  },
+  "assets/card-designer/phone-layout.css": {
+    "bytes": 9820,
+    "sha256": "c1c7f0c58b7bce5fee931da83d2a3b29f177be2f92ae4a367dbc60d81f206209"
+  },
+  "assets/chaquopy/app.imy": {
+    "bytes": 3082991,
+    "sha256": "67806fb4958661988dfe68e07634dbbcfe272cd1fcedce1dde1ebdb80b88b700"
+  },
+  "assets/editor-english.json": {
+    "bytes": 141112,
+    "sha256": "0bb75da99cd99213529f32d355fac63fa34cdcde01021d082edb6500024ab8f7"
+  },
+  "assets/gateway-release/livedata/dt870_mobile_and.cpk": {
+    "bytes": 16961869,
+    "sha256": "eabf680adb54b909241cb0d484f87a79bc9d50b752d002c509abccf3e2a66497"
+  },
+  "assets/gateway-release/livedata/dt870_ui72_mobile_and.cpk": {
+    "bytes": 7651328,
+    "sha256": "6595e6667dc40a6b6333886f919a52d75446d27c1f01670afa6854cc13918f84"
+  },
+  "assets/gateway-release/livedata/pc9300_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9300_mobile_and.ucas": {
+    "bytes": 225533,
+    "sha256": "f93dfc6805f74187c2e311fbb09f266db98e3b9d34800704b2e5cd00077e7d30"
+  },
+  "assets/gateway-release/livedata/pc9300_mobile_and.utoc": {
+    "bytes": 5411,
+    "sha256": "52fd93c6771637f7648b91ba5e96d343939fee36d824fe0dc40263f1f434563f"
+  },
+  "assets/gateway-release/livedata/pc9302_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9302_mobile_and.ucas": {
+    "bytes": 1080001,
+    "sha256": "0f3ab5ece3f286f06e91442e16cc95b1b1c6cf1f04a326b61fc40845f36e96b1"
+  },
+  "assets/gateway-release/livedata/pc9302_mobile_and.utoc": {
+    "bytes": 3781,
+    "sha256": "d6b472dc36ae1d4d0ff1fd477e60228b0e9d9780ae003a2045a6663312a8bad3"
+  },
+  "assets/gateway-release/livedata/pc9303_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9303_mobile_and.ucas": {
+    "bytes": 2907915,
+    "sha256": "beed533b232a79d6ea44dc71352a9877cb44e919fb5d515f1579d91b29bbf790"
+  },
+  "assets/gateway-release/livedata/pc9303_mobile_and.utoc": {
+    "bytes": 21905,
+    "sha256": "8e45df3f659ccf56832fa8810f64c136d012c116588b82d2e6fd77c44ffba672"
+  },
+  "assets/gateway-release/release-manifest.json": {
+    "bytes": 1382545,
+    "sha256": "f8eff51c7de96836bc9c24c3b6a74e83a9937ca3b3a6592e81f553f144ff7d5a"
+  },
+  "assets/gateway-release/ui6-runtime-manifest.json": {
+    "bytes": 7483,
+    "sha256": "1e0e89d59ed405542d82697607dde4c5600a61208f98311bcf41373b0a4e707c"
+  },
+  "assets/gateway-release/work/tools/body_dimensions.py": {
+    "bytes": 4673,
+    "sha256": "5ef05e993cddd15946d2f1a541e0672b8855d0c718a2316a0714c481ac2ada77"
+  },
+  "assets/gateway-release/work/tools/bridge_73.py": {
+    "bytes": 1876,
+    "sha256": "c80bc38cdf6d60341e3c5eae0a50e8171eca7817250353b1f36affec581f0179"
+  },
+  "assets/gateway-release/work/tools/card_rules.py": {
+    "bytes": 2519,
+    "sha256": "3d8d8c2e396f4e919fb0a3278bb01444e1c99c16ea5f8899354bc70ed94afeba"
+  },
+  "assets/gateway-release/work/tools/editor_fast.py": {
+    "bytes": 1405,
+    "sha256": "e7cb249572e4271450bb49f6000802604b06355357ebf21cdc9bac31a2bb9f54"
+  },
+  "assets/gateway-release/work/tools/editor_names.py": {
+    "bytes": 1387,
+    "sha256": "1ad96b1df87709b72e22ae13939f9bf2441ab1b51a2a0d3389220aa8c14c416b"
+  },
+  "assets/gateway-release/work/tools/extras_bundle.json": {
+    "bytes": 445,
+    "sha256": "e17a778b676128f3fa98fef5fb65bebfc063700e9450fe6977f267a515f316b6"
+  },
+  "assets/gateway-release/work/tools/extras_runtime.py": {
+    "bytes": 1781,
+    "sha256": "50616f7235700b2cbe5824839b7a804f5d1ba4e6443d270e6cdc0a3987a14273"
+  },
+  "assets/gateway-release/work/tools/kits_bundle.json": {
+    "bytes": 590,
+    "sha256": "fd803cdff45b4febfb3f994942587528835360189d2da6ad6e551f2f1c98d38e"
+  },
+  "assets/gateway-release/work/tools/kits_runtime.py": {
+    "bytes": 2358,
+    "sha256": "216969f5fb2ec62d238ba044e13ea746ef3837d44359f4de9e27111e3b0c4746"
+  },
+  "assets/gateway-release/work/tools/libnoodle_hair.so": {
+    "bytes": 108376,
+    "sha256": "746e0a1767c5c0917d3559fd5d29ed24b21ca0030897361ff89755945d5aec86"
+  },
+  "assets/gateway-release/work/tools/libselect_team.so": {
+    "bytes": 284600,
+    "sha256": "4649bdfa69b23fd690a184b2fc7018247d4f0f171f6b916b234d364581383f07"
+  },
+  "assets/gateway-release/work/tools/manager_bundle.json": {
+    "bytes": 446,
+    "sha256": "536a0b0fbb5a94a844d41cc6af38036a95960eedf2c2d21d56c97911befcd9f1"
+  },
+  "assets/gateway-release/work/tools/manager_runtime.py": {
+    "bytes": 1782,
+    "sha256": "aabf7bd833601eca32b9a2f29daad01f660ef1dcfeaaafa1790a23aca4816bd3"
+  },
+  "assets/gateway-release/work/tools/mod-startup-status.json": {
+    "bytes": 92,
+    "sha256": "0a8dfb2bcdfef8ae5af59efffcce8355f618f07679a12ddfab352a80b81a2fd0"
+  },
+  "assets/gateway-release/work/tools/mod_integrity.py": {
+    "bytes": 1169,
+    "sha256": "2b27df9bf1ec8cd4f554a53d74ce32f5fc8a676626ee1b7d05ce4414d1e65dc3"
+  },
+  "assets/gateway-release/work/tools/mod_startup.py": {
+    "bytes": 2916,
+    "sha256": "0dd68105d7707f36a7b1b32907ce92d9abed95c908f8ab5525b468665a3e783d"
+  },
+  "assets/gateway-release/work/tools/myleague-73-status.json": {
+    "bytes": 92,
+    "sha256": "0a8dfb2bcdfef8ae5af59efffcce8355f618f07679a12ddfab352a80b81a2fd0"
+  },
+  "assets/gateway-release/work/tools/myleague-environment-status.json": {
+    "bytes": 92,
+    "sha256": "0a8dfb2bcdfef8ae5af59efffcce8355f618f07679a12ddfab352a80b81a2fd0"
+  },
+  "assets/gateway-release/work/tools/myleague-live-teams.json": {
+    "bytes": 383,
+    "sha256": "b254d5701ae896d2c1c4da0b06e306057f727dacf709a7f30ac0eab238fddf3e"
+  },
+  "assets/gateway-release/work/tools/myleague_73.py": {
+    "bytes": 14204,
+    "sha256": "39e21d7f23d7cc7babbe9775f859414daafca22c61bdd2247381bb4036e10dc7"
+  },
+  "assets/gateway-release/work/tools/myleague_balance.py": {
+    "bytes": 3617,
+    "sha256": "7c85a63265bf460993d7c3f7c8edcb10849c88ffa857a00f3c516c401f9a5af3"
+  },
+  "assets/gateway-release/work/tools/myleague_base_rosters.json.gz": {
+    "bytes": 147706,
+    "sha256": "caa167558b3149593b914cfc896d664b8f50f83bf73d9b8c42b9ecf68aa81210"
+  },
+  "assets/gateway-release/work/tools/myleague_custom.json": {
+    "bytes": 585567,
+    "sha256": "77a013cc7d6aad9ff34c6f62c17aa7dbe685ac1f0fcc8bbd02deb7c104862e44"
+  },
+  "assets/gateway-release/work/tools/myleague_editor.json": {
+    "bytes": 3116,
+    "sha256": "2d16cc35343767f1f0e275943ae9edeafcee6fb9db212a0d73b0280170862b14"
+  },
+  "assets/gateway-release/work/tools/myleague_editor_runtime.py": {
+    "bytes": 10159,
+    "sha256": "f74ac96a96410633ce4953ddbf01a87464f4ca267d96e8bb3a9296e535218179"
+  },
+  "assets/gateway-release/work/tools/myleague_packs.py": {
+    "bytes": 6628,
+    "sha256": "ae2ae1b8f20a5f000c53c7bf7b49161107097e36ce87ed5d53e428de89586f38"
+  },
+  "assets/gateway-release/work/tools/myleague_realism.py": {
+    "bytes": 36056,
+    "sha256": "ea51144f45871ab1b05673956131824fba1b6f43fa4ab0b24f18704d05eae964"
+  },
+  "assets/gateway-release/work/tools/myleague_team_snapshot.py": {
+    "bytes": 3524,
+    "sha256": "09bfe8101fa4e8eabc8d042cea897c109488dc95ca0316aee7af9ea7a684db45"
+  },
+  "assets/gateway-release/work/tools/myleague_worlds.py": {
+    "bytes": 17332,
+    "sha256": "9dd9764a65a33833cbbfdc98c5c9d9be4a839b82c4357d2073d459c662c3ef8e"
+  },
+  "assets/gateway-release/work/tools/native_overall.py": {
+    "bytes": 3709,
+    "sha256": "bda80d46613b2fbbf80318f9d1e9d6a3185465d88dc05595642f3de973ce6bdc"
+  },
+  "assets/gateway-release/work/tools/noodle_bundle.json": {
+    "bytes": 3020,
+    "sha256": "e6e074ce7c44ab25e654cb6f25ae55f9bbed6d39e8dc92e86408f6bded829264"
+  },
+  "assets/gateway-release/work/tools/noodle_hair.json": {
+    "bytes": 16,
+    "sha256": "26b3426b2593763c96d0890b4a77a0bbf66d13fc512b0c6b138a23c290f30a2a"
+  },
+  "assets/gateway-release/work/tools/noodle_hair.py": {
+    "bytes": 20947,
+    "sha256": "de3c299381e9618d107edd17df3b8d9c946567c97a134c8619a2797ba873f89b"
+  },
+  "assets/gateway-release/work/tools/physical_runtime.py": {
+    "bytes": 120,
+    "sha256": "1347e34fc28be2f110b966f712739e27e8fa5f0461370e9a3f698a293dabb64e"
+  },
+  "assets/gateway-release/work/tools/select_team_runtime.py": {
+    "bytes": 25089,
+    "sha256": "9d09ad7c5c9341c64335fe632e4aea95f4e6f45b8e30933972b48f5f62e02a03"
+  },
+  "assets/gateway-release/work/tools/team_kits.py": {
+    "bytes": 2175,
+    "sha256": "7090d8a414930ae996c7ba99beeeb6f0a12204efa1791b250c9fee5244d14e1d"
+  },
+  "assets/gateway-release/work/tools/ui2_skill_rules.json": {
+    "bytes": 2066,
+    "sha256": "8c3432d648c7ce40cbe81a071d38b4d17951922efa27b1519e5226c5886af7a8"
+  },
+  "classes5.dex": {
+    "bytes": 468372,
+    "sha256": "0e1dc096e505f72408655d52d6039f24d8aed584e0a4daff6d8ccedc964e9a5b"
+  }
+}

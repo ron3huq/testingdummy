@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "original73_legends_resources_executed": true,
+  "exact_UI71_error_reproduced_after_stock_resource_repair": true,
+  "stock_CPK_sha256": "eabf680adb54b909241cb0d484f87a79bc9d50b752d002c509abccf3e2a66497",
+  "isolated_mod_CPK_sha256": "6595e6667dc40a6b6333886f919a52d75446d27c1f01670afa6854cc13918f84",
+  "stock_paths_can_be_restored_without_changing_mod_source": true,
+  "logical_dt870_metadata_matches_isolated_download_bytes": true,
+  "advertising_idempotent": true,
+  "damaged_isolated_CPK_still_rejected": true,
+  "device_tested": false
+}

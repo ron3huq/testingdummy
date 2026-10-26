@@ -1,0 +1,11 @@
+{
+  "logical_game_resource": "dt870_mobile_and.cpk",
+  "legacy_mutable_source": "livedata/dt870_mobile_and.cpk",
+  "isolated_mod_source": "livedata/dt870_ui72_mobile_and.cpk",
+  "stock_bytes": 16961869,
+  "mod_bytes": 7651328,
+  "mod_contents_unchanged_from_UI6": true,
+  "restores_original_asset_when_upgrading_UI7_APK": true,
+  "phone_log_native_workers_active": true,
+  "phone_log_login_failure": "Shirt/coach payload does not match manifest: dt870_mobile_and.cpk"
+}

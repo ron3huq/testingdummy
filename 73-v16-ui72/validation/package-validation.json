@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "full_clean_stock_closure": true,
+  "stock_manifest_entries": 7331,
+  "full_manifest_entries": 7381,
+  "gateway_overrides_included": 51,
+  "critical_payload_files": 45,
+  "two_zip_paths_nonoverlapping": true,
+  "native_binaries_and_assets_preserved_byte_exact": true,
+  "no_user_save_bundled": true,
+  "loader_only_embedded_gateway_changed": true,
+  "card_designer_manifest_complete_against_stock": true,
+  "original_dex_classes": 267,
+  "updated_dex_classes": 304,
+  "device_tested": false
+}
