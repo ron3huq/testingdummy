@@ -1,0 +1,45 @@
+{
+  "phone_tested": false,
+  "target_card_id": "53878485695166",
+  "target_is_temporary_previous_hulk_card": true,
+  "fixed_expression": true,
+  "full_sculpt_original_geometry_retained": true,
+  "native_game_vertices": 57842,
+  "native_visible_vertices": 57839,
+  "native_triangles": 90001,
+  "visible_triangles": 90000,
+  "artifacts": {
+    "ORC-ANDROID-TRIAL.zip": {
+      "size": 8724214,
+      "sha256": "276a6330a1f36235c21aefd4524f815a3c4f8713f39ae8f57a72f9f3e926563a"
+    },
+    "ORC_GAME_RIGGED.blend": {
+      "size": 11685550,
+      "sha256": "3434eafd00dfa9f5953d1e1f9616abfb2da27bdcdc7f00a1d811e11aa716499f"
+    },
+    "ORC-FULL-SCULPT.7z.001": {
+      "size": 50331648,
+      "sha256": "00b266884fb7a6ff693b89edaa9792d79ca0f3ec161d6059dd6d079f7c212a00"
+    },
+    "ORC-FULL-SCULPT.7z.002": {
+      "size": 50331648,
+      "sha256": "0a85c84c8189f76025a0992a00378323f9aad166934dff6d9ea350c1d1943aea"
+    },
+    "ORC-FULL-SCULPT.7z.003": {
+      "size": 33407790,
+      "sha256": "e39c8f791eb4b3a47008aa9248a54d916789aee76b1f29b7015f6c4c384211b5"
+    },
+    "Tat-Orc.zip": {
+      "size": 172,
+      "sha256": "8ea9e93038c187e7dd13a57ee4a2fb27735d4894388bb7a742f0cf6202482307"
+    },
+    "Orc-comparison.jpg": {
+      "size": 241516,
+      "sha256": "5cd921ab90e358873ec14d67bc352012488606b81ab70f6bf26926dfad35b95c"
+    },
+    "Orc-skin-colour.png": {
+      "size": 762,
+      "sha256": "5b9c2bb633895c623aeff85ad08e86c948cc00fac7cf86d7d52846e255287214"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "phone_tested": false,
+  "full_sculpt_vertices": 3684505,
+  "full_sculpt_faces": 3682944,
+  "full_sculpt_geometry_unchanged_except_uniform_scale_translation": true,
+  "full_sculpt_vertex_max_error_m": 2.6512145992474423e-08,
+  "full_sculpt_original_loop_indices_exact": true,
+  "game_to_source_distance_m": {
+    "max": 0.00023999426048249006,
+    "p99": 0.00012826098478399217,
+    "median": 3.0483046430163085e-05
+  },
+  "source_to_game_sample_distance_m": {
+    "samples": 50000,
+    "max": 0.00031469998066313565,
+    "p99": 0.00014223110702005234,
+    "median": 3.1821775337448344e-05
+  },
+  "source_colour_texture_provided": false,
+  "new_eye_or_tusk_geometry_added": false
+}

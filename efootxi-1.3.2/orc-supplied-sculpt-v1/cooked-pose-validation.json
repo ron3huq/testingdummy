@@ -1,0 +1,30 @@
+{
+  "phone_tested": false,
+  "source": "independent cooked readback including quantized 8-bit bone weights",
+  "poses": [
+    {
+      "axis": 0,
+      "angle": 20,
+      "reversed_triangles": 0,
+      "bounds": null
+    },
+    {
+      "axis": 1,
+      "angle": -20,
+      "reversed_triangles": 0,
+      "bounds": null
+    },
+    {
+      "axis": 2,
+      "angle": -30,
+      "reversed_triangles": 0,
+      "bounds": null
+    },
+    {
+      "axis": 2,
+      "angle": 30,
+      "reversed_triangles": 0,
+      "bounds": null
+    }
+  ]
+}

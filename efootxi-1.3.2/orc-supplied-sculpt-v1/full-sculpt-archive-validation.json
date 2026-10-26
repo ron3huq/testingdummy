@@ -1,0 +1,14 @@
+{
+  "ORC-FULL-SCULPT.7z.001": {
+    "bytes": 50331648,
+    "sha256": "00b266884fb7a6ff693b89edaa9792d79ca0f3ec161d6059dd6d079f7c212a00"
+  },
+  "ORC-FULL-SCULPT.7z.002": {
+    "bytes": 50331648,
+    "sha256": "0a85c84c8189f76025a0992a00378323f9aad166934dff6d9ea350c1d1943aea"
+  },
+  "ORC-FULL-SCULPT.7z.003": {
+    "bytes": 33407790,
+    "sha256": "e39c8f791eb4b3a47008aa9248a54d916789aee76b1f29b7015f6c4c384211b5"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "phone_tested": false,
+  "native_armature_bones": 166,
+  "poses": [
+    {
+      "pose": "rest",
+      "angle": 0,
+      "edge_ratio_min": 0.9998783271190305,
+      "edge_ratio_max": 1.0000065082978031,
+      "finite": true,
+      "rest_pose_error_m": 2.9802322387695312e-06
+    },
+    {
+      "pose": "local_x",
+      "angle": 20,
+      "edge_ratio_min": 0.6859421470547555,
+      "edge_ratio_max": 1.4352486056569336,
+      "finite": true
+    },
+    {
+      "pose": "local_y",
+      "angle": -20,
+      "edge_ratio_min": 0.45393490051710234,
+      "edge_ratio_max": 1.1701606828067188,
+      "finite": true
+    },
+    {
+      "pose": "local_z",
+      "angle": -30,
+      "edge_ratio_min": 0.4018627500300533,
+      "edge_ratio_max": 1.559562171380465,
+      "finite": true
+    },
+    {
+      "pose": "local_z",
+      "angle": 30,
+      "edge_ratio_min": 0.4530312208316669,
+      "edge_ratio_max": 1.5931464622357252,
+      "finite": true
+    }
+  ],
+  "posterior_neck_rays": [
+    {
+      "z": 1.55,
+      "posterior_hit_y": 0.168544203042984
+    },
+    {
+      "z": 1.58,
+      "posterior_hit_y": 0.13884812593460083
+    },
+    {
+      "z": 1.61,
+      "posterior_hit_y": 0.10906076431274414
+    }
+  ],
+  "fixed_original_face_expression": true
+}

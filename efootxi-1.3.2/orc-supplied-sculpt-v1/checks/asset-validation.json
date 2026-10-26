@@ -1,0 +1,48 @@
+{
+  "phone_tested": false,
+  "reader": "independent UEViewer",
+  "variants": {
+    "orc": [
+      {
+        "variant": "SK_ND01_Face",
+        "vertices": 57839,
+        "triangles": 90000,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.005174219608306885,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND01lg00v0000_Face",
+        "vertices": 57839,
+        "triangles": 90000,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.005174219608306885,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND01ep01v0291_Face",
+        "vertices": 57839,
+        "triangles": 90000,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.005174219608306885,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND01ep00v0313_Face",
+        "vertices": 57839,
+        "triangles": 90000,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.005174219608306885,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      }
+    ]
+  }
+}
