@@ -1,0 +1,42 @@
+{
+  "status": "FOUR_ANDROID_MESHES_INDEPENDENT_READER_RIG_WEIGHTS_UV_PASS",
+  "results": [
+    {
+      "variant": "4522",
+      "visible_vertices": 60732,
+      "visible_triangles": 75696,
+      "bone_count": 166,
+      "bind_matrices_identical": true,
+      "mask_head_only_weights": true,
+      "weights_normalised_255": true
+    },
+    {
+      "variant": "4522lg00v0000",
+      "visible_vertices": 60732,
+      "visible_triangles": 75696,
+      "bone_count": 166,
+      "bind_matrices_identical": true,
+      "mask_head_only_weights": true,
+      "weights_normalised_255": true
+    },
+    {
+      "variant": "4522ep01v0291",
+      "visible_vertices": 60732,
+      "visible_triangles": 75696,
+      "bone_count": 166,
+      "bind_matrices_identical": true,
+      "mask_head_only_weights": true,
+      "weights_normalised_255": true
+    },
+    {
+      "variant": "4522ep00v0313",
+      "visible_vertices": 60732,
+      "visible_triangles": 75696,
+      "bone_count": 166,
+      "bind_matrices_identical": true,
+      "mask_head_only_weights": true,
+      "weights_normalised_255": true
+    }
+  ],
+  "phone_verified": false
+}

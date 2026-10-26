@@ -1,0 +1,22 @@
+{
+  "phone_tested": false,
+  "facebuilder_used": false,
+  "artifacts": {
+    "Ronaldo-V2-BASE-FOCUS-LARYNX-BLEND.zip": {
+      "bytes": 11668102,
+      "sha256": "e983d0613cea33a6c389cdc4a51b49d79748c0d5fc8528258a3af66ac460a413"
+    },
+    "SpiderMan-v5-STRAIGHT-NECK-BLEND.zip": {
+      "bytes": 6310796,
+      "sha256": "f3a9a3c10a0febc0d03aaa52316a8fee36364d9311df3cfd4b4bae5547d9b659"
+    },
+    "SpiderMan-v5-ANDROID-TRIAL-88044950524330.zip": {
+      "bytes": 6954881,
+      "sha256": "add129cee28ad49f5dbb5fd51ae6cb536cc2b090306e3306c0c4ae39366a9ffe"
+    },
+    "Tat-dau-SpiderMan.zip": {
+      "bytes": 172,
+      "sha256": "3e9b5cc011535697773cdbec7f0ded2811a8a932c740922e87dde6e274cbd2ef"
+    }
+  }
+}

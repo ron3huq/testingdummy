@@ -1,0 +1,26 @@
+{
+  "eyes_added": 0,
+  "base": "exact v2, no v3 eyeballs or v3 neck settings",
+  "neck_total_shortening_mm": 7,
+  "adam_apple_mm": 3.5,
+  "extra_skin_rgb_scale": 0.97,
+  "phone_tested": false,
+  "native_eye_motion_verified": false,
+  "lip_candidate": "same local upper-lip weight edits as v2; device unverified",
+  "intense_expression_default": 0.8,
+  "in_game_expression_lock": false,
+  "verified_exact_v2_basis_topology_uv_weights": [
+    "hair_high_2_fox_head_shell_mat",
+    "hair_high_1_fox_hair_mat",
+    "hair_high_0_fox_skin_mat",
+    "face_high_6_fox_eyeOcclusion_mat",
+    "face_high_5_collar_ao",
+    "face_high_4_fox_eyelash_mat",
+    "face_high_3_eyeline_SG",
+    "face_high_2_fox_skin_mat",
+    "face_high_1_eyeline_SG",
+    "face_high_0_fox_skin_mat"
+  ],
+  "no_v3_eye_meshes": true,
+  "original_v2_neck_setting_preserved": true
+}
