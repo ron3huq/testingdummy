@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "actual_original73_skeletal_bone_scale_consumer": "0x68d2b4c",
+  "body_field_offset": "0x20 arm length",
+  "bone": "sk_upperarm_l",
+  "native_neutral_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "native_max_scale": [
+    1.0499999523162842,
+    1.0,
+    1.0
+  ],
+  "native_min_scale": [
+    0.949999988079071,
+    1.0,
+    1.0
+  ],
+  "native_function_table_relocations_applied": true,
+  "strcmp_boundary_stubbed": true,
+  "device_tested": false,
+  "production_model_configuration_through_build_hook_to_original_bone_consumer": true,
+  "final_write_telemetry_verified": true,
+  "end_to_end_arm_scale": [
+    1.0499999523162842,
+    1.0,
+    1.0
+  ]
+}

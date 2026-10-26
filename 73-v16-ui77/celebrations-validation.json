@@ -1,0 +1,498 @@
+{
+  "passed": true,
+  "source_records": 46623,
+  "native_importer": "0x82aa124",
+  "native_parameter_getter": "0x82a84d4",
+  "source_name_offset": 332,
+  "distinct_values": 318,
+  "output_cards": 1544,
+  "values_with_fewer_than_six_cards": [
+    {
+      "parameter": 59,
+      "celebration_id": 77,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 78,
+      "available_cards": 5
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 80,
+      "available_cards": 5
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 89,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 111,
+      "available_cards": 5
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 113,
+      "available_cards": 5
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 128,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 137,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 162,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 176,
+      "available_cards": 5
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 177,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 179,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 180,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 181,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 182,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 189,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 191,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 193,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 208,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 210,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 217,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 221,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 223,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 224,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 226,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 229,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 231,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 236,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 238,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 239,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 240,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 241,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 242,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 245,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 248,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 250,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 251,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 252,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 253,
+      "available_cards": 5
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 254,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 306,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 307,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 310,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 312,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 313,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 316,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 317,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 318,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 319,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 320,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 321,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 322,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 323,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 324,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 326,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 327,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 329,
+      "available_cards": 4
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 330,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 332,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 333,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 334,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 338,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 339,
+      "available_cards": 3
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 340,
+      "available_cards": 1
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 341,
+      "available_cards": 2
+    },
+    {
+      "parameter": 59,
+      "celebration_id": 342,
+      "available_cards": 3
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 1,
+      "available_cards": 2
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 2,
+      "available_cards": 2
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 3,
+      "available_cards": 2
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 4,
+      "available_cards": 2
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 5,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 6,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 7,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 8,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 9,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 10,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 11,
+      "available_cards": 2
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 12,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 13,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 14,
+      "available_cards": 2
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 15,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 16,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 17,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 18,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 19,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 20,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 21,
+      "available_cards": 5
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 22,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 23,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 24,
+      "available_cards": 2
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 25,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 26,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 27,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 28,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 29,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 31,
+      "available_cards": 1
+    },
+    {
+      "parameter": 60,
+      "celebration_id": 33,
+      "available_cards": 1
+    }
+  ],
+  "animation_motion_verified_on_phone": false,
+  "distinct_source_names_preferred_then_distinct_card_variants": true
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "selected_skill_flags_match_native147_layout": true,
+  "current_innate_list_shown": true,
+  "additional_skills_progression_and_other_fields_preserved": true,
+  "height255_weight250_jump99_saved": true,
+  "height350_and_out_of_range_rejected": true,
+  "config_SQL_and_cache_rollback": true,
+  "settings_reload": true,
+  "wire_projection_zero_SQL": true,
+  "device_tested": false
+}

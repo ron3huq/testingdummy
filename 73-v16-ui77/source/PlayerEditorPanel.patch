@@ -1,0 +1,18 @@
+--- a/PlayerEditorPanel.smali
++++ b/PlayerEditorPanel.smali
+@@ -2456,6 +2456,7 @@
+     .line 680
+     aget-object v4, v16, v30
+     invoke-static {v15, v4, v11}, Lorg/efootballrevival/runtimeprobe/BodyEditor;->attach(Landroid/app/Activity;Landroid/widget/LinearLayout;Lorg/json/JSONObject;)V
++    invoke-static {v15, v4, v11}, Lorg/efootballrevival/runtimeprobe/TuningEditor;->attachPhysics(Landroid/app/Activity;Landroid/widget/LinearLayout;Lorg/json/JSONObject;)V
+     invoke-static {v15, v4, v11}, Lorg/efootballrevival/runtimeprobe/PlayerModelEditor;->attach(Landroid/app/Activity;Landroid/widget/LinearLayout;Lorg/json/JSONObject;)V
+ 
+     const-string v7, "\u5916\u89c2\u9009\u62e9"
+@@ -3012,6 +3013,7 @@
+     .line 698
+     :cond_6ad
+     aget-object v0, v16, v31
++    invoke-static {v15, v0, v11}, Lorg/efootballrevival/runtimeprobe/TuningEditor;->attachSkills(Landroid/app/Activity;Landroid/widget/LinearLayout;Lorg/json/JSONObject;)V
+ 
+     const-string v1, "\u5168\u6280\u80fd\u76ee\u5f55\uff1a68\u9879\u5df2\u547d\u540d\u6280\u80fd\uff0b6\u9879\u539f\u751f\u9884\u7559\uff1b\u9644\u52a0\u6280\u80fd\u6700\u591a5\u9879\uff0c\u56fa\u6709\u4e0e\u91cd\u590d\u9879\u4fdd\u5b58\u524d\u4f1a\u62e6\u622a\u3002"
+ 

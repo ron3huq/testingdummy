@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "production_ARM64_editor": true,
+  "native147_getter_readback_height255_weight250_jump99_and_skill_flags": true,
+  "scopes": [
+    0,
+    473,
+    518,
+    122
+  ],
+  "editor_rejects_height350": true,
+  "original_native_height350_wraps_to94": true,
+  "device_tested": false
+}
