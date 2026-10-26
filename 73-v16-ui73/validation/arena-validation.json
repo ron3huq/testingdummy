@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "old_four_pages_exhausted_before_fifth_hook": true,
+  "new_hooks_installed": 40,
+  "two_concurrent_workers": true,
+  "no_common_hole_supported_with_two_shared_pages": true,
+  "shared_RX_pages": 1,
+  "page_bytes": 4096,
+  "RX_code_never_rewritten_after_publication": true,
+  "separate_RW_target_slots": true,
+  "ARM64_stub_and_argument_and_LR_checks": 40,
+  "ARM64_original_instruction_return_checks": 40,
+  "conditional_branch_both_paths": true,
+  "idempotent_reinstall": true,
+  "MAP_FIXED_used": false,
+  "RX_pool_ever_RWX": false,
+  "device_tested": false
+}

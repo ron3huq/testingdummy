@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "original73_engine_sha256": "efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8",
+  "hook_prologues_checked": 40,
+  "ELF_virtual_addresses_translated_to_file_offsets": true,
+  "device_tested": false
+}

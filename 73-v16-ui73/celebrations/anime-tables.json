@@ -1,0 +1,778 @@
+[
+  {
+    "name": "common/anime/AnimeTable/bin/AnimationData.bin",
+    "raw_bytes": 178458,
+    "decoded_bytes": 237348,
+    "header_hex": "ff208157455359530ab90200249f030078018cfd055455cf",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Animetable.bin",
+    "raw_bytes": 18124,
+    "decoded_bytes": 214272,
+    "header_hex": "ff20815745535953bc460000004503007801accec96e5447",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/BallData.bin",
+    "raw_bytes": 18860,
+    "decoded_bytes": 131860,
+    "header_hex": "ff208157455359539c4900001403020078016cdd7594d4c6",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/CancelData.bin",
+    "raw_bytes": 74233,
+    "decoded_bytes": 83556,
+    "header_hex": "ff20815745535953e921010064460100780154fc655456ef",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Categorizedmovetable.bin",
+    "raw_bytes": 390305,
+    "decoded_bytes": 1379120,
+    "header_hex": "ff2081574553595391f40500300b150078016c9d7d985e55",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Categorizedmovetableinit.bin",
+    "raw_bytes": 12757,
+    "decoded_bytes": 39852,
+    "header_hex": "ff20815745535953c5310000ac9b000078014c9b0b988e55",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Categorizedmovetablestatus.bin",
+    "raw_bytes": 68777,
+    "decoded_bytes": 257544,
+    "header_hex": "ff20815745535953990c010008ee030078019cdb7d705355",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/CategoryData.bin",
+    "raw_bytes": 10724,
+    "decoded_bytes": 26372,
+    "header_hex": "ff20815745535953d42900000467000078010dd603b41deb",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/DemoConnectData.bin",
+    "raw_bytes": 2776,
+    "decoded_bytes": 3684,
+    "header_hex": "ff20815745535953c80a0000640e000078010d56777c9455",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Dribblemachingpivothitinfo.bin",
+    "raw_bytes": 121193,
+    "decoded_bytes": 160656,
+    "header_hex": "ff2081574553595359d9010090730200780174dd6554945d",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Dribblematching.bin",
+    "raw_bytes": 16432,
+    "decoded_bytes": 23624,
+    "header_hex": "ff2081574553595320400000485c000078012c59795c9367",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Dribblemotiondata.bin",
+    "raw_bytes": 58932,
+    "decoded_bytes": 69732,
+    "header_hex": "ff2081574553595324e600006410010078016cba775414cb",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Footdata.bin",
+    "raw_bytes": 380645,
+    "decoded_bytes": 993660,
+    "header_hex": "ff20815745535953d5ce05007c290f00780144dd79986657",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/FootType.bin",
+    "raw_bytes": 53234,
+    "decoded_bytes": 80912,
+    "header_hex": "ff20815745535953e2cf0000103c010078010c924f4c5479",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Freemove.bin",
+    "raw_bytes": 16025,
+    "decoded_bytes": 46488,
+    "header_hex": "ff20815745535953893e000098b5000078014cda07741665",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Freemoveoption.bin",
+    "raw_bytes": 580,
+    "decoded_bytes": 840,
+    "header_hex": "ff20815745535953340200004803000078012dcf5b489371",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Idletable.bin",
+    "raw_bytes": 958,
+    "decoded_bytes": 3540,
+    "header_hex": "ff20815745535953ae030000d40d0000780165d06f4c9565",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/JumpData.bin",
+    "raw_bytes": 2586,
+    "decoded_bytes": 3100,
+    "header_hex": "ff208157455359530a0a00001c0c000078010d55777c54d5",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/KickData.bin",
+    "raw_bytes": 10724,
+    "decoded_bytes": 26372,
+    "header_hex": "ff20815745535953d42900000467000078010dd603b41deb",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Kickinfo.bin",
+    "raw_bytes": 617,
+    "decoded_bytes": 2832,
+    "header_hex": "ff2081574553595359020000100b000078015dd64770d340",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Leftheelcycle.bin",
+    "raw_bytes": 187997,
+    "decoded_bytes": 386640,
+    "header_hex": "ff208157455359534dde020050e60500780134d277f41d55",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Lefttoecycle.bin",
+    "raw_bytes": 230191,
+    "decoded_bytes": 452904,
+    "header_hex": "ff208157455359531f83030028e906007801349179f86d63",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Loopmovemotion.bin",
+    "raw_bytes": 291,
+    "decoded_bytes": 496,
+    "header_hex": "ff2081574553595313010000f001000078012d8f314ec350",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Motionmatchingmovedata.bin",
+    "raw_bytes": 6946349,
+    "decoded_bytes": 8664424,
+    "header_hex": "ff208157455359531dfe6900683584007801ccfd0754154b",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Movetable.bin",
+    "raw_bytes": 985,
+    "decoded_bytes": 3540,
+    "header_hex": "ff20815745535953c9030000d40d0000780165d35b50d4e5",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Newdribbleinfo.bin",
+    "raw_bytes": 3393,
+    "decoded_bytes": 3828,
+    "header_hex": "ff20815745535953310d0000f40e000078014d5679544e6d",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/NoballFootprintInfo.bin",
+    "raw_bytes": 991198,
+    "decoded_bytes": 1234112,
+    "header_hex": "ff20815745535953ce1f0f00c0d412007801649d055415db",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/NoballFrameInfo.bin",
+    "raw_bytes": 544650,
+    "decoded_bytes": 674240,
+    "header_hex": "ff208157455359537a4f0800c0490a00780134da775c8edf",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/NoballMotionInfo.bin",
+    "raw_bytes": 76660,
+    "decoded_bytes": 84280,
+    "header_hex": "ff20815745535953642b010038490100780164bb793c547f",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Oopdemoanime.bin",
+    "raw_bytes": 1175,
+    "decoded_bytes": 2824,
+    "header_hex": "ff2081574553595387040000080b000078012dd5578c5555",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Oopdemodata.bin",
+    "raw_bytes": 66871,
+    "decoded_bytes": 157680,
+    "header_hex": "ff2081574553595327050100f06702007801bcbd675014db",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Parametricblendtable.bin",
+    "raw_bytes": 33,
+    "decoded_bytes": 24,
+    "header_hex": "ff20815745535953110000001800000078010b604001f602",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/PersonalizedData.bin",
+    "raw_bytes": 193,
+    "decoded_bytes": 284,
+    "header_hex": "ff20815745535953b10000001c01000078010dcdbb2e0561",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/PivotInfo.bin",
+    "raw_bytes": 5864,
+    "decoded_bytes": 13400,
+    "header_hex": "ff20815745535953d81600005834000078012cd15d882457",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Rightheelcycle.bin",
+    "raw_bytes": 177612,
+    "decoded_bytes": 364680,
+    "header_hex": "ff20815745535953bcb502008890050078011cd207b42455",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Righttoecycle.bin",
+    "raw_bytes": 222470,
+    "decoded_bytes": 438352,
+    "header_hex": "ff20815745535953f664030050b0060078011c9305f424c5",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Risetypedata.bin",
+    "raw_bytes": 11316,
+    "decoded_bytes": 25248,
+    "header_hex": "ff20815745535953242c0000a0620000780144986f689d57",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Risetypeframedata.bin",
+    "raw_bytes": 15119,
+    "decoded_bytes": 30780,
+    "header_hex": "ff20815745535953ff3a00003c7800007801549a7b785557",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/RotData.bin",
+    "raw_bytes": 31368,
+    "decoded_bytes": 52744,
+    "header_hex": "ff20815745535953787a000008ce000078012c9b77789545",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Seamlessanimeinfo.bin",
+    "raw_bytes": 612,
+    "decoded_bytes": 608,
+    "header_hex": "ff20815745535953540200006002000078010dc75d485361",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Seamlessdemodata.bin",
+    "raw_bytes": 9305,
+    "decoded_bytes": 14336,
+    "header_hex": "ff2081574553595349240000003800007801edbb69781355",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/AnimeTable/bin/Slidedribble.bin",
+    "raw_bytes": 171377,
+    "decoded_bytes": 697172,
+    "header_hex": "ff20815745535953619d020054a30a0078016c9d0b7495d5",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/EyesTarget/bin/Eyestarget.bin",
+    "raw_bytes": 940,
+    "decoded_bytes": 31532,
+    "header_hex": "ff208157455359539c0300002c7b00007801ecd465acdcd5",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/FHSequence/bin/Faceadd.bin",
+    "raw_bytes": 3210,
+    "decoded_bytes": 8472,
+    "header_hex": "ff208157455359537a0c000018210000780145d97b5c9455",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/FHSequence/bin/Facebase.bin",
+    "raw_bytes": 43260,
+    "decoded_bytes": 94392,
+    "header_hex": "ff20815745535953eca80000b8700100780144dd7b5c54d7",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/FHSequence/bin/Handlbase.bin",
+    "raw_bytes": 59743,
+    "decoded_bytes": 188232,
+    "header_hex": "ff208157455359534fe9000048df0200780144d85b6c1c67",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/FHSequence/bin/Handrbase.bin",
+    "raw_bytes": 61195,
+    "decoded_bytes": 194892,
+    "header_hex": "ff20815745535953fbee00004cf90200780144d85d8c5c65",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/FHSequence/bin/Hitframes.bin",
+    "raw_bytes": 27792,
+    "decoded_bytes": 78248,
+    "header_hex": "ff20815745535953806c0000a831010078012ccf7758cfeb",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/FHSequence/bin/Sequenceinfo.bin",
+    "raw_bytes": 17417,
+    "decoded_bytes": 46288,
+    "header_hex": "ff20815745535953f9430000d0b40000780124da6778d3d5",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/dribbleMatching0.bin",
+    "raw_bytes": 332296,
+    "decoded_bytes": 340298,
+    "header_hex": "ff20815745535953f81105004a3105007801ccfd775413df",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/dribbleMatching1.bin",
+    "raw_bytes": 4895622,
+    "decoded_bytes": 4952012,
+    "header_hex": "ff2081574553595376b34a00cc8f4b0078018cfa77389cdf",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/dribbleMatching2.bin",
+    "raw_bytes": 3286118,
+    "decoded_bytes": 3342293,
+    "header_hex": "ff2081574553595356243200d5ff320078016cfc0720d4ff",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/dribbleMatching3.bin",
+    "raw_bytes": 3333399,
+    "decoded_bytes": 3391153,
+    "header_hex": "ff2081574553595307dd3200b1be330078015cfd0920546d",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/dribbleMatching4.bin",
+    "raw_bytes": 952666,
+    "decoded_bytes": 973668,
+    "header_hex": "ff208157455359534a890e0064db0e0078015cfd092094df",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching0.bin",
+    "raw_bytes": 45731,
+    "decoded_bytes": 47364,
+    "header_hex": "ff2081574553595393b2000004b900007801ecfbf7575359",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching1.bin",
+    "raw_bytes": 59697,
+    "decoded_bytes": 61453,
+    "header_hex": "ff2081574553595321e900000df000007801ecfcf75b53df",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching10.bin",
+    "raw_bytes": 429528,
+    "decoded_bytes": 435969,
+    "header_hex": "ff20815745535953c88d060001a706007801ecbb775493cb",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching11.bin",
+    "raw_bytes": 8091784,
+    "decoded_bytes": 8149174,
+    "header_hex": "ff2081574553595378787b00b6587c007801c4fa775053dd",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching12.bin",
+    "raw_bytes": 7226507,
+    "decoded_bytes": 7276358,
+    "header_hex": "ff208157455359537b446e0046076f007801c4fc77349cdf",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching13.bin",
+    "raw_bytes": 1256814,
+    "decoded_bytes": 1269779,
+    "header_hex": "ff208157455359535e2d1300136013007801c4fc75549c4f",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching2.bin",
+    "raw_bytes": 54906,
+    "decoded_bytes": 56424,
+    "header_hex": "ff208157455359536ad6000068dc00007801ecbaf757d349",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching3.bin",
+    "raw_bytes": 3434448,
+    "decoded_bytes": 3462786,
+    "header_hex": "ff20815745535953c067340082d634007801dcf9655cd46f",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching4.bin",
+    "raw_bytes": 16447194,
+    "decoded_bytes": 16563672,
+    "header_hex": "ff20815745535953caf6fa00d8bdfc007801acfc05509bcf",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching5.bin",
+    "raw_bytes": 13272363,
+    "decoded_bytes": 13370748,
+    "header_hex": "ff208157455359531b85ca007c05cc007801acfb0750d35d",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching6.bin",
+    "raw_bytes": 12605377,
+    "decoded_bytes": 12701796,
+    "header_hex": "ff20815745535953b157c00064d0c1007801acf905549bcd",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching7.bin",
+    "raw_bytes": 1421456,
+    "decoded_bytes": 1431549,
+    "header_hex": "ff2081574553595380b01500fdd715007801b4f56754d359",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching8.bin",
+    "raw_bytes": 769787,
+    "decoded_bytes": 775918,
+    "header_hex": "ff20815745535953ebbe0b00eed60b007801b4fa7754d34b",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Matching/bin/moveMatching9.bin",
+    "raw_bytes": 1705908,
+    "decoded_bytes": 1718457,
+    "header_hex": "ff20815745535953a4071a00b9381a007801acf7075493cb",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/Animation.bin",
+    "raw_bytes": 118124,
+    "decoded_bytes": 156420,
+    "header_hex": "ff208157455359535ccd01000463020078017cbb09544edf",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/AnimationData.bin",
+    "raw_bytes": 192099,
+    "decoded_bytes": 254700,
+    "header_hex": "ff2081574553595353ee0200ece20300780154ba795c4cef",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/BallData.bin",
+    "raw_bytes": 19726,
+    "decoded_bytes": 141500,
+    "header_hex": "ff20815745535953fe4c0000bc28020078016cdd757814c7",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/CameraPickupInfo.bin",
+    "raw_bytes": 1234,
+    "decoded_bytes": 1328,
+    "header_hex": "ff20815745535953c20400003005000078010d935b5014c7",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/CancelData.bin",
+    "raw_bytes": 61475,
+    "decoded_bytes": 68976,
+    "header_hex": "ff2081574553595313f00000700d010078014cfc655815ef",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/CategoryData.bin",
+    "raw_bytes": 11499,
+    "decoded_bytes": 28300,
+    "header_hex": "ff20815745535953db2c00008c6e000078010cd603b897d7",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/DangerData.bin",
+    "raw_bytes": 545,
+    "decoded_bytes": 620,
+    "header_hex": "ff20815745535953110200006c02000078010dcdc94f1361",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/DemoConnectData.bin",
+    "raw_bytes": 3147,
+    "decoded_bytes": 4172,
+    "header_hex": "ff208157455359533b0c00004c10000078010d96797c95d5",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/DivertInfo.bin",
+    "raw_bytes": 0,
+    "decoded_bytes": 0,
+    "header_hex": "",
+    "method": "CPK",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/EqualPartsPosInfo.bin",
+    "raw_bytes": 121,
+    "decoded_bytes": 120,
+    "header_hex": "ff20815745535953690000007800000078016300827b331b",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/FootType.bin",
+    "raw_bytes": 35799,
+    "decoded_bytes": 54152,
+    "header_hex": "ff20815745535953c78b000088d3000078010c92cd4f1c57",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/HitData.bin",
+    "raw_bytes": 601309,
+    "decoded_bytes": 1061532,
+    "header_hex": "ff20815745535953cd2c09009c3210007801949c795c4ddf",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/HoldData.bin",
+    "raw_bytes": 5896,
+    "decoded_bytes": 7560,
+    "header_hex": "ff20815745535953f8160000881d0000780165d8795c8cdb",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/JointPosInfo.bin",
+    "raw_bytes": 5888,
+    "decoded_bytes": 6864,
+    "header_hex": "ff20815745535953f0160000d01a000078016598795c8de9",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/JumpData.bin",
+    "raw_bytes": 2792,
+    "decoded_bytes": 3328,
+    "header_hex": "ff20815745535953d80a0000000d000078010d557b7c54d5",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/KickData.bin",
+    "raw_bytes": 11499,
+    "decoded_bytes": 28300,
+    "header_hex": "ff20815745535953db2c00008c6e000078010cd603b897d7",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/MatchAnimeDefinedatatable.bin",
+    "raw_bytes": 148,
+    "decoded_bytes": 148,
+    "header_hex": "ff2000574553595384000000840000008fd4000088d80000",
+    "method": "CPK",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/MoveAdjustInfo.bin",
+    "raw_bytes": 0,
+    "decoded_bytes": 0,
+    "header_hex": "",
+    "method": "CPK",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/NoballFootprintInfo.bin",
+    "raw_bytes": 993567,
+    "decoded_bytes": 1237280,
+    "header_hex": "ff208157455359530f290f0020e112007801649d055415db",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/NoballFrameInfo.bin",
+    "raw_bytes": 546928,
+    "decoded_bytes": 677120,
+    "header_hex": "ff208157455359536058080000550a00780134da775c8edf",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/NoballMotionInfo.bin",
+    "raw_bytes": 77007,
+    "decoded_bytes": 84640,
+    "header_hex": "ff20815745535953bf2c0100a04a0100780164bb793c547f",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/PersonalizedData.bin",
+    "raw_bytes": 162,
+    "decoded_bytes": 236,
+    "header_hex": "ff2081574553595392000000ec00000078010dca390e0140",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/PivotFixData.bin",
+    "raw_bytes": 0,
+    "decoded_bytes": 0,
+    "header_hex": "",
+    "method": "CPK",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/PivothitInfo.bin",
+    "raw_bytes": 25251,
+    "decoded_bytes": 27968,
+    "header_hex": "ff2081574553595393620000406d00007801545a675853cf",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/PivotInfo.bin",
+    "raw_bytes": 5863,
+    "decoded_bytes": 13400,
+    "header_hex": "ff20815745535953d71600005834000078012cd4dd8b1b55",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/RotData.bin",
+    "raw_bytes": 34809,
+    "decoded_bytes": 56600,
+    "header_hex": "ff20815745535953e987000018dd000078012c9c7740d655",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/Mbinfo/bin/SubHitData.bin",
+    "raw_bytes": 1823,
+    "decoded_bytes": 2088,
+    "header_hex": "ff208157455359530f07000028080000780135d27b501457",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/playerID/bin/Definedatatable.bin",
+    "raw_bytes": 104,
+    "decoded_bytes": 132,
+    "header_hex": "ff20815745535953580000008400000078015dcbbb118141",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  },
+  {
+    "name": "common/anime/playerID/bin/Derivationdatatable.bin",
+    "raw_bytes": 517,
+    "decoded_bytes": 816,
+    "header_hex": "ff20815745535953f501000030030000780145d2b16b1361",
+    "method": "CPK+PES-zlib",
+    "labels": []
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "original73_native_accessors": true,
+  "synthetic_record": true,
+  "rows": [
+    {
+      "parameter": 59,
+      "requested": 0,
+      "native_setter_return": 1,
+      "readback": 0
+    },
+    {
+      "parameter": 59,
+      "requested": 16,
+      "native_setter_return": 1,
+      "readback": 16
+    },
+    {
+      "parameter": 59,
+      "requested": 22,
+      "native_setter_return": 1,
+      "readback": 22
+    },
+    {
+      "parameter": 59,
+      "requested": 90,
+      "native_setter_return": 1,
+      "readback": 90
+    },
+    {
+      "parameter": 59,
+      "requested": 94,
+      "native_setter_return": 1,
+      "readback": 94
+    },
+    {
+      "parameter": 59,
+      "requested": 212,
+      "native_setter_return": 1,
+      "readback": 212
+    },
+    {
+      "parameter": 59,
+      "requested": 219,
+      "native_setter_return": 1,
+      "readback": 219
+    },
+    {
+      "parameter": 59,
+      "requested": 349,
+      "native_setter_return": 1,
+      "readback": 349
+    },
+    {
+      "parameter": 59,
+      "requested": 511,
+      "native_setter_return": 1,
+      "readback": 511
+    },
+    {
+      "parameter": 59,
+      "requested": 542,
+      "native_setter_return": 1,
+      "readback": 30
+    },
+    {
+      "parameter": 59,
+      "requested": 571,
+      "native_setter_return": 1,
+      "readback": 59
+    },
+    {
+      "parameter": 59,
+      "requested": 595,
+      "native_setter_return": 1,
+      "readback": 83
+    },
+    {
+      "parameter": 60,
+      "requested": 0,
+      "native_setter_return": 1,
+      "readback": 0
+    },
+    {
+      "parameter": 60,
+      "requested": 90,
+      "native_setter_return": 1,
+      "readback": 90
+    },
+    {
+      "parameter": 60,
+      "requested": 127,
+      "native_setter_return": 1,
+      "readback": 127
+    },
+    {
+      "parameter": 60,
+      "requested": 542,
+      "native_setter_return": 1,
+      "readback": 30
+    },
+    {
+      "parameter": 60,
+      "requested": 571,
+      "native_setter_return": 1,
+      "readback": 59
+    },
+    {
+      "parameter": 60,
+      "requested": 595,
+      "native_setter_return": 1,
+      "readback": 83
+    }
+  ],
+  "device_tested": false
+}
