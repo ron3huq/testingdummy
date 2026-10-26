@@ -1,0 +1,18 @@
+{
+  "phone_tested": false,
+  "film_exact_likeness_verified": false,
+  "artifacts": {
+    "SpiderMan-v3-ANDROID-TRIAL-88044950524330.zip": {
+      "bytes": 6744208,
+      "sha256": "488a3bcce1a8c4812e9d4b33d8d3d881779290725e044f56fc823d7ceaaec45f"
+    },
+    "SpiderMan-v3-BLEND-and-previews.zip": {
+      "bytes": 6426172,
+      "sha256": "20239f06a1fc18dc7afef4b8f4293736950572aa55a6a5803ffa7926a1b28559"
+    },
+    "Tat-dau-SpiderMan.zip": {
+      "bytes": 172,
+      "sha256": "523eb05644d9d215972b05f4c0b8a81d442b53c9d0e8f3ff2704dc40a956a47f"
+    }
+  }
+}
