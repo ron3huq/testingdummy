@@ -1,0 +1,40 @@
+{
+  "revision": "Hulk Avengers v2",
+  "facebuilder_used": false,
+  "game_tested": false,
+  "original_ronaldo_unchanged": true,
+  "meshes": {
+    "face_high_0_fox_skin_mat": {
+      "vertices": 3824,
+      "faces": 3609
+    },
+    "hair_high_0_fox_skin_mat": {
+      "vertices": 6985,
+      "faces": 6864
+    },
+    "HULK_EYE_-1": {
+      "vertices": 6050,
+      "faces": 6144
+    },
+    "HULK_EYE_1": {
+      "vertices": 6050,
+      "faces": 6144
+    },
+    "HULK_FACE_SCULPT": {
+      "vertices": 40848,
+      "faces": 40555
+    },
+    "HULK_HAIR_ROOTS": {
+      "vertices": 26871,
+      "faces": 8957
+    },
+    "HULK_SHORT_CURLS": {
+      "vertices": 409600,
+      "faces": 358400
+    }
+  },
+  "packed_images": [
+    "Hulk_skin_PACKED"
+  ],
+  "face_edit_mode_matches_object": true
+}
