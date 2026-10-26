@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "actual_encrypted73_modules": true,
+  "gateway_initialize_ready": true,
+  "mod_python_ready": true,
+  "CMD_LOGIN_result": "NOERR",
+  "wire_roundtrip": "PASS",
+  "private_id_projection": true,
+  "fixture_SQLite_separate": true,
+  "Android_resource_import_stubbed": true,
+  "native_ARM64_not_executed": true,
+  "device_error_reproduced": false,
+  "device_fix_confirmed": false
+}

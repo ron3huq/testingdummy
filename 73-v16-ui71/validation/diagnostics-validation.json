@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "successful original bootstrap result retained",
+    "bridge failure now reaches launcher instead of falsely returning ready",
+    "request success bytes unchanged; request exception re-raised",
+    "last failure persists with traceback and native diagnostic snapshots",
+    "request query and body excluded from report"
+  ],
+  "device_tested": false
+}
