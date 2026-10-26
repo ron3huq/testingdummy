@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "teams": [
+    1706,
+    4937,
+    1957,
+    1956,
+    4962,
+    4964,
+    4938,
+    1950,
+    1228,
+    1955
+  ],
+  "both_license_gate_states": true,
+  "fresh_team_lookup_and_stale_cached_views": true,
+  "native_flag_offset": "0x3fd bit2",
+  "palette_bytes": 80,
+  "Y17_logic_unchanged": true,
+  "synthetic_records": true,
+  "device_tested": false
+}

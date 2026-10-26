@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "on_demand_exact_owned_card_validation": true,
+  "11_fields_persist_reload_restore": true,
+  "invalid_values_rejected": true,
+  "no_gameplayer_stats_mutated": true,
+  "native_inherit_encoding_verified": true,
+  "edits_blocked_after_engine_load": true,
+  "catalogue_search_code_unchanged": true,
+  "device_tested": false
+}

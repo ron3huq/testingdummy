@@ -1,0 +1,10 @@
+--- a/PlayerEditorPanel.smali
++++ b/PlayerEditorPanel.smali
+@@ -2456,6 +2456,7 @@
+     .line 680
+     aget-object v4, v16, v30
+     invoke-static {v15, v4, v11}, Lorg/efootballrevival/runtimeprobe/BodyEditor;->attach(Landroid/app/Activity;Landroid/widget/LinearLayout;Lorg/json/JSONObject;)V
++    invoke-static {v15, v4, v11}, Lorg/efootballrevival/runtimeprobe/PlayerModelEditor;->attach(Landroid/app/Activity;Landroid/widget/LinearLayout;Lorg/json/JSONObject;)V
+ 
+     const-string v7, "\u5916\u89c2\u9009\u62e9"
+ 

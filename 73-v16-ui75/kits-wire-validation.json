@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "production_start_wrapper_AST": true,
+  "original_start_boundary_simulated": true,
+  "Y08_opponent_pairs_and_user_sides": 180,
+  "all10_logical_team_IDs_consistent_with_rosters_and_uniform_keys": true,
+  "donor_slot_selection_retained": true,
+  "owned_players_unchanged": true,
+  "Y17_branch_unchanged": true,
+  "device_tested": false
+}

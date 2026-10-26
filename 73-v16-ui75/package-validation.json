@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "full_clean_stock_closure": true,
+  "stock_manifest_entries": 7331,
+  "full_manifest_entries": 7383,
+  "gateway_overrides_included": 53,
+  "critical_payload_files": 47,
+  "two_zip_paths_nonoverlapping": true,
+  "face_binary_and_resource_assets_preserved_byte_exact": true,
+  "select_team_library_updated_for_kit_gate_and_models": true,
+  "no_user_save_bundled": true,
+  "loader_only_embedded_gateway_changed": true,
+  "card_designer_manifest_complete_against_stock": true,
+  "original_dex_classes": 267,
+  "updated_dex_classes": 320,
+  "device_tested": false
+}

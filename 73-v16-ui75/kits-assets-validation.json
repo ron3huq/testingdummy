@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "Y08_teams": [
+    1706,
+    4937,
+    1957,
+    1956,
+    4962,
+    4964,
+    4938,
+    1950,
+    1228,
+    1955
+  ],
+  "home_away_and_goalkeeper_recipes_present": true,
+  "all_existing_41_recipe_additions_preserved_exact": true,
+  "CPK_unchanged_from_working_UI74": true,
+  "Y17_kit_resource_files_unchanged": true,
+  "device_tested": false
+}
