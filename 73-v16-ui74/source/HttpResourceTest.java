@@ -1,0 +1,24 @@
+import org.efootballrevival.runtimeprobe.LiveResourceServer;import fi.iki.elonen.NanoHTTPD;import java.io.*;import java.net.*;import java.nio.file.*;import java.security.*;import java.util.*;import org.json.*;
+public class HttpResourceTest{
+ static void check(boolean ok,String m){if(!ok)throw new AssertionError(m);}
+ static String sha(InputStream in)throws Exception{MessageDigest d=MessageDigest.getInstance("SHA-256");try(InputStream stream=in){byte[] b=new byte[65536];int n;while((n=stream.read(b))!=-1)d.update(b,0,n);}StringBuilder s=new StringBuilder();for(byte v:d.digest())s.append(String.format("%02x",v&255));return s.toString();}
+ static HttpURLConnection open(int port,String path,String method,String range)throws Exception{HttpURLConnection c=(HttpURLConnection)new URL("http://127.0.0.1:"+port+path).openConnection(Proxy.NO_PROXY);c.setRequestMethod(method);c.setConnectTimeout(5000);c.setReadTimeout(5000);if(range!=null)c.setRequestProperty("Range",range);return c;}
+ public static void main(String[]args)throws Exception{
+  Path root=Files.createTempDirectory("ui74-http-");Files.createDirectories(root.resolve("livedata"));Files.createDirectories(root.resolve("work/tools"));Path source=Path.of("/workspace/ronaldo-work/73-ui74/dt870_ui74_mobile_and.cpk");Path file=root.resolve("livedata/dt870_ui74_mobile_and.cpk");Files.copy(source,file);long size=Files.size(file);String expected=sha(Files.newInputStream(file));NanoHTTPD server=new NanoHTTPD("127.0.0.1",0){public Response serve(IHTTPSession s){return LiveResourceServer.serve(root.toFile(),s);}};server.start();int port=server.getListeningPort();
+  try{
+   HttpURLConnection c=open(port,"/livedata/dt870_ui74_mobile_and.cpk","GET",null);check(c.getResponseCode()==200,"full status");check(c.getContentLengthLong()==size,"full length");check(expected.equals(sha(c.getInputStream())),"full checksum");String etag=c.getHeaderField("ETag");c.disconnect();
+   c=open(port,"/livedata/dt870_ui74_mobile_and.cpk","HEAD",null);check(c.getResponseCode()==200&&c.getContentLengthLong()==size,"HEAD metadata");check(c.getInputStream().read()==-1,"HEAD body");c.disconnect();
+   MessageDigest combined=MessageDigest.getInstance("SHA-256");long[][] pieces={{0,4095},{4096,1048575},{1048576,size-1}};byte[] buffer=new byte[65536];
+   for(long[] piece:pieces){c=open(port,"/livedata/dt870_ui74_mobile_and.cpk","GET","bytes="+piece[0]+"-"+piece[1]);check(c.getResponseCode()==206,"range status");check(c.getContentLengthLong()==piece[1]-piece[0]+1,"range length");check(c.getHeaderField("Content-Range").equals("bytes "+piece[0]+"-"+piece[1]+"/"+size),"range header");try(InputStream in=c.getInputStream()){int n;while((n=in.read(buffer))!=-1)combined.update(buffer,0,n);}c.disconnect();}
+   StringBuilder actual=new StringBuilder();for(byte v:combined.digest())actual.append(String.format("%02x",v&255));check(expected.equals(actual.toString()),"resumed checksum");
+   c=open(port,"/livedata/dt870_ui74_mobile_and.cpk","GET","bytes=-1024");check(c.getResponseCode()==206&&c.getContentLengthLong()==1024,"suffix");byte[] suffix=c.getInputStream().readAllBytes(),original=Files.readAllBytes(file);check(Arrays.equals(suffix,Arrays.copyOfRange(original,original.length-1024,original.length)),"suffix content");c.disconnect();
+   for(String r:new String[]{"bytes="+size+"-","bytes=8-3","bytes=0-1,3-4","bytes=-0"}){c=open(port,"/livedata/dt870_ui74_mobile_and.cpk","GET",r);check(c.getResponseCode()==416,"invalid range "+r);check(c.getHeaderField("Content-Range").equals("bytes */"+size),"416 size");c.disconnect();}
+   c=open(port,"/livedata/dt870_ui74_mobile_and.cpk","GET","bytes=10-20");c.setRequestProperty("If-Range","\"stale\"");check(c.getResponseCode()==200&&c.getContentLengthLong()==size,"If-Range full fallback");check(expected.equals(sha(c.getInputStream())),"fallback checksum");c.disconnect();
+   c=open(port,"/livedata/dt870_ui74_mobile_and.cpk","GET",null);c.setRequestProperty("If-None-Match",etag);check(c.getResponseCode()==304,"304");c.disconnect();
+   c=open(port,"/livedata/missing.cpk","GET",null);check(c.getResponseCode()==404,"missing");c.disconnect();
+   c=open(port,"/livedata/%2e%2e/private.sqlite3","GET",null);check(c.getResponseCode()==403,"path traversal");c.disconnect();
+   JSONObject log=new JSONObject(Files.readString(root.resolve("work/tools/http-resource-status.json")));check(log.getJSONArray("requests").length()>=10,"diagnostic trace");
+   System.out.println("{\"passed\":true,\"production_Java_helper\":true,\"real_loopback_NanoHTTPD\":true,\"full_GET_SHA256\":true,\"HEAD_no_body\":true,\"resumed_ranges_reconstruct_exact_file\":true,\"suffix_and_416\":true,\"IfRange_and_304\":true,\"missing_404\":true,\"canonical_path_guard\":true,\"resource_trace_recorded\":true,\"test_file_bytes\":"+size+",\"device_tested\":false}");
+  }finally{server.stop();}
+ }
+}

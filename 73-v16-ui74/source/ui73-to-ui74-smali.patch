@@ -1,0 +1,60 @@
+--- a/org/efootballrevival/runtimeprobe/EmbeddedGateway.smali
++++ b/org/efootballrevival/runtimeprobe/EmbeddedGateway.smali
+@@ -1526,6 +1526,15 @@
+ 
+     move-result-object v2
+ 
++    invoke-virtual {v2, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
++    move-result v3
++    if-eqz v3, :ui74_not_static
++    iget-object v3, p0, Lorg/efootballrevival/runtimeprobe/EmbeddedGateway;->payload:Ljava/io/File;
++    invoke-static {v3, p1}, Lorg/efootballrevival/runtimeprobe/LiveResourceServer;->serve(Ljava/io/File;Lfi/iki/elonen/NanoHTTPD$IHTTPSession;)Lfi/iki/elonen/NanoHTTPD$Response;
++    move-result-object v3
++    return-object v3
++    :ui74_not_static
++
+     .line 127
+     :try_start_8
+     invoke-interface {p1}, Lfi/iki/elonen/NanoHTTPD$IHTTPSession;->getMethod()Lfi/iki/elonen/NanoHTTPD$Method;
+--- a/org/efootballrevival/runtimeprobe/PersistentResources.smali
++++ b/org/efootballrevival/runtimeprobe/PersistentResources.smali
+@@ -1560,13 +1560,17 @@
+ .end method
+ 
+ .method public static ready(Ljava/io/File;Lorg/efootballrevival/runtimeprobe/ResourceInstaller$Plan;JLorg/efootballrevival/runtimeprobe/ResourceInstaller$Move;)Z
+-    .registers 5
++    .registers 9
++
+     .annotation system Ldalvik/annotation/Throws;
+         value = {
+             Ljava/io/IOException;
+         }
+     .end annotation
+ 
++    move-object v0, p0
++    move-object v1, p1
++    move-wide v2, p2
+     .line 45
+     invoke-static {p0, p1, p4}, Lorg/efootballrevival/runtimeprobe/PersistentResources;->saved(Ljava/io/File;Lorg/efootballrevival/runtimeprobe/ResourceInstaller$Plan;Lorg/efootballrevival/runtimeprobe/ResourceInstaller$Move;)Z
+ 
+@@ -1598,7 +1602,8 @@
+ 
+     if-eqz p0, :cond_20
+ 
+-    const/4 p0, 0x1
++    invoke-static {v0, v1, v2, v3}, Lorg/efootballrevival/runtimeprobe/ResourcePresence;->check(Ljava/io/File;Lorg/efootballrevival/runtimeprobe/ResourceInstaller$Plan;J)Z
++    move-result p0
+ 
+     goto :goto_21
+ 
+--- a/org/efootballrevival/runtimeprobe/UiStringsData.smali
++++ b/org/efootballrevival/runtimeprobe/UiStringsData.smali
+@@ -2247,7 +2247,7 @@
+     .line 1075
+     const-string v0, "\u79bb\u7ebf\u6e38\u620f \u00b7 \u672c\u5730\u5b58\u6863"
+ 
+-    const-string v1, "UI7.3 Earth \u00b7 Offline \u00b7 Local save\nAuto-enter after 10s idle \u00b7 touch to reset"
++    const-string v1, "UI7.4 Earth \u00b7 Offline \u00b7 Local save\nAuto-enter after 10s idle \u00b7 touch to reset"
+ 
+     invoke-interface {p0, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ 

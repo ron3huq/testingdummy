@@ -1,0 +1,1 @@
+package org.efootballrevival.runtimeprobe;import java.util.*;public class ResourceInstaller{public static class Item{String path;long bytes;public Item(String p,long n){path=p;bytes=n;}}public static class Plan{LinkedHashMap<String,Item> items=new LinkedHashMap<>();public void add(String p,long n){items.put(p,new Item(p,n));}}}

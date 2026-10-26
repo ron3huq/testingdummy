@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "actual73_gateway_initialize_and_CMD_LOGIN": true,
+  "legacy_dt870_restore_executed_in_initialize": true,
+  "old_shared_mod_CPK_replaced_with_valid_stock": true,
+  "login_result": "NOERR",
+  "wire_roundtrip": "PASS",
+  "recursive_local_URL_conversion_keeps_isolated_CPK": true,
+  "repeated_URL_conversion_idempotent": true,
+  "advertised_hash_matches_download_bytes": true,
+  "unrelated_Android_resource_setup_stubbed": true,
+  "device_tested": false
+}
