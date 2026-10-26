@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "production_ARM64_library": true,
+  "original_73_body_decoder": true,
+  "values_tested": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "fields": 11,
+  "native_float_conversion_all_165_cases": true,
+  "all_face_hair_sleeve_and_other_packed_bits_preserved": true,
+  "exact64_card_scope_even_with_different_appearance_id": true,
+  "scope_cleared_after_build": true,
+  "synthetic_records": true,
+  "device_tested": false
+}

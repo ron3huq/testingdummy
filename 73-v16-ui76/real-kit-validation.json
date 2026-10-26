@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "actual_ARM64_production_library": true,
+  "Y08_Real_recipe_gate_enabled_even_when_original_Real_is_unlicensed": true,
+  "target": 4937,
+  "resource_source": 242,
+  "other_team_gate_code_unchanged": true,
+  "device_tested": false
+}

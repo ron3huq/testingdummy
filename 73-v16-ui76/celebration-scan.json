@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "raw_records_imported_by_original73_82aa124": 46623,
+  "original_native_getter": true,
+  "distinct_mappings": 318,
+  "scope": "Source table values59/60, distinct from animation clip IDs. One source card per value. Not on-pitch motion verification."
+}

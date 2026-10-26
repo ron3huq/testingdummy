@@ -1,0 +1,329 @@
+--- a/PlayerEditorPanel.smali
++++ b/PlayerEditorPanel.smali
+@@ -3516,316 +3516,8 @@
+ .end method
+ 
+ .method private static confirmAdd(Landroid/app/Activity;Lorg/json/JSONObject;Lorg/json/JSONObject;Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel$Selection;Lorg/json/JSONObject;Landroid/app/AlertDialog;)V
+-    .registers 16
+-
+-    .line 306
+-    invoke-static {p0}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->column(Landroid/app/Activity;)Landroid/widget/LinearLayout;
+-
+-    move-result-object v0
+-
+-    const/16 v1, 0x11
+-
+-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setGravity(I)V
+-
+-    const v1, -0xe6e5db
+-
+-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundColor(I)V
+-
+-    .line 307
+-    const/16 v1, 0x68
+-
+-    invoke-static {p0, p1, v1}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->portrait(Landroid/app/Activity;Lorg/json/JSONObject;I)Landroid/widget/ImageView;
+-
+-    move-result-object v1
+-
+-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+-
+-    .line 308
+-    const-string v1, "name"
+-
+-    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+-
+-    move-result-object v1
+-
+-    const/16 v2, 0x15
+-
+-    const/4 v3, -0x1
+-
+-    invoke-static {p0, v1, v2, v3}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->text(Landroid/app/Activity;Ljava/lang/String;II)Landroid/widget/TextView;
+-
+-    move-result-object v1
+-
+-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+-
+-    .line 309
+-    const-string v1, "position"
+-
+-    invoke-virtual {p1, v1, v3}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
+-
+-    move-result v1
+-
+-    const-string v2, "positions"
+-
+-    invoke-virtual {p2, v2}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
+-
+-    move-result-object p2
+-
+-    .line 310
+-    new-instance v2, Ljava/lang/StringBuilder;
+-
+-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+-
+-    const-string v4, "id"
+-
+-    invoke-virtual {p1, v4}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+-
+-    move-result-object v4
+-
+-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    move-result-object v2
+-
+-    const-string v4, " \u00b7 "
+-
+-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    move-result-object v2
+-
+-    if-nez p2, :cond_4e
+-
+-    const-string p2, ""
+-
+-    goto :goto_52
+-
+-    :cond_4e
+-    invoke-virtual {p2, v1}, Lorg/json/JSONArray;->optString(I)Ljava/lang/String;
+-
+-    move-result-object p2
+-
+-    :goto_52
+-    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    const-string v1, " \u00b7 \u603b\u8bc4 "
+-
+-    invoke-virtual {p2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    const-string v1, "overall"
+-
+-    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
+-
+-    move-result v1
+-
+-    invoke-virtual {p2, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    const-string v1, "card_type_label"
+-
+-    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+-
+-    move-result-object v1
+-
+-    invoke-virtual {p2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+-
+-    move-result-object p2
+-
+-    const/16 v1, 0xc
+-
+-    const v2, -0x4b4430
+-
+-    invoke-static {p0, p2, v1, v2}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->text(Landroid/app/Activity;Ljava/lang/String;II)Landroid/widget/TextView;
+-
+-    move-result-object p2
+-
+-    invoke-virtual {v0, p2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+-
+-    .line 311
+-    new-instance p2, Ljava/lang/StringBuilder;
+-
+-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+-
+-    const-string v4, "\u7b49\u7ea7\u4e0a\u9650 "
+-
+-    invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    const-string v4, "level_limit"
+-
+-    invoke-virtual {p1, v4}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
+-
+-    move-result v4
+-
+-    invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    const-string v4, " \u00b7 \u5df2\u6301\u6709 "
+-
+-    invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    const-string v4, "owned"
+-
+-    invoke-virtual {p1, v4}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
+-
+-    move-result v4
+-
+-    invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    const-string v4, " \u5f20"
+-
+-    invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    move-result-object p2
+-
+-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+-
+-    move-result-object p2
+-
+-    invoke-static {p0, p2, v1, v2}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->text(Landroid/app/Activity;Ljava/lang/String;II)Landroid/widget/TextView;
+-
+-    move-result-object p2
+-
+-    invoke-virtual {v0, p2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+-
+-    .line 312
+-    if-nez p4, :cond_bd
+-
+-    goto :goto_c3
+-
+-    :cond_bd
+-    const-string p2, "free_slots"
+-
+-    const/4 v1, 0x0
+-
+-    invoke-virtual {p4, p2, v1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
+-
+-    .line 313
+-    :goto_c3
+-    nop
+-
+-    .line 314
+-    const-string p2, "editable"
+-
+-    invoke-virtual {p1, p2}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;)Z
+-
+-    move-result p2
+-
+-    .line 315
+-    const/16 p4, 0xe
+-
+-    const v1, -0x273901
+-
+-    const-string v4, "\u76ee\u6807\uff1a\u4ed3\u5e93\uff08\u666e\u901a\u6301\u6709\u7403\u5458\u540d\u5355\uff09"
+-
+-    invoke-static {p0, v4, p4, v1}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->text(Landroid/app/Activity;Ljava/lang/String;II)Landroid/widget/TextView;
+-
+-    move-result-object p4
+-
+-    invoke-virtual {v0, p4}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+-
+-    .line 316
+-    const-string p4, "\u65b0\u5efa\u4e00\u5f20\u6301\u6709\u5361\uff0c\u81ea\u52a8\u5347\u81f3\u7b49\u7ea7\u4e0a\u9650\u5e76\u6309\u63a8\u8350\u65b9\u6848\u52a0\u70b9\uff0c\u52a0\u5165\u4ed3\u5e93\uff1b\u6bd4\u8d5b\u8ba1\u5212\u4fdd\u6301\u539f\u6837\u3002\u5199\u5165\u524d\u81ea\u52a8\u5907\u4efd\u3002"
+-
+-    const/16 v1, 0xd
+-
+-    invoke-static {p0, p4, v1, v2}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->text(Landroid/app/Activity;Ljava/lang/String;II)Landroid/widget/TextView;
+-
+-    move-result-object p4
+-
+-    invoke-virtual {v0, p4}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+-
+-    .line 317
+-    new-instance p4, Landroid/widget/ScrollView;
+-
+-    invoke-direct {p4, p0}, Landroid/widget/ScrollView;-><init>(Landroid/content/Context;)V
+-
+-    invoke-virtual {p4, v0}, Landroid/widget/ScrollView;->addView(Landroid/view/View;)V
+-
+-    .line 318
+-    const-string v0, "\u786e\u8ba4\u52a0\u5165\u4ed3\u5e93"
+-
+-    invoke-static {p0, v0}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->editorDialog(Landroid/app/Activity;Ljava/lang/String;)Landroid/app/AlertDialog$Builder;
+-
+-    move-result-object v0
+-
+-    invoke-virtual {v0, p4}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
+-
+-    move-result-object p4
+-
+-    const-string v0, "\u53d6\u6d88"
+-
+-    invoke-static {v0}, Lorg/efootballrevival/runtimeprobe/UiStrings;->t(Ljava/lang/String;)Ljava/lang/String;
+-
+-    move-result-object v0
+-
+-    const/4 v1, 0x0
+-
+-    invoke-virtual {p4, v0, v1}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+-
+-    move-result-object p4
+-
+-    const-string v0, "\u6ee1\u7ea7\u52a0\u5165\u4ed3\u5e93"
+-
+-    invoke-static {v0}, Lorg/efootballrevival/runtimeprobe/UiStrings;->t(Ljava/lang/String;)Ljava/lang/String;
+-
+-    move-result-object v0
+-
+-    invoke-virtual {p4, v0, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+-
+-    move-result-object p4
+-
+-    invoke-virtual {p4}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+-
+-    move-result-object v5
+-
+-    invoke-static {p0, v5}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->modal(Landroid/app/Activity;Landroid/app/AlertDialog;)V
+-
+-    .line 319
+-    invoke-virtual {v5, v3}, Landroid/app/AlertDialog;->getButton(I)Landroid/widget/Button;
+-
+-    move-result-object p4
+-
+-    invoke-virtual {p4, p2}, Landroid/widget/Button;->setEnabled(Z)V
+-
+-    .line 320
+-    invoke-virtual {v5, v3}, Landroid/app/AlertDialog;->getButton(I)Landroid/widget/Button;
+-
+-    move-result-object p2
+-
+-    new-instance p4, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel$$ExternalSyntheticLambda2;
+-
+-    move-object v4, p4
+-
+-    move-object v6, p1
+-
+-    move-object v7, p0
+-
+-    move-object v8, p5
+-
+-    move-object v9, p3
+-
+-    invoke-direct/range {v4 .. v9}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel$$ExternalSyntheticLambda2;-><init>(Landroid/app/AlertDialog;Lorg/json/JSONObject;Landroid/app/Activity;Landroid/app/AlertDialog;Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel$Selection;)V
+-
+-    invoke-virtual {p2, p4}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+-
+-    .line 336
++    .registers 6
++    invoke-static {p0, p1, p5}, Lorg/efootballrevival/runtimeprobe/CatalogCart;->select(Landroid/app/Activity;Lorg/json/JSONObject;Landroid/app/AlertDialog;)V
+     return-void
+ .end method
+ 
+@@ -5423,6 +5115,7 @@
+ 
+     invoke-virtual {v9, v0}, Landroid/app/AlertDialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
+ 
++    invoke-static {v7, v9}, Lorg/efootballrevival/runtimeprobe/CatalogCart;->attach(Landroid/app/Activity;Landroid/app/AlertDialog;)V
+     invoke-virtual {v9}, Landroid/app/AlertDialog;->show()V
+ 
+     invoke-static {v7, v9}, Lorg/efootballrevival/runtimeprobe/PlayerEditorPanel;->size(Landroid/app/Activity;Landroid/app/AlertDialog;)V

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "stock_restriction_reproduced": true,
+  "two_owned_Ronaldo_cards_accepted": true,
+  "duplicate_instance_and_unowned_cards_rejected": true,
+  "baseline11_fields_from_actual_appearance_table": true,
+  "native_final_body_values_after_builder": true,
+  "requested_short_sleeve_card_only": true,
+  "synthetic_records": true,
+  "device_tested": false
+}
