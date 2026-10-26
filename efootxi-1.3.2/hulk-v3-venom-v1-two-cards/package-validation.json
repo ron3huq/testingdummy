@@ -1,0 +1,35 @@
+{
+  "phone_tested": false,
+  "movie_exact_likeness": false,
+  "fixed_expression": true,
+  "native_arm64_checks": 37,
+  "cooked_mesh_variants_independently_validated": 12,
+  "card_ids": {
+    "hulk": "53878485695166",
+    "venom": "106754901843130",
+    "spiderman": "88044950524330"
+  },
+  "skin_rgb": [
+    78,
+    91,
+    55
+  ],
+  "artifacts": {
+    "HULK-VENOM-ANDROID-TRIAL.zip": {
+      "bytes": 16466962,
+      "sha256": "32d839f4f43c6224dc44ac3a1b4273774831f96982e9ac4cc5ba4601d3a76a04"
+    },
+    "HULK-SKIN-COLOUR-TEXTURE.zip": {
+      "bytes": 807168,
+      "sha256": "5d5f58771438c756d815b54c400b51f96b21724c97dbef98feb6ccbfbbef907c"
+    },
+    "HULK-V3-VENOM-V1-BLEND.zip": {
+      "bytes": 15152548,
+      "sha256": "682f6973e18885a9fa3d52f06a263dd798636749e8e39b19bf9458f91afe6fce"
+    },
+    "Tat-cac-dau.zip": {
+      "bytes": 172,
+      "sha256": "9b6cda6565af58c22db86a3f42967063f2b7b01fd37d07bf8f890c32c7a8769f"
+    }
+  }
+}

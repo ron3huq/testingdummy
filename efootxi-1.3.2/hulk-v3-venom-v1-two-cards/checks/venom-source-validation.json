@@ -1,0 +1,403 @@
+{
+  "phone_tested": false,
+  "fixed_expression": true,
+  "images": [],
+  "objects": {
+    "FACIAL_ORGANIC_TENDRIL": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.001": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.002": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.003": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.004": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.005": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.006": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.007": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.008": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.009": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.010": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.011": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.012": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.013": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.014": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.015": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.016": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.017": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.018": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.019": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.020": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.021": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.022": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.023": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.024": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.025": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.026": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.027": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.028": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.029": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.030": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.031": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.032": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.033": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.034": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.035": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.036": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "FACIAL_ORGANIC_TENDRIL.037": {
+      "vertices": 80,
+      "faces": 77
+    },
+    "LOWER_BLACK_LIP": {
+      "vertices": 728,
+      "faces": 722
+    },
+    "LOWER_FANG_00": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_01": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_02": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_03": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_04": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_05": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_06": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_07": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_08": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_09": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_10": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_11": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_12": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_13": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_14": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_15": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_16": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_17": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_18": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_19": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_20": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_21": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_22": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_23": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_FANG_24": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "LOWER_GUM": {
+      "vertices": 910,
+      "faces": 902
+    },
+    "MOUTH_CAVITY": {
+      "vertices": 1863,
+      "faces": 1760
+    },
+    "UPPER_BLACK_LIP": {
+      "vertices": 728,
+      "faces": 722
+    },
+    "UPPER_FANG_00": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_01": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_02": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_03": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_04": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_05": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_06": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_07": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_08": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_09": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_10": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_11": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_12": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_13": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_14": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_15": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_16": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_17": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_18": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_19": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_20": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_21": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_22": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_23": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_24": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_25": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_FANG_26": {
+      "vertices": 49,
+      "faces": 44
+    },
+    "UPPER_GUM": {
+      "vertices": 910,
+      "faces": 902
+    },
+    "VENOM_CRANIUM_OPEN_JAW": {
+      "vertices": 18720,
+      "faces": 17407
+    },
+    "VENOM_NECK_REAL_ANATOMY": {
+      "vertices": 412,
+      "faces": 820
+    },
+    "VENOM_WHITE_EYE_-1": {
+      "vertices": 720,
+      "faces": 640
+    },
+    "VENOM_WHITE_EYE_1": {
+      "vertices": 720,
+      "faces": 640
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "phone_tested": false,
+  "reader": "independent UEViewer",
+  "variants": {
+    "hulk": [
+      {
+        "variant": "SK_ND01_Face",
+        "vertices": 52379,
+        "triangles": 38805,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.004956305027008057,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND01lg00v0000_Face",
+        "vertices": 52379,
+        "triangles": 38805,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.004956305027008057,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND01ep01v0291_Face",
+        "vertices": 52379,
+        "triangles": 38805,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.004956305027008057,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND01ep00v0313_Face",
+        "vertices": 52379,
+        "triangles": 38805,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.004956305027008057,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      }
+    ],
+    "venom": [
+      {
+        "variant": "SK_ND02_Face",
+        "vertices": 28118,
+        "triangles": 38333,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.0052235424518585205,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND02lg00v0000_Face",
+        "vertices": 28118,
+        "triangles": 38333,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.0052235424518585205,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND02ep01v0291_Face",
+        "vertices": 28118,
+        "triangles": 38333,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.0052235424518585205,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND02ep00v0313_Face",
+        "vertices": 28118,
+        "triangles": 38333,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.0052235424518585205,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      }
+    ],
+    "spiderman": [
+      {
+        "variant": "SK_ND03_Face",
+        "vertices": 59024,
+        "triangles": 70372,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.004896432161331177,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND03lg00v0000_Face",
+        "vertices": 59024,
+        "triangles": 70372,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.004896432161331177,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND03ep01v0291_Face",
+        "vertices": 59024,
+        "triangles": 70372,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.004896432161331177,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      },
+      {
+        "variant": "SK_ND03ep00v0313_Face",
+        "vertices": 59024,
+        "triangles": 70372,
+        "position_error_m": 1.1920928955078125e-07,
+        "uv_error": 0.000244140625,
+        "normal_error": 0.004896432161331177,
+        "native_166_bone_bind_matrices_byte_identical": true,
+        "weights_normalized": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+HULK V3 + VENOM V1 — efootxi 1.3.2, Android ARM64
+
+ĐÚNG THẺ:
+Hulk: 53878485695166
+Venom: 106754901843130
+Giữ Spider-Man cũ: 88044950524330.
+Bộ nạp chung dùng riêng từng Card ID đầy đủ, không đổi Face ID / Player ID gốc.
+
+CÀI BỘ GAME:
+1. Buộc dừng game.
+2. Giải nén HULK-VENOM-ANDROID-TRIAL.zip.
+3. Dùng MT Manager, chép gộp CẢ work/ và livedata/ vào thư mục files/embedded-gateway/ của game, ghi đè đủ 8 file. Không chép vào thư mục work/tools riêng và không lồng thêm một cấp thư mục ZIP.
+4. Mở game; tải dữ liệu nếu game yêu cầu. Mở đúng hai thẻ rồi kiểm tra trong trận / replay / ăn mừng, nhất là góc nghiêng và sau cổ.
+5. Xem work/tools/noodle-hair-status.json: version hulk-venom-two-cards-v1. Bộ nạp chỉ chạy với đúng bản libUE4 đã hỗ trợ; khác bản sẽ không cài hook.
+
+Để tắt toàn bộ đầu tùy chỉnh: buộc dừng game, chép work/ từ Tat-cac-dau.zip vào files/embedded-gateway/, mở lại. Không xóa dữ liệu ứng dụng hoặc save.
+
+HÌNH DÁNG:
+Hulk V3: đầu / hàm / cổ rộng hơn V2; có mí hẹp che bớt lòng trắng, không dùng mắt to lộ ra của V2. Phần đỉnh cổ và đầu theo xương đầu/cổ; chân cổ giữ vị trí gắn thân.
+Venom V1: mô hình riêng với sọ kín, mắt trắng, khoang miệng mở, hai hàng răng nhọn và cổ giải phẫu phủ vật liệu symbiote. Đây là bản dựng tham khảo theo ảnh phim, chưa đạt mức khớp chính xác 100% từ mọi góc.
+Hai đầu dùng biểu cảm cố định: đi theo xương đầu/cổ, không có chuyển động môi / mắt / lưỡi riêng. Bản game giảm số đa giác, đặc biệt tóc Hulk; file .blend là bản hình học chi tiết để xem/sửa.
+
+MÀU DA HULK:
+Mẫu diffuse sRGB #4E5B37, RGB (78,91,55), lấy trung vị vùng má trên texture đang dùng.
+Hulk_skin_diffuse.png là texture mặt có UV riêng. Hulk_skin_colour_flat.png là màu phẳng để làm mẫu khi chỉnh texture THÂN đúng UV; thay nguyên texture mặt vào thân sẽ sai UV. Ánh sáng và shader trong game ảnh hưởng màu cuối cùng. Gói này cung cấp màu để bạn chỉnh da thân sau.
+
+ĐÃ KIỂM TRA:
+37 kiểm tra detour ARM64 bằng Unicorn, đúng từng Card ID, luồng khác, FSoftObjectPath ABI, tải hai actor đan xen, fallback về đúng mặt gốc khi lỗi.
+UEViewer độc lập đọc lại đủ 12 biến thể mesh trong container; so vị trí, UV, normal, trọng số và 166 ma trận bind với rig native gốc. Hash file, manifest và logic khởi động đã qua kiểm tra. Shader dùng shader mobile có sẵn.
+Các kiểm tra này chạy trên máy làm việc, không phải trên điện thoại. Chưa xác nhận renderer / ráp cổ với thân / animation / trận và replay thực tế trên thiết bị. Không cam kết hoạt động tuyệt đối hoặc giống phim 100%.
+Ảnh source là render Blender của bản chi tiết. Ảnh cooked là mesh đọc ngược + atlas ETC2 giải mã trong Blender với vật liệu xem trước; không phải ảnh chụp game và không mô phỏng đúng shader game.
