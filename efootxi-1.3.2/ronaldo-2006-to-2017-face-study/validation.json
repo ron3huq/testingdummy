@@ -1,0 +1,81 @@
+{
+  "youtube_watched": false,
+  "youtube_error": "Both supplied YouTube URLs return HTTP403; neither video watched",
+  "neck_reduction_mm": 6,
+  "hair_style_unchanged": true,
+  "textures_unchanged": true,
+  "topology_unchanged": true,
+  "uv_unchanged": true,
+  "weights_unchanged": true,
+  "native_rig_changed": false,
+  "phone_tested": false,
+  "exact_2017_likeness_verified": false,
+  "meshes": {
+    "face_high_0_fox_skin_mat": {
+      "vertices": 239,
+      "polygons": 373,
+      "face_sculpt_max_displacement_mm": 0.0
+    },
+    "face_high_1_eyeline_SG": {
+      "vertices": 32,
+      "polygons": 38,
+      "face_sculpt_max_displacement_mm": 0.0
+    },
+    "face_high_2_fox_skin_mat": {
+      "vertices": 1789,
+      "polygons": 3475,
+      "face_sculpt_max_displacement_mm": 4.014112710844563
+    },
+    "face_high_3_eyeline_SG": {
+      "vertices": 72,
+      "polygons": 86,
+      "face_sculpt_max_displacement_mm": 0.0
+    },
+    "face_high_4_fox_eyelash_mat": {
+      "vertices": 159,
+      "polygons": 104,
+      "face_sculpt_max_displacement_mm": 0.0
+    },
+    "face_high_5_collar_ao": {
+      "vertices": 184,
+      "polygons": 302,
+      "face_sculpt_max_displacement_mm": 0.0
+    },
+    "face_high_6_fox_eyeOcclusion_mat": {
+      "vertices": 40,
+      "polygons": 46,
+      "face_sculpt_max_displacement_mm": 0.0
+    },
+    "hair_high_0_fox_skin_mat": {
+      "vertices": 341,
+      "polygons": 572,
+      "face_sculpt_max_displacement_mm": 0.0
+    },
+    "hair_high_1_fox_hair_mat": {
+      "vertices": 2097,
+      "polygons": 2164,
+      "face_sculpt_max_displacement_mm": 0.0
+    },
+    "hair_high_2_fox_head_shell_mat": {
+      "vertices": 1082,
+      "polygons": 1956,
+      "face_sculpt_max_displacement_mm": 0.0
+    }
+  },
+  "independent_reload_source_comparison": {
+    "basis_topology_uv_weights_exact_match": [
+      "hair_high_2_fox_head_shell_mat",
+      "hair_high_1_fox_hair_mat",
+      "hair_high_0_fox_skin_mat",
+      "face_high_6_fox_eyeOcclusion_mat",
+      "face_high_5_collar_ao",
+      "face_high_4_fox_eyelash_mat",
+      "face_high_3_eyeline_SG",
+      "face_high_2_fox_skin_mat",
+      "face_high_1_eyeline_SG",
+      "face_high_0_fox_skin_mat"
+    ],
+    "controller_face_default": 1,
+    "controller_neck_default_mm": 6
+  }
+}
