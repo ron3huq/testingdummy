@@ -1,0 +1,22 @@
+{
+  "phone_tested": false,
+  "facebuilder_used": false,
+  "artifacts": {
+    "Ronaldo-v3-EYES-FOCUSED-BLEND.zip": {
+      "bytes": 7778160,
+      "sha256": "9069dcd1bec91ef0a7085ae8cb6e6c20f77849b30ef7a20cda6bdaa2cbfd5177"
+    },
+    "SpiderMan-v4-PROFILE-NECK-BLEND.zip": {
+      "bytes": 6320881,
+      "sha256": "3f597cdc33421338ae2bfeaa5195178ad02fe6cbc915d726455d37b0b6bd2a61"
+    },
+    "SpiderMan-v4-ANDROID-TRIAL-88044950524330.zip": {
+      "bytes": 7002522,
+      "sha256": "9a5e6899000d5af872466b189d150897d7cbf2044901c203a2ede9a681a380d4"
+    },
+    "Tat-dau-SpiderMan.zip": {
+      "bytes": 172,
+      "sha256": "1edddbff414b761a7325a0353bdffea469bc8e9fe69639fbe0c31587d0a7befb"
+    }
+  }
+}

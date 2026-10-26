@@ -1,0 +1,28 @@
+{
+  "texture": "T_ND0001_Hair_D",
+  "format": "PF_ETC2_RGBA",
+  "size": [
+    2048,
+    2048
+  ],
+  "mips": [
+    4194304,
+    1048576,
+    262144,
+    65536,
+    16384,
+    4096,
+    1024,
+    256,
+    64,
+    16,
+    16,
+    16
+  ],
+  "bulk_bytes": 5586944,
+  "alpha_mae": 0.12094807624816895,
+  "visible_rgb_mae": 1.3812114998802003,
+  "source_color_and_alpha_baked": true,
+  "shader": "existing M_Head_Hair_MQ; no new shader permutation",
+  "phone_tested": false
+}

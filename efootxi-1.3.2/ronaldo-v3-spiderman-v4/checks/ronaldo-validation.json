@@ -1,0 +1,19 @@
+{
+  "eyes_added": 2,
+  "eye_source": "PC common eye_sclera image supplied earlier; newly created separate globe geometry",
+  "neck_total_shortening_mm": 8,
+  "adam_apple_mm": 2,
+  "extra_skin_rgb_scale": 0.97,
+  "phone_tested": false,
+  "native_eye_motion_verified": false,
+  "lip_candidate": "same local upper-lip weight edits as v2; device unverified",
+  "intense_expression_default": 0.8,
+  "in_game_expression_lock": false,
+  "checks": {
+    "reopened_blender": true,
+    "two_eyeballs_with_uv_materials": true,
+    "eye_position_follows_neck_controller": true,
+    "finite_geometry": true,
+    "expression_default": 0.8
+  }
+}
