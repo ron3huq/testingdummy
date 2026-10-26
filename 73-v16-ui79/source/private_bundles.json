@@ -1,0 +1,29 @@
+{
+  "version": "73-ui7.9",
+  "files": {
+    "pc9306_mobile_and.ucas": {
+      "size": 555702,
+      "sha256": "321568097d4ac0849dea2a788f3556232600893db1f56ccc79c5eb00930732c8"
+    },
+    "pc9306_mobile_and.utoc": {
+      "size": 4005,
+      "sha256": "d4a588c64a6fac9f74d48107f074e144e36a699a37118374c27ab187f68b1734"
+    },
+    "pc9306_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "pc9305_mobile_and.ucas": {
+      "size": 13156505,
+      "sha256": "7317c6e8fc06d084a4d4e7a952614d48dcbdbd63ce9df4b29bc46c444f66513b"
+    },
+    "pc9305_mobile_and.utoc": {
+      "size": 10581,
+      "sha256": "df57c10372963e2df92e142cce65bfed548cf0c098749382cf575eb20714226d"
+    },
+    "pc9305_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    }
+  }
+}

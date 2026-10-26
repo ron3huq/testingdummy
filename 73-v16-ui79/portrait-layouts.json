@@ -1,0 +1,101 @@
+[
+  {
+    "id": "89135066911146",
+    "source_size": [
+      1600,
+      2620
+    ],
+    "face_box": [
+      645,
+      635,
+      873,
+      883
+    ],
+    "full_pose_bounds": [
+      34,
+      629,
+      1600,
+      2620
+    ],
+    "large_fit": [
+      176,
+      224
+    ],
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_only": true,
+    "face_pixels_not_regenerated": true
+  },
+  {
+    "id": "89138556572074",
+    "source_size": [
+      687,
+      1024
+    ],
+    "face_box": [
+      260,
+      68,
+      366,
+      202
+    ],
+    "full_pose_bounds": [
+      34,
+      68,
+      642,
+      1004
+    ],
+    "large_fit": [
+      158,
+      244
+    ],
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_only": true,
+    "face_pixels_not_regenerated": true
+  },
+  {
+    "id": "88044950524330",
+    "source_size": [
+      687,
+      1024
+    ],
+    "face_box": [
+      275,
+      7,
+      388,
+      192
+    ],
+    "full_pose_bounds": [
+      43,
+      34,
+      626,
+      983
+    ],
+    "large_fit": [
+      150,
+      244
+    ],
+    "large_size": [
+      184,
+      256
+    ],
+    "small_size": [
+      128,
+      128
+    ],
+    "uniform_scale_only": true,
+    "face_pixels_not_regenerated": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "production_ARM64_library": true,
+  "donor_style_target_photo_keys_separate": true,
+  "original_engine_FString_assignment_executed": true,
+  "new_Hulk_Spider_and_existing_card_scope": true,
+  "actual_two_Lukaku_card_mesh_and_texture_paths_redirect_to_private_heroes": true,
+  "unrelated_Lukaku_card_paths_unchanged": true,
+  "native_RGB_path_redirects_all3_families": true,
+  "body_mesh_and_head_paths_never_redirected": true,
+  "unscoped_paths_untouched": true,
+  "exact_4e5b37_RGB_at_reference_luminance": true,
+  "all256_alpha_values_preserved": true,
+  "42_hooks_fit_same4KB_arena": true,
+  "engine_renderer_bodies_modeled": true,
+  "phone_tested": false
+}

@@ -1,0 +1,114 @@
+{
+  "version": "73-ui7.9-faces-rgb",
+  "target_card_ids": [
+    "88044950524330",
+    "89135066911146",
+    "106781745353130",
+    "106734785925546",
+    "105765448873424",
+    "88045755960841",
+    "88038776539586",
+    "105643042189511",
+    "106728863696709",
+    "105848932271764",
+    "105874433662542",
+    "88033139360669",
+    "106726716084650",
+    "106778792700170",
+    "105807861630781",
+    "176104",
+    "84062184",
+    "89138556572074",
+    "89136418985303",
+    "106754901843130",
+    "105647605587130"
+  ],
+  "container": "pc9298_mobile_and",
+  "files": {
+    "pc9298_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "pc9298_mobile_and.ucas": {
+      "size": 93519091,
+      "sha256": "97cfdbfcfc23d6318b33293bc6c56ef391392f141233d9894f54253799226b53"
+    },
+    "pc9298_mobile_and.utoc": {
+      "size": 111634,
+      "sha256": "8cfdf5027111c09127843dcca640ea1e06402ddc38d93f679c44c6f775db2b50"
+    }
+  },
+  "native_sha256": "ad74fc95406c352157e57aa9304d23fb3dea035e1d5fb725de2ab4b26168268a",
+  "asset_revision": "v25-only-R2017-V3-on-working-2006-base",
+  "active_head_bones": [
+    15,
+    8
+  ],
+  "reference_skeleton_bones": 166,
+  "appearance_files": {
+    "select_team_runtime.py": "b0d01b4fb279a5126bdca2a204f1b270421c4242a3e66eb63c077b709ae3bb05",
+    "libselect_team.so": "b38f5f038b35033246c5a59a2a014fd1f379cb9841f4c0d3a9f49b02fc4de2a1",
+    "myleague_editor_runtime.py": "c963e1e80611ba09fa248d50bf6e8bcdaefce9fcd77f5afe0119c502b1a33fef",
+    "hook_arena.py": "5c170913423c6adc600ad943e4125d8a5ce001af0bebb3a12d4fa8069f597a69",
+    "player_model.py": "0002849126ee60313db28df4ed2d93efd9fd02e0bae63d49b78d30f747796734",
+    "bridge_73.py": "64c0ed84fbf0d442fdce6e298d5e7ef1f04f771fdae25fae64ccf2bccd35c50c",
+    "multi_cards.py": "06ea7d0bc8df24d9dea836e7c38a80ed53c29c8a42aac0c569e441701ab76358",
+    "player_model_baselines.json.gz": "3502a8d02633383781c54258404691f3c1b256d56901920d0fd89cadf2d79804",
+    "body_dimensions.py": "5ef05e993cddd15946d2f1a541e0672b8855d0c718a2316a0714c481ac2ada77",
+    "player_tuning.py": "b43cc6553d0ce6057d0a9f6d2f6e5f1ae914947a4f6ff441f0eab30ce04edc1e",
+    "innate_skill_labels.json": "37210205d333cf39bff7e3de0691ab4fad52f7b3c7756640f417ddd01067bed0",
+    "noodle_hair.py": "c4c77d2dfe1ee34dc980f999b4cf183c6793665d3e6c007c56978537846b7c1d",
+    "appearance_choices.py": "4238f8dc12d42c9eb39be78687d6a966fe52befea041425381bf5beeed38a7b6",
+    "body_defaults.zlib": "260e9132a34f28102601f25bf02ecc7578cc6b5bc230b71d44a0f622f2abecc5",
+    "celebration_choices.json": "0e5d8eeceb4172c54271cfc687639c61577c03b695858f3188ac881344e786a1",
+    "level100.py": "d3f668e12cb17393438ee2cdb5b2cf8e7405c02767a3e5cbfe4d5894c13422c1",
+    "custom_skin.py": "e1061e52a088441a8ca27dd16110b65247a45dfa4b3e21627f3bc0f2d631f956",
+    "skin_iostore.py": "53703c49854fbceb74e6867727b87c3b700d8ecd995a516a7ea4aac789f07561",
+    "skin_templates.zlib": "dfd69ab25e755e69c6e4acba08c71f82520e5f7118960a39d667c33fa9f74a1a",
+    "private_bundles.py": "0a89787601390b325460cc32a5274eb27dc72a2aafc264f82c405438a86f3f3f",
+    "private_bundles.json": "0bba57b11a1a8f0c91506e092cbdfec1d53c011d6108a0f9efc78a6026ef751f",
+    "native_skin_previews.json": "23846b9a6b8179a494cf8f5c8eafcfa6a0a1831fd420b2ef526f951d598dfdec",
+    "editor_names.py": "d32c4907effa4fa395e57b0452b7abed5d93539066fc1cb76b97cfc0ac201f31"
+  },
+  "appearance_overlay_sha256": "c963e1e80611ba09fa248d50bf6e8bcdaefce9fcd77f5afe0119c502b1a33fef",
+  "phone_tested": false,
+  "replay_verified": false,
+  "retarget": "named Android eye/jaw/eyelid controls, reduced PC facial rig; not all PC expressions",
+  "accessory_source": "135 vertices from original Android face section; PC oral.fmdl inspected but not used with missing FOX common oral textures",
+  "four_black_faces_renderer_verified_fixed": false,
+  "jersey_names_device_verified_fixed": false,
+  "v22_draw_probe_removed": true,
+  "v22_test_material_control_removed": true,
+  "v22_Ex_atlas_additions_removed": true,
+  "source_profiles": {
+    "88044950524330": "NV17-2006-base-R2017-Blender-V3",
+    "105765448873424": "NXJR-Prince",
+    "105807861630781": "NXNC-FIFA",
+    "106734785925546": "NX27-Kodigo"
+  },
+  "black_faces_verified_fixed": false,
+  "experimental_changed_card_ids": [
+    "88044950524330"
+  ],
+  "new_2017_profile": "NV17",
+  "all_other_v24_assets_byte_exact": true,
+  "device_verified": false,
+  "base_package": "com.efootball.revival.local",
+  "engine_sha256": "efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8",
+  "myleague_port": "v25-73-full1",
+  "editor_ui": "73-ui7.9",
+  "face_copies": [
+    {
+      "source": "106734785925546",
+      "destination": "89138556572074",
+      "profile": "NX27"
+    },
+    {
+      "source": "88044950524330",
+      "destination": "89136418985303",
+      "profile": "NV17"
+    }
+  ],
+  "hero_face_source": "User-supplied Android trials; private NHUL/NSPD namespace; original73runtime retained",
+  "body_RGB": "Private BGRA skin/body/lowbody textures; alpha preserved"
+}

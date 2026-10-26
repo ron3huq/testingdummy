@@ -1,0 +1,44 @@
+--- a/EditorForm.smali
++++ b/EditorForm.smali
+@@ -4,7 +4,7 @@
+ 
+ 
+ # static fields
+-.field public static final DEFAULT_LEVEL_CAP:I = 0x28
++.field public static final DEFAULT_LEVEL_CAP:I = 0x64
+ 
+ 
+ # direct methods
+@@ -362,7 +362,7 @@
+     .registers 3
+ 
+     .line 67
+-    const/16 v0, 0x28
++    const/16 v0, 0x64
+ 
+     invoke-static {p0, p1, v0, p1}, Lorg/efootballrevival/runtimeprobe/EditorForm;->levelLimit(Ljava/lang/String;III)I
+ 
+--- a/PlayerEditorPanel$DevelopmentDraft.smali
++++ b/PlayerEditorPanel$DevelopmentDraft.smali
+@@ -208,7 +208,7 @@
+     .line 389
+     const-string v11, "level_cap"
+ 
+-    const/16 v12, 0x28
++    const/16 v12, 0x64
+ 
+     invoke-virtual {v1, v11, v12}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
+ 
+@@ -2318,9 +2318,9 @@
+     goto :goto_e1
+ 
+     :cond_d9
+-    const/16 v3, 0x1e
+-
+-    const/16 v4, 0x28
++    const/16 v3, 0x32
++
++    const/16 v4, 0x64
+ 
+     filled-new-array {v3, v4}, [I
+ 

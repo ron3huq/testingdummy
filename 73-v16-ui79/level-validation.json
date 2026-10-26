@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "actual73_editor_progression_project": true,
+  "all_card_type_caps100": true,
+  "schema_limit100": true,
+  "level100_SQL_reload": true,
+  "points_at_level100": 198,
+  "level101_rejected": true,
+  "additional_skills_unchanged": true,
+  "no_auto_train_on_install": true,
+  "device_tested": false
+}

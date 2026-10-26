@@ -1,0 +1,47 @@
+{
+  "built": true,
+  "slots": 64,
+  "templates": [
+    {
+      "part": "Skin",
+      "base_size": [
+        512,
+        256
+      ],
+      "mips": 10,
+      "source_alpha_preserved": true,
+      "reference_luminance": 143,
+      "pixel_format": "PF_B8G8R8A8",
+      "all_inline_mips": true,
+      "native_virtual_offsets_rebuilt": true
+    },
+    {
+      "part": "Body",
+      "base_size": [
+        256,
+        256
+      ],
+      "mips": 9,
+      "source_alpha_preserved": true,
+      "reference_luminance": 227,
+      "pixel_format": "PF_B8G8R8A8",
+      "all_inline_mips": true,
+      "native_virtual_offsets_rebuilt": true
+    },
+    {
+      "part": "Lowbody",
+      "base_size": [
+        256,
+        512
+      ],
+      "mips": 10,
+      "source_alpha_preserved": true,
+      "reference_luminance": 125,
+      "pixel_format": "PF_B8G8R8A8",
+      "all_inline_mips": true,
+      "native_virtual_offsets_rebuilt": true
+    }
+  ],
+  "template_bytes": 319997,
+  "phone_tested": false
+}

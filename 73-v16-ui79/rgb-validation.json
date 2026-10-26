@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "all3_texture_families_all_mips_readback": true,
+  "all_alpha_bytes_unchanged": true,
+  "Hulk_default": "#4e5b37",
+  "two_colours_one_private_container": true,
+  "manifest_advertisement_idempotent": true,
+  "RGB_saves_and_reloads_from_SQL": true,
+  "SQL_and_config_rollback_on_failed_save": true,
+  "custom_RGB_alpha_input_rejected": true,
+  "distinct_colour_limit": 64,
+  "first_build_host_ms": 6.6,
+  "cached_verify_host_ms": 1.8,
+  "phone_tested": false
+}

@@ -1,0 +1,301 @@
+{
+  "passed": true,
+  "old_chunks_verbatim": 450,
+  "added_files": 32,
+  "targets": {
+    "Hulk": "106754901843130",
+    "Spider-Man": "105647605587130"
+  },
+  "no_shared_ND01_override": true,
+  "packages": [
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND01lg00v0000_Face_D.ubulk",
+      "destination": "character/RealFace/T_NHULlg00v0000_Face_D.ubulk",
+      "source_sha256": "9f58a642e095456fa6fdc18cbf5010623cda665ed9eac6d2a661a2282c981085",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND01lg00v0000_Face_D.uasset",
+      "destination": "character/RealFace/T_NHULlg00v0000_Face_D.uasset",
+      "source_sha256": "60b72086838bd826215b9ec9c7dc8d986eb63e688579f1cd451207e94710cac6",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND01ep01v0291_Face_D.ubulk",
+      "destination": "character/RealFace/T_NHULep01v0291_Face_D.ubulk",
+      "source_sha256": "9f58a642e095456fa6fdc18cbf5010623cda665ed9eac6d2a661a2282c981085",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND01ep01v0291_Face_D.uasset",
+      "destination": "character/RealFace/T_NHULep01v0291_Face_D.uasset",
+      "source_sha256": "1a7635f18b415655195fddd8220d719ad97c7477bb27f18b620ec9cbe878c00b",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND01ep00v0313_Face_D.ubulk",
+      "destination": "character/RealFace/T_NHULep00v0313_Face_D.ubulk",
+      "source_sha256": "9f58a642e095456fa6fdc18cbf5010623cda665ed9eac6d2a661a2282c981085",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND01ep00v0313_Face_D.uasset",
+      "destination": "character/RealFace/T_NHULep00v0313_Face_D.uasset",
+      "source_sha256": "0855dbe5c68b3373f7dcbea8da6dbdadf757b184ddc44539cf8d7e542a5f6c09",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND01_Face_D.ubulk",
+      "destination": "character/RealFace/T_NHUL_Face_D.ubulk",
+      "source_sha256": "9f58a642e095456fa6fdc18cbf5010623cda665ed9eac6d2a661a2282c981085",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND01_Face_D.uasset",
+      "destination": "character/RealFace/T_NHUL_Face_D.uasset",
+      "source_sha256": "49d8215f6a2571510b9d633b112b8a11c8d83380e0595a2c53046b0eca640f6e",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND0001_Hair_D.ubulk",
+      "destination": "character/RealFace/T_NH0001_Hair_D.ubulk",
+      "source_sha256": "193011994f950af6fd2134a1295e3db05a9723beac8a19422ef416f3ff07903b",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/T_ND0001_Hair_D.uasset",
+      "destination": "character/RealFace/T_NH0001_Hair_D.uasset",
+      "source_sha256": "9f8ffff82d2ad907cc4e42dcd828e67fb3853bec98c3474291e73d15552258d5",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/SK_ND01lg00v0000_Face.uasset",
+      "destination": "character/RealFace/SK_NHULlg00v0000_Face.uasset",
+      "source_sha256": "028901d3f71d10105b2add420a8236a3ffdbf67c74917c52d905d5c9b4473449",
+      "geometry_bulk_untouched": false,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/SK_ND01ep01v0291_Face.uasset",
+      "destination": "character/RealFace/SK_NHULep01v0291_Face.uasset",
+      "source_sha256": "20207862485aadb54672891e44c0bff5baef15a5465f593d6e803fb104417132",
+      "geometry_bulk_untouched": false,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/SK_ND01ep00v0313_Face.uasset",
+      "destination": "character/RealFace/SK_NHULep00v0313_Face.uasset",
+      "source_sha256": "a933f755d3ca7b223afe6fc3a3b26bdca977aa8bab6790d496515ad232951b8e",
+      "geometry_bulk_untouched": false,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/SK_ND01_Face.uasset",
+      "destination": "character/RealFace/SK_NHUL_Face.uasset",
+      "source_sha256": "76314d23b884d629b64cc46938e9ed2ca50efc1f7de2eb021908b7198225e2d0",
+      "geometry_bulk_untouched": false,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/MI_ND0001_Head_Hair_MQ.uasset",
+      "destination": "character/RealFace/MI_NH0001_Head_Hair_MQ.uasset",
+      "source_sha256": "911cacc2c43bce9806decf5aa69d0f29a683d71b5335a599c961c772b62e60f8",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "106754901843130",
+      "source": "RealFace/MI_ND0001_Head_Hair_HQ.uasset",
+      "destination": "character/RealFace/MI_NH0001_Head_Hair_HQ.uasset",
+      "source_sha256": "202af752577c36d1af40eccaee97215a6a3c4b577636496894e32a2f2d132c2b",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND01lg00v0000_Face_D.ubulk",
+      "destination": "character/RealFace/T_NSPDlg00v0000_Face_D.ubulk",
+      "source_sha256": "86d11327cfa28d0fa55fb1de5d60e180a535417842509ea27379db811db09155",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND01lg00v0000_Face_D.uasset",
+      "destination": "character/RealFace/T_NSPDlg00v0000_Face_D.uasset",
+      "source_sha256": "dca4a538d2a84d1b01f216157b35cd4863b1ecaf052359bbe7007ac93368891a",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND01ep01v0291_Face_D.ubulk",
+      "destination": "character/RealFace/T_NSPDep01v0291_Face_D.ubulk",
+      "source_sha256": "86d11327cfa28d0fa55fb1de5d60e180a535417842509ea27379db811db09155",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND01ep01v0291_Face_D.uasset",
+      "destination": "character/RealFace/T_NSPDep01v0291_Face_D.uasset",
+      "source_sha256": "d0f30fc62afec7d1de0dc39e4ed87a63f22c7234ebbaee1c1f5879891c4e63cc",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND01ep00v0313_Face_D.ubulk",
+      "destination": "character/RealFace/T_NSPDep00v0313_Face_D.ubulk",
+      "source_sha256": "86d11327cfa28d0fa55fb1de5d60e180a535417842509ea27379db811db09155",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND01ep00v0313_Face_D.uasset",
+      "destination": "character/RealFace/T_NSPDep00v0313_Face_D.uasset",
+      "source_sha256": "9b7cd27d2d1ac64de8590240c1bfce46a12d8d23172b98558cd5fc5c04d2d58a",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND01_Face_D.ubulk",
+      "destination": "character/RealFace/T_NSPD_Face_D.ubulk",
+      "source_sha256": "86d11327cfa28d0fa55fb1de5d60e180a535417842509ea27379db811db09155",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND01_Face_D.uasset",
+      "destination": "character/RealFace/T_NSPD_Face_D.uasset",
+      "source_sha256": "49b67ae4b4c89c82c0f26353dd85933529a001229357a8f8b5b264af4e2b6565",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND0001_Hair_D.ubulk",
+      "destination": "character/RealFace/T_NS0001_Hair_D.ubulk",
+      "source_sha256": "10fed3dad1297c41225c1d9bb3aec20ad54464e85d1561327342040a5d1aebc9",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": false,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/T_ND0001_Hair_D.uasset",
+      "destination": "character/RealFace/T_NS0001_Hair_D.uasset",
+      "source_sha256": "67b5bf4c6c9de22a27a1073d93d9ccd40c9ce9bf21381ab08a935f6202f1d01f",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/SK_ND01lg00v0000_Face.uasset",
+      "destination": "character/RealFace/SK_NSPDlg00v0000_Face.uasset",
+      "source_sha256": "6eff80cabc533616a84cceabcd582c4c1ef7fb8a393f1a3ad63ff2b0e96e7cb5",
+      "geometry_bulk_untouched": false,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/SK_ND01ep01v0291_Face.uasset",
+      "destination": "character/RealFace/SK_NSPDep01v0291_Face.uasset",
+      "source_sha256": "f88d1878010671a427012f8199ed128ddeeb1dbe83f9e63b532909c59ceddcc6",
+      "geometry_bulk_untouched": false,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/SK_ND01ep00v0313_Face.uasset",
+      "destination": "character/RealFace/SK_NSPDep00v0313_Face.uasset",
+      "source_sha256": "3ae436aa2a183b0a371820da9000667c274e3b5c7d67ea02215515166dd6e1fb",
+      "geometry_bulk_untouched": false,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/SK_ND01_Face.uasset",
+      "destination": "character/RealFace/SK_NSPD_Face.uasset",
+      "source_sha256": "65fd82ffc4071231c4744981ec8a4928bb4b2036d851fb039354cb66069f26df",
+      "geometry_bulk_untouched": false,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/MI_ND0001_Head_Hair_MQ.uasset",
+      "destination": "character/RealFace/MI_NS0001_Head_Hair_MQ.uasset",
+      "source_sha256": "911cacc2c43bce9806decf5aa69d0f29a683d71b5335a599c961c772b62e60f8",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    },
+    {
+      "card": "105647605587130",
+      "source": "RealFace/MI_ND0001_Head_Hair_HQ.uasset",
+      "destination": "character/RealFace/MI_NS0001_Head_Hair_HQ.uasset",
+      "source_sha256": "202af752577c36d1af40eccaee97215a6a3c4b577636496894e32a2f2d132c2b",
+      "geometry_bulk_untouched": true,
+      "only_package_name_metadata_changed": true,
+      "source_engine_trial": true
+    }
+  ],
+  "phone_tested": false
+}

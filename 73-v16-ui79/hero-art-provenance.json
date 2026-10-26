@@ -1,0 +1,20 @@
+[
+  {
+    "id": "106754901843130",
+    "source_mesh": "/tmp/73-ui79/hero-pack/full-export/Game/Assets/character/RealFace/SK_NHUL_Face.psk",
+    "method": "CPU Blender render from the supplied mesh and its source diffuse textures",
+    "geometry_modified": false,
+    "output": "/tmp/73-ui79/art/106754901843130-render.png",
+    "face_vertices": 52382,
+    "triangles": 38806
+  },
+  {
+    "id": "105647605587130",
+    "source_mesh": "/tmp/73-ui79/hero-pack/full-export/Game/Assets/character/RealFace/SK_NSPD_Face.psk",
+    "method": "CPU Blender render from the supplied mesh and its source diffuse textures",
+    "geometry_modified": false,
+    "output": "/tmp/73-ui79/art/105647605587130-render.png",
+    "face_vertices": 59027,
+    "triangles": 70373
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "card_id": "106754901843130",
+    "name": "HULK",
+    "large": [
+      184,
+      256
+    ],
+    "miniface": [
+      128,
+      128
+    ],
+    "large_source_crop": [
+      52,
+      210,
+      686,
+      815
+    ],
+    "mini_source_crop": [
+      77,
+      218,
+      658,
+      688
+    ],
+    "source": "User-supplied 3D face mesh rendered in Blender, self-created card artwork authorized by user",
+    "face_geometry_regenerated": false,
+    "uniform_scale": true,
+    "face_texture_source_unchanged": true,
+    "background": "Hand-built Avengers graphic; no downloaded photograph"
+  },
+  {
+    "card_id": "105647605587130",
+    "name": "SPIDER-MAN",
+    "large": [
+      184,
+      256
+    ],
+    "miniface": [
+      128,
+      128
+    ],
+    "large_source_crop": [
+      158,
+      211,
+      582,
+      745
+    ],
+    "mini_source_crop": [
+      176,
+      223,
+      563,
+      692
+    ],
+    "source": "User-supplied 3D face mesh rendered in Blender, self-created card artwork authorized by user",
+    "face_geometry_regenerated": false,
+    "uniform_scale": true,
+    "face_texture_source_unchanged": true,
+    "background": "Hand-built Avengers graphic; no downloaded photograph"
+  }
+]
