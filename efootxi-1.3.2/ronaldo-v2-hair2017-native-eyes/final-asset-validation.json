@@ -1,0 +1,66 @@
+{
+  "phone_tested": false,
+  "native_topology_retained": true,
+  "variants": [
+    {
+      "variant": "base",
+      "native_166_bind_matrices_byte_identical": true,
+      "native_face_weights_exact": true,
+      "native_uv1_and_vertex_colours_exact": true,
+      "native_orbital_vertices_exact": 218,
+      "face": {
+        "vertices": 743,
+        "position_max_error_m": 1.1920928955078125e-07
+      },
+      "hair": {
+        "vertices": 5005,
+        "position_max_error_m": 1.201947465904182e-07
+      }
+    },
+    {
+      "variant": "lg00v0000",
+      "native_166_bind_matrices_byte_identical": true,
+      "native_face_weights_exact": true,
+      "native_uv1_and_vertex_colours_exact": true,
+      "native_orbital_vertices_exact": 218,
+      "face": {
+        "vertices": 743,
+        "position_max_error_m": 1.1920928955078125e-07
+      },
+      "hair": {
+        "vertices": 5005,
+        "position_max_error_m": 1.201947465904182e-07
+      }
+    },
+    {
+      "variant": "ep01v0291",
+      "native_166_bind_matrices_byte_identical": true,
+      "native_face_weights_exact": true,
+      "native_uv1_and_vertex_colours_exact": true,
+      "native_orbital_vertices_exact": 218,
+      "face": {
+        "vertices": 743,
+        "position_max_error_m": 1.1920928955078125e-07
+      },
+      "hair": {
+        "vertices": 5005,
+        "position_max_error_m": 1.201947465904182e-07
+      }
+    },
+    {
+      "variant": "ep00v0313",
+      "native_166_bind_matrices_byte_identical": true,
+      "native_face_weights_exact": true,
+      "native_uv1_and_vertex_colours_exact": true,
+      "native_orbital_vertices_exact": 218,
+      "face": {
+        "vertices": 743,
+        "position_max_error_m": 1.1920928955078125e-07
+      },
+      "hair": {
+        "vertices": 5005,
+        "position_max_error_m": 1.201947465904182e-07
+      }
+    }
+  ]
+}

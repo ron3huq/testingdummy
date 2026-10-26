@@ -1,0 +1,14 @@
+RONALDO V2 — tóc mì tôm đã gửi, mắt native, da tối hơn
+Card ID duy nhất: 88044950524330. Đây là gói riêng, cài thay bộ thử hiện tại; trên cùng thẻ này Ronaldo thay Spider-Man.
+
+Buộc dừng game. Giải nén Ronaldo-V2-HAIR2017-EYES-DARK-ANDROID-TRIAL.zip. Chép gộp CẢ work/ và livedata/ vào files/embedded-gateway/, ghi đè đủ 8 file. Không lồng thêm thư mục ZIP, không chép riêng vào work/tools. Mở lại, tải dữ liệu nếu được yêu cầu. Không xóa save hoặc dữ liệu ứng dụng.
+Trạng thái: work/tools/noodle-hair-status.json, version ronaldo-v2-hair2017-eyes-dark-v1. Bộ nạp chỉ chạy với đúng libUE4 Android ARM64 đã hỗ trợ của efootxi 1.3.2; khác bản sẽ dừng an toàn.
+Tắt: buộc dừng game, chép work/ từ Tat-Ronaldo-V2.zip vào files/embedded-gateway/, mở lại.
+
+Nguồn hình dáng là V2, không dùng V3/V4. Tóc lấy mesh 5005 đỉnh trong face.fpk cũ theo lựa chọn của bạn; dùng atlas màu/alpha của chính bộ tóc đó. Da giảm thêm 8% giá trị RGB tuyến tính, dưới cằm giảm nhẹ thêm tối đa 5%.
+Để giữ cử động gốc, bản GAME chuyển bề mặt V2 lên topology native 743 đỉnh phần da, giữ thứ tự đỉnh, UV native, UV phụ, vertex colour, trọng số native và 166 ma trận bind. Phần quanh mắt giữ nguyên vị trí native gốc; mắt cầu do hệ common-eye gốc của game quản lý. Không đưa thêm mắt cầu giả vào gói game. Tóc theo xương đầu. Không khóa mặt ở biểu cảm cố định.
+Đây là chuyển đổi LOD native từ bề mặt V2, không phải bản sao từng đỉnh của mesh PC V2. Không sculpt lại mũi, miệng, hàm hay chỉnh dài cổ theo một mẫu mới. File V2 nguồn vẫn giữ nguyên.
+Trong Blender, các mắt cầu là helper xem trước và một số lớp eye-overlay được mô phỏng trong suốt, vì Blender không chạy shader mắt của game. Các helper này không xuất vào game. Ảnh là render Blender, không phải ảnh chụp game.
+
+Đã kiểm tra bộ nạp ARM64, phạm vi đúng Card ID, fallback, khởi động và manifest. UEViewer đọc ngược đủ 4 biến thể: vị trí, trọng số, vùng mắt native, UV phụ, vertex colour và 166 bind gốc được đối chiếu. Giữ dữ liệu cử động gốc là kiểm tra trên máy làm việc, chưa phải thử trong trận trên điện thoại.
+Chưa xác nhận thực tế chớp/liếc mắt, há miệng, ráp cổ/thân, trận/replay/ăn mừng trên thiết bị. Cần xem kết quả trên đúng điện thoại trước khi khẳng định tất cả cử động hoạt động đúng.

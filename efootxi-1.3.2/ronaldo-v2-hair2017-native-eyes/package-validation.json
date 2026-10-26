@@ -1,0 +1,21 @@
+{
+  "phone_tested": false,
+  "target_card_id": "88044950524330",
+  "original_native_eye_region_and_weights_retained": true,
+  "original_v2_source_unchanged": true,
+  "native_lod_projection": true,
+  "artifacts": {
+    "Ronaldo-V2-HAIR2017-EYES-DARK-ANDROID-TRIAL.zip": {
+      "size": 5131279,
+      "sha256": "8671fb2e1ce15077884c30c2dcd3ae5e54359201938c731fc34521b8ecc35b23"
+    },
+    "Ronaldo-V2-NATIVE-HAIR2017-BLEND.zip": {
+      "size": 11418158,
+      "sha256": "cc112187e9702c082e6b5f7a8229ac3b03cbaad55ca310c1938a4233211ad31e"
+    },
+    "Tat-Ronaldo-V2.zip": {
+      "size": 172,
+      "sha256": "9829fe3074916e10f727cf65061945fedc1b836418a65cc53e98515a698fd8f9"
+    }
+  }
+}
