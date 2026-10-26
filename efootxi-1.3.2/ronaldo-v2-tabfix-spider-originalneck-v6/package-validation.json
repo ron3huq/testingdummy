@@ -1,0 +1,22 @@
+{
+  "phone_tested": false,
+  "facebuilder_used": false,
+  "artifacts": {
+    "Ronaldo-V2-TAB-EDIT-FIX.zip": {
+      "bytes": 7925553,
+      "sha256": "7e868f6de500078cca03403c2534e30f1f10e92ce87c581c0d3d8f296a62aa89"
+    },
+    "SpiderMan-v6-ORIGINAL2006-NECK-BLEND.zip": {
+      "bytes": 6507511,
+      "sha256": "e06f5091e5456dab94379a71b4bcb625bcf3c55b15d890bdd782443cb5f3fbe9"
+    },
+    "SpiderMan-v6-ORIGINAL2006-NECK-ANDROID-TRIAL.zip": {
+      "bytes": 7003215,
+      "sha256": "63b92613e0bb44d4029842605e77d7bcb05a059434bea5adf56d0977c05b6cc6"
+    },
+    "Tat-dau-SpiderMan.zip": {
+      "bytes": 172,
+      "sha256": "d8de86db84af7e2a6607146d74b95c6cff9b46b08a3db1d8c0e59821d36f7116"
+    }
+  }
+}

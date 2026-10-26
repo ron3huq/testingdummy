@@ -1,0 +1,70 @@
+{
+  "source": "/workspace/analysis/ronaldo-2017-refine-v2/Ronaldo_2017_FACE_NECK_v2.blend",
+  "basis_replaced_with_final_evaluated_v2": true,
+  "exact_v2_visual_coordinates": [
+    {
+      "name": "face_high_0_fox_skin_mat",
+      "vertices": 239,
+      "polygons": 373,
+      "max_error_mm": 0.0
+    },
+    {
+      "name": "face_high_1_eyeline_SG",
+      "vertices": 32,
+      "polygons": 38,
+      "max_error_mm": 0.0
+    },
+    {
+      "name": "face_high_2_fox_skin_mat",
+      "vertices": 1789,
+      "polygons": 3475,
+      "max_error_mm": 0.0
+    },
+    {
+      "name": "face_high_3_eyeline_SG",
+      "vertices": 72,
+      "polygons": 86,
+      "max_error_mm": 0.0
+    },
+    {
+      "name": "face_high_4_fox_eyelash_mat",
+      "vertices": 159,
+      "polygons": 104,
+      "max_error_mm": 0.0
+    },
+    {
+      "name": "face_high_5_collar_ao",
+      "vertices": 184,
+      "polygons": 302,
+      "max_error_mm": 0.0
+    },
+    {
+      "name": "face_high_6_fox_eyeOcclusion_mat",
+      "vertices": 40,
+      "polygons": 46,
+      "max_error_mm": 0.0
+    },
+    {
+      "name": "hair_high_0_fox_skin_mat",
+      "vertices": 341,
+      "polygons": 572,
+      "max_error_mm": 0.0
+    },
+    {
+      "name": "hair_high_1_fox_hair_mat",
+      "vertices": 2097,
+      "polygons": 2164,
+      "max_error_mm": 0.0
+    },
+    {
+      "name": "hair_high_2_fox_head_shell_mat",
+      "vertices": 1082,
+      "polygons": 1956,
+      "max_error_mm": 0.0
+    }
+  ],
+  "edit_mode_face_positions_match": true,
+  "topology_uv_materials_weights_not_rebuilt": true,
+  "v3_v4_changes_used": false,
+  "game_install": false
+}

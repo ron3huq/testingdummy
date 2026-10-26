@@ -1,0 +1,17 @@
+{
+  "source_objects": [
+    "ORIGINAL_2006_NECK_REPAIRED"
+  ],
+  "no_synthetic_neck": true,
+  "posterior_rays_hit_at_heights": [
+    1.49,
+    1.51,
+    1.53,
+    1.55,
+    1.57,
+    1.59
+  ],
+  "shortening_mm": 20,
+  "hidden_upper_overlap_fitted": true,
+  "phone_tested": false
+}
