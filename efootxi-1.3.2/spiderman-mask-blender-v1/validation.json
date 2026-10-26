@@ -1,0 +1,31 @@
+{
+  "status": "BLENDER_4_3_2_OPEN_AND_GEOMETRY_CHECK_PASS",
+  "meshes": {
+    "L_convex_white_lens": {
+      "vertices": 1153,
+      "polygons": 1152
+    },
+    "L_thick_black_eye_frame": {
+      "vertices": 192,
+      "polygons": 96
+    },
+    "MASK_continuous_closed_face_no_human_skin": {
+      "vertices": 20608,
+      "polygons": 20480
+    },
+    "R_convex_white_lens": {
+      "vertices": 1153,
+      "polygons": 1152
+    },
+    "R_thick_black_eye_frame": {
+      "vertices": 192,
+      "polygons": 96
+    }
+  },
+  "web_curve_objects": 57,
+  "external_textures_required": false,
+  "film_exact_likeness_verified": false,
+  "android_cooked": false,
+  "android_device_tested": false,
+  "rigged_to_game": false
+}
