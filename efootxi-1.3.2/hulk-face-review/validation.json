@@ -4,11 +4,11 @@
   "original_ronaldo_unchanged": true,
   "meshes": {
     "face_high_0_fox_skin_mat": {
-      "vertices": 239,
+      "vertices": 235,
       "faces": 373
     },
     "hair_high_0_fox_skin_mat": {
-      "vertices": 341,
+      "vertices": 317,
       "faces": 572
     },
     "HULK_EYE_-1": {
