@@ -1,0 +1,35 @@
+{
+  "phone_tested": false,
+  "cards": {
+    "105572980600878": {
+      "private_face_mi_hq_mq": true,
+      "normal_sro_bound_in_private_material": true,
+      "legacy_hq_parent_retained": true,
+      "mq_native_face_parent": true
+    },
+    "105577812455608": {
+      "private_face_mi_hq_mq": true,
+      "normal_sro_bound_in_private_material": true,
+      "legacy_hq_parent_retained": true,
+      "mq_native_face_parent": true
+    },
+    "105710151126263": {
+      "private_face_mi_hq_mq": true,
+      "normal_sro_bound_in_private_material": true,
+      "legacy_hq_parent_retained": true,
+      "mq_native_face_parent": true
+    },
+    "105768133207973": {
+      "private_face_mi_hq_mq": true,
+      "normal_sro_bound_in_private_material": true,
+      "legacy_hq_parent_retained": true,
+      "mq_native_face_parent": true
+    },
+    "105820478135535": {
+      "private_face_mi_hq_mq": true,
+      "normal_sro_bound_in_private_material": true,
+      "legacy_hq_parent_retained": true,
+      "mq_native_face_parent": true
+    }
+  }
+}

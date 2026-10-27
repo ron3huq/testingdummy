@@ -1,0 +1,62 @@
+{
+  "105572980600878": {
+    "face_pixels_original_1024_square_bit_identical": true,
+    "face_positions_and_uv_unchanged_by_gutter_fix": true,
+    "horizontal_repeat_gutter_pixels": 64,
+    "eye_texture_tile": [
+      1152,
+      64,
+      768,
+      768
+    ],
+    "all_three_map_layouts_match": true
+  },
+  "105577812455608": {
+    "face_pixels_original_1024_square_bit_identical": true,
+    "face_positions_and_uv_unchanged_by_gutter_fix": true,
+    "horizontal_repeat_gutter_pixels": 64,
+    "eye_texture_tile": [
+      1152,
+      64,
+      768,
+      768
+    ],
+    "all_three_map_layouts_match": true
+  },
+  "105710151126263": {
+    "face_pixels_original_1024_square_bit_identical": true,
+    "face_positions_and_uv_unchanged_by_gutter_fix": true,
+    "horizontal_repeat_gutter_pixels": 64,
+    "eye_texture_tile": [
+      1152,
+      64,
+      768,
+      768
+    ],
+    "all_three_map_layouts_match": true
+  },
+  "105768133207973": {
+    "face_pixels_original_1024_square_bit_identical": true,
+    "face_positions_and_uv_unchanged_by_gutter_fix": true,
+    "horizontal_repeat_gutter_pixels": 64,
+    "eye_texture_tile": [
+      1152,
+      64,
+      768,
+      768
+    ],
+    "all_three_map_layouts_match": true
+  },
+  "105820478135535": {
+    "face_pixels_original_1024_square_bit_identical": true,
+    "face_positions_and_uv_unchanged_by_gutter_fix": true,
+    "horizontal_repeat_gutter_pixels": 64,
+    "eye_texture_tile": [
+      1152,
+      64,
+      768,
+      768
+    ],
+    "all_three_map_layouts_match": true
+  }
+}

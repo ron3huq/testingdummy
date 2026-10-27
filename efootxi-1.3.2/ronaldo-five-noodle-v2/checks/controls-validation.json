@@ -1,0 +1,156 @@
+{
+  "phone_tested": false,
+  "synthetic_poses": true,
+  "cards": {
+    "105572980600878": {
+      "skf_eye_l": {
+        "moved_vertices": 859,
+        "max_move_m": 0.0015439297839139456
+      },
+      "skf_eye_r": {
+        "moved_vertices": 859,
+        "max_move_m": 0.001812191903384261
+      },
+      "skf_jaw": {
+        "moved_vertices": 1271,
+        "max_move_m": 0.01343741377122959
+      },
+      "skf_eyelid_t_l": {
+        "moved_vertices": 110,
+        "max_move_m": 0.0015799037728795296
+      },
+      "skf_eyelid_t_r": {
+        "moved_vertices": 96,
+        "max_move_m": 0.001075910346356401
+      },
+      "skf_eyelid_b_l": {
+        "moved_vertices": 37,
+        "max_move_m": 0.0012556548364072314
+      },
+      "skf_eyelid_b_r": {
+        "moved_vertices": 37,
+        "max_move_m": 0.0009654275196496059
+      }
+    },
+    "105577812455608": {
+      "skf_eye_l": {
+        "moved_vertices": 859,
+        "max_move_m": 0.0013735902738812701
+      },
+      "skf_eye_r": {
+        "moved_vertices": 859,
+        "max_move_m": 0.0015785452115141963
+      },
+      "skf_jaw": {
+        "moved_vertices": 836,
+        "max_move_m": 0.013059267713651738
+      },
+      "skf_eyelid_t_l": {
+        "moved_vertices": 122,
+        "max_move_m": 0.0012962688202947943
+      },
+      "skf_eyelid_t_r": {
+        "moved_vertices": 134,
+        "max_move_m": 0.0009787090363255295
+      },
+      "skf_eyelid_b_l": {
+        "moved_vertices": 26,
+        "max_move_m": 0.0008640682904255299
+      },
+      "skf_eyelid_b_r": {
+        "moved_vertices": 22,
+        "max_move_m": 0.0009334023896639324
+      }
+    },
+    "105710151126263": {
+      "skf_eye_l": {
+        "moved_vertices": 859,
+        "max_move_m": 0.0014906871801406152
+      },
+      "skf_eye_r": {
+        "moved_vertices": 859,
+        "max_move_m": 0.0014173656175201633
+      },
+      "skf_jaw": {
+        "moved_vertices": 1082,
+        "max_move_m": 0.013977077370066815
+      },
+      "skf_eyelid_t_l": {
+        "moved_vertices": 80,
+        "max_move_m": 0.0010240113774126712
+      },
+      "skf_eyelid_t_r": {
+        "moved_vertices": 81,
+        "max_move_m": 0.0007716470748112887
+      },
+      "skf_eyelid_b_l": {
+        "moved_vertices": 85,
+        "max_move_m": 0.000805168439306396
+      },
+      "skf_eyelid_b_r": {
+        "moved_vertices": 86,
+        "max_move_m": 0.0006980523673425842
+      }
+    },
+    "105768133207973": {
+      "skf_eye_l": {
+        "moved_vertices": 859,
+        "max_move_m": 0.001786906805858861
+      },
+      "skf_eye_r": {
+        "moved_vertices": 859,
+        "max_move_m": 0.0017880407362064917
+      },
+      "skf_jaw": {
+        "moved_vertices": 1266,
+        "max_move_m": 0.013574176519003518
+      },
+      "skf_eyelid_t_l": {
+        "moved_vertices": 118,
+        "max_move_m": 0.0013845259398931338
+      },
+      "skf_eyelid_t_r": {
+        "moved_vertices": 105,
+        "max_move_m": 0.000971829809060864
+      },
+      "skf_eyelid_b_l": {
+        "moved_vertices": 36,
+        "max_move_m": 0.0011432410663062597
+      },
+      "skf_eyelid_b_r": {
+        "moved_vertices": 36,
+        "max_move_m": 0.0006494558762137317
+      }
+    },
+    "105820478135535": {
+      "skf_eye_l": {
+        "moved_vertices": 859,
+        "max_move_m": 0.0018181930563731504
+      },
+      "skf_eye_r": {
+        "moved_vertices": 859,
+        "max_move_m": 0.0018004976615370763
+      },
+      "skf_jaw": {
+        "moved_vertices": 1266,
+        "max_move_m": 0.013573969178994756
+      },
+      "skf_eyelid_t_l": {
+        "moved_vertices": 118,
+        "max_move_m": 0.00101651249656627
+      },
+      "skf_eyelid_t_r": {
+        "moved_vertices": 105,
+        "max_move_m": 0.000989348273446691
+      },
+      "skf_eyelid_b_l": {
+        "moved_vertices": 36,
+        "max_move_m": 0.0008587206640027307
+      },
+      "skf_eyelid_b_r": {
+        "moved_vertices": 36,
+        "max_move_m": 0.0009011264594397239
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+RONALDO — CHỈ THAY SỢI TÓC MÌ TÔM — BẢN SỬA V2
+
+ID: 105572980600878, 105577812455608, 105710151126263, 105768133207973, 105820478135535
+Nguồn mặt và texture riêng lấy từ nhánh 4522 của từng file ID.rar, đúng nhánh được material trong FMDL tham chiếu. Không chiếu lại, nắn hay thay tỉ lệ lưới da mặt/tai/cổ. Giữ scalp và shell gốc của từng mặt; chỉ các sợi tóc lấy từ getnoodlehairfromthisface.rar. Không dùng scalp của bộ tóc cho nữa.
+Mắt trong V2 nằm trong chính mesh game và có trọng số skf_eye_l/r. Ảnh Blender không thêm mắt helper riêng. Có kiểm tra hàm, mí, mắt với pose tổng hợp trên dữ liệu Android đã cooked. Không đổi Card ID hoặc Face ID gốc của các thẻ khác.
+Texture mặt gốc được giữ nguyên toàn bộ pixel RGB trong vùng riêng của atlas trước nén; các lớp da dùng cùng texture của chính mặt đó. Vùng đệm 64px ngăn texture mắt lẫn vào mép da khi giảm mip. Normal PC được giải mã đúng kênh alpha/green hoặc red/green rồi chuyển XYZ; bộ specular/roughness được chuyển sang định dạng native. Shader MQ dùng cách dựng native của MQ, HQ có dữ liệu normal/SRO riêng.
+
+CÀI: Buộc dừng game. Giải nén MỘT gói Android, chép gộp CẢ work/ và livedata/ vào files/embedded-gateway/, ghi đè 8 file, mở lại. Gói ALL-5 nạp cùng lúc năm mặt; gói FIRST-ONLY chỉ nạp 105572980600878. Chọn một gói, không trộn file giữa các gói. Cài gói này sẽ thay bộ nạp face thử trước; các thẻ ngoài danh sách dùng face game gốc.
+Dành cho bản efootxi 1.3.2 Android ARM64 đã dùng trong phiên này. Bộ nạp kiểm tra hash libUE4 và prologue trước khi cài hook. Wrapper gateway_runtime.py vẫn 2441 byte.
+
+KIỂM TRA: Đọc ngược 20 biến thể mesh, đối chiếu tọa độ/UV, số tam giác và 166 bind xương gốc. Giữ đầy đủ required/active bones của các LOD để tránh lỗi tay/chân khi đổi animation/replay. Đọc giải mã 12 mip của 15 texture mặt D/N/SRO; kiểm tra liên kết material riêng theo từng ID, loader/hash, phạm vi Card ID và các callback bất đồng bộ bằng mã ARM64 thực thi trong Unicorn với thân hàm engine mô phỏng.
+Ảnh là render Blender từ mesh Android và texture ETC2 giải mã, dùng vật liệu xem trước tương đương; không phải ảnh chụp game. Chưa thử renderer, trận/replay/ăn mừng trên điện thoại. Rig PC phải ánh xạ sang native; một số điều khiển môi/má nhỏ không có tên tương ứng được giảm sang head/jaw. Không cam kết giống mọi biểu cảm PC hoặc không lỗi trong mọi tình huống trước khi thử trực tiếp.

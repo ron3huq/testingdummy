@@ -1,0 +1,405 @@
+{
+  "105572980600878": {
+    "parts": [
+      {
+        "source": "original_face",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 0,
+        "count": 239,
+        "source_positions_sha256": "dc0eebc331e434d73eae9eaa0dd0674125d2ea02d2b8d3909ad2798f37199256"
+      },
+      {
+        "source": "original_face",
+        "mesh": 2,
+        "material": "fox_skin_mat",
+        "start": 239,
+        "count": 1789,
+        "source_positions_sha256": "f9d9f0d85c7a24c3250ca66e567bb09e87d829fcc192375c89710f0dad97d617"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 2028,
+        "count": 341,
+        "source_positions_sha256": "8effec1530cb76bb542d5e516076dd35268bbd939908ef3b7b5cc40784fb5cb7"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 2,
+        "material": "fox_head_shell_mat",
+        "start": 2369,
+        "count": 1082,
+        "source_positions_sha256": "fab2bb075e49b68c1f9992c451c56f9f65cfdb1170dcb64857493f8857738718"
+      }
+    ],
+    "original_skin_positions_bit_identical": true,
+    "skin_count": 3451,
+    "source_missing_weights": 0,
+    "seam_weight_copies_synchronized": 0,
+    "eyes_in_game_mesh": [
+      {
+        "side": "l",
+        "start": 3451,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          0.03173890784982935,
+          -0.129322021484375,
+          1.7185716723549485
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_l"
+      },
+      {
+        "side": "r",
+        "start": 4312,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          -0.03103333333333334,
+          -0.1278208487033844,
+          1.7201549999999997
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_r"
+      }
+    ],
+    "donor_strand_vertices": 5005,
+    "donor_scalp_used": false,
+    "face_texture_original_pixels_preserved": true
+  },
+  "105577812455608": {
+    "parts": [
+      {
+        "source": "original_face",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 0,
+        "count": 670,
+        "source_positions_sha256": "ba97fea9d5ce405cb0d03fac401e524077ceca3fd5861a61f2f655f8cb763217"
+      },
+      {
+        "source": "original_face",
+        "mesh": 1,
+        "material": "fox_skin_mat",
+        "start": 670,
+        "count": 331,
+        "source_positions_sha256": "e01cc0205940c14f028c03cab926d05e997e86df8f24ccbf8d28dbc9fb8457fc"
+      },
+      {
+        "source": "original_face",
+        "mesh": 2,
+        "material": "fox_skin_mat",
+        "start": 1001,
+        "count": 1690,
+        "source_positions_sha256": "6f6128235a7c666c7bf7ed511a85a68f07ae0a7125001b0d48125823e9af98f2"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 2691,
+        "count": 458,
+        "source_positions_sha256": "e2b62678d2ddaec0005c02d74bace94a91bd7efbeeb9469e7027277f99791826"
+      }
+    ],
+    "original_skin_positions_bit_identical": true,
+    "skin_count": 3149,
+    "source_missing_weights": 0,
+    "seam_weight_copies_synchronized": 0,
+    "eyes_in_game_mesh": [
+      {
+        "side": "l",
+        "start": 3149,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          0.032658841940532084,
+          -0.1353809826374054,
+          1.7180946791862288
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_l"
+      },
+      {
+        "side": "r",
+        "start": 4010,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          -0.03261625708884688,
+          -0.13472935485839843,
+          1.7205812854442344
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_r"
+      }
+    ],
+    "donor_strand_vertices": 5005,
+    "donor_scalp_used": false,
+    "face_texture_original_pixels_preserved": true
+  },
+  "105710151126263": {
+    "parts": [
+      {
+        "source": "original_face",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 0,
+        "count": 1208,
+        "source_positions_sha256": "4b97bd9fb1c1b011e2d26cd54c3eb776e025a1523209ba3618046c7a3d80776a"
+      },
+      {
+        "source": "original_face",
+        "mesh": 1,
+        "material": "fox_skin_mat",
+        "start": 1208,
+        "count": 2218,
+        "source_positions_sha256": "1e9783adbb23ace6bf641a47a0a4bf0611b5e3239b4954be94f53b445132d46c"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 3426,
+        "count": 387,
+        "source_positions_sha256": "abd20a9ac2d1773a3d2fdd6e1033db485f209c4ddbb630214743ea8af0110c43"
+      }
+    ],
+    "original_skin_positions_bit_identical": true,
+    "skin_count": 3813,
+    "source_missing_weights": 281,
+    "seam_weight_copies_synchronized": 0,
+    "eyes_in_game_mesh": [
+      {
+        "side": "l",
+        "start": 3813,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          0.0304919168591224,
+          -0.14057734537124633,
+          1.7107563510392607
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_l"
+      },
+      {
+        "side": "r",
+        "start": 4674,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          -0.033215176715176715,
+          -0.14145293760299682,
+          1.7114875259875257
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_r"
+      }
+    ],
+    "donor_strand_vertices": 5005,
+    "donor_scalp_used": false,
+    "face_texture_original_pixels_preserved": true
+  },
+  "105768133207973": {
+    "parts": [
+      {
+        "source": "original_face",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 0,
+        "count": 237,
+        "source_positions_sha256": "6a1607b6ffca57931e1424d5bcdf856762b6c76ef5947420cf24153402815558"
+      },
+      {
+        "source": "original_face",
+        "mesh": 2,
+        "material": "fox_skin_mat",
+        "start": 237,
+        "count": 1788,
+        "source_positions_sha256": "a3838e80ca83c7882e97bd8b86522f7a0e79bc54e7db7b27f9373549f448650e"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 2025,
+        "count": 341,
+        "source_positions_sha256": "6e8593465ce84a7a974074cf16d9db3a50bb763af8e359d50cc0c8d16ec6bf60"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 2,
+        "material": "fox_head_shell_mat",
+        "start": 2366,
+        "count": 20,
+        "source_positions_sha256": "7f8d204f919e62609acaf59552088105fba073474bc85644fab3288fa8e8a99c"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 3,
+        "material": "fox_head_shell_mat",
+        "start": 2386,
+        "count": 1072,
+        "source_positions_sha256": "13a5ef474131598a3743d2e13d10fb8941650d3fccadcd60502efa9f718a13f2"
+      }
+    ],
+    "original_skin_positions_bit_identical": true,
+    "skin_count": 3458,
+    "source_missing_weights": 0,
+    "seam_weight_copies_synchronized": 0,
+    "eyes_in_game_mesh": [
+      {
+        "side": "l",
+        "start": 3458,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          0.0316,
+          -0.12377208399772645,
+          1.7141155172413791
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_l"
+      },
+      {
+        "side": "r",
+        "start": 4319,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          -0.03190709459459459,
+          -0.12522675025463104,
+          1.7138260135135135
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_r"
+      }
+    ],
+    "donor_strand_vertices": 5005,
+    "donor_scalp_used": false,
+    "face_texture_original_pixels_preserved": true
+  },
+  "105820478135535": {
+    "parts": [
+      {
+        "source": "original_face",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 0,
+        "count": 237,
+        "source_positions_sha256": "a565865c02db5635951abe9f346cba502b53cffc32080cbdcc92cfb241b84ca5"
+      },
+      {
+        "source": "original_face",
+        "mesh": 2,
+        "material": "fox_skin_mat",
+        "start": 237,
+        "count": 1788,
+        "source_positions_sha256": "08a47f813ae043b19b418fa745c105a0ad306b104518434656cacb283cce1962"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 0,
+        "material": "fox_skin_mat",
+        "start": 2025,
+        "count": 387,
+        "source_positions_sha256": "01fef89edce1a6915b021058dc1e27de789ee6effb9c6c646a51c3f399d4de82"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 2,
+        "material": "fox_head_shell_mat",
+        "start": 2412,
+        "count": 20,
+        "source_positions_sha256": "2b9da4a244dc825599d04a9d49b7d5e3fde23ab93a60ccee4230951e9b0665d6"
+      },
+      {
+        "source": "original_scalp_shell",
+        "mesh": 3,
+        "material": "fox_head_shell_mat",
+        "start": 2432,
+        "count": 1116,
+        "source_positions_sha256": "0093a612481d7ae35705480fa4118505d5a751598c236dde193ccff624bd9fa2"
+      }
+    ],
+    "original_skin_positions_bit_identical": true,
+    "skin_count": 3548,
+    "source_missing_weights": 0,
+    "seam_weight_copies_synchronized": 0,
+    "eyes_in_game_mesh": [
+      {
+        "side": "l",
+        "start": 3548,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          0.02677355072463768,
+          -0.12342889535427094,
+          1.7142663043478263
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_l"
+      },
+      {
+        "side": "r",
+        "start": 4409,
+        "count": 861,
+        "triangles": 1520,
+        "center": [
+          -0.035633458646616545,
+          -0.12509155201911926,
+          1.7141372180451127
+        ],
+        "radii": [
+          0.014,
+          0.01,
+          0.011
+        ],
+        "bone": "skf_eye_r"
+      }
+    ],
+    "donor_strand_vertices": 5005,
+    "donor_scalp_used": false,
+    "face_texture_original_pixels_preserved": true
+  }
+}

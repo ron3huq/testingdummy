@@ -1,0 +1,27 @@
+{
+  "105572980600878": {
+    "card_id": "105572980600878",
+    "prefix": "ND01",
+    "material_prefix": "ND0001"
+  },
+  "105577812455608": {
+    "card_id": "105577812455608",
+    "prefix": "ND02",
+    "material_prefix": "ND0002"
+  },
+  "105710151126263": {
+    "card_id": "105710151126263",
+    "prefix": "ND03",
+    "material_prefix": "ND0003"
+  },
+  "105768133207973": {
+    "card_id": "105768133207973",
+    "prefix": "ND04",
+    "material_prefix": "ND0004"
+  },
+  "105820478135535": {
+    "card_id": "105820478135535",
+    "prefix": "ND05",
+    "material_prefix": "ND0005"
+  }
+}
