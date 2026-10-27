@@ -1,0 +1,15 @@
+{
+  "phone_tested": false,
+  "actual_ARM64_code": true,
+  "engine_bodies_modeled": true,
+  "cases": 120,
+  "types": [
+    "D",
+    "N",
+    "SRO"
+  ],
+  "quoted_and_plain": true,
+  "nul_and_non_nul": true,
+  "both_async_callbacks": true,
+  "exact_card_scope": true
+}

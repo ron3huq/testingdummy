@@ -1,0 +1,26 @@
+{
+  "original_neck_vertices": 179,
+  "neck_positions_and_source_weights_byte_identical": true,
+  "neck_positions_sha256": "b70804b1511655470f655677abf56f839756be898184828a6e65ea1e1d85ae19",
+  "source_hair_alpha_byte_identical": true,
+  "opaque_hair_mean_rgb_before": [
+    27.027765359515715,
+    24.397107903919203,
+    24.234272153945213
+  ],
+  "opaque_hair_mean_rgb_after": [
+    58.22323630218833,
+    45.43559139512848,
+    34.869993448780995
+  ],
+  "hq_fine_strand_specular_roughness_glossy": [
+    110.0,
+    76.0
+  ],
+  "hq_fine_strand_specular_roughness_matte": [
+    45.0,
+    161.0
+  ],
+  "mq_albedo_strand_variation": true,
+  "phone_tested": false
+}

@@ -1,0 +1,31 @@
+{
+  "actual_cooked_mesh": true,
+  "native_rig_synthetic_jaw_poses": true,
+  "phone_tested": false,
+  "poses": {
+    "0": {
+      "rays": 63,
+      "opaque_inside_hits": 63,
+      "front_facing_hits": 63,
+      "oral_triangles": 1550
+    },
+    "15": {
+      "rays": 63,
+      "opaque_inside_hits": 63,
+      "front_facing_hits": 63,
+      "oral_triangles": 1550
+    },
+    "25": {
+      "rays": 63,
+      "opaque_inside_hits": 63,
+      "front_facing_hits": 63,
+      "oral_triangles": 1550
+    },
+    "35": {
+      "rays": 63,
+      "opaque_inside_hits": 63,
+      "front_facing_hits": 63,
+      "oral_triangles": 1550
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "card_id": "106654775417922",
+  "lid_vertices_relaxed": 305,
+  "eyeballs_inset_m": 0.0015,
+  "iris_scale": 1.25,
+  "oral_source_vertices": 325,
+  "oral_cavity_vertices": 561,
+  "original_hair_vertices": 12028,
+  "extra_separated_locks": 193,
+  "individual_3d_fibers": 1767,
+  "tail_locks": 162,
+  "face_vertices": 30882,
+  "hair_vertices": 17454,
+  "face_triangles": 50190,
+  "hair_triangles": 16290,
+  "nape_pixels": 268909,
+  "phone_tested": false
+}
