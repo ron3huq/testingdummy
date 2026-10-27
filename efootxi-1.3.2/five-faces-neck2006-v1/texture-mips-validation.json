@@ -1,0 +1,752 @@
+{
+  "hulk": {
+    "mips": [
+      {
+        "mip": 0,
+        "dimension": 2048,
+        "logical_dimension": 2048,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.33623194694519,
+          8.960538864135742,
+          9.843127012252808
+        ]
+      },
+      {
+        "mip": 1,
+        "dimension": 1024,
+        "logical_dimension": 1024,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.396212577819824,
+          9.200037002563477,
+          9.763607025146484
+        ]
+      },
+      {
+        "mip": 2,
+        "dimension": 512,
+        "logical_dimension": 512,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.566516876220703,
+          9.265506744384766,
+          9.624031066894531
+        ]
+      },
+      {
+        "mip": 3,
+        "dimension": 256,
+        "logical_dimension": 256,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.7523651123046875,
+          9.279022216796875,
+          9.517379760742188
+        ]
+      },
+      {
+        "mip": 4,
+        "dimension": 128,
+        "logical_dimension": 128,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.764404296875,
+          9.32196044921875,
+          9.4727783203125
+        ]
+      },
+      {
+        "mip": 5,
+        "dimension": 64,
+        "logical_dimension": 64,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.535400390625,
+          9.244140625,
+          9.777587890625
+        ]
+      },
+      {
+        "mip": 6,
+        "dimension": 32,
+        "logical_dimension": 32,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.2890625,
+          9.30859375,
+          9.537109375
+        ]
+      },
+      {
+        "mip": 7,
+        "dimension": 16,
+        "logical_dimension": 16,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.4375,
+          9.71875,
+          10.34375
+        ]
+      },
+      {
+        "mip": 8,
+        "dimension": 8,
+        "logical_dimension": 8,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.765625,
+          10.28125,
+          11.296875
+        ]
+      },
+      {
+        "mip": 9,
+        "dimension": 4,
+        "logical_dimension": 4,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          10.4375,
+          10.4375,
+          15.0
+        ]
+      },
+      {
+        "mip": 10,
+        "dimension": 4,
+        "logical_dimension": 2,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          5.0,
+          5.0,
+          5.0
+        ]
+      },
+      {
+        "mip": 11,
+        "dimension": 4,
+        "logical_dimension": 1,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          5.0,
+          5.0,
+          5.0
+        ]
+      }
+    ],
+    "opaque_neck_at_all_mips": true,
+    "decode_success": true
+  },
+  "orc": {
+    "mips": [
+      {
+        "mip": 0,
+        "dimension": 2048,
+        "logical_dimension": 2048,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          69.44240117073059,
+          101.26550436019897,
+          109.4148280620575
+        ]
+      },
+      {
+        "mip": 1,
+        "dimension": 1024,
+        "logical_dimension": 1024,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          69.4721794128418,
+          101.34359645843506,
+          109.4394121170044
+        ]
+      },
+      {
+        "mip": 2,
+        "dimension": 512,
+        "logical_dimension": 512,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          69.5404052734375,
+          101.37520217895508,
+          109.41864395141602
+        ]
+      },
+      {
+        "mip": 3,
+        "dimension": 256,
+        "logical_dimension": 256,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          69.56256103515625,
+          101.43844604492188,
+          109.35328674316406
+        ]
+      },
+      {
+        "mip": 4,
+        "dimension": 128,
+        "logical_dimension": 128,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          69.7545166015625,
+          101.38787841796875,
+          109.478759765625
+        ]
+      },
+      {
+        "mip": 5,
+        "dimension": 64,
+        "logical_dimension": 64,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          69.688720703125,
+          101.41748046875,
+          109.544677734375
+        ]
+      },
+      {
+        "mip": 6,
+        "dimension": 32,
+        "logical_dimension": 32,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          69.5009765625,
+          101.466796875,
+          109.259765625
+        ]
+      },
+      {
+        "mip": 7,
+        "dimension": 16,
+        "logical_dimension": 16,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          70.0859375,
+          100.84375,
+          109.67578125
+        ]
+      },
+      {
+        "mip": 8,
+        "dimension": 8,
+        "logical_dimension": 8,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          63.78125,
+          101.5,
+          105.484375
+        ]
+      },
+      {
+        "mip": 9,
+        "dimension": 4,
+        "logical_dimension": 4,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          58.8125,
+          92.8125,
+          102.375
+        ]
+      },
+      {
+        "mip": 10,
+        "dimension": 4,
+        "logical_dimension": 2,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          57.0,
+          99.0,
+          82.0
+        ]
+      },
+      {
+        "mip": 11,
+        "dimension": 4,
+        "logical_dimension": 1,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          59.0,
+          92.0,
+          84.0
+        ]
+      }
+    ],
+    "opaque_neck_at_all_mips": true,
+    "decode_success": true
+  },
+  "ronaldo": {
+    "mips": [
+      {
+        "mip": 0,
+        "dimension": 2048,
+        "logical_dimension": 2048,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "rgb_mean": [
+          24.595750331878662,
+          24.750482082366943,
+          27.9145290851593
+        ]
+      },
+      {
+        "mip": 1,
+        "dimension": 1024,
+        "logical_dimension": 1024,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "rgb_mean": [
+          24.44905948638916,
+          24.52609157562256,
+          27.761693954467773
+        ]
+      },
+      {
+        "mip": 2,
+        "dimension": 512,
+        "logical_dimension": 512,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "rgb_mean": [
+          24.83416748046875,
+          24.880069732666016,
+          28.142066955566406
+        ]
+      },
+      {
+        "mip": 3,
+        "dimension": 256,
+        "logical_dimension": 256,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "rgb_mean": [
+          24.87255859375,
+          24.91253662109375,
+          28.116119384765625
+        ]
+      },
+      {
+        "mip": 4,
+        "dimension": 128,
+        "logical_dimension": 128,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "rgb_mean": [
+          25.12646484375,
+          25.1949462890625,
+          28.33245849609375
+        ]
+      },
+      {
+        "mip": 5,
+        "dimension": 64,
+        "logical_dimension": 64,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "rgb_mean": [
+          23.833251953125,
+          23.943603515625,
+          26.846435546875
+        ]
+      },
+      {
+        "mip": 6,
+        "dimension": 32,
+        "logical_dimension": 32,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "rgb_mean": [
+          24.8681640625,
+          24.8681640625,
+          28.21484375
+        ]
+      },
+      {
+        "mip": 7,
+        "dimension": 16,
+        "logical_dimension": 16,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "rgb_mean": [
+          24.13671875,
+          24.13671875,
+          28.10546875
+        ]
+      },
+      {
+        "mip": 8,
+        "dimension": 8,
+        "logical_dimension": 8,
+        "alpha_min": 0,
+        "alpha_max": 253,
+        "rgb_mean": [
+          15.9375,
+          15.9375,
+          16.9375
+        ]
+      },
+      {
+        "mip": 9,
+        "dimension": 4,
+        "logical_dimension": 4,
+        "alpha_min": 3,
+        "alpha_max": 177,
+        "rgb_mean": [
+          16.1875,
+          16.1875,
+          16.1875
+        ]
+      },
+      {
+        "mip": 10,
+        "dimension": 4,
+        "logical_dimension": 2,
+        "alpha_min": 0,
+        "alpha_max": 74,
+        "rgb_mean": [
+          18.0,
+          18.0,
+          18.0
+        ]
+      },
+      {
+        "mip": 11,
+        "dimension": 4,
+        "logical_dimension": 1,
+        "alpha_min": 0,
+        "alpha_max": 0,
+        "rgb_mean": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    ],
+    "opaque_neck_at_all_mips": false,
+    "decode_success": true
+  },
+  "joker": {
+    "mips": [
+      {
+        "mip": 0,
+        "dimension": 2048,
+        "logical_dimension": 2048,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          109.74277019500732,
+          120.94760918617249,
+          111.08971095085144
+        ]
+      },
+      {
+        "mip": 1,
+        "dimension": 1024,
+        "logical_dimension": 1024,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          109.81330108642578,
+          120.98937702178955,
+          111.32125854492188
+        ]
+      },
+      {
+        "mip": 2,
+        "dimension": 512,
+        "logical_dimension": 512,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          109.87417602539062,
+          120.97788619995117,
+          111.47322463989258
+        ]
+      },
+      {
+        "mip": 3,
+        "dimension": 256,
+        "logical_dimension": 256,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          109.93890380859375,
+          120.977294921875,
+          111.50106811523438
+        ]
+      },
+      {
+        "mip": 4,
+        "dimension": 128,
+        "logical_dimension": 128,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          110.17510986328125,
+          121.06298828125,
+          111.7215576171875
+        ]
+      },
+      {
+        "mip": 5,
+        "dimension": 64,
+        "logical_dimension": 64,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          109.906982421875,
+          121.146484375,
+          111.481689453125
+        ]
+      },
+      {
+        "mip": 6,
+        "dimension": 32,
+        "logical_dimension": 32,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          109.81640625,
+          121.25,
+          111.8486328125
+        ]
+      },
+      {
+        "mip": 7,
+        "dimension": 16,
+        "logical_dimension": 16,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          110.4921875,
+          121.08984375,
+          113.28515625
+        ]
+      },
+      {
+        "mip": 8,
+        "dimension": 8,
+        "logical_dimension": 8,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          104.296875,
+          115.734375,
+          105.296875
+        ]
+      },
+      {
+        "mip": 9,
+        "dimension": 4,
+        "logical_dimension": 4,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          104.5,
+          113.0,
+          113.0
+        ]
+      },
+      {
+        "mip": 10,
+        "dimension": 4,
+        "logical_dimension": 2,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          105.25,
+          121.25,
+          105.25
+        ]
+      },
+      {
+        "mip": 11,
+        "dimension": 4,
+        "logical_dimension": 1,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          6.0,
+          23.0,
+          6.0
+        ]
+      }
+    ],
+    "opaque_neck_at_all_mips": true,
+    "decode_success": true
+  },
+  "naruto": {
+    "mips": [
+      {
+        "mip": 0,
+        "dimension": 2048,
+        "logical_dimension": 2048,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          53.874674797058105,
+          130.1752414703369,
+          181.3445155620575
+        ]
+      },
+      {
+        "mip": 1,
+        "dimension": 1024,
+        "logical_dimension": 1024,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          54.32935810089111,
+          130.22623252868652,
+          181.7588243484497
+        ]
+      },
+      {
+        "mip": 2,
+        "dimension": 512,
+        "logical_dimension": 512,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          54.895076751708984,
+          130.1508026123047,
+          182.07534408569336
+        ]
+      },
+      {
+        "mip": 3,
+        "dimension": 256,
+        "logical_dimension": 256,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          55.35838317871094,
+          130.04299926757812,
+          182.4783477783203
+        ]
+      },
+      {
+        "mip": 4,
+        "dimension": 128,
+        "logical_dimension": 128,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          55.642822265625,
+          130.279052734375,
+          182.84918212890625
+        ]
+      },
+      {
+        "mip": 5,
+        "dimension": 64,
+        "logical_dimension": 64,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          54.0478515625,
+          130.3701171875,
+          182.303466796875
+        ]
+      },
+      {
+        "mip": 6,
+        "dimension": 32,
+        "logical_dimension": 32,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          53.6025390625,
+          130.4638671875,
+          182.1572265625
+        ]
+      },
+      {
+        "mip": 7,
+        "dimension": 16,
+        "logical_dimension": 16,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          55.66015625,
+          131.984375,
+          180.80078125
+        ]
+      },
+      {
+        "mip": 8,
+        "dimension": 8,
+        "logical_dimension": 8,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          66.140625,
+          132.984375,
+          181.8125
+        ]
+      },
+      {
+        "mip": 9,
+        "dimension": 4,
+        "logical_dimension": 4,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          65.1875,
+          141.6875,
+          188.4375
+        ]
+      },
+      {
+        "mip": 10,
+        "dimension": 4,
+        "logical_dimension": 2,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          97.5,
+          146.5,
+          179.5
+        ]
+      },
+      {
+        "mip": 11,
+        "dimension": 4,
+        "logical_dimension": 1,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "rgb_mean": [
+          55.0,
+          146.0,
+          204.0
+        ]
+      }
+    ],
+    "opaque_neck_at_all_mips": true,
+    "decode_success": true
+  }
+}

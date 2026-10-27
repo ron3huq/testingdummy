@@ -1,0 +1,266 @@
+{
+  "phone_tested": false,
+  "source": "independent cooked meshes and 8-bit weights",
+  "heads": {
+    "hulk": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.11929154396057129
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.09873324632644653
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.02680116891860962
+        },
+        {
+          "z": 1.58,
+          "posterior_y": 0.023799538612365723
+        }
+      ],
+      "jaw_bone_available": true
+    },
+    "orc": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.11929154396057129
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.09873324632644653
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.02680116891860962
+        },
+        {
+          "z": 1.58,
+          "posterior_y": 0.029956698417663574
+        }
+      ],
+      "jaw_bone_available": true
+    },
+    "ronaldo": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.11734962463378906
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.09873813390731812
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.026821672916412354
+        },
+        {
+          "z": 1.58,
+          "posterior_y": 0.01060575246810913
+        }
+      ],
+      "jaw_bone_available": true
+    },
+    "joker": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.11929154396057129
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.09873324632644653
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.02680116891860962
+        },
+        {
+          "z": 1.58,
+          "posterior_y": 0.021804004907608032
+        }
+      ],
+      "jaw_bone_available": true
+    },
+    "naruto": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.11929154396057129
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.09873324632644653
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.02680116891860962
+        },
+        {
+          "z": 1.58,
+          "posterior_y": -0.0020712614059448242
+        }
+      ],
+      "jaw_bone_available": true
+    }
+  }
+}

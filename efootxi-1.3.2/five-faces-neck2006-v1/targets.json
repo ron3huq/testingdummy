@@ -1,0 +1,27 @@
+{
+  "hulk": {
+    "prefix": "ND01",
+    "material_prefix": "ND0001",
+    "card_id": "53878485695166"
+  },
+  "orc": {
+    "prefix": "ND02",
+    "material_prefix": "ND0002",
+    "card_id": "70379213169392"
+  },
+  "ronaldo": {
+    "prefix": "ND03",
+    "material_prefix": "ND0003",
+    "card_id": "89135066911146"
+  },
+  "joker": {
+    "prefix": "ND04",
+    "material_prefix": "ND0004",
+    "card_id": "106783087647748"
+  },
+  "naruto": {
+    "prefix": "ND05",
+    "material_prefix": "ND0005",
+    "card_id": "106783356083208"
+  }
+}

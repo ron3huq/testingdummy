@@ -1,0 +1,58 @@
+{
+  "phone_tested": false,
+  "targets": {
+    "hulk": "53878485695166",
+    "orc": "70379213169392",
+    "ronaldo": "89135066911146",
+    "joker": "106783087647748",
+    "naruto": "106783356083208"
+  },
+  "native_mesh_variants": 20,
+  "original_bind_bones": 166,
+  "fixed_expression_heads": [
+    "hulk",
+    "orc",
+    "joker",
+    "naruto"
+  ],
+  "ronaldo_native_eye_ear_regions_retained": true,
+  "source_texture_limitations_accepted_by_user": true,
+  "artifacts": {
+    "FIVE-FACES-NECK2006-ANDROID-TRIAL.zip": {
+      "size": 26049145,
+      "sha256": "33c5b762334a5cf5088f87f4576bc100c91a7d03dee41df3c58ca063f1cb54c0"
+    },
+    "FIVE-FACES-BLEND.zip": {
+      "size": 24535401,
+      "sha256": "96fe879570d804630da1a3b10821f6748f58265e8c8228cc1a0a28d12f6dade9"
+    },
+    "Tat-nam-face.zip": {
+      "size": 172,
+      "sha256": "4227a63b7442586cf703e0bde4ade3e46364e0b3dfeb173ff3a1df41a739711e"
+    },
+    "Five-faces-preview.jpg": {
+      "size": 147699,
+      "sha256": "871df84f1f7e97669824cb5cfc93c79d4e4dc3f441f406f98a549adc17c74984"
+    },
+    "Hulk-views.jpg": {
+      "size": 207052,
+      "sha256": "04cbdd324256976026474c0a51d444cd5bb814b04144b367a455e7307ef16fdc"
+    },
+    "Orc-views.jpg": {
+      "size": 215939,
+      "sha256": "b5051e2152f3e8707f2f6acf756a2bbc54b16ba3fc78adb3c43c44eb3c03c052"
+    },
+    "Ronaldo2009-views.jpg": {
+      "size": 186526,
+      "sha256": "b6bf0f586ce5daab412c10b9c28fc172800b1ad2526095174192d663d03ae749"
+    },
+    "Joker-views.jpg": {
+      "size": 193968,
+      "sha256": "43ea8679b90ff3676ad9a31f4250891f3b079ea11a2e3acc6670c7695d5656bd"
+    },
+    "Naruto-views.jpg": {
+      "size": 240895,
+      "sha256": "51627a13c296ce550ef04befa8618a9daed84a2e7d31dcc2a64dcc6a20ef7105"
+    }
+  }
+}

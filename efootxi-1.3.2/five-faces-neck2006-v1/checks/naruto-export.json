@@ -1,0 +1,10 @@
+{
+  "kind": "naruto",
+  "vertices": 11275,
+  "triangles": 11488,
+  "neck_source": "Ronaldo 2006 actual source mesh; lower neck coordinates preserved, upper overlap fitted",
+  "head_geometry_source": "supplied model",
+  "new_authored_colour": true,
+  "fixed_facial_expression": true,
+  "phone_tested": false
+}
