@@ -1,0 +1,72 @@
+{
+  "phone_tested": false,
+  "reader": "independent UEViewer",
+  "heads": {
+    "105572980600878": [
+      {
+        "variant": "base",
+        "native_166_bind_matrices_identical": true,
+        "face": {
+          "vertices": 2369,
+          "triangles": 4420,
+          "position_error_m": 1.201947465904182e-07,
+          "weights_normalized": true
+        },
+        "hair": {
+          "vertices": 5005,
+          "triangles": 5179,
+          "position_error_m": 1.201947465904182e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "lg00v0000",
+        "native_166_bind_matrices_identical": true,
+        "face": {
+          "vertices": 2369,
+          "triangles": 4420,
+          "position_error_m": 1.201947465904182e-07,
+          "weights_normalized": true
+        },
+        "hair": {
+          "vertices": 5005,
+          "triangles": 5179,
+          "position_error_m": 1.201947465904182e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep01v0291",
+        "native_166_bind_matrices_identical": true,
+        "face": {
+          "vertices": 2369,
+          "triangles": 4420,
+          "position_error_m": 1.201947465904182e-07,
+          "weights_normalized": true
+        },
+        "hair": {
+          "vertices": 5005,
+          "triangles": 5179,
+          "position_error_m": 1.201947465904182e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep00v0313",
+        "native_166_bind_matrices_identical": true,
+        "face": {
+          "vertices": 2369,
+          "triangles": 4420,
+          "position_error_m": 1.201947465904182e-07,
+          "weights_normalized": true
+        },
+        "hair": {
+          "vertices": 5005,
+          "triangles": 5179,
+          "position_error_m": 1.201947465904182e-07,
+          "weights_normalized": true
+        }
+      }
+    ]
+  }
+}

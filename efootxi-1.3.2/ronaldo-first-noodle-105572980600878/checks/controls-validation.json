@@ -1,0 +1,30 @@
+{
+  "phone_tested": false,
+  "controls": {
+    "skf_jaw": {
+      "degrees": 10,
+      "moved_vertices": 812,
+      "max_displacement_m": 0.01678909454334571
+    },
+    "skf_eyelid_t_l": {
+      "degrees": 5,
+      "moved_vertices": 100,
+      "max_displacement_m": 0.0015799037728795296
+    },
+    "skf_eyelid_t_r": {
+      "degrees": 5,
+      "moved_vertices": 86,
+      "max_displacement_m": 0.001075910346356401
+    },
+    "skf_eyelid_b_l": {
+      "degrees": 5,
+      "moved_vertices": 37,
+      "max_displacement_m": 0.0012556548364072314
+    },
+    "skf_eyelid_b_r": {
+      "degrees": 5,
+      "moved_vertices": 37,
+      "max_displacement_m": 0.0009654275196496059
+    }
+  }
+}
