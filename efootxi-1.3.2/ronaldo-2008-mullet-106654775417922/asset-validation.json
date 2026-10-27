@@ -1,0 +1,109 @@
+{
+  "target_card_id": "106654775417922",
+  "variants": [
+    {
+      "variant": "base",
+      "all_166_bind_matrices_byte_identical": true,
+      "face": {
+        "vertices": 3487,
+        "triangles": 6340,
+        "max_position_error_m": 1.3738486526409333e-07,
+        "max_uv_feature_error": 2.653289956535211e-06,
+        "max_weight_error": 0.0,
+        "private_material_resolved": true
+      },
+      "hair": {
+        "vertices": 12028,
+        "triangles": 11250,
+        "max_position_error_m": 1.201514409696321e-07,
+        "max_uv_feature_error": 3.2187570558784034e-06,
+        "max_weight_error": 0.0,
+        "private_material_resolved": true
+      }
+    },
+    {
+      "variant": "lg00v0000",
+      "all_166_bind_matrices_byte_identical": true,
+      "face": {
+        "vertices": 3487,
+        "triangles": 6340,
+        "max_position_error_m": 1.3738486526409333e-07,
+        "max_uv_feature_error": 2.653289956535211e-06,
+        "max_weight_error": 0.0,
+        "private_material_resolved": true
+      },
+      "hair": {
+        "vertices": 12028,
+        "triangles": 11250,
+        "max_position_error_m": 1.201514409696321e-07,
+        "max_uv_feature_error": 3.2187570558784034e-06,
+        "max_weight_error": 0.0,
+        "private_material_resolved": true
+      }
+    },
+    {
+      "variant": "ep01v0291",
+      "all_166_bind_matrices_byte_identical": true,
+      "face": {
+        "vertices": 3487,
+        "triangles": 6340,
+        "max_position_error_m": 1.3738486526409333e-07,
+        "max_uv_feature_error": 2.653289956535211e-06,
+        "max_weight_error": 0.0,
+        "private_material_resolved": true
+      },
+      "hair": {
+        "vertices": 12028,
+        "triangles": 11250,
+        "max_position_error_m": 1.201514409696321e-07,
+        "max_uv_feature_error": 3.2187570558784034e-06,
+        "max_weight_error": 0.0,
+        "private_material_resolved": true
+      }
+    },
+    {
+      "variant": "ep00v0313",
+      "all_166_bind_matrices_byte_identical": true,
+      "face": {
+        "vertices": 3487,
+        "triangles": 6340,
+        "max_position_error_m": 1.3738486526409333e-07,
+        "max_uv_feature_error": 2.653289956535211e-06,
+        "max_weight_error": 0.0,
+        "private_material_resolved": true
+      },
+      "hair": {
+        "vertices": 12028,
+        "triangles": 11250,
+        "max_position_error_m": 1.201514409696321e-07,
+        "max_uv_feature_error": 3.2187570558784034e-06,
+        "max_weight_error": 0.0,
+        "private_material_resolved": true
+      }
+    }
+  ],
+  "textures": {
+    "D": {
+      "width": 2048,
+      "height": 2048,
+      "mips_decoded": 12
+    },
+    "N": {
+      "width": 2048,
+      "height": 2048,
+      "mips_decoded": 12
+    },
+    "SRO": {
+      "width": 2048,
+      "height": 2048,
+      "mips_decoded": 12
+    },
+    "hair": {
+      "width": 2048,
+      "height": 512,
+      "mips_decoded": 10
+    }
+  },
+  "front_skin_and_nape_source_tiles_preserved": true,
+  "phone_tested": false
+}

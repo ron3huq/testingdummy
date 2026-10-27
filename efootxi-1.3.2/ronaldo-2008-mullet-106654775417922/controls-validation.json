@@ -1,0 +1,36 @@
+{
+  "phone_tested": false,
+  "synthetic_poses": true,
+  "cards": {
+    "106654775417922": {
+      "skf_eye_l": {
+        "moved_vertices": 559,
+        "max_move_m": 0.001693093403634139
+      },
+      "skf_eye_r": {
+        "moved_vertices": 559,
+        "max_move_m": 0.001706485608226291
+      },
+      "skf_jaw": {
+        "moved_vertices": 869,
+        "max_move_m": 0.013583370857883454
+      },
+      "skf_eyelid_t_l": {
+        "moved_vertices": 100,
+        "max_move_m": 0.0016683512569758464
+      },
+      "skf_eyelid_t_r": {
+        "moved_vertices": 86,
+        "max_move_m": 0.0011557089067073954
+      },
+      "skf_eyelid_b_l": {
+        "moved_vertices": 37,
+        "max_move_m": 0.0013371611816109096
+      },
+      "skf_eyelid_b_r": {
+        "moved_vertices": 37,
+        "max_move_m": 0.0010778144539353447
+      }
+    }
+  }
+}
