@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "reader": "independent UEViewer4.26 Android",
+  "variants": [
+    "SK_NSPD_Face",
+    "SK_NSPDep00v0313_Face",
+    "SK_NSPDep01v0291_Face",
+    "SK_NSPDlg00v0000_Face",
+    "SK_NNAR_Face",
+    "SK_NNARep00v0313_Face",
+    "SK_NNARep01v0291_Face",
+    "SK_NNARlg00v0000_Face",
+    "SK_NORC_Face",
+    "SK_NORCep00v0313_Face",
+    "SK_NORCep01v0291_Face",
+    "SK_NORClg00v0000_Face"
+  ],
+  "each_has_two_real_inline_LODs": true,
+  "device_replay_tested": false
+}

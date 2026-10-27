@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "background_does_not_change_sleeve_or_gear": true,
+  "user_sleeve_overrides_all_competition_defaults": true,
+  "six_audited_accessory_types": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7
+  ],
+  "GK_gloves_rejected": true,
+  "SQL_config_rollback_verified": true,
+  "device_tested": false
+}

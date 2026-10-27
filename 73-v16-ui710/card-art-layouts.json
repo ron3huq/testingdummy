@@ -1,0 +1,66 @@
+[
+  {
+    "id": "105804908868664",
+    "name": "NARUTO",
+    "source": "supplied native face mesh, offline CPU render",
+    "generated_AI_photo": false,
+    "large_size": [
+      184,
+      256
+    ],
+    "mini_size": [
+      128,
+      128
+    ],
+    "uniform_scale": true,
+    "native_background_uses_transparent_foreground": true
+  },
+  {
+    "id": "105873896755947",
+    "name": "ORC",
+    "source": "supplied native face mesh, offline CPU render",
+    "generated_AI_photo": false,
+    "large_size": [
+      184,
+      256
+    ],
+    "mini_size": [
+      128,
+      128
+    ],
+    "uniform_scale": true,
+    "native_background_uses_transparent_foreground": true
+  },
+  {
+    "id": "105647605587130",
+    "name": "SPIDER-MAN",
+    "source": "supplied native face mesh, offline CPU render",
+    "generated_AI_photo": false,
+    "large_size": [
+      184,
+      256
+    ],
+    "mini_size": [
+      128,
+      128
+    ],
+    "uniform_scale": true,
+    "native_background_uses_transparent_foreground": true
+  },
+  {
+    "id": "106754901843130",
+    "name": "HULK",
+    "source": "supplied native face mesh, offline CPU render",
+    "generated_AI_photo": false,
+    "large_size": [
+      184,
+      256
+    ],
+    "mini_size": [
+      128,
+      128
+    ],
+    "uniform_scale": true,
+    "native_background_uses_transparent_foreground": true
+  }
+]

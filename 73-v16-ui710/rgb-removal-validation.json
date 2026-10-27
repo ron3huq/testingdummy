@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "six_native_palettes_retained": true,
+  "custom_RGB_rejected": true,
+  "SQL_original_backup_verified": true,
+  "celebrations_and_native_palette_preserved": true,
+  "migration_idempotent": true,
+  "RGB_asset_advertiser_and_native_profile_registration_removed": true,
+  "device_tested": false
+}

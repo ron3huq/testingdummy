@@ -1,0 +1,20 @@
+[
+  {
+    "id": "105804908868664",
+    "source_mesh": "/tmp/73-ui710/new-head-export/Game/Assets/character/RealFace/SK_NNAR_Face.psk",
+    "method": "CPU Blender render from the supplied mesh and its source diffuse textures",
+    "geometry_modified": false,
+    "output": "/tmp/73-ui710/art/105804908868664-render.png",
+    "face_vertices": 49730,
+    "triangles": 59999
+  },
+  {
+    "id": "105873896755947",
+    "source_mesh": "/tmp/73-ui710/new-head-export/Game/Assets/character/RealFace/SK_NORC_Face.psk",
+    "method": "CPU Blender render from the supplied mesh and its source diffuse textures",
+    "geometry_modified": false,
+    "output": "/tmp/73-ui710/art/105873896755947-render.png",
+    "face_vertices": 35862,
+    "triangles": 60001
+  }
+]

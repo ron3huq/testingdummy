@@ -1,0 +1,336 @@
+{
+  "passed": true,
+  "all_four_variants": [
+    {
+      "asset": "character/RealFace/SK_NSPDlg00v0000_Face.uasset",
+      "native_reference_bone_transforms_restored": 166,
+      "different_before_bones": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "bone_order_and_parent_indices_preserved": true,
+      "inverse_bind_basis": "Derived by Unreal from the exact native166 reference transforms; no independent inverse-bind table is serialized in this UE4.26 mesh payload",
+      "body_vertices_and_scale_not_edited": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "active": 166,
+          "required": 166,
+          "cooked_out": false,
+          "inlined": true,
+          "all_weight_indices_valid": true,
+          "sum_weights255": true,
+          "section_BoneMaps": [
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ],
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ]
+          ]
+        },
+        {
+          "LOD": 1,
+          "active": 166,
+          "required": 166,
+          "cooked_out": false,
+          "inlined": true,
+          "all_weight_indices_valid": true,
+          "sum_weights255": true,
+          "section_BoneMaps": [
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ],
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "character/RealFace/SK_NSPDep01v0291_Face.uasset",
+      "native_reference_bone_transforms_restored": 166,
+      "different_before_bones": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "bone_order_and_parent_indices_preserved": true,
+      "inverse_bind_basis": "Derived by Unreal from the exact native166 reference transforms; no independent inverse-bind table is serialized in this UE4.26 mesh payload",
+      "body_vertices_and_scale_not_edited": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "active": 166,
+          "required": 166,
+          "cooked_out": false,
+          "inlined": true,
+          "all_weight_indices_valid": true,
+          "sum_weights255": true,
+          "section_BoneMaps": [
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ],
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ]
+          ]
+        },
+        {
+          "LOD": 1,
+          "active": 166,
+          "required": 166,
+          "cooked_out": false,
+          "inlined": true,
+          "all_weight_indices_valid": true,
+          "sum_weights255": true,
+          "section_BoneMaps": [
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ],
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "character/RealFace/SK_NSPDep00v0313_Face.uasset",
+      "native_reference_bone_transforms_restored": 166,
+      "different_before_bones": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "bone_order_and_parent_indices_preserved": true,
+      "inverse_bind_basis": "Derived by Unreal from the exact native166 reference transforms; no independent inverse-bind table is serialized in this UE4.26 mesh payload",
+      "body_vertices_and_scale_not_edited": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "active": 166,
+          "required": 166,
+          "cooked_out": false,
+          "inlined": true,
+          "all_weight_indices_valid": true,
+          "sum_weights255": true,
+          "section_BoneMaps": [
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ],
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ]
+          ]
+        },
+        {
+          "LOD": 1,
+          "active": 166,
+          "required": 166,
+          "cooked_out": false,
+          "inlined": true,
+          "all_weight_indices_valid": true,
+          "sum_weights255": true,
+          "section_BoneMaps": [
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ],
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "character/RealFace/SK_NSPD_Face.uasset",
+      "native_reference_bone_transforms_restored": 166,
+      "different_before_bones": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "bone_order_and_parent_indices_preserved": true,
+      "inverse_bind_basis": "Derived by Unreal from the exact native166 reference transforms; no independent inverse-bind table is serialized in this UE4.26 mesh payload",
+      "body_vertices_and_scale_not_edited": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "active": 166,
+          "required": 166,
+          "cooked_out": false,
+          "inlined": true,
+          "all_weight_indices_valid": true,
+          "sum_weights255": true,
+          "section_BoneMaps": [
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ],
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ]
+          ]
+        },
+        {
+          "LOD": 1,
+          "active": 166,
+          "required": 166,
+          "cooked_out": false,
+          "inlined": true,
+          "all_weight_indices_valid": true,
+          "sum_weights255": true,
+          "section_BoneMaps": [
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ],
+            [
+              7,
+              6,
+              5,
+              4,
+              8,
+              72,
+              106
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "native_source": "73 host40122 skeleton, not an arbitrary external template",
+  "all_non_Spider_packages_unchanged": true,
+  "Android_replay_and_celebration_tested": false
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "production_ARM64": true,
+  "six_native_types": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unknown_and_GK_types_rejected": true,
+  "all_other_accessory_fields_preserved": true,
+  "Ronaldo_left_wrist_white_preserved": true,
+  "user_sleeve_wins_all_contexts": true,
+  "device_tested": false
+}
