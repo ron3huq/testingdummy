@@ -1,0 +1,16 @@
+{
+  "cr70": {
+    "changed_pixels": 976,
+    "protected_front_and_other_skin_uv_pixels_unchanged": true,
+    "outside_nape_mask_byte_identical": true,
+    "new_hairline_center_z_m": 1.598,
+    "image": "cr70-face-bsm-nape-v5.png"
+  },
+  "cr700": {
+    "changed_pixels": 30057,
+    "protected_front_and_other_skin_uv_pixels_unchanged": true,
+    "outside_nape_mask_byte_identical": true,
+    "new_hairline_center_z_m": 1.598,
+    "image": "cr700-face-bsm-nape-v5.png"
+  }
+}

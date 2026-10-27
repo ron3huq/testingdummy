@@ -1,0 +1,14 @@
+{
+  "face_neck_scalp_geometry_topology_unchanged": true,
+  "skeleton_unchanged": true,
+  "original_packed_images_retained_byte_identical": true,
+  "new_nape_images": 2,
+  "texture_mask_checked_separately": true,
+  "hair_vertices": 12872,
+  "hair_triangles": 12130,
+  "underlay_vertices": 722,
+  "uv_max_error": 1.390775045129189e-07,
+  "weight_max_error": 2.9755218622362634e-08,
+  "hair_uses_original_hair_and_skin_weight_interpolation": true,
+  "game_tested": false
+}
