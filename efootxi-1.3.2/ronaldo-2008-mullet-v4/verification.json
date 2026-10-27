@@ -1,0 +1,14 @@
+{
+  "face_neck_scalp_and_other_meshes_unchanged": true,
+  "skeleton_unchanged": true,
+  "all_packed_images_byte_identical": true,
+  "hair_only_material_changes": true,
+  "hair_geometry_rebuilt_as_narrow_ribbons": true,
+  "hair_vertices": 10298,
+  "hair_triangles": 9712,
+  "uvs_interpolated_from_original_hair": true,
+  "uv_max_error": 1.1920928943975895e-07,
+  "weights_interpolated_from_original_hair": true,
+  "weight_max_error": 2.9678466240135037e-08,
+  "game_tested": false
+}
