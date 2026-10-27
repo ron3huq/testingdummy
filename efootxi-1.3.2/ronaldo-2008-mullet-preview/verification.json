@@ -1,0 +1,10 @@
+{
+  "only_changed_mesh": "hair_high_01_fox_hair_mat",
+  "all_other_mesh_positions_unchanged": true,
+  "all_topology_uvs_weights_unchanged": true,
+  "all_packed_images_byte_identical": true,
+  "material_nodes_and_inputs_unchanged": true,
+  "skeleton_unchanged": true,
+  "added_objects": 0,
+  "game_tested": false
+}
