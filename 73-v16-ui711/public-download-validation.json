@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "release_commit": "64516eb56ebdca9c2c372c74cd151ae63970b373",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/ron3huq/testingdummy/refs/heads/chat-downloads/73-v16-ui711/V25-73-UI7.11-FULL-Part3-Ronaldo-Faces-MT.zip",
+      "http": 200,
+      "bytes": 79652116,
+      "sha256": "b9c8c8fb5091ef6bba6ab9943509fec35c932ed42d6cd6c203d4b058e31db3d5",
+      "matches_release": true,
+      "seconds": 4.4
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ron3huq/testingdummy/refs/heads/chat-downloads/73-v16-ui711/V25-73-UI7.11-FULL-Part2-Main-MT.zip",
+      "http": 200,
+      "bytes": 79947720,
+      "sha256": "e4a5889f3702e590ded403aa474a7edb704abdebeef8a6d9271e4db20af4bb7a",
+      "matches_release": true,
+      "seconds": 4.2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ron3huq/testingdummy/refs/heads/chat-downloads/73-v16-ui7/V25-73-UI7-FULL-Part1-Faces-MT.zip",
+      "http": 200,
+      "bytes": 92617158,
+      "sha256": "936558cb02c6aa480a66365c8e5dff7527b7ee3f06526403469613f1825d4e4f",
+      "matches_release": true,
+      "seconds": 5.1
+    }
+  ]
+}
