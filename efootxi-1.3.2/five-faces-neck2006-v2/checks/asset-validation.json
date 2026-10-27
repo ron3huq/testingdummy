@@ -1,0 +1,240 @@
+{
+  "phone_tested": false,
+  "reader": "independent UEViewer",
+  "heads": {
+    "hulk": [
+      {
+        "variant": "base",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 50792,
+          "triangles": 36414,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "lg00v0000",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 50792,
+          "triangles": 36414,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep01v0291",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 50792,
+          "triangles": 36414,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep00v0313",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 50792,
+          "triangles": 36414,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      }
+    ],
+    "orc": [
+      {
+        "variant": "base",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 35859,
+          "triangles": 60000,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "lg00v0000",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 35859,
+          "triangles": 60000,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep01v0291",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 35859,
+          "triangles": 60000,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep00v0313",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 35859,
+          "triangles": 60000,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      }
+    ],
+    "ronaldo": [
+      {
+        "variant": "base",
+        "native_166_bind_matrices_identical": true,
+        "face": {
+          "vertices": 743,
+          "triangles": 1222,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        },
+        "hair": {
+          "vertices": 2097,
+          "triangles": 2164,
+          "position_error_m": 1.201514409696321e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "lg00v0000",
+        "native_166_bind_matrices_identical": true,
+        "face": {
+          "vertices": 743,
+          "triangles": 1222,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        },
+        "hair": {
+          "vertices": 2097,
+          "triangles": 2164,
+          "position_error_m": 1.201514409696321e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep01v0291",
+        "native_166_bind_matrices_identical": true,
+        "face": {
+          "vertices": 743,
+          "triangles": 1222,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        },
+        "hair": {
+          "vertices": 2097,
+          "triangles": 2164,
+          "position_error_m": 1.201514409696321e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep00v0313",
+        "native_166_bind_matrices_identical": true,
+        "face": {
+          "vertices": 743,
+          "triangles": 1222,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        },
+        "hair": {
+          "vertices": 2097,
+          "triangles": 2164,
+          "position_error_m": 1.201514409696321e-07,
+          "weights_normalized": true
+        }
+      }
+    ],
+    "joker": [
+      {
+        "variant": "base",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 48883,
+          "triangles": 82961,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "lg00v0000",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 48883,
+          "triangles": 82961,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep01v0291",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 48883,
+          "triangles": 82961,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep00v0313",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 48883,
+          "triangles": 82961,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      }
+    ],
+    "naruto": [
+      {
+        "variant": "base",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 49727,
+          "triangles": 59998,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "lg00v0000",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 49727,
+          "triangles": 59998,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep01v0291",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 49727,
+          "triangles": 59998,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      },
+      {
+        "variant": "ep00v0313",
+        "native_166_bind_matrices_identical": true,
+        "head": {
+          "vertices": 49727,
+          "triangles": 59998,
+          "position_error_m": 1.1920928955078125e-07,
+          "weights_normalized": true
+        }
+      }
+    ]
+  }
+}

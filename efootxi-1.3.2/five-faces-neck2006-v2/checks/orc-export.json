@@ -1,0 +1,10 @@
+{
+  "kind": "orc",
+  "vertices": 35859,
+  "triangles": 60000,
+  "neck_source": "Ronaldo 2006 actual source mesh; lower neck coordinates preserved, upper overlap fitted",
+  "head_geometry_source": "supplied model",
+  "new_authored_colour": false,
+  "fixed_facial_expression": true,
+  "phone_tested": false
+}

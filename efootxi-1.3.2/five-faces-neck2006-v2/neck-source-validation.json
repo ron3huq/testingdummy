@@ -1,0 +1,10 @@
+{
+  "source": "original face_high.fmdl mesh0 only",
+  "original_vertices": 239,
+  "original_triangles": 373,
+  "source_lower_neck_unchanged_below_z": 1.55,
+  "cut_boundary_vertices": 58,
+  "other_face_scalp_collar_meshes_added": false,
+  "upper_bridge_added_per_head": true,
+  "phone_tested": false
+}

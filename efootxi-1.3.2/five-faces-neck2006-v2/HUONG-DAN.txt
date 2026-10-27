@@ -1,0 +1,41 @@
+BẢN SỬA CỔ NARUTO / ORC V2
+Naruto: cùng màu đầu/cổ, chung lưới tại đường nối, bỏ nắp và mép chồng.
+Orc: đổi mặt sang tông da người cùng cổ theo yêu cầu mới, thu gọn thân cổ, nối chung mép lưới. Không thay Skin ID toàn thân của game.
+
+NĂM FACE — CỔ RONALDO 2006, GÓI THỬ ANDROID
+
+HULK: 53878485695166
+ORC: 70379213169392
+RONALDO: 89135066911146
+JOKER: 106783087647748
+NARUTO: 106783356083208
+
+Joker dùng thẻ Ito theo ID đã xác nhận. Gói này nạp đồng thời cả năm face; thay bộ nạp face thử trước. Các thẻ ngoài bảng giữ face game gốc. Không gồm Venom, Spider-Man hay Ronaldo V2 thẻ 88044950524330. Muốn quay về gói cũ thì cài lại gói cũ.
+
+CÀI GAME
+Buộc dừng game. Giải nén FIVE-FACES-NECK2006-ANDROID-TRIAL.zip. Chép gộp CẢ work/ và livedata/ vào files/embedded-gateway/, ghi đè đủ 8 file. Không lồng thêm thư mục ZIP. Mở lại game và cho tải dữ liệu nếu được yêu cầu. Không xóa save hay dữ liệu ứng dụng.
+Chỉ dùng trong môi trường efootxi 1.3.2 Android ARM64 đang được hỗ trợ. Bộ nạp kiểm tra hash libUE4 và prologue, sai bản sẽ dừng.
+Trạng thái: work/tools/noodle-hair-status.json; version five-faces-neck2006-v1.
+Tắt: buộc dừng, chép work/ từ Tat-nam-face.zip vào files/embedded-gateway/, mở lại.
+
+LƯU Ý V2: Naruto và Orc được dựng lại bề mặt liên tục để xóa mép ráp. Vùng da đầu/cổ được lấy mẫu lại và giảm lưới cho mobile, vì vậy ghi chú giữ nguyên tọa độ cổ bên dưới chỉ còn áp dụng cho các face không sửa ở V2. Hình dáng và màu được kiểm tra qua ảnh nhiều góc. Orc dùng tông da người, không tự đổi màu da toàn thân hoặc Skin ID.
+
+NGUỒN VÀ PHẦN THAY ĐỔI
+Hulk: giữ hình dáng đầu của bản đã giao, đăng ký vị trí cao thêm 4cm để khớp rig/cổ; bỏ cổ cũ và phần da cũ chồng ở dưới hàm. Cổ mới lấy từ face_high.fmdl mesh0 của Ronaldo 2006, giữ da xanh để khớp mặt.
+Orc: giữ hình dáng đầu Orc từ mô hình đã gửi, đổi da mặt sang màu da người, bỏ phần cổ/bust Orc. Cổ mới từ Ronaldo 2006 và giữ màu da người và đồng bộ mặt/cổ theo lựa chọn mới. Gói không đổi skin toàn thân hay Skin ID của game.
+Naruto: chỉ lấy kepala, rambut, ikat_kepal, mata, mulut từ naruto.3ds; loại baju, celana, kaki, tangan. Dùng cổ Ronaldo 2006. Mô hình chỉ được đổi trục/tỉ lệ đồng đều và đăng ký vị trí; phần dưới hàm/cổ được cắt để nối.
+Joker: dùng sculpt trong Jack+Nicholson+Joker.blend. Giảm lưới cho mobile, cắt phần cổ/bust cũ ở dưới hàm; nối vào cổ 2006. Nguồn không có texture màu dùng được (ảnh duy nhất là ảnh đen trống).
+Naruto thiếu BODY.PNG, MATA.PNG và MULUT.PNG. Theo lựa chọn của bạn, Joker và Naruto dùng màu/makeup/chi tiết mắt mới được dựng, không phải texture gốc. Vì vậy không thể xem đây là bản sao màu hoàn toàn chính xác từ nguồn hay phim.
+Cổ: giữ hình học cổ dưới Ronaldo 2006 đến mặt cắt z=1.55m trong hệ tọa độ dựng. Phần nối phía trên được tạo từ đường biên cổ gốc và khớp đường cắt dưới hàm của từng đầu; không ghép lại các mảng scalp, mặt và collar AO cũ chồng nhau. Đây là phần ghép cho game, không phải giữ nguyên từng đỉnh của toàn bộ cổ 2006.
+Ronaldo: ronaldo 2009.rar chỉ có FTEX, không có model. Theo lựa chọn của bạn, dùng diffuse mặt/tóc 2009 trên nguồn hình học đầu/tóc Ronaldo 2006. Bản mobile chuyển bề mặt da 2006 lên topology native 743 đỉnh, giữ thứ tự đỉnh, trọng số mặt native, vị trí quanh mắt native, UV shader phụ/vertex colour và 166 bind gốc. Tóc giữ mesh 2006 và dùng màu/alpha 2009. Không dùng mesh V2/V3/V4 hay tạo một model 2009 chưa có trong nguồn.
+
+CỬ ĐỘNG VÀ GIỚI HẠN
+Hulk, Orc, Joker, Naruto giữ biểu cảm của sculpt, có skinning đầu/cổ/ngực. Không tạo rig biểu cảm há miệng/chớp mắt riêng cho các đầu này. Ronaldo giữ dữ liệu rig mặt và common-eye gốc; các mắt cầu trong Blender chỉ là helper xem trước, không thêm vào gói game.
+Bản game dùng các LOD phù hợp giới hạn chỉ số 16-bit; không thể giữ mọi đỉnh của sculpt lớn. Texture atlas được nén ETC2 nên có sai số nén.
+Đã kiểm tra bộ nạp trên host bằng mã ARM64 thực thi trong Unicorn với thân hàm engine mô phỏng; đã kiểm tra phạm vi từng Card ID và fallback. Đọc ngược tài nguyên bằng UEViewer để so hình học, UV, trọng số, texture và 166 bind gốc; thử các pose đầu/cổ với dữ liệu trọng số 8-bit đã cooked.
+Chưa thử renderer Android, ráp cổ/áo/thân, trận/replay/ăn mừng, chớp/liếc mắt Ronaldo và hiệu năng trên đúng điện thoại của bạn. Không thể cam kết giống tuyệt đối hoặc không lỗi trong mọi cảnh trước khi thử trực tiếp.
+
+BLENDER VÀ ẢNH
+FIVE-FACES-BLEND.zip chứa cả năm .blend đã pack atlas và có rig native tham chiếu. Các ảnh là render Blender; không phải ảnh chụp game. Các ảnh *_views.jpg để kiểm tra chính diện, 3/4, nghiêng và phía sau.
+
+KIỂM TRA V2: Vùng cổ lộ từ z=1.52m trở lên không có tam giác đổi hướng trong bốn pose đã thử cho Naruto và Orc. Vùng nối trọng số được chuyển xuống phần thấp, dự kiến nằm trong áo. Có tam giác rất mảnh ở phần bust thấp z~1.44–1.50m đổi hướng pháp tuyến khi xoay đầu; phần này dự kiến nằm trong áo. Ráp áo/thân và cổ áo trên điện thoại chưa được thử.

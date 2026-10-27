@@ -1,0 +1,10 @@
+{
+  "kind": "hulk",
+  "vertices": 50792,
+  "triangles": 36414,
+  "neck_source": "Ronaldo 2006 actual source mesh; lower neck coordinates preserved, upper overlap fitted",
+  "head_geometry_source": "previous delivered Hulk LOD",
+  "new_authored_colour": false,
+  "fixed_facial_expression": true,
+  "phone_tested": false
+}

@@ -1,0 +1,7 @@
+--- EtcTool/EtcTool.cpp
++++ EtcTool/EtcTool.cpp
+@@
+- ptrOutputDir = new char[c];
++ ptrOutputDir = new char[c + 1];
+  strncpy(ptrOutputDir, pstrOutputFilename, c);
+  ptrOutputDir[c] = '\0';

@@ -1,0 +1,286 @@
+{
+  "phone_tested": false,
+  "source": "independent cooked meshes and 8-bit weights",
+  "heads": {
+    "hulk": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.11929154396057129
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.09873324632644653
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.02680116891860962
+        },
+        {
+          "z": 1.58,
+          "posterior_y": 0.023799538612365723
+        }
+      ],
+      "jaw_bone_available": true
+    },
+    "orc": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 3,
+          "reversed_total_rest_area_m2": 1.7038833752832688e-06,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 5,
+          "reversed_total_rest_area_m2": 4.188508524996239e-07,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 17,
+          "reversed_total_rest_area_m2": 1.8243380604166942e-05,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 13,
+          "reversed_total_rest_area_m2": 1.0671273813248523e-05,
+          "visible_neck_reversed_triangles": 0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.1169324517250061
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.08117979764938354
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.02798473834991455
+        },
+        {
+          "z": 1.58,
+          "posterior_y": 0.02957180142402649
+        }
+      ],
+      "jaw_bone_available": true
+    },
+    "ronaldo": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.11734962463378906
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.09873813390731812
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.026821672916412354
+        },
+        {
+          "z": 1.58,
+          "posterior_y": 0.01060575246810913
+        }
+      ],
+      "jaw_bone_available": true
+    },
+    "joker": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 0,
+          "reversed_total_rest_area_m2": 0.0,
+          "visible_neck_reversed_triangles": 0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.11929154396057129
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.09873324632644653
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.02680116891860962
+        },
+        {
+          "z": 1.58,
+          "posterior_y": 0.021804004907608032
+        }
+      ],
+      "jaw_bone_available": true
+    },
+    "naruto": {
+      "native_bones": 166,
+      "poses": [
+        {
+          "head_local_axis": 0,
+          "degrees": 20,
+          "finite": true,
+          "reversed_triangles": 4,
+          "reversed_total_rest_area_m2": 2.618699680856494e-06,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 1,
+          "degrees": -20,
+          "finite": true,
+          "reversed_triangles": 6,
+          "reversed_total_rest_area_m2": 1.264859748863639e-06,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": -30,
+          "finite": true,
+          "reversed_triangles": 18,
+          "reversed_total_rest_area_m2": 1.2293463553225492e-05,
+          "visible_neck_reversed_triangles": 0
+        },
+        {
+          "head_local_axis": 2,
+          "degrees": 30,
+          "finite": true,
+          "reversed_triangles": 25,
+          "reversed_total_rest_area_m2": 3.8241194066682336e-05,
+          "visible_neck_reversed_triangles": 0
+        }
+      ],
+      "posterior_neck_rays": [
+        {
+          "z": 1.46,
+          "posterior_y": -0.09446549415588379
+        },
+        {
+          "z": 1.5,
+          "posterior_y": -0.05965608358383179
+        },
+        {
+          "z": 1.54,
+          "posterior_y": 0.026792198419570923
+        },
+        {
+          "z": 1.58,
+          "posterior_y": -0.002820312976837158
+        }
+      ],
+      "jaw_bone_available": true
+    }
+  }
+}
