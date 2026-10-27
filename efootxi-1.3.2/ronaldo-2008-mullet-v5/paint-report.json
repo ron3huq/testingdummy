@@ -1,16 +1,16 @@
 {
   "cr70": {
-    "changed_pixels": 976,
+    "changed_pixels": 0,
     "protected_front_and_other_skin_uv_pixels_unchanged": true,
     "outside_nape_mask_byte_identical": true,
-    "new_hairline_center_z_m": 1.598,
+    "new_hairline_center_z_m": 1.602,
     "image": "cr70-face-bsm-nape-v5.png"
   },
   "cr700": {
-    "changed_pixels": 30057,
+    "changed_pixels": 76620,
     "protected_front_and_other_skin_uv_pixels_unchanged": true,
     "outside_nape_mask_byte_identical": true,
-    "new_hairline_center_z_m": 1.598,
+    "new_hairline_center_z_m": 1.602,
     "image": "cr700-face-bsm-nape-v5.png"
   }
 }
