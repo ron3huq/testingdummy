@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "commit": "03be3ec1dc63e1178a01235334b605a14c2f4857",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/ron3huq/testingdummy/refs/heads/chat-downloads/73-v16-ui710/V25-73-UI7.10-FULL-Part2-Main-MT.zip",
+      "http": 200,
+      "bytes": 79785434,
+      "sha256": "096238f7fb8f1708d9a6786d468c6261f9de8b4d9b52a3c5998b1551c9f8c62b",
+      "matches_release": true,
+      "seconds": 3.6
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ron3huq/testingdummy/refs/heads/chat-downloads/73-v16-ui7/V25-73-UI7-FULL-Part1-Faces-MT.zip",
+      "http": 200,
+      "bytes": 92617158,
+      "sha256": "936558cb02c6aa480a66365c8e5dff7527b7ee3f06526403469613f1825d4e4f",
+      "matches_release": true,
+      "seconds": 3.7
+    }
+  ]
+}
