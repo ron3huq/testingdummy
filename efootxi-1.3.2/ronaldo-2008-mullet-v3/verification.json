@@ -1,0 +1,15 @@
+{
+  "only_tail_and_upper_lock_positions_changed": true,
+  "side_geometry_outside_mullet_unchanged": true,
+  "rear_tip_extension_m": 0.019999980926513672,
+  "old_tail_width_m": 0.130145862698555,
+  "new_tail_width_m": 0.14092352241277695,
+  "only_changed_mesh": "hair_high_01_fox_hair_mat",
+  "all_other_mesh_positions_unchanged": true,
+  "all_topology_uvs_weights_unchanged": true,
+  "all_packed_images_byte_identical": true,
+  "only_hair_material_response_changed": true,
+  "skeleton_unchanged": true,
+  "added_objects": 0,
+  "game_tested": false
+}
