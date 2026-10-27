@@ -1,0 +1,16 @@
+{
+  "orc": {
+    "card_id": "70379213169392",
+    "neck_vertices": 179,
+    "max_cooked_neck_position_error_m": 1.1944189326376765e-07,
+    "neck_atlas_duplicates_identical_weights": true,
+    "phone_tested": false
+  },
+  "naruto": {
+    "card_id": "106783356083208",
+    "neck_vertices": 179,
+    "max_cooked_neck_position_error_m": 1.1944189326376765e-07,
+    "neck_atlas_duplicates_identical_weights": true,
+    "phone_tested": false
+  }
+}
