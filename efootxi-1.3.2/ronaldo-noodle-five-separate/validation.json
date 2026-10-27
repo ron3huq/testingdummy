@@ -1,0 +1,67 @@
+{
+  "105572980600878": {
+    "file": "105572980600878.zip",
+    "size": 17180004,
+    "sha256": "665c4f9c474b1a659719d78a5c3c09aa02b43ccc9540a28d265cf848d3bb4d9b",
+    "private_prefix": "ND01",
+    "game_files": 8,
+    "private_asset_files": 34,
+    "packages": 21,
+    "original_v2_asset_bytes_identical": true,
+    "only_target_card": "105572980600878",
+    "other_four_pass_through": true,
+    "phone_tested": false
+  },
+  "105577812455608": {
+    "file": "105577812455608.zip",
+    "size": 14651814,
+    "sha256": "d443adcf4c484235e8c2bb3b0e0d3ecc5066c6f9991e98d821625c04b42ffbd5",
+    "private_prefix": "ND02",
+    "game_files": 8,
+    "private_asset_files": 34,
+    "packages": 21,
+    "original_v2_asset_bytes_identical": true,
+    "only_target_card": "105577812455608",
+    "other_four_pass_through": true,
+    "phone_tested": false
+  },
+  "105710151126263": {
+    "file": "105710151126263.zip",
+    "size": 16202960,
+    "sha256": "cc5e9874be0df6180cfca8fd3cfd397313fbf389851adea7c383e4ec12c044f7",
+    "private_prefix": "ND03",
+    "game_files": 8,
+    "private_asset_files": 34,
+    "packages": 21,
+    "original_v2_asset_bytes_identical": true,
+    "only_target_card": "105710151126263",
+    "other_four_pass_through": true,
+    "phone_tested": false
+  },
+  "105768133207973": {
+    "file": "105768133207973.zip",
+    "size": 15312540,
+    "sha256": "c8d2709e0732df3ae8d4a8ba5ed586b7536a8fbbb1c98d6535a9884099279c39",
+    "private_prefix": "ND04",
+    "game_files": 8,
+    "private_asset_files": 34,
+    "packages": 21,
+    "original_v2_asset_bytes_identical": true,
+    "only_target_card": "105768133207973",
+    "other_four_pass_through": true,
+    "phone_tested": false
+  },
+  "105820478135535": {
+    "file": "105820478135535.zip",
+    "size": 16661432,
+    "sha256": "daff9c7118f7e4d54cf55a3fb9294713f8787d99b9bdd4bb90d3cdd338453f67",
+    "private_prefix": "ND05",
+    "game_files": 8,
+    "private_asset_files": 34,
+    "packages": 21,
+    "original_v2_asset_bytes_identical": true,
+    "only_target_card": "105820478135535",
+    "other_four_pass_through": true,
+    "phone_tested": false
+  }
+}
