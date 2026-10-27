@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "production_ARM64": true,
+  "original73_converter_and_socks_material_prefix_executed": [
+    {
+      "native_socks_enum": 0,
+      "material_scalar": 1.0
+    },
+    {
+      "native_socks_enum": 1,
+      "material_scalar": 2.0
+    },
+    {
+      "native_socks_enum": 2,
+      "material_scalar": 3.0
+    }
+  ],
+  "serialized_other_fields_unchanged": true,
+  "eight_accessory_flags_and_colors_verified": true,
+  "native_undershirt_types": [
+    8,
+    9
+  ],
+  "Android_tested": false
+}

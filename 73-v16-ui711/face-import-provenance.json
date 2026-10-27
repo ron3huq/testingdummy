@@ -1,0 +1,37 @@
+[
+  {
+    "card_id": "105837926394281",
+    "namespace": "NCA1",
+    "source": "/tmp/73-ui711/input/105837926394281/livedata/pc9298_mobile_and.utoc",
+    "assets": 34,
+    "trial_native_library_imported": false
+  },
+  {
+    "card_id": "88040387132864",
+    "namespace": "NCA2",
+    "source": "/tmp/73-ui711/input/88040387132864/livedata/pc9298_mobile_and.utoc",
+    "assets": 34,
+    "trial_native_library_imported": false
+  },
+  {
+    "card_id": "106654775417922",
+    "namespace": "NCA3",
+    "source": "/tmp/73-ui711/input/106654775417922/livedata/pc9298_mobile_and.utoc",
+    "assets": 34,
+    "trial_native_library_imported": false
+  },
+  {
+    "card_id": "105758469512061",
+    "namespace": "NCA4",
+    "source": "/tmp/73-ui711/input/105758469512061/105758469512061/livedata/pc9298_mobile_and.utoc",
+    "assets": 34,
+    "trial_native_library_imported": false
+  },
+  {
+    "card_id": "105563585358239",
+    "namespace": "NCA5",
+    "source": "/tmp/73-ui711/input/105563585358239/livedata/pc9298_mobile_and.utoc",
+    "assets": 34,
+    "trial_native_library_imported": false
+  }
+]

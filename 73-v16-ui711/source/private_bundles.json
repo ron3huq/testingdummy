@@ -1,0 +1,53 @@
+{
+  "version": "73-ui7.11",
+  "files": {
+    "pc9308_mobile_and.ucas": {
+      "size": 80051684,
+      "sha256": "017196a4670bf6243a160965f8014f37d4e4bacd32bbc95b19f2c5cd07514744"
+    },
+    "pc9308_mobile_and.utoc": {
+      "size": 57709,
+      "sha256": "00ec09c2a33720aee86ab9a9b48032b7b8decd65d825c221b3d3641ab508839f"
+    },
+    "pc9308_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "pc9307_mobile_and.ucas": {
+      "size": 19679617,
+      "sha256": "2b54a58810b12cd4a3b685b90982941c7c865df5424b1e637935f3ad29c4ca8f"
+    },
+    "pc9307_mobile_and.utoc": {
+      "size": 12981,
+      "sha256": "27e1bf1a22629e9ae1e53602b0da4b8b3e35674d666372e21a4ba78758c862d9"
+    },
+    "pc9307_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "pc9306_mobile_and.ucas": {
+      "size": 805390,
+      "sha256": "ef9c3ced1f336d140304df131106048cd6a731fb045dab54361bf23be4eff5a7"
+    },
+    "pc9306_mobile_and.utoc": {
+      "size": 6464,
+      "sha256": "1558343f607f54026c66d6a51c7198c463aad29f63da847dcab58593bb053c82"
+    },
+    "pc9306_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "pc9305_mobile_and.ucas": {
+      "size": 17282391,
+      "sha256": "0c3d6b6d3c5e2010c9f293423e4e8c0962e9061d9c8b97e3fb8e2e11abfdc9cf"
+    },
+    "pc9305_mobile_and.utoc": {
+      "size": 12645,
+      "sha256": "12f5774ceb2b1f5dad0c6f473941ac3d15d2a4317dc2a2881e216d8fe89f8807"
+    },
+    "pc9305_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    }
+  }
+}

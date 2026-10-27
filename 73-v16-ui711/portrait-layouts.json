@@ -1,0 +1,152 @@
+[
+  {
+    "id": "105563585358239",
+    "source_dimensions": [
+      1750,
+      2432
+    ],
+    "source_face_box": [
+      610,
+      180,
+      945,
+      665
+    ],
+    "mini_head_height_px": 102.4,
+    "large_head_height_px": 70,
+    "mini_dimensions": [
+      128,
+      128
+    ],
+    "large_dimensions": [
+      184,
+      256
+    ],
+    "same_scale_for_both_axes": true,
+    "generated_face": false
+  },
+  {
+    "id": "105758469512061",
+    "source_dimensions": [
+      1632,
+      2590
+    ],
+    "source_face_box": [
+      835,
+      225,
+      1210,
+      700
+    ],
+    "mini_head_height_px": 102.4,
+    "large_head_height_px": 70,
+    "mini_dimensions": [
+      128,
+      128
+    ],
+    "large_dimensions": [
+      184,
+      256
+    ],
+    "same_scale_for_both_axes": true,
+    "generated_face": false
+  },
+  {
+    "id": "105837926394281",
+    "source_dimensions": [
+      1984,
+      2118
+    ],
+    "source_face_box": [
+      900,
+      110,
+      1250,
+      670
+    ],
+    "mini_head_height_px": 102.4,
+    "large_head_height_px": 70,
+    "mini_dimensions": [
+      128,
+      128
+    ],
+    "large_dimensions": [
+      184,
+      256
+    ],
+    "same_scale_for_both_axes": true,
+    "generated_face": false
+  },
+  {
+    "id": "106654775417922",
+    "source_dimensions": [
+      1696,
+      2528
+    ],
+    "source_face_box": [
+      755,
+      110,
+      1060,
+      545
+    ],
+    "mini_head_height_px": 102.4,
+    "large_head_height_px": 70,
+    "mini_dimensions": [
+      128,
+      128
+    ],
+    "large_dimensions": [
+      184,
+      256
+    ],
+    "same_scale_for_both_axes": true,
+    "generated_face": false
+  },
+  {
+    "id": "88040387132864",
+    "source_dimensions": [
+      1536,
+      2730
+    ],
+    "source_face_box": [
+      680,
+      670,
+      925,
+      1010
+    ],
+    "mini_head_height_px": 102.4,
+    "large_head_height_px": 70,
+    "mini_dimensions": [
+      128,
+      128
+    ],
+    "large_dimensions": [
+      184,
+      256
+    ],
+    "same_scale_for_both_axes": true,
+    "generated_face": false
+  },
+  {
+    "id": "88044950524330",
+    "source_dimensions": [
+      687,
+      1024
+    ],
+    "source_face_box": [
+      275,
+      39,
+      384,
+      190
+    ],
+    "mini_head_height_px": 102.4,
+    "large_head_height_px": 70,
+    "mini_dimensions": [
+      128,
+      128
+    ],
+    "large_dimensions": [
+      184,
+      256
+    ],
+    "same_scale_for_both_axes": true,
+    "generated_face": false
+  }
+]

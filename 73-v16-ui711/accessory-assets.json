@@ -1,0 +1,727 @@
+[
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_01/311010101/311010101/assets/pc0101_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Body/SK_Glove_pl.uasset",
+    "relative": "Body/SK_Glove_pl.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g901_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g701_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g611_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g601_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g311_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g301_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g201_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g111_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g101_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_L_Low_D.uasset",
+    "relative": "character/Gloves/T_g001_L_Low_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g901_Glove.uasset",
+    "relative": "character/Gloves/SK_g901_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g901_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g901_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_L_High_D.uasset",
+    "relative": "character/Gloves/T_g901_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_L_High_N.uasset",
+    "relative": "character/Gloves/T_g901_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_L_High_O.uasset",
+    "relative": "character/Gloves/T_g901_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_L_High_R.uasset",
+    "relative": "character/Gloves/T_g901_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g901_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g901_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_L_D.uasset",
+    "relative": "character/Gloves/T_g901_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g901_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g901_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_R_High_D.uasset",
+    "relative": "character/Gloves/T_g901_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_R_High_N.uasset",
+    "relative": "character/Gloves/T_g901_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_R_High_O.uasset",
+    "relative": "character/Gloves/T_g901_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g901_R_High_R.uasset",
+    "relative": "character/Gloves/T_g901_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g701_Glove.uasset",
+    "relative": "character/Gloves/SK_g701_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g701_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g701_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_L_D.uasset",
+    "relative": "character/Gloves/T_g701_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g701_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g701_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_L_High_D.uasset",
+    "relative": "character/Gloves/T_g701_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_L_High_N.uasset",
+    "relative": "character/Gloves/T_g701_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_L_High_O.uasset",
+    "relative": "character/Gloves/T_g701_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_L_High_R.uasset",
+    "relative": "character/Gloves/T_g701_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g701_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g701_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_R_High_D.uasset",
+    "relative": "character/Gloves/T_g701_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_R_High_N.uasset",
+    "relative": "character/Gloves/T_g701_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_R_High_O.uasset",
+    "relative": "character/Gloves/T_g701_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g701_R_High_R.uasset",
+    "relative": "character/Gloves/T_g701_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g611_Glove.uasset",
+    "relative": "character/Gloves/SK_g611_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g611_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g611_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_L_High_D.uasset",
+    "relative": "character/Gloves/T_g611_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_L_High_N.uasset",
+    "relative": "character/Gloves/T_g611_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_L_High_O.uasset",
+    "relative": "character/Gloves/T_g611_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_L_High_R.uasset",
+    "relative": "character/Gloves/T_g611_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g611_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g611_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_L_D.uasset",
+    "relative": "character/Gloves/T_g611_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g611_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g611_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_R_High_D.uasset",
+    "relative": "character/Gloves/T_g611_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_R_High_N.uasset",
+    "relative": "character/Gloves/T_g611_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_R_High_O.uasset",
+    "relative": "character/Gloves/T_g611_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g611_R_High_R.uasset",
+    "relative": "character/Gloves/T_g611_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g601_Glove.uasset",
+    "relative": "character/Gloves/SK_g601_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g601_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g601_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_L_High_D.uasset",
+    "relative": "character/Gloves/T_g601_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_L_High_N.uasset",
+    "relative": "character/Gloves/T_g601_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_L_High_O.uasset",
+    "relative": "character/Gloves/T_g601_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_L_High_R.uasset",
+    "relative": "character/Gloves/T_g601_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g601_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g601_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_L_D.uasset",
+    "relative": "character/Gloves/T_g601_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g601_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g601_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_R_High_D.uasset",
+    "relative": "character/Gloves/T_g601_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_R_High_N.uasset",
+    "relative": "character/Gloves/T_g601_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_R_High_O.uasset",
+    "relative": "character/Gloves/T_g601_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g601_R_High_R.uasset",
+    "relative": "character/Gloves/T_g601_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g311_Glove.uasset",
+    "relative": "character/Gloves/SK_g311_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g311_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g311_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_L_High_D.uasset",
+    "relative": "character/Gloves/T_g311_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_L_High_N.uasset",
+    "relative": "character/Gloves/T_g311_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_L_High_O.uasset",
+    "relative": "character/Gloves/T_g311_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_L_High_R.uasset",
+    "relative": "character/Gloves/T_g311_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g311_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g311_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_L_D.uasset",
+    "relative": "character/Gloves/T_g311_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g311_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g311_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_R_High_D.uasset",
+    "relative": "character/Gloves/T_g311_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_R_High_N.uasset",
+    "relative": "character/Gloves/T_g311_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_R_High_O.uasset",
+    "relative": "character/Gloves/T_g311_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g311_R_High_R.uasset",
+    "relative": "character/Gloves/T_g311_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g301_Glove.uasset",
+    "relative": "character/Gloves/SK_g301_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g301_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g301_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_L_High_D.uasset",
+    "relative": "character/Gloves/T_g301_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_L_High_N.uasset",
+    "relative": "character/Gloves/T_g301_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_L_High_O.uasset",
+    "relative": "character/Gloves/T_g301_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_L_High_R.uasset",
+    "relative": "character/Gloves/T_g301_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g301_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g301_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_L_D.uasset",
+    "relative": "character/Gloves/T_g301_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g301_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g301_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_R_High_D.uasset",
+    "relative": "character/Gloves/T_g301_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_R_High_N.uasset",
+    "relative": "character/Gloves/T_g301_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_R_High_O.uasset",
+    "relative": "character/Gloves/T_g301_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g301_R_High_R.uasset",
+    "relative": "character/Gloves/T_g301_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g201_Glove.uasset",
+    "relative": "character/Gloves/SK_g201_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g201_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g201_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_L_High_D.uasset",
+    "relative": "character/Gloves/T_g201_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_L_High_N.uasset",
+    "relative": "character/Gloves/T_g201_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_L_High_O.uasset",
+    "relative": "character/Gloves/T_g201_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_L_High_R.uasset",
+    "relative": "character/Gloves/T_g201_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g201_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g201_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_L_D.uasset",
+    "relative": "character/Gloves/T_g201_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g201_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g201_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_R_High_D.uasset",
+    "relative": "character/Gloves/T_g201_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_R_High_N.uasset",
+    "relative": "character/Gloves/T_g201_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_R_High_O.uasset",
+    "relative": "character/Gloves/T_g201_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g201_R_High_R.uasset",
+    "relative": "character/Gloves/T_g201_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g111_Glove.uasset",
+    "relative": "character/Gloves/SK_g111_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g111_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g111_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_L_High_D.uasset",
+    "relative": "character/Gloves/T_g111_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_L_High_N.uasset",
+    "relative": "character/Gloves/T_g111_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_L_High_O.uasset",
+    "relative": "character/Gloves/T_g111_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_L_High_R.uasset",
+    "relative": "character/Gloves/T_g111_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g111_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g111_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_L_D.uasset",
+    "relative": "character/Gloves/T_g111_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g111_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g111_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_R_High_D.uasset",
+    "relative": "character/Gloves/T_g111_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_R_High_N.uasset",
+    "relative": "character/Gloves/T_g111_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_R_High_O.uasset",
+    "relative": "character/Gloves/T_g111_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g111_R_High_R.uasset",
+    "relative": "character/Gloves/T_g111_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g101_Glove.uasset",
+    "relative": "character/Gloves/SK_g101_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g101_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g101_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_L_High_D.uasset",
+    "relative": "character/Gloves/T_g101_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_L_High_N.uasset",
+    "relative": "character/Gloves/T_g101_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_L_High_O.uasset",
+    "relative": "character/Gloves/T_g101_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_L_High_R.uasset",
+    "relative": "character/Gloves/T_g101_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g101_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g101_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_L_D.uasset",
+    "relative": "character/Gloves/T_g101_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g101_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g101_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_R_High_D.uasset",
+    "relative": "character/Gloves/T_g101_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_R_High_N.uasset",
+    "relative": "character/Gloves/T_g101_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_R_High_O.uasset",
+    "relative": "character/Gloves/T_g101_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g101_R_High_R.uasset",
+    "relative": "character/Gloves/T_g101_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/SK_g001_Glove.uasset",
+    "relative": "character/Gloves/SK_g001_Glove.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g001_Gloves_L_HQ.uasset",
+    "relative": "character/Gloves/MI_g001_Gloves_L_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_L_High_D.uasset",
+    "relative": "character/Gloves/T_g001_L_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_L_High_N.uasset",
+    "relative": "character/Gloves/T_g001_L_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_L_High_O.uasset",
+    "relative": "character/Gloves/T_g001_L_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_L_High_R.uasset",
+    "relative": "character/Gloves/T_g001_L_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g001_Gloves_MQ.uasset",
+    "relative": "character/Gloves/MI_g001_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_L_D.uasset",
+    "relative": "character/Gloves/T_g001_L_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/MI_g001_Gloves_R_HQ.uasset",
+    "relative": "character/Gloves/MI_g001_Gloves_R_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_R_High_D.uasset",
+    "relative": "character/Gloves/T_g001_R_High_D.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_R_High_N.uasset",
+    "relative": "character/Gloves/T_g001_R_High_N.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_R_High_O.uasset",
+    "relative": "character/Gloves/T_g001_R_High_O.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Gloves/T_g001_R_High_R.uasset",
+    "relative": "character/Gloves/T_g001_R_High_R.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/resources/assetpacks/pad_ff_02/311010101/311010101/assets/pc0103_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/character/Body/DA_Glove_LODSettings.uasset",
+    "relative": "character/Body/DA_Glove_LODSettings.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/apk/assets/pc0010_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/MaterialLibrary/Character/SBG/MasterMaterials/M_Gloves_MQ.uasset",
+    "relative": "MaterialLibrary/Character/SBG/MasterMaterials/M_Gloves_MQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/apk/assets/pc0010_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/MaterialLibrary/Character/SBG/MasterMaterials/M_Gloves_HQ.uasset",
+    "relative": "MaterialLibrary/Character/SBG/MasterMaterials/M_Gloves_HQ.uasset"
+  },
+  {
+    "container": "/workspace/ronaldo-work/apk/assets/pc0010_mobile_and.utoc",
+    "asset": "../../../PesMobile/Content/Assets/MaterialLibrary/Character/SBG/CommonTextures/T_Base_Glove_N.uasset",
+    "relative": "MaterialLibrary/Character/SBG/CommonTextures/T_Base_Glove_N.uasset"
+  }
+]

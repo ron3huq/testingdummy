@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "reader": "independent UEViewer4.26 Android",
+  "variants": [
+    "SK_NCA1_Face",
+    "SK_NCA1ep00v0313_Face",
+    "SK_NCA1ep01v0291_Face",
+    "SK_NCA1lg00v0000_Face",
+    "SK_NCA2_Face",
+    "SK_NCA2ep00v0313_Face",
+    "SK_NCA2ep01v0291_Face",
+    "SK_NCA2lg00v0000_Face",
+    "SK_NCA3_Face",
+    "SK_NCA3ep00v0313_Face",
+    "SK_NCA3ep01v0291_Face",
+    "SK_NCA3lg00v0000_Face",
+    "SK_NCA4_Face",
+    "SK_NCA4ep00v0313_Face",
+    "SK_NCA4ep01v0291_Face",
+    "SK_NCA4lg00v0000_Face",
+    "SK_NCA5_Face",
+    "SK_NCA5ep00v0313_Face",
+    "SK_NCA5ep01v0291_Face",
+    "SK_NCA5lg00v0000_Face"
+  ],
+  "each_has_two_real_inline_LODs": true,
+  "device_replay_tested": false
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "production_ARM64": true,
+  "all_four_UTF8_record_name_fields": true,
+  "engine_FString_UTF16_unicode_name": true,
+  "jersey_native_setter_and_uppercase_lettering": true,
+  "shirt_only_profile_preserves_original_display_name": true,
+  "Real_team109_packed_and_Portugal_country228": true,
+  "Portugal_national_team6_in_icon": true,
+  "card_and_icon_presentation_updated": true,
+  "arbitrary_renamed_card_country_not_changed_to_Vietnam": true,
+  "unrelated_record_unchanged": true,
+  "Android_tested": false
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "package_counts": {
+    "pc9305_mobile_and.utoc": 22,
+    "pc9307_mobile_and.utoc": 22,
+    "pc9308_mobile_and.utoc": 105,
+    "pc9306_mobile_and.utoc": 54,
+    "pc9298_mobile_and.utoc": 334
+  },
+  "new_package_IDs_unique_against_existing_face_pack": true,
+  "existing_face_pack_intentional_stock_overrides_unchanged": true,
+  "native_ID_collisions": [],
+  "external_dependencies": 23,
+  "missing": [],
+  "device_tested": false
+}

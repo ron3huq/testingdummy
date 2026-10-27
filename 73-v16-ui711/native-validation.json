@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "production_ARM64_library": true,
+  "native_original147_parameter_roundtrip": true,
+  "main_and_memorial_ID_roundtrips": 318,
+  "scopes": [
+    0,
+    473,
+    518,
+    122
+  ],
+  "native_bounds_reject_UI77_extremes": true,
+  "native_skill_flags_preserved": true,
+  "six_exact_card_body_palette_callbacks": true,
+  "palette_changed_before_original_bake_callback": true,
+  "other_actor_bytes_and_unselected_cards_unchanged": true,
+  "no_new_inline_hook_entry": true,
+  "original_bake_boundary_stubbed": true,
+  "GPU_render_and_motion_on_phone_tested": false
+}

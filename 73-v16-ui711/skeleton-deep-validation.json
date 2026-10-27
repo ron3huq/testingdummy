@@ -1,0 +1,408 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "asset": "SK_NCA5lg00v0000_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "76816fd2d0e2ab6c8c74a25d384d16d36c4342138b1605ab47bf4edcbd59fe57"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "76816fd2d0e2ab6c8c74a25d384d16d36c4342138b1605ab47bf4edcbd59fe57"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA5ep01v0291_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "76816fd2d0e2ab6c8c74a25d384d16d36c4342138b1605ab47bf4edcbd59fe57"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "76816fd2d0e2ab6c8c74a25d384d16d36c4342138b1605ab47bf4edcbd59fe57"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA5ep00v0313_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "76816fd2d0e2ab6c8c74a25d384d16d36c4342138b1605ab47bf4edcbd59fe57"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "76816fd2d0e2ab6c8c74a25d384d16d36c4342138b1605ab47bf4edcbd59fe57"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA5_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "76816fd2d0e2ab6c8c74a25d384d16d36c4342138b1605ab47bf4edcbd59fe57"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "76816fd2d0e2ab6c8c74a25d384d16d36c4342138b1605ab47bf4edcbd59fe57"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA4lg00v0000_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "a710e1f4268a297fd7a943b8f6736020393bf694faf4eb15c9adcfedeb18adf0"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "a710e1f4268a297fd7a943b8f6736020393bf694faf4eb15c9adcfedeb18adf0"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA4ep01v0291_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "a710e1f4268a297fd7a943b8f6736020393bf694faf4eb15c9adcfedeb18adf0"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "a710e1f4268a297fd7a943b8f6736020393bf694faf4eb15c9adcfedeb18adf0"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA4ep00v0313_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "a710e1f4268a297fd7a943b8f6736020393bf694faf4eb15c9adcfedeb18adf0"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "a710e1f4268a297fd7a943b8f6736020393bf694faf4eb15c9adcfedeb18adf0"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA4_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "a710e1f4268a297fd7a943b8f6736020393bf694faf4eb15c9adcfedeb18adf0"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "a710e1f4268a297fd7a943b8f6736020393bf694faf4eb15c9adcfedeb18adf0"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA3lg00v0000_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "8b04a9def916f081a49e632d827c80babd9ac5fb269c6d3aa3f8adc93f0a7a3b"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "8b04a9def916f081a49e632d827c80babd9ac5fb269c6d3aa3f8adc93f0a7a3b"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA3ep01v0291_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "8b04a9def916f081a49e632d827c80babd9ac5fb269c6d3aa3f8adc93f0a7a3b"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "8b04a9def916f081a49e632d827c80babd9ac5fb269c6d3aa3f8adc93f0a7a3b"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA3ep00v0313_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "8b04a9def916f081a49e632d827c80babd9ac5fb269c6d3aa3f8adc93f0a7a3b"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "8b04a9def916f081a49e632d827c80babd9ac5fb269c6d3aa3f8adc93f0a7a3b"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA3_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "8b04a9def916f081a49e632d827c80babd9ac5fb269c6d3aa3f8adc93f0a7a3b"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "8b04a9def916f081a49e632d827c80babd9ac5fb269c6d3aa3f8adc93f0a7a3b"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA2lg00v0000_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "75c36aaf78b50f0dead52ca22e7f578ccadfea4275f9a7791e25a9d5487aafed"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "75c36aaf78b50f0dead52ca22e7f578ccadfea4275f9a7791e25a9d5487aafed"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA2ep01v0291_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "75c36aaf78b50f0dead52ca22e7f578ccadfea4275f9a7791e25a9d5487aafed"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "75c36aaf78b50f0dead52ca22e7f578ccadfea4275f9a7791e25a9d5487aafed"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA2ep00v0313_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "75c36aaf78b50f0dead52ca22e7f578ccadfea4275f9a7791e25a9d5487aafed"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "75c36aaf78b50f0dead52ca22e7f578ccadfea4275f9a7791e25a9d5487aafed"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA2_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "75c36aaf78b50f0dead52ca22e7f578ccadfea4275f9a7791e25a9d5487aafed"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "75c36aaf78b50f0dead52ca22e7f578ccadfea4275f9a7791e25a9d5487aafed"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA1lg00v0000_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "c5c981d1cc98e237f136a6746d051ad1e25495e5cc16774477972935d59b47ac"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "c5c981d1cc98e237f136a6746d051ad1e25495e5cc16774477972935d59b47ac"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA1ep01v0291_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "c5c981d1cc98e237f136a6746d051ad1e25495e5cc16774477972935d59b47ac"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "c5c981d1cc98e237f136a6746d051ad1e25495e5cc16774477972935d59b47ac"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA1ep00v0313_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "c5c981d1cc98e237f136a6746d051ad1e25495e5cc16774477972935d59b47ac"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "c5c981d1cc98e237f136a6746d051ad1e25495e5cc16774477972935d59b47ac"
+        }
+      ]
+    },
+    {
+      "asset": "SK_NCA1_Face",
+      "all166_native_names_and_order_match": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "c5c981d1cc98e237f136a6746d051ad1e25495e5cc16774477972935d59b47ac"
+        },
+        {
+          "LOD": 1,
+          "required_bones_exact_order_0_to165": true,
+          "active_bones_exact_order_0_to165": true,
+          "section_skin_weights_valid": true,
+          "render_stream_sha256": "c5c981d1cc98e237f136a6746d051ad1e25495e5cc16774477972935d59b47ac"
+        }
+      ]
+    }
+  ],
+  "template_native_bone_count": 166,
+  "arm_leg_scale_edited": false,
+  "device_cutscene_tested": false
+}

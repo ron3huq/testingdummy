@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "clean_APK_manifest_closure_verified": true,
+  "repair_manifest_verified": true,
+  "all_three_parts_paths_nonoverlapping": true,
+  "native_and_resource_SHA_pins_verified": true,
+  "original_dex_classes": 267,
+  "updated_dex_classes": 371,
+  "DEX_helper_references_verified": true,
+  "no_user_saves_bundled": true,
+  "old_face_pack_unchanged": true,
+  "search_code_byte_identical": true,
+  "level100_and_prior_leagues_preserved": true,
+  "custom_RGB_removed": true,
+  "native_skin_palette_only": true,
+  "new_private_resource_files": 12,
+  "device_tested": false,
+  "Ronaldo_2008_actual_modded_head_extraction_complete": false,
+  "AI_portrait_generated": false,
+  "new_Ronaldo_artwork": "Original supplied photographs, uniform affine scaling, source face RGB not generated"
+}

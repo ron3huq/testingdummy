@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "textures": [
+    {
+      "id": "105837926394281",
+      "view": "small",
+      "size": [
+        128,
+        128
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 7.712
+    },
+    {
+      "id": "105837926394281",
+      "view": "large",
+      "size": [
+        184,
+        256
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 6.313
+    },
+    {
+      "id": "88040387132864",
+      "view": "small",
+      "size": [
+        128,
+        128
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 5.624
+    },
+    {
+      "id": "88040387132864",
+      "view": "large",
+      "size": [
+        184,
+        256
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 7.399
+    },
+    {
+      "id": "106654775417922",
+      "view": "small",
+      "size": [
+        128,
+        128
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 5.887
+    },
+    {
+      "id": "106654775417922",
+      "view": "large",
+      "size": [
+        184,
+        256
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 6.393
+    },
+    {
+      "id": "105758469512061",
+      "view": "small",
+      "size": [
+        128,
+        128
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 5.022
+    },
+    {
+      "id": "105758469512061",
+      "view": "large",
+      "size": [
+        184,
+        256
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 5.795
+    },
+    {
+      "id": "105563585358239",
+      "view": "small",
+      "size": [
+        128,
+        128
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 5.54
+    },
+    {
+      "id": "105563585358239",
+      "view": "large",
+      "size": [
+        184,
+        256
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 4.104
+    },
+    {
+      "id": "88044950524330",
+      "view": "small",
+      "size": [
+        128,
+        128
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 5.008
+    },
+    {
+      "id": "88044950524330",
+      "view": "large",
+      "size": [
+        184,
+        256
+      ],
+      "mean_ETC2_RGB_error_opaque_pixels": 5.514
+    }
+  ],
+  "old_unrelated_photos_byte_preserved": true,
+  "new_five_original_face_RGB_not_generated": true,
+  "uniform_scaling_layouts": "portrait-layouts.json",
+  "Android_tested": false
+}

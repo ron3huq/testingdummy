@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "production_ARM64": true,
+  "native_donor_style_and_own_photo_separate": true,
+  "private_hero_foreground_used_for_changed_background": true,
+  "native_original_photo_keys_cached_once": true,
+  "unrelated_card_unchanged": true,
+  "new_hero_private_photo_aliases": true,
+  "device_tested": false
+}
