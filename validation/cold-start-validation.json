@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "original_protected_gateway_initialized": true,
+  "all_new_manage_wrappers_installed": true,
+  "static_integrity_verified": true,
+  "face_targets": 28,
+  "advertised_containers": [
+    "pc9298",
+    "pc9300",
+    "pc9302",
+    "pc9303",
+    "pc9305",
+    "pc9306",
+    "pc9307",
+    "pc9310",
+    "pc9313",
+    "pc9312"
+  ],
+  "Android_tested": false
+}

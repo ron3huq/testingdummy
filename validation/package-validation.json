@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "version": "73-ui7.14",
+  "single_archive": true,
+  "part3_included": false,
+  "runtime_owned_files_shipped": false,
+  "all_manifest_rows_verified": true,
+  "overlay_files": 102,
+  "unchanged_base_files_verified": 7330,
+  "static_pins": 56,
+  "Android_tested": false
+}
