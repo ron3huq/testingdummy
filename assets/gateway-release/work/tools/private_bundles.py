@@ -13,7 +13,7 @@ def verified():
 
 def advertise(value,port):
  if not isinstance(value,dict)or not isinstance(value.get('livedata_list'),list)or not isinstance(value.get('version_file'),str):return value
- doc=verified();version=json.loads(value['version_file']);names=set(doc['files']);out=dict(value);out['livedata_list']=[x for x in value['livedata_list']if not isinstance(x,dict)or x.get('name')not in names]
+ doc=verified();version=json.loads(value['version_file']);version['dt880']=[x for x in version['dt880']if not isinstance(x,dict)or x.get('name')!='pc9308'];names=set(doc['files'])|{'pc9308_mobile_and.'+ext for ext in ['pak','utoc','ucas']};out=dict(value);out['livedata_list']=[x for x in value['livedata_list']if not isinstance(x,dict)or x.get('name')not in names]
  for container in ['pc9305','pc9306','pc9307','pc9310','pc9313','pc9312']:
   stem=container+'_mobile_and';r={ext:doc['files'][stem+'.'+ext]for ext in ['pak','utoc','ucas']};item={'name':container,'hash':r['pak']['sha256'],'hashFileSize':r['pak']['size'],'ucas':r['ucas']['sha256'],'ucasFileSize':r['ucas']['size'],'utoc':r['utoc']['sha256'],'utocFileSize':r['utoc']['size']};prior=next((x for x in version['dt880']if isinstance(x,dict)and x.get('name')==container),None)
   if prior!=item:version['version']+=710

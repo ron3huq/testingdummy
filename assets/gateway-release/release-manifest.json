@@ -36826,7 +36826,7 @@
     {
       "path": "work/tools/noodle_bundle.json",
       "bytes": 8544,
-      "sha256": "0b2482a1f6be4ac0b8ce5d0e2c5bb651938206d8958e598d320c44ca5d83c0b7"
+      "sha256": "db6e8d4dab9c666d3f6ea64c7bb8a665654d2b1992f5b62565e4433007a93129"
     },
     {
       "path": "work/tools/noodle_hair.json",
@@ -37070,8 +37070,8 @@
     },
     {
       "path": "work/tools/private_bundles.py",
-      "bytes": 1857,
-      "sha256": "af4cf1145a1351b99046081621d73a6adde078337631310f68b48b08a685c8cd"
+      "bytes": 2015,
+      "sha256": "1ba2312a66bf16169ac593b2e1c37a69637c183b8d1c78fffd20203379544c6a"
     },
     {
       "path": "work/tools/private_bundles.json",
