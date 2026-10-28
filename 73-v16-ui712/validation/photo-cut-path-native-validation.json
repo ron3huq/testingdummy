@@ -1,5 +1,6 @@
 {
   "passed": true,
+  "legacy_aliases_and_bigf_and_bare_numeric_portraits_supported": true,
   "custom_photos_override_private_photos": true,
   "older_portrait_paths_normalized_to_actual_container_folder": true,
   "card_frame_keys_preserved": true,

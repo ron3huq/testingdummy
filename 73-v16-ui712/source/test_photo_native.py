@@ -27,9 +27,12 @@ def stub(uc,addr,size,data):
  uc.reg_write(UC_ARM64_REG_PC,uc.reg_read(UC_ARM64_REG_LR))
 u.hook_add(UC_HOOK_CODE,stub);invoke('configure_background',0,0x33000100);assert invoke('noodle_photo_add',target)==1;invoke('noodle_photo_commit');invoke('noodle_background_hook',target,0,0,0,0,0,info)
 assert getstr(items)=="Texture2D'/Game/Assets/ui/Data/Thumbnail/Player/Variation2022/U712_88044950524330_l.U712_88044950524330_l'",getstr(items);assert getstr(items+16)==original_paths[1]
+# Legacy bigf/bare aliases and small thumbnails do not need to contain the full card ID.
+for path,suffix in [("Texture2D'/Game/Assets/ui/Data/Thumbnail/Player/54321f.54321f'",'_l'),("Texture2D'/Game/Assets/ui/Data/Thumbnail/Player/54321_.54321_'",'_'),('/Game/Assets/ui/Data/Thumbnail/Player/54321','_l')]:
+ original_paths[0]=path;invoke('noodle_background_hook',target,0,0,0,0,0,info);actual=getstr(items);assert '/Variation2022/U712_'+str(target)+suffix in actual,actual;assert getstr(items+16)==original_paths[1]
 # The new body namespace resolves only in an explicit body scope, and keeps detail/low type.
 invoke('configure_path',0,0x33000120);actor=0x30060000;w(actor+0x10b0,'Q',target);buf=0x30070000
 for style in ['a','b','d','e']:
  model='901'if style in['d','e']else'015';variant='01'if style in['d','e']else'07';text='/Game/Assets/character/Body/SK_'+model+style+variant+'.SK_'+model+style+variant;u.mem_write(buf,text.encode('utf-16-le'));invoke('noodle_path_hook',0,buf,len(text));assert seen[-1]==text
  token=invoke('noodle_body_begin',actor);assert token;invoke('noodle_path_hook',0,buf,len(text));wanted=text.replace('SK_'+model,'SK_'+str(int(model)+6000))if style in['b','e']else text;assert seen[-1]==wanted,(style,seen[-1]);invoke('noodle_body_end',token)
-(P/'photo-cut-path-native-validation.json').write_text(json.dumps({'passed':True,'custom_photos_override_private_photos':True,'older_portrait_paths_normalized_to_actual_container_folder':True,'card_frame_keys_preserved':True,'cut_long_body_paths_only_inside_scope':True,'detail_and_lowbody_type_preserved':True,'short_and_original_long_unchanged_outside_scope':True,'Android_tested':False},indent=2));print('PHOTO_AND_CUT_PATH_NATIVE_PASS')
+(P/'photo-cut-path-native-validation.json').write_text(json.dumps({'passed':True,'legacy_aliases_and_bigf_and_bare_numeric_portraits_supported':True,'custom_photos_override_private_photos':True,'older_portrait_paths_normalized_to_actual_container_folder':True,'card_frame_keys_preserved':True,'cut_long_body_paths_only_inside_scope':True,'detail_and_lowbody_type_preserved':True,'short_and_original_long_unchanged_outside_scope':True,'Android_tested':False},indent=2));print('PHOTO_AND_CUT_PATH_NATIVE_PASS')

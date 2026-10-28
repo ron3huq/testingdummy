@@ -8,9 +8,10 @@
   "team_revision_and_duplicate_validation": true,
   "all13_world_roles_preserve_existing_skills": true,
   "projection_calls": 2000,
-  "projection_elapsed_ms": 103.69,
+  "projection_elapsed_ms": 83.36,
   "projection_SQL_queries": 0,
   "custom_photo_full_native_generation": true,
+  "old_photo_generations_pruned_safely": true,
   "immutable_nested_resource_urls": true,
   "live_edit_rejected": true,
   "Android_tested": false

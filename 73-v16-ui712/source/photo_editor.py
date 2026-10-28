@@ -1,6 +1,6 @@
 """Explicit photo imports in immutable per-generation native containers; no per-frame work."""
 from pathlib import Path
-import json,base64,hashlib,zlib,threading,functools,ctypes as C
+import json,base64,hashlib,zlib,threading,functools,re,shutil,ctypes as C
 import body_dimensions as body
 HERE=Path(__file__).resolve().parent;LIVE=HERE.parents[1]/'livedata/ui712-photos';STATE=HERE/'ui712-photo-state.json';KEY='ui712_photos';_lock=threading.RLock();_profiles={};_conn=None
 
@@ -28,6 +28,16 @@ def generation(photos):
   p=folder/('pc9311_mobile_and.'+ext);files[p.name]={'size':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'relative':str(p.relative_to(LIVE.parent))}
  return {'generation':digest,'files':files,'count':len(photos)}
 
+def prune_generations(current,previous):
+ # Retain the current and immediately previous immutable download generations.
+ # No game engine is loaded while importing; already-open HTTP file handles remain valid.
+ keep={'g_'+current}
+ if previous:keep.add('g_'+previous)
+ for folder in LIVE.iterdir():
+  if folder.name not in keep and re.fullmatch(r'g_[0-9a-f]{24}',folder.name)and folder.is_dir()and not folder.is_symlink():
+   try:shutil.rmtree(folder)
+   except OSError:pass
+
 def manage(c,action,req):
  global _profiles
  with _lock,body._lock:
@@ -46,7 +56,9 @@ def manage(c,action,req):
    if before is None:STATE.unlink(missing_ok=True)
    else:tmp=STATE.with_suffix('.rollback');tmp.write_bytes(before);tmp.replace(STATE)
    raise
-  _profiles=updated;return {'saved':True,'card_id':pid,'generation':meta['generation']}
+  _profiles=updated
+  prune_generations(meta['generation'],json.loads(before).get('generation')if before else None)
+  return {'saved':True,'card_id':pid,'generation':meta['generation']}
 
 def advertise(value,port):
  if not _profiles or not isinstance(value,dict)or not isinstance(value.get('livedata_list'),list)or not isinstance(value.get('version_file'),str):return value

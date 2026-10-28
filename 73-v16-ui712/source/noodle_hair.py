@@ -3,7 +3,7 @@ import ctypes as C
 import hashlib,json,os,platform,struct,threading,time
 from pathlib import Path
 ENGINE_SHA='efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8'
-HOOK_SHA='1338f12fc27336d719e4516461342507d3cd6b11b0e2f5d28b3f4c3461da1034'
+HOOK_SHA='5ed44cd9dc1c920266bd357591b63fcbcbf950b955038e315cd41bcc90acb598'
 GETTER=0x39cd71c
 PROLOGUE=bytes.fromhex('ff0304d1fd7b0ca9f76b00f9f6570ea9')
 HERE=Path(__file__).resolve().parent

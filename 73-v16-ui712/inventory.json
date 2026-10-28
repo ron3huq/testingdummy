@@ -132,11 +132,11 @@
     },
     "assets/gateway-release/release-manifest.json": {
       "bytes": 1390313,
-      "sha256": "90503a3e48025746f36a63290c19b0f6063ffce058e442095e7d87b346f5e158"
+      "sha256": "3fbbb4dabecd4105555d9e9b2e6ac4b918c4005a5f13b63e3344ba4358a48aa3"
     },
     "assets/gateway-release/ui6-runtime-manifest.json": {
       "bytes": 15938,
-      "sha256": "fb5a1ad7ec88321bebda3793353790e88ca7be35a6db9f7d60f5e0eb1bd35e4a"
+      "sha256": "030186bf25d2639b170de11ec1733de22d8e2b5a62c64496836aa5cd463491a2"
     },
     "assets/gateway-release/work/tools/appearance_choices.py": {
       "bytes": 8860,
@@ -207,8 +207,8 @@
       "sha256": "d3f668e12cb17393438ee2cdb5b2cf8e7405c02767a3e5cbfe4d5894c13422c1"
     },
     "assets/gateway-release/work/tools/libnoodle_hair.so": {
-      "bytes": 166128,
-      "sha256": "1338f12fc27336d719e4516461342507d3cd6b11b0e2f5d28b3f4c3461da1034"
+      "bytes": 172768,
+      "sha256": "5ed44cd9dc1c920266bd357591b63fcbcbf950b955038e315cd41bcc90acb598"
     },
     "assets/gateway-release/work/tools/libselect_team.so": {
       "bytes": 343808,
@@ -308,7 +308,7 @@
     },
     "assets/gateway-release/work/tools/noodle_bundle.json": {
       "bytes": 8926,
-      "sha256": "34c55a76cc59781974f777ee1ba51156959fafd68dcc83aabeaf7902baf2023b"
+      "sha256": "cc713b777e236a1e1d212639fa7214ba58f6b82ab642842aa7c67724ebed491b"
     },
     "assets/gateway-release/work/tools/noodle_hair.json": {
       "bytes": 16,
@@ -316,15 +316,15 @@
     },
     "assets/gateway-release/work/tools/noodle_hair.py": {
       "bytes": 19754,
-      "sha256": "5487d8a77917c7129a95ebd9702a000eae683fa00abd5178c64b990607595887"
+      "sha256": "69679dc5030188bc212fa7d2f28c40fb8142264af2f7fbbb3439f16a8a735e56"
     },
     "assets/gateway-release/work/tools/photo_codec.py": {
       "bytes": 7582,
       "sha256": "f6af88eaaded17d97fcc36873b5bb333981d59dd365c8e5709c57943ee966b7b"
     },
     "assets/gateway-release/work/tools/photo_editor.py": {
-      "bytes": 5381,
-      "sha256": "7be7f3ca9f9ee3ae2fd6edb6cd8dbe48d0b4a88b1bce8ede3ae3a7670d8dba73"
+      "bytes": 5965,
+      "sha256": "a674b54382b29b66b331d75ea380e8cd844d46c178abbcda781eb36662b1fe06"
     },
     "assets/gateway-release/work/tools/photo_templates.zlib": {
       "bytes": 6419,
