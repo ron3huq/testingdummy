@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "only_explicit_card_selection": true,
+  "original_model_ID_unchanged": true,
+  "detail_common_routes_remain_separate": true,
+  "native_long_selected_only_for_cut_choice": true,
+  "unsupported_variant_uses_original": true,
+  "scope_closed_after_loader": true,
+  "six_argument_forwarding": true,
+  "Android_tested": false
+}

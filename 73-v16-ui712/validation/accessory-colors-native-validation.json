@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "exact_card_scope": true,
+  "eight_exposed_types": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "native_append_routine_used": true,
+  "opaque_BGRA_word_layout": true,
+  "unsupported_goalkeeper_flags_and_transparent_alpha_rejected": true,
+  "visibility_flags_not_modified_by_color": true,
+  "unrelated_player_unchanged": true,
+  "Android_tested": false
+}

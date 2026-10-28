@@ -1,0 +1,12 @@
+package org.efootballrevival.runtimeprobe;
+import android.app.*;import android.content.*;import android.webkit.*;import android.widget.*;import org.json.*;
+public final class PortraitEditor {
+ private static final java.util.concurrent.ExecutorService SHARED_WORKER=java.util.concurrent.Executors.newSingleThreadExecutor();private static JSONObject pending;private static boolean ownPage;
+ public static void button(Activity a,LinearLayout panel,JSONObject player){Button b=new Button(a);b.setText("Import photo · Crop & Preview");b.setAllCaps(false);b.setOnClickListener(v->{try{pending=new JSONObject(player.toString());Class.forName("org.efootballrevival.runtimeprobe.CardDesignerPanel").getMethod("show",Activity.class).invoke(null,a);}catch(Exception e){pending=null;new AlertDialog.Builder(a).setMessage(e.toString()).setPositiveButton("Close",null).show();}});panel.addView(b,new LinearLayout.LayoutParams(-1,-2));}
+ public static void mount(WebView web,Activity activity){ownPage=pending!=null;if(!ownPage)return;JSONObject selected=pending;pending=null;web.addJavascriptInterface(new Bridge(activity,web,selected),"ModPortrait");}
+ public static String url(String original){return ownPage?"https://card-designer.local/portrait-ui712.html":original;}
+ public static final class Bridge {final Activity activity;final WebView web;final JSONObject player;final java.util.concurrent.ExecutorService worker=SHARED_WORKER;Bridge(Activity a,WebView w,JSONObject p){activity=a;web=w;player=p;}
+  @JavascriptInterface public String selected(){return player.toString();}
+  @JavascriptInterface public void save(String mini,String large){worker.execute(()->{JSONObject reply=new JSONObject();try{JSONObject request=new JSONObject(player.toString()).put("mini",mini).put("large",large);String raw=(String)Class.forName("org.efootballrevival.runtimeprobe.EmbeddedGateway").getMethod("manage",Context.class,String.class,String.class).invoke(null,activity,"ui712_photo_apply",request.toString());reply=new JSONObject(raw);}catch(Exception e){try{reply.put("error",String.valueOf(e.getCause()==null?e:e.getCause()));}catch(Exception ignored){}}final String json=reply.toString();activity.runOnUiThread(()->{if(!activity.isFinishing())try{web.getClass().getMethod("evaluateJavascript",String.class,Class.forName("android.webkit.ValueCallback")).invoke(web,"window.ModPortraitReply("+json+")",null);}catch(Exception ignored){}});});}
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "version": "73-ui7.12",
+  "four_parts": 4,
+  "payload_files": 110,
+  "unchanged_base_APK_files_verified": 7330,
+  "no_conflicting_files": true,
+  "every_release_and_repair_manifest_row_verified": true,
+  "all57_runtime_pins_verified": true,
+  "six_face_targets": {
+    "88042803047215": "Ronaldo2018",
+    "105634720685845": "RonaldoNazario",
+    "105565464400480": "Zidane",
+    "105625593957752": "Henry",
+    "89138288266704": "RonaldoMulletV8",
+    "176104": "YanDiomande"
+  },
+  "new_face_LOD_variants": 24,
+  "cut_native_long_models": 123,
+  "Android_tested": false
+}

@@ -1,0 +1,440 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "name": "SK_NZI2lg00v0000_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3590,
+          "triangles": 6495,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 3590,
+          "triangles": 6495,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NZI2ep01v0291_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3590,
+          "triangles": 6495,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 3590,
+          "triangles": 6495,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NZI2ep00v0313_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3590,
+          "triangles": 6495,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 3590,
+          "triangles": 6495,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NZI2_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3590,
+          "triangles": 6495,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 3590,
+          "triangles": 6495,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NR92lg00v0000_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2936,
+          "triangles": 5238,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 2936,
+          "triangles": 5238,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NR92ep01v0291_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2936,
+          "triangles": 5238,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 2936,
+          "triangles": 5238,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NR92ep00v0313_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2936,
+          "triangles": 5238,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 2936,
+          "triangles": 5238,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NR92_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2936,
+          "triangles": 5238,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 2936,
+          "triangles": 5238,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NHE2lg00v0000_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 10644,
+          "triangles": 19839,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 10644,
+          "triangles": 19839,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NHE2ep01v0291_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 10644,
+          "triangles": 19839,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 10644,
+          "triangles": 19839,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NHE2ep00v0313_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 10644,
+          "triangles": 19839,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 10644,
+          "triangles": 19839,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NHE2_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 10644,
+          "triangles": 19839,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 10644,
+          "triangles": 19839,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NDI2lg00v0000_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 8082,
+          "triangles": 12463,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 8082,
+          "triangles": 12463,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NDI2ep01v0291_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 8082,
+          "triangles": 12463,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 8082,
+          "triangles": 12463,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NDI2ep00v0313_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 8082,
+          "triangles": 12463,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 8082,
+          "triangles": 12463,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NDI2_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 8082,
+          "triangles": 12463,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 8082,
+          "triangles": 12463,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NR18lg00v0000_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 11426,
+          "triangles": 15904,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 11426,
+          "triangles": 15904,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NR18ep01v0291_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 11426,
+          "triangles": 15904,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 11426,
+          "triangles": 15904,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NR18ep00v0313_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 11426,
+          "triangles": 15904,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 11426,
+          "triangles": 15904,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NR18_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 11426,
+          "triangles": 15904,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 11426,
+          "triangles": 15904,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NMV8lg00v0000_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 44269,
+          "triangles": 61198,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 44269,
+          "triangles": 61198,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NMV8ep01v0291_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 44269,
+          "triangles": 61198,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 44269,
+          "triangles": 61198,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NMV8ep00v0313_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 44269,
+          "triangles": 61198,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 44269,
+          "triangles": 61198,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    },
+    {
+      "name": "SK_NMV8_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 44269,
+          "triangles": 61198,
+          "full_native_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 44269,
+          "triangles": 61198,
+          "full_native_bones": 166
+        }
+      ],
+      "independent_UEReader_export": true
+    }
+  ],
+  "PC_assets_named_retarget": true,
+  "trial_hooks_not_imported": true,
+  "Android_tested": false
+}

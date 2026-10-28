@@ -1,0 +1,380 @@
+[
+  {
+    "archive": "/workspace/attachments/e3292f7f-ed35-4b13-b40b-e3fae5e4a3c8/RONALDOmulletv8.zip",
+    "files": [
+      {
+        "name": "work/tools/gateway_runtime.py",
+        "bytes": 2441
+      },
+      {
+        "name": "work/tools/noodle_hair.py",
+        "bytes": 12153
+      },
+      {
+        "name": "work/tools/libnoodle_hair.so",
+        "bytes": 35336
+      },
+      {
+        "name": "work/tools/noodle_hair.json",
+        "bytes": 16
+      },
+      {
+        "name": "work/tools/noodle_bundle.json",
+        "bytes": 1170
+      },
+      {
+        "name": "livedata/pc9298_mobile_and.pak",
+        "bytes": 365
+      },
+      {
+        "name": "livedata/pc9298_mobile_and.utoc",
+        "bytes": 12213
+      },
+      {
+        "name": "livedata/pc9298_mobile_and.ucas",
+        "bytes": 14887651
+      }
+    ]
+  },
+  {
+    "archive": "/workspace/attachments/ea00c925-131c-4d95-afd7-36e23b2eeb56/diomande.rar",
+    "files": [
+      {
+        "name": "Y.Diomande/FL/176104/#Win/face.fpk",
+        "bytes": 434448
+      },
+      {
+        "name": "Y.Diomande/FL/176104/#Win/face.fpkd",
+        "bytes": 48
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/eye_occlusion_alp.ftex",
+        "bytes": 6808
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/eye_sclera_bsm.ftex",
+        "bytes": 63320
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/face_bsm_alp.ftex",
+        "bytes": 362224
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/face_nrm.ftex",
+        "bytes": 570504
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/face_srm.ftex",
+        "bytes": 528744
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/face_trm.ftex",
+        "bytes": 363192
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+        "bytes": 724584
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/hair_parts_bsm_alp1.ftex",
+        "bytes": 735720
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/hair_parts_bsm_alp2.ftex",
+        "bytes": 1029240
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/hair_parts_nrm.ftex",
+        "bytes": 569304
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/hair_parts_nrm1.ftex",
+        "bytes": 569304
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/hair_parts_srm.ftex",
+        "bytes": 475400
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/hair_parts_srm1.ftex",
+        "bytes": 475400
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/hair_parts_trm.ftex",
+        "bytes": 538264
+      },
+      {
+        "name": "Y.Diomande/FL/176104/sourceimages/#windx11/hair_parts_trm1.ftex",
+        "bytes": 538264
+      },
+      {
+        "name": "Y.Diomande/UML/176104/#Win/face.fpk",
+        "bytes": 434448
+      },
+      {
+        "name": "Y.Diomande/UML/176104/#Win/face.fpkd",
+        "bytes": 48
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/eye_occlusion_alp.ftex",
+        "bytes": 6808
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/eye_sclera_bsm.ftex",
+        "bytes": 63320
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/face_bsm_alp.ftex",
+        "bytes": 362224
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/face_nrm.ftex",
+        "bytes": 570504
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/face_srm.ftex",
+        "bytes": 528744
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/face_trm.ftex",
+        "bytes": 363192
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+        "bytes": 724584
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/hair_parts_bsm_alp1.ftex",
+        "bytes": 735720
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/hair_parts_bsm_alp2.ftex",
+        "bytes": 1029240
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/hair_parts_nrm.ftex",
+        "bytes": 569304
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/hair_parts_nrm1.ftex",
+        "bytes": 569304
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/hair_parts_srm.ftex",
+        "bytes": 475400
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/hair_parts_srm1.ftex",
+        "bytes": 475400
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/hair_parts_trm.ftex",
+        "bytes": 538264
+      },
+      {
+        "name": "Y.Diomande/UML/176104/sourceimages/#windx11/hair_parts_trm1.ftex",
+        "bytes": 538264
+      }
+    ]
+  },
+  {
+    "archive": "/workspace/attachments/d406cce6-c89e-482f-bf2f-63187cb9f521/ronaldo2018.zip",
+    "files": [
+      {
+        "name": "work/tools/gateway_runtime.py",
+        "bytes": 2441
+      },
+      {
+        "name": "work/tools/noodle_hair.py",
+        "bytes": 12162
+      },
+      {
+        "name": "work/tools/libnoodle_hair.so",
+        "bytes": 35368
+      },
+      {
+        "name": "work/tools/noodle_hair.json",
+        "bytes": 16
+      },
+      {
+        "name": "work/tools/noodle_bundle.json",
+        "bytes": 1156
+      },
+      {
+        "name": "livedata/pc9298_mobile_and.pak",
+        "bytes": 365
+      },
+      {
+        "name": "livedata/pc9298_mobile_and.utoc",
+        "bytes": 11577
+      },
+      {
+        "name": "livedata/pc9298_mobile_and.ucas",
+        "bytes": 16694556
+      },
+      {
+        "name": "HUONG-DAN.txt",
+        "bytes": 2171
+      }
+    ]
+  },
+  {
+    "archive": "/workspace/attachments/c30a0286-2746-4b59-ace1-75819bf97e79/zidane.rar",
+    "files": [
+      {
+        "name": "zida/sourceimages/#windx11/eye_occlusion_alp.ftex",
+        "bytes": 5560
+      },
+      {
+        "name": "zida/sourceimages/#windx11/face_bsm_alp.ftex",
+        "bytes": 922734
+      },
+      {
+        "name": "zida/sourceimages/#windx11/face_nrm.ftex",
+        "bytes": 1261456
+      },
+      {
+        "name": "zida/sourceimages/#windx11/face_srm.ftex",
+        "bytes": 639560
+      },
+      {
+        "name": "zida/sourceimages/#windx11/face_trm.ftex",
+        "bytes": 355864
+      },
+      {
+        "name": "[ID PLAYER]/#Win/face.fpk",
+        "bytes": 239904
+      },
+      {
+        "name": "[ID PLAYER]/#Win/face.fpkd",
+        "bytes": 48
+      },
+      {
+        "name": "[ID PLAYER]/sourceimages/#windx11/arm_bsm.ftex",
+        "bytes": 602216
+      }
+    ]
+  },
+  {
+    "archive": "/workspace/attachments/51f8808c-f231-4f66-b4fc-2b0ddff74a07/henry.rar",
+    "files": [
+      {
+        "name": "PES2020.bmp",
+        "bytes": 15775894
+      },
+      {
+        "name": "ID/#Win/face.fpk",
+        "bytes": 556352
+      },
+      {
+        "name": "ID/#Win/face.fpk.xml",
+        "bytes": 367
+      },
+      {
+        "name": "ID/#Win/face.fpkd",
+        "bytes": 48
+      },
+      {
+        "name": "ID/#Win/face_fpk/face_diff.bin",
+        "bytes": 960
+      },
+      {
+        "name": "ID/#Win/face_fpk/face_high.fmdl",
+        "bytes": 554712
+      },
+      {
+        "name": "ID/#Win/face_fpk/hair_high.fmdl",
+        "bytes": 430
+      },
+      {
+        "name": "henry/sourceimages/#windx11/eye_occlusion_alp.ftex",
+        "bytes": 6315
+      },
+      {
+        "name": "henry/sourceimages/#windx11/face_bsm_alp.ftex",
+        "bytes": 485223
+      },
+      {
+        "name": "henry/sourceimages/#windx11/face_nrm.ftex",
+        "bytes": 679330
+      },
+      {
+        "name": "henry/sourceimages/#windx11/face_srm.ftex",
+        "bytes": 569491
+      },
+      {
+        "name": "henry/sourceimages/#windx11/face_trm.ftex",
+        "bytes": 255718
+      },
+      {
+        "name": "henry/sourceimages/#windx11/hair_parts_bsm_alp.ftex",
+        "bytes": 989376
+      },
+      {
+        "name": "henry/sourceimages/#windx11/hair_parts_nrm.ftex",
+        "bytes": 42592
+      },
+      {
+        "name": "henry/sourceimages/#windx11/hair_parts_srm.ftex",
+        "bytes": 132688
+      },
+      {
+        "name": "henry/sourceimages/#windx11/hair_parts_trm.ftex",
+        "bytes": 60240
+      },
+      {
+        "name": "normal map PES2019/face_nrm.ftex",
+        "bytes": 1186280
+      }
+    ]
+  },
+  {
+    "archive": "/workspace/attachments/a9ca5cad-4239-427a-88f1-be1e87a84832/ronaldonazario.rar",
+    "files": [
+      {
+        "name": "rn02/sourceimages/#windx11/eye_occlusion_alp.ftex",
+        "bytes": 5920
+      },
+      {
+        "name": "rn02/sourceimages/#windx11/face_bsm.ftex",
+        "bytes": 576776
+      },
+      {
+        "name": "rn02/sourceimages/#windx11/face_nrm.ftex",
+        "bytes": 1261456
+      },
+      {
+        "name": "rn02/sourceimages/#windx11/face_srm.ftex",
+        "bytes": 571680
+      },
+      {
+        "name": "rn02/sourceimages/#windx11/face_trm.ftex",
+        "bytes": 387104
+      },
+      {
+        "name": "rn02/sourceimages/#windx11/hair_bsm_alp.ftex",
+        "bytes": 248480
+      },
+      {
+        "name": "rn02/sourceimages/#windx11/hair_nrm.ftex",
+        "bytes": 152304
+      },
+      {
+        "name": "rn02/sourceimages/#windx11/hair_srm.ftex",
+        "bytes": 61040
+      },
+      {
+        "name": "rn02/sourceimages/#windx11/hair_trm.ftex",
+        "bytes": 36608
+      },
+      {
+        "name": "ID PLAYER/#Win/face.fpk",
+        "bytes": 195904
+      },
+      {
+        "name": "ID PLAYER/#Win/face.fpkd",
+        "bytes": 48
+      }
+    ]
+  }
+]

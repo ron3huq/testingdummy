@@ -1,0 +1,2223 @@
+{
+  "passed": true,
+  "models": 123,
+  "LODs": 246,
+  "all_original_bind_poses_preserved": true,
+  "variants": [
+    {
+      "name": "SK_6913e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2351,
+          "triangles": 3188,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1176,
+          "triangles": 1356,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6913b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2460,
+          "triangles": 3328,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1197,
+          "triangles": 1396,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6912e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2379,
+          "triangles": 3184,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1186,
+          "triangles": 1352,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6912b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2488,
+          "triangles": 3324,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1207,
+          "triangles": 1392,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6911e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2413,
+          "triangles": 3212,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1203,
+          "triangles": 1354,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6911b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2522,
+          "triangles": 3352,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1224,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6910e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2370,
+          "triangles": 3178,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1173,
+          "triangles": 1338,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6910b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2479,
+          "triangles": 3318,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1194,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6909e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2385,
+          "triangles": 3202,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1201,
+          "triangles": 1350,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6909b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2494,
+          "triangles": 3342,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1222,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6908e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2391,
+          "triangles": 3176,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1168,
+          "triangles": 1336,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6908b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2500,
+          "triangles": 3316,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1189,
+          "triangles": 1376,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6907e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2392,
+          "triangles": 3202,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1197,
+          "triangles": 1350,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6907b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2501,
+          "triangles": 3342,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1218,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6906e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2373,
+          "triangles": 3178,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1174,
+          "triangles": 1338,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6906b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2482,
+          "triangles": 3318,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1195,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6905e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2349,
+          "triangles": 3170,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1167,
+          "triangles": 1334,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6905b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2458,
+          "triangles": 3310,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1188,
+          "triangles": 1374,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6904e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2357,
+          "triangles": 3186,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1168,
+          "triangles": 1354,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6904b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2466,
+          "triangles": 3326,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1189,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6903e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2354,
+          "triangles": 3186,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1168,
+          "triangles": 1354,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6903b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2463,
+          "triangles": 3326,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1189,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6902e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2375,
+          "triangles": 3178,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1173,
+          "triangles": 1338,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6902b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2484,
+          "triangles": 3318,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1194,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6901e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2355,
+          "triangles": 3170,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1169,
+          "triangles": 1334,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6901b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2464,
+          "triangles": 3310,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1190,
+          "triangles": 1374,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6143b14",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2663,
+          "triangles": 3462,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1387,
+          "triangles": 1412,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6142b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2456,
+          "triangles": 3322,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1220,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6139b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2498,
+          "triangles": 3328,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1188,
+          "triangles": 1382,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6136b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2473,
+          "triangles": 3320,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1243,
+          "triangles": 1380,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6130e18",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2410,
+          "triangles": 3254,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1207,
+          "triangles": 1386,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6130e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2364,
+          "triangles": 3182,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1196,
+          "triangles": 1338,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6130b18",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2519,
+          "triangles": 3394,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1228,
+          "triangles": 1426,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6130b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2473,
+          "triangles": 3322,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1217,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6129b09",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2576,
+          "triangles": 3546,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1159,
+          "triangles": 1386,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6129b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2521,
+          "triangles": 3452,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1160,
+          "triangles": 1386,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6129b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2443,
+          "triangles": 3346,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1142,
+          "triangles": 1374,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6124b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2552,
+          "triangles": 3386,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1286,
+          "triangles": 1410,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6121b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2474,
+          "triangles": 3338,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1246,
+          "triangles": 1398,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6119e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2389,
+          "triangles": 3190,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1235,
+          "triangles": 1342,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6119b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2576,
+          "triangles": 3436,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1274,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6119b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2498,
+          "triangles": 3330,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1256,
+          "triangles": 1382,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6107b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2532,
+          "triangles": 3376,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1312,
+          "triangles": 1436,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6099b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2549,
+          "triangles": 3356,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1267,
+          "triangles": 1388,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6094b02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2465,
+          "triangles": 3338,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1247,
+          "triangles": 1402,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6094b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2467,
+          "triangles": 3322,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1223,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6084b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2543,
+          "triangles": 3440,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1263,
+          "triangles": 1410,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6080e02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2133,
+          "triangles": 3202,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1091,
+          "triangles": 1366,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6080e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2342,
+          "triangles": 3186,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1203,
+          "triangles": 1354,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6080b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2529,
+          "triangles": 3432,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1242,
+          "triangles": 1406,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6080b02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2245,
+          "triangles": 3342,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1112,
+          "triangles": 1406,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6080b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2451,
+          "triangles": 3326,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1224,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6068e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2392,
+          "triangles": 3186,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1239,
+          "triangles": 1342,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6068b04",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2555,
+          "triangles": 3394,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1292,
+          "triangles": 1398,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6068b02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2501,
+          "triangles": 3346,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1284,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6068b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2501,
+          "triangles": 3326,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1260,
+          "triangles": 1382,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6057b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2583,
+          "triangles": 3434,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1274,
+          "triangles": 1392,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6054e18",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2419,
+          "triangles": 3254,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1242,
+          "triangles": 1386,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6054b18",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2528,
+          "triangles": 3394,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1263,
+          "triangles": 1426,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6051e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2363,
+          "triangles": 3192,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1217,
+          "triangles": 1356,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6051b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2472,
+          "triangles": 3332,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1238,
+          "triangles": 1396,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6043b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2558,
+          "triangles": 3436,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1271,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6038b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2497,
+          "triangles": 3320,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1248,
+          "triangles": 1376,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6036b18",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2545,
+          "triangles": 3408,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1280,
+          "triangles": 1444,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6033b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2480,
+          "triangles": 3346,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1237,
+          "triangles": 1374,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6028e02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2157,
+          "triangles": 3208,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1103,
+          "triangles": 1366,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6028b03",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2515,
+          "triangles": 3364,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1274,
+          "triangles": 1406,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6028b02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2269,
+          "triangles": 3348,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1124,
+          "triangles": 1406,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6027e02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2416,
+          "triangles": 3262,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1277,
+          "triangles": 1362,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6027b02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2525,
+          "triangles": 3402,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1298,
+          "triangles": 1402,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6021e12",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2453,
+          "triangles": 3314,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1247,
+          "triangles": 1350,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6021e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2388,
+          "triangles": 3218,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1229,
+          "triangles": 1338,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6021b12",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2562,
+          "triangles": 3454,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1268,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6021b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2497,
+          "triangles": 3358,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1250,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6019e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2111,
+          "triangles": 3216,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1072,
+          "triangles": 1336,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6019b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2223,
+          "triangles": 3356,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1093,
+          "triangles": 1376,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6016e09",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2550,
+          "triangles": 3426,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1250,
+          "triangles": 1354,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6016b09",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2659,
+          "triangles": 3566,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1271,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6016b04",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2578,
+          "triangles": 3430,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1286,
+          "triangles": 1398,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6016b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2526,
+          "triangles": 3366,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1254,
+          "triangles": 1382,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6015b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2578,
+          "triangles": 3464,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1270,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6013e13",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2473,
+          "triangles": 3342,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1255,
+          "triangles": 1358,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6013e08",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2483,
+          "triangles": 3346,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1260,
+          "triangles": 1358,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6013e07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2485,
+          "triangles": 3352,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1267,
+          "triangles": 1362,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6013e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2407,
+          "triangles": 3246,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1249,
+          "triangles": 1350,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6013b13",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2582,
+          "triangles": 3482,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1276,
+          "triangles": 1398,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6013b08",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2592,
+          "triangles": 3486,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1281,
+          "triangles": 1398,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6013b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2594,
+          "triangles": 3492,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1288,
+          "triangles": 1402,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6013b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2516,
+          "triangles": 3386,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1270,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6012e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2410,
+          "triangles": 3250,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1257,
+          "triangles": 1350,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6012b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2597,
+          "triangles": 3496,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1296,
+          "triangles": 1402,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6012b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2519,
+          "triangles": 3390,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1278,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6011b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2584,
+          "triangles": 3472,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1272,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6011b02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2504,
+          "triangles": 3382,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1278,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6007b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2490,
+          "triangles": 3334,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1267,
+          "triangles": 1398,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6006e02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2345,
+          "triangles": 3206,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1239,
+          "triangles": 1366,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6006b02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2454,
+          "triangles": 3346,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1260,
+          "triangles": 1406,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6006b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2456,
+          "triangles": 3330,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1236,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6004e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2479,
+          "triangles": 3346,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1238,
+          "triangles": 1374,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6004b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2476,
+          "triangles": 3346,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1238,
+          "triangles": 1374,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6003e03",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2433,
+          "triangles": 3258,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1256,
+          "triangles": 1354,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6003b03",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2542,
+          "triangles": 3398,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1277,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002e18",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2431,
+          "triangles": 3290,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1242,
+          "triangles": 1386,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002e12",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2450,
+          "triangles": 3314,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1249,
+          "triangles": 1350,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2385,
+          "triangles": 3218,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1231,
+          "triangles": 1338,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002b18",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2540,
+          "triangles": 3430,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1263,
+          "triangles": 1426,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002b16",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2402,
+          "triangles": 3182,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1248,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002b13",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2560,
+          "triangles": 3454,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1258,
+          "triangles": 1386,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002b12",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2559,
+          "triangles": 3454,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1270,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002b08",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2570,
+          "triangles": 3458,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1263,
+          "triangles": 1386,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002b02",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2492,
+          "triangles": 3374,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1276,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6002b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2494,
+          "triangles": 3358,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1252,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001e12",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2438,
+          "triangles": 3306,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1182,
+          "triangles": 1350,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001e11",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2377,
+          "triangles": 3210,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1160,
+          "triangles": 1338,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001e07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2451,
+          "triangles": 3316,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1182,
+          "triangles": 1350,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001e01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2373,
+          "triangles": 3210,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1164,
+          "triangles": 1338,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001b16",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2390,
+          "triangles": 3174,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1181,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001b14",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2536,
+          "triangles": 3414,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1207,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001b12",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2547,
+          "triangles": 3446,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1203,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001b11",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2486,
+          "triangles": 3350,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1181,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001b07",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2560,
+          "triangles": 3456,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1203,
+          "triangles": 1390,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001b04",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2534,
+          "triangles": 3414,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1217,
+          "triangles": 1394,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    },
+    {
+      "name": "SK_6001b01",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 2482,
+          "triangles": 3350,
+          "full_active_required": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 1185,
+          "triangles": 1378,
+          "full_active_required": 166
+        }
+      ],
+      "native_reference_pose_exact": true
+    }
+  ],
+  "Android_tested": false
+}
