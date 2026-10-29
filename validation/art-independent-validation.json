@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "asset": "SK_NQ27lg00v0000_Face",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "SK_NQ27ep01v0291_Face",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "SK_NQ27ep00v0313_Face",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "SK_NQ27_Face",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_88042803047215_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_88042803047215_",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_106781476920663_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_106781476920663_",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_106654775417922_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_106654775417922_",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105794439855675_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105794439855675_",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105756321970183_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105756321970183_",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105647605587130_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105647605587130_",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105634720685845_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105634720685845_",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105625593957752_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105625593957752_",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105568954067359_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105568954067359_",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105565464400480_l",
+      "independent_UE_reader": true
+    },
+    {
+      "asset": "U715_105565464400480_",
+      "independent_UE_reader": true
+    }
+  ],
+  "Android_tested": false
+}

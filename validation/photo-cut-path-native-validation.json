@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "legacy_aliases_and_bigf_and_bare_numeric_portraits_supported": true,
+  "custom_photos_override_private_photos": true,
+  "ten_bundled_portraits_U715_paths_verified": true,
+  "older_portrait_paths_normalized_to_actual_container_folder": true,
+  "card_frame_keys_preserved": true,
+  "cut_long_body_paths_only_inside_scope": true,
+  "detail_and_lowbody_type_preserved": true,
+  "short_and_original_long_unchanged_outside_scope": true,
+  "Android_tested": false
+}
