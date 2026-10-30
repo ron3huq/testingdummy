@@ -1,0 +1,25 @@
+{
+  "head_fit": {
+    "scale_xyz": [
+      0.7916015725988224,
+      0.7636407285509434,
+      0.9596174603064556
+    ],
+    "translation_xyz": [
+      -0.01046305603191198,
+      -0.02529921062572768,
+      0.00017522033557026973
+    ],
+    "neck_boundary_below1_49m_unchanged": true,
+    "topology_unchanged": true,
+    "source_hash": "3d74d1d6e8b52c44a12cc5ed6f15bd3a869f61d5e5ace3231580baaf0406a13a",
+    "result_hash": "9fd881ab15554a3ecc211e9de512b0801a3232ff13ffbab797bc429b2a499537"
+  },
+  "facial_identity_texture_preserved": true,
+  "topology_UV_weights_unchanged": true,
+  "native_bind_matrices_unchanged": true,
+  "label": "Joker-Head-Neck-Refined",
+  "native_bones": 166,
+  "textures_packed": true,
+  "Android_packaged": false
+}

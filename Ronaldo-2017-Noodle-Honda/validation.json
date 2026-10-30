@@ -1,0 +1,28 @@
+{
+  "reference": "original4522 native skin bounds",
+  "head_fit": {
+    "scale_xyz": [
+      0.9314218653900497,
+      0.966551637444983,
+      0.9943476830792044
+    ],
+    "translation_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "neck_boundary_below1_49m_unchanged": true,
+    "topology_unchanged": true,
+    "source_hash": "73e0cd4edb8efbfe97056c5107fd7304e449167f35bdc8e762e9adfce4a0a79e",
+    "result_hash": "02b5fdc64bdfe10a1c6613c44835f3d6594a5eede06344bc580712ab051af20a"
+  },
+  "eye_geometry_unchanged_native4522_diffuse_island": false,
+  "mouth_faces_dimmed": 0,
+  "eye_faces": 3040,
+  "native_bind_matrices_unchanged": true,
+  "label": "Ronaldo-2017-Noodle-Honda",
+  "native_bones": 166,
+  "textures_packed": true,
+  "Android_packaged": false,
+  "eyes_source_preserved_native4522_HQ_pending": true
+}

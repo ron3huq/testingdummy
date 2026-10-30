@@ -1,0 +1,382 @@
+[
+  {
+    "path": "Joker-Head-Neck-Refined/CONTACT-SHEET.jpg",
+    "bytes": 331842,
+    "sha256": "76cf3fd3f5874c814524357e815bd24abb2d21fa946ece8737befc8e2ca942bf"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/Joker-Head-Neck-Refined.blend",
+    "bytes": 10315365,
+    "sha256": "3fd78c70ef5da4968d2fb5f64c29213b52648d5c932aa68467db4f9dcaf6308b"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/back-left.png",
+    "bytes": 636077,
+    "sha256": "320554107591a219e51583cd449f74081178341652c9f4c28fda1ec6a14e1836"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/back-right.png",
+    "bytes": 636235,
+    "sha256": "44223719adfdf005eecdaa19ae31fe234baf6e65e9b367b504f20904d4705a42"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/back.png",
+    "bytes": 642207,
+    "sha256": "b9273091ff314919cfdc1a9ef1760d93b0c5a86ae476eba89d14040a1526eb68"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/front-left.png",
+    "bytes": 622264,
+    "sha256": "4c3c00c8489fbcb8d701a44bb582a233363f2460d8282877f6e68df62166457b"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/front-right.png",
+    "bytes": 620650,
+    "sha256": "bba0924aee9b38774c7c08d945e8e4c0fb23a8fbba4193f125e5f3fedfc1351d"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/front.png",
+    "bytes": 625107,
+    "sha256": "df4f6e2ceb9e8d2e67982e6f989e724468dcf6a0cd94fe97e23ff8f1856f3e06"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/left.png",
+    "bytes": 623215,
+    "sha256": "2c8a94e8fa3683970b3f82107f82eb88bc6ed831abd4feb20f116b74159cd13b"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/right.png",
+    "bytes": 620615,
+    "sha256": "07ec4132eabc7d60538059826a22b508394ec123b8483452a35c152b6ecf9a97"
+  },
+  {
+    "path": "Joker-Head-Neck-Refined/validation.json",
+    "bytes": 741,
+    "sha256": "fbdb84aa24c070e6a3e8cb1708eb8b7a5ff4dbbc223269c54030c561469183d7"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/CONTACT-SHEET.jpg",
+    "bytes": 287453,
+    "sha256": "1c26b5bd51a6d0d2399d20c289b14b78299ebffdf138f376fab376071dc09103"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/Mullet-A-Ferran-Texture.blend",
+    "bytes": 13229560,
+    "sha256": "af2c829d8d41511c826ce018c4ee1d6e40cf0791e1248a701b537beea711ce68"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/back-left.png",
+    "bytes": 617868,
+    "sha256": "e6e0f0044b0448057d1b18d0aebd3e7dd34a2685c89b8b41b2047d8d7d9ee566"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/back-right.png",
+    "bytes": 616747,
+    "sha256": "d049b4f13b07f8c129d4b92c6160c78820239fb93c63bafee4aa6abe18b4c105"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/back.png",
+    "bytes": 604832,
+    "sha256": "127d0a5f3c7a5675f187efedac2ea4653ba9806a6846d7c54765d586859aa2cd"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/front-left.png",
+    "bytes": 623932,
+    "sha256": "8e180058ab3916e4dc8c526d558a059b53d8b088644ec61acdde43a85310ac9f"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/front-right.png",
+    "bytes": 621049,
+    "sha256": "dca412dddc970724e8ef2aa5261b36ec9837b706788924d8a46be92a4c12a76b"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/front.png",
+    "bytes": 622100,
+    "sha256": "e64157e1f0180bbc23f80f6634c7bbe7b09e52c63161d1396f91c322d630ee61"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/left.png",
+    "bytes": 613908,
+    "sha256": "5c94935941e8b60c82a0c079935b09b951b5ab5835590f2bb059a4cedcfe6d8d"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/mouth-pose-20deg.png",
+    "bytes": 597019,
+    "sha256": "45b8e9bfb635aaa4af86830578bef14862ad3edfe8e4e5a86c05d211bf206a47"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/right.png",
+    "bytes": 605845,
+    "sha256": "808fbc5f4767637dfdc03b3dff7529e437e19b635377b1a6de8991a8b2d074c1"
+  },
+  {
+    "path": "Mullet-A-Ferran-Texture/validation.json",
+    "bytes": 603,
+    "sha256": "b3b8666923362b12256828e873f630f2d0b3f606b1d267be82b512477d50d223"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/CONTACT-SHEET.jpg",
+    "bytes": 283080,
+    "sha256": "f64f77f3ea26b91dc7541bd561ea7c8649c55506fc1a675db8dc9bae2b3a5277"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/Mullet-B-Ferran-Full-Hair.blend",
+    "bytes": 14211884,
+    "sha256": "46ed8d0251c756c0760c205ea5cea1e0a2a6b6672ffbc88c8e9750128b63244a"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/back-left.png",
+    "bytes": 616423,
+    "sha256": "3d107e6f321bdbc9cd62771ddd8a8e66d93d8bd07a034be07d1eab8e75b039cf"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/back-right.png",
+    "bytes": 612205,
+    "sha256": "cff6ffbcfb93c7fd3d924b131cbf260b22d763e526d9c1d96e6e1b2ff8258af8"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/back.png",
+    "bytes": 602184,
+    "sha256": "749093ae151dc0f1a35a885275ee4e6d86967ab98e74b29ce12c3d51d9c5b468"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/front-left.png",
+    "bytes": 626020,
+    "sha256": "499e7e2e03fd2db110c80c201ee784659fb3f3069df537e4bc0ecc1965507f74"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/front-right.png",
+    "bytes": 619828,
+    "sha256": "a71bee3875f50cca9dd5337c4b8196a0d8b0d130dc1d230349935f3c3503ed3c"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/front.png",
+    "bytes": 625510,
+    "sha256": "69e3e1be9bd495e499b9c69fb271dbf308d50f28a88b3a92b3c1fd0749e6fa92"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/left.png",
+    "bytes": 614659,
+    "sha256": "dbbb8b1fc9452b27d4d3d00772765da4934f5c8c7d402e1cb8d590aef7490214"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/mouth-pose-20deg.png",
+    "bytes": 604006,
+    "sha256": "f31868c037896411056eca399f8764bcd1b5109351af56f70f2ed61d43f48974"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/right.png",
+    "bytes": 603365,
+    "sha256": "2e71ed1eaa1e11b9265a8e6d92161ee22e10f00e562c08b566881201b8be5881"
+  },
+  {
+    "path": "Mullet-B-Ferran-Full-Hair/validation.json",
+    "bytes": 626,
+    "sha256": "2e58419edd9fdda1f878225c3ffe5cc3c40ce8976789e5f4ea5e1d7e4dbed952"
+  },
+  {
+    "path": "README-VI.md",
+    "bytes": 4188,
+    "sha256": "252b9526dc799a582e280a9081dc65c7a19a59a8ccc24c1a4323a50dff270713"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/CONTACT-SHEET.jpg",
+    "bytes": 339702,
+    "sha256": "896efa6fe9f7dd1a45d78b22db97e0db7cde44e6e1992e479036d565eb33df7c"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/Raiden-Silver-Mask-Bright-Hair.blend",
+    "bytes": 4943809,
+    "sha256": "ce8eb08acc330e0d138b9eb5ffc6f05691c910518c7ce776184fba5b56367730"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/back-left.png",
+    "bytes": 645865,
+    "sha256": "0b4e09a8444dfcac49348262b8de9e2aee5e31ba5c573f0a0b1de27ac50a1d2f"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/back-right.png",
+    "bytes": 632945,
+    "sha256": "dfbad97fce2f6dda5b42f9aa1598193a1467ea0b7699bbf57512d9280fdeb3d4"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/back.png",
+    "bytes": 634862,
+    "sha256": "99efaccfc34dcaedd1db88df08764f29c6eb75648ed8963b9d24195d2b019777"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/front-left.png",
+    "bytes": 626683,
+    "sha256": "abf8dd748bbaae86db20917d21ba85b19e0626a62e28b51750584300fc891e62"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/front-right.png",
+    "bytes": 616311,
+    "sha256": "556cb1b9be3eea034656a95d24f8aab2b3e3ffd9ab7d7d5343750bf2cc5b34cb"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/front.png",
+    "bytes": 604307,
+    "sha256": "bb53d2853a739d0ab92abd0c0fd6447fa8de5f1abf318bb477f7a9381201f706"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/left.png",
+    "bytes": 626095,
+    "sha256": "ccfaf7f54b5800a06ddab6eecfeb878df7abca3355c25beff692ccc6e3ed8fb3"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/right.png",
+    "bytes": 616626,
+    "sha256": "24912fc5026ebcf4bba175ad1f925c5114249e2abe16461030dac3ffd40ffbc8"
+  },
+  {
+    "path": "Raiden-Silver-Mask-Bright-Hair/validation.json",
+    "bytes": 277,
+    "sha256": "0f15307cc0ceb4c525b0bb61bedef8f50c4b0a04e53f74037b7d37bada9faf59"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/CONTACT-SHEET.jpg",
+    "bytes": 318567,
+    "sha256": "5cfe3feebdf06889b979eadd07f70379a65797308eaa96bf556c02d2f9d2826e"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/Ronaldo-2017-Noodle-Honda.blend",
+    "bytes": 22142979,
+    "sha256": "d8f9feb419c6a81b78c4f3faf7f7770dd2b2f5b4dd5e2104513191b27a1e1c8d"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/back-left.png",
+    "bytes": 640378,
+    "sha256": "2f4de9712e09e74dcd422b8f200527a41cb05c6538db297e56f664c6a13f3fa1"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/back-right.png",
+    "bytes": 636413,
+    "sha256": "237544430cbff0269af486885d0030456ef80d684d2a41200fca16f94171c0f0"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/back.png",
+    "bytes": 632951,
+    "sha256": "af7f69b1a06d68425ec7fff93e3292202e10bf0d9c23902ce2c05a10be90b479"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/front-left.png",
+    "bytes": 643691,
+    "sha256": "1f28ea517fedc1f55fa523e3a033a29f11fb7892004c178f778cd82559324fb6"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/front-right.png",
+    "bytes": 641817,
+    "sha256": "ec767dc622380a909c301282ec89980e86095d1e231ae516a56e395b3a171571"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/front.png",
+    "bytes": 640983,
+    "sha256": "8b814dbd40513a72e70eb424577fc0e62ffabf77951a6580617391e759700fa4"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/left.png",
+    "bytes": 635105,
+    "sha256": "b22db474a34e27b03929eed02bf4c2194a330154094adafd0cfdc1374d98147e"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/mouth-pose-20deg.png",
+    "bytes": 583936,
+    "sha256": "34fe4a03130bef9eea305450cee78333a213fa88c0fbd296ec1568b26fd3785f"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/right.png",
+    "bytes": 632553,
+    "sha256": "047ca5611330d5f9f9f7774ac2b022647ecc29e4a307fa0f25fdd9d57c3e897f"
+  },
+  {
+    "path": "Ronaldo-2017-Noodle-Honda/validation.json",
+    "bytes": 817,
+    "sha256": "8756ccd3a1658f87b90f94dc7e9a54b5262ea7c1b7102ecee308054c18be467b"
+  },
+  {
+    "path": "SIX-FRONTS.jpg",
+    "bytes": 267629,
+    "sha256": "6f418fe1898e92a01acd3cc1580dd527a2f2eb752f06d4194fbe5f30e1777ed7"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/CONTACT-SHEET.jpg",
+    "bytes": 302832,
+    "sha256": "284afc83cb5c4d208243aeed05a2c33a9226cbec80845f43e9cbe467a57b1686"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/Wukong-Beard-Fur-Dense.blend",
+    "bytes": 10688788,
+    "sha256": "102b813210789c21c84524020b20042c08e13189858d8a63082b01a16999660c"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/back-left.png",
+    "bytes": 613943,
+    "sha256": "c783489cfecb66a336068918254b1ad815c1465d17d362fc9cf35aabf1f8b4c4"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/back-right.png",
+    "bytes": 615703,
+    "sha256": "90f048f9c57aed67481127e3f579139fb0bcde93857e1a3074ef9fd684a01341"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/back.png",
+    "bytes": 605393,
+    "sha256": "34512113ca9a9bac35029bc3be165023dd75e3c6f92ac4da7e9bc03cddc7f617"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/front-left.png",
+    "bytes": 623412,
+    "sha256": "820c80b3590c9d65c221880311649abfd534c15473a9a8cdc53c3a46ae442e08"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/front-right.png",
+    "bytes": 619593,
+    "sha256": "e7b125d2e938452217f7642a20f234440696d9fa9f326d5c0bc4d1adb25a52b3"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/front.png",
+    "bytes": 615852,
+    "sha256": "de6899c5f2da7cb8f850778aa6619f76976dcba4efe7a93d011fd1afdb233759"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/left.png",
+    "bytes": 623826,
+    "sha256": "02ce9891a85071e9816e6e101286b7a91f7c9f719ade25503d08c14b4592e1b7"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/right.png",
+    "bytes": 623668,
+    "sha256": "d497d427752d310a02fff0589709dffbc659b605f739e0cc4bf44b7039dee3f7"
+  },
+  {
+    "path": "Wukong-Beard-Fur-Dense/validation.json",
+    "bytes": 494,
+    "sha256": "7be07bafed257e79f0a4b5c98396a0284f4103317ee5eb1efb54df3a0226726d"
+  },
+  {
+    "path": "build-validation.json",
+    "bytes": 4258,
+    "sha256": "e6d74774b3459289f4208c4df476aad8bda9a006be43214f62145e07006a01f7"
+  },
+  {
+    "path": "mouth-pose-test.json",
+    "bytes": 696,
+    "sha256": "4f22be8bf0596c36656840332cd639e157c2bcdb7b6cc067e8b5226ba7f7867c"
+  },
+  {
+    "path": "render-times.json",
+    "bytes": 4550,
+    "sha256": "bdcb16a836df6b23fe6b79611d7e7c0d5d8083923d443deaac4f55591d417c1f"
+  },
+  {
+    "path": "reopen-verification.json",
+    "bytes": 9282,
+    "sha256": "adcfdea1985a0900d6ce24f1641c60008230b218676dfd31fc61640b62c5c5dd"
+  },
+  {
+    "path": "source-uv-verification.json",
+    "bytes": 188,
+    "sha256": "da23986c4cbc568c63a24e21eaf11b5706143df4c0d9d92557bdf7e3aaaf7b55"
+  }
+]

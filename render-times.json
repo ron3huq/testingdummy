@@ -1,0 +1,242 @@
+[
+  {
+    "model": "Mullet-A-Ferran-Texture",
+    "view": "front",
+    "seconds": 19.12
+  },
+  {
+    "model": "Mullet-A-Ferran-Texture",
+    "view": "front-left",
+    "seconds": 27.37
+  },
+  {
+    "model": "Mullet-A-Ferran-Texture",
+    "view": "left",
+    "seconds": 34.61
+  },
+  {
+    "model": "Mullet-A-Ferran-Texture",
+    "view": "back-left",
+    "seconds": 39.3
+  },
+  {
+    "model": "Mullet-A-Ferran-Texture",
+    "view": "back",
+    "seconds": 23.03
+  },
+  {
+    "model": "Mullet-A-Ferran-Texture",
+    "view": "back-right",
+    "seconds": 26.67
+  },
+  {
+    "model": "Mullet-A-Ferran-Texture",
+    "view": "right",
+    "seconds": 21.32
+  },
+  {
+    "model": "Mullet-A-Ferran-Texture",
+    "view": "front-right",
+    "seconds": 18.57
+  },
+  {
+    "model": "Mullet-B-Ferran-Full-Hair",
+    "view": "front",
+    "seconds": 16.74
+  },
+  {
+    "model": "Mullet-B-Ferran-Full-Hair",
+    "view": "front-left",
+    "seconds": 21.3
+  },
+  {
+    "model": "Mullet-B-Ferran-Full-Hair",
+    "view": "left",
+    "seconds": 20.42
+  },
+  {
+    "model": "Mullet-B-Ferran-Full-Hair",
+    "view": "back-left",
+    "seconds": 32.01
+  },
+  {
+    "model": "Mullet-B-Ferran-Full-Hair",
+    "view": "back",
+    "seconds": 33.98
+  },
+  {
+    "model": "Mullet-B-Ferran-Full-Hair",
+    "view": "back-right",
+    "seconds": 46.42
+  },
+  {
+    "model": "Mullet-B-Ferran-Full-Hair",
+    "view": "right",
+    "seconds": 25.01
+  },
+  {
+    "model": "Mullet-B-Ferran-Full-Hair",
+    "view": "front-right",
+    "seconds": 32.69
+  },
+  {
+    "model": "Ronaldo-2017-Noodle-Honda",
+    "view": "front",
+    "seconds": 22.9
+  },
+  {
+    "model": "Ronaldo-2017-Noodle-Honda",
+    "view": "front-left",
+    "seconds": 12.87
+  },
+  {
+    "model": "Ronaldo-2017-Noodle-Honda",
+    "view": "left",
+    "seconds": 14.18
+  },
+  {
+    "model": "Ronaldo-2017-Noodle-Honda",
+    "view": "back-left",
+    "seconds": 14.8
+  },
+  {
+    "model": "Ronaldo-2017-Noodle-Honda",
+    "view": "back",
+    "seconds": 12.8
+  },
+  {
+    "model": "Ronaldo-2017-Noodle-Honda",
+    "view": "back-right",
+    "seconds": 11.35
+  },
+  {
+    "model": "Ronaldo-2017-Noodle-Honda",
+    "view": "right",
+    "seconds": 11.07
+  },
+  {
+    "model": "Ronaldo-2017-Noodle-Honda",
+    "view": "front-right",
+    "seconds": 11.45
+  },
+  {
+    "model": "Wukong-Beard-Fur-Dense",
+    "view": "front",
+    "seconds": 20.77
+  },
+  {
+    "model": "Wukong-Beard-Fur-Dense",
+    "view": "front-left",
+    "seconds": 24.03
+  },
+  {
+    "model": "Wukong-Beard-Fur-Dense",
+    "view": "left",
+    "seconds": 28.57
+  },
+  {
+    "model": "Wukong-Beard-Fur-Dense",
+    "view": "back-left",
+    "seconds": 19.74
+  },
+  {
+    "model": "Wukong-Beard-Fur-Dense",
+    "view": "back",
+    "seconds": 14.45
+  },
+  {
+    "model": "Wukong-Beard-Fur-Dense",
+    "view": "back-right",
+    "seconds": 17.27
+  },
+  {
+    "model": "Wukong-Beard-Fur-Dense",
+    "view": "right",
+    "seconds": 17.62
+  },
+  {
+    "model": "Wukong-Beard-Fur-Dense",
+    "view": "front-right",
+    "seconds": 17.44
+  },
+  {
+    "model": "Joker-Head-Neck-Refined",
+    "view": "front",
+    "seconds": 9.03
+  },
+  {
+    "model": "Joker-Head-Neck-Refined",
+    "view": "front-left",
+    "seconds": 10.68
+  },
+  {
+    "model": "Joker-Head-Neck-Refined",
+    "view": "left",
+    "seconds": 9.01
+  },
+  {
+    "model": "Joker-Head-Neck-Refined",
+    "view": "back-left",
+    "seconds": 26.48
+  },
+  {
+    "model": "Joker-Head-Neck-Refined",
+    "view": "back",
+    "seconds": 12.57
+  },
+  {
+    "model": "Joker-Head-Neck-Refined",
+    "view": "back-right",
+    "seconds": 13.04
+  },
+  {
+    "model": "Joker-Head-Neck-Refined",
+    "view": "right",
+    "seconds": 13.14
+  },
+  {
+    "model": "Joker-Head-Neck-Refined",
+    "view": "front-right",
+    "seconds": 12.12
+  },
+  {
+    "model": "Raiden-Silver-Mask-Bright-Hair",
+    "view": "front",
+    "seconds": 23.17
+  },
+  {
+    "model": "Raiden-Silver-Mask-Bright-Hair",
+    "view": "front-left",
+    "seconds": 39.95
+  },
+  {
+    "model": "Raiden-Silver-Mask-Bright-Hair",
+    "view": "left",
+    "seconds": 32.95
+  },
+  {
+    "model": "Raiden-Silver-Mask-Bright-Hair",
+    "view": "back-left",
+    "seconds": 23.82
+  },
+  {
+    "model": "Raiden-Silver-Mask-Bright-Hair",
+    "view": "back",
+    "seconds": 22.83
+  },
+  {
+    "model": "Raiden-Silver-Mask-Bright-Hair",
+    "view": "back-right",
+    "seconds": 20.21
+  },
+  {
+    "model": "Raiden-Silver-Mask-Bright-Hair",
+    "view": "right",
+    "seconds": 21.04
+  },
+  {
+    "model": "Raiden-Silver-Mask-Bright-Hair",
+    "view": "front-right",
+    "seconds": 16.6
+  }
+]

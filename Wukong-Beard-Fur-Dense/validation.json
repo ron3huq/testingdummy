@@ -1,0 +1,15 @@
+{
+  "all_vertex_positions_and_lengths_unchanged": true,
+  "topology_UV_and_weights_unchanged": true,
+  "same_beard_source_atlas_applied_to_all_hair_material_faces": true,
+  "density": {
+    "alpha_coverage_before": 0.5943083763122559,
+    "alpha_coverage_after": 0.6208643913269043,
+    "source_is_existing_beard_hair_atlas": true
+  },
+  "native_bind_matrices_unchanged": true,
+  "label": "Wukong-Beard-Fur-Dense",
+  "native_bones": 166,
+  "textures_packed": true,
+  "Android_packaged": false
+}

@@ -1,0 +1,124 @@
+{
+  "blends": [
+    {
+      "head_fit": {
+        "scale_xyz": [
+          0.7916015725988224,
+          0.7636407285509434,
+          0.9596174603064556
+        ],
+        "translation_xyz": [
+          -0.01046305603191198,
+          -0.02529921062572768,
+          0.00017522033557026973
+        ],
+        "neck_boundary_below1_49m_unchanged": true,
+        "topology_unchanged": true,
+        "source_hash": "3d74d1d6e8b52c44a12cc5ed6f15bd3a869f61d5e5ace3231580baaf0406a13a",
+        "result_hash": "9fd881ab15554a3ecc211e9de512b0801a3232ff13ffbab797bc429b2a499537"
+      },
+      "facial_identity_texture_preserved": true,
+      "topology_UV_weights_unchanged": true,
+      "native_bind_matrices_unchanged": true,
+      "label": "Joker-Head-Neck-Refined",
+      "native_bones": 166,
+      "textures_packed": true,
+      "Android_packaged": false
+    },
+    {
+      "all_vertex_positions_byte_exact_to_MulletV13": true,
+      "topology_and_weights_unchanged": true,
+      "eye_geometry_unchanged_native4522_diffuse_island": false,
+      "eye_faces": 1920,
+      "mouth_faces_dimmed": 173,
+      "hair_texture_source": "Ferran Torres Vol4 / hair_parts_bsm_alp + normal",
+      "hair_UV_unchanged_five_column_atlas_repacked": true,
+      "rig_bind_hash": "53079c8957e19593f5136f1386105482e99055c44975d8a61d0345e115a379fc",
+      "label": "Mullet-A-Ferran-Texture",
+      "native_bones": 166,
+      "textures_packed": true,
+      "Android_packaged": false,
+      "eyes_source_preserved_native4522_HQ_pending": true
+    },
+    {
+      "Ferran_original_hair_vertices": 3691,
+      "Ferran_original_topology_preserved": true,
+      "uniform_scale": 0.965989967220724,
+      "translation_xyz": [
+        0.005084589574856285,
+        -0.005157250412225783,
+        0.05971391263021353
+      ],
+      "fit_anchors": [
+        "outer width",
+        "front extent",
+        "crown height"
+      ],
+      "old_Mullet_hair_removed": true,
+      "native_bind_matrices_unchanged": true,
+      "label": "Mullet-B-Ferran-Full-Hair",
+      "native_bones": 166,
+      "textures_packed": true,
+      "Android_packaged": false,
+      "eye_geometry_unchanged_native4522_diffuse_island": false,
+      "eyes_source_preserved_native4522_HQ_pending": true
+    },
+    {
+      "geometry_UV_weights_and_bones_unchanged": true,
+      "silver_mask_faces": 2065,
+      "metallic": 1,
+      "roughness": 0.16,
+      "hair_brightness_gamma": 0.55,
+      "label": "Raiden-Silver-Mask-Bright-Hair",
+      "native_bones": 166,
+      "textures_packed": true,
+      "Android_packaged": false
+    },
+    {
+      "reference": "original4522 native skin bounds",
+      "head_fit": {
+        "scale_xyz": [
+          0.9314218653900497,
+          0.966551637444983,
+          0.9943476830792044
+        ],
+        "translation_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "neck_boundary_below1_49m_unchanged": true,
+        "topology_unchanged": true,
+        "source_hash": "73e0cd4edb8efbfe97056c5107fd7304e449167f35bdc8e762e9adfce4a0a79e",
+        "result_hash": "02b5fdc64bdfe10a1c6613c44835f3d6594a5eede06344bc580712ab051af20a"
+      },
+      "eye_geometry_unchanged_native4522_diffuse_island": false,
+      "mouth_faces_dimmed": 0,
+      "eye_faces": 3040,
+      "native_bind_matrices_unchanged": true,
+      "label": "Ronaldo-2017-Noodle-Honda",
+      "native_bones": 166,
+      "textures_packed": true,
+      "Android_packaged": false,
+      "eyes_source_preserved_native4522_HQ_pending": true
+    },
+    {
+      "all_vertex_positions_and_lengths_unchanged": true,
+      "topology_UV_and_weights_unchanged": true,
+      "same_beard_source_atlas_applied_to_all_hair_material_faces": true,
+      "density": {
+        "alpha_coverage_before": 0.5943083763122559,
+        "alpha_coverage_after": 0.6208643913269043,
+        "source_is_existing_beard_hair_atlas": true
+      },
+      "native_bind_matrices_unchanged": true,
+      "label": "Wukong-Beard-Fur-Dense",
+      "native_bones": 166,
+      "textures_packed": true,
+      "Android_packaged": false
+    }
+  ],
+  "Android_packaged": false,
+  "native4522_HQ_geometry_available": false,
+  "eye_change_scope": "Original supplied eye geometry and UV restored; native4522 high quality eye replacement NOT complete"
+}

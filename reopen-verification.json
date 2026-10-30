@@ -1,0 +1,430 @@
+{
+  "models": [
+    {
+      "model": "Mullet-A-Ferran-Texture",
+      "reopens": true,
+      "native_bones": 166,
+      "bind_matrices_match_source": true,
+      "missing_or_external_images": [],
+      "textures": [
+        {
+          "name": "atlas-ETC2-decoded.png",
+          "size": [
+            2048,
+            1024
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-N-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-SRO-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "Mullet-Ferran-Diffuse.png",
+          "size": [
+            2048,
+            1024
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "Mullet-Ferran-Normal.png",
+          "size": [
+            2048,
+            1024
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "pc-face-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "T_4522_Face_D.png",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "loaded": true
+        }
+      ],
+      "mesh_count": 1,
+      "vertices": 47186,
+      "triangles": 66172,
+      "Cycles_denoiser_required": false,
+      "vertex_coordinates_match_source_byte_exact": true
+    },
+    {
+      "model": "Mullet-B-Ferran-Full-Hair",
+      "reopens": true,
+      "native_bones": 166,
+      "bind_matrices_match_source": true,
+      "missing_or_external_images": [],
+      "textures": [
+        {
+          "name": "atlas-ETC2-decoded.png",
+          "size": [
+            2048,
+            1024
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-N-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-SRO-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face_bsm_alp.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "hair_parts_bsm_alp.png",
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "hair_parts_nrm.png",
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "Mullet-Ferran-Diffuse.png",
+          "size": [
+            2048,
+            1024
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "Mullet-Ferran-Normal.png",
+          "size": [
+            2048,
+            1024
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "pc-face-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "T_4522_Face_D.png",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "loaded": true
+        }
+      ],
+      "mesh_count": 3,
+      "vertices": 35338,
+      "triangles": 56968,
+      "Cycles_denoiser_required": false,
+      "Ferran_hair_vertices": 3691,
+      "Ferran_scalp_vertices": 341
+    },
+    {
+      "model": "Ronaldo-2017-Noodle-Honda",
+      "reopens": true,
+      "native_bones": 166,
+      "bind_matrices_match_source": true,
+      "missing_or_external_images": [],
+      "textures": [
+        {
+          "name": "atlas-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "atlas-ETC2-decoded.png.001",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-N-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-N-ETC2-decoded.png.001",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-SRO-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-SRO-ETC2-decoded.png.001",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "pc-face-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "pc-face-ETC2-decoded.png.001",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "T_4522_Face_D.png",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "loaded": true
+        }
+      ],
+      "mesh_count": 1,
+      "vertices": 11079,
+      "triangles": 15904,
+      "Cycles_denoiser_required": false
+    },
+    {
+      "model": "Wukong-Beard-Fur-Dense",
+      "reopens": true,
+      "native_bones": 166,
+      "bind_matrices_match_source": true,
+      "missing_or_external_images": [],
+      "textures": [
+        {
+          "name": "atlas-ETC2-decoded.png",
+          "size": [
+            2048,
+            1024
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "Beard-Dense-All-Fur.png",
+          "size": [
+            2048,
+            1024
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-N-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-SRO-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "pc-face-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        }
+      ],
+      "mesh_count": 1,
+      "vertices": 63897,
+      "triangles": 67170,
+      "Cycles_denoiser_required": false,
+      "vertex_coordinates_match_source_byte_exact": true
+    },
+    {
+      "model": "Joker-Head-Neck-Refined",
+      "reopens": true,
+      "native_bones": 166,
+      "bind_matrices_match_source": true,
+      "missing_or_external_images": [],
+      "textures": [
+        {
+          "name": "atlas-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-N-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "face-SRO-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "pc-face-ETC2-decoded.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        }
+      ],
+      "mesh_count": 1,
+      "vertices": 47523,
+      "triangles": 61959,
+      "Cycles_denoiser_required": false
+    },
+    {
+      "model": "Raiden-Silver-Mask-Bright-Hair",
+      "reopens": true,
+      "native_bones": 166,
+      "bind_matrices_match_source": true,
+      "missing_or_external_images": [],
+      "textures": [
+        {
+          "name": "T_HRA6_Hair_D.tga",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "T_NRA6_Face_D.tga",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        },
+        {
+          "name": "T_NRA6_Face_N.tga",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "loaded": true
+        }
+      ],
+      "mesh_count": 1,
+      "vertices": 6760,
+      "triangles": 9703,
+      "Cycles_denoiser_required": false,
+      "vertex_coordinates_match_source_byte_exact": true
+    }
+  ],
+  "Android_tested": false
+}

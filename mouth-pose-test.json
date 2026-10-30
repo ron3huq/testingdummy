@@ -1,0 +1,38 @@
+[
+  {
+    "model": "Mullet-A-Ferran-Texture",
+    "bone": "skf_jaw",
+    "mesh_geometry_saved": false,
+    "Android_animation_test": false,
+    "global_hinge_axis": [
+      1,
+      0,
+      0
+    ],
+    "rotation_degrees": 20
+  },
+  {
+    "model": "Mullet-B-Ferran-Full-Hair",
+    "bone": "skf_jaw",
+    "mesh_geometry_saved": false,
+    "Android_animation_test": false,
+    "global_hinge_axis": [
+      1,
+      0,
+      0
+    ],
+    "rotation_degrees": 20
+  },
+  {
+    "model": "Ronaldo-2017-Noodle-Honda",
+    "bone": "skf_jaw",
+    "mesh_geometry_saved": false,
+    "Android_animation_test": false,
+    "global_hinge_axis": [
+      1,
+      0,
+      0
+    ],
+    "rotation_degrees": 20
+  }
+]

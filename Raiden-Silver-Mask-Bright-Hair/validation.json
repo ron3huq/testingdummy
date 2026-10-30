@@ -1,0 +1,11 @@
+{
+  "geometry_UV_weights_and_bones_unchanged": true,
+  "silver_mask_faces": 2065,
+  "metallic": 1,
+  "roughness": 0.16,
+  "hair_brightness_gamma": 0.55,
+  "label": "Raiden-Silver-Mask-Bright-Hair",
+  "native_bones": 166,
+  "textures_packed": true,
+  "Android_packaged": false
+}

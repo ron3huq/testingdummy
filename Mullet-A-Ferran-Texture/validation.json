@@ -1,0 +1,15 @@
+{
+  "all_vertex_positions_byte_exact_to_MulletV13": true,
+  "topology_and_weights_unchanged": true,
+  "eye_geometry_unchanged_native4522_diffuse_island": false,
+  "eye_faces": 1920,
+  "mouth_faces_dimmed": 173,
+  "hair_texture_source": "Ferran Torres Vol4 / hair_parts_bsm_alp + normal",
+  "hair_UV_unchanged_five_column_atlas_repacked": true,
+  "rig_bind_hash": "53079c8957e19593f5136f1386105482e99055c44975d8a61d0345e115a379fc",
+  "label": "Mullet-A-Ferran-Texture",
+  "native_bones": 166,
+  "textures_packed": true,
+  "Android_packaged": false,
+  "eyes_source_preserved_native4522_HQ_pending": true
+}

@@ -1,0 +1,23 @@
+{
+  "Ferran_original_hair_vertices": 3691,
+  "Ferran_original_topology_preserved": true,
+  "uniform_scale": 0.965989967220724,
+  "translation_xyz": [
+    0.005084589574856285,
+    -0.005157250412225783,
+    0.05971391263021353
+  ],
+  "fit_anchors": [
+    "outer width",
+    "front extent",
+    "crown height"
+  ],
+  "old_Mullet_hair_removed": true,
+  "native_bind_matrices_unchanged": true,
+  "label": "Mullet-B-Ferran-Full-Hair",
+  "native_bones": 166,
+  "textures_packed": true,
+  "Android_packaged": false,
+  "eye_geometry_unchanged_native4522_diffuse_island": false,
+  "eyes_source_preserved_native4522_HQ_pending": true
+}
