@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "missing_state_rebuilt_from_saved_crops": true,
+  "missing_ucas_rebuilt_identically": true,
+  "user_SQL_unchanged": true,
+  "Android_tested": false
+}

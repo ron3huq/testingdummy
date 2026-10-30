@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "only_supplied_card_old_overrides_migrated_once": true,
+  "old_crops_backed_up_losslessly": true,
+  "unrelated_save_and_other_photos_unchanged": true,
+  "subsequent_user_import_retains_priority": true,
+  "valid_but_stale_generation_rebuilt_from_new_SQL": true,
+  "no_stale_download_advert_after_last_override_removed": true,
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.16"
+}

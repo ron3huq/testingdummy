@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "Android_tested": false,
+  "original_native_147_getter_setter": true,
+  "stat_bounds": [
+    0,
+    127
+  ],
+  "motion_parameters_copied": {
+    "51": 2,
+    "52": 5,
+    "53": 11,
+    "54": 6,
+    "55": 12,
+    "56": 17,
+    "57": 6,
+    "58": 10
+  },
+  "all_unrelated_fields_preserved": true,
+  "world_nation_roles": [
+    {
+      "role": 0,
+      "added_flags": 8,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 1,
+      "added_flags": 10,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 2,
+      "added_flags": 10,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 3,
+      "added_flags": 10,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 4,
+      "added_flags": 17,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 5,
+      "added_flags": 13,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 6,
+      "added_flags": 14,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 7,
+      "added_flags": 14,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 8,
+      "added_flags": 13,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 9,
+      "added_flags": 14,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 10,
+      "added_flags": 14,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 11,
+      "added_flags": 15,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    },
+    {
+      "role": 12,
+      "added_flags": 15,
+      "preserved_existing": true,
+      "restored_outside_league": true
+    }
+  ],
+  "kit_scope_and_four_slot_remap": true,
+  "baseline_preserved_from": "UI7.16"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "native_catalogue_composite_portrait_and_background_tile_names_used": true,
+  "target_header_identity_preserved": true,
+  "donor_photo_never_copied": true,
+  "only_background_frame_paths_change": true,
+  "custom_photo_keeps_background": true,
+  "native_numeric_background_tile_not_mistaken_for_photo": true,
+  "cached_style_reused": true,
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.16"
+}

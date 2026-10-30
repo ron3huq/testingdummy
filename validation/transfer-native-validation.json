@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "production_ARM64_and_original_engine_consumers": true,
+  "native_storage_pool_kept_stable": true,
+  "starting_order_consumed_via_original_82bfb2c_and_68fc714": true,
+  "swap_keeps_captain_and_all_six_takers_by_ID": true,
+  "bench_add_remove_updates_pool_without_reordering_survivors": true,
+  "shirt_numbers_follow_ID": true,
+  "repeat_idempotent": true,
+  "original_team_restored_outside_competition": true,
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.16"
+}

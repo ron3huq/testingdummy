@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "standard_UE4_v11_layout_no_inserted_bytes": true,
+  "files": [
+    {
+      "file": "pc9300_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9302_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9303_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9305_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9306_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9307_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9310_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9312_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9313_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9314_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9315_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9316_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9317_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9320_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9321_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    },
+    {
+      "file": "pc9323_mobile_and.pak",
+      "bytes": 365,
+      "primary_and_both_secondary_SHA1_valid": true
+    }
+  ],
+  "Android_tested": false
+}

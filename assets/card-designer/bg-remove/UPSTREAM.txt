@@ -1,0 +1,1 @@
+Offline background removal: U2-NetP (https://github.com/xuebinqin/U-2-Net), model published by rembg; ONNX Runtime Web1.17.3. Licenses included. Loaded only inside the portrait editor worker. Photographs are not uploaded.

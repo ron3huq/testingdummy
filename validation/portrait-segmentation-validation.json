@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "photos": [
+    {
+      "file": "88042803047215(ronaldo2017uclfinalrealvsjuventus).png",
+      "elapsed_host_ms": 4275,
+      "status": "Background removed offline. Review both previews; Restore keeps your original photo."
+    },
+    {
+      "file": "88044145348047(ronaldo2014wc).png",
+      "elapsed_host_ms": 3508,
+      "status": "Background removed offline. Review both previews; Restore keeps your original photo."
+    },
+    {
+      "file": "89138288266704(ronaldo2008).png",
+      "elapsed_host_ms": 3417,
+      "status": "Background removed offline. Review both previews; Restore keeps your original photo."
+    },
+    {
+      "file": "henry.png",
+      "elapsed_host_ms": 3584,
+      "status": "Background removed offline. Review both previews; Restore keeps your original photo."
+    },
+    {
+      "file": "joker.png",
+      "elapsed_host_ms": 4363,
+      "status": "Background removed offline. Review both previews; Restore keeps your original photo."
+    },
+    {
+      "file": "raiden.png",
+      "elapsed_host_ms": 4380,
+      "status": "Background removed offline. Review both previews; Restore keeps your original photo."
+    },
+    {
+      "file": "robben.png",
+      "elapsed_host_ms": 12951,
+      "status": "Background removed offline. Review both previews; Restore keeps your original photo."
+    },
+    {
+      "file": "ronaldonazario.png",
+      "elapsed_host_ms": 3456,
+      "status": "Background removed offline. Review both previews; Restore keeps your original photo."
+    },
+    {
+      "file": "spiderman.png",
+      "elapsed_host_ms": 468,
+      "status": "Transparent photo kept unchanged. Adjust both crops, then Save."
+    },
+    {
+      "file": "wukong.png",
+      "elapsed_host_ms": 820,
+      "status": "Transparent photo kept unchanged. Adjust both crops, then Save."
+    },
+    {
+      "file": "zidane.png",
+      "elapsed_host_ms": 3455,
+      "status": "Background removed offline. Review both previews; Restore keeps your original photo."
+    }
+  ],
+  "RGB_not_redrawn": true,
+  "only_alpha_and_uniform_resize": true,
+  "model": "U2NetP",
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.16"
+}

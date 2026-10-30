@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "name": "SK_NHE4lg00v0000_Face",
+      "container": "pc9321",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 10644,
+          "triangles": 19839,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 10644,
+          "triangles": 19839,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NHE4ep01v0291_Face",
+      "container": "pc9321",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 10644,
+          "triangles": 19839,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 10644,
+          "triangles": 19839,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NHE4ep00v0313_Face",
+      "container": "pc9321",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 10644,
+          "triangles": 19839,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 10644,
+          "triangles": 19839,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NHE4_Face",
+      "container": "pc9321",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 10644,
+          "triangles": 19839,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 10644,
+          "triangles": 19839,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    }
+  ],
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.16"
+}

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "source_is_actual_merged_runtime_head": true,
+  "stock_4522_not_used": true,
+  "source_container": "pc9317/NQ27",
+  "all_points_and_skin_weights_verified": true,
+  "textures_packed": true,
+  "variants": [
+    {
+      "variant": "main",
+      "vertices": 7502,
+      "triangles": 11991,
+      "native_bones": 166,
+      "source_psk_sha256": "4e7b81fd238a3fd541eed2883abfd7605576ef02218e2d67c6bad6cc0bbf0b26"
+    },
+    {
+      "variant": "ep00v0313",
+      "vertices": 7502,
+      "triangles": 11991,
+      "native_bones": 166,
+      "source_psk_sha256": "9b058571e86907ea6feefaf188c99d1cba91d98cf51a4376bb5d71788c3a5d36"
+    },
+    {
+      "variant": "ep01v0291",
+      "vertices": 7502,
+      "triangles": 11991,
+      "native_bones": 166,
+      "source_psk_sha256": "062d797a3d89d46fb3a52a05ffa1eaac10e4ddd48f9788cfe7b859ffac68650d"
+    },
+    {
+      "variant": "lg00v0000",
+      "vertices": 7502,
+      "triangles": 11991,
+      "native_bones": 166,
+      "source_psk_sha256": "b7bfbe2626ca72dfa71e65fb5f65c4d256ecb23dd8e6b85242d7081b7b42e71a"
+    }
+  ],
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.16"
+}
