@@ -1,0 +1,1484 @@
+{
+  "passed": true,
+  "mesh_LODs": 246,
+  "UV_seams_cannot_separate_under_native_bone_skinning": true,
+  "variants": [
+    {
+      "mesh": "SK_6913e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6913e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6913b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6913b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6912e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6912e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6912b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6912b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6911e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6911e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6911b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6911b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6910e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6910e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6910b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6910b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6909e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6909e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6909b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6909b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6908e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6908e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6908b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6908b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6907e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6907e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6907b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6907b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6906e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6906e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6906b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6906b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6905e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6905e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6905b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6905b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6904e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6904e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6904b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6904b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6903e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6903e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6903b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6903b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6902e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6902e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6902b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6902b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6901e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6901e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6901b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6901b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6143b14",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6143b14",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6142b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6142b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6139b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6139b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6136b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6136b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6130e18",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6130e18",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6130e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6130e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6130b18",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6130b18",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6130b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6130b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6129b09",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6129b09",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6129b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6129b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6129b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6129b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6124b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6124b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6121b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6121b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6119e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6119e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6119b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6119b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6119b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6119b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6107b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6107b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6099b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6099b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6094b02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6094b02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6094b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6094b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6084b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6084b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080e02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080e02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080b02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080b02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6080b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6068e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6068e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6068b04",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6068b04",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6068b02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6068b02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6068b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6068b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6057b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6057b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6054e18",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6054e18",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6054b18",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6054b18",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6051e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6051e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6051b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6051b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6043b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6043b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6038b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6038b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6036b18",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6036b18",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6033b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6033b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6028e02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6028e02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6028b03",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6028b03",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6028b02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6028b02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6027e02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6027e02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6027b02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6027b02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6021e12",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6021e12",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6021e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6021e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6021b12",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6021b12",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6021b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6021b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6019e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6019e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6019b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6019b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6016e09",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6016e09",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6016b09",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6016b09",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6016b04",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6016b04",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6016b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6016b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6015b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6015b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013e13",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013e13",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013e08",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013e08",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013e07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013e07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013b13",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013b13",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013b08",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013b08",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6013b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6012e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6012e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6012b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6012b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6012b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6012b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6011b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6011b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6011b02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6011b02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6007b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6007b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6006e02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6006e02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6006b02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6006b02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6006b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6006b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6004e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6004e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6004b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6004b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6003e03",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6003e03",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6003b03",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6003b03",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002e18",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002e18",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002e12",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002e12",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b18",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b18",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b16",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b16",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b13",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b13",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b12",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b12",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b08",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b08",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b02",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b02",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6002b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001e12",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001e12",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001e11",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001e11",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001e07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001e07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001e01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001e01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b16",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b16",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b14",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b14",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b12",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b12",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b11",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b11",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b07",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b07",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b04",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b04",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b01",
+      "LOD": 0,
+      "UV_seam_groups": 52,
+      "same_positions_and_native_weights": true
+    },
+    {
+      "mesh": "SK_6001b01",
+      "LOD": 1,
+      "UV_seam_groups": 36,
+      "same_positions_and_native_weights": true
+    }
+  ],
+  "Android_tested": false
+}

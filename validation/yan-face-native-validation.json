@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "exact_six_Yan_card_IDs": [
+    "176104",
+    "84062184",
+    "105863243280360",
+    "105877118037992",
+    "52904065150952",
+    "56164297650152"
+  ],
+  "original_native_string_assign_2f46d10_executed": true,
+  "native_procedural_mode_switched_to_named_profile": true,
+  "named_profile": "NDI2ep00v0313",
+  "body_motion_identity_other_config_bytes_unchanged": true,
+  "unrelated_player_unchanged": true,
+  "Android_tested": false
+}

@@ -1,0 +1,58 @@
+/* Shared phone layout; native WebView enables this even with desktop input metrics. */
+:root{--phone-layout-version:E169-mobile-10}
+main{display:flex;flex-direction:column;padding:12px;gap:12px}body{padding-bottom:78px}header{padding:12px;gap:10px}header small{display:none}header h1{font-size:17px}.toolbar{gap:6px}.toolbar button{padding:10px;font-size:12px}#saveStatus{flex-basis:100%}.phone-common{display:block;margin:12px 12px 0;padding:10px}.phone-common .tabbar{margin:8px 0 0!important}.phone-common .tabbar button{flex:1}main>[data-phone-part]{display:none}main>.phone-selected{display:block}main>.wide{display:none}#backgroundPicker.phone-selected{border:1px solid #303744;border-radius:11px;padding:15px;margin:0;background:#181e28}.phone-nav{display:flex;position:fixed;z-index:20;bottom:0;left:0;right:0;gap:7px;padding:10px 12px max(10px,env(safe-area-inset-bottom));background:#191a25;border-top:1px solid #404456}.phone-nav button{flex:1;min-height:44px;padding:10px 5px;font-size:13px}button,input,select{min-height:42px}input[type=checkbox]{min-height:0}.canvas-wrap{max-width:260px}.stage{padding:8px}.caption>span{font-size:11px}.controls{display:none}.preview-grid .small-card{width:130px;height:130px}.preview-grid .detail-card{width:130px;height:182px}footer{overflow-wrap:anywhere}.phone-selected>h2:first-child{margin-top:0}.quick-actions{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-top:10px}.quick-actions button{font-size:12px;padding:8px 4px}.quick-slot{display:flex;gap:6px;margin-top:8px}.quick-pick{flex:1;text-align:left;display:flex;align-items:center;gap:8px;padding:5px 8px}.quick-pick img{width:32px;height:38px;object-fit:contain}.quick-pick span{font-size:12px}.phone-quick .hint{margin-top:0}.phone-preview{margin-top:15px}
+
+ html{height:100%;overflow:hidden}body{height:100dvh;overflow:hidden;padding:0;display:grid;--workspace-top-inset:max(28px,env(safe-area-inset-top,0px));grid-template-rows:calc(40px + var(--workspace-top-inset)) 58px minmax(0,1fr) 56px}
+ header{padding:calc(4px + var(--workspace-top-inset)) 10px 4px;gap:4px;flex-wrap:nowrap;min-height:0}header h1{font-size:14px}header small{display:none}
+ .toolbar{margin-left:auto;display:flex;flex-wrap:nowrap}.toolbar>button{display:none}#saveStatus{font-size:10px;white-space:nowrap}
+ .phone-common{display:flex;align-items:center;gap:6px;margin:0 8px;padding:5px;border-radius:8px;min-height:0}
+ .phone-common select{width:45%;min-width:0;font-size:12px}.phone-common .tabbar{flex:1;margin:0!important;gap:3px}.phone-common button{font-size:11px;padding:5px;min-height:36px}
+ main{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(100px,1fr) minmax(190px,45%);padding:6px 8px;gap:6px;width:100%;height:100%;margin:0;min-height:0;max-width:none;overflow:hidden}
+ main>[data-phone-part]{display:none!important;min-width:0;min-height:0}main>[data-phone-part=canvas]{display:flex!important;flex-direction:column;grid-row:1;overflow:hidden;position:relative}
+ main>.phone-selected:not([data-phone-part=canvas]){display:block!important;grid-row:2;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:9px;margin:0!important;border:1px solid #303744;border-radius:9px}
+ main>[data-phone-part=canvas]>.row{flex:none;margin:0 0 4px!important;height:26px;gap:4px;flex-wrap:nowrap}#sceneName{font-size:12px}#canvasInfo{display:none}
+ #phonePreviewToggle{display:block;min-height:26px;padding:3px 8px;font-size:11px;margin-left:auto}
+ .stage{flex:1;min-height:0;padding:4px;overflow:hidden}.canvas-wrap{max-width:512px;flex:none}#editor{width:100%;height:auto}
+ main>[data-phone-part=canvas]>.caption,main>[data-phone-part=canvas]>.buttons{display:none}
+ .phone-preview{display:none;margin:0;min-height:0;flex:1;overflow:hidden}
+ .show-game-preview .stage{display:none}.show-game-preview .phone-preview{display:flex;justify-content:center;align-items:center}
+ .phone-preview .preview-grid{display:flex;margin:0;gap:0;justify-content:center;align-items:center;height:100%;width:100%}.phone-preview .panel{border:0;padding:0;background:transparent}
+ .phone-preview .panel[hidden]{display:none}.phone-preview h2,.phone-preview p,.phone-preview .small-reference{display:none}
+ .phone-preview .small-card{height:min(220px,29dvh);width:min(220px,29dvh)}.phone-preview .detail-card{height:min(280px,29dvh);width:min(200px,20.7dvh)}
+ .phone-nav{display:flex;position:static;grid-row:4;padding:5px 8px max(5px,env(safe-area-inset-bottom));gap:4px;min-height:0}.phone-nav button{flex:1;font-size:12px;min-height:38px;padding:6px 3px}
+ footer,main>.wide{display:none}h2{font-size:12px;margin-bottom:6px}.phone-quick .hint{display:none}.quick-slot{margin-top:5px;gap:4px}.quick-pick img{height:24px;width:25px}.quick-pick{padding:3px 6px}.quick-slot button{min-height:32px;padding:4px 8px}
+ .quick-actions{display:flex;gap:4px;margin-top:5px;flex-wrap:wrap}.quick-actions button{flex:1;white-space:nowrap;padding:5px 6px;min-height:32px}.quick-actions button:last-child{flex:1.4}
+ #quickImport{min-height:34px;padding:5px}#quickStatus{font-size:10px;margin:4px 0 0}
+ .card-fields{gap:6px}.card-tool-panel input,.card-tool-panel select{min-height:34px;padding:6px}.card-tool-panel h3{margin-top:10px}
+ #backgroundPicker h3{display:none}#backgroundPicker label{margin:5px 0 2px}#backgroundPicker select{min-height:32px;padding:4px}#bgNote{display:none}
+ .controls{font-size:12px}.controls h2{display:none}.controls>div:last-child{display:none}.controls label{margin:3px 0}.controls .nums{gap:6px}.controls input{min-height:30px}
+
+@media (orientation:landscape){
+ body{grid-template-rows:calc(32px + var(--workspace-top-inset)) 44px minmax(0,1fr) 44px}header{padding:calc(2px + var(--workspace-top-inset)) 8px 2px}.phone-common{padding:2px 5px}.phone-common button,.phone-common select{min-height:32px}
+ main{grid-template-columns:minmax(0,1fr) minmax(280px,46%);grid-template-rows:minmax(0,1fr)}main>[data-phone-part=canvas]{grid-column:1;grid-row:1}main>.phone-selected:not([data-phone-part=canvas]){grid-column:2;grid-row:1}
+ .phone-nav button{min-height:30px}.phone-preview .small-card{width:40dvh;height:40dvh}.phone-preview .detail-card{width:28.6dvh;height:40dvh}
+}
+.phone-nav{background:#130d20}#backgroundPicker.phone-selected{background:#171122;border-color:#362846}#suitePicker h2{display:block}#suiteGallery img{max-height:none}#suitePicker .hint{font-size:10px;line-height:1.6}#suiteAdvanced:not([open]){margin-top:9px}
+#phoneCanvasToggle{display:block;min-height:26px;padding:3px 8px;font-size:11px;white-space:nowrap}
+main.canvas-collapsed{grid-template-columns:minmax(0,1fr);grid-template-rows:30px minmax(0,1fr)}
+main.canvas-collapsed>[data-phone-part=canvas]{grid-column:1;grid-row:1}
+main.canvas-collapsed>[data-phone-part=canvas]>.stage,main.canvas-collapsed>[data-phone-part=canvas]>.phone-preview{display:none!important}
+main.canvas-collapsed>[data-phone-part=canvas]> .row{margin:0!important}
+main.canvas-collapsed #phonePreviewToggle{display:none}
+main.canvas-collapsed>.phone-selected:not([data-phone-part=canvas]){grid-column:1;grid-row:2}
+
+@media(max-width:700px),(max-height:500px) and (max-width:1000px),(pointer:coarse){#workspaceBack{min-height:30px;padding:3px 8px;font-size:12px}header>div:first-of-type{min-width:0}header h1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.toolbar{flex:none}}
+
+/* UI5: controls fit narrow WebViews without sideways scrolling. */
+*,*::before,*::after{box-sizing:border-box}html,body{width:100%;max-width:100%;min-width:0}
+body{height:100vh;height:100dvh;grid-template-rows:auto auto minmax(0,1fr) auto;--workspace-top-inset:env(safe-area-inset-top,0px)}
+header{min-width:0;min-height:44px;overflow:hidden}header>div:first-of-type{min-width:0;flex:1}header h1{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.phone-common{display:grid;grid-template-columns:minmax(0,1fr);gap:5px;padding:6px;min-width:0}.phone-common select{width:100%;max-width:100%;min-height:40px}.phone-common .tabbar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}.phone-common .tabbar button{min-width:0;white-space:normal;min-height:42px;padding:6px}
+main{width:100%;min-width:0;grid-template-rows:minmax(110px,1fr) minmax(200px,48%)}main>*{min-width:0;max-width:100%}.row{min-width:0}.stage{width:100%;min-width:0}.canvas-wrap{max-width:100%}
+main>[data-phone-part=canvas]>.row{height:auto;min-height:38px;flex-wrap:wrap}#sceneName{flex:1 1 100px;min-width:0;white-space:normal}#phonePreviewToggle,#phoneCanvasToggle{min-height:38px;white-space:normal}
+.quick-slot{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:stretch;width:100%;min-width:0}.quick-slot>*{min-width:0;max-width:100%}.quick-pick{overflow:hidden;min-width:0}.quick-pick img{flex:none}.quick-pick span{min-width:0;overflow-wrap:anywhere;white-space:normal}.quick-slot button{min-height:44px;padding:5px;font-size:11px;white-space:normal}
+.quick-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}.quick-actions button{white-space:normal;min-width:0;min-height:44px}.quick-actions button:last-child{grid-column:1/-1}
+.phone-nav{min-height:52px;height:auto;min-width:0;padding:5px 6px max(5px,env(safe-area-inset-bottom))}.phone-nav button{min-width:0;min-height:44px;padding:5px 2px;white-space:normal;line-height:1.2;font-size:11px}
+.phone-selected input,.phone-selected select{max-width:100%;min-width:0}.phone-selected .row{flex-wrap:wrap}.phone-selected label{overflow-wrap:anywhere}
+@media(orientation:landscape) and (min-width:600px){.phone-common{grid-template-columns:minmax(0,42%) minmax(0,58%)}main{grid-template-columns:minmax(0,1fr) minmax(0,46%);grid-template-rows:minmax(0,1fr)}}
+main.canvas-collapsed{grid-template-rows:42px minmax(0,1fr)}

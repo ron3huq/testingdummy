@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "real_protected_gateway_manage_and_login": true,
+  "two_imports": [
+    {
+      "generation": "9d35832561a7e45995abd4b8",
+      "pak_sha256": "6d9edc0d0bc5ba66404062f473718d033df8a7092bfdb6bcc0ca704b1288ec1d",
+      "login": "NOERR",
+      "all_advertised_resources_exist": true
+    },
+    {
+      "generation": "fbead59571a1f6962ea814fc",
+      "pak_sha256": "016d08e2e5bfd1796d56d65a356ce46e402db2be0d90c19e9b2a1486dc492e93",
+      "login": "NOERR",
+      "all_advertised_resources_exist": true
+    }
+  ],
+  "restart_reuses_current_SQL_generation": true,
+  "Android_tested": false
+}

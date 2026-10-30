@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "different_saved_photo_changes_PAK_hash": true,
+  "native_empty_PAK_indices_and_footer_preserved": true,
+  "independent_UEViewer_accepts_both": true,
+  "hashes": [
+    "2e7c315de12281b20fad9b15905b3bdf6ff7b8a51ccb29d6afe15ca1754debe7",
+    "229d26b2f16960b968017fc36a2825be1c352d2651168bcecd36b28264584814"
+  ],
+  "Android_tested": false
+}

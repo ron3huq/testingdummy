@@ -1,0 +1,20 @@
+{
+  "files": {
+    "pc9303_mobile_and.ucas": {
+      "size": 2907915,
+      "sha256": "beed533b232a79d6ea44dc71352a9877cb44e919fb5d515f1579d91b29bbf790"
+    },
+    "pc9303_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    "pc9303_mobile_and.utoc": {
+      "size": 21905,
+      "sha256": "8e45df3f659ccf56832fa8810f64c136d012c116588b82d2e6fd77c44ffba672"
+    },
+    "dt870_mobile_and.cpk": {
+      "size": 17049600,
+      "sha256": "20003bd597068ded2b329155c5abe106ea50da3fd3f72065099091220c6c87e0"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "real_Chromium_WASM_worker_inference": true,
+  "model_not_loaded_before_import": true,
+  "elapsed_host_ms": 6510,
+  "host_main_thread_max_heartbeat_gap_ms": 88.59999999403954,
+  "host_main_thread_ticks": 641,
+  "alpha": {
+    "clear": 1278901,
+    "opaque": 607291,
+    "pixels": 1973760
+  },
+  "restore_original": true,
+  "cancel_worker": true,
+  "transparent_input_preserved": true,
+  "all_model_requests_local": true,
+  "Android_tested": false
+}

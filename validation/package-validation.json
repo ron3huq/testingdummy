@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "version": "73-ui7.16",
+  "single_archive": true,
+  "part3_included": false,
+  "runtime_owned_files_shipped": false,
+  "all_manifest_rows_verified": true,
+  "overlay_files": 132,
+  "unchanged_base_files_verified": 7330,
+  "static_pins": 57,
+  "Sound_selected_card_implemented": false,
+  "Android_tested": false
+}

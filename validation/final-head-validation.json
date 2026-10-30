@@ -1,0 +1,871 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "name": "SK_NWK9lg00v0000_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NWK9ep01v0291_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NWK9ep00v0313_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NWK9_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NR14lg00v0000_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 32316,
+          "triangles": 43696,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 32316,
+          "triangles": 43696,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NR14ep01v0291_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 32316,
+          "triangles": 43696,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 32316,
+          "triangles": 43696,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NR14ep00v0313_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 32316,
+          "triangles": 43696,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 32316,
+          "triangles": 43696,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NR14_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 32316,
+          "triangles": 43696,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 32316,
+          "triangles": 43696,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NGH1lg00v0000_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 56861,
+          "triangles": 66691,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 56861,
+          "triangles": 66691,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NGH1ep01v0291_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 56861,
+          "triangles": 66691,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 56861,
+          "triangles": 66691,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NGH1ep00v0313_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 56861,
+          "triangles": 66691,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 56861,
+          "triangles": 66691,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NGH1_Face",
+      "container": "pc9314",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 56861,
+          "triangles": 66691,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 56861,
+          "triangles": 66691,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NRA6lg00v0000_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 7698,
+          "triangles": 9703,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 7698,
+          "triangles": 9703,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NRA6ep01v0291_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 7698,
+          "triangles": 9703,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 7698,
+          "triangles": 9703,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NRA6ep00v0313_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 7698,
+          "triangles": 9703,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 7698,
+          "triangles": 9703,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NRA6_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 7698,
+          "triangles": 9703,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 7698,
+          "triangles": 9703,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NR17lg00v0000_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 11426,
+          "triangles": 15904,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 11426,
+          "triangles": 15904,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NR17ep01v0291_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 11426,
+          "triangles": 15904,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 11426,
+          "triangles": 15904,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NR17ep00v0313_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 11426,
+          "triangles": 15904,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 11426,
+          "triangles": 15904,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NR17_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 11426,
+          "triangles": 15904,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 11426,
+          "triangles": 15904,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NJK3lg00v0000_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 49829,
+          "triangles": 66113,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 49829,
+          "triangles": 66113,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NJK3ep01v0291_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 49829,
+          "triangles": 66113,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 49829,
+          "triangles": 66113,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NJK3ep00v0313_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 49829,
+          "triangles": 66113,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 49829,
+          "triangles": 66113,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NJK3_Face",
+      "container": "pc9315",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 49829,
+          "triangles": 66113,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 49829,
+          "triangles": 66113,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NROBlg00v0000_Face",
+      "container": "pc9316",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3598,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 3598,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NROBep01v0291_Face",
+      "container": "pc9316",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3598,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 3598,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NROBep00v0313_Face",
+      "container": "pc9316",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3598,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 3598,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NROB_Face",
+      "container": "pc9316",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3598,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 3598,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NHE3lg00v0000_Face",
+      "container": "pc9316",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3587,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 3587,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NHE3ep01v0291_Face",
+      "container": "pc9316",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3587,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 3587,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NHE3ep00v0313_Face",
+      "container": "pc9316",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3587,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 3587,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NHE3_Face",
+      "container": "pc9316",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 3587,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 3587,
+          "triangles": 6495,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NM12lg00v0000_Face",
+      "container": "pc9319",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 47233,
+          "triangles": 66172,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 47233,
+          "triangles": 66172,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NM12ep01v0291_Face",
+      "container": "pc9319",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 47233,
+          "triangles": 66172,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 47233,
+          "triangles": 66172,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NM12ep00v0313_Face",
+      "container": "pc9319",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 47233,
+          "triangles": 66172,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 47233,
+          "triangles": 66172,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    },
+    {
+      "name": "SK_NM12_Face",
+      "container": "pc9319",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 47233,
+          "triangles": 66172,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 47233,
+          "triangles": 66172,
+          "bones": 166,
+          "full_active": true,
+          "full_required": true,
+          "weights_valid": true
+        }
+      ]
+    }
+  ],
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.15"
+}

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "name": "SK_NM13lg00v0000_Face",
+      "container": "pc9320",
+      "vertices": 47233,
+      "full_original_bones": 166,
+      "real_LOD0_and_LOD1": true
+    },
+    {
+      "name": "SK_NM13ep01v0291_Face",
+      "container": "pc9320",
+      "vertices": 47233,
+      "full_original_bones": 166,
+      "real_LOD0_and_LOD1": true
+    },
+    {
+      "name": "SK_NM13ep00v0313_Face",
+      "container": "pc9320",
+      "vertices": 47233,
+      "full_original_bones": 166,
+      "real_LOD0_and_LOD1": true
+    },
+    {
+      "name": "SK_NM13_Face",
+      "container": "pc9320",
+      "vertices": 47233,
+      "full_original_bones": 166,
+      "real_LOD0_and_LOD1": true
+    }
+  ],
+  "native_bind_pose_preserved": true,
+  "trial_code_executed": false,
+  "Android_tested": false
+}
