@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "containers": [
+    {
+      "container": "pc9312",
+      "independent_reader_accepted": true,
+      "UTOC_UCAS_identical_to_UI716": true
+    },
+    {
+      "container": "pc9316",
+      "independent_reader_accepted": true,
+      "UTOC_UCAS_identical_to_UI716": true
+    },
+    {
+      "container": "pc9320",
+      "independent_reader_accepted": true,
+      "UTOC_UCAS_identical_to_UI716": true
+    },
+    {
+      "container": "pc9321",
+      "independent_reader_accepted": true,
+      "UTOC_UCAS_identical_to_UI716": true
+    },
+    {
+      "container": "pc9323",
+      "independent_reader_accepted": true,
+      "UTOC_UCAS_identical_to_UI716": true
+    }
+  ],
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.18",
+  "rerun_for_UI718": false,
+  "rerun_for_UI719": false
+}

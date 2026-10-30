@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "allowed_leagues": [
+    {
+      "competition": 122,
+      "teams": 18
+    },
+    {
+      "competition": 128,
+      "teams": 20
+    },
+    {
+      "competition": 473,
+      "teams": 10
+    },
+    {
+      "competition": 518,
+      "teams": 12
+    }
+  ],
+  "unsupported_read_write_rejected": [
+    0,
+    125,
+    549,
+    566,
+    999
+  ],
+  "default": 122,
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.18",
+  "rerun_for_UI718": false,
+  "rerun_for_UI719": false
+}

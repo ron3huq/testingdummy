@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "only_target": "89138556572074",
+  "other_NX27_cards_unchanged": true,
+  "changes": [
+    {
+      "mesh": "SK_NX27lg00v0000_Face",
+      "all_mesh_bytes_identical_after_namespace_reversal": true,
+      "sha256_original": "07bc0b736a04c15d28cebe69048f81423b2ac21a1fffbc1c15322e67687ddc98"
+    },
+    {
+      "mesh": "SK_NX27ep01v0291_Face",
+      "all_mesh_bytes_identical_after_namespace_reversal": true,
+      "sha256_original": "d48452f586034d106d2b9d38439c760d6465e9676b61e61b9f6413e9a5709041"
+    },
+    {
+      "mesh": "SK_NX27ep00v0313_Face",
+      "all_mesh_bytes_identical_after_namespace_reversal": true,
+      "sha256_original": "ab9e4f1775a5e46987bcb20b45d2ed93de6397eed1507945fa00d1e0bb29ac2c"
+    },
+    {
+      "mesh": "SK_NX27_Face",
+      "all_mesh_bytes_identical_after_namespace_reversal": true,
+      "sha256_original": "122eae0074b6028a713829862f4c9f80b2ebb45c9908ec4ca09e731f37e45b8e"
+    },
+    {
+      "SRO_original": "T_133157_Hair_High_SRO",
+      "mips": [
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "change": "specular channel zero, roughness 240, source AO retained as encoder allows",
+      "geometry_edited": false
+    }
+  ],
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.18",
+  "rerun_for_UI718": false,
+  "rerun_for_UI719": false
+}

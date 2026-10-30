@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "different_saved_photo_changes_PAK_hash": true,
+  "native_empty_PAK_indices_and_footer_preserved": true,
+  "independent_UEViewer_accepts_both": true,
+  "hashes": [
+    "bd4e0bb4d73ef4d42974b2fe823418225328d473c6356aa675fe72fffbccfa00",
+    "8fdaf41d44acbf2583fe394b57ae548ecd190ab8a310370ca1c49e013a797cb5"
+  ],
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.18",
+  "rerun_for_UI719": false
+}

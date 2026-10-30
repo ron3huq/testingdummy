@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "production_Java_cache_repair": true,
+  "exact_four_unchanged_companion_sets_repaired": true,
+  "backup": true,
+  "unknown_and_save_unchanged": true,
+  "idempotent": true,
+  "read_only_probe_match_mismatch_and_platform_Java_AES_decrypt_SHA1_encrypt": true,
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.18",
+  "rerun_for_UI719": false
+}

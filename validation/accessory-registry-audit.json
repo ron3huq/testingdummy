@@ -1,0 +1,126 @@
+{
+  "version": "73-ui7.18",
+  "engine_sha256": "efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8",
+  "source": "native registry initializer39c4d..39c55b4 at9d1afa0; actual enabled loader39b84bc",
+  "native_accessory_types": [
+    {
+      "type": 0,
+      "name": "Short tights",
+      "asset": "SK_ShortTights",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    },
+    {
+      "type": 1,
+      "name": "Long tights / full set",
+      "asset": "SK_LongTights",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    },
+    {
+      "type": 2,
+      "name": "Long tights / native variant2",
+      "asset": "SK_LongTights",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    },
+    {
+      "type": 3,
+      "name": "Long tights / native variant3",
+      "asset": "SK_LongTights",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    },
+    {
+      "type": 4,
+      "name": "Left wrist tape",
+      "asset": "SK_WristTaping_L",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    },
+    {
+      "type": 5,
+      "name": "Right wrist tape",
+      "asset": "SK_WristTaping_R",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    },
+    {
+      "type": 6,
+      "name": "Ankle tape",
+      "asset": "SK_AnkleTaping",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    },
+    {
+      "type": 7,
+      "name": "Outfield gloves",
+      "asset": "SK_Playerglove_@slv@lorr",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    },
+    {
+      "type": 8,
+      "name": "Undershirt normal neck",
+      "asset": "SK_Inner@isgk",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    },
+    {
+      "type": 9,
+      "name": "Undershirt high neck",
+      "asset": "SK_InnerHighneck@isgk",
+      "UI_modes": [
+        "Original",
+        "Off",
+        "On"
+      ],
+      "color_edit": true
+    }
+  ],
+  "other_parts": {
+    "captain_armband": "team captain role",
+    "socks": "existing separate socks control",
+    "goalkeeper_gloves": "excluded by earlier user instruction",
+    "hair_face_boot_mesh_parts": "not interchangeable accessory flags"
+  },
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.18",
+  "rerun_for_UI719": false
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "six_verified_Yan_native_ID_aliases_use_palette5": true,
+  "palette5_is_penultimate_of_six_native_palettes": true,
+  "native_bake_field_written_before_original_callback": true,
+  "other_players_unchanged": true,
+  "existing_Yan_skin_replaced_once_with_backup": true,
+  "future_user_changes_preserved": true,
+  "Android_tested": false
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "Telegram_view_and_callback_removed": true,
+  "original_intro_dialog_removed": true,
+  "private_title": true,
+  "game_package_and_save_paths_preserved": true,
+  "Android_tested": false
+}

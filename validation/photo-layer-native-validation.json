@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "compiled_ARM64": true,
+  "real_stock_f01_f09_m01_names_tested": true,
+  "cases": [
+    {
+      "form": "{name}",
+      "front_uses_large": true,
+      "squad_uses_mini": true,
+      "back_background_event_text_and_mini_background_byte_exact": true
+    },
+    {
+      "form": "ui/Data/Thumbnail/Player/Variation2022/{name}",
+      "front_uses_large": true,
+      "squad_uses_mini": true,
+      "back_background_event_text_and_mini_background_byte_exact": true
+    },
+    {
+      "form": "Texture2D'/Game/Assets/ui/Data/Thumbnail/Player/Variation2022/{name}.{name}'",
+      "front_uses_large": true,
+      "squad_uses_mini": true,
+      "back_background_event_text_and_mini_background_byte_exact": true
+    },
+    {
+      "form": "/Game/Assets/ui/Data/Thumbnail/Player/{name}.{name}",
+      "front_uses_large": true,
+      "squad_uses_mini": true,
+      "back_background_event_text_and_mini_background_byte_exact": true
+    }
+  ],
+  "Android_tested": false
+}

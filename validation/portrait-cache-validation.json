@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "assembled_editor_uses_new_portrait_decoder": true,
+  "decorative_frame_stadium_decode_removed_from_UI_path": true,
+  "cache_limit_bytes": 8388608,
+  "worker_limit": 2,
+  "pending_queue_limit": 48,
+  "duplicate_visible_requests_joined": true,
+  "ordinary_and_bundled_PNG_load_off_UI_thread": true,
+  "custom_PNG_written_at_import_or_upgrade_and_read_directly": true,
+  "Android_latency_benchmarked": false,
+  "idle_workers_retire_after_seconds": 10
+}

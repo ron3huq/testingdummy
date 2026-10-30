@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "full",
+      "types_after": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "native_render_index4_enabled": true
+    },
+    {
+      "case": "reordered",
+      "types_after": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "native_render_index4_enabled": true
+    },
+    {
+      "case": "sparse",
+      "types_after": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "native_render_index4_enabled": true
+    },
+    {
+      "case": "missing",
+      "types_after": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "native_render_index4_enabled": true
+    },
+    {
+      "case": "empty",
+      "types_after": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "native_render_index4_enabled": true
+    }
+  ],
+  "original_native_append_used": true,
+  "unrelated_card_unchanged": true,
+  "goalkeeper_entry_preserved": true,
+  "duplicate_vector_rejected": true,
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.18",
+  "rerun_for_UI719": false
+}

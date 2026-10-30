@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "original_native_39b86f4_color_decoder_executed": true,
+  "opaque_black_red_green_blue_and_custom_colors": [
+    {
+      "ARGB": "0xff000000",
+      "native_RGBA": "0xff",
+      "native_linear_RGBA": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "ARGB": "0xffff0000",
+      "native_RGBA": "0xff0000ff",
+      "native_linear_RGBA": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "ARGB": "0xff00ff00",
+      "native_RGBA": "0xff00ff",
+      "native_linear_RGBA": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "ARGB": "0xff0000ff",
+      "native_RGBA": "0xffff",
+      "native_linear_RGBA": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "ARGB": "0xff112233",
+      "native_RGBA": "0x112233ff",
+      "native_linear_RGBA": [
+        0.06666667014360428,
+        0.13333334028720856,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "ARGB": "0xffffffff",
+      "native_RGBA": "0xffffffff",
+      "native_linear_RGBA": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "Android_tested": false,
+  "baseline_preserved_from": "UI7.18",
+  "rerun_for_UI719": false
+}
