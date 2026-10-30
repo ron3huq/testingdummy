@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "compiled_ARM64_hook": true,
+  "bare_relative_full_object_and_root_paths": [
+    {
+      "form": "{name}",
+      "pass": true,
+      "actual": [
+        "U712_12345678901234_",
+        "U712_12345678901234_l",
+        "U712_12345678901234_l"
+      ]
+    },
+    {
+      "form": "ui/Data/Thumbnail/Player/Variation2022/{name}",
+      "pass": true,
+      "actual": [
+        "ui/Data/Thumbnail/Player/Variation2022/U712_12345678901234_",
+        "ui/Data/Thumbnail/Player/Variation2022/U712_12345678901234_l",
+        "ui/Data/Thumbnail/Player/Variation2022/U712_12345678901234_l"
+      ]
+    },
+    {
+      "form": "Texture2D'/Game/Assets/ui/Data/Thumbnail/Player/Variation2022/{name}.{name}'",
+      "pass": true,
+      "actual": [
+        "Texture2D'/Game/Assets/ui/Data/Thumbnail/Player/Variation2022/U712_12345678901234_.U712_12345678901234_'",
+        "Texture2D'/Game/Assets/ui/Data/Thumbnail/Player/Variation2022/U712_12345678901234_l.U712_12345678901234_l'",
+        "Texture2D'/Game/Assets/ui/Data/Thumbnail/Player/Variation2022/U712_12345678901234_l.U712_12345678901234_l'"
+      ]
+    },
+    {
+      "form": "/Game/Assets/ui/Data/Thumbnail/Player/{name}.{name}",
+      "pass": true,
+      "actual": [
+        "/Game/Assets/ui/Data/Thumbnail/Player/U712_12345678901234_.U712_12345678901234_",
+        "/Game/Assets/ui/Data/Thumbnail/Player/U712_12345678901234_l.U712_12345678901234_l",
+        "/Game/Assets/ui/Data/Thumbnail/Player/U712_12345678901234_l.U712_12345678901234_l"
+      ]
+    }
+  ],
+  "compound_front_picture_uses_large_texture": true,
+  "Android_tested": false
+}

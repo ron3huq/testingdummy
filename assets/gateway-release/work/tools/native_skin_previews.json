@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "hex": "ae8975",
+    "source": "Assets/MaterialLibrary/Character/Body/CommonTextures/T_Sk1_Skin_D.uasset",
+    "preview": "Median of skin-coloured opaque pixels from the native skin albedo; in-game lighting varies"
+  },
+  {
+    "id": 2,
+    "hex": "a2785d",
+    "source": "MaterialLibrary/Character/Body/CommonTextures/T_Sk2_Skin_D.uasset",
+    "preview": "Median of skin-coloured opaque pixels from the native skin albedo; in-game lighting varies"
+  },
+  {
+    "id": 3,
+    "hex": "a27455",
+    "source": "MaterialLibrary/Character/Body/CommonTextures/T_Sk3_Skin_D.uasset",
+    "preview": "Median of skin-coloured opaque pixels from the native skin albedo; in-game lighting varies"
+  },
+  {
+    "id": 4,
+    "hex": "8a664d",
+    "source": "MaterialLibrary/Character/Body/CommonTextures/T_Sk4_Skin_D.uasset",
+    "preview": "Median of skin-coloured opaque pixels from the native skin albedo; in-game lighting varies"
+  },
+  {
+    "id": 5,
+    "hex": "654a3c",
+    "source": "MaterialLibrary/Character/Body/CommonTextures/T_Sk5_Skin_D.uasset",
+    "preview": "Median of skin-coloured opaque pixels from the native skin albedo; in-game lighting varies"
+  },
+  {
+    "id": 6,
+    "hex": "553e34",
+    "source": "MaterialLibrary/Character/Body/CommonTextures/T_Sk6_Skin_D.uasset",
+    "preview": "Median of skin-coloured opaque pixels from the native skin albedo; in-game lighting varies"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "real_protected_gateway": true,
+  "photo_list_detail_portrait_revisions_sync": true,
+  "editor_PNG_matches_saved_crop_pixels": true,
+  "second_import_invalidates_cached_portrait": true,
+  "manual_motion_owned_SQL_native_config_and_wire_agree": true,
+  "unrelated_parameters_unchanged": true,
+  "invalid_motion_rejected_without_mutation": true,
+  "donor_copy_clears_manual_motion": true,
+  "all_ten_accessory_types_and_colors_accepted": true,
+  "on_demand_diagnostics_does_not_wait_for_engine": true,
+  "ten_cached_list_requests_SQL_statements": 10,
+  "Android_tested": false
+}

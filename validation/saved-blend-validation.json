@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "blend_reopened": true,
+  "four_actual_merged_variants": true,
+  "native_bones": 166,
+  "main_vertices": 7502,
+  "main_triangles": 11991,
+  "saved_vertex_positions_match_actual_runtime_PSK": true,
+  "textures_packed": true,
+  "bytes": 17722880,
+  "sha256": "43400e90b7c2a9f53b0cf7498ccc3389bd6e3618c513841808878c73e8fccac0",
+  "baseline_preserved_from": "UI7.17",
+  "rerun_for_UI718": false
+}

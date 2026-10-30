@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "production_Java_repair_tested_on_JVM": true,
+  "equal_size_stale_python_native_rejected": true,
+  "cached_restart_repair": true,
+  "same_size_corruption_repaired": true,
+  "missing_runtime_recovered": true,
+  "save_and_custom_lineup_unchanged": true,
+  "missing_APK_source_fails_closed": true,
+  "assembled_DEX_common_route_repair_before_Python": true,
+  "fresh_and_upgrade_routes_use_same_repair": true,
+  "Android_tested": false,
+  "old_production_installer_same_size_bug_reproduced": true,
+  "production_UI715_repair_JVM_pass": true,
+  "smali_instruction_anchor_independent_of_address_labels": true,
+  "baseline_preserved_from": "UI7.17",
+  "UI717_actual_repair_plus_cache_helper_JVM_pass": true,
+  "rerun_for_UI718": false
+}

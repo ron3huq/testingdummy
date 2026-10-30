@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "mutable_team_capture_does_not_block_login": true,
+  "immutable_code_still_verified": true,
+  "logins": [
+    {
+      "capture_generation": null,
+      "verified": {
+        "result": "NOERR",
+        "wire_roundtrip": "PASS",
+        "gameplayers": 26,
+        "squads": 1,
+        "private_id_replaced": true
+      }
+    },
+    {
+      "capture_generation": 1,
+      "verified": {
+        "result": "NOERR",
+        "wire_roundtrip": "PASS",
+        "gameplayers": 26,
+        "squads": 1,
+        "private_id_replaced": true
+      }
+    },
+    {
+      "capture_generation": 2,
+      "verified": {
+        "result": "NOERR",
+        "wire_roundtrip": "PASS",
+        "gameplayers": 26,
+        "squads": 1,
+        "private_id_replaced": true
+      }
+    },
+    {
+      "capture_generation": 3,
+      "verified": {
+        "result": "NOERR",
+        "wire_roundtrip": "PASS",
+        "gameplayers": 26,
+        "squads": 1,
+        "private_id_replaced": true
+      }
+    }
+  ],
+  "Android_tested": false
+}

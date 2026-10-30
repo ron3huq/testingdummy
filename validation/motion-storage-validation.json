@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "original_native_getter_and_setter": true,
+  "cases": 108,
+  "all_values_in_eight_storage_ranges_roundtrip": true,
+  "Android_tested": false
+}

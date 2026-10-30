@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "compiled_production_hook_exercised": true,
+  "all_ten_native_types_with_color_exercised": true,
+  "unedited_enabled_flag_preserved": true,
+  "native_enabled_TArray_ABI": true,
+  "missing_left_added_right_removed": true,
+  "requested_color_applied": true,
+  "gloves_and_unrelated_entries_byte_exact": true,
+  "input_array_unchanged": true,
+  "unselected_card_unchanged": true,
+  "native_mesh_loading_stubbed_on_host": true,
+  "Android_tested": false
+}
