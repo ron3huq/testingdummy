@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "real_Chromium": true,
+  "launcher_starts": true,
+  "home_English_only": true,
+  "no_language_or_telegram_buttons": true,
+  "Transfer_bridge_connected": true,
+  "nine_editor_tools_rendered": true,
+  "selected_card_forwarded_correctly": true,
+  "cart_initializes": true,
+  "Android_tested": false
+}

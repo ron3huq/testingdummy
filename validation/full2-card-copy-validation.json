@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "cards": [
+    {
+      "target": "89138288266704",
+      "source": "89136418985332",
+      "native_face": 56334,
+      "portrait": "9500031",
+      "all_147_parameters_and_metadata_copied": true
+    },
+    {
+      "target": "88044145348047",
+      "source": "89136418985303",
+      "native_face": 56323,
+      "portrait": "56323",
+      "all_147_parameters_and_metadata_copied": true
+    },
+    {
+      "target": "106782013894690",
+      "source": "89136418985320",
+      "native_face": 56331,
+      "portrait": "9500027",
+      "all_147_parameters_and_metadata_copied": true
+    }
+  ],
+  "owned_serials_preserved": true,
+  "existing_personal_history_preserved": true,
+  "selected_careerplan_reset_with_recovery_record": true,
+  "unrelated_records_and_squad_roles_unchanged": true,
+  "one_time_migration_idempotent": true,
+  "native_route_records_and_draw_keys_checked": true,
+  "Android_tested": false
+}

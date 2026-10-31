@@ -1,0 +1,221 @@
+{
+  "passed": true,
+  "file_bytes": 7680000,
+  "sha256": "6fa4b9050f0a125e9ee295a7260ca3f1b5f718cdca6d5af94e2cc697d215fc4a",
+  "all_payloads_match_current_V19_rebase": true,
+  "all_file_IDs_preserved": true,
+  "header_and_TOC_storage_flags_match_stock": true,
+  "stock_NULL_fields_preserved": true,
+  "stock_UTF_encryption_preserved": true,
+  "changed_or_added_assets": [
+    {
+      "file": "common/etc/uniform/team/1228/1228_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 97
+    },
+    {
+      "file": "common/etc/uniform/team/1228/1228_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 97
+    },
+    {
+      "file": "common/etc/uniform/team/1228/1228_DEF_3rd_realUni.bin",
+      "new": true,
+      "bytes": 97
+    },
+    {
+      "file": "common/etc/uniform/team/1228/1228_DEF_GK1st_realUni.bin",
+      "new": true,
+      "bytes": 101
+    },
+    {
+      "file": "common/etc/uniform/team/1706/1706_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 97
+    },
+    {
+      "file": "common/etc/uniform/team/1706/1706_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 93
+    },
+    {
+      "file": "common/etc/uniform/team/1706/1706_DEF_GK1st_realUni.bin",
+      "new": true,
+      "bytes": 91
+    },
+    {
+      "file": "common/etc/uniform/team/1950/1950_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 95
+    },
+    {
+      "file": "common/etc/uniform/team/1950/1950_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 101
+    },
+    {
+      "file": "common/etc/uniform/team/1950/1950_DEF_GK1st_realUni.bin",
+      "new": true,
+      "bytes": 98
+    },
+    {
+      "file": "common/etc/uniform/team/1955/1955_DEF_1st.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/1955/1955_DEF_2nd.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/1955/1955_DEF_GK1st.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/1956/1956_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 94
+    },
+    {
+      "file": "common/etc/uniform/team/1956/1956_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 99
+    },
+    {
+      "file": "common/etc/uniform/team/1956/1956_DEF_3rd_realUni.bin",
+      "new": true,
+      "bytes": 96
+    },
+    {
+      "file": "common/etc/uniform/team/1956/1956_DEF_GK1st_realUni.bin",
+      "new": true,
+      "bytes": 97
+    },
+    {
+      "file": "common/etc/uniform/team/1957/1957_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 100
+    },
+    {
+      "file": "common/etc/uniform/team/1957/1957_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 97
+    },
+    {
+      "file": "common/etc/uniform/team/1957/1957_DEF_3rd_realUni.bin",
+      "new": true,
+      "bytes": 102
+    },
+    {
+      "file": "common/etc/uniform/team/1957/1957_DEF_GK1st_realUni.bin",
+      "new": true,
+      "bytes": 96
+    },
+    {
+      "file": "common/etc/uniform/team/242/242_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 93
+    },
+    {
+      "file": "common/etc/uniform/team/242/242_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 98
+    },
+    {
+      "file": "common/etc/uniform/team/245/245_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 100
+    },
+    {
+      "file": "common/etc/uniform/team/245/245_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 98
+    },
+    {
+      "file": "common/etc/uniform/team/351/351_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 100
+    },
+    {
+      "file": "common/etc/uniform/team/351/351_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 101
+    },
+    {
+      "file": "common/etc/uniform/team/352/352_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 97
+    },
+    {
+      "file": "common/etc/uniform/team/352/352_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 93
+    },
+    {
+      "file": "common/etc/uniform/team/4937/4937_DEF_1st_realUni.bin",
+      "new": true,
+      "bytes": 93
+    },
+    {
+      "file": "common/etc/uniform/team/4937/4937_DEF_2nd_realUni.bin",
+      "new": true,
+      "bytes": 98
+    },
+    {
+      "file": "common/etc/uniform/team/4937/4937_DEF_GK1st_realUni.bin",
+      "new": true,
+      "bytes": 95
+    },
+    {
+      "file": "common/etc/uniform/team/4938/4938_DEF_1st.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/4938/4938_DEF_2nd.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/4938/4938_DEF_GK1st.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/4962/4962_DEF_1st.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/4962/4962_DEF_2nd.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/4962/4962_DEF_GK1st.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/4964/4964_DEF_1st.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/4964/4964_DEF_2nd.bin",
+      "new": true,
+      "bytes": 92
+    },
+    {
+      "file": "common/etc/uniform/team/4964/4964_DEF_GK1st.bin",
+      "new": true,
+      "bytes": 92
+    }
+  ],
+  "retained_original_content_region": true,
+  "original_V19_TOC_row_positions_preserved": true,
+  "unsorted_filename_TOC_declared_Sorted0": true,
+  "device_tested": false
+}

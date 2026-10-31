@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "real_Chromium": true,
+  "cart_tab": true,
+  "direct_multi_select": true,
+  "selections_survive_search": true,
+  "selected_cards_blue": true,
+  "click_order_badges_correct": true,
+  "sequential_storage_add": true,
+  "Back_and_Refresh_reread_verified": true,
+  "lazy_tabs_verified": true,
+  "no_auto_enter_during_editing_or_native_dialog": true,
+  "home_idle_10_second_entry": true,
+  "Android_tested": false
+}

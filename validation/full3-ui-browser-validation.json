@@ -1,0 +1,315 @@
+{
+  "passed": true,
+  "real_Chromium": true,
+  "English_only_all_five_tabs": true,
+  "no_horizontal_overflow_or_clipped_stat_labels": true,
+  "layouts": [
+    {
+      "width": 320,
+      "height": 640,
+      "tab": 0,
+      "scroll": 320,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 320,
+      "height": 640,
+      "tab": 1,
+      "scroll": 320,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 320,
+      "height": 640,
+      "tab": 2,
+      "scroll": 320,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 320,
+      "height": 640,
+      "tab": 3,
+      "scroll": 320,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 320,
+      "height": 640,
+      "tab": 4,
+      "scroll": 320,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "tab": 0,
+      "scroll": 360,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "tab": 1,
+      "scroll": 360,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "tab": 2,
+      "scroll": 360,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "tab": 3,
+      "scroll": 360,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "tab": 4,
+      "scroll": 360,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "tab": 0,
+      "scroll": 390,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "tab": 1,
+      "scroll": 390,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "tab": 2,
+      "scroll": 390,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "tab": 3,
+      "scroll": 390,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "tab": 4,
+      "scroll": 390,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 540,
+      "height": 720,
+      "tab": 0,
+      "scroll": 540,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 540,
+      "height": 720,
+      "tab": 1,
+      "scroll": 540,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 540,
+      "height": 720,
+      "tab": 2,
+      "scroll": 540,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 540,
+      "height": 720,
+      "tab": 3,
+      "scroll": 540,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 540,
+      "height": 720,
+      "tab": 4,
+      "scroll": 540,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "tab": 0,
+      "scroll": 844,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "tab": 1,
+      "scroll": 844,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "tab": 2,
+      "scroll": 844,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "tab": 3,
+      "scroll": 844,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "tab": 4,
+      "scroll": 844,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "tab": 0,
+      "scroll": 1024,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "tab": 1,
+      "scroll": 1024,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "tab": 2,
+      "scroll": 1024,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "tab": 3,
+      "scroll": 1024,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "tab": 4,
+      "scroll": 1024,
+      "han": null,
+      "scrollers": [],
+      "outside": [],
+      "cut": []
+    }
+  ],
+  "booster_options": 184,
+  "booster_minimum": 4,
+  "no_total_package": true,
+  "Favorites": 64,
+  "Recently_Viewed_removed": true,
+  "portrait_jobs_bounded": 4,
+  "Android_tested": false
+}

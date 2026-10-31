@@ -1,0 +1,12 @@
+{
+  "interior_hair_cards_thickened": 5572,
+  "moved_vertices": 14982,
+  "maximum_interior_shift_mm": 3.500000000000086,
+  "all_original_hull_vertices_byte_exact": true,
+  "all_new_vertices_inside_original_hull": true,
+  "hull_volume_original": 0.009408503002149784,
+  "hull_volume_new": 0.009408503002149784,
+  "tip_vertices_unchanged": true,
+  "existing_beard_unchanged": true,
+  "topology_and_vertex_count_unchanged": true
+}

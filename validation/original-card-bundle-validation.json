@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "card_id": "89136418985332",
+  "assets": [
+    {
+      "path": "PesMobile/Content/Assets/character/RealFace/T_56334_Hair_D.uasset",
+      "sha256": "c233c96bf9ea3ca096ee988c5e449d9c4aade2a043ba9c92fb803f57d365242f"
+    },
+    {
+      "path": "PesMobile/Content/Assets/character/RealFace/T_56334_Face_SRO.uasset",
+      "sha256": "f79cc363dd1a22ce3fe1a6fd348d03439d0a52e57004f818eb793e44e8ed51a5"
+    },
+    {
+      "path": "PesMobile/Content/Assets/character/RealFace/T_56334_Face_N.uasset",
+      "sha256": "e5e9f747c998a7b55bacbe6699425e31f67d1e75fe0658c54dab8339e31619da"
+    },
+    {
+      "path": "PesMobile/Content/Assets/character/RealFace/T_56334_Face_D.uasset",
+      "sha256": "26fc0d469a92aae85051761a4412fbb041c5b0580d80882d8dea5156081cada3"
+    },
+    {
+      "path": "PesMobile/Content/Assets/character/RealFace/SK_56334_Face.uasset",
+      "sha256": "9460c17c2f2d7a73ee8e3ba11f86204ba3f566a86ee7def811e2255fd835760e"
+    },
+    {
+      "path": "PesMobile/Content/Assets/character/RealFace/MI_56334_Head_Hair_MQ.uasset",
+      "sha256": "95358e191d54266a50a2bdc7ea0624863197df6523a4dfe02ca0762d382790af"
+    },
+    {
+      "path": "PesMobile/Content/Assets/character/RealFace/MI_56334_Head_Hair_HQ.uasset",
+      "sha256": "2ba1a1a5e7fb550c55accc38ee0f18b49ec92224483d81ca62489a5db49bf9d0"
+    },
+    {
+      "path": "PesMobile/Content/Assets/character/RealFace/MI_56334_Head_FaceLegacy_MQ.uasset",
+      "sha256": "196e8e27f70966fcf6758c5796f9ccea4cfa677ca5cb2fe6801b9d94dbb30e2c"
+    },
+    {
+      "path": "PesMobile/Content/Assets/character/RealFace/MI_56334_Head_FaceLegacy_HQ.uasset",
+      "sha256": "2dfbe9f1d89df657669de70913e31d3f4599c3caf3a64d47ee45977a93af28e9"
+    },
+    {
+      "path": "PesMobile/Content/Assets/ui/Data/Thumbnail/Player/9500031_.uasset",
+      "sha256": "72382e85483a1758196b5fb8152df1a4807e32182d8ffddf1e4b3e8b7ce6d6d8"
+    },
+    {
+      "path": "PesMobile/Content/Assets/ui/Data/Thumbnail/Player/9500031f.uasset",
+      "sha256": "dedfe0afe213730762a09a7ad2209da5a61ce75f7db7a3c25c5bbda5c84187db"
+    }
+  ],
+  "upstream_pixel_bytes_unchanged": true,
+  "face_key": 56334,
+  "portrait_key": "9500031",
+  "single_card_only": true,
+  "Android_tested": false
+}
