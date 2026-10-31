@@ -1,0 +1,71 @@
+{
+  "apk_bytes": 2273135489,
+  "apk_sha256": "9c0b249557eeab1543ce143af4d08269b6e9a5a965472242815dba5712c76469",
+  "parts": {
+    "73efootball-V19.1.part2.rar": "6c0d1334d41efb4a7f489b566703498c7a69b011b05efc7f0ea15118a52e0c5d",
+    "73efootball-V19.1.part1.rar": "20e22d678a453cfca5318ca1f43487290c3fe2be7407ac44c179b4061c813d59"
+  },
+  "entries": 8478,
+  "code": [
+    {
+      "name": "classes2.dex",
+      "bytes": 7759368,
+      "crc": 429131806
+    },
+    {
+      "name": "classes3.dex",
+      "bytes": 5518076,
+      "crc": 4079879428
+    },
+    {
+      "name": "classes4.dex",
+      "bytes": 2556,
+      "crc": 2054677425
+    },
+    {
+      "name": "assets/chaquopy/bootstrap.imy",
+      "bytes": 600111,
+      "crc": 795538593
+    },
+    {
+      "name": "assets/chaquopy/requirements-arm64-v8a.imy",
+      "bytes": 22,
+      "crc": 3620455694
+    },
+    {
+      "name": "assets/chaquopy/requirements-common.imy",
+      "bytes": 1639439,
+      "crc": 4199128452
+    },
+    {
+      "name": "assets/chaquopy/stdlib-arm64-v8a.imy",
+      "bytes": 1496361,
+      "crc": 1385022783
+    },
+    {
+      "name": "assets/chaquopy/stdlib-common.imy",
+      "bytes": 4320326,
+      "crc": 3625223288
+    },
+    {
+      "name": "classes.dex",
+      "bytes": 7893328,
+      "crc": 1056741586
+    },
+    {
+      "name": "classes5.dex",
+      "bytes": 3384816,
+      "crc": 2410677464
+    },
+    {
+      "name": "lib/arm64-v8a/libUE4.so",
+      "bytes": 161955840,
+      "crc": 2081515674
+    },
+    {
+      "name": "assets/chaquopy/app.imy",
+      "bytes": 5576699,
+      "crc": 1350765021
+    }
+  ]
+}

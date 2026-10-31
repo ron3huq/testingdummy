@@ -1,0 +1,3542 @@
+{
+  "README-VI.md": {
+    "bytes": 6698,
+    "sha256": "3b2c18ade3e008b93439ad7a95194a913d2239823a925f7b557c21e91758699d"
+  },
+  "assets/card-designer/LeagueGothic.ttf": {
+    "bytes": 63956,
+    "sha256": "a527a42f8aec6fe485e2a0fa0d1690203486fe51cde54e2d2e7981eb417f233c"
+  },
+  "assets/card-designer/MANIFEST.json": {
+    "bytes": 93433,
+    "sha256": "fbad7daa6c337f25b2efcaa20a30ab1253b775aaae9635bdf77f259372647ffd"
+  },
+  "assets/card-designer/art-tools.js": {
+    "bytes": 11929,
+    "sha256": "59ab4188951a0a7278069efe98b3887252b69850e7cb0a55430d830f91e2426f"
+  },
+  "assets/card-designer/assets/Henry-half.png": {
+    "bytes": 976510,
+    "sha256": "0e4370ca99f34a39ac55937010368a036aaf77ac144152f3762dc04adf875165"
+  },
+  "assets/card-designer/assets/Henry-head.png": {
+    "bytes": 863053,
+    "sha256": "254397d3a08f6d062a92c1bcaf8e852a6904831cafe1e4d27f117b9a3b0156a8"
+  },
+  "assets/card-designer/assets/Ronaldo-action.png": {
+    "bytes": 593168,
+    "sha256": "d7378c1fb60d40ec7a1dc332133cc72299c5a2056fc18d95c444777a2d75aeea"
+  },
+  "assets/card-designer/assets/Ronaldo-half.png": {
+    "bytes": 1452564,
+    "sha256": "eb77e9723a08876493e9635be9cb8f4a0c381aa9b00144eb88cf9d355761eb7e"
+  },
+  "assets/card-designer/assets/Ronaldo-head.png": {
+    "bytes": 243119,
+    "sha256": "31c4fa042223ef4cf03213f458d54f6bcc6bd35cfb9613a5c4eda606847a6969"
+  },
+  "assets/card-designer/assets/Zidane-action.png": {
+    "bytes": 996509,
+    "sha256": "f4d9eb2d9f1645d2a95980c7b33e2c234bdb068237e2643dee67d539599b3c54"
+  },
+  "assets/card-designer/assets/Zidane-half.png": {
+    "bytes": 1351441,
+    "sha256": "ffd82e0751760f3a55c312b9ba3b95f5d4714d583d6b977e95d007a083c4f3e0"
+  },
+  "assets/card-designer/assets/Zidane-head.png": {
+    "bytes": 234697,
+    "sha256": "9e90c40bdbefbcb0ef252b278b4e52d33fdacd50398fda32ce42976141978673"
+  },
+  "assets/card-designer/assets/reference.png": {
+    "bytes": 524465,
+    "sha256": "85a9ad246b20eabf95b46772e7fdc6a134ea64d6c8d75f94e93ba7354e493798"
+  },
+  "assets/card-designer/assets/small-game-frame.png": {
+    "bytes": 56279,
+    "sha256": "148c8429aee49caa00eda9e58f9484c081d18cc3db20ad70a2e7efdc2ac93908"
+  },
+  "assets/card-designer/assets/small-game-reference.png": {
+    "bytes": 56174,
+    "sha256": "0d5cb44f06d61013404b05322580f6bf2869d7db08dcf442ba3b9478aff1a93e"
+  },
+  "assets/card-designer/background-picker.js": {
+    "bytes": 5338,
+    "sha256": "17d38a1cd27b9d8473babab44606ec91eaac205bd6c197a7f30432f960208f47"
+  },
+  "assets/card-designer/background-videos/0500_0_f02_v.webm": {
+    "bytes": 104865,
+    "sha256": "c1cb6f7bc6ee52d808565d04d795aaa5323b4af0da8a50dabb2d2bedceefab00"
+  },
+  "assets/card-designer/background-videos/0500_256_f02_v.webm": {
+    "bytes": 224686,
+    "sha256": "d39292881dbd1b8f8d26ab13877c1613ca7061405b7dd6c1d52a02833fa810fc"
+  },
+  "assets/card-designer/background-videos/0500_266_f02_v.webm": {
+    "bytes": 65114,
+    "sha256": "304dd400503d44b4fe13d4df6cfd8a59dc4f57e9fb055862fbe853479865fd59"
+  },
+  "assets/card-designer/background-videos/0500_281_f02_v.webm": {
+    "bytes": 265437,
+    "sha256": "1846bda80f585f45d37c00d323ed5e461fb3fa7ab20b0cefcd2e39ad9522ca6a"
+  },
+  "assets/card-designer/background-videos/0500_292_f02_v.webm": {
+    "bytes": 72238,
+    "sha256": "c4cdbba75b2aa2a88d29dc09e10d806affb3eede9d4bc73611ab13e680db35f9"
+  },
+  "assets/card-designer/background-videos/0500_295_f02_v.webm": {
+    "bytes": 69039,
+    "sha256": "4dedfe793dc012fb2c56b5cabaa3af8d17136b2f72168230cc3ad8b6c989c25c"
+  },
+  "assets/card-designer/background-videos/0500_309_f02_v.webm": {
+    "bytes": 414507,
+    "sha256": "aeaeeb3636ef653468bdc2d5c63293d11fb65c0af49a3bc923d1dc2bb43e9cea"
+  },
+  "assets/card-designer/background-videos/0500_313_f02_v.webm": {
+    "bytes": 412408,
+    "sha256": "00547fa1df823a953754bb784512c09a52434a44031583e64d2df9e09ed70b98"
+  },
+  "assets/card-designer/background-videos/0500_316_f02_v.webm": {
+    "bytes": 1599899,
+    "sha256": "e48d748089b6791df448cae2b7ce30391936ef11d6e3f44634425e06d1274756"
+  },
+  "assets/card-designer/background-videos/0500_317_f02_v.webm": {
+    "bytes": 661225,
+    "sha256": "50ff1badb6b083bc52930161adb37c1f1a119663701ef0b92b0e9985487a4e15"
+  },
+  "assets/card-designer/background-videos/0500_322_f02_v.webm": {
+    "bytes": 630858,
+    "sha256": "b0eaab567053f16febb4d0dc25fe989d462e7f9b0f1ec7a66b221273819cab88"
+  },
+  "assets/card-designer/background-videos/0501_17_f02_native_layers.webm": {
+    "bytes": 2996430,
+    "sha256": "4a7f91765956a04202a21732f546094ba4a57f71bb4f7851e235c025b6b94479"
+  },
+  "assets/card-designer/background-videos/0501_256_f02_v.webm": {
+    "bytes": 264834,
+    "sha256": "a9393534f4f1cc3a503a1143ec00e9c73505a2e63ae7addab50baab193e48b3d"
+  },
+  "assets/card-designer/background-videos/0501_278_f02_v.webm": {
+    "bytes": 106950,
+    "sha256": "b59fc5d275fd8538bd7bd70050d3692fa9788386e9ecb7c084a93bf9d1e52c65"
+  },
+  "assets/card-designer/background-videos/0501_283_f02_v.webm": {
+    "bytes": 421431,
+    "sha256": "da1b541d14ec64ba65592067c3f1289f924c625399373037532ba59e1d0fe688"
+  },
+  "assets/card-designer/background-videos/0501_289_f02_v.webm": {
+    "bytes": 300771,
+    "sha256": "7ae745d0b73709efe4db5d20e3a48681a4e395a5778a77ef121ed2a720c73a64"
+  },
+  "assets/card-designer/background-videos/0501_291_f02_v.webm": {
+    "bytes": 132650,
+    "sha256": "680eeb76db31877a6a2a5a4a693ba37b79513ddc907ad5599eb3d7f6bc14607c"
+  },
+  "assets/card-designer/background-videos/0501_295_f02_v.webm": {
+    "bytes": 559546,
+    "sha256": "455fb77ed0b70874e5e0fc91e7ddf4280c04d9627e5d06c82dd504c42ebdf15a"
+  },
+  "assets/card-designer/background-videos/0601_0_f02_v.webm": {
+    "bytes": 372478,
+    "sha256": "ea72764477c397b95269ba3de9e8045f38261abf47957c9531da224a08d05b92"
+  },
+  "assets/card-designer/background-videos/0601_264_f02_v.webm": {
+    "bytes": 266362,
+    "sha256": "0c406526fbaf9df6e33fe47ba793a8a661d7809b6334155f9a01b2dab672efd3"
+  },
+  "assets/card-designer/background-videos/0601_293_f02_v.webm": {
+    "bytes": 601372,
+    "sha256": "14bcc7df9ad4f5c3d4e70eba0ec98b1abcec70e6c5c56e9b2b9b6194528fde0b"
+  },
+  "assets/card-designer/background-videos/0601_355_f02_v.webm": {
+    "bytes": 7238885,
+    "sha256": "3e1462a36c16b274f054c89eb23d553ab334cf3beae2260db5b4c22c07e11997"
+  },
+  "assets/card-designer/background-videos/0601_392_f02_v.webm": {
+    "bytes": 410662,
+    "sha256": "f5a58d9ee3ad9d01390bca234f4bdc56fc82a95b5411315652b9ab090b305d66"
+  },
+  "assets/card-designer/background-videos/0601_474_f02_v.webm": {
+    "bytes": 413370,
+    "sha256": "1718567cbded5f9f8a0487538cfb8e39e35917453568c6d4fce847c70e35bdcb"
+  },
+  "assets/card-designer/background-videos/0601_476_f02_v.webm": {
+    "bytes": 417131,
+    "sha256": "bb43d751388b5cd20c121153f7bb843bf3cddad00620b0749a992208d50413a5"
+  },
+  "assets/card-designer/background-videos/0601_480_f02_v.webm": {
+    "bytes": 133600,
+    "sha256": "ebfb4951adc1d0fe8ee200abfafe08494c15689301c5689fd991695bb9f62413"
+  },
+  "assets/card-designer/background-videos/0601_483_f02_v.webm": {
+    "bytes": 133576,
+    "sha256": "2af4a8ae66d2e0a97f87c8f19c4156a72d7e8e2b746c5ea2c20a17483a165516"
+  },
+  "assets/card-designer/background-videos/0601_493_f02_v.webm": {
+    "bytes": 420952,
+    "sha256": "b0310ad16bf82d197c613592b7f3c976df7d2db0ad5af20b14cf4a0329412707"
+  },
+  "assets/card-designer/backgrounds/0500_0_f02.png": {
+    "bytes": 16586,
+    "sha256": "b03c5e47439740ebd06f5667461d29d59cb79a631292b470fa5130bb74b1337e"
+  },
+  "assets/card-designer/backgrounds/0500_0_f04.png": {
+    "bytes": 53918,
+    "sha256": "3522d0e03efd0a0ebb6abd236dfcb9a43bf62092654b248a87966dcb589667e4"
+  },
+  "assets/card-designer/backgrounds/0500_0_m01.png": {
+    "bytes": 20570,
+    "sha256": "7ad6b2228141330c118bec00b77c4066338de5d742c80917cb542e87ccf8ad1e"
+  },
+  "assets/card-designer/backgrounds/0500_256_f02.png": {
+    "bytes": 51904,
+    "sha256": "2f70b67774b12ee246235c298960a2fb67e99737490527d6c8ca8a173a2531cf"
+  },
+  "assets/card-designer/backgrounds/0500_256_m01.png": {
+    "bytes": 23644,
+    "sha256": "e9ccac7e9edf074b6c22a57b8d585007ae9659dea3e7500c649f50f8e600bb3a"
+  },
+  "assets/card-designer/backgrounds/0500_257_b02.png": {
+    "bytes": 18971,
+    "sha256": "67a126d85e832cc6e0bd1206b5d928f2ca489af0a70013bd7fb527fab398600b"
+  },
+  "assets/card-designer/backgrounds/0500_257_f01.png": {
+    "bytes": 8282,
+    "sha256": "42a47fb7a335ac9b1b98cee76bfb21f80f1930f2ee06d738efd717fd971c47e4"
+  },
+  "assets/card-designer/backgrounds/0500_257_m01.png": {
+    "bytes": 23644,
+    "sha256": "e9ccac7e9edf074b6c22a57b8d585007ae9659dea3e7500c649f50f8e600bb3a"
+  },
+  "assets/card-designer/backgrounds/0500_258_b02.png": {
+    "bytes": 5905,
+    "sha256": "07ce7933fd2d2388cfe3c15fabb57d2ef4f4db171b7a656258f4cc035d5b4f0a"
+  },
+  "assets/card-designer/backgrounds/0500_258_f01.png": {
+    "bytes": 11391,
+    "sha256": "b26d40f5d30c32cf8b1a3360ae0bd06274c9e477ba8ef4a2df9b06f741916522"
+  },
+  "assets/card-designer/backgrounds/0500_258_m01.png": {
+    "bytes": 8371,
+    "sha256": "0c101f40b78fc32c8e882a11f60d3e3e0eda79aec87daab0cda1f8e2d7a19e67"
+  },
+  "assets/card-designer/backgrounds/0500_259_b02.png": {
+    "bytes": 18971,
+    "sha256": "67a126d85e832cc6e0bd1206b5d928f2ca489af0a70013bd7fb527fab398600b"
+  },
+  "assets/card-designer/backgrounds/0500_259_f01.png": {
+    "bytes": 8282,
+    "sha256": "42a47fb7a335ac9b1b98cee76bfb21f80f1930f2ee06d738efd717fd971c47e4"
+  },
+  "assets/card-designer/backgrounds/0500_259_m01.png": {
+    "bytes": 23644,
+    "sha256": "e9ccac7e9edf074b6c22a57b8d585007ae9659dea3e7500c649f50f8e600bb3a"
+  },
+  "assets/card-designer/backgrounds/0500_260_b02.png": {
+    "bytes": 18971,
+    "sha256": "67a126d85e832cc6e0bd1206b5d928f2ca489af0a70013bd7fb527fab398600b"
+  },
+  "assets/card-designer/backgrounds/0500_260_f01.png": {
+    "bytes": 8282,
+    "sha256": "42a47fb7a335ac9b1b98cee76bfb21f80f1930f2ee06d738efd717fd971c47e4"
+  },
+  "assets/card-designer/backgrounds/0500_260_m01.png": {
+    "bytes": 23644,
+    "sha256": "e9ccac7e9edf074b6c22a57b8d585007ae9659dea3e7500c649f50f8e600bb3a"
+  },
+  "assets/card-designer/backgrounds/0500_261_b02.png": {
+    "bytes": 18971,
+    "sha256": "67a126d85e832cc6e0bd1206b5d928f2ca489af0a70013bd7fb527fab398600b"
+  },
+  "assets/card-designer/backgrounds/0500_261_f01.png": {
+    "bytes": 8282,
+    "sha256": "42a47fb7a335ac9b1b98cee76bfb21f80f1930f2ee06d738efd717fd971c47e4"
+  },
+  "assets/card-designer/backgrounds/0500_261_m01.png": {
+    "bytes": 23644,
+    "sha256": "e9ccac7e9edf074b6c22a57b8d585007ae9659dea3e7500c649f50f8e600bb3a"
+  },
+  "assets/card-designer/backgrounds/0500_262_b02.png": {
+    "bytes": 32478,
+    "sha256": "e8b73b40573a35d0c068389b5a0e6e1ca2a16511d644fca37f2193cc62257210"
+  },
+  "assets/card-designer/backgrounds/0500_262_m01.png": {
+    "bytes": 27875,
+    "sha256": "e516de1eecfc91ad9c495755e2d99654f79e758eae11dcefeab3ee5e557ca960"
+  },
+  "assets/card-designer/backgrounds/0500_263_b02.png": {
+    "bytes": 34785,
+    "sha256": "a1a62ee1882d3224697632506b0bd602b92a2da6f3ab9c4ca45cdec0c3bdbde4"
+  },
+  "assets/card-designer/backgrounds/0500_263_m01.png": {
+    "bytes": 28340,
+    "sha256": "59eab312a985dcda60a9cb49f3ad0034451143756c270ad39d9f430a65a3d358"
+  },
+  "assets/card-designer/backgrounds/0500_264_b02.png": {
+    "bytes": 18971,
+    "sha256": "67a126d85e832cc6e0bd1206b5d928f2ca489af0a70013bd7fb527fab398600b"
+  },
+  "assets/card-designer/backgrounds/0500_264_f01.png": {
+    "bytes": 8282,
+    "sha256": "42a47fb7a335ac9b1b98cee76bfb21f80f1930f2ee06d738efd717fd971c47e4"
+  },
+  "assets/card-designer/backgrounds/0500_264_m01.png": {
+    "bytes": 23644,
+    "sha256": "e9ccac7e9edf074b6c22a57b8d585007ae9659dea3e7500c649f50f8e600bb3a"
+  },
+  "assets/card-designer/backgrounds/0500_265_b02.png": {
+    "bytes": 18971,
+    "sha256": "67a126d85e832cc6e0bd1206b5d928f2ca489af0a70013bd7fb527fab398600b"
+  },
+  "assets/card-designer/backgrounds/0500_265_f01.png": {
+    "bytes": 8282,
+    "sha256": "42a47fb7a335ac9b1b98cee76bfb21f80f1930f2ee06d738efd717fd971c47e4"
+  },
+  "assets/card-designer/backgrounds/0500_265_m01.png": {
+    "bytes": 23644,
+    "sha256": "e9ccac7e9edf074b6c22a57b8d585007ae9659dea3e7500c649f50f8e600bb3a"
+  },
+  "assets/card-designer/backgrounds/0500_266_f02.png": {
+    "bytes": 81202,
+    "sha256": "43c72bbdfba849630c964a99a253dc476e8228bf398910df3dd41f4d62fa8718"
+  },
+  "assets/card-designer/backgrounds/0500_266_m01.png": {
+    "bytes": 17183,
+    "sha256": "ad6ddb358f411ab5f5b80a4a41b1573a0b942aaa43e97726c075a6418bf3ceb3"
+  },
+  "assets/card-designer/backgrounds/0500_267_b02.png": {
+    "bytes": 2806,
+    "sha256": "ae56176f7781bd4b48ebfaa8ac5f89a8e62f543d5700dd5c51ff7fcd18d41225"
+  },
+  "assets/card-designer/backgrounds/0500_267_f01.png": {
+    "bytes": 5631,
+    "sha256": "3a884cd05945adbaa2981e7ee068ad89dba14d35d11d7e6a822aa1f4c90aa93d"
+  },
+  "assets/card-designer/backgrounds/0500_267_m01.png": {
+    "bytes": 7732,
+    "sha256": "1db18f544ffe5beea98fbf3233cfb35058d992c774d5c64ab876c5850c4a0e78"
+  },
+  "assets/card-designer/backgrounds/0500_268_b02.png": {
+    "bytes": 3528,
+    "sha256": "f4cc91bc474e850d045ba0857841767d8ddc98fc7a26deea254b77580283cbda"
+  },
+  "assets/card-designer/backgrounds/0500_268_f01.png": {
+    "bytes": 8101,
+    "sha256": "42c69bca5003aff6a751bae027ea1faeb5f6c3a43169fd7d60bd6ead4a175eed"
+  },
+  "assets/card-designer/backgrounds/0500_268_m01.png": {
+    "bytes": 7055,
+    "sha256": "1daa6caa111d96679329076f0cf45a3d98465da6dae26c39f347462a0cbe63fe"
+  },
+  "assets/card-designer/backgrounds/0500_269_b02.png": {
+    "bytes": 8175,
+    "sha256": "2be28e1a5327c77bb6bc6688febd36c6eb54391909a373bc40eef5f88ea6a298"
+  },
+  "assets/card-designer/backgrounds/0500_269_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_269_m01.png": {
+    "bytes": 17183,
+    "sha256": "ad6ddb358f411ab5f5b80a4a41b1573a0b942aaa43e97726c075a6418bf3ceb3"
+  },
+  "assets/card-designer/backgrounds/0500_270_b02.png": {
+    "bytes": 8175,
+    "sha256": "2be28e1a5327c77bb6bc6688febd36c6eb54391909a373bc40eef5f88ea6a298"
+  },
+  "assets/card-designer/backgrounds/0500_270_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_270_m01.png": {
+    "bytes": 17183,
+    "sha256": "ad6ddb358f411ab5f5b80a4a41b1573a0b942aaa43e97726c075a6418bf3ceb3"
+  },
+  "assets/card-designer/backgrounds/0500_271_b02.png": {
+    "bytes": 10041,
+    "sha256": "b577b23ff428e8bcde9499e7a5d36b6b52217cde20e006d672e25f7c909fad5a"
+  },
+  "assets/card-designer/backgrounds/0500_271_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_271_m01.png": {
+    "bytes": 17653,
+    "sha256": "f59760cf38850f458b7046596bd62153df68c997990deede5f9c436aec6e3957"
+  },
+  "assets/card-designer/backgrounds/0500_272_b02.png": {
+    "bytes": 10798,
+    "sha256": "c9dcdae1c34c45dd87667ab41c5e803f00ba025b7f13cae4bafb57e6bfb17a2c"
+  },
+  "assets/card-designer/backgrounds/0500_272_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_272_m01.png": {
+    "bytes": 18485,
+    "sha256": "0fe8a15f215c6bd5e28122a2c56a39e7b555b68c51a53d736541120c21f312b6"
+  },
+  "assets/card-designer/backgrounds/0500_273_b02.png": {
+    "bytes": 11031,
+    "sha256": "49e2b5b830a05a1605e01acc525723ae694b392f8935c7bd06f10ff1f82ebc19"
+  },
+  "assets/card-designer/backgrounds/0500_273_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_273_m01.png": {
+    "bytes": 17327,
+    "sha256": "76046e96bcb667735a2a8f0227a662a101524ce191edc2b2c29c414096c285c7"
+  },
+  "assets/card-designer/backgrounds/0500_274_b02.png": {
+    "bytes": 10041,
+    "sha256": "b577b23ff428e8bcde9499e7a5d36b6b52217cde20e006d672e25f7c909fad5a"
+  },
+  "assets/card-designer/backgrounds/0500_274_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_274_m01.png": {
+    "bytes": 17653,
+    "sha256": "f59760cf38850f458b7046596bd62153df68c997990deede5f9c436aec6e3957"
+  },
+  "assets/card-designer/backgrounds/0500_275_b02.png": {
+    "bytes": 10798,
+    "sha256": "c9dcdae1c34c45dd87667ab41c5e803f00ba025b7f13cae4bafb57e6bfb17a2c"
+  },
+  "assets/card-designer/backgrounds/0500_275_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_275_m01.png": {
+    "bytes": 18485,
+    "sha256": "0fe8a15f215c6bd5e28122a2c56a39e7b555b68c51a53d736541120c21f312b6"
+  },
+  "assets/card-designer/backgrounds/0500_276_b02.png": {
+    "bytes": 11031,
+    "sha256": "49e2b5b830a05a1605e01acc525723ae694b392f8935c7bd06f10ff1f82ebc19"
+  },
+  "assets/card-designer/backgrounds/0500_276_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_276_m01.png": {
+    "bytes": 17327,
+    "sha256": "76046e96bcb667735a2a8f0227a662a101524ce191edc2b2c29c414096c285c7"
+  },
+  "assets/card-designer/backgrounds/0500_277_b02.png": {
+    "bytes": 10798,
+    "sha256": "c9dcdae1c34c45dd87667ab41c5e803f00ba025b7f13cae4bafb57e6bfb17a2c"
+  },
+  "assets/card-designer/backgrounds/0500_277_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_277_m01.png": {
+    "bytes": 18485,
+    "sha256": "0fe8a15f215c6bd5e28122a2c56a39e7b555b68c51a53d736541120c21f312b6"
+  },
+  "assets/card-designer/backgrounds/0500_278_b02.png": {
+    "bytes": 8175,
+    "sha256": "2be28e1a5327c77bb6bc6688febd36c6eb54391909a373bc40eef5f88ea6a298"
+  },
+  "assets/card-designer/backgrounds/0500_278_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_278_m01.png": {
+    "bytes": 17183,
+    "sha256": "ad6ddb358f411ab5f5b80a4a41b1573a0b942aaa43e97726c075a6418bf3ceb3"
+  },
+  "assets/card-designer/backgrounds/0500_279_b02.png": {
+    "bytes": 8175,
+    "sha256": "2be28e1a5327c77bb6bc6688febd36c6eb54391909a373bc40eef5f88ea6a298"
+  },
+  "assets/card-designer/backgrounds/0500_279_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_279_m01.png": {
+    "bytes": 17183,
+    "sha256": "ad6ddb358f411ab5f5b80a4a41b1573a0b942aaa43e97726c075a6418bf3ceb3"
+  },
+  "assets/card-designer/backgrounds/0500_280_b02.png": {
+    "bytes": 8175,
+    "sha256": "2be28e1a5327c77bb6bc6688febd36c6eb54391909a373bc40eef5f88ea6a298"
+  },
+  "assets/card-designer/backgrounds/0500_280_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_280_m01.png": {
+    "bytes": 17183,
+    "sha256": "ad6ddb358f411ab5f5b80a4a41b1573a0b942aaa43e97726c075a6418bf3ceb3"
+  },
+  "assets/card-designer/backgrounds/0500_281_f02.png": {
+    "bytes": 108760,
+    "sha256": "b4de136064f82da810a168195649e35851e9841b9fcfaa105e866f57aa85fd84"
+  },
+  "assets/card-designer/backgrounds/0500_281_m01.png": {
+    "bytes": 23672,
+    "sha256": "2a13028385835a781d5d3aceef4a74781a3fe621949157c59de0e487c4f8fbda"
+  },
+  "assets/card-designer/backgrounds/0500_282_b02.png": {
+    "bytes": 18762,
+    "sha256": "c23c4bf12b549d4a034193439483cb53ebac9d597147d473fbe58b2fe114a149"
+  },
+  "assets/card-designer/backgrounds/0500_282_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0500_282_m01.png": {
+    "bytes": 23672,
+    "sha256": "2a13028385835a781d5d3aceef4a74781a3fe621949157c59de0e487c4f8fbda"
+  },
+  "assets/card-designer/backgrounds/0500_286_f01.png": {
+    "bytes": 17390,
+    "sha256": "0cd4bd7f6dcdb8d56c8045c194260f596238354e1d54ac0e04ee6c790b7baac5"
+  },
+  "assets/card-designer/backgrounds/0500_286_m01.png": {
+    "bytes": 12851,
+    "sha256": "ab5dd61c08e0c2a72802d7ec763fd64c1f64f3253f028974e4db468a01cf7fbf"
+  },
+  "assets/card-designer/backgrounds/0500_287_f01.png": {
+    "bytes": 22490,
+    "sha256": "8f6999d29f80d37a771efa2bd80a32f70c9004e08142751f2d4bfb15162a1827"
+  },
+  "assets/card-designer/backgrounds/0500_287_m01.png": {
+    "bytes": 15135,
+    "sha256": "fd4e32b74a53e561851e9b052661f0f9647c4659fb8dad5daff67fa6f317ac82"
+  },
+  "assets/card-designer/backgrounds/0500_288_f01.png": {
+    "bytes": 12367,
+    "sha256": "2e8dd199722dad131796444630e06e47ea3be16a912e6bab6bb5e8cd594460e7"
+  },
+  "assets/card-designer/backgrounds/0500_288_m01.png": {
+    "bytes": 16203,
+    "sha256": "3332f7378bd218fb0d07f3faa7fe2fa57a8c1db8499842317a9117466af6d7f1"
+  },
+  "assets/card-designer/backgrounds/0500_292_f02.png": {
+    "bytes": 72129,
+    "sha256": "27c6323793c6a2b18849a1a87e70a4df8f738743592d42e105476ad6440b8267"
+  },
+  "assets/card-designer/backgrounds/0500_292_m01.png": {
+    "bytes": 24081,
+    "sha256": "52108c7e8133a3035117e93103de3456f7716a0e78227cfc42559375f6bf7bdb"
+  },
+  "assets/card-designer/backgrounds/0500_295_f02.png": {
+    "bytes": 63486,
+    "sha256": "5a2fe4f9429806b31fef4430434328db9ef7e4e8e943168af312893ac4bc0755"
+  },
+  "assets/card-designer/backgrounds/0500_295_m01.png": {
+    "bytes": 19673,
+    "sha256": "3966b8648258019e6f2b63024045e943d997985ba4171a5c35ce92cc824593b5"
+  },
+  "assets/card-designer/backgrounds/0500_309_f02.png": {
+    "bytes": 116577,
+    "sha256": "50fc2d42e73aa651bf4a8926fb3ba87fe31e84dc48a440907d8be2fbf61dd658"
+  },
+  "assets/card-designer/backgrounds/0500_309_m01.png": {
+    "bytes": 25994,
+    "sha256": "53f20b893706f03eba93432b19d5d51ba1ac7dfeec5638441666175dc35ba76e"
+  },
+  "assets/card-designer/backgrounds/0500_312_f01.png": {
+    "bytes": 93679,
+    "sha256": "b053c4f2dff5e74775b936a68eacf416e116d48a6cd90f19e2d019484305e3d7"
+  },
+  "assets/card-designer/backgrounds/0500_312_m01.png": {
+    "bytes": 28606,
+    "sha256": "2102eeba2cf1116208e104101006785c6f502ae7a69ad702388dc8f63cac02b1"
+  },
+  "assets/card-designer/backgrounds/0500_313_f02.png": {
+    "bytes": 112041,
+    "sha256": "a94095a8d6c7c7122dc97ad00f7ecef93c80a9ea8c0c15f054c2494ea8bda514"
+  },
+  "assets/card-designer/backgrounds/0500_313_m01.png": {
+    "bytes": 22325,
+    "sha256": "a6e827cd0784bd477938a6f202dd272f7ebd12c929bef15e86f6a509b1ece625"
+  },
+  "assets/card-designer/backgrounds/0500_316_f02.png": {
+    "bytes": 116408,
+    "sha256": "8acf82a8950f4265c722f999806172a74e3e7f0cf8eb2aade7bfda83407ff234"
+  },
+  "assets/card-designer/backgrounds/0500_316_m01.png": {
+    "bytes": 22739,
+    "sha256": "66bc37ebd96299deebb7f1ec1bde2703c7b513b84d8d7540dca22f9a065f3724"
+  },
+  "assets/card-designer/backgrounds/0500_317_f02.png": {
+    "bytes": 424537,
+    "sha256": "7f6d1ac8e5dd847079d1bd8fcffa3512c41cd4ef72fda8c0d6f9530d33416ad4"
+  },
+  "assets/card-designer/backgrounds/0500_317_m01.png": {
+    "bytes": 20557,
+    "sha256": "2a06cafeff184124e9d86286a308446722657399a671f43bc946855a949ebdf4"
+  },
+  "assets/card-designer/backgrounds/0500_322_f02.png": {
+    "bytes": 311647,
+    "sha256": "de8e567265cc1b54b1ae652771cec2092661db039ff808319e382bf96990c1d5"
+  },
+  "assets/card-designer/backgrounds/0500_322_m01.png": {
+    "bytes": 17346,
+    "sha256": "3586c99ce414dee9e13f3f533baefac2667ad0d272d2fd17f168d0b301565e25"
+  },
+  "assets/card-designer/backgrounds/0500_4_f03.png": {
+    "bytes": 10325,
+    "sha256": "ef9f8e35e60f661d1f2f4bb128ecfe55c409158b82ea99fae2713bbe1fbddfaa"
+  },
+  "assets/card-designer/backgrounds/0500_4_m01.png": {
+    "bytes": 11487,
+    "sha256": "9ad68b7218a01cf40ca8846e3a08c4ac1d3a7c2db0344df33dec86a80cda3443"
+  },
+  "assets/card-designer/backgrounds/0501_0_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_0_f01.png": {
+    "bytes": 14473,
+    "sha256": "a04d3fb61c4d051f63984e9e59b1d7c6ee04de5c87f514f4625658a38042a1c3"
+  },
+  "assets/card-designer/backgrounds/0501_0_m01_89060441984433.png": {
+    "bytes": 25902,
+    "sha256": "5a44d3c930e049acf26f5c93b2b0992f185928a5cc2c200f4c57cf749363eb00"
+  },
+  "assets/card-designer/backgrounds/0501_10_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_10_f01.png": {
+    "bytes": 17277,
+    "sha256": "0d2edd43ee3a793aef092c6eb88d5e673f5048a1df231045bca14a5ade0ddea7"
+  },
+  "assets/card-designer/backgrounds/0501_10_m01_89063126342373.png": {
+    "bytes": 26410,
+    "sha256": "e4eff9c74e0a80796fcefb0dfc698daf6fc7f529fc1c0c8240270c6fd1e322c0"
+  },
+  "assets/card-designer/backgrounds/0501_11_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_11_f01.png": {
+    "bytes": 24657,
+    "sha256": "d9cf3eb7b28e6cf9f45320cd089d3088145e01a8e22c68c76def75aec6a82b1b"
+  },
+  "assets/card-designer/backgrounds/0501_11_m01_89063394774510.png": {
+    "bytes": 25677,
+    "sha256": "1e55ac22f4bfdc8b1acab9ad30aa80172aa0c6fdfa5983d2b6ae42f42ded1e05"
+  },
+  "assets/card-designer/backgrounds/0501_12_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_12_f01.png": {
+    "bytes": 27075,
+    "sha256": "731a7137826f133ae1ccd697b2d47483a98fdc49e899825e666c7af88714cb98"
+  },
+  "assets/card-designer/backgrounds/0501_12_m01_89063663209957.png": {
+    "bytes": 25932,
+    "sha256": "bb413c9ccb5e6c21cd5a36808374f1a533ffd601bcc1983019b00a3f5601fe6b"
+  },
+  "assets/card-designer/backgrounds/0501_13_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_13_f01.png": {
+    "bytes": 32676,
+    "sha256": "c8114e3e32981e0f805184d9597434751702795446774f9535c08dd44aea1b7e"
+  },
+  "assets/card-designer/backgrounds/0501_13_m01_89063931645407.png": {
+    "bytes": 25524,
+    "sha256": "e7fc0888fa29b1e26b120a14b53c8585cec8dff6632c3e5181d3f3fcf7091228"
+  },
+  "assets/card-designer/backgrounds/0501_14_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_14_f01.png": {
+    "bytes": 26902,
+    "sha256": "e60b051e83bc9339025f17ac46f58b90159c87e242f33290386de41d1fa508a8"
+  },
+  "assets/card-designer/backgrounds/0501_14_m01_89064200084194.png": {
+    "bytes": 25728,
+    "sha256": "d1cadcd3b2ef8a373ed1e5b08f5e483890d91c4da2814526d127bd70ba38435d"
+  },
+  "assets/card-designer/backgrounds/0501_15_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_15_f01.png": {
+    "bytes": 17435,
+    "sha256": "43901e309401ae36b683500a4ccedcbb9195a6d54ddb864cf7c6b00581e067f3"
+  },
+  "assets/card-designer/backgrounds/0501_15_m01_89064468384045.png": {
+    "bytes": 26048,
+    "sha256": "277d6c6e6a0e137ceae611060d159127d99b7b04d99ca3b8224cdcbfcf9f18a7"
+  },
+  "assets/card-designer/backgrounds/0501_16_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_16_f01.png": {
+    "bytes": 30064,
+    "sha256": "ccdb5b758c6cfe47afb65f56f609c76431a313c708799d9ee84a76e17730f5df"
+  },
+  "assets/card-designer/backgrounds/0501_16_m01_89064736951784.png": {
+    "bytes": 26475,
+    "sha256": "1cf47d9b1fb9a496d479268e337c02a4ff0a5b404ea03cc4bc5ebb3807f075fb"
+  },
+  "assets/card-designer/backgrounds/0501_17_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_17_f01.png": {
+    "bytes": 20963,
+    "sha256": "13857dc6747ef855d0537213de6d66ca104beabf07b5e9e06213fb4b68d066df"
+  },
+  "assets/card-designer/backgrounds/0501_17_f02.png": {
+    "bytes": 103564,
+    "sha256": "9ff3bd824021d065ee91983cedba18dae02e71882e0fcefeb3efa3a0d09e1455"
+  },
+  "assets/card-designer/backgrounds/0501_17_m01_89065005387197.png": {
+    "bytes": 25889,
+    "sha256": "ce79cc8c19564340c93570898953bb0671e56d230e4c9efcf5246b19bdd74a66"
+  },
+  "assets/card-designer/backgrounds/0501_18_b02.png": {
+    "bytes": 24981,
+    "sha256": "1b9df1e11d67d18e3606e2476e429989385a832be0795370f26af990f7c021f2"
+  },
+  "assets/card-designer/backgrounds/0501_18_f01.png": {
+    "bytes": 15625,
+    "sha256": "ed0f5407901cc4031d086902f6216880aa13a5c08881209afeaad8e1f66d830d"
+  },
+  "assets/card-designer/backgrounds/0501_18_m01_89065273822644.png": {
+    "bytes": 26449,
+    "sha256": "3140c52a337bd1f37c6d7e8a1f37d8c51a2d9f2ef098b8da62653daa850683c7"
+  },
+  "assets/card-designer/backgrounds/0501_1_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_1_f01.png": {
+    "bytes": 16030,
+    "sha256": "a8a0d86712aa140096d3a5ed2865dc083e47758c957e40fbe9a7e332a3785c8b"
+  },
+  "assets/card-designer/backgrounds/0501_1_m01_89060710285542.png": {
+    "bytes": 25280,
+    "sha256": "02de38a17e15bddb625e68e397f082377cde9438fc44f4f0cd2f70b837de3ed8"
+  },
+  "assets/card-designer/backgrounds/0501_256_f02.png": {
+    "bytes": 94817,
+    "sha256": "f24e132979478bdb4b3f94cb8df4723111ed67bb5cda9b4d661ba895751ba458"
+  },
+  "assets/card-designer/backgrounds/0501_256_m01.png": {
+    "bytes": 25245,
+    "sha256": "13c4e83cf153e71e47c925939ba41e54ea7baed7744596cad6c65008fc6ea540"
+  },
+  "assets/card-designer/backgrounds/0501_257_b02.png": {
+    "bytes": 22608,
+    "sha256": "3af2606fe0d065f453e408b5341e42777c5ac51e417a44097090be13e5267754"
+  },
+  "assets/card-designer/backgrounds/0501_258_b02.png": {
+    "bytes": 22608,
+    "sha256": "3af2606fe0d065f453e408b5341e42777c5ac51e417a44097090be13e5267754"
+  },
+  "assets/card-designer/backgrounds/0501_259_b02.png": {
+    "bytes": 18782,
+    "sha256": "50eb8f3cb28ba700037fd83fb8a2afc18ab9f5546508edec9e2e171f583e7631"
+  },
+  "assets/card-designer/backgrounds/0501_260_b02.png": {
+    "bytes": 22608,
+    "sha256": "3af2606fe0d065f453e408b5341e42777c5ac51e417a44097090be13e5267754"
+  },
+  "assets/card-designer/backgrounds/0501_278_f02.png": {
+    "bytes": 109532,
+    "sha256": "b65a748ce9672b88c5e725dc82ce302024e8a0f8b323a159cb1ad2deb0f19aa1"
+  },
+  "assets/card-designer/backgrounds/0501_278_m01.png": {
+    "bytes": 23344,
+    "sha256": "04c539764313f8867b2f519805882a6288151b8888e28d207ff2c6d4c2167af4"
+  },
+  "assets/card-designer/backgrounds/0501_283_f02.png": {
+    "bytes": 95800,
+    "sha256": "d9ee0e5422703741a907da180f2772002d50a22d9324d7c012d09e85e2e99b42"
+  },
+  "assets/card-designer/backgrounds/0501_283_m01.png": {
+    "bytes": 23850,
+    "sha256": "5ad88777382fb8fe3334db3b37b1e9fc0b73f901147e450222f2789a219d73fb"
+  },
+  "assets/card-designer/backgrounds/0501_289_f02.png": {
+    "bytes": 103890,
+    "sha256": "c0bb9dc1e38868aacf7e2e17a8c11bae7907e86a391ca238600779dc34446407"
+  },
+  "assets/card-designer/backgrounds/0501_289_m01.png": {
+    "bytes": 26363,
+    "sha256": "a380b80206ec2c9e83ef40451e0e22ac6d340391a02202e5ac6694399a81e837"
+  },
+  "assets/card-designer/backgrounds/0501_28_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_28_f01.png": {
+    "bytes": 26325,
+    "sha256": "1f08d893f36e8f4b89d95daa2c227aa0c5b97bebe47b3645b4619ebeed4d6553"
+  },
+  "assets/card-designer/backgrounds/0501_28_m01_89067958050135.png": {
+    "bytes": 26470,
+    "sha256": "f1ab241346285713d4b3a20e6f01bbed87528a9d71eb45049ab15214983143fd"
+  },
+  "assets/card-designer/backgrounds/0501_291_f02.png": {
+    "bytes": 113967,
+    "sha256": "c7fada0c3f92300cfc658a562ce5af7ad7c0f7bb449348c13b4d15bb8d81afab"
+  },
+  "assets/card-designer/backgrounds/0501_291_m01.png": {
+    "bytes": 23503,
+    "sha256": "82ab767e84d6d41a0b89fb030ba135447fdd251dff30237b7fb22a5fb30ac118"
+  },
+  "assets/card-designer/backgrounds/0501_295_b02.png": {
+    "bytes": 64358,
+    "sha256": "484024cccf05e0345f0b756959f38f15cddcef4be82617f3a1494179c669519b"
+  },
+  "assets/card-designer/backgrounds/0501_29_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_29_f01.png": {
+    "bytes": 16201,
+    "sha256": "7155a89cf1c9ae50973c7234894a1272d2b10376a469355a29372c10a3088dd2"
+  },
+  "assets/card-designer/backgrounds/0501_29_m01_89068226588798.png": {
+    "bytes": 25836,
+    "sha256": "8473d5abf927e06e228b821b9bcad78c8e81b3801828a8e902a67b9fa5b2a9b5"
+  },
+  "assets/card-designer/backgrounds/0501_2_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_2_f01.png": {
+    "bytes": 24952,
+    "sha256": "bbf6a58362009f640fded950aebbfecb7a754f770e3eede0b9696a0a868f23f8"
+  },
+  "assets/card-designer/backgrounds/0501_2_m01_89060978855375.png": {
+    "bytes": 25843,
+    "sha256": "96ed6f00014864d9999403106c7b16527faadc6dd05ef97d53c3a7086284d4ba"
+  },
+  "assets/card-designer/backgrounds/0501_30_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_30_f01.png": {
+    "bytes": 12485,
+    "sha256": "95c0b770dfc3ec86ce17ff4b9823e6afa99e453d3717070b1e1b66ab81c5a854"
+  },
+  "assets/card-designer/backgrounds/0501_30_m01_89068495045728.png": {
+    "bytes": 26462,
+    "sha256": "08ae5cfe3286d8bf3627f54d2ed71c341bdfb825d249af49928e891bc2b9af0b"
+  },
+  "assets/card-designer/backgrounds/0501_3_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_3_f01.png": {
+    "bytes": 33076,
+    "sha256": "09db0aa7523239c6df1421bb8309e07b7e1ad80b35308e5b5746929116a0f974"
+  },
+  "assets/card-designer/backgrounds/0501_3_m01_89061247290863.png": {
+    "bytes": 26384,
+    "sha256": "746e85389d04758df0296893b29c4a738c6d0baf6419ed0cf99dea3935caa2fa"
+  },
+  "assets/card-designer/backgrounds/0501_4_b02.png": {
+    "bytes": 2863,
+    "sha256": "82771650f73c76da11aed0f7bf2042842e589f992d46e4f789615482533cda80"
+  },
+  "assets/card-designer/backgrounds/0501_4_f01.png": {
+    "bytes": 40545,
+    "sha256": "dd9b6368f96706fbc2799c83688e6619990ca6f1547fa3d1f7ffe56f4b709f86"
+  },
+  "assets/card-designer/backgrounds/0501_4_m01_89061515600624.png": {
+    "bytes": 18529,
+    "sha256": "43f28bbb2a21f2cce1eb636b78ed7f8253e20138df7c992bb13cfcf7a0a3e336"
+  },
+  "assets/card-designer/backgrounds/0501_5_b02.png": {
+    "bytes": 13471,
+    "sha256": "f5eef46679ac437a3b33a7077c4fa69b27be22fcf184b6c87bdeaf149e476cb2"
+  },
+  "assets/card-designer/backgrounds/0501_5_f01.png": {
+    "bytes": 68004,
+    "sha256": "15c1ab0a0bd187507419f00857dbed5273d05d0669cd3ad1aaa7e8381db87415"
+  },
+  "assets/card-designer/backgrounds/0501_5_f02.png": {
+    "bytes": 73869,
+    "sha256": "dd4b9bbd44e6f3a82dac1553d43599f5a06573424bfa92ddb2508374cdde3591"
+  },
+  "assets/card-designer/backgrounds/0501_5_m01_370536760778144.png": {
+    "bytes": 22790,
+    "sha256": "790e8666204aa7d150ca1ff127194cb051fd268f7d3c06ea54d2a407690f6cf5"
+  },
+  "assets/card-designer/backgrounds/0501_6_b02.png": {
+    "bytes": 13471,
+    "sha256": "f5eef46679ac437a3b33a7077c4fa69b27be22fcf184b6c87bdeaf149e476cb2"
+  },
+  "assets/card-designer/backgrounds/0501_6_f01.png": {
+    "bytes": 57091,
+    "sha256": "5b4109e6652d2f73236ac5e6d647aa5942e44d94986b0b2eebbc33e2a42f4816"
+  },
+  "assets/card-designer/backgrounds/0501_6_f02.png": {
+    "bytes": 68682,
+    "sha256": "629079a2baf21fecc1886a416fc6767acc99f75c142068a5b1a2fff3a299e590"
+  },
+  "assets/card-designer/backgrounds/0501_6_m01_370537029180759.png": {
+    "bytes": 21524,
+    "sha256": "fa7e819838f8a13a39ead5346af0e57c94d7cc088402fdb27a0096a634548138"
+  },
+  "assets/card-designer/backgrounds/0501_8_b02.png": {
+    "bytes": 7271,
+    "sha256": "ebc9bb0857706a3a747062c1c177b7cfcd4aa9f36f40cf824218e2a047e67f03"
+  },
+  "assets/card-designer/backgrounds/0501_8_f01.png": {
+    "bytes": 43529,
+    "sha256": "0545e862575251ff70fb7ef769672d13d56aedae6f9003db8a5c01b406556b54"
+  },
+  "assets/card-designer/backgrounds/0501_8_m01_89062589455364.png": {
+    "bytes": 15532,
+    "sha256": "7b60639bc918bfcae7d0ad3ff7fe2d74fce5044ba830e17f8bed1493b70dbdec"
+  },
+  "assets/card-designer/backgrounds/0501_9_b02.png": {
+    "bytes": 13359,
+    "sha256": "af608a060e37a673a1ff9bdbe991bc183a4d62e263c3db5f0756e0b8eee4c49c"
+  },
+  "assets/card-designer/backgrounds/0501_9_f01.png": {
+    "bytes": 15860,
+    "sha256": "71334077074b25e0cb367736f6a534f2576099071003328d171f3781a7303db5"
+  },
+  "assets/card-designer/backgrounds/0501_9_m01_89062857776404.png": {
+    "bytes": 24855,
+    "sha256": "88f7fc96f6f57a243e6dd36911211545f4c4945d446987beaf940e8b6f844ab1"
+  },
+  "assets/card-designer/backgrounds/0601_0_f02.png": {
+    "bytes": 64158,
+    "sha256": "2cc281fdcadfdf31f02f3924327d85355564e34d2be422522b9d49bb5411ccee"
+  },
+  "assets/card-designer/backgrounds/0601_0_m01.png": {
+    "bytes": 26781,
+    "sha256": "d94a70dcf0ebb7bb51de13c7d00b951b1e8cf538249a1df1af1933544d538cb3"
+  },
+  "assets/card-designer/backgrounds/0601_264_f02.png": {
+    "bytes": 49950,
+    "sha256": "8eaf75b26eca7ad643ea4466d830ff2039207824282937bfc049093bab179e72"
+  },
+  "assets/card-designer/backgrounds/0601_264_m01.png": {
+    "bytes": 27840,
+    "sha256": "5e751d8676824b5acd75ae2a890215097b3df54657257430aa3b995bbfe3122a"
+  },
+  "assets/card-designer/backgrounds/0601_276_b02.png": {
+    "bytes": 28051,
+    "sha256": "d178927abc3a7b9aaf9a10acffdddef23b75994de0faae355bdc0d9492c462be"
+  },
+  "assets/card-designer/backgrounds/0601_276_f01.png": {
+    "bytes": 21205,
+    "sha256": "f8d32098d38f8d6e202beb32215c8d2937c8490416a5437d514335e5fa841358"
+  },
+  "assets/card-designer/backgrounds/0601_276_m01.png": {
+    "bytes": 27840,
+    "sha256": "5e751d8676824b5acd75ae2a890215097b3df54657257430aa3b995bbfe3122a"
+  },
+  "assets/card-designer/backgrounds/0601_291_b02.png": {
+    "bytes": 28051,
+    "sha256": "d178927abc3a7b9aaf9a10acffdddef23b75994de0faae355bdc0d9492c462be"
+  },
+  "assets/card-designer/backgrounds/0601_291_f01.png": {
+    "bytes": 21205,
+    "sha256": "f8d32098d38f8d6e202beb32215c8d2937c8490416a5437d514335e5fa841358"
+  },
+  "assets/card-designer/backgrounds/0601_291_m01.png": {
+    "bytes": 27108,
+    "sha256": "71c21f98075c74f80de8730fe3a9d280f30c8b6328b27d22ef2c0d272e4d90cd"
+  },
+  "assets/card-designer/backgrounds/0601_292_b02.png": {
+    "bytes": 28051,
+    "sha256": "d178927abc3a7b9aaf9a10acffdddef23b75994de0faae355bdc0d9492c462be"
+  },
+  "assets/card-designer/backgrounds/0601_292_f01.png": {
+    "bytes": 21205,
+    "sha256": "f8d32098d38f8d6e202beb32215c8d2937c8490416a5437d514335e5fa841358"
+  },
+  "assets/card-designer/backgrounds/0601_292_m01.png": {
+    "bytes": 27108,
+    "sha256": "71c21f98075c74f80de8730fe3a9d280f30c8b6328b27d22ef2c0d272e4d90cd"
+  },
+  "assets/card-designer/backgrounds/0601_293_f02.png": {
+    "bytes": 118399,
+    "sha256": "ac252e25368ac8f9f23f09b0f813be0b015c9cd5e65b5d35a56397c82dff08c4"
+  },
+  "assets/card-designer/backgrounds/0601_293_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_295_b02.png": {
+    "bytes": 28051,
+    "sha256": "d178927abc3a7b9aaf9a10acffdddef23b75994de0faae355bdc0d9492c462be"
+  },
+  "assets/card-designer/backgrounds/0601_295_f01.png": {
+    "bytes": 21205,
+    "sha256": "f8d32098d38f8d6e202beb32215c8d2937c8490416a5437d514335e5fa841358"
+  },
+  "assets/card-designer/backgrounds/0601_295_m01.png": {
+    "bytes": 27108,
+    "sha256": "71c21f98075c74f80de8730fe3a9d280f30c8b6328b27d22ef2c0d272e4d90cd"
+  },
+  "assets/card-designer/backgrounds/0601_296_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_296_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_296_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_297_b02.png": {
+    "bytes": 28051,
+    "sha256": "d178927abc3a7b9aaf9a10acffdddef23b75994de0faae355bdc0d9492c462be"
+  },
+  "assets/card-designer/backgrounds/0601_297_f01.png": {
+    "bytes": 21205,
+    "sha256": "f8d32098d38f8d6e202beb32215c8d2937c8490416a5437d514335e5fa841358"
+  },
+  "assets/card-designer/backgrounds/0601_297_m01.png": {
+    "bytes": 27108,
+    "sha256": "71c21f98075c74f80de8730fe3a9d280f30c8b6328b27d22ef2c0d272e4d90cd"
+  },
+  "assets/card-designer/backgrounds/0601_298_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_298_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_298_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_299_b02.png": {
+    "bytes": 28051,
+    "sha256": "d178927abc3a7b9aaf9a10acffdddef23b75994de0faae355bdc0d9492c462be"
+  },
+  "assets/card-designer/backgrounds/0601_299_f01.png": {
+    "bytes": 21205,
+    "sha256": "f8d32098d38f8d6e202beb32215c8d2937c8490416a5437d514335e5fa841358"
+  },
+  "assets/card-designer/backgrounds/0601_299_m01.png": {
+    "bytes": 27108,
+    "sha256": "71c21f98075c74f80de8730fe3a9d280f30c8b6328b27d22ef2c0d272e4d90cd"
+  },
+  "assets/card-designer/backgrounds/0601_300_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_300_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_300_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_301_b02.png": {
+    "bytes": 28051,
+    "sha256": "d178927abc3a7b9aaf9a10acffdddef23b75994de0faae355bdc0d9492c462be"
+  },
+  "assets/card-designer/backgrounds/0601_301_f01.png": {
+    "bytes": 21205,
+    "sha256": "f8d32098d38f8d6e202beb32215c8d2937c8490416a5437d514335e5fa841358"
+  },
+  "assets/card-designer/backgrounds/0601_301_m01.png": {
+    "bytes": 27108,
+    "sha256": "71c21f98075c74f80de8730fe3a9d280f30c8b6328b27d22ef2c0d272e4d90cd"
+  },
+  "assets/card-designer/backgrounds/0601_302_b02.png": {
+    "bytes": 28051,
+    "sha256": "d178927abc3a7b9aaf9a10acffdddef23b75994de0faae355bdc0d9492c462be"
+  },
+  "assets/card-designer/backgrounds/0601_302_f01.png": {
+    "bytes": 21205,
+    "sha256": "f8d32098d38f8d6e202beb32215c8d2937c8490416a5437d514335e5fa841358"
+  },
+  "assets/card-designer/backgrounds/0601_302_m01.png": {
+    "bytes": 27108,
+    "sha256": "71c21f98075c74f80de8730fe3a9d280f30c8b6328b27d22ef2c0d272e4d90cd"
+  },
+  "assets/card-designer/backgrounds/0601_303_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_303_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_303_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_305_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_305_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_305_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_306_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_306_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_306_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_307_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_307_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_307_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_308_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_308_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_308_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_309_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_309_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_309_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_310_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_310_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_310_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_314_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_314_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_314_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_315_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_315_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_315_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_316_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_316_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_316_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_317_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_317_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_317_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_318_b02.png": {
+    "bytes": 26644,
+    "sha256": "42474a32615d280bbb387e3fd05fe3bd7344f986eed2cdca7b8f20687454e1fd"
+  },
+  "assets/card-designer/backgrounds/0601_318_f01.png": {
+    "bytes": 761,
+    "sha256": "624b862940d8314f66997af43210e7846dd40bf3618ea068b00b53c9e583e71a"
+  },
+  "assets/card-designer/backgrounds/0601_318_m01.png": {
+    "bytes": 25059,
+    "sha256": "a2706cbeaeb507126000d42a5402c3dd0cb17735398532fbd50022ab4b119c74"
+  },
+  "assets/card-designer/backgrounds/0601_355_f02.png": {
+    "bytes": 208211,
+    "sha256": "817c1641b8df1b2eaee7dbddbebde85370befa0dbf40f4c2139242f08918af0a"
+  },
+  "assets/card-designer/backgrounds/0601_355_m01.png": {
+    "bytes": 25675,
+    "sha256": "78242ae57a1c7d6e6568cd47cf0a0473d0b512c31cc4e1640e412327cb196f04"
+  },
+  "assets/card-designer/backgrounds/0601_392_f02.png": {
+    "bytes": 108482,
+    "sha256": "0fa5bb341ab7a86854c4cbccf656bff4058372dbf8646f5803d1ff70b197dfad"
+  },
+  "assets/card-designer/backgrounds/0601_392_m01.png": {
+    "bytes": 24273,
+    "sha256": "ff9d4163141a5223e091d79e51961e5b714ac616656357b15a72708f37f8ca30"
+  },
+  "assets/card-designer/backgrounds/0601_474_f02.png": {
+    "bytes": 117420,
+    "sha256": "e2f2f867b478372b6f1d5d4c63d03c430a82e0391bb4452b927232c068e8290e"
+  },
+  "assets/card-designer/backgrounds/0601_474_m01.png": {
+    "bytes": 24858,
+    "sha256": "7b0a78d3dbda87407f4e9e518af3e98a107d904fee2ba306b178141973ea2c20"
+  },
+  "assets/card-designer/backgrounds/0601_476_f02.png": {
+    "bytes": 112611,
+    "sha256": "b223575107a213ee45eeea29f50b2e77dbcfbcd084767551a31e132dc5fe2b2d"
+  },
+  "assets/card-designer/backgrounds/0601_476_m01.png": {
+    "bytes": 28061,
+    "sha256": "8d8af1432603b43cd650ac8d702dfff7a1d5fc55593b23e2a0f77f471a07bbc1"
+  },
+  "assets/card-designer/backgrounds/0601_480_f02.png": {
+    "bytes": 101744,
+    "sha256": "5ac3758ec8789ed37ab609e1598fd06adaa0be7169910605dd67a51e97c21b67"
+  },
+  "assets/card-designer/backgrounds/0601_480_m01.png": {
+    "bytes": 17997,
+    "sha256": "147de4b04771346fe5b16dac4abbfba91bd5428db268409352c0c784875df041"
+  },
+  "assets/card-designer/backgrounds/0601_483_f02.png": {
+    "bytes": 96502,
+    "sha256": "d70b2020e7dfbf6306d060a94154c7d6b226514b06787329d56a1f7c3c24791a"
+  },
+  "assets/card-designer/backgrounds/0601_483_m01.png": {
+    "bytes": 17997,
+    "sha256": "147de4b04771346fe5b16dac4abbfba91bd5428db268409352c0c784875df041"
+  },
+  "assets/card-designer/backgrounds/0601_493_f02.png": {
+    "bytes": 109266,
+    "sha256": "fcc169bf796e21b6e68ca1e00fd07f86227c9d58311d9a322f40c9c14f07b7e6"
+  },
+  "assets/card-designer/backgrounds/0601_493_m01.png": {
+    "bytes": 24643,
+    "sha256": "b69aa53476c5e5f0484f44242a162e6faf0603eb75c84fdbf503e9dd5cd67e34"
+  },
+  "assets/card-designer/backgrounds.json": {
+    "bytes": 224575,
+    "sha256": "e2a87da6786fbd01f3d131dcfcd1e29e951d933e6f87f26d235d3abb82dbadee"
+  },
+  "assets/card-designer/bg-remove/ONNXRUNTIME-LICENSE.txt": {
+    "bytes": 1073,
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+  },
+  "assets/card-designer/bg-remove/U2NET-LICENSE.txt": {
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "assets/card-designer/bg-remove/UPSTREAM.txt": {
+    "bytes": 222,
+    "sha256": "a054affd3995048256fb72849e6fa8def2bb0fd36b7e56e523695e37552a4c23"
+  },
+  "assets/card-designer/bg-remove/ort-wasm-simd.wasm": {
+    "bytes": 10551547,
+    "sha256": "6783fcd6647ce1b426a527c31412a9c40894552faa609e9c931b3239a3438071"
+  },
+  "assets/card-designer/bg-remove/ort-wasm.wasm": {
+    "bytes": 9726745,
+    "sha256": "969afd00c79afead28a90b6acd01bd64abe4b5ac8bc9650c3dee3aefc6e0cea6"
+  },
+  "assets/card-designer/bg-remove/ort.min.js": {
+    "bytes": 542655,
+    "sha256": "88490a46ffcbdb497d7c11402f6b6d39a97f00185f641f0d0a946556ce931752"
+  },
+  "assets/card-designer/bg-remove/u2netp.onnx": {
+    "bytes": 4574861,
+    "sha256": "309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8"
+  },
+  "assets/card-designer/bg-remove/worker.js": {
+    "bytes": 1770,
+    "sha256": "b5ce0e3082b50b954829fb09cbc94bb73bfed47fe46ceb40cf9a662a0ddbc243"
+  },
+  "assets/card-designer/booster-catalog.json": {
+    "bytes": 104827,
+    "sha256": "127584e4d0c38fbb6c47df8f1eb9ebbbe59857fe95db17094f72b207b59f3038"
+  },
+  "assets/card-designer/canvas-gestures.js": {
+    "bytes": 5932,
+    "sha256": "9ea139a7a8a9d9c666b7c8cc13153eb668a68772b9365eb60ada0cc48c5248fa"
+  },
+  "assets/card-designer/card-package.js": {
+    "bytes": 34782,
+    "sha256": "82abc9b926be1f7df0565f3cf862e2b705e6918e6913a86fa27b5261c48764e0"
+  },
+  "assets/card-designer/card-suites.js": {
+    "bytes": 6206,
+    "sha256": "0ac4fe874cc22436cd45cc2297e916ac83050f87c888feb87124bb44de4b7d5b"
+  },
+  "assets/card-designer/card-suites.json": {
+    "bytes": 173512,
+    "sha256": "a7addadd0d5e0e39fa97f9710c5d213bd7f8dc1c4cda8e38c6c5fba748427179"
+  },
+  "assets/card-designer/default-state.json": {
+    "bytes": 749,
+    "sha256": "16b02ca4bc1f055fabcb9da6ef6d7518cd743e12c7ef3f0e52e1cd7dcc81626d"
+  },
+  "assets/card-designer/diy-en.js": {
+    "bytes": 223075,
+    "sha256": "d162122dbe681fc8b01eb087aa6554a715b1900a1747d6c88a0a24b1924ce8ef"
+  },
+  "assets/card-designer/diy-en.json": {
+    "bytes": 223050,
+    "sha256": "7ea446367c98184114a113ee707ca3c1e6ec46f37f1b2d78910c874a7902d74b"
+  },
+  "assets/card-designer/diy-i18n.js": {
+    "bytes": 4500,
+    "sha256": "775fd25aba47013e185b8f58515be874403cb5a52afb20eb512d17782ed62e32"
+  },
+  "assets/card-designer/diy-lab.css": {
+    "bytes": 49968,
+    "sha256": "e8b180f023d0edaeb2a44496a2fd3800c0292c3330bd9a493e57ead35b28cb74"
+  },
+  "assets/card-designer/diy-lab.js": {
+    "bytes": 21595,
+    "sha256": "0b8824a7c2314c02d9a493be2798e38fe7228a8f274f12c575a2ae067d26bc64"
+  },
+  "assets/card-designer/earth-card.js": {
+    "bytes": 4385,
+    "sha256": "a5ae3de0bc836ffbd54107d65c5307c8839c516ab5f0fe21914259c8f770412c"
+  },
+  "assets/card-designer/earth-designer.css": {
+    "bytes": 1848,
+    "sha256": "a299bab52a23b1385f6834b55ab3f2f87de0f7870609051cd59e15ebc3dbc94e"
+  },
+  "assets/card-designer/editor-catalog.json": {
+    "bytes": 4479,
+    "sha256": "0d8a9726ab22f6b5640689ae6970c45a6e99a4541fcb666cf9540ec4608288a4"
+  },
+  "assets/card-designer/editor-controls.css": {
+    "bytes": 2695,
+    "sha256": "9e88d24c444f45d88837bbbe946031db817a50bb61a6602d5c2887861e9b9ea4"
+  },
+  "assets/card-designer/editor-fields.js": {
+    "bytes": 8313,
+    "sha256": "0a16a1ac183db901e75f8ea2f77783b827960d43ca1c599d091b0b30029eaf33"
+  },
+  "assets/card-designer/flags/ad.svg": {
+    "bytes": 30510,
+    "sha256": "1914f0d751b810056fdde2fa27d5c255082b4eeaa5942f8ac27e48dca3a377ed"
+  },
+  "assets/card-designer/flags/ae.svg": {
+    "bytes": 266,
+    "sha256": "3bc52a4aac7c6c68cd7c0a04013fa14f715abfe6958e7a6e3194f0793c9eb816"
+  },
+  "assets/card-designer/flags/af.svg": {
+    "bytes": 19192,
+    "sha256": "313a7dd89f3d4bdceae673908ede1bca4a2f1aa0ea3562d8e96fe430d3b4c690"
+  },
+  "assets/card-designer/flags/ag.svg": {
+    "bytes": 743,
+    "sha256": "131282135f0f5cfca72efa3a6dc6a3392b5999b5b15e1cbd0f3f73253c24080d"
+  },
+  "assets/card-designer/flags/ai.svg": {
+    "bytes": 2304,
+    "sha256": "974c6af4adba3aed291f00a7eddaa8940853f8a7ca9be0c17ff8064714f27c51"
+  },
+  "assets/card-designer/flags/al.svg": {
+    "bytes": 3126,
+    "sha256": "4ae4d2950f6a08528639700e48d19930b964478a2548cb9bf41b898c2b757b11"
+  },
+  "assets/card-designer/flags/am.svg": {
+    "bytes": 228,
+    "sha256": "efb6cdaad5658ae5024c86b099a96c4e3769028894240f4015cbc090a0e90e0f"
+  },
+  "assets/card-designer/flags/ao.svg": {
+    "bytes": 1602,
+    "sha256": "3a4b1f9b0c95729b128ed86c7446ce82733f29ad9f6387e7a2ca951fa488e763"
+  },
+  "assets/card-designer/flags/ar.svg": {
+    "bytes": 3461,
+    "sha256": "da39bfbe83fd35fae781f605c4a297b632f03ccf72d4cb0499e86dac8370663d"
+  },
+  "assets/card-designer/flags/as.svg": {
+    "bytes": 30449,
+    "sha256": "6f356d18cc09efabdae58579373f5dc89b25695b42cb4e92d7ebc9e94477b81f"
+  },
+  "assets/card-designer/flags/at.svg": {
+    "bytes": 195,
+    "sha256": "c0e5cb3c1d59fd002afd6e2b0dd03787677ca3c9e7b2321f4af6d9e28256ebcd"
+  },
+  "assets/card-designer/flags/au.svg": {
+    "bytes": 1296,
+    "sha256": "cbb2206c5e59a25d79228306af973666a191e163f0ae337681f447977e6edb18"
+  },
+  "assets/card-designer/flags/aw.svg": {
+    "bytes": 9003,
+    "sha256": "6cabd9394138d55a421da65a8a5b7aebd612c5df48d97fd23790ebfbd59bd1ac"
+  },
+  "assets/card-designer/flags/az.svg": {
+    "bytes": 501,
+    "sha256": "33ad245b2125c36fbf0f863b0edd5c85cbef37587900e101db3a615870504502"
+  },
+  "assets/card-designer/flags/ba.svg": {
+    "bytes": 1240,
+    "sha256": "b321fe9b47c1cd741c61b330aee66cf00550622a6a9e740161a9f240a14e0787"
+  },
+  "assets/card-designer/flags/bb.svg": {
+    "bytes": 628,
+    "sha256": "46cfd88ab5ea96e75627e044d008462586fbd04a346205dfd258984a46ffc27a"
+  },
+  "assets/card-designer/flags/bd.svg": {
+    "bytes": 187,
+    "sha256": "1aabb4a772651fb9a673660233d5bc6f3d78dfc71df09d567769bc97b9eb554f"
+  },
+  "assets/card-designer/flags/be.svg": {
+    "bytes": 302,
+    "sha256": "d6aff6fa4c913404eafd53f91c0a9b240fcecaddc8f0ac2160d362e38469342c"
+  },
+  "assets/card-designer/flags/bf.svg": {
+    "bytes": 342,
+    "sha256": "4723f5e95c0728e89b5715f3206ff24d8db157f325e163779bfac41c3200f93b"
+  },
+  "assets/card-designer/flags/bg.svg": {
+    "bytes": 225,
+    "sha256": "b6d979fc96dc6b46c1697a5e05ecfe1fac1fa912ed480ca7a2a9b450f087faf6"
+  },
+  "assets/card-designer/flags/bh.svg": {
+    "bytes": 252,
+    "sha256": "7a519f58c9007731d70a975a48cc81fcf516ab52ab972f9739eace370431e0c2"
+  },
+  "assets/card-designer/flags/bi.svg": {
+    "bytes": 1078,
+    "sha256": "5ef1a56b4ebe90326d6d807bbf61bd2d6f0b752fd6966588cd42471a886307bb"
+  },
+  "assets/card-designer/flags/bj.svg": {
+    "bytes": 499,
+    "sha256": "0a46cbae6018acdbc4a485f6b1c4a3df7a7b36680439f6eb5d1bfb957f704888"
+  },
+  "assets/card-designer/flags/bm.svg": {
+    "bytes": 22464,
+    "sha256": "65e4636aa41be4ff0613f19d2c56af41a2b43cd44522f83cf3e6d89fbd16aba0"
+  },
+  "assets/card-designer/flags/bn.svg": {
+    "bytes": 13340,
+    "sha256": "4fc01eb8e4b3d4776d179cd06dfca4f21ee7ca833751eb564e7943d3203b6851"
+  },
+  "assets/card-designer/flags/bo.svg": {
+    "bytes": 102880,
+    "sha256": "ee1075ebb655dd8252ec317827baa0a75cf0a5e4f0b0b35d6e9766b30686d183"
+  },
+  "assets/card-designer/flags/br.svg": {
+    "bytes": 7140,
+    "sha256": "b0a912826c3ffd7287435ebed66e18fe058e992309c00dc10b430dd41a29ba91"
+  },
+  "assets/card-designer/flags/bs.svg": {
+    "bytes": 557,
+    "sha256": "1f179c39f296e5e3e062114d62fea394ff0ea487bd29cdffbe3837b7238d46dc"
+  },
+  "assets/card-designer/flags/bt.svg": {
+    "bytes": 24784,
+    "sha256": "05ff0d4d7258357823180eec1e53baa11846505234f51061a47c2f95641d1f43"
+  },
+  "assets/card-designer/flags/bw.svg": {
+    "bytes": 264,
+    "sha256": "180bfa4e76b78fa7b52bf9f3c8e99d3c1b4aa520b97a239661a8953dc90658b3"
+  },
+  "assets/card-designer/flags/by.svg": {
+    "bytes": 2078,
+    "sha256": "a1efa44ad1167d6d77abbe59ce85aa3a68ff4bd57af79454c08a3ade5c178578"
+  },
+  "assets/card-designer/flags/bz.svg": {
+    "bytes": 42505,
+    "sha256": "9aef8f4ef9d86bf989fbdd714d64c5440dceaa2bc1a23e493942129022e6b677"
+  },
+  "assets/card-designer/flags/ca.svg": {
+    "bytes": 625,
+    "sha256": "345ec9dac057e203f1331b2d3f9f473789864edaee1182a26bc261356bcf72f1"
+  },
+  "assets/card-designer/flags/cd.svg": {
+    "bytes": 334,
+    "sha256": "ad93c1afd68e6a7364d141e0989a798e81a202fe4674f21fece3ceea83fd167c"
+  },
+  "assets/card-designer/flags/cf.svg": {
+    "bytes": 687,
+    "sha256": "1b58dc2035ff0039c82e4dfb16a536dcf74ee09ab4d95b75221d404ad616dc0f"
+  },
+  "assets/card-designer/flags/cg.svg": {
+    "bytes": 470,
+    "sha256": "628dcfc7f00ab09cc9074b837863c31fe4472c7c3e17c30e233332d94c37585b"
+  },
+  "assets/card-designer/flags/ch.svg": {
+    "bytes": 290,
+    "sha256": "ac676cd39d7032988598ef2dd73f6bebcd767738e3e469705d6a437835ac485c"
+  },
+  "assets/card-designer/flags/ci.svg": {
+    "bytes": 277,
+    "sha256": "7a09020c7263a1c35a2fab646bdb4ee16fcc06a292f63d5a1d9f1feb2501ecd2"
+  },
+  "assets/card-designer/flags/ck.svg": {
+    "bytes": 1898,
+    "sha256": "b17c039f7195b292265dd28b50f85b3668e28e490b48df760e953e3ab0bc3557"
+  },
+  "assets/card-designer/flags/cl.svg": {
+    "bytes": 552,
+    "sha256": "bcf0ccdf0999a1cd82061202988e1f6088c2070e3e76794d67cb375ef325ef76"
+  },
+  "assets/card-designer/flags/cm.svg": {
+    "bytes": 840,
+    "sha256": "c9a327dc0e355739a9f2bc0a91e1293f8e08e13910e718bc63fda35a244acef5"
+  },
+  "assets/card-designer/flags/cn.svg": {
+    "bytes": 813,
+    "sha256": "981da9bdf82d48e31691f20578cefcb26cf7d0bd95e4ebd5c0df00bdfe988c1a"
+  },
+  "assets/card-designer/flags/co.svg": {
+    "bytes": 286,
+    "sha256": "6bab3c96c1657510c6e49354dd40203c69401bee54da497392ab9267334e5fd4"
+  },
+  "assets/card-designer/flags/cr.svg": {
+    "bytes": 290,
+    "sha256": "4775ef01d28b8a887cde3dbe2826466ed77c87aae4d00517c99d4977afdbdc20"
+  },
+  "assets/card-designer/flags/cu.svg": {
+    "bytes": 610,
+    "sha256": "15013e0bb414c074af963bab167806dc81b7e1bb6dabc05dac20b2583511e535"
+  },
+  "assets/card-designer/flags/cv.svg": {
+    "bytes": 1411,
+    "sha256": "2fa67e0a2477306f0427877b78d2276c58c496ff50faf4b3d69252350821e138"
+  },
+  "assets/card-designer/flags/cw.svg": {
+    "bytes": 687,
+    "sha256": "c845d0cad7f00344a2729257315afbf81c70c08bf0772211eb913a716b9aae7c"
+  },
+  "assets/card-designer/flags/cy.svg": {
+    "bytes": 5466,
+    "sha256": "d2ddf86c24e9d4dc4e2f5cd298b189b9d04a08c0f6497c35249f07d6f1969e33"
+  },
+  "assets/card-designer/flags/cz.svg": {
+    "bytes": 225,
+    "sha256": "d601fcc2e5b1fd48b79d53c55108af4c0e90793f146db51f3ee449d8d69512bc"
+  },
+  "assets/card-designer/flags/de.svg": {
+    "bytes": 221,
+    "sha256": "efd480af5a154a7651f29da23ee0d09dbc892410fb4041898ddf8face336c575"
+  },
+  "assets/card-designer/flags/dj.svg": {
+    "bytes": 585,
+    "sha256": "2a22d382f85cef20ba39a9abb6e6ecffdfa806d46afea3f6d26b8a23a5c12e43"
+  },
+  "assets/card-designer/flags/dk.svg": {
+    "bytes": 236,
+    "sha256": "d2847c0bd7a1fb97977ee51f2f618c5ebc5898dd66ef9804f187613c27bdca1a"
+  },
+  "assets/card-designer/flags/dm.svg": {
+    "bytes": 15787,
+    "sha256": "0a4bf1a27390308c62675099f3fb7c86ac3098fce4e8c5e95046c7a15c54226d"
+  },
+  "assets/card-designer/flags/do.svg": {
+    "bytes": 40266,
+    "sha256": "c14c3f138e9a81ab988a5d58af65ac4250ae63d43d6b156d31b51d2c1e152aba"
+  },
+  "assets/card-designer/flags/dz.svg": {
+    "bytes": 294,
+    "sha256": "9ea0cf93222ab7b5e7b77b9576afcad80dad1eff33827e8e58dbfbb42aeb8213"
+  },
+  "assets/card-designer/flags/ec.svg": {
+    "bytes": 28777,
+    "sha256": "4472b0618e2f5e31d31d16c0d7d811310c33b07d5a101b54f60fcb7ec84d1d4d"
+  },
+  "assets/card-designer/flags/ee.svg": {
+    "bytes": 225,
+    "sha256": "25642310e287fbdc02e1ac3e0e08fadca9a32eae195f67b6863bf0fc6247176b"
+  },
+  "assets/card-designer/flags/eg.svg": {
+    "bytes": 8717,
+    "sha256": "1f418e17240c1ff39a1bcc021314d9eb8fa3029cb48ea9d9b8fdd2e4dbce37c5"
+  },
+  "assets/card-designer/flags/er.svg": {
+    "bytes": 3158,
+    "sha256": "64c98a80601fc019f9ca7a71f7dd384ca995da1403e7775edcbfd79118564e45"
+  },
+  "assets/card-designer/flags/es.svg": {
+    "bytes": 80958,
+    "sha256": "f9cfaff858e95f830733ade9591037b5322dfb5827a53b70956a3d190bb49b9a"
+  },
+  "assets/card-designer/flags/et.svg": {
+    "bytes": 1119,
+    "sha256": "a136cd1152e5ab4b02f2ff2eab4f5ae5b48ed3594afd7f3160899f12575b41c7"
+  },
+  "assets/card-designer/flags/fi.svg": {
+    "bytes": 234,
+    "sha256": "012edd984cf1879463c2855b7df02dea2f7de7f7a66b244fb1e22b4227f7aa65"
+  },
+  "assets/card-designer/flags/fj.svg": {
+    "bytes": 24100,
+    "sha256": "b23cbee897c889ce2d057aaca7c221b74a386ea58efb29da1982418564b58343"
+  },
+  "assets/card-designer/flags/fo.svg": {
+    "bytes": 555,
+    "sha256": "ec85991b8a9255cae6ea4241413ae3bd836d8afd985cc3a6cc5f91a37a00a1b4"
+  },
+  "assets/card-designer/flags/fr.svg": {
+    "bytes": 241,
+    "sha256": "a526851c372e3372b1596be71af355ea72b1650bbc4c06e6e2c226900d3de6cc"
+  },
+  "assets/card-designer/flags/ga.svg": {
+    "bytes": 271,
+    "sha256": "f7b775c474b0331222ed84a3d1b5a5d66af1c097c8565766db17a5cff5237c93"
+  },
+  "assets/card-designer/flags/gb-eng.svg": {
+    "bytes": 239,
+    "sha256": "53797ba9e2dd9b18cd5344255f4e9ae9fad743ecb628fc9feb98abea4f48f90e"
+  },
+  "assets/card-designer/flags/gb-sct.svg": {
+    "bytes": 228,
+    "sha256": "7b55bce70824742222ccd804a4bc3d0e0f0f9416d103d05a46dd60825ce559f7"
+  },
+  "assets/card-designer/flags/gb-wls.svg": {
+    "bytes": 9096,
+    "sha256": "61ad944644250599da53b344e16bb40529677a7f35b84aaf6bc81fd18eb09e24"
+  },
+  "assets/card-designer/flags/gb.svg": {
+    "bytes": 504,
+    "sha256": "c8be1e7208798a4ae692ee1e937065d498bb29e741943f6172b29118b8ed8066"
+  },
+  "assets/card-designer/flags/gd.svg": {
+    "bytes": 1712,
+    "sha256": "eecc1f130ed02b2166c6f185439b7c95cabfa4a41b33c1a834ca59ffe4780785"
+  },
+  "assets/card-designer/flags/ge.svg": {
+    "bytes": 1313,
+    "sha256": "0280a1279c3d1d772f1e885ee821e37a1cdb4aa085ca2870825fe10bad8d7ff1"
+  },
+  "assets/card-designer/flags/gh.svg": {
+    "bytes": 293,
+    "sha256": "53c55ca455293bceecfe6a5d6b12dc0bb670734c50bfd95cb21dc4ef12197405"
+  },
+  "assets/card-designer/flags/gi.svg": {
+    "bytes": 2889,
+    "sha256": "483f5768d4c360c28a751dd121872ed9a2f6568fc358816a95378284526e1d0b"
+  },
+  "assets/card-designer/flags/gm.svg": {
+    "bytes": 543,
+    "sha256": "2aa3fad4e8820fb42386f62d3efee1d3923817a49ed2bb05ba364c58d0ca4d3f"
+  },
+  "assets/card-designer/flags/gn.svg": {
+    "bytes": 292,
+    "sha256": "ee01e7dd4abb0a995980ec8d0ba2bf314b564c73fcaba39fed8a5f48a7c49753"
+  },
+  "assets/card-designer/flags/gq.svg": {
+    "bytes": 4941,
+    "sha256": "61ddf0a98d1d4bf93c6ec53eec080662efceabc37d1361eda4e7d291e10976d8"
+  },
+  "assets/card-designer/flags/gr.svg": {
+    "bytes": 868,
+    "sha256": "a184070f7678b06777be8ac38cb05ba41829591a6dac9b64b2b72db66aec82f5"
+  },
+  "assets/card-designer/flags/gt.svg": {
+    "bytes": 31352,
+    "sha256": "a20814d011af90ab2e80ea88eae9928cfce824cb9b50edf7b74ce2a98a159059"
+  },
+  "assets/card-designer/flags/gu.svg": {
+    "bytes": 4327,
+    "sha256": "f49a02cc01b2c97d43e89260ed852e9bf7c5006fbbc384a2c786819ba6a6695f"
+  },
+  "assets/card-designer/flags/gw.svg": {
+    "bytes": 846,
+    "sha256": "6b81a234b51ceacb4b67e889bb5b7ccf5f1084ac34b4fded2b97af5336f4797e"
+  },
+  "assets/card-designer/flags/gy.svg": {
+    "bytes": 493,
+    "sha256": "5bd7a7b326efd9c28c3ec3b23118b241cb7643967fe9410611f392bc3deb65b0"
+  },
+  "assets/card-designer/flags/hk.svg": {
+    "bytes": 727,
+    "sha256": "d9d142b2b97ec3b8190bff3802072c1b4f15573a679eead89a0ce59986dcad0c"
+  },
+  "assets/card-designer/flags/hn.svg": {
+    "bytes": 1144,
+    "sha256": "67130fa043e9d30dda7691e0d59567ff32db435a0d72e4e57309bd439fd79995"
+  },
+  "assets/card-designer/flags/hr.svg": {
+    "bytes": 30727,
+    "sha256": "f6db0eb906b48dc7b4d6da48e8a73ccedff47ee2f972d0cca16d231913880154"
+  },
+  "assets/card-designer/flags/ht.svg": {
+    "bytes": 13301,
+    "sha256": "d45f0285b56379b6816ab02ac0fcef2dc47b3f9a926a661e51a5c546b259e5d6"
+  },
+  "assets/card-designer/flags/hu.svg": {
+    "bytes": 264,
+    "sha256": "4891ce591bf29b5b68609c29d973a30f1ef109032d8dab369208d0d5f615bc74"
+  },
+  "assets/card-designer/flags/id.svg": {
+    "bytes": 178,
+    "sha256": "5cd3acc4939dd7eae6318c8d75df8c0d1733f650e2504a2635b0dbf3dfabb040"
+  },
+  "assets/card-designer/flags/ie.svg": {
+    "bytes": 289,
+    "sha256": "f82568d70bd1624ff7ce3ced8712a718a224ff2424fd2ade2da4339be3bba463"
+  },
+  "assets/card-designer/flags/il.svg": {
+    "bytes": 834,
+    "sha256": "04a099ac4370b5e856f5f8d44ce0822ec47a6d3bc395a7d048d3a46d69274d68"
+  },
+  "assets/card-designer/flags/in.svg": {
+    "bytes": 1090,
+    "sha256": "91185efa1a9b52cdc0e470712518efeefc4e4d6a6555bae9de997ba71885bb98"
+  },
+  "assets/card-designer/flags/iq.svg": {
+    "bytes": 1420,
+    "sha256": "073b07113d582dfea58fbd7e7e63cd9626bfa4afc87b3446a2a798981e26a412"
+  },
+  "assets/card-designer/flags/ir.svg": {
+    "bytes": 15397,
+    "sha256": "cb363e09bafbff6de7c2fba6a002ca33f0563dc83a2328d34adb492cf80ca629"
+  },
+  "assets/card-designer/flags/is.svg": {
+    "bytes": 509,
+    "sha256": "4ef2de6fb25ff5a16789e8ffc3b68894527e68c89dce3b4e1118f5bbcc0bb7ae"
+  },
+  "assets/card-designer/flags/it.svg": {
+    "bytes": 289,
+    "sha256": "9fa88118818d9b64838f578e2babcca3d0630aed21b5c33b34aff7ac5ce506bc"
+  },
+  "assets/card-designer/flags/jm.svg": {
+    "bytes": 401,
+    "sha256": "f837df1ac21a4c64be2c977e2faeb6d6593624703d7c61b71a857fa8355b7f47"
+  },
+  "assets/card-designer/flags/jo.svg": {
+    "bytes": 727,
+    "sha256": "e3a570d5c50c15f4aca73d27b2543ee335fd04151847e3d8ef2b42e5ac1ebe12"
+  },
+  "assets/card-designer/flags/jp.svg": {
+    "bytes": 470,
+    "sha256": "bfea80baf9989383dc4bf7ca594ed95be0df0ff125bfc88d0bfa878eb0198022"
+  },
+  "assets/card-designer/flags/ke.svg": {
+    "bytes": 1421,
+    "sha256": "699163d87382eb969d8a26d4ce1a99a00264e8b7b95276abf585476506f46e82"
+  },
+  "assets/card-designer/flags/kg.svg": {
+    "bytes": 4743,
+    "sha256": "b0cf3e6806af23d8712a7007a27e8669403c00aef75faa2d7a15d183fc3d0587"
+  },
+  "assets/card-designer/flags/kh.svg": {
+    "bytes": 7122,
+    "sha256": "21a9681682a2158cab294bd1826a2dda2e3edf17aff891d692c6c976c3d9c874"
+  },
+  "assets/card-designer/flags/km.svg": {
+    "bytes": 1053,
+    "sha256": "81e1befbbdeab3b2a4ec451e060b161bbcc6de00b97ef9d99791bc5741dfddab"
+  },
+  "assets/card-designer/flags/kn.svg": {
+    "bytes": 796,
+    "sha256": "0832acb7396986c7ba99bdfdadc563df322363f91659775f14aeeeacdd546c7e"
+  },
+  "assets/card-designer/flags/kp.svg": {
+    "bytes": 783,
+    "sha256": "f79bc8b6502445b51fd6db4bb9b6fa9d49f7fbe00da77b6af4d052b6d9fec4d3"
+  },
+  "assets/card-designer/flags/kr.svg": {
+    "bytes": 1061,
+    "sha256": "7a6cd5b51d0e2841ed8b79b1147ad8a66cf3c09f6344d4a63b5e4413ffa5d15b"
+  },
+  "assets/card-designer/flags/kw.svg": {
+    "bytes": 517,
+    "sha256": "172a4281fdaf4b168471afcffc9e9ea277d6b5e54acc1a18b2f8ddc0a255cd7c"
+  },
+  "assets/card-designer/flags/ky.svg": {
+    "bytes": 23386,
+    "sha256": "a15e10f11df6e945230ea2870d578330065e56b7e0624e40c9cba6ab28b64272"
+  },
+  "assets/card-designer/flags/kz.svg": {
+    "bytes": 7094,
+    "sha256": "381b22e4c287b13e191c208bccfc2cfb9156cd657de248f033b920a0c713a1f3"
+  },
+  "assets/card-designer/flags/la.svg": {
+    "bytes": 456,
+    "sha256": "da591b989d90a90d03c736d8515fe567832eb9f24dcfa7a2870b1cf3196fdb05"
+  },
+  "assets/card-designer/flags/lb.svg": {
+    "bytes": 2770,
+    "sha256": "94b12b3f1dc43809f93516592f07bb4eb85dabbfdd6010b736f467fa64283e7f"
+  },
+  "assets/card-designer/flags/lc.svg": {
+    "bytes": 352,
+    "sha256": "99645e005699eba454a0c3bf052b84d161267b615d8be60c41acb41f9355e47d"
+  },
+  "assets/card-designer/flags/li.svg": {
+    "bytes": 7318,
+    "sha256": "77a33513c5288a0f2044f918efd2f82ba789d599f2e934b2af39b60fba8d9458"
+  },
+  "assets/card-designer/flags/lk.svg": {
+    "bytes": 10724,
+    "sha256": "ed3eee24d19872d6adcecd589513c057c6ecfe4997af36e8d25ef9ed58660d23"
+  },
+  "assets/card-designer/flags/lr.svg": {
+    "bytes": 713,
+    "sha256": "69f2ce4b9490ab3c94ca30dc94862e5f1e8cb0f84344e5db0eb9300df5c66146"
+  },
+  "assets/card-designer/flags/ls.svg": {
+    "bytes": 1133,
+    "sha256": "83d2e4152ef06ed39f5792dd2d5b9aa9953e3cbfe645f0384449e87b73dc96fb"
+  },
+  "assets/card-designer/flags/lt.svg": {
+    "bytes": 439,
+    "sha256": "dc0401993f6e14b3a58fa496d874b95dfcb58614052a868b14492166782c1006"
+  },
+  "assets/card-designer/flags/lu.svg": {
+    "bytes": 225,
+    "sha256": "a0a530e396ac2e2490d32d432a89c08a3d35081816ba089241b9b2b2a76a049e"
+  },
+  "assets/card-designer/flags/lv.svg": {
+    "bytes": 263,
+    "sha256": "d0d1ac1c0e301f808be3db32bcd7cdbc8986b6ec15574f557f440caed8b7bb31"
+  },
+  "assets/card-designer/flags/ly.svg": {
+    "bytes": 549,
+    "sha256": "47d96b6e011cd540bdeb30155cbd7994f929cd2f5b84cffdd50936b876823f41"
+  },
+  "assets/card-designer/flags/ma.svg": {
+    "bytes": 247,
+    "sha256": "28cfcdecf9675b0a14fbfae176324aea03711edab1a13592cfb7d58e6772b25c"
+  },
+  "assets/card-designer/flags/mc.svg": {
+    "bytes": 234,
+    "sha256": "690c23fe64b6ac71770657fd87f744b88196a7853abb28017b5bff54473ae0da"
+  },
+  "assets/card-designer/flags/md.svg": {
+    "bytes": 11126,
+    "sha256": "987ca12a752ec2b3594c115923d50160343a7d30af8ea5e316ae04fb12b8e9dd"
+  },
+  "assets/card-designer/flags/me.svg": {
+    "bytes": 56372,
+    "sha256": "d284332e23ef88ae4f1b957ce1c6d9b9f691f94e4726f15d1a4219840008387b"
+  },
+  "assets/card-designer/flags/mg.svg": {
+    "bytes": 299,
+    "sha256": "59246c21300e2456c0c5170791698e43399b089de80a69474deeac00697d2b7b"
+  },
+  "assets/card-designer/flags/mk.svg": {
+    "bytes": 379,
+    "sha256": "22488dc890fe1e5f7a8bea423dfe2e74f8ccf04402e75090cdeca030b12ca010"
+  },
+  "assets/card-designer/flags/ml.svg": {
+    "bytes": 273,
+    "sha256": "49e84081981f2b8ec245dcc66ebf44521fc91b3eae6e9f10c925616f78951f14"
+  },
+  "assets/card-designer/flags/mm.svg": {
+    "bytes": 710,
+    "sha256": "c0b2e23a7e202ff2ad69421ea1b528e58af4e541fc2f4b986479a9cdef7f18e0"
+  },
+  "assets/card-designer/flags/mn.svg": {
+    "bytes": 1397,
+    "sha256": "92d5422514f63fc10800714e71e14b576437e69a22645cf74a7ac0f516d67a69"
+  },
+  "assets/card-designer/flags/mo.svg": {
+    "bytes": 1370,
+    "sha256": "e1f783f6a43285a4338ee45cfe6f76db67801174968935b9f985d44d17914c83"
+  },
+  "assets/card-designer/flags/mr.svg": {
+    "bytes": 437,
+    "sha256": "ea338a9f7744fb25c3664f3cee5b2355e70bed7b0d79d952d246436cb600edb9"
+  },
+  "assets/card-designer/flags/ms.svg": {
+    "bytes": 5832,
+    "sha256": "c5d14004b158c9e4d8693b3cb50f4331b72516877a6af805316c0b54da6ae1fc"
+  },
+  "assets/card-designer/flags/mt.svg": {
+    "bytes": 13925,
+    "sha256": "a2ad157eeb5f1bb92dc9706ad90faa111dd39ec019586bc5d12e67c5a6aa6cd5"
+  },
+  "assets/card-designer/flags/mu.svg": {
+    "bytes": 316,
+    "sha256": "51f86810118855ca9a0b0501f3d363e0556fe74f429a66d1be9af5c027b3b593"
+  },
+  "assets/card-designer/flags/mv.svg": {
+    "bytes": 286,
+    "sha256": "5546d527d669b3935bbff11e0344fb8522200cf5ea84eba730d8a7a0b1e86f15"
+  },
+  "assets/card-designer/flags/mw.svg": {
+    "bytes": 3563,
+    "sha256": "29a3e7057ec47f18bd8dd54312074335263b607c1543fcd969f89f14e307985f"
+  },
+  "assets/card-designer/flags/mx.svg": {
+    "bytes": 84753,
+    "sha256": "9dbc8ad8b35e52ce7cb686d5cd93bd95e4c0dd8505c184186a740148ffd34901"
+  },
+  "assets/card-designer/flags/my.svg": {
+    "bytes": 1378,
+    "sha256": "bb30e84a099d2d9dc286ab091bdd40ae7a8e332eb49827f2df4f11803e613667"
+  },
+  "assets/card-designer/flags/mz.svg": {
+    "bytes": 2563,
+    "sha256": "ad91c2f8e6d6f80f19dca1fb080488539e2e39a4670ead32169d491bc88c3c03"
+  },
+  "assets/card-designer/flags/na.svg": {
+    "bytes": 993,
+    "sha256": "caa43fcdebb595ebf9808be7c5ba326a65bb40f78172182b1470102dd97a0182"
+  },
+  "assets/card-designer/flags/nc.svg": {
+    "bytes": 1618,
+    "sha256": "f914e0e0c744c4d78dfb3f1da3d8049adb31fb4ff1d6fe9a70cce2aff2aa8aae"
+  },
+  "assets/card-designer/flags/ne.svg": {
+    "bytes": 273,
+    "sha256": "4b91653d53f76ddaf492a61adad3c1be86528ee9f23d7a18a6044c4eed165cad"
+  },
+  "assets/card-designer/flags/ng.svg": {
+    "bytes": 257,
+    "sha256": "b7a2a45a6499095efce41592428ff558ec5bd83d2751858dfe5fa4589334b66f"
+  },
+  "assets/card-designer/flags/ni.svg": {
+    "bytes": 17249,
+    "sha256": "b9dfe1fc2aded19b2796ad7b9b681b64457250ca6043f2865b4160e9230d097f"
+  },
+  "assets/card-designer/flags/nl.svg": {
+    "bytes": 225,
+    "sha256": "8f691f17fe70894537af8e92f2ca47761d353639b0defc15cbe561eb503ab010"
+  },
+  "assets/card-designer/flags/no.svg": {
+    "bytes": 318,
+    "sha256": "ceea17af051dceefd5759a824213eb40ac8a8095aa88a6874a7bbc8de637357a"
+  },
+  "assets/card-designer/flags/np.svg": {
+    "bytes": 1005,
+    "sha256": "b84c02e2fa659d0be6fc6b5963d5e9fbd25c3a6ab4d469aa61f1e3cdbd3f4637"
+  },
+  "assets/card-designer/flags/nz.svg": {
+    "bytes": 2172,
+    "sha256": "794a2c8c09796090ab748a74bc35aed825e701eaddc46b138f300401ac9a25cd"
+  },
+  "assets/card-designer/flags/om.svg": {
+    "bytes": 22223,
+    "sha256": "3204f5aa802cf3b2b782ba0ddfd798b42c0ba7c3125606245ac34bbb1cf26cc1"
+  },
+  "assets/card-designer/flags/pa.svg": {
+    "bytes": 521,
+    "sha256": "5e034a8ad127c43b19f52c648fe808160ab4ddb117afa4204772af96566d31bc"
+  },
+  "assets/card-designer/flags/pe.svg": {
+    "bytes": 186,
+    "sha256": "e9dd299d453d9c173203e60f69623ef2148dbee24b2a1763328e94d4dfece05f"
+  },
+  "assets/card-designer/flags/pf.svg": {
+    "bytes": 4030,
+    "sha256": "67391766bf25f74433f1de41d7c2370215b23a375064b1345b12f9d0e0b6d35c"
+  },
+  "assets/card-designer/flags/pg.svg": {
+    "bytes": 1608,
+    "sha256": "43e492331c192a947d9bd72ac6e1f4edcab1d86af097b8840faa9ac24e439d97"
+  },
+  "assets/card-designer/flags/ph.svg": {
+    "bytes": 1382,
+    "sha256": "c3bd5e08ddc5f6dbdfa899af9efb45577e3841402e6a7f5d00fef754816b2884"
+  },
+  "assets/card-designer/flags/pk.svg": {
+    "bytes": 725,
+    "sha256": "89e851c0d541d8166b297e13bed97e0cb500bdb4ae48fd83a86b606a078352a8"
+  },
+  "assets/card-designer/flags/pl.svg": {
+    "bytes": 215,
+    "sha256": "06687a4b90fc00195d0795aea1c26a9f73f1b6ea6a76e358724b2f1f32b7c8f4"
+  },
+  "assets/card-designer/flags/pr.svg": {
+    "bytes": 625,
+    "sha256": "968c343f7074f4312871383337f26454040aaa84f304460d518da549b2549f8d"
+  },
+  "assets/card-designer/flags/ps.svg": {
+    "bytes": 276,
+    "sha256": "5d95ca7526bf8edd90a913d7de08130688d68b7c2dd2825cbf0dde3a6aec20e3"
+  },
+  "assets/card-designer/flags/pt.svg": {
+    "bytes": 8001,
+    "sha256": "a7a2cf0b44aaaaf4f3bdc0ee0fa308ec7085bdfedd3f72da1473d43fd2a569fb"
+  },
+  "assets/card-designer/flags/pw.svg": {
+    "bytes": 466,
+    "sha256": "a61ab9d94f2968304eaf62d838e0ba1674977da8a5056beae5776fe912a8e233"
+  },
+  "assets/card-designer/flags/py.svg": {
+    "bytes": 16184,
+    "sha256": "fe0968470b7910543b23f7621b00cdeeebde8d90cffbd4fbcbfa97783a01cc04"
+  },
+  "assets/card-designer/flags/qa.svg": {
+    "bytes": 354,
+    "sha256": "fb955ef352ff3ba1ea980090c31d5cf15257729d32949d04b18402651e93b986"
+  },
+  "assets/card-designer/flags/ro.svg": {
+    "bytes": 302,
+    "sha256": "17a3a747fc5e63302aaa670a667e5812f3676f46768e5a3e87b254bd41762840"
+  },
+  "assets/card-designer/flags/rs.svg": {
+    "bytes": 181634,
+    "sha256": "b6e08e2eca1ec4c287e5d5d7c36d7d4ad9503ad030133b04cf315f95ab49961c"
+  },
+  "assets/card-designer/flags/ru.svg": {
+    "bytes": 225,
+    "sha256": "7100aaae51ff3b6a2bf0ca932b3bc518bdc760814725e7cca31d821a26c3dd7c"
+  },
+  "assets/card-designer/flags/rw.svg": {
+    "bytes": 755,
+    "sha256": "9512100aa3e8079ed3780e8b3d6cd6a49639d0986ad78a709f81e9d0827b65b2"
+  },
+  "assets/card-designer/flags/sa.svg": {
+    "bytes": 9968,
+    "sha256": "5738c8cfca5fea63587cbcf69237996c8ce6283f8016853150686f37311b620e"
+  },
+  "assets/card-designer/flags/sb.svg": {
+    "bytes": 940,
+    "sha256": "b34eabf373af639cec1d7de7c0dff84df6487737f04510efcc356810147c2cfa"
+  },
+  "assets/card-designer/flags/sc.svg": {
+    "bytes": 317,
+    "sha256": "30cdbe42a1aed2dab0b26cb7b510901813cad3289835ef58e07d5ff1b554ec61"
+  },
+  "assets/card-designer/flags/sd.svg": {
+    "bytes": 505,
+    "sha256": "25b3fa24693ccbb80991235e235e9370895f182c509c687e96824faf6b65809a"
+  },
+  "assets/card-designer/flags/se.svg": {
+    "bytes": 209,
+    "sha256": "b3b5071e6c1d4a0e3db828bab5c7dfd68d0e90fcf3b25b15e9a2c4f96c1f79c9"
+  },
+  "assets/card-designer/flags/sg.svg": {
+    "bytes": 889,
+    "sha256": "25de9044c2e2775f7ccf9c1df02dd02342f915715b22c43248452b7ae24079a5"
+  },
+  "assets/card-designer/flags/si.svg": {
+    "bytes": 1993,
+    "sha256": "3a5e0cac44baaea6b6d8e91054844b6ea72764f6dbe363c11ea11fd81203733a"
+  },
+  "assets/card-designer/flags/sk.svg": {
+    "bytes": 1182,
+    "sha256": "578d0693bc95214334248b47c5719dd01cfc9839bd909a726df045d499fabbb6"
+  },
+  "assets/card-designer/flags/sl.svg": {
+    "bytes": 272,
+    "sha256": "d0c384b03a037f4eeb6c967346e3faafb4a09a3706667ac762999e54b55bc647"
+  },
+  "assets/card-designer/flags/sm.svg": {
+    "bytes": 15683,
+    "sha256": "fc3388637c187533a086e1a25253cd96ce657bd7d105886624d21addb380af16"
+  },
+  "assets/card-designer/flags/sn.svg": {
+    "bytes": 417,
+    "sha256": "d97a004ca8a85c79286ced0b87a9dd12e74035e15e155ee93f261310547ca5e0"
+  },
+  "assets/card-designer/flags/so.svg": {
+    "bytes": 483,
+    "sha256": "249e1acb87efcd0ef0f685285f14f5063f0bf260e0d28ca462e713c3f6178e7d"
+  },
+  "assets/card-designer/flags/sr.svg": {
+    "bytes": 312,
+    "sha256": "5194a6af4e0d8a350ba7c1f66873725a9e1c91f2054fb9e85fc59cf7f7f2c0f2"
+  },
+  "assets/card-designer/flags/ss.svg": {
+    "bytes": 398,
+    "sha256": "f7ac7017201841eee0b261f66be6787200a80fbeadbb869dc6e8823e3b2ec220"
+  },
+  "assets/card-designer/flags/st.svg": {
+    "bytes": 954,
+    "sha256": "880c17f94cb564b1818f604b764ac8c3b87e019d97724a7ebb9e69aa96821238"
+  },
+  "assets/card-designer/flags/sv.svg": {
+    "bytes": 77273,
+    "sha256": "4c2b4e2b8bbb85d6cb97a5a35399f6fa9f269dc4b4c17591350441b61137041d"
+  },
+  "assets/card-designer/flags/sy.svg": {
+    "bytes": 366,
+    "sha256": "04c5e853ade8f2e5585a3c42e9c1a1a80248125acf6a44afa85e9bbf36cd96c5"
+  },
+  "assets/card-designer/flags/sz.svg": {
+    "bytes": 4663,
+    "sha256": "5d6399c149d143306981f386048047b984586b2f85b0cf11fd7aeaa5757a81e9"
+  },
+  "assets/card-designer/flags/tc.svg": {
+    "bytes": 7117,
+    "sha256": "b8d8c6898f888af85d64bb33aeaf1c507f28489215fae298d8a152f1d0156961"
+  },
+  "assets/card-designer/flags/td.svg": {
+    "bytes": 271,
+    "sha256": "19a278fbd88e7fa245b44b40a829bd2bc83f4a2b5521feb665cee8d629e2f026"
+  },
+  "assets/card-designer/flags/tg.svg": {
+    "bytes": 708,
+    "sha256": "f52b955fb48669d149991f511db818761589e8d45ce4dcc84478737cc0156d75"
+  },
+  "assets/card-designer/flags/th.svg": {
+    "bytes": 284,
+    "sha256": "329cc0d520536d6eb4b9304105f23650c2d02bbdba8f8696e996dbf166de6f2e"
+  },
+  "assets/card-designer/flags/tj.svg": {
+    "bytes": 1843,
+    "sha256": "cd1afa9808833e4983986fa8818b73a9e1640f42c827692123a9639220c4a720"
+  },
+  "assets/card-designer/flags/tl.svg": {
+    "bytes": 611,
+    "sha256": "09c763aa3e5a48e2092348367b0bc93b1bc0536f5b527b31175e493132c55e19"
+  },
+  "assets/card-designer/flags/tm.svg": {
+    "bytes": 38349,
+    "sha256": "378178e3d5c91c62dafd0416b3f2b789f9505d26db0aef93dab8f5979ad60841"
+  },
+  "assets/card-designer/flags/tn.svg": {
+    "bytes": 343,
+    "sha256": "8e0274e5762a4d5f783e64f1206dd69008454f750de21d3ba61439d0af3c577c"
+  },
+  "assets/card-designer/flags/to.svg": {
+    "bytes": 352,
+    "sha256": "b351703fccc1e08a13d2d57260dd71bee8280e393030b879b9df1c7ccd3a9538"
+  },
+  "assets/card-designer/flags/tr.svg": {
+    "bytes": 549,
+    "sha256": "256a1d6afbedb9f731566982331a1cd1ad14aba211b8a61d338855879505e74f"
+  },
+  "assets/card-designer/flags/tt.svg": {
+    "bytes": 304,
+    "sha256": "04c13dcd0b3690f91e752680653def1c2bbe5b4553b9e5dc75748b9339636749"
+  },
+  "assets/card-designer/flags/tw.svg": {
+    "bytes": 2499,
+    "sha256": "931757f06b9ee751fd1a0cc8dd7cf862e21fdcaf894d10ed7bcc68dabcca59ad"
+  },
+  "assets/card-designer/flags/tz.svg": {
+    "bytes": 548,
+    "sha256": "fd317abae009fa3629c51b82a6b9f1c529a7254406478047734bb52de83611cd"
+  },
+  "assets/card-designer/flags/ua.svg": {
+    "bytes": 234,
+    "sha256": "b7892e2bee1b25eb5407d6f5249b020dcece29ee1c9cc1a8a6a10c4f38ce6801"
+  },
+  "assets/card-designer/flags/ug.svg": {
+    "bytes": 3929,
+    "sha256": "ab6aa03e1324d54ffbed5ea4560f757797f4729da58fc977527cedd586e928a5"
+  },
+  "assets/card-designer/flags/us.svg": {
+    "bytes": 648,
+    "sha256": "e7be4240cf57987926673708f09233be1ab6bdf35acc7b86bd32a263f197a2a7"
+  },
+  "assets/card-designer/flags/uy.svg": {
+    "bytes": 1724,
+    "sha256": "47656c0bf4961a1f7233841eb78756cd45d074e7d4061b8a1217bba7754a30fe"
+  },
+  "assets/card-designer/flags/uz.svg": {
+    "bytes": 1498,
+    "sha256": "62ce6f1073416e8d3d599639ec8b105f4de167c0730f036e47c650e686c4ff5d"
+  },
+  "assets/card-designer/flags/vc.svg": {
+    "bytes": 429,
+    "sha256": "4e0a86447af4924dc11f26179f5cbb91195451ae766b2f777effe9c5f7cbc8f6"
+  },
+  "assets/card-designer/flags/ve.svg": {
+    "bytes": 1206,
+    "sha256": "5712f1c63ba0bfa25a853c100cdebfd6698cce98fc2e0ba8d3fab35df541efa1"
+  },
+  "assets/card-designer/flags/vg.svg": {
+    "bytes": 10018,
+    "sha256": "986913ded6a6365a65906d9185ead0c4411c5d71710fc2dfa4f47c16e4f708ab"
+  },
+  "assets/card-designer/flags/vi.svg": {
+    "bytes": 8518,
+    "sha256": "69e264ecc5c61b1750863f7863d74860a8f3ef152167c0537deb633eadced21f"
+  },
+  "assets/card-designer/flags/vn.svg": {
+    "bytes": 490,
+    "sha256": "2355037201315d74581ab0ad60b5587a29a087d26b0525bdeb8676e64fae5b86"
+  },
+  "assets/card-designer/flags/vu.svg": {
+    "bytes": 1782,
+    "sha256": "6c711900c98d0d79ec9676f921d4bc9f3a77f57bf8a78964176b45fed1923847"
+  },
+  "assets/card-designer/flags/ws.svg": {
+    "bytes": 687,
+    "sha256": "6b1a7ebcce97d75020af84da13b918875ba38ba4535b4d990b2be8985a67b8ad"
+  },
+  "assets/card-designer/flags/xk.svg": {
+    "bytes": 8267,
+    "sha256": "290d7f74bc73f362f9679a0bb09b7de0f679ab9aeaedf3952e40d79e0e3d25af"
+  },
+  "assets/card-designer/flags/ye.svg": {
+    "bytes": 281,
+    "sha256": "ead644b90bc8cc74407d5f4680ada429bf0dc3d0dbd1e8a11fbfc7663a2d7fc2"
+  },
+  "assets/card-designer/flags/za.svg": {
+    "bytes": 860,
+    "sha256": "1755a5e16f1c9f5120e4871e8454bdee663beb4fb4827012bcd02cb9044249c2"
+  },
+  "assets/card-designer/flags/zm.svg": {
+    "bytes": 5421,
+    "sha256": "2753554062cd3761e53a180c3c8f8e245af622fb6ecf1c02020c79db0ff2d644"
+  },
+  "assets/card-designer/flags/zw.svg": {
+    "bytes": 6186,
+    "sha256": "e27fcdcc882d7175cc4c07542779911043dc56262fe43b42f39bdaca09b762d5"
+  },
+  "assets/card-designer/game-materials/013968ba7a71d857a2b332e1.png": {
+    "bytes": 13347,
+    "sha256": "7d59d5be9530b60c46c063107d2c754919ca67a2afa954b82c8cdcf44185f826"
+  },
+  "assets/card-designer/game-materials/0238d87aa1920db7718742d2.png": {
+    "bytes": 19971,
+    "sha256": "294a91fe4bd5be03a217b6a429acb318855f88ba25fa356f16ed491a9a3976d8"
+  },
+  "assets/card-designer/game-materials/0332db2ab5df9321c6b1c06e.png": {
+    "bytes": 13900,
+    "sha256": "16fc8653d6268ccc3a58176ec0b258fc1af1a3b9576663d1b1918f4d67c32ce3"
+  },
+  "assets/card-designer/game-materials/033a3c2888aa1bf9028a7b60.png": {
+    "bytes": 13966,
+    "sha256": "5b5e54587942bc6b782bb6b0c4c4ad7132735df82bb34867f6f2e234ff98f4c4"
+  },
+  "assets/card-designer/game-materials/06f0a24cef36877219aba6fe.png": {
+    "bytes": 24215,
+    "sha256": "ab54dcf258f3573153e8d82681ede7934df078349833f1ca74881264a4a2b063"
+  },
+  "assets/card-designer/game-materials/07374b5a63909a88f7b1dc20.png": {
+    "bytes": 11653,
+    "sha256": "134da8c09dab6b8a8ecdaa310f305263ce0c230a348c106a3671008e84d2cb01"
+  },
+  "assets/card-designer/game-materials/08f19774e22e43754cdab584.png": {
+    "bytes": 15771,
+    "sha256": "023b8f0dcde5d274df5e6f8d1357a81c7b13eb251336a88d27146982acb528fa"
+  },
+  "assets/card-designer/game-materials/0ae53ec8d65892f4f9fd1ab8.png": {
+    "bytes": 28593,
+    "sha256": "4e9106690273dc1f2fb10da77cd08bc1dd5ea6d37ff16767f798682c6a991439"
+  },
+  "assets/card-designer/game-materials/0f6bac5f2960f54945eae595.png": {
+    "bytes": 17162,
+    "sha256": "37a1e6bbbc9f5dfba841678391cbf7b1237943a18f353bb386035d7af7b168d8"
+  },
+  "assets/card-designer/game-materials/1189a18d4f38ce8429e7169e.png": {
+    "bytes": 66905,
+    "sha256": "93a3dd7d601935b8b215696255fab1e6d828ac608656dfac3395e215d38395bc"
+  },
+  "assets/card-designer/game-materials/12da7d36f8e9f50227389a24.png": {
+    "bytes": 13999,
+    "sha256": "21b7bcfca4e35c75e62414680b34dd52bd572dfc7f1871967f316022c1d23986"
+  },
+  "assets/card-designer/game-materials/16d0af81fea6fb3f30f3d965.png": {
+    "bytes": 24033,
+    "sha256": "756d86549ce33a584bacb6b4e1a0bbf5c55ade44c96cd4b365a35183b13f2a03"
+  },
+  "assets/card-designer/game-materials/1d7e1340889a93bdb0996c33.png": {
+    "bytes": 24518,
+    "sha256": "5bc3f8aee3def3a91ac60da0d8aeba55714c39075c36868bde3d17c80fa9d747"
+  },
+  "assets/card-designer/game-materials/20eb3dce0a9a638e945b5e36.png": {
+    "bytes": 12581,
+    "sha256": "7591e356af26e5eb22271c11ca7c0247cc5b2df89ef5812d3c4e0264230359bc"
+  },
+  "assets/card-designer/game-materials/2434a81d9651a41182ac7f94.png": {
+    "bytes": 12461,
+    "sha256": "cfc180bf7cee7bdde44026f0b0b9a7f221253c499c470b4042e1bf5d0366080b"
+  },
+  "assets/card-designer/game-materials/25573d3f75ee594a4d0f0335.png": {
+    "bytes": 18385,
+    "sha256": "65a02e1263e7b07c298532ca6b42898477d6485d83d120cc54be819980338634"
+  },
+  "assets/card-designer/game-materials/2ca5bfffd67fc2725e38ee1b.png": {
+    "bytes": 20067,
+    "sha256": "c195e7db672b2b25a032199ce0cb164ace1a58e357fbffdedfd43cb98040cc48"
+  },
+  "assets/card-designer/game-materials/2d902b9e7b199c1dba30a853.png": {
+    "bytes": 18407,
+    "sha256": "47aab51f3d877e40bab53ea8b44ac7c88747538af10d68a5431e780f8054dcb3"
+  },
+  "assets/card-designer/game-materials/3b1c5f23ca993748e13371cd.png": {
+    "bytes": 21367,
+    "sha256": "031189d36ca327d67fa1e1dcb7ea93ae4c4019967758323dd8990723dcd2c29a"
+  },
+  "assets/card-designer/game-materials/444db2ff4c7a23988347995c.png": {
+    "bytes": 16681,
+    "sha256": "09e463bc3a0002b3cdd8d512ef8886fffc8ccb2c402409e8c53798102fec4607"
+  },
+  "assets/card-designer/game-materials/47e4395a58454ad2ffb7121e.png": {
+    "bytes": 53941,
+    "sha256": "0849aa74e579c7e297796752528b61880295dc7edcbfeccd29d0b79585c5fe18"
+  },
+  "assets/card-designer/game-materials/480d15a7d3ac9e2304f74451.png": {
+    "bytes": 22600,
+    "sha256": "e74b53bf10068dff2c96eb5fb30a93521a2ed90962e5be83d3bfbf2317eb3878"
+  },
+  "assets/card-designer/game-materials/4922f41a2ea56c9443b5c552.png": {
+    "bytes": 15728,
+    "sha256": "6572078078bcbe275e27f91cd56f3eb267c3eb19b2e2dc3ed0170394d67c3f46"
+  },
+  "assets/card-designer/game-materials/49fc7cb439f234518d82c6ac.png": {
+    "bytes": 14494,
+    "sha256": "612be8bac79c020a02fde363e0f97b0d25c9f9157e899a6949113b534e0d6457"
+  },
+  "assets/card-designer/game-materials/4ad8ac50d1e25053d250cd10.png": {
+    "bytes": 21049,
+    "sha256": "a3b969a14242973014d508b1d2c0cf192ef7c46468e14e4c3e34c747ff839aaa"
+  },
+  "assets/card-designer/game-materials/4b71586d1650c0e50c85beb7.png": {
+    "bytes": 14409,
+    "sha256": "fb3558d8bbc5254d08a31d92b5a021fa53f723f8b612183102a589aa5d21e92a"
+  },
+  "assets/card-designer/game-materials/4e95e986e894afc1de2ca7ef.png": {
+    "bytes": 15095,
+    "sha256": "b0b65cc3fd12719abf35898b80e3334c3bd3703b16a7c356e818a61583cac126"
+  },
+  "assets/card-designer/game-materials/4ff25630f8dcfd35da586a9a.png": {
+    "bytes": 21543,
+    "sha256": "d34b4a90a14c755402377d6ae11a385e41ce0643ee0d10e51f44e30f785a5758"
+  },
+  "assets/card-designer/game-materials/50727f53df04372f856c535a.png": {
+    "bytes": 22646,
+    "sha256": "44ae76cafb57ac58ef469e3114a350e39e14d19964d08db24d97ba9ad5dcd999"
+  },
+  "assets/card-designer/game-materials/51593ef4cf1bf3bbb0ad763a.png": {
+    "bytes": 12186,
+    "sha256": "7cb515950e5d62ab6092725633ceea16f3307ae7041fe6cd8a749ee81c78d510"
+  },
+  "assets/card-designer/game-materials/52aefade4c80325c198a87fc.png": {
+    "bytes": 13097,
+    "sha256": "1968edaec1953a2adf6b3e8781a4906d4aa15288f3d8fb43416bfd8c6264c214"
+  },
+  "assets/card-designer/game-materials/54bbe1ebc960c5efebc00a48.png": {
+    "bytes": 13725,
+    "sha256": "9cb91479296d760d1020cef4f6b1c7f868e8296895c67cdf8fbd795a20036e9a"
+  },
+  "assets/card-designer/game-materials/58fa7f45846fed5d524ff3e9.png": {
+    "bytes": 14421,
+    "sha256": "88d282dbe10f0a2661e04623e2fd2d17d7372aa9b23d87a115e3c14a6f35d6db"
+  },
+  "assets/card-designer/game-materials/5954317b27dd7465315b50f7.png": {
+    "bytes": 23769,
+    "sha256": "957a805eff334f77c678ba391bc7ef8e8c112120da31fc1177283f839e1d6f5d"
+  },
+  "assets/card-designer/game-materials/5de5e049eb360261c95b9316.png": {
+    "bytes": 22550,
+    "sha256": "88f9b3fb2883d39b133a92a04aec89f372cafbb95a347144de684e0e9cee1870"
+  },
+  "assets/card-designer/game-materials/5f7a08626fdf4c59a6c999bf.png": {
+    "bytes": 12494,
+    "sha256": "81f372a892cdfc949fe79237d355c91602e879116d6ef82963e7e1ada16a64e9"
+  },
+  "assets/card-designer/game-materials/5f8741115838334611dea430.png": {
+    "bytes": 23418,
+    "sha256": "dae8a275839c291cff2e35915c2ec1349f320a0ebbbaf325de1eed2f758dfb48"
+  },
+  "assets/card-designer/game-materials/613604d6f0ead984e1be255a.png": {
+    "bytes": 17106,
+    "sha256": "8961c4f73cbb08e34e4ef6bccb7e08dcc7e9865674b505bcfea867320071b6ce"
+  },
+  "assets/card-designer/game-materials/61b9c115e79989d3aef75cd9.png": {
+    "bytes": 22212,
+    "sha256": "0f7a760715c85817f9b60c04c808ee4d27d8fd6f66d2665e05646d6520fe569a"
+  },
+  "assets/card-designer/game-materials/630c09b4be8a8d0c784f1c0e.png": {
+    "bytes": 14574,
+    "sha256": "499636bfbb9ab481c9b302da0942efb9da72a1f3573e141ad4bdb4e0991d6f31"
+  },
+  "assets/card-designer/game-materials/65d515f8f89d7e66385b008a.png": {
+    "bytes": 13834,
+    "sha256": "6be05dc23854155c0f4bd65d2df24f392f2b6fee60d79cfdfe380241717f6e19"
+  },
+  "assets/card-designer/game-materials/668c534f28fb48d7f7bb980e.png": {
+    "bytes": 50505,
+    "sha256": "9a57fa30ec460111520f0c99215c358972ed610b55b5d6ca57f8d2dc24d27bc2"
+  },
+  "assets/card-designer/game-materials/6c7e92a23d0959778e4f6f06.png": {
+    "bytes": 10726,
+    "sha256": "0b154f184857de95cd60660c6163b9aa70a60448cd367aa6dac3ace74360205c"
+  },
+  "assets/card-designer/game-materials/6c8f553046f7b6ce7b06537f.png": {
+    "bytes": 16029,
+    "sha256": "ce578b9a0d62af72b494e738345a0f6b76c5a7f2833792b808aad501cc744638"
+  },
+  "assets/card-designer/game-materials/760d34fba3afb8dc869375fe.png": {
+    "bytes": 15533,
+    "sha256": "a81c359458e1f2823a06cf33abf6bc6110ca2c2a78051a399861131dce0fd6e1"
+  },
+  "assets/card-designer/game-materials/76a30ea8b376acc446080c69.png": {
+    "bytes": 16637,
+    "sha256": "f793fe52a67ecc7953aaded8e80584eaf0af7011b86c0c299443a26365b6b3f0"
+  },
+  "assets/card-designer/game-materials/818c93759d3951602be578aa.png": {
+    "bytes": 21117,
+    "sha256": "589cfe0bfcb42e50026d76878886106f15979fa8e4b5e51bc4bf789e49992e99"
+  },
+  "assets/card-designer/game-materials/81d097bd83d45c0ed2503c37.png": {
+    "bytes": 14485,
+    "sha256": "2a2618e87302f5111ea00e5ce7d75ce5cd8d28bf64b204c0058cc0884f74c52d"
+  },
+  "assets/card-designer/game-materials/8259d80f3c3db2cabda6e02d.png": {
+    "bytes": 14867,
+    "sha256": "019cff50650c74f6867b333e768a115e6e6f0a1e2a4513cac41c96c69c601676"
+  },
+  "assets/card-designer/game-materials/825d3f97b91a11e80164063a.png": {
+    "bytes": 15407,
+    "sha256": "bcb6a2076d47d37909db076a2a105cd29821930db55fc60ced560db0e60c4ea0"
+  },
+  "assets/card-designer/game-materials/829ab6e01c092a6b048d3922.png": {
+    "bytes": 15906,
+    "sha256": "1bad6493502b74210a94dce4ce8bc12e63ab7b0735c0cfc7445d4909f0a0cfe8"
+  },
+  "assets/card-designer/game-materials/84c8996ff7617a06d5d99b12.png": {
+    "bytes": 16043,
+    "sha256": "7b4dad7b0eda535a99d7928acdda3c4474ab9f552ed81be806fdef5846c2f583"
+  },
+  "assets/card-designer/game-materials/889245ea53bb26a0c22622af.png": {
+    "bytes": 16365,
+    "sha256": "06d2eaadfce99c0ebf10c72fe8ff6ca2b8230f2315e0417bdc50512c53ef46de"
+  },
+  "assets/card-designer/game-materials/8c6870c108fa4bad180fd9a8.png": {
+    "bytes": 15481,
+    "sha256": "236d81e1588ceb2f7aa2b1e751ded749ec0419854821412fbe82052e20a47d84"
+  },
+  "assets/card-designer/game-materials/8dc08a1e567abac7e66960e9.png": {
+    "bytes": 22335,
+    "sha256": "74a86226c0de2129e8856d3ef1d0e9d7d60bc59a80d58645ffab0b6f9fe3a962"
+  },
+  "assets/card-designer/game-materials/904b2ded8fffabf6fcc406d4.png": {
+    "bytes": 19037,
+    "sha256": "f0e8e124f26a8fae8c8ecbe7eea70b61d1b121b391fd62df24ca67d9f40d35ed"
+  },
+  "assets/card-designer/game-materials/945938490aa848496fd26950.png": {
+    "bytes": 25315,
+    "sha256": "cf2fbe29a3e1cc5912e552f95e8f5afef5ba1e10157bf343a8485ef368acf137"
+  },
+  "assets/card-designer/game-materials/94f31868a516fb4ec4b37c01.png": {
+    "bytes": 19003,
+    "sha256": "d45262e92484b6bfe501b76b7dde850af96e2c485ca55086ad85c4c5e6ad8fa7"
+  },
+  "assets/card-designer/game-materials/96569e86feb4ef6b0f659683.png": {
+    "bytes": 22571,
+    "sha256": "0f8e6eef35f9ac9c80b830c31c0c412855cb9ad6cca7beeb137e77c651fe3b43"
+  },
+  "assets/card-designer/game-materials/9abcad26c6ec90c9970cdd89.png": {
+    "bytes": 14505,
+    "sha256": "e55bdad7af090ba888689db7c87e59e439746c2351caf372ed5106703d255a55"
+  },
+  "assets/card-designer/game-materials/9b2684d204ec9237ac3930e3.png": {
+    "bytes": 18177,
+    "sha256": "14f4d6f7d96cf864b707dcaf754aa30033734dfbe0d1de474d44f5ba16fa5a06"
+  },
+  "assets/card-designer/game-materials/9c777408fdb46fc0f516a7ec.png": {
+    "bytes": 19146,
+    "sha256": "437b2e810e4a30f7cf34452379f9cf890d67618eafbe0e1a46210fcc69128968"
+  },
+  "assets/card-designer/game-materials/9d41d9fa1b7444dc9f09f4a3.png": {
+    "bytes": 18489,
+    "sha256": "e0546875d1abb6229c2bec4f83dc5f873c974dcdec0f12e93e5fb6bf990f5025"
+  },
+  "assets/card-designer/game-materials/9f83c42055759a5625e23469.png": {
+    "bytes": 19282,
+    "sha256": "fee77a687e53b68494888037492a4372a206504ac89fa910e49eb1d1ef73f0a0"
+  },
+  "assets/card-designer/game-materials/9f9db7a4e1f9ca639d19c98d.png": {
+    "bytes": 12742,
+    "sha256": "bd6aab16bca7a3194ab0b2115d224eea8e154a65acd5c47f461b1578cb5851cf"
+  },
+  "assets/card-designer/game-materials/a104b4ae91167a556c0d5dcb.png": {
+    "bytes": 12943,
+    "sha256": "7f2c51106255c8e8e478d534a7d1979c63bb8a7548e861d8abff90af678bf87b"
+  },
+  "assets/card-designer/game-materials/a357bba8bb0a78708d59e691.png": {
+    "bytes": 23885,
+    "sha256": "6e600a614147b5e2b36038ad4c0f5efb97cccd3f8aa76ce41cf4e45c9f0b8e3f"
+  },
+  "assets/card-designer/game-materials/a53443fd18f3be6f2db9a21f.png": {
+    "bytes": 24641,
+    "sha256": "b5b93e70cd7665d2c1052733de65ab011b7b6bcf6ebd268c5cca75c0819ecc4c"
+  },
+  "assets/card-designer/game-materials/a6de12730689a170b685a0e2.png": {
+    "bytes": 16391,
+    "sha256": "b3fca9dbd52f3ac4803be1b847884e9b050d1b246d66a2979ed336d08fda8594"
+  },
+  "assets/card-designer/game-materials/a861031611e279bf33a5a712.png": {
+    "bytes": 19126,
+    "sha256": "98bdea81aec39b05edb77bb3157a956a64fc40c66a220c4e3bfd0069e19d500f"
+  },
+  "assets/card-designer/game-materials/ad59f2936d19f6f18e12398e.png": {
+    "bytes": 21571,
+    "sha256": "9459b106bafd6351c36f6268c6b2ff220bb0cef6998e021f98927bd936ac58b6"
+  },
+  "assets/card-designer/game-materials/aed3540c9b7315158eef5e0b.png": {
+    "bytes": 14474,
+    "sha256": "7efc6755a1e939162bf42af2bc98344ff185900b92dc8b2132d67b6ced78b324"
+  },
+  "assets/card-designer/game-materials/b2e82c5410a7c54d7219d8d6.png": {
+    "bytes": 25161,
+    "sha256": "0a6c45e416123b8013a037479f700b693d0b5bc1463b475d28957a28218fdfd6"
+  },
+  "assets/card-designer/game-materials/b42602a4a2628c1757d7657b.png": {
+    "bytes": 20953,
+    "sha256": "0e9afcd3ac651abc2e2e05a6a163d83390d4ccd020dd8def6f5b1b2bfb74b499"
+  },
+  "assets/card-designer/game-materials/b8fba1463988d3eb85d5bc1b.png": {
+    "bytes": 19753,
+    "sha256": "b47d2bffe99bb0754acf3391c819b6575b5b5d71b9481d144a2fd73a38504252"
+  },
+  "assets/card-designer/game-materials/bf8d0c3a8b169560fb6b3014.png": {
+    "bytes": 22301,
+    "sha256": "25fc8e8e5d09b39875e3f48edf49636d6d963e169fb93f5e6e8e5d5234461b50"
+  },
+  "assets/card-designer/game-materials/c40b914381cd6853d6ba6495.png": {
+    "bytes": 47290,
+    "sha256": "b2576f90faeb54759e128c49e85746448a15433a3cc9ebe16c555fdc91e099e6"
+  },
+  "assets/card-designer/game-materials/c91be9ab9d9848d18c4751bf.png": {
+    "bytes": 17573,
+    "sha256": "90b42208442b969bce34d2a4d3e2e8e89b596d4ac6f666870bb6d36169b03a2e"
+  },
+  "assets/card-designer/game-materials/c96d25bea05108b0be68af16.png": {
+    "bytes": 27755,
+    "sha256": "af3cdd7b4736a5b108343b1086e635e8be8d30b089e71d7a3a57aa04ef2390a7"
+  },
+  "assets/card-designer/game-materials/cbcc4f23920d69364a5ec39d.png": {
+    "bytes": 11391,
+    "sha256": "d63c5d4b41911ee35e35ea730607e6c63fa1222cd7b479e70840b47689bbd7af"
+  },
+  "assets/card-designer/game-materials/cdfd8de73dac748506ec0a6d.png": {
+    "bytes": 15050,
+    "sha256": "60a9ae19a488b2bd36a0930e08b588cb0804285363c09c5dd086b907443fc297"
+  },
+  "assets/card-designer/game-materials/ce1b9b33e648ad375c2dad05.png": {
+    "bytes": 14362,
+    "sha256": "88a160b4841ec7d8ee609aa305956340e87a9251697ca1ab7986ba292d952038"
+  },
+  "assets/card-designer/game-materials/cf532f54a6c0a49ad159b6a6.png": {
+    "bytes": 20730,
+    "sha256": "c61ca665303f4d2c10a7d9c505ff80b74d24ad205aede19a959be1b7c3e9450f"
+  },
+  "assets/card-designer/game-materials/d184ec26ed959fa3762994a9.png": {
+    "bytes": 21864,
+    "sha256": "5ae5240f1f7c2ce6f77aa40d32b17921d21f81e76968ca179d2f3885bbed48ce"
+  },
+  "assets/card-designer/game-materials/d230b12c226910cb156d976b.png": {
+    "bytes": 17512,
+    "sha256": "7c3fb64705c079937cf7f62f6405acb0c839507cc69400aaf37a0a555ce1d720"
+  },
+  "assets/card-designer/game-materials/d37097fe4f1f589ed4b8b7f1.png": {
+    "bytes": 10887,
+    "sha256": "6a15eebd19a612c69a1041c52247593a373140db1edad71940a6c8612a7545b2"
+  },
+  "assets/card-designer/game-materials/db4373f7ea5f261e46f9e4ec.png": {
+    "bytes": 15026,
+    "sha256": "562b9aebe58a136f217c9bba050562b5232115fde5ac76397dadf51528ff7de8"
+  },
+  "assets/card-designer/game-materials/dfb0308f16d8c190d81b477b.png": {
+    "bytes": 14847,
+    "sha256": "36d412348d272e6a3c8556e01d17417997562bc54903f510bd1432c415fbd2e1"
+  },
+  "assets/card-designer/game-materials/e031cb8839eb6db49415688e.png": {
+    "bytes": 18992,
+    "sha256": "62c5e153fa7061708c53cacf14f8830d30bc9ca65c9de854015c64aeee5b7b6a"
+  },
+  "assets/card-designer/game-materials/e0887c356ef0cdf7b53565ab.png": {
+    "bytes": 23090,
+    "sha256": "773a05213350b637e6b3124da3310bdd676a882750add80f12891c5a73eb9b09"
+  },
+  "assets/card-designer/game-materials/e0d9768bcc72b84929036528.png": {
+    "bytes": 14616,
+    "sha256": "8eb0e8f5bdd193e28cab5216c4fcd49d1ab4f942f337f1e2c5301733680ab6b3"
+  },
+  "assets/card-designer/game-materials/e363ff3fffd0b413bd0d6e21.png": {
+    "bytes": 13618,
+    "sha256": "016ab968442414b23c8297e5d3416f87332390b01a9a668ac39e07d7421f93da"
+  },
+  "assets/card-designer/game-materials/e4db30a039f17a2d378c2f24.png": {
+    "bytes": 18688,
+    "sha256": "9f86a86f0f146f1cd8be4aeb62acb907ad28a28e1bcea30ae7513115b2b548c7"
+  },
+  "assets/card-designer/game-materials/e6aed53cc0e0713d4e1a551e.png": {
+    "bytes": 18193,
+    "sha256": "56398b0df5da7b575d91c92105fd2419332c37bcf64b581a445fc5143da7b991"
+  },
+  "assets/card-designer/game-materials/e7158528a9c418d43fd65fc6.png": {
+    "bytes": 21275,
+    "sha256": "14017bcb5a2af18202a7d59a1df3fc1c119cc34f77fb5a56b02c365d9a276357"
+  },
+  "assets/card-designer/game-materials/ea006ed4061ec51686db9fee.png": {
+    "bytes": 13260,
+    "sha256": "da1c0babc1686a35944b391332680897ceb620e753d51550e7c92175ced4b66d"
+  },
+  "assets/card-designer/game-materials/ecae58354cf72b59f7116d3f.png": {
+    "bytes": 21149,
+    "sha256": "b473495c9cc52cdc09b1285f6982071f4a57e9f409b2d0ac85297f04d344e253"
+  },
+  "assets/card-designer/game-materials/ed2d3ec58a0c1bcb1e60cea2.png": {
+    "bytes": 14961,
+    "sha256": "68de45fc71745af09d2c1da8993b052334588be305c35ef0fda5a32e6e49a402"
+  },
+  "assets/card-designer/game-materials/f05d4254a7557bc63327ff63.png": {
+    "bytes": 21864,
+    "sha256": "5d375f27ca14c34e47b5c63b694d5de7c65ba75908435a2be885d3dbb6a43d6e"
+  },
+  "assets/card-designer/game-materials/f370efd65bf59375d7dcb39b.png": {
+    "bytes": 14563,
+    "sha256": "0473bb097e0f84cf3fe8343b2f5ead2cc7e7dfb8b3bd18796cefa434df6274bf"
+  },
+  "assets/card-designer/game-materials/f5124613fe1a7f696d4f4886.png": {
+    "bytes": 12174,
+    "sha256": "25687977af30c319b8ae3e5f3fe67e0a5bec675eda8a2fce695dd8bc83a1b067"
+  },
+  "assets/card-designer/game-materials/fa025aaffec8e7fbd13dbb9b.png": {
+    "bytes": 17637,
+    "sha256": "51552a982f123bfd28db9bd3f28eeae4ee33194b75814f1ecf881262d66adb43"
+  },
+  "assets/card-designer/game-materials.json": {
+    "bytes": 53631,
+    "sha256": "4c6c62ce6b9eb7f5a7fb6e227b0a6bcf6320726df92a4fa00a4faa21b6b7cb45"
+  },
+  "assets/card-designer/index.html": {
+    "bytes": 238224,
+    "sha256": "567af53e593f717b47cdc12f1719f2972bf0b7d756c9bd7b3760547530decafc"
+  },
+  "assets/card-designer/mobile-bridge.js": {
+    "bytes": 2466,
+    "sha256": "0167f5dd452328ab8c3ab04ea3e3b15c4e3c31263a55a42da990711d50c8d2ac"
+  },
+  "assets/card-designer/mobile-ui.js": {
+    "bytes": 9899,
+    "sha256": "96f4742ecf9b4a0af564fc63b2fcac5da9fecfa67636952eb31493de35729265"
+  },
+  "assets/card-designer/mobile-workspace.css": {
+    "bytes": 8802,
+    "sha256": "16e312bdebf2cfe39f1a05df8b1daefe7ead61d92dbe02d3ebf50e7492df60f4"
+  },
+  "assets/card-designer/model-portrait.js": {
+    "bytes": 3203,
+    "sha256": "98ece98bf8845588298373f7a5a1cb212f581edfa001092ed838a1de89822899"
+  },
+  "assets/card-designer/phone-layout.css": {
+    "bytes": 9819,
+    "sha256": "dd165e6f51e7b393c6ff0c737b3642e0d963c9198df3ad2a3aad4ff45fb06eb7"
+  },
+  "assets/card-designer/player-generation.js": {
+    "bytes": 18377,
+    "sha256": "8b8dd0434a033840d58a423c4bec97800b064591f2ff4928b8bd1840ca334717"
+  },
+  "assets/card-designer/portrait-ui712.html": {
+    "bytes": 10994,
+    "sha256": "c76c25c74f50ac5f4619ee7b4a7d7643b449cd86d1c831e8aa7159251958ff26"
+  },
+  "assets/card-designer/profile-catalog.json": {
+    "bytes": 79103,
+    "sha256": "1295d8dd1b5b613507bae72609d54a92c0164c189832c8ceaae11db0b7e9c58f"
+  },
+  "assets/card-designer/profile-fields.js": {
+    "bytes": 5974,
+    "sha256": "7adacf686b17ba77d8059f2a4d7f1950768d1e77323fd41789463cf7bbecd368"
+  },
+  "assets/card-designer/reference-materials.js": {
+    "bytes": 4799,
+    "sha256": "62905f48b0f94905b54285c25e40528619a0d95d3768951c0f2e5d8defffcc16"
+  },
+  "assets/card-designer/ui-locales.js": {
+    "bytes": 112,
+    "sha256": "2a216602bf35dbf9cf4fd488b9cd49d7a6b7645fab0ca733df7869ed57d56024"
+  },
+  "assets/card-designer/ui-localization.js": {
+    "bytes": 2146,
+    "sha256": "62d69bfbb5b418438e308bfaecf3b2868284961e1dfbdabaec906e9d4efee125"
+  },
+  "assets/card-designer/visual-catalog.json": {
+    "bytes": 165616,
+    "sha256": "5215d13f24927b76eb7d6ecd7d8db4ee9f576849bf0adfb16c4dd179f59956b5"
+  },
+  "assets/card-designer/visual-pickers.css": {
+    "bytes": 4293,
+    "sha256": "4a3d9d0b39cdf52f9c85cd7e9337c80e9eda04d39d788a48ad726dd00792bdb9"
+  },
+  "assets/card-designer/visual-pickers.js": {
+    "bytes": 14199,
+    "sha256": "72c31bbef7d1e33eefdc799844c45fe877a71185b0c66816a4ded74ac336800e"
+  },
+  "assets/card-designer/work-archive.js": {
+    "bytes": 7917,
+    "sha256": "50c8c65b9e3481fbb0e2ec4f915c110a5b09059c9644be63fe16958c6fe0e53a"
+  },
+  "assets/card-designer/work-exchange.js": {
+    "bytes": 14343,
+    "sha256": "ff8578a9b3a6a6415c4b15197581cad5a7eaae1b8616277ea6985cc6b5afdbd4"
+  },
+  "assets/chaquopy/app.imy": {
+    "bytes": 5577649,
+    "sha256": "168517497e29bb378c7586893af04258695a280162c68bc69533307eeef8b559"
+  },
+  "assets/editor-english.json": {
+    "bytes": 141112,
+    "sha256": "0bb75da99cd99213529f32d355fac63fa34cdcde01021d082edb6500024ab8f7"
+  },
+  "assets/gateway-release/custom-resources/legends-v10/dt870_mobile_and.cpk": {
+    "bytes": 7682048,
+    "sha256": "2478859b8ec4d4f19c1da984fdc4d948397fff3c14ed0848d5945b45edb0a317"
+  },
+  "assets/gateway-release/livedata/dt870_mobile_and.cpk": {
+    "bytes": 7682048,
+    "sha256": "2478859b8ec4d4f19c1da984fdc4d948397fff3c14ed0848d5945b45edb0a317"
+  },
+  "assets/gateway-release/livedata/dt870_ui74_mobile_and.cpk": {
+    "bytes": 7682048,
+    "sha256": "2478859b8ec4d4f19c1da984fdc4d948397fff3c14ed0848d5945b45edb0a317"
+  },
+  "assets/gateway-release/livedata/pc9298_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9298_mobile_and.ucas": {
+    "bytes": 93519091,
+    "sha256": "97cfdbfcfc23d6318b33293bc6c56ef391392f141233d9894f54253799226b53"
+  },
+  "assets/gateway-release/livedata/pc9298_mobile_and.utoc": {
+    "bytes": 111634,
+    "sha256": "8cfdf5027111c09127843dcca640ea1e06402ddc38d93f679c44c6f775db2b50"
+  },
+  "assets/gateway-release/livedata/pc9300_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9300_mobile_and.ucas": {
+    "bytes": 225533,
+    "sha256": "f93dfc6805f74187c2e311fbb09f266db98e3b9d34800704b2e5cd00077e7d30"
+  },
+  "assets/gateway-release/livedata/pc9300_mobile_and.utoc": {
+    "bytes": 5411,
+    "sha256": "52fd93c6771637f7648b91ba5e96d343939fee36d824fe0dc40263f1f434563f"
+  },
+  "assets/gateway-release/livedata/pc9302_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9302_mobile_and.ucas": {
+    "bytes": 1080001,
+    "sha256": "0f3ab5ece3f286f06e91442e16cc95b1b1c6cf1f04a326b61fc40845f36e96b1"
+  },
+  "assets/gateway-release/livedata/pc9302_mobile_and.utoc": {
+    "bytes": 3781,
+    "sha256": "d6b472dc36ae1d4d0ff1fd477e60228b0e9d9780ae003a2045a6663312a8bad3"
+  },
+  "assets/gateway-release/livedata/pc9303_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9303_mobile_and.ucas": {
+    "bytes": 2907915,
+    "sha256": "beed533b232a79d6ea44dc71352a9877cb44e919fb5d515f1579d91b29bbf790"
+  },
+  "assets/gateway-release/livedata/pc9303_mobile_and.utoc": {
+    "bytes": 21905,
+    "sha256": "8e45df3f659ccf56832fa8810f64c136d012c116588b82d2e6fd77c44ffba672"
+  },
+  "assets/gateway-release/livedata/pc9305_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9305_mobile_and.ucas": {
+    "bytes": 17282391,
+    "sha256": "0c3d6b6d3c5e2010c9f293423e4e8c0962e9061d9c8b97e3fb8e2e11abfdc9cf"
+  },
+  "assets/gateway-release/livedata/pc9305_mobile_and.utoc": {
+    "bytes": 12645,
+    "sha256": "12f5774ceb2b1f5dad0c6f473941ac3d15d2a4317dc2a2881e216d8fe89f8807"
+  },
+  "assets/gateway-release/livedata/pc9306_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9306_mobile_and.ucas": {
+    "bytes": 805390,
+    "sha256": "ef9c3ced1f336d140304df131106048cd6a731fb045dab54361bf23be4eff5a7"
+  },
+  "assets/gateway-release/livedata/pc9306_mobile_and.utoc": {
+    "bytes": 6464,
+    "sha256": "1558343f607f54026c66d6a51c7198c463aad29f63da847dcab58593bb053c82"
+  },
+  "assets/gateway-release/livedata/pc9307_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9307_mobile_and.ucas": {
+    "bytes": 19679617,
+    "sha256": "2b54a58810b12cd4a3b685b90982941c7c865df5424b1e637935f3ad29c4ca8f"
+  },
+  "assets/gateway-release/livedata/pc9307_mobile_and.utoc": {
+    "bytes": 12981,
+    "sha256": "27e1bf1a22629e9ae1e53602b0da4b8b3e35674d666372e21a4ba78758c862d9"
+  },
+  "assets/gateway-release/livedata/pc9310_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9310_mobile_and.ucas": {
+    "bytes": 38553522,
+    "sha256": "402520b0933da33778388ce1d09300207da5407dd2adecbb176f7cb08123e771"
+  },
+  "assets/gateway-release/livedata/pc9310_mobile_and.utoc": {
+    "bytes": 45465,
+    "sha256": "1f372135d32489fd20ba1990069d9caf4382b57161e5f264dc7194ba3e9496d2"
+  },
+  "assets/gateway-release/livedata/pc9312_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "14dc44284850c4660e628949f8e3a53d998c5ab96e5b913a4318fddb4e6f4b76"
+  },
+  "assets/gateway-release/livedata/pc9312_mobile_and.ucas": {
+    "bytes": 14558166,
+    "sha256": "3bc590cb8eedb6fa8fdcb66483d0510c8a54ef511d2a9ecb1a269fb866a67ce2"
+  },
+  "assets/gateway-release/livedata/pc9312_mobile_and.utoc": {
+    "bytes": 17768,
+    "sha256": "d97e1625959887c1945e099dc8cec45348dac08b2c68879dddc4302ac67a5108"
+  },
+  "assets/gateway-release/livedata/pc9313_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9313_mobile_and.ucas": {
+    "bytes": 36213865,
+    "sha256": "c6740909d967691e15e2bf76fbf57bdf001d6be8ea8c671c607f14d4a8d203c1"
+  },
+  "assets/gateway-release/livedata/pc9313_mobile_and.utoc": {
+    "bytes": 25453,
+    "sha256": "640f100c8ef20170e604fcb575cc860b9867a16058b5fe580b9ad8ccaa3dff6c"
+  },
+  "assets/gateway-release/livedata/pc9314_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0af10d43ce7ee7d7b394f7b5f83b49210de4edfed558d932afb8950e1af6bec7"
+  },
+  "assets/gateway-release/livedata/pc9314_mobile_and.ucas": {
+    "bytes": 58100562,
+    "sha256": "929247dedd51b553284f37f2083b0559c7f9d5ba578122743943fe226392a5a8"
+  },
+  "assets/gateway-release/livedata/pc9314_mobile_and.utoc": {
+    "bytes": 42345,
+    "sha256": "035da7b7826940093cf05f4ea08417a5cdc9e6e05c849adc1808f108032b5952"
+  },
+  "assets/gateway-release/livedata/pc9315_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9315_mobile_and.ucas": {
+    "bytes": 44214111,
+    "sha256": "4b6bc1b5294e4eed1ee46a0ab41885e48560c3f6417018e09f278db6e09a679e"
+  },
+  "assets/gateway-release/livedata/pc9315_mobile_and.utoc": {
+    "bytes": 37713,
+    "sha256": "255c5eec579e58216a9e8259602d7bf4091f875f0a0f03008caba6129e8a7ff4"
+  },
+  "assets/gateway-release/livedata/pc9316_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "52d1e771c6ef68d73142264bab83a2bdcd28671661ba73278b023d8d034a6f95"
+  },
+  "assets/gateway-release/livedata/pc9316_mobile_and.ucas": {
+    "bytes": 9061770,
+    "sha256": "002faed54f693f9a52b862f04c5a3a7ba727ec56d707381cab5b3090570c5ffe"
+  },
+  "assets/gateway-release/livedata/pc9316_mobile_and.utoc": {
+    "bytes": 11427,
+    "sha256": "10a3bcf6718fb64fac2c292576879be39c38ccfc79ac3d704b895bb1983dc2a2"
+  },
+  "assets/gateway-release/livedata/pc9317_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+  },
+  "assets/gateway-release/livedata/pc9317_mobile_and.ucas": {
+    "bytes": 10185979,
+    "sha256": "b61a30db36ed1ba9d77911c42fb5d1318eb1bed269c6b4b4b23b0fd9c8b3de30"
+  },
+  "assets/gateway-release/livedata/pc9317_mobile_and.utoc": {
+    "bytes": 11974,
+    "sha256": "aaaa5b01783b2fa56dbc636b8851a4342d3cc9548e71e7f5a96bbfc131b22aa2"
+  },
+  "assets/gateway-release/livedata/pc9320_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "98883473f259396f6b115f31e71bffe38dd544cdc8ff2dd7c7dc645bdc5d849c"
+  },
+  "assets/gateway-release/livedata/pc9320_mobile_and.ucas": {
+    "bytes": 18448349,
+    "sha256": "baf47fc2ca875d192c9aec36a1a3343355d686b9c11cf1c5fb7e7539bc3611c2"
+  },
+  "assets/gateway-release/livedata/pc9320_mobile_and.utoc": {
+    "bytes": 14045,
+    "sha256": "437c7fd1ff557cdcd77222aede9c8bff69a20bd4b1aaec545ea4c6e287f2ec28"
+  },
+  "assets/gateway-release/livedata/pc9321_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "f0c47bd88b2553fda5906cf8474a56def80c36e3273282c9013cc02dcc93fd44"
+  },
+  "assets/gateway-release/livedata/pc9321_mobile_and.ucas": {
+    "bytes": 10853399,
+    "sha256": "ad78f550db70c1618448d7a8e29b64134b3e6e4b3fba1be1ccb8ec5404b8b6bf"
+  },
+  "assets/gateway-release/livedata/pc9321_mobile_and.utoc": {
+    "bytes": 12003,
+    "sha256": "1d0c5d166d1250dd94f17284a19e6eb1075ec39ba703c5518b65c0c194542eea"
+  },
+  "assets/gateway-release/livedata/pc9323_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "ae178691a1565f85b0bd8b3d78823c34fac05a3ad29b193e92735c806ff81dc9"
+  },
+  "assets/gateway-release/livedata/pc9323_mobile_and.ucas": {
+    "bytes": 2550321,
+    "sha256": "07ba5bab09af0bd82cadde0c295b93f6656b25619f8cc952fab7584f477ca294"
+  },
+  "assets/gateway-release/livedata/pc9323_mobile_and.utoc": {
+    "bytes": 5450,
+    "sha256": "aa803915a50b4d9a5756c3a481936a8e06adf6953f7c3ab9a6175d95971e0749"
+  },
+  "assets/gateway-release/livedata/pc9324_mobile_and.pak": {
+    "bytes": 365,
+    "sha256": "abbc7da0a706328bbe3ffcf304c81997c3983ed62909f9a78e74a3dc1c7ebdf2"
+  },
+  "assets/gateway-release/livedata/pc9324_mobile_and.ucas": {
+    "bytes": 2435570,
+    "sha256": "79b37a500245a626c40a072c1790d91f2a89cf928515683764355aad7b343057"
+  },
+  "assets/gateway-release/livedata/pc9324_mobile_and.utoc": {
+    "bytes": 4142,
+    "sha256": "371c59344aff7a989d93b7f4767803d2c37950a0ad2d247db8ac53f35feeed62"
+  },
+  "assets/gateway-release/release-manifest.json": {
+    "bytes": 1397207,
+    "sha256": "d2bbe355c9d749c529b20ec30e839c569d90d95a7bab440aadccf20bbc575234"
+  },
+  "assets/gateway-release/ui6-runtime-manifest.json": {
+    "bytes": 20940,
+    "sha256": "eba95cb1fe9d44c9ed922f8bbf1dad5a2cdbd031ec97ede9998ccb79ba3ddd53"
+  },
+  "assets/gateway-release/work/tools/__pycache__/hook_arena.cpython-312.pyc": {
+    "bytes": 20154,
+    "sha256": "d988d16f114e67dc58753fffdd022ccae5a3f946d076977a6d89a44803e9b511"
+  },
+  "assets/gateway-release/work/tools/__pycache__/photo_codec.cpython-312.pyc": {
+    "bytes": 29997,
+    "sha256": "0fcafca35933e89c03fdc3cb79fa1facd1cfbf05049a061ea7709468501acd03"
+  },
+  "assets/gateway-release/work/tools/__pycache__/v19_chain.cpython-312.pyc": {
+    "bytes": 2596,
+    "sha256": "9f8cdff8580e9e223fed26e264c62e79da253eaf5cb28a62778cf5b0036a088a"
+  },
+  "assets/gateway-release/work/tools/appearance_choices.py": {
+    "bytes": 10038,
+    "sha256": "256af460b72e37d552234bd972897c3ce4f8336b5a1f23ba5ba6b5807feee150"
+  },
+  "assets/gateway-release/work/tools/appearance_gear.py": {
+    "bytes": 6892,
+    "sha256": "50af84dadf34e3b0fd9ca5429cb83a99e1b2a94f63834ea5ceb1df38a8584cac"
+  },
+  "assets/gateway-release/work/tools/body_defaults.zlib": {
+    "bytes": 239094,
+    "sha256": "260e9132a34f28102601f25bf02ecc7578cc6b5bc230b71d44a0f622f2abecc5"
+  },
+  "assets/gateway-release/work/tools/body_dimensions.py": {
+    "bytes": 5253,
+    "sha256": "e44bff0ea78c2fc5472b582077f71c1d538ceb22bb7225d6cea71d0d759f57c8"
+  },
+  "assets/gateway-release/work/tools/bridge_73.py": {
+    "bytes": 3961,
+    "sha256": "c4832ef85d6f775c5db91a467597a6e85445e9a0933691b9b7986eff42789c87"
+  },
+  "assets/gateway-release/work/tools/bundled_editor_photos.json": {
+    "bytes": 384366,
+    "sha256": "18509600b51baf1d268515dd4408b45cabe5577ca45c860b3d878157c1566f83"
+  },
+  "assets/gateway-release/work/tools/card_rules.py": {
+    "bytes": 2502,
+    "sha256": "888399508b3db9b53fbb7be4aec69dc8016e958d2831d1f17396158b7b970a00"
+  },
+  "assets/gateway-release/work/tools/celebration_choices.json": {
+    "bytes": 76667,
+    "sha256": "0e5d8eeceb4172c54271cfc687639c61577c03b695858f3188ac881344e786a1"
+  },
+  "assets/gateway-release/work/tools/editor_fast.py": {
+    "bytes": 1405,
+    "sha256": "e7cb249572e4271450bb49f6000802604b06355357ebf21cdc9bac31a2bb9f54"
+  },
+  "assets/gateway-release/work/tools/editor_names.py": {
+    "bytes": 2057,
+    "sha256": "74849f728c2eea1d2c5cd8928893d01243c360152a1d8a720651ebd83ff9ef1e"
+  },
+  "assets/gateway-release/work/tools/extras_bundle.json": {
+    "bytes": 445,
+    "sha256": "e17a778b676128f3fa98fef5fb65bebfc063700e9450fe6977f267a515f316b6"
+  },
+  "assets/gateway-release/work/tools/extras_runtime.py": {
+    "bytes": 1781,
+    "sha256": "50616f7235700b2cbe5824839b7a804f5d1ba4e6443d270e6cdc0a3987a14273"
+  },
+  "assets/gateway-release/work/tools/formation_choices.json": {
+    "bytes": 17006,
+    "sha256": "4d78413a13729a2b23f8468010148225dbe41552f4bb68f2a1b23030b0338e70"
+  },
+  "assets/gateway-release/work/tools/full2-card-copies.json": {
+    "bytes": 16066,
+    "sha256": "2a8ded694bc46af000026e6e40d45e70dbd338c3e5ed77eeda2f1b69e3ef9172"
+  },
+  "assets/gateway-release/work/tools/full2_cards.py": {
+    "bytes": 6231,
+    "sha256": "4e275b0ebfacaf51ef4e74fcfa5931e7a5121db0a809d162e5234cfb69cf631b"
+  },
+  "assets/gateway-release/work/tools/hook_arena.py": {
+    "bytes": 9551,
+    "sha256": "138444333a5fc07b9b0798fde95c3806d645339423ab22848deddb0569429574"
+  },
+  "assets/gateway-release/work/tools/innate_skill_labels.json": {
+    "bytes": 1608,
+    "sha256": "37210205d333cf39bff7e3de0691ab4fad52f7b3c7756640f417ddd01067bed0"
+  },
+  "assets/gateway-release/work/tools/kits_bundle.json": {
+    "bytes": 590,
+    "sha256": "bcba5de07e655d2739d7d7c8db60cfeac33d7433d8fc7fac07878738f9ad08f3"
+  },
+  "assets/gateway-release/work/tools/kits_runtime.py": {
+    "bytes": 2358,
+    "sha256": "fa1da541aeaaf524181e8e0895c7fb6a24e3b429c0ecf98572a62f448747c909"
+  },
+  "assets/gateway-release/work/tools/level100.py": {
+    "bytes": 263,
+    "sha256": "d3f668e12cb17393438ee2cdb5b2cf8e7405c02767a3e5cbfe4d5894c13422c1"
+  },
+  "assets/gateway-release/work/tools/libnoodle_hair.so": {
+    "bytes": 174504,
+    "sha256": "5b046fcc6000fdbd512093c253fb133a42e8c0ad897ed421ee0b3aeb8091b154"
+  },
+  "assets/gateway-release/work/tools/libselect_team.so": {
+    "bytes": 369728,
+    "sha256": "cd2141c1deea518f26fd78bf2e1dc64b98e67c674ee337ccb2e7c6ef6e6861f1"
+  },
+  "assets/gateway-release/work/tools/live_snapshot.py": {
+    "bytes": 2443,
+    "sha256": "add7aa3a1540373b19de9319df9c905a2dc69946dfa1369754b01f084a189a5a"
+  },
+  "assets/gateway-release/work/tools/manager_bundle.json": {
+    "bytes": 446,
+    "sha256": "536a0b0fbb5a94a844d41cc6af38036a95960eedf2c2d21d56c97911befcd9f1"
+  },
+  "assets/gateway-release/work/tools/manager_runtime.py": {
+    "bytes": 1782,
+    "sha256": "aabf7bd833601eca32b9a2f29daad01f660ef1dcfeaaafa1790a23aca4816bd3"
+  },
+  "assets/gateway-release/work/tools/mod_integrity.py": {
+    "bytes": 1169,
+    "sha256": "2b27df9bf1ec8cd4f554a53d74ce32f5fc8a676626ee1b7d05ce4414d1e65dc3"
+  },
+  "assets/gateway-release/work/tools/mod_startup.py": {
+    "bytes": 2925,
+    "sha256": "26c604ffef732b28d93be63fdf1bba6e4f318a75d55994510107e1661ebb2d5a"
+  },
+  "assets/gateway-release/work/tools/motion_choices.json": {
+    "bytes": 570,
+    "sha256": "6847aeccd5d7fb7aa31c397670f3e552a2f49df8667ba1f0ec8da33a117e8b9f"
+  },
+  "assets/gateway-release/work/tools/motion_defaults.zlib": {
+    "bytes": 194091,
+    "sha256": "07c5c57d81724cedeb1e3884422160674e5b69a253823927e89b893ed13e1a68"
+  },
+  "assets/gateway-release/work/tools/motion_donors.json": {
+    "bytes": 2398765,
+    "sha256": "f856aceefa9158a15a0a0df5d472e11837732506a5e5cc5b0066aba070e98ae0"
+  },
+  "assets/gateway-release/work/tools/motion_editor.py": {
+    "bytes": 9011,
+    "sha256": "2ee5ff6444932e2a2fa076dc92fa128735dc8c718104e5844777412e11ab3b21"
+  },
+  "assets/gateway-release/work/tools/multi_cards.py": {
+    "bytes": 652,
+    "sha256": "06ea7d0bc8df24d9dea836e7c38a80ed53c29c8a42aac0c569e441701ab76358"
+  },
+  "assets/gateway-release/work/tools/myleague_73.py": {
+    "bytes": 14938,
+    "sha256": "f5a8a691e0f8cf1ee34fa41393b3175faed6f2b9bc97e5924643ac583859ef14"
+  },
+  "assets/gateway-release/work/tools/myleague_balance.py": {
+    "bytes": 3617,
+    "sha256": "7c85a63265bf460993d7c3f7c8edcb10849c88ffa857a00f3c516c401f9a5af3"
+  },
+  "assets/gateway-release/work/tools/myleague_base_rosters.json.gz": {
+    "bytes": 147706,
+    "sha256": "caa167558b3149593b914cfc896d664b8f50f83bf73d9b8c42b9ecf68aa81210"
+  },
+  "assets/gateway-release/work/tools/myleague_custom.json": {
+    "bytes": 585567,
+    "sha256": "77a013cc7d6aad9ff34c6f62c17aa7dbe685ac1f0fcc8bbd02deb7c104862e44"
+  },
+  "assets/gateway-release/work/tools/myleague_editor.json": {
+    "bytes": 1694,
+    "sha256": "4d20fd0c83a3cd3c9b1088f3f09afd36e6bd5c27bf7b86e426cdbde30dbfe809"
+  },
+  "assets/gateway-release/work/tools/myleague_editor_runtime.py": {
+    "bytes": 12494,
+    "sha256": "c6de0b5010f01dee40178f90be84566042446ee6126082cde33259e9b6af55af"
+  },
+  "assets/gateway-release/work/tools/myleague_packs.py": {
+    "bytes": 6628,
+    "sha256": "ae2ae1b8f20a5f000c53c7bf7b49161107097e36ce87ed5d53e428de89586f38"
+  },
+  "assets/gateway-release/work/tools/myleague_realism.py": {
+    "bytes": 36056,
+    "sha256": "ea51144f45871ab1b05673956131824fba1b6f43fa4ab0b24f18704d05eae964"
+  },
+  "assets/gateway-release/work/tools/myleague_team_snapshot.py": {
+    "bytes": 3536,
+    "sha256": "cf37a86069ca3b0d2c30729979c69a17127b2fa36e4f83bb636cc2c5a2aaf354"
+  },
+  "assets/gateway-release/work/tools/myleague_worlds.py": {
+    "bytes": 17332,
+    "sha256": "9dd9764a65a33833cbbfdc98c5c9d9be4a839b82c4357d2073d459c662c3ef8e"
+  },
+  "assets/gateway-release/work/tools/native_overall.py": {
+    "bytes": 3640,
+    "sha256": "98b3c9e7fe8fc6c94c8484ff7124727dc3c0221d0110d75020cd40d5319d0a62"
+  },
+  "assets/gateway-release/work/tools/native_skin_previews.json": {
+    "bytes": 1413,
+    "sha256": "23846b9a6b8179a494cf8f5c8eafcfa6a0a1831fd420b2ef526f951d598dfdec"
+  },
+  "assets/gateway-release/work/tools/noodle_bundle.json": {
+    "bytes": 9768,
+    "sha256": "b2de1ca95cf2d5691d8cd089e645537de1f4bea9331071fc5879676653303234"
+  },
+  "assets/gateway-release/work/tools/noodle_hair.json": {
+    "bytes": 16,
+    "sha256": "26b3426b2593763c96d0890b4a77a0bbf66d13fc512b0c6b138a23c290f30a2a"
+  },
+  "assets/gateway-release/work/tools/noodle_hair.py": {
+    "bytes": 20621,
+    "sha256": "8acc17f2c1b54608189aba2369143a889416a9774b89c438d4b528c53e7fdaf8"
+  },
+  "assets/gateway-release/work/tools/photo_codec.py": {
+    "bytes": 11389,
+    "sha256": "512397bee61531bf28873584d6ce2d23aad9f04be63a062ad0a9773e4f4b68fe"
+  },
+  "assets/gateway-release/work/tools/photo_editor.py": {
+    "bytes": 13088,
+    "sha256": "c55b5d4be82e0d0cf63ac0ab39878dc1728b552f0eb4993cbd370bfb9bb3b779"
+  },
+  "assets/gateway-release/work/tools/photo_templates.zlib": {
+    "bytes": 2941,
+    "sha256": "78b235221f2986a4eb9975a0d85e29a0bf4b4a5b05be9ade75e9872d71ed5162"
+  },
+  "assets/gateway-release/work/tools/physical_runtime.py": {
+    "bytes": 120,
+    "sha256": "1347e34fc28be2f110b966f712739e27e8fa5f0461370e9a3f698a293dabb64e"
+  },
+  "assets/gateway-release/work/tools/player_model.py": {
+    "bytes": 3750,
+    "sha256": "b32e596f4ff60f625a211631509369e91052aed6614102e8c5ff44b1220e53af"
+  },
+  "assets/gateway-release/work/tools/player_model_baselines.json.gz": {
+    "bytes": 324379,
+    "sha256": "3502a8d02633383781c54258404691f3c1b256d56901920d0fd89cadf2d79804"
+  },
+  "assets/gateway-release/work/tools/player_tuning.py": {
+    "bytes": 4672,
+    "sha256": "b43cc6553d0ce6057d0a9f6d2f6e5f1ae914947a4f6ff441f0eab30ce04edc1e"
+  },
+  "assets/gateway-release/work/tools/private_bundles.json": {
+    "bytes": 6073,
+    "sha256": "a9fbcb2c0b3d0f319a2b7679ea37e75f5706ea7bab536ea3d9520eebb3db736e"
+  },
+  "assets/gateway-release/work/tools/private_bundles.py": {
+    "bytes": 2230,
+    "sha256": "131eec6f72a1650015064e9aacd83167e9557df195ea97cbf56f6dfae9e2864e"
+  },
+  "assets/gateway-release/work/tools/profile_editor.py": {
+    "bytes": 11921,
+    "sha256": "b3a2f16d9f5a322db4e71a2f3a8e578dc23efa1698398eb820f03bfecb87c430"
+  },
+  "assets/gateway-release/work/tools/profile_options.json": {
+    "bytes": 43319,
+    "sha256": "925b19f12a46bf69bce208178c348f4c31a2edd41510b3b31270e99f17298ab8"
+  },
+  "assets/gateway-release/work/tools/select_team_runtime.py": {
+    "bytes": 25415,
+    "sha256": "307e8337e0977562094f696f2cdf11cb7759047a2fff978acef89f2699cf373d"
+  },
+  "assets/gateway-release/work/tools/stat_editor.py": {
+    "bytes": 4635,
+    "sha256": "099745184baedd70605a1707b7116dcff9c9bf9552ed5a9dec3541bdd927cfc7"
+  },
+  "assets/gateway-release/work/tools/team_kits.py": {
+    "bytes": 2175,
+    "sha256": "7090d8a414930ae996c7ba99beeeb6f0a12204efa1791b250c9fee5244d14e1d"
+  },
+  "assets/gateway-release/work/tools/transfer_catalog.json.gz": {
+    "bytes": 161301,
+    "sha256": "2353609262486c553238e888545f217623a5d2b120f576de37fed40ab02d4d08"
+  },
+  "assets/gateway-release/work/tools/transfer_editor.py": {
+    "bytes": 15103,
+    "sha256": "39f8541a4a630cfa6be1332f05abd529e58eea628397acc7c072f2ed117bc77d"
+  },
+  "assets/gateway-release/work/tools/ui2_skill_rules.json": {
+    "bytes": 2066,
+    "sha256": "8c3432d648c7ce40cbe81a071d38b4d17951922efa27b1519e5226c5886af7a8"
+  },
+  "assets/gateway-release/work/tools/v191_card_source.pyc": {
+    "bytes": 27211,
+    "sha256": "0bc36f43be22de346bf53f90428ecf89715488bbf95cd9b69b9afadfa6e60fcd"
+  },
+  "assets/gateway-release/work/tools/v191_live.py": {
+    "bytes": 3219,
+    "sha256": "d1bbb66671b4e7d6a5c89cbb85b86e013230ff319adbfc2da084780bb21ce1fd"
+  },
+  "assets/gateway-release/work/tools/v191_original_card.py": {
+    "bytes": 2328,
+    "sha256": "a1030baac969a010539bad3cf04e8cbcf62490c67088717f057e2a57584121f4"
+  },
+  "assets/gateway-release/work/tools/v19_chain.py": {
+    "bytes": 1238,
+    "sha256": "a2b36d47c5f06b888bfd99db85c6525bf28af5198bd61752078cd8c693740772"
+  },
+  "assets/gateway-release/work/tools/world_skills.py": {
+    "bytes": 799,
+    "sha256": "ae318b1055a7b95d9b27b0e9eb4c56df2011938fff42c0ccaaa210d1d73863c4"
+  },
+  "assets/launcher/LeagueGothic.ttf": {
+    "bytes": 63956,
+    "sha256": "a527a42f8aec6fe485e2a0fa0d1690203486fe51cde54e2d2e7981eb417f233c"
+  },
+  "assets/launcher/earth.css": {
+    "bytes": 8660,
+    "sha256": "42da03ab842d020ea0ce5f7294888da4d8e368ecf38d0ecbe67955a1a660b932"
+  },
+  "assets/launcher/earth.svg": {
+    "bytes": 421,
+    "sha256": "fdf86bed65b939294f4ee572f382efd54618135f6771c35b7b7b405bd7010711"
+  },
+  "assets/launcher/editor-catalog.js": {
+    "bytes": 7151,
+    "sha256": "891457fd3de4319c221482e019ff9b6cdd51f5a801fdf7fbe10714c288e68771"
+  },
+  "assets/launcher/editor-compare.js": {
+    "bytes": 3752,
+    "sha256": "9e7cfa17c620fa798380f8b05648999f84b56c82fea23cd8d45ec9bdae81b475"
+  },
+  "assets/launcher/editor-core.js": {
+    "bytes": 4703,
+    "sha256": "cbd3ed72f4201fd6fc56c4541ae3a2617a98e6ea80c5f64efc6ea0a9f9aa61ab"
+  },
+  "assets/launcher/editor-detail.js": {
+    "bytes": 6520,
+    "sha256": "c150a9cff8dd26bcf37432b6784aaac5885d7032ca75680991fedf618a5fa172"
+  },
+  "assets/launcher/editor-dev.js": {
+    "bytes": 8648,
+    "sha256": "6178a066951a9c24389e0bc7ae135dccf1ccc79d2112ad73772ed146556d2e15"
+  },
+  "assets/launcher/editor-list.js": {
+    "bytes": 8080,
+    "sha256": "c4fbf8e32a05dce1a048275829245b08fd4452ad1970fd764a1796a30d516bad"
+  },
+  "assets/launcher/editor-misc.js": {
+    "bytes": 10257,
+    "sha256": "e9718485a40b4fdf3cf2cbfcf58eb8f18d25bd2777cdae17099ac489deb51572"
+  },
+  "assets/launcher/editor-pos.js": {
+    "bytes": 5454,
+    "sha256": "5cea38390746b62e931cdfc22c44523d22ff74652587b07fc1cbe9a96902a76c"
+  },
+  "assets/launcher/editor-private.js": {
+    "bytes": 2608,
+    "sha256": "0d0efcb73229cc54ad5c5a435f44efeef22d86aa3aaf1d472160fd0801a0d83d"
+  },
+  "assets/launcher/editor-store.js": {
+    "bytes": 2525,
+    "sha256": "1a0cecf3e47dbaca9cba67b04037e43df82e6a582a8082fbe060e085a02fd9e6"
+  },
+  "assets/launcher/editor-ui.js": {
+    "bytes": 5934,
+    "sha256": "4557447319597722005a1aadc7fb6cd26c92367cb4da97f73bf075e5bb3a5e58"
+  },
+  "assets/launcher/editor-util.js": {
+    "bytes": 5954,
+    "sha256": "88a9e3b3dbcf181a0f9bf4dff5874f2deea57d5baf756afa74c1e0e9bea7b57c"
+  },
+  "assets/launcher/editor.css": {
+    "bytes": 26586,
+    "sha256": "60c83799426df515e1779ee90d1a87b3c58680d0a5d4dde78000fb3668408742"
+  },
+  "assets/launcher/english-native.json": {
+    "bytes": 222352,
+    "sha256": "459c92388405574dbb4b06667d58c1dab26815f3d6e5442e367807d751e0b289"
+  },
+  "assets/launcher/english-words.js": {
+    "bytes": 222379,
+    "sha256": "9b579cea34f3c8f925c5d734a7884da2214f90a1ff64f20840e2380c82d12dd4"
+  },
+  "assets/launcher/index.html": {
+    "bytes": 8573,
+    "sha256": "fcc1dd952ba930dfe4857db03deeaa0d83eb4f77e801413a6fbaf0b1eac24fdf"
+  },
+  "assets/launcher/launcher-startup.js": {
+    "bytes": 1289,
+    "sha256": "9804485c32c3c43ae55f61f4f82599d8216dd85a67cec825a6cebe4b790eef73"
+  },
+  "assets/launcher/launcher.css": {
+    "bytes": 12826,
+    "sha256": "c64b5c7b628601cab5254750d306abaf11686e71c0fb8496b4b40b4456cc4c3d"
+  },
+  "assets/launcher/launcher.js": {
+    "bytes": 15093,
+    "sha256": "c356d09032abf53a2c9fcdbaa13de6cf6c2f8b9f6710403834f17f62c16e73b8"
+  },
+  "assets/launcher/private.css": {
+    "bytes": 770,
+    "sha256": "aa384361a459e4365d66d1440899b5ee650b8d0962b979aef9413f1088145235"
+  },
+  "assets/launcher/ui-locales.js": {
+    "bytes": 112,
+    "sha256": "2a216602bf35dbf9cf4fd488b9cd49d7a6b7645fab0ca733df7869ed57d56024"
+  },
+  "assets/launcher/ui-localization.js": {
+    "bytes": 2146,
+    "sha256": "62d69bfbb5b418438e308bfaecf3b2868284961e1dfbdabaec906e9d4efee125"
+  },
+  "assets/player-editor-overrides/105565464400480.png": {
+    "bytes": 28644,
+    "sha256": "5d8716a5035541dcbcfa3a1d6c00e7798c9725323d0d947239d2c413f5426aa0"
+  },
+  "assets/player-editor-overrides/105568954067359.png": {
+    "bytes": 26827,
+    "sha256": "eb44ce1914cc5a0ece72e458d1aba23c107bbb99f71fe402fbf580363c0c224e"
+  },
+  "assets/player-editor-overrides/105625593957752.png": {
+    "bytes": 23272,
+    "sha256": "b6ded1c87f9ea3d07ec74c4113e8f544fb4ec860a7edd006fc5e1362e60f2c27"
+  },
+  "assets/player-editor-overrides/105634720685845.png": {
+    "bytes": 25828,
+    "sha256": "39e544b3c634b873a3ee052544efbb64bae3beca86e0c8d3ad4724abe38ad248"
+  },
+  "assets/player-editor-overrides/105647605587130.png": {
+    "bytes": 22413,
+    "sha256": "d180c28ac4e9b625c305122941b748470258a4d659351887b56cdf0120518ec0"
+  },
+  "assets/player-editor-overrides/105756321970183.png": {
+    "bytes": 32215,
+    "sha256": "0256c9d36786aba4035f6fe5fa573ea5444e1e2c1ab7319c21a43f008add6d5e"
+  },
+  "assets/player-editor-overrides/105794439855675.png": {
+    "bytes": 22679,
+    "sha256": "cbe45f62ced3952a435180776eac7e8da0a5e5671f2a2a1824586077db1df334"
+  },
+  "assets/player-editor-overrides/106654775417922.png": {
+    "bytes": 28964,
+    "sha256": "57575b35f3d16feff69ada74d271f14c765797880d2189ed3357eddc8403f54a"
+  },
+  "assets/player-editor-overrides/106781476920663.png": {
+    "bytes": 26327,
+    "sha256": "4c1b17893c2a6630bb803d8711723ae24e4ea80554600ff94ce613cb5cea6ebb"
+  },
+  "assets/player-editor-overrides/88042803047215.png": {
+    "bytes": 24993,
+    "sha256": "3e2b3946d5094807945b6e6a6f221c89a65310e8df0611fe0872ac7c8763ca51"
+  },
+  "assets/player-editor-overrides/89138288266704.png": {
+    "bytes": 25927,
+    "sha256": "0dd4ef11b737305a64223589600625a6f2d0b58c1b68cbe8814437d1b5c1d8e9"
+  },
+  "classes5.dex": {
+    "bytes": 618140,
+    "sha256": "635f02e0f34a76ce99e0bddcee2a09c28687f4fdc72693218edd5dd82d50ae98"
+  },
+  "extras/Wukong/Wukong-V2-Dense-Uniform.blend": {
+    "bytes": 11485417,
+    "sha256": "93875be4ec21097e8ffdf841e1d181c2e742a46a98cf2bc3a499a0ffbc605919"
+  },
+  "extras/Wukong/back-left.png": {
+    "bytes": 625229,
+    "sha256": "51059855b418e790ebb373e6b66fecbefd6afe7f7bcd9ca28385e7067b3184cb"
+  },
+  "extras/Wukong/back-right.png": {
+    "bytes": 629232,
+    "sha256": "299f4869cb9e880db36b55857623914253c9a0a12a27ed900c4ba08f7e4fa570"
+  },
+  "extras/Wukong/back.png": {
+    "bytes": 616085,
+    "sha256": "04b9e58af56fe0b77bcc8545bbae8c8ba63f94f0f5e42012f86251ee9717b5e5"
+  },
+  "extras/Wukong/front-left.png": {
+    "bytes": 641244,
+    "sha256": "3aa63e9ff5125e76dba398a842daac8e71a9700658278787b3634cfd5e4d16ac"
+  },
+  "extras/Wukong/front-right.png": {
+    "bytes": 633651,
+    "sha256": "f6c5dcfcfdadb8bb91e64b52071239f980e7208634799cbed5a5ef3346d65640"
+  },
+  "extras/Wukong/front.png": {
+    "bytes": 632606,
+    "sha256": "3ac5d92a9346b9971ca36b5cdc18c74f259291d838ad3ff5bf8c87c0faa22409"
+  },
+  "extras/Wukong/left.png": {
+    "bytes": 637263,
+    "sha256": "f42db1d141c823ff5d964da15e0a0a0a897fe3392c27271306487a47c10f86fe"
+  },
+  "extras/Wukong/right.png": {
+    "bytes": 637753,
+    "sha256": "fdafb608eb1f33a754e479c727460e2e55f318a6e0f0b230c6b864a4b9d0f4b0"
+  },
+  "validation/cold-boot-validation.json": {
+    "bytes": 564,
+    "sha256": "8407c1ef858142834298243d275a88790f7f469afd2b37ced9d5103a3ab7b238"
+  },
+  "validation/dex-link-audit.json": {
+    "bytes": 48,
+    "sha256": "1e336360011c19641dc0045f130161ab0c4f5ce23fdfd0a3dad4d117ef8c87c4"
+  },
+  "validation/editor-api-validation.json": {
+    "bytes": 1493,
+    "sha256": "308f1a65209c45e7166f3c48e39adeb392fb4cd65969149286a759bbadc8d7af"
+  },
+  "validation/engine-compatibility.json": {
+    "bytes": 207,
+    "sha256": "edae4f4e5d58c2355b7dbd28a8efd7ca803d6c242c877eef4b5e68393cd8ffa1"
+  },
+  "validation/full2-card-copy-validation.json": {
+    "bytes": 926,
+    "sha256": "3656051aa6f0c74d8f46b07161eda8bb5278e16da6abaf030dec49b8c0a8b423"
+  },
+  "validation/full2-dex-link-audit.json": {
+    "bytes": 48,
+    "sha256": "da397341c6e25804754abb6f2763987225cba95bc78a9ee0b4c0556622d4e83b"
+  },
+  "validation/full2-dex-roundtrip.json": {
+    "bytes": 340,
+    "sha256": "1523d2409852444e11782738825cc81844f3ceac5c312bbe5bb794795014b039"
+  },
+  "validation/full2-diy-adapter-browser-validation.json": {
+    "bytes": 256,
+    "sha256": "5df2c142a41aa082251f223453fa57c8196f5d97d8931c528e483ffc5ae35dee"
+  },
+  "validation/full2-diy-pipeline-analysis.json": {
+    "bytes": 972,
+    "sha256": "6134fad804d1c3ac4c72383ba1e8a5e03bd98bd3b6aa396e0d60e45f22e86d72"
+  },
+  "validation/full2-diy-pixel-validation.json": {
+    "bytes": 535,
+    "sha256": "47d2b7ed4fd4beb9a6f025653a245ba3ffadfe3619450732a7af1a083b360f41"
+  },
+  "validation/full2-live-fix-evidence.json": {
+    "bytes": 283,
+    "sha256": "7a3c948a3c862f3868039e9e94cdc1805dce63485191976c5654e3ddc268ef4c"
+  },
+  "validation/full2-retention-validation.json": {
+    "bytes": 2520,
+    "sha256": "f7ce68291956c984f54748213aec495b240cd8dab8ba0a147760f7575b8861f7"
+  },
+  "validation/full2-runtime-validation.json": {
+    "bytes": 578,
+    "sha256": "b6e185cd04744b32f37769ffb966169efd61b45ca2b58d33cd9a0a8c5c252038"
+  },
+  "validation/full2-saudi-data-report.json": {
+    "bytes": 5844,
+    "sha256": "bd8aa9913bb00250deecb82210186c359cc8964bab27cf45be90cdf5ecd5b5d5"
+  },
+  "validation/full2-superseded-face-exclusion.json": {
+    "bytes": 257,
+    "sha256": "ae455542dc9fa92972c1a055498eaf6acb6268b636a0f6ee4a5c2aef2c67daf2"
+  },
+  "validation/full2-transfer-canonical-validation.json": {
+    "bytes": 321,
+    "sha256": "db442320ed13f8a0730cab544947d8919fc32530170a4ee9869d0d9647e45595"
+  },
+  "validation/full2-transfer-search-validation.json": {
+    "bytes": 1085,
+    "sha256": "3f6dfce65582ccc9b97397b06fe47590c4d53544732cf17890ab0f3fadc1b223"
+  },
+  "validation/full2-ui-browser-validation.json": {
+    "bytes": 5458,
+    "sha256": "9f4452c5bb4403424b763bede5d6859404689067f02bf7cf9c1abfe8cf04aed3"
+  },
+  "validation/hook-chain-validation.json": {
+    "bytes": 220,
+    "sha256": "655ef4397aa8cea77c985fc93daad9dea029d0a61cd416d1bd6348d7c2281d2f"
+  },
+  "validation/independent-mesh-reader-validation.json": {
+    "bytes": 571,
+    "sha256": "09e11ccd30320e64c8e33f0c1dcf9eb27c9fa23f5482711a6ee7b0eb27219f76"
+  },
+  "validation/launcher-browser-validation.json": {
+    "bytes": 319,
+    "sha256": "1845f13d6714ad5b8bbb87385972579ff25ddbe56cf927c6f604d33dad04c505"
+  },
+  "validation/original-card-bundle-validation.json": {
+    "bytes": 2226,
+    "sha256": "3a1a57b3ef00e880b64382563b0f844c287bb165557a3b31792e4c1196ed99f3"
+  },
+  "validation/photo-editor-browser-validation.json": {
+    "bytes": 228,
+    "sha256": "9fbc5ddf87de99b1eaedcd22589aeec088164e8eac0a69b6fcb692afbc4db22f"
+  },
+  "validation/relogin-photo-validation.json": {
+    "bytes": 287,
+    "sha256": "0306aaee6c5a0f906e3ccb2e2b1a604dd9aa64e584efb23546c775871d70aea1"
+  },
+  "validation/source-hashes.json": {
+    "bytes": 1594,
+    "sha256": "afa05607bcaaafa9690f0036d4fe33de691f1a0b0701bdea6372c14b07bc20f1"
+  },
+  "validation/transfer-canonical-validation.json": {
+    "bytes": 321,
+    "sha256": "db442320ed13f8a0730cab544947d8919fc32530170a4ee9869d0d9647e45595"
+  },
+  "validation/upstream-hook-overlaps.json": {
+    "bytes": 124,
+    "sha256": "11f41941ffe6c599c489ceca74fe2b7ec5f94e142eabc2ca4509bb6600def9d3"
+  },
+  "validation/v19-kit-rebase-validation.json": {
+    "bytes": 159,
+    "sha256": "3d86fcb2e749d3813807fa600fb771260baccc64c6ec7bcc3a68fca5c897b2eb"
+  },
+  "validation/v202-source-hashes.json": {
+    "bytes": 345,
+    "sha256": "4988bd836159f730437235e9bfc1f79a2036ea6d3d326f63c85557d334aef104"
+  },
+  "validation/wukong-native-validation.json": {
+    "bytes": 1556,
+    "sha256": "e6dcdd855947391022996cb9963d50541c25848d8fcf0ec402fe8d4a45cd2f3d"
+  }
+}

@@ -1,0 +1,27 @@
+.lab-library-heading{flex-wrap:wrap;gap:8px}.lab-library-heading h2{flex:1}
+#labExportSelectionBar{margin:12px 0;padding:12px;border:1px solid #745495;border-radius:12px;background:#241931;position:sticky;top:0;z-index:3}
+#labSelectCount{font-size:12px;display:block;margin-bottom:10px;color:#d8c1ec}
+#labExportSelectionBar button{font-size:12px;padding:9px}
+.lab-work{position:relative}.lab-work-select{position:absolute;z-index:2;top:9px;right:9px;width:24px;height:24px;margin:0;accent-color:#bd91f1}
+.lab-work-selected{outline:2px solid #c69aff;border-radius:15px}
+.editor-pitch{padding:8px;background:repeating-linear-gradient(#142e2b 0 60px,#183630 60px 120px);border:1px solid #4d6b62;border-radius:10px}
+.editor-pitch-band{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;min-height:100px}
+.editor-pitch-band>div{display:flex;flex-direction:column;justify-content:center;gap:5px;padding:3px 0}
+#labPanelMount .editor-pitch button{white-space:pre-line;padding:5px 2px;font-size:10px;line-height:1.6;flex:1;min-width:0;color:#e0e9e4;background:#293731;border-color:#647169}
+#labPanelMount .editor-pitch button[data-level="1"]{background:#205a43}
+#labPanelMount .editor-pitch button[data-level="2"]{background:#6dd7a2;color:#122e22}
+#labPanelMount .editor-pitch button:disabled{opacity:.55}
+#labPanelMount #diyAbilities .card-fields{grid-template-columns:1fr}
+#labPanelMount .editor-ability-row{display:grid;grid-template-columns:minmax(0,1fr) 68px;gap:5px 12px;align-items:center;border-bottom:1px solid #45314f;padding:8px 0;margin:0}
+#labPanelMount .editor-ability-row input[type=number]{grid-column:2;grid-row:1;width:68px;text-align:center;font-size:16px}
+#labPanelMount .editor-ability-row input[type=range]{grid-column:1/-1;min-height:30px;touch-action:pan-y;margin:2px 0}
+#labPanelMount #editor-boots_color{width:100%;height:42px;padding:4px;background:#171021;border:1px solid #77568d;border-radius:6px}
+.lab-finished-preview{width:min(94vw,650px);max-height:92dvh}
+.lab-preview-heading{display:flex;justify-content:space-between;gap:12px;align-items:center}
+.lab-preview-heading h2{margin:0}
+.lab-finished-preview .preview-grid{display:grid!important;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.lab-finished-preview .panel{min-width:0;padding:12px 5px}
+.lab-finished-preview .small-card{width:min(100%,125px);height:auto;aspect-ratio:125/152}
+.lab-finished-preview .detail-card{width:min(100%,180px);height:auto;aspect-ratio:5/7}
+.lab-finished-preview .preview-note{font-size:10px}
+@media(max-height:500px){.lab-finished-preview{max-height:95dvh}.lab-finished-preview .small-card{max-width:125px}.lab-finished-preview .detail-card{max-width:140px}}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "DEX_assembled_and_disassembled": true,
+  "boot_MIME_register_type_fix_retained": true,
+  "CPK_HTTP_alias_retained": true,
+  "new_bridge_classes_present": true,
+  "compile_only_android_stubs_not_shipped": true,
+  "sha256": "635f02e0f34a76ce99e0bddcee2a09c28687f4fdc72693218edd5dd82d50ae98",
+  "Android_tested": false
+}

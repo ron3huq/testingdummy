@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "gateway_api": true,
+  "bundle_integrity": true,
+  "CPK_manifest_URL_basename_and_source_repair_same_bytes": {
+    "size": 7682048,
+    "sha256": "2478859b8ec4d4f19c1da984fdc4d948397fff3c14ed0848d5945b45edb0a317"
+  },
+  "native_version_codec_relogin_stable": true,
+  "photo_import_advances_version_and_keeps_CPK_hash": true,
+  "three_card_targets_in_catalogue": true,
+  "host_fixture": "V16 disposable save/corpus with original V19 protected gateway; missing pc3700 host resource checks filtered only inside host test function",
+  "Android_tested": false
+}

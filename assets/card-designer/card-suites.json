@@ -1,0 +1,5265 @@
+{
+  "schema": "efootball-card-suites/v1",
+  "sourceVersion": "11.1.1",
+  "suites": [
+    {
+      "id": "BT-0",
+      "series": "BT",
+      "variant": "0",
+      "donorPlayerId": "89060441984433",
+      "donorName": "David Beckham",
+      "donorVariation": "Big Time 7 Jun '02",
+      "nativeType": "51",
+      "identityPrefix": "331776",
+      "nativeVariationRecordHex": "b10d020000510000000000004269672054696d652037204a756e20273032000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "7c1fd2060e0d34f17284438ab5cddab1d5c4ccd0397469417cdb8d51f4a9337b",
+      "appearance": {
+        "small": {
+          "background": "0501_0_m01_89060441984433",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_0_b02",
+          "frame": "0501_0_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S03",
+      "resourceIds": [
+        "0501_0_b01",
+        "0501_0_b02",
+        "0501_0_b07",
+        "0501_0_f01",
+        "0501_0_f04",
+        "0501_0_f05"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S03"
+    },
+    {
+      "id": "BT-1",
+      "series": "BT",
+      "variant": "1",
+      "donorPlayerId": "89060710285542",
+      "donorName": "Dragan Stojković",
+      "donorVariation": "Big Time 26 Jun '90",
+      "nativeType": "51",
+      "identityPrefix": "331777",
+      "nativeVariationRecordHex": "e600001000510000000000004269672054696d65203236204a756e202739300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "a56fce359ba687124b027e1071d5bd6d81f13f3d56ceb8e1e4e5c0afc716d359",
+      "appearance": {
+        "small": {
+          "background": "0501_1_m01_89060710285542",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_1_b02",
+          "frame": "0501_1_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S06",
+      "resourceIds": [
+        "0501_1_b02",
+        "0501_1_b07",
+        "0501_1_f01",
+        "0501_1_f05"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S06"
+    },
+    {
+      "id": "BT-2",
+      "series": "BT",
+      "variant": "2",
+      "donorPlayerId": "89060978855375",
+      "donorName": "Romário",
+      "donorVariation": "Big Time 13 Jul '94",
+      "nativeType": "51",
+      "identityPrefix": "331778",
+      "nativeVariationRecordHex": "cf0d022000510000000000004269672054696d65203133204a756c202739340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "a8c224192d5d180c2fb712fc7f55ea7a617a187396265ec84689ba6053da0425",
+      "appearance": {
+        "small": {
+          "background": "0501_2_m01_89060978855375",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_2_b02",
+          "frame": "0501_2_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S09",
+      "resourceIds": [
+        "0501_2_b02",
+        "0501_2_b07",
+        "0501_2_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S09"
+    },
+    {
+      "id": "BT-3",
+      "series": "BT",
+      "variant": "3",
+      "donorPlayerId": "89061247290863",
+      "donorName": "Diego Maradona",
+      "donorVariation": "Big Time 22 Jun '86",
+      "nativeType": "51",
+      "identityPrefix": "331779",
+      "nativeVariationRecordHex": "ef0d023000510000000000004269672054696d65203232204a756e202738360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "f9bcd173cf1daccae8bda213c90e677511b8a747f93b5259736741585c81c231",
+      "appearance": {
+        "small": {
+          "background": "0501_3_m01_89061247290863",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_3_b02",
+          "frame": "0501_3_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S12",
+      "resourceIds": [
+        "0501_3_b02",
+        "0501_3_b07",
+        "0501_3_f01",
+        "0501_3_f02"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S12"
+    },
+    {
+      "id": "BT-4",
+      "series": "BT",
+      "variant": "4",
+      "donorPlayerId": "89061515600624",
+      "donorName": "Karim Benzema",
+      "donorVariation": "Big Time 10 Oct '21",
+      "nativeType": "51",
+      "identityPrefix": "331780",
+      "nativeVariationRecordHex": "f022004000510000000000004269672054696d65203130204f6374202732310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "34bba3a1c93f3da0cdf666e3d7903705904ecf42dfbba481b436b792cc00ab9b",
+      "appearance": {
+        "small": {
+          "background": "0501_4_m01_89061515600624",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_4_b02",
+          "frame": "0501_4_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S15",
+      "resourceIds": [
+        "0501_4_b01",
+        "0501_4_b02",
+        "0501_4_b07",
+        "0501_4_f01",
+        "0501_4_f04"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S15"
+    },
+    {
+      "id": "BT-5",
+      "series": "BT",
+      "variant": "5",
+      "donorPlayerId": "89061784067488",
+      "donorName": "Neymar Jr",
+      "donorVariation": "Big Time 12 Jun '14（Limited）",
+      "nativeType": "51",
+      "identityPrefix": "331781",
+      "nativeVariationRecordHex": "a09d005000510000000000004269672054696d65203132204a756e20273134efbc884c696d69746564efbc8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "3ec4d775c06ededa39020294f8f4420e43e0634764b248de1998e11314a11fbf",
+      "appearance": {
+        "small": {
+          "background": "0501_5_m01_370536760778144",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_5_b02",
+          "frame": "0501_5_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S18",
+      "resourceIds": [
+        "0501_5_b01",
+        "0501_5_b02",
+        "0501_5_b07",
+        "0501_5_f01",
+        "0501_5_f04"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S18"
+    },
+    {
+      "id": "BT-6",
+      "series": "BT",
+      "variant": "6",
+      "donorPlayerId": "89062052470103",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Big Time 26 Jun '14（Limited）",
+      "nativeType": "51",
+      "identityPrefix": "331782",
+      "nativeVariationRecordHex": "571d006000510000000000004269672054696d65203236204a756e20273134efbc884c696d69746564efbc8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "e83b20b23a6ffce3af4b1f7c43254d98f3a02908ee3b46bd7aacdf1553466c98",
+      "appearance": {
+        "small": {
+          "background": "0501_6_m01_370537029180759",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_6_b02",
+          "frame": "0501_6_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S21",
+      "resourceIds": [
+        "0501_6_b01",
+        "0501_6_b02",
+        "0501_6_b07",
+        "0501_6_f01",
+        "0501_6_f04"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S21"
+    },
+    {
+      "id": "BT-8",
+      "series": "BT",
+      "variant": "8",
+      "donorPlayerId": "89062589455364",
+      "donorName": "Ito Junya",
+      "donorVariation": "Big Time 1 Feb '22",
+      "nativeType": "51",
+      "identityPrefix": "331784",
+      "nativeVariationRecordHex": "04dc018000510000000000004269672054696d6520312046656220273232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "f5b995cd2d21faa279a503770a3e7fcfb07b599988971dd5b5e25290f879f9be",
+      "appearance": {
+        "small": {
+          "background": "0501_8_m01_89062589455364",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_8_b02",
+          "frame": "0501_8_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S24",
+      "resourceIds": [
+        "0501_8_b01",
+        "0501_8_b02",
+        "0501_8_b07",
+        "0501_8_f01",
+        "0501_8_f04"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S24"
+    },
+    {
+      "id": "BT-9",
+      "series": "BT",
+      "variant": "9",
+      "donorPlayerId": "89062857776404",
+      "donorName": "David Villa",
+      "donorVariation": "Big Time 25 Jun '10",
+      "nativeType": "51",
+      "identityPrefix": "331785",
+      "nativeVariationRecordHex": "141d009000510000000000004269672054696d65203235204a756e202731300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "234075d8d2aae95a3cec255e676b332e0241e836ccae8b3baa049448dcbb290e",
+      "appearance": {
+        "small": {
+          "background": "0501_9_m01_89062857776404",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_9_b02",
+          "frame": "0501_9_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S27",
+      "resourceIds": [
+        "0501_9_b02",
+        "0501_9_b07",
+        "0501_9_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S27"
+    },
+    {
+      "id": "BT-10",
+      "series": "BT",
+      "variant": "10",
+      "donorPlayerId": "89063126342373",
+      "donorName": "Fabio Cannavaro",
+      "donorVariation": "Big Time 9 Jul '06",
+      "nativeType": "51",
+      "identityPrefix": "331786",
+      "nativeVariationRecordHex": "e51a02a000510000000000004269672054696d652039204a756c20273036000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "6b8bad79b874b8dac561d328ea1a8cf2b04ada24792fb2c90294dddb9cf86556",
+      "appearance": {
+        "small": {
+          "background": "0501_10_m01_89063126342373",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_10_b02",
+          "frame": "0501_10_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S30",
+      "resourceIds": [
+        "0501_10_b02",
+        "0501_10_b07",
+        "0501_10_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S30"
+    },
+    {
+      "id": "BT-11",
+      "series": "BT",
+      "variant": "11",
+      "donorPlayerId": "89063394774510",
+      "donorName": "Zico",
+      "donorVariation": "Big Time 2 Jul '82",
+      "nativeType": "51",
+      "identityPrefix": "331787",
+      "nativeVariationRecordHex": "ee0d02b000510000000000004269672054696d652032204a756c20273832000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "7c44f1a521c5d939df7e0e3c9b74037612889177faf397d42fa6f9835bd4c957",
+      "appearance": {
+        "small": {
+          "background": "0501_11_m01_89063394774510",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_11_b02",
+          "frame": "0501_11_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S33",
+      "resourceIds": [
+        "0501_11_b02",
+        "0501_11_b07",
+        "0501_11_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S33"
+    },
+    {
+      "id": "BT-12",
+      "series": "BT",
+      "variant": "12",
+      "donorPlayerId": "89063663209957",
+      "donorName": "Lothar Matthäus",
+      "donorVariation": "Big Time 1 Jul '90",
+      "nativeType": "51",
+      "identityPrefix": "331788",
+      "nativeVariationRecordHex": "e50d02c000510000000000004269672054696d652031204a756c20273930000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "830389485ce69d177909ff1f541de2b345ebc7ec6ef92310c66b1414fa8e3e55",
+      "appearance": {
+        "small": {
+          "background": "0501_12_m01_89063663209957",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_12_b02",
+          "frame": "0501_12_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S36",
+      "resourceIds": [
+        "0501_12_b02",
+        "0501_12_b07",
+        "0501_12_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S36"
+    },
+    {
+      "id": "BT-13",
+      "series": "BT",
+      "variant": "13",
+      "donorPlayerId": "89063931645407",
+      "donorName": "Ruud van Nistelrooij",
+      "donorVariation": "Big Time 3 May '03",
+      "nativeType": "51",
+      "identityPrefix": "331789",
+      "nativeVariationRecordHex": "df0d02d000510000000000004269672054696d652033204d617920273033000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "cc6b5ed69a01f4fd57dbdb2a37277211ef74bb6c02667212b3a136ca48f9fa3f",
+      "appearance": {
+        "small": {
+          "background": "0501_13_m01_89063931645407",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_13_b02",
+          "frame": "0501_13_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S39",
+      "resourceIds": [
+        "0501_13_b02",
+        "0501_13_b07",
+        "0501_13_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S39"
+    },
+    {
+      "id": "BT-14",
+      "series": "BT",
+      "variant": "14",
+      "donorPlayerId": "89064200084194",
+      "donorName": "Claude Makélélé",
+      "donorVariation": "Big Time 7 May '05",
+      "nativeType": "51",
+      "identityPrefix": "331790",
+      "nativeVariationRecordHex": "e21a02e000510000000000004269672054696d652037204d617920273035000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "4b7a8dcba7254d4a8847e8ab1c88b7950a59be6babe7ac1dac40d93263820640",
+      "appearance": {
+        "small": {
+          "background": "0501_14_m01_89064200084194",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_14_b02",
+          "frame": "0501_14_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S42",
+      "resourceIds": [
+        "0501_14_b02",
+        "0501_14_b07",
+        "0501_14_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S42"
+    },
+    {
+      "id": "BT-15",
+      "series": "BT",
+      "variant": "15",
+      "donorPlayerId": "89064468384045",
+      "donorName": "Hristo Stoichkov",
+      "donorVariation": "Big Time 27 Apr '94",
+      "nativeType": "51",
+      "identityPrefix": "331791",
+      "nativeVariationRecordHex": "2d0900f000510000000000004269672054696d6520323720417072202739340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "a634ee9ec02b785085c02dc5f2651f5868475ca58c92fb96ae228cfdb43b2f49",
+      "appearance": {
+        "small": {
+          "background": "0501_15_m01_89064468384045",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_15_b02",
+          "frame": "0501_15_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S45",
+      "resourceIds": [
+        "0501_15_b02",
+        "0501_15_b07",
+        "0501_15_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S45"
+    },
+    {
+      "id": "BT-16",
+      "series": "BT",
+      "variant": "16",
+      "donorPlayerId": "89064736951784",
+      "donorName": "Frank Rijkaard",
+      "donorVariation": "Big Time 24 May '90",
+      "nativeType": "51",
+      "identityPrefix": "331792",
+      "nativeVariationRecordHex": "e80d020001510000000000004269672054696d65203234204d6179202739300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "8a5e332d2e7c885f937040349ed70082f97cbc22b9f15bb899b7301eb7c3013e",
+      "appearance": {
+        "small": {
+          "background": "0501_16_m01_89064736951784",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_16_b02",
+          "frame": "0501_16_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S48",
+      "resourceIds": [
+        "0501_16_b02",
+        "0501_16_b07",
+        "0501_16_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S48"
+    },
+    {
+      "id": "BT-17",
+      "series": "BT",
+      "variant": "17",
+      "donorPlayerId": "89065005387197",
+      "donorName": "Patrick Vieira",
+      "donorVariation": "Big Time 25 Apr '04",
+      "nativeType": "51",
+      "identityPrefix": "331793",
+      "nativeVariationRecordHex": "bd0d021001510000000000004269672054696d6520323520417072202730340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "dec2b9f11fc45f6c52a3dfc96a827460484722b78e7e9541375f76b9be3c6492",
+      "appearance": {
+        "small": {
+          "background": "0501_17_m01_89065005387197",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_17_b02",
+          "frame": "0501_17_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S51",
+      "resourceIds": [
+        "0501_17_b02",
+        "0501_17_b07",
+        "0501_17_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S51"
+    },
+    {
+      "id": "BT-18",
+      "series": "BT",
+      "variant": "18",
+      "donorPlayerId": "89065273822644",
+      "donorName": "Steven Gerrard",
+      "donorVariation": "Big Time 26 May '05",
+      "nativeType": "51",
+      "identityPrefix": "331794",
+      "nativeVariationRecordHex": "b40d022001510000000000004269672054696d65203236204d6179202730350000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "d7e67833520280d38dad79dc137093d2cc9dc5c6022820f4771cc82cf03b8d25",
+      "appearance": {
+        "small": {
+          "background": "0501_18_m01_89065273822644",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_18_b02",
+          "frame": "0501_18_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S54",
+      "resourceIds": [
+        "0501_18_b02",
+        "0501_18_b07",
+        "0501_18_f01",
+        "0501_18_f04"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S54"
+    },
+    {
+      "id": "BT-28",
+      "series": "BT",
+      "variant": "28",
+      "donorPlayerId": "89067958050135",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Big Time 18 Dec '22",
+      "nativeType": "51",
+      "identityPrefix": "331804",
+      "nativeVariationRecordHex": "571d00c001510000000000004269672054696d6520313820446563202732320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "241bc34e5e95dd777691f41361a4f2774e4ef881980c607f99d3b0a85ffa047d",
+      "appearance": {
+        "small": {
+          "background": "0501_28_m01_89067958050135",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_28_b02",
+          "frame": "0501_28_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S57",
+      "resourceIds": [
+        "0501_28_b02",
+        "0501_28_b07",
+        "0501_28_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S57"
+    },
+    {
+      "id": "BT-29",
+      "series": "BT",
+      "variant": "29",
+      "donorPlayerId": "89068226588798",
+      "donorName": "Kylian Mbappé",
+      "donorVariation": "Big Time 18 Dec '22",
+      "nativeType": "51",
+      "identityPrefix": "331805",
+      "nativeVariationRecordHex": "7eb001d001510000000000004269672054696d6520313820446563202732320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "18e5cb8a9334607684a6ff80de903c3ba1c48bea4cca233decbce789207ce6f1",
+      "appearance": {
+        "small": {
+          "background": "0501_29_m01_89068226588798",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_29_b02",
+          "frame": "0501_29_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S01",
+      "resourceIds": [
+        "0501_29_b02",
+        "0501_29_b07",
+        "0501_29_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S01"
+    },
+    {
+      "id": "BT-30",
+      "series": "BT",
+      "variant": "30",
+      "donorPlayerId": "89068495045728",
+      "donorName": "Joško Gvardiol",
+      "donorVariation": "Big Time 17 Dec '22",
+      "nativeType": "51",
+      "identityPrefix": "331806",
+      "nativeVariationRecordHex": "600402e001510000000000004269672054696d6520313720446563202732320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "6c980e732c4c6f70a60e48396f4cc3c3f0ccee314cb5a4cf0bc1ca60b702a6d8",
+      "appearance": {
+        "small": {
+          "background": "0501_30_m01_89068495045728",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_30_b02",
+          "frame": "0501_30_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S60",
+      "resourceIds": [
+        "0501_30_b02",
+        "0501_30_b07",
+        "0501_30_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S60"
+    },
+    {
+      "id": "BT-256",
+      "series": "BT",
+      "variant": "256",
+      "reviewNo": "V10",
+      "donorPlayerId": "89129161334103",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Big Time 27 May '09",
+      "nativeType": "51",
+      "identityPrefix": "332032",
+      "nativeVariationRecordHex": "571d000010510000000000004269672054696d65203237204d6179202730390000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "bda9487a7be10235f9f379cb6b7a533e95b32fa7e75bd12d7f1965370e46cf22",
+      "appearance": {
+        "small": {
+          "background": "0501_256_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_256_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0501_256_m01",
+        "0501_256_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "BT-257",
+      "series": "BT",
+      "variant": "257",
+      "donorPlayerId": "89129429769559",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Big Time 6 May '15",
+      "nativeType": "51",
+      "identityPrefix": "332033",
+      "nativeVariationRecordHex": "571d001010510000000000004269672054696d652036204d617920273135000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "d2f67dbffa7bfa1c675846231d1aa23cb3ec34f83de52c1fc43121a731419971",
+      "appearance": {
+        "small": {
+          "background": "",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_257_b02",
+          "frame": ""
+        }
+      },
+      "smallMode": "native-inherited",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S63",
+      "resourceIds": [
+        "0501_257_b02",
+        "0501_257_f04"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S63"
+    },
+    {
+      "id": "BT-258",
+      "series": "BT",
+      "variant": "258",
+      "donorPlayerId": "89129698205015",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Big Time 13 Dec '22",
+      "nativeType": "51",
+      "identityPrefix": "332034",
+      "nativeVariationRecordHex": "571d002010510000000000004269672054696d6520313320446563202732320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "003923fda1ad876a7a3147c927c5094bf949c405bd030183c51a4a5777b3a216",
+      "appearance": {
+        "small": {
+          "background": "",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_258_b02",
+          "frame": ""
+        }
+      },
+      "smallMode": "native-inherited",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S66",
+      "resourceIds": [
+        "0501_258_b02",
+        "0501_258_f04"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S66"
+    },
+    {
+      "id": "BT-259",
+      "series": "BT",
+      "variant": "259",
+      "donorPlayerId": "89129966675852",
+      "donorName": "Sergi Roberto",
+      "donorVariation": "Big Time 8 Mar '17",
+      "nativeType": "51",
+      "identityPrefix": "332035",
+      "nativeVariationRecordHex": "8ca7003010510000000000004269672054696d652038204d617220273137000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "93f84d6fd9f8621b37ba83a53a77a90f7c882a0377b7f7d45926367b0d3d07a3",
+      "appearance": {
+        "small": {
+          "background": "",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_259_b02",
+          "frame": ""
+        }
+      },
+      "smallMode": "native-inherited",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S69",
+      "resourceIds": [
+        "0501_259_b02"
+      ],
+      "equivalentDonorCount": 4,
+      "staticReviewNo": "S69"
+    },
+    {
+      "id": "BT-260",
+      "series": "BT",
+      "variant": "260",
+      "donorPlayerId": "89130235068579",
+      "donorName": "Nakamura Shunsuke",
+      "donorVariation": "Big Time 14 Nov '98",
+      "nativeType": "51",
+      "identityPrefix": "332036",
+      "nativeVariationRecordHex": "a300004010510000000000004269672054696d65203134204e6f76202739380000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "0289a2a90c7f353bc1f5bb6e6a03fefbb1ec427cf2168e22f02bf6ca0494f71c",
+      "appearance": {
+        "small": {
+          "background": "",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_260_b02",
+          "frame": ""
+        }
+      },
+      "smallMode": "native-inherited",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S72",
+      "resourceIds": [
+        "0501_260_b02",
+        "0501_260_f04"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S72"
+    },
+    {
+      "id": "BT-278",
+      "series": "BT",
+      "variant": "278",
+      "reviewNo": "V11",
+      "donorPlayerId": "89135066911146",
+      "donorName": "Cristiano Ronaldo",
+      "donorVariation": "Big Time 8 Jun '25",
+      "nativeType": "51",
+      "identityPrefix": "332054",
+      "nativeVariationRecordHex": "aa11006011510000000000004269672054696d652038204a756e20273235000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "9036194ffe9de0ca01eeaaadf4d1c91e6d41ae322b119c8bf936fd2738972252",
+      "appearance": {
+        "small": {
+          "background": "0501_278_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_278_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0501_278_m01",
+        "0501_278_f02_v"
+      ],
+      "equivalentDonorCount": 10
+    },
+    {
+      "id": "BT-283",
+      "series": "BT",
+      "variant": "283",
+      "reviewNo": "V12",
+      "donorPlayerId": "89136409091415",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Big Time FC Barcelona 18 Apr '07",
+      "nativeType": "51",
+      "identityPrefix": "332059",
+      "nativeVariationRecordHex": "571d00b011510000000000004269672054696d652046432042617263656c6f6e61203138204170722027303700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "cb963f446b3c06c736b2a6d89109182475c1245fa062f037a6f6fc6480ebf0ea",
+      "appearance": {
+        "small": {
+          "background": "0501_283_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_283_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0501_283_m01",
+        "0501_283_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "BT-289",
+      "series": "BT",
+      "variant": "289",
+      "reviewNo": "V13",
+      "donorPlayerId": "89138019757152",
+      "donorName": "Bruno Fernandes",
+      "donorVariation": "Big Time Manchester United 7 Feb '26",
+      "nativeType": "51",
+      "identityPrefix": "332065",
+      "nativeVariationRecordHex": "60ec001012510000000000004269672054696d65204d616e6368657374657220556e6974656420372046656220273236000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "86fd1dd5a97947410c180ab3422fcf4070009bbaaeff79ea9bfce054a6b10826",
+      "appearance": {
+        "small": {
+          "background": "0501_289_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_289_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0501_289_m01",
+        "0501_289_f02_v"
+      ],
+      "equivalentDonorCount": 9
+    },
+    {
+      "id": "BT-291",
+      "series": "BT",
+      "variant": "291",
+      "reviewNo": "V14",
+      "donorPlayerId": "89138556575063",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Big Time Argentina 15 Jul '26",
+      "nativeType": "51",
+      "identityPrefix": "332067",
+      "nativeVariationRecordHex": "571d003012510000000000004269672054696d6520417267656e74696e61203135204a756c2027323600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "70ca26c98d35be314872b6da2ab3d556370b322e790aaf652b7976e5e26e3144",
+      "appearance": {
+        "small": {
+          "background": "0501_291_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_291_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0501_291_m01",
+        "0501_291_f02_v"
+      ],
+      "equivalentDonorCount": 6
+    },
+    {
+      "id": "Epic-0",
+      "series": "Epic",
+      "variant": "0",
+      "reviewNo": "V01",
+      "donorPlayerId": "87960930356659",
+      "donorName": "Andy Cole",
+      "donorVariation": "Manchester United 98-99",
+      "nativeType": "50",
+      "identityPrefix": "327680",
+      "nativeVariationRecordHex": "b30d020000500000000000004d616e6368657374657220556e697465642039382d393900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "893bfc321cd8b9ef68eab8e90e95efdc8ff99fb430d82a86846e4f1f9173c77c",
+      "appearance": {
+        "small": {
+          "background": "0500_0_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_0_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0500_0_m01",
+        "0500_0_f02_v"
+      ],
+      "equivalentDonorCount": 25
+    },
+    {
+      "id": "Epic-256",
+      "series": "Epic",
+      "variant": "256",
+      "reviewNo": "V02",
+      "donorPlayerId": "88029649698868",
+      "donorName": "Ono Shinji",
+      "donorVariation": "Shimizu S-Pulse 2010",
+      "nativeType": "50",
+      "identityPrefix": "327936",
+      "nativeVariationRecordHex": "3400000010500000000000005368696d697a7520532d50756c7365203230313000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "422d31f64f279d91887487a1ee32de4d94ee1eec95db7a4d2a475ece99dd682f",
+      "appearance": {
+        "small": {
+          "background": "0500_256_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_256_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0500_256_m01",
+        "0500_256_f02_v"
+      ],
+      "equivalentDonorCount": 34
+    },
+    {
+      "id": "Epic-257",
+      "series": "Epic",
+      "variant": "257",
+      "donorPlayerId": "88029918135124",
+      "donorName": "Iker Casillas",
+      "donorVariation": "Madrid Chamartin B 99-00",
+      "nativeType": "50",
+      "identityPrefix": "327937",
+      "nativeVariationRecordHex": "5403001010500000000000004d6164726964204368616d617274696e20422039392d3030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "3bcf813a4306f9ea18ce79f7b13c55bf919714a1816053dd374d1e105a635c2a",
+      "appearance": {
+        "small": {
+          "background": "0500_257_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_257_b02",
+          "frame": "0500_257_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S02",
+      "resourceIds": [
+        "0500_257_b02",
+        "0500_257_f01",
+        "0500_257_m01"
+      ],
+      "equivalentDonorCount": 36,
+      "staticReviewNo": "S02"
+    },
+    {
+      "id": "Epic-258",
+      "series": "Epic",
+      "variant": "258",
+      "donorPlayerId": "88030186577239",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Argentina 2022",
+      "nativeType": "50",
+      "identityPrefix": "327938",
+      "nativeVariationRecordHex": "571d00201050000000000000417267656e74696e61203230323200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "ebf035a62cad1d6b58432ec9ccb85ac4e4db10bd6721b0056824f2c2b6e108bc",
+      "appearance": {
+        "small": {
+          "background": "0500_258_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_258_b02",
+          "frame": "0500_258_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S05",
+      "resourceIds": [
+        "0500_258_b02",
+        "0500_258_f01",
+        "0500_258_f02",
+        "0500_258_f04",
+        "0500_258_f05",
+        "0500_258_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S05"
+    },
+    {
+      "id": "Epic-259",
+      "series": "Epic",
+      "variant": "259",
+      "donorPlayerId": "88030455005256",
+      "donorName": "Abe Yuki",
+      "donorVariation": "Urawa Reds 2017",
+      "nativeType": "50",
+      "identityPrefix": "327939",
+      "nativeVariationRecordHex": "480000301050000000000000557261776120526564732032303137000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "b861152d36ddf82182a09d9832fbcc9293a738d5613c03be702ab68a2537d699",
+      "appearance": {
+        "small": {
+          "background": "0500_259_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_259_b02",
+          "frame": "0500_259_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S08",
+      "resourceIds": [
+        "0500_259_b02",
+        "0500_259_f01",
+        "0500_259_m01"
+      ],
+      "equivalentDonorCount": 31,
+      "staticReviewNo": "S08"
+    },
+    {
+      "id": "Epic-260",
+      "series": "Epic",
+      "variant": "260",
+      "donorPlayerId": "88030723440795",
+      "donorName": "Kawaguchi Yoshikatsu",
+      "donorVariation": "Yokohama F. Marinos 1995",
+      "nativeType": "50",
+      "identityPrefix": "327940",
+      "nativeVariationRecordHex": "9b0000401050000000000000596f6b6f68616d6120462e204d6172696e6f732031393935000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "425a9f49edeaaffb7e9e17078dc83ddd39edd365a22b94a8fda1373cf3099e11",
+      "appearance": {
+        "small": {
+          "background": "0500_260_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_260_b02",
+          "frame": "0500_260_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S11",
+      "resourceIds": [
+        "0500_260_b02",
+        "0500_260_f01",
+        "0500_260_m01"
+      ],
+      "equivalentDonorCount": 19,
+      "staticReviewNo": "S11"
+    },
+    {
+      "id": "Epic-261",
+      "series": "Epic",
+      "variant": "261",
+      "donorPlayerId": "88030991876148",
+      "donorName": "Ono Shinji",
+      "donorVariation": "Urawa Reds 2006",
+      "nativeType": "50",
+      "identityPrefix": "327941",
+      "nativeVariationRecordHex": "340000501050000000000000557261776120526564732032303036000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "beaf05dab2ed02ba7ae9b0903a92c102484554c2e48f2c5afdae710e5a0eda65",
+      "appearance": {
+        "small": {
+          "background": "0500_261_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_261_b02",
+          "frame": "0500_261_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S14",
+      "resourceIds": [
+        "0500_261_b02",
+        "0500_261_f01",
+        "0500_261_m01"
+      ],
+      "equivalentDonorCount": 20,
+      "staticReviewNo": "S14"
+    },
+    {
+      "id": "Epic-262",
+      "series": "Epic",
+      "variant": "262",
+      "donorPlayerId": "88031260446148",
+      "donorName": "Filippo Inzaghi",
+      "donorVariation": "Atalanta BC 96-97",
+      "nativeType": "50",
+      "identityPrefix": "327942",
+      "nativeVariationRecordHex": "c40d026010500000000000004174616c616e74612042432039362d393700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "f1638e5d6c67435c6b4d2146c1c9cd085c772701632b2d2011a0c8383e34602e",
+      "appearance": {
+        "small": {
+          "background": "0500_262_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_262_b02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S17",
+      "resourceIds": [
+        "0500_262_b02",
+        "0500_262_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S17"
+    },
+    {
+      "id": "Epic-263",
+      "series": "Epic",
+      "variant": "263",
+      "donorPlayerId": "88031528881604",
+      "donorName": "Filippo Inzaghi",
+      "donorVariation": "AC Milan 02-03",
+      "nativeType": "50",
+      "identityPrefix": "327943",
+      "nativeVariationRecordHex": "c40d027010500000000000004143204d696c616e2030322d303300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "1a1af0e38a0e206ad36f64765c018caa9f5f68e7fb29f43ea8c2e1794848fa26",
+      "appearance": {
+        "small": {
+          "background": "0500_263_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_263_b02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S20",
+      "resourceIds": [
+        "0500_263_b02",
+        "0500_263_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S20"
+    },
+    {
+      "id": "Epic-264",
+      "series": "Epic",
+      "variant": "264",
+      "donorPlayerId": "88031797182492",
+      "donorName": "Nakata Koji",
+      "donorVariation": "Kashima Antlers 2000",
+      "nativeType": "50",
+      "identityPrefix": "327944",
+      "nativeVariationRecordHex": "1c00008010500000000000004b617368696d6120416e746c657273203230303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "e23bcdc51f349cf444c727f6b8e89bb37266c92e04fe6fe7c9277da868161ab6",
+      "appearance": {
+        "small": {
+          "background": "0500_264_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_264_b02",
+          "frame": "0500_264_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S23",
+      "resourceIds": [
+        "0500_264_b02",
+        "0500_264_f01",
+        "0500_264_m01"
+      ],
+      "equivalentDonorCount": 23,
+      "staticReviewNo": "S23"
+    },
+    {
+      "id": "Epic-265",
+      "series": "Epic",
+      "variant": "265",
+      "donorPlayerId": "88032065618150",
+      "donorName": "Dragan Stojković",
+      "donorVariation": "Serbia 1990",
+      "nativeType": "50",
+      "identityPrefix": "327945",
+      "nativeVariationRecordHex": "e60000901050000000000000536572626961203139393000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "5ee90e6decbfa77eabad2dfef65129711328d22f40b4cf30fa735fa292f09cac",
+      "appearance": {
+        "small": {
+          "background": "0500_265_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_265_b02",
+          "frame": "0500_265_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S26",
+      "resourceIds": [
+        "0500_265_b02",
+        "0500_265_f01",
+        "0500_265_m01"
+      ],
+      "equivalentDonorCount": 28,
+      "staticReviewNo": "S26"
+    },
+    {
+      "id": "Epic-266",
+      "series": "Epic",
+      "variant": "266",
+      "reviewNo": "V03",
+      "donorPlayerId": "88032334053428",
+      "donorName": "Ono Shinji",
+      "donorVariation": "Japan 2002",
+      "nativeType": "50",
+      "identityPrefix": "327946",
+      "nativeVariationRecordHex": "340000a010500000000000004a6170616e20323030320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "15cd8ab4e275fde76dfdfdf3788e85196db5323090ef06e13d29289cd08785bd",
+      "appearance": {
+        "small": {
+          "background": "0500_266_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_266_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0500_266_m01",
+        "0500_266_f02_v"
+      ],
+      "equivalentDonorCount": 39
+    },
+    {
+      "id": "Epic-267",
+      "series": "Epic",
+      "variant": "267",
+      "donorPlayerId": "88032602496343",
+      "donorName": "Lionel Messi",
+      "donorVariation": "FC Barcelona 05-06",
+      "nativeType": "50",
+      "identityPrefix": "327947",
+      "nativeVariationRecordHex": "571d00b0105000000000000046432042617263656c6f6e612030352d3036000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "58ad31d15c351234db6faffd3f12c13a4b0397ca25fcaf5c211867820c47e381",
+      "appearance": {
+        "small": {
+          "background": "0500_267_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_267_b02",
+          "frame": "0500_267_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S29",
+      "resourceIds": [
+        "0500_267_b02",
+        "0500_267_f01",
+        "0500_267_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S29"
+    },
+    {
+      "id": "Epic-268",
+      "series": "Epic",
+      "variant": "268",
+      "donorPlayerId": "88032870964640",
+      "donorName": "Neymar Jr",
+      "donorVariation": "Brazil 2014",
+      "nativeType": "50",
+      "identityPrefix": "327948",
+      "nativeVariationRecordHex": "a09d00c010500000000000004272617a696c203230313400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "fca71a9758805600883f7e98ab168da4437a54ba4fdff2cbda876fb0173b0fc9",
+      "appearance": {
+        "small": {
+          "background": "0500_268_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_268_b02",
+          "frame": "0500_268_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S32",
+      "resourceIds": [
+        "0500_268_b02",
+        "0500_268_f01",
+        "0500_268_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S32"
+    },
+    {
+      "id": "Epic-269",
+      "series": "Epic",
+      "variant": "269",
+      "donorPlayerId": "88033139360610",
+      "donorName": "Xavi",
+      "donorVariation": "FC Barcelona 08-09",
+      "nativeType": "50",
+      "identityPrefix": "327949",
+      "nativeVariationRecordHex": "620300d0105000000000000046432042617263656c6f6e612030382d3039000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "71e449ba5a6dd527116c85792820982b0119f623493a309715d7488b2c8c5972",
+      "appearance": {
+        "small": {
+          "background": "0500_269_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_269_b02",
+          "frame": "0500_269_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S35",
+      "resourceIds": [
+        "0500_269_b02",
+        "0500_269_f01",
+        "0500_269_f04",
+        "0500_269_m01"
+      ],
+      "equivalentDonorCount": 27,
+      "staticReviewNo": "S35"
+    },
+    {
+      "id": "Epic-270",
+      "series": "Epic",
+      "variant": "270",
+      "donorPlayerId": "88033407795214",
+      "donorName": "Oguro Masashi",
+      "donorVariation": "Gamba Osaka 2005",
+      "nativeType": "50",
+      "identityPrefix": "327950",
+      "nativeVariationRecordHex": "0e0000e0105000000000000047616d6261204f73616b6120323030350000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "8ca97b2877c8c434cb3484c5c52ca35917fd1ee55a8bf4cc59a4907d6762aaff",
+      "appearance": {
+        "small": {
+          "background": "0500_270_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_270_b02",
+          "frame": "0500_270_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S38",
+      "resourceIds": [
+        "0500_270_b02",
+        "0500_270_f01",
+        "0500_270_f04",
+        "0500_270_m01"
+      ],
+      "equivalentDonorCount": 53,
+      "staticReviewNo": "S38"
+    },
+    {
+      "id": "Epic-271",
+      "series": "Epic",
+      "variant": "271",
+      "donorPlayerId": "88033676365293",
+      "donorName": "K. Heinz Rummenigge",
+      "donorVariation": "Germany 1980 feat. Captain Tsubasa",
+      "nativeType": "50",
+      "identityPrefix": "327951",
+      "nativeVariationRecordHex": "ed0d02f010500000000000004765726d616e79203139383020666561742e204361707461696e20547375626173610000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "33a65f6d687794b2c8f518d2f0b9503dead1bd054cccad3531bad8ea1c94f1d3",
+      "appearance": {
+        "small": {
+          "background": "0500_271_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_271_b02",
+          "frame": "0500_271_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S41",
+      "resourceIds": [
+        "0500_271_b02",
+        "0500_271_f01",
+        "0500_271_f04",
+        "0500_271_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S41"
+    },
+    {
+      "id": "Epic-272",
+      "series": "Epic",
+      "variant": "272",
+      "donorPlayerId": "88033944800711",
+      "donorName": "Oliver Kahn",
+      "donorVariation": "Germany 2002 feat. Captain Tsubasa",
+      "nativeType": "50",
+      "identityPrefix": "327952",
+      "nativeVariationRecordHex": "c70d020011500000000000004765726d616e79203230303220666561742e204361707461696e20547375626173610000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "74e9665c7484c909ac3a027f12062035289741dc5a3d5a1d0031cf53d98fec9d",
+      "appearance": {
+        "small": {
+          "background": "0500_272_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_272_b02",
+          "frame": "0500_272_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S44",
+      "resourceIds": [
+        "0500_272_b02",
+        "0500_272_f01",
+        "0500_272_f04",
+        "0500_272_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S44"
+    },
+    {
+      "id": "Epic-273",
+      "series": "Epic",
+      "variant": "273",
+      "donorPlayerId": "88034213236197",
+      "donorName": "Lothar Matthäus",
+      "donorVariation": "Germany 1990 feat. Captain Tsubasa",
+      "nativeType": "50",
+      "identityPrefix": "327953",
+      "nativeVariationRecordHex": "e50d021011500000000000004765726d616e79203139393020666561742e204361707461696e20547375626173610000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "089b63f27f0cd75b5716aa84a628445164274f29ceae0ff263e7b1016188c28a",
+      "appearance": {
+        "small": {
+          "background": "0500_273_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_273_b02",
+          "frame": "0500_273_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S47",
+      "resourceIds": [
+        "0500_273_b02",
+        "0500_273_f01",
+        "0500_273_f04",
+        "0500_273_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S47"
+    },
+    {
+      "id": "Epic-274",
+      "series": "Epic",
+      "variant": "274",
+      "donorPlayerId": "88034481539809",
+      "donorName": "Eric Cantona",
+      "donorVariation": "France 1993 feat. Captain Tsubasa",
+      "nativeType": "50",
+      "identityPrefix": "327954",
+      "nativeVariationRecordHex": "e10a002011500000000000004672616e6365203139393320666561742e204361707461696e2054737562617361000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "228f83980e72ec3bf778260aa48627a599229e6a6efedd6bad0d388def7cbc58",
+      "appearance": {
+        "small": {
+          "background": "0500_274_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_274_b02",
+          "frame": "0500_274_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S50",
+      "resourceIds": [
+        "0500_274_b02",
+        "0500_274_f01",
+        "0500_274_f04",
+        "0500_274_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S50"
+    },
+    {
+      "id": "Epic-275",
+      "series": "Epic",
+      "variant": "275",
+      "donorPlayerId": "88034750107127",
+      "donorName": "Diego Forlán",
+      "donorVariation": "Uruguay 2010 feat. Captain Tsubasa",
+      "nativeType": "50",
+      "identityPrefix": "327955",
+      "nativeVariationRecordHex": "f70d0230115000000000000055727567756179203230313020666561742e204361707461696e20547375626173610000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "399fc50bb06a8f98c2b9105a1341d8c061a32b4c9308a0494bd06bdf60539c55",
+      "appearance": {
+        "small": {
+          "background": "0500_275_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_275_b02",
+          "frame": "0500_275_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S53",
+      "resourceIds": [
+        "0500_275_b02",
+        "0500_275_f01",
+        "0500_275_f04",
+        "0500_275_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S53"
+    },
+    {
+      "id": "Epic-276",
+      "series": "Epic",
+      "variant": "276",
+      "donorPlayerId": "88035018410719",
+      "donorName": "Michel Platini",
+      "donorVariation": "France 1984 feat. Captain Tsubasa",
+      "nativeType": "50",
+      "identityPrefix": "327956",
+      "nativeVariationRecordHex": "df0a004011500000000000004672616e6365203139383420666561742e204361707461696e2054737562617361000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "c9823074430d203b42751511719ae6d29cb3afe18ce3e16e37830122a66c1ccf",
+      "appearance": {
+        "small": {
+          "background": "0500_276_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_276_b02",
+          "frame": "0500_276_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S56",
+      "resourceIds": [
+        "0500_276_b02",
+        "0500_276_f01",
+        "0500_276_f04",
+        "0500_276_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S56"
+    },
+    {
+      "id": "Epic-277",
+      "series": "Epic",
+      "variant": "277",
+      "donorPlayerId": "88035287009271",
+      "donorName": "Wei Qun",
+      "donorVariation": "China PR 2001",
+      "nativeType": "50",
+      "identityPrefix": "327957",
+      "nativeVariationRecordHex": "f787025011500000000000004368696e6120505220323030310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "0dc42fd8ba100d5095023c3de92e7157a5dfdf3fd444abeb8090f317eade75e2",
+      "appearance": {
+        "small": {
+          "background": "0500_277_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_277_b02",
+          "frame": "0500_277_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S59",
+      "resourceIds": [
+        "0500_277_b02",
+        "0500_277_f01",
+        "0500_277_f04",
+        "0500_277_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S59"
+    },
+    {
+      "id": "Epic-278",
+      "series": "Epic",
+      "variant": "278",
+      "donorPlayerId": "88035555278876",
+      "donorName": "Nakata Koji",
+      "donorVariation": "Japan 2002",
+      "nativeType": "50",
+      "identityPrefix": "327958",
+      "nativeVariationRecordHex": "1c00006011500000000000004a6170616e20323030320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "84e6cc4c3bfe6537bc6a6980f3254008d65502edf93f5659d0cd4e09c482eb4d",
+      "appearance": {
+        "small": {
+          "background": "0500_278_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_278_b02",
+          "frame": "0500_278_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S62",
+      "resourceIds": [
+        "0500_278_b02",
+        "0500_278_f01",
+        "0500_278_f04",
+        "0500_278_m01"
+      ],
+      "equivalentDonorCount": 34,
+      "staticReviewNo": "S62"
+    },
+    {
+      "id": "Epic-279",
+      "series": "Epic",
+      "variant": "279",
+      "donorPlayerId": "88035823714318",
+      "donorName": "Oguro Masashi",
+      "donorVariation": "Japan 2006",
+      "nativeType": "50",
+      "identityPrefix": "327959",
+      "nativeVariationRecordHex": "0e00007011500000000000004a6170616e20323030360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "4071f96d8be3b0e8fc0a0d2344471e8997eb4d6bb2728a4eef97a03a9f210c8e",
+      "appearance": {
+        "small": {
+          "background": "0500_279_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_279_b02",
+          "frame": "0500_279_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S65",
+      "resourceIds": [
+        "0500_279_b02",
+        "0500_279_f01",
+        "0500_279_f04",
+        "0500_279_m01"
+      ],
+      "equivalentDonorCount": 29,
+      "staticReviewNo": "S65"
+    },
+    {
+      "id": "Epic-280",
+      "series": "Epic",
+      "variant": "280",
+      "donorPlayerId": "88036092150612",
+      "donorName": "Iker Casillas",
+      "donorVariation": "Spain 2008",
+      "nativeType": "50",
+      "identityPrefix": "327960",
+      "nativeVariationRecordHex": "540300801150000000000000537061696e20323030380000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "7f388905c6cc44d8ac38000124022843e31423c3866e5d8498a9af2b8de5f541",
+      "appearance": {
+        "small": {
+          "background": "0500_280_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_280_b02",
+          "frame": "0500_280_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S68",
+      "resourceIds": [
+        "0500_280_b02",
+        "0500_280_f01",
+        "0500_280_f04",
+        "0500_280_m01"
+      ],
+      "equivalentDonorCount": 11,
+      "staticReviewNo": "S68"
+    },
+    {
+      "id": "Epic-281",
+      "series": "Epic",
+      "variant": "281",
+      "reviewNo": "V04",
+      "donorPlayerId": "88036360585244",
+      "donorName": "Nakata Koji",
+      "donorVariation": "Kashima Antlers 2000",
+      "nativeType": "50",
+      "identityPrefix": "327961",
+      "nativeVariationRecordHex": "1c00009011500000000000004b617368696d6120416e746c657273203230303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "e2a2db382b04f0f05fffcd650a78ef6f3a5b8e8835e565431843a3d8cd349bbc",
+      "appearance": {
+        "small": {
+          "background": "0500_281_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_281_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0500_281_m01",
+        "0500_281_f02_v"
+      ],
+      "equivalentDonorCount": 52
+    },
+    {
+      "id": "Epic-282",
+      "series": "Epic",
+      "variant": "282",
+      "donorPlayerId": "88036629155304",
+      "donorName": "Frank Rijkaard",
+      "donorVariation": "AC Milan 91-92",
+      "nativeType": "50",
+      "identityPrefix": "327962",
+      "nativeVariationRecordHex": "e80d02a011500000000000004143204d696c616e2039312d393200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "ce6edcf1e5d91a81325c0e1301e51b93eabc0ed0d3857ffca6d0a87f1b28c116",
+      "appearance": {
+        "small": {
+          "background": "0500_282_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_282_b02",
+          "frame": "0500_282_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S71",
+      "resourceIds": [
+        "0500_282_b02",
+        "0500_282_f01",
+        "0500_282_f04",
+        "0500_282_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S71"
+    },
+    {
+      "id": "Epic-292",
+      "series": "Epic",
+      "variant": "292",
+      "reviewNo": "V05",
+      "donorPlayerId": "88039313485858",
+      "donorName": "Ousmane Dembélé",
+      "donorVariation": "World Player of the Year 2025",
+      "nativeType": "50",
+      "identityPrefix": "327972",
+      "nativeVariationRecordHex": "22b001401250000000000000576f726c6420506c61796572206f66207468652059656172203230323500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "a98ca0132c48efd6c19b234ec9b0fe3b8f01d979b19701dd6dcd1560eaff27de",
+      "appearance": {
+        "small": {
+          "background": "0500_292_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_292_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0500_292_m01",
+        "0500_292_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "Epic-295",
+      "series": "Epic",
+      "variant": "295",
+      "reviewNo": "V06",
+      "donorPlayerId": "88040118816667",
+      "donorName": "Vitinha",
+      "donorVariation": "World Player of the Year 2025",
+      "nativeType": "50",
+      "identityPrefix": "327975",
+      "nativeVariationRecordHex": "9b0f02701250000000000000576f726c6420506c61796572206f66207468652059656172203230323500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "51a9e95fce9087e8d08fe6d32208a1b0a1d6e941169eb4d9f854ce6b3d3445b5",
+      "appearance": {
+        "small": {
+          "background": "0500_295_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_295_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0500_295_m01",
+        "0500_295_f02_v"
+      ],
+      "equivalentDonorCount": 2
+    },
+    {
+      "id": "Epic-309",
+      "series": "Epic",
+      "variant": "309",
+      "reviewNo": "V07",
+      "donorPlayerId": "88043876825271",
+      "donorName": "Harry Kane",
+      "donorVariation": "England 2026",
+      "nativeType": "50",
+      "identityPrefix": "327989",
+      "nativeVariationRecordHex": "b7b800501350000000000000456e676c616e642032303236000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "d7edadb23acf5565fe69ddb784e2c54abf5af0b0c5fc780f66b6c4cffdae17f9",
+      "appearance": {
+        "small": {
+          "background": "0500_309_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_309_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0500_309_m01",
+        "0500_309_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "Epic-313",
+      "series": "Epic",
+      "variant": "313",
+      "reviewNo": "V08",
+      "donorPlayerId": "88044950524330",
+      "donorName": "Cristiano Ronaldo",
+      "donorVariation": "Portugal 2026",
+      "nativeType": "50",
+      "identityPrefix": "327993",
+      "nativeVariationRecordHex": "aa1100901350000000000000506f72747567616c20323032360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "4a6d58a73dd858af54b1e7a14bd6fd9404b0ee000f2e6a21bfa9d18932ce62ff",
+      "appearance": {
+        "small": {
+          "background": "0500_313_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_313_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0500_313_m01",
+        "0500_313_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "Epic-316",
+      "series": "Epic",
+      "variant": "316",
+      "reviewNo": "V09",
+      "donorPlayerId": "88045755964133",
+      "donorName": "Fabio Cannavaro",
+      "donorVariation": "Italy 2000",
+      "nativeType": "50",
+      "identityPrefix": "327996",
+      "nativeVariationRecordHex": "e51a02c013500000000000004974616c7920323030300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "62c08427137b90570b52f4e5b3cd1d8f5382b1da4ed26f5779d36574b84ec72e",
+      "appearance": {
+        "small": {
+          "background": "0500_316_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_316_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0500_316_m01",
+        "0500_316_f02_v"
+      ],
+      "equivalentDonorCount": 40
+    },
+    {
+      "id": "ST-0",
+      "series": "ST",
+      "variant": "0",
+      "reviewNo": "V15",
+      "donorPlayerId": "106652628021167",
+      "donorName": "Victor Osimhen",
+      "donorVariation": "Show Time 2 Mar '23",
+      "nativeType": "61",
+      "identityPrefix": "397312",
+      "nativeVariationRecordHex": "afef0100006100000000000053686f772054696d652032204d6172202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "bcd027dfc9667bf92d6b4334f33b0a91603f89faa89e5d6f5d4f498d676ea04c",
+      "appearance": {
+        "small": {
+          "background": "0601_0_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_0_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_0_m01",
+        "0601_0_f02_v"
+      ],
+      "equivalentDonorCount": 4
+    },
+    {
+      "id": "ST-264",
+      "series": "ST",
+      "variant": "264",
+      "reviewNo": "V16",
+      "donorPlayerId": "106723494897719",
+      "donorName": "Son Heung-Min",
+      "donorVariation": "Show Time 7 Dec '23",
+      "nativeType": "61",
+      "identityPrefix": "397576",
+      "nativeVariationRecordHex": "37a80080106100000000000053686f772054696d65203720446563202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "460e0fad3bd7571f2468d894de266c68d91ad1cd9782d5b5cf492c6eb71ddbf8",
+      "appearance": {
+        "small": {
+          "background": "0601_264_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_264_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_264_m01",
+        "0601_264_f02_v"
+      ],
+      "equivalentDonorCount": 3
+    },
+    {
+      "id": "ST-276",
+      "series": "ST",
+      "variant": "276",
+      "donorPlayerId": "105627204512743",
+      "donorName": "Rafa Silva",
+      "donorVariation": "European Clubs Selection Midfielders 2 Oct '23",
+      "nativeType": "60",
+      "identityPrefix": "393492",
+      "nativeVariationRecordHex": "e7eb004011600000000000004575726f7065616e20436c7562732053656c656374696f6e204d69646669656c646572732032204f6374202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "6fbfa66ff62d00e79ba79284413772eecdcc9198f1c28dccfee5a4c7a7648f60",
+      "appearance": {
+        "small": {
+          "background": "0601_276_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_276_b02",
+          "frame": "0601_276_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S04",
+      "resourceIds": [
+        "0601_276_b02",
+        "0601_276_f01",
+        "0601_276_f04",
+        "0601_276_m01"
+      ],
+      "equivalentDonorCount": 8,
+      "staticReviewNo": "S04"
+    },
+    {
+      "id": "ST-291",
+      "series": "ST",
+      "variant": "291",
+      "donorPlayerId": "105631231024906",
+      "donorName": "Thomas Müller",
+      "donorVariation": "FC Bayern München Pack 19 Oct '23",
+      "nativeType": "60",
+      "identityPrefix": "393507",
+      "nativeVariationRecordHex": "0a9f0030126000000000000046432042617965726e204dc3bc6e6368656e205061636b203139204f6374202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "4185bb7ca8cea5cc35a1aa1574a672de5b2fbeaf0de3849341bb3f4cd377561d",
+      "appearance": {
+        "small": {
+          "background": "0601_291_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_291_b02",
+          "frame": "0601_291_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S07",
+      "resourceIds": [
+        "0601_291_b02",
+        "0601_291_f01",
+        "0601_291_f04",
+        "0601_291_m01"
+      ],
+      "equivalentDonorCount": 11,
+      "staticReviewNo": "S07"
+    },
+    {
+      "id": "ST-292",
+      "series": "ST",
+      "variant": "292",
+      "donorPlayerId": "105631499456275",
+      "donorName": "Yann Sommer",
+      "donorVariation": "Internazionale Milano Pack 19 Oct '23",
+      "nativeType": "60",
+      "identityPrefix": "393508",
+      "nativeVariationRecordHex": "138f00401260000000000000496e7465726e617a696f6e616c65204d696c616e6f205061636b203139204f6374202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "3472efae50f2673fe5c9c2609a53e6a3fa0e1eded7572d66d544832394f6ba50",
+      "appearance": {
+        "small": {
+          "background": "0601_292_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_292_b02",
+          "frame": "0601_292_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S10",
+      "resourceIds": [
+        "0601_292_b02",
+        "0601_292_f01",
+        "0601_292_f04",
+        "0601_292_m01"
+      ],
+      "equivalentDonorCount": 11,
+      "staticReviewNo": "S10"
+    },
+    {
+      "id": "ST-293",
+      "series": "ST",
+      "variant": "293",
+      "reviewNo": "V17",
+      "donorPlayerId": "106731279490391",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Skill Up",
+      "nativeType": "61",
+      "identityPrefix": "397605",
+      "nativeVariationRecordHex": "571d00501261000000000000536b696c6c20557000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "0dc6524a61c5b77248b5e778e431f4e14d138fb5d51b427d8e9bde28f56aa556",
+      "appearance": {
+        "small": {
+          "background": "0601_293_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_293_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_293_m01",
+        "0601_293_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "ST-295",
+      "series": "ST",
+      "variant": "295",
+      "donorPlayerId": "105632304764795",
+      "donorName": "Dani Parejo",
+      "donorVariation": "Spanish League Selection Midfielders 30 Oct '23",
+      "nativeType": "60",
+      "identityPrefix": "393511",
+      "nativeVariationRecordHex": "7b97007012600000000000005370616e697368204c65616775652053656c656374696f6e204d69646669656c64657273203330204f63742027323300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "2c7bcf4f5c3214447bac7842bf0e41f80ea3f2e10110bd2b4d7227d58bf5fc80",
+      "appearance": {
+        "small": {
+          "background": "0601_295_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_295_b02",
+          "frame": "0601_295_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S13",
+      "resourceIds": [
+        "0601_295_b02",
+        "0601_295_f01",
+        "0601_295_f04",
+        "0601_295_m01"
+      ],
+      "equivalentDonorCount": 8,
+      "staticReviewNo": "S13"
+    },
+    {
+      "id": "ST-296",
+      "series": "ST",
+      "variant": "296",
+      "donorPlayerId": "105632573177354",
+      "donorName": "Ohno Kazunari",
+      "donorVariation": "J1 LEAGUE Selection 26 Oct '23",
+      "nativeType": "60",
+      "identityPrefix": "393512",
+      "nativeVariationRecordHex": "0a3e008012600000000000004a31204c45414755452053656c656374696f6e203236204f637420273233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "21f2c1c42bd4fe3fade7c3f88fce68488a20a58ff950bb13c6fbd001377a5016",
+      "appearance": {
+        "small": {
+          "background": "0601_296_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_296_b02",
+          "frame": "0601_296_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S16",
+      "resourceIds": [
+        "0601_296_b02",
+        "0601_296_f01",
+        "0601_296_f04",
+        "0601_296_m01"
+      ],
+      "equivalentDonorCount": 9,
+      "staticReviewNo": "S16"
+    },
+    {
+      "id": "ST-297",
+      "series": "ST",
+      "variant": "297",
+      "donorPlayerId": "105632841711033",
+      "donorName": "Matthijs de Ligt",
+      "donorVariation": "Halloween Campaign 26 Oct '23",
+      "nativeType": "60",
+      "identityPrefix": "393513",
+      "nativeVariationRecordHex": "b9bd0190126000000000000048616c6c6f7765656e2043616d706169676e203236204f63742027323300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "47d4c32a0ef66d28198b23a5419ce4f5a266424f0ddc6172849c8b0a3bd8ece1",
+      "appearance": {
+        "small": {
+          "background": "0601_297_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_297_b02",
+          "frame": "0601_297_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S19",
+      "resourceIds": [
+        "0601_297_b02",
+        "0601_297_f01",
+        "0601_297_f02",
+        "0601_297_f04",
+        "0601_297_f05",
+        "0601_297_m01"
+      ],
+      "equivalentDonorCount": 3,
+      "staticReviewNo": "S19"
+    },
+    {
+      "id": "ST-298",
+      "series": "ST",
+      "variant": "298",
+      "donorPlayerId": "105633110093921",
+      "donorName": "Aldo Rocha",
+      "donorVariation": "Liga MX x Day of the Dead 2023",
+      "nativeType": "60",
+      "identityPrefix": "393514",
+      "nativeVariationRecordHex": "61f000a012600000000000004c696761204d58207820446179206f662074686520446561642032303233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "457b90031f03e890c0f38d586b97858a82f7bbe5ae0a0cb3384bea10ce14e1ed",
+      "appearance": {
+        "small": {
+          "background": "0601_298_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_298_b02",
+          "frame": "0601_298_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S22",
+      "resourceIds": [
+        "0601_298_b02",
+        "0601_298_f01",
+        "0601_298_f02",
+        "0601_298_f04",
+        "0601_298_m01"
+      ],
+      "equivalentDonorCount": 5,
+      "staticReviewNo": "S22"
+    },
+    {
+      "id": "ST-299",
+      "series": "ST",
+      "variant": "299",
+      "donorPlayerId": "105633378509459",
+      "donorName": "Andrés Mosquera",
+      "donorVariation": "Liga BBVA MX Selection 2 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393515",
+      "nativeVariationRecordHex": "93a200b012600000000000004c6967612042425641204d582053656c656374696f6e2032204e6f762027323300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "dd1a820cb7087b573d8d0f45b0a663dffc4e0a37d1f8a33a4df764f9b83ebf61",
+      "appearance": {
+        "small": {
+          "background": "0601_299_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_299_b02",
+          "frame": "0601_299_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S25",
+      "resourceIds": [
+        "0601_299_b02",
+        "0601_299_f01",
+        "0601_299_f02",
+        "0601_299_f04",
+        "0601_299_f05",
+        "0601_299_m01"
+      ],
+      "equivalentDonorCount": 11,
+      "staticReviewNo": "S25"
+    },
+    {
+      "id": "ST-300",
+      "series": "ST",
+      "variant": "300",
+      "donorPlayerId": "105633646910807",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Golden Achievement 2 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393516",
+      "nativeVariationRecordHex": "571d00c01260000000000000476f6c64656e20416368696576656d656e742032204e6f76202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "a3d56cff7e2ec50b4cf6a7663a54394349efdc8e94522c245001257cc3f5c922",
+      "appearance": {
+        "small": {
+          "background": "0601_300_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_300_b02",
+          "frame": "0601_300_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S28",
+      "resourceIds": [
+        "0601_300_b02",
+        "0601_300_f01",
+        "0601_300_f02",
+        "0601_300_f04",
+        "0601_300_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S28"
+    },
+    {
+      "id": "ST-301",
+      "series": "ST",
+      "variant": "301",
+      "donorPlayerId": "105633915454006",
+      "donorName": "Randal Kolo Muani",
+      "donorVariation": "Golden Boys 2 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393517",
+      "nativeVariationRecordHex": "36c201d01260000000000000476f6c64656e20426f79732032204e6f7620273233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "96b0499b3f9a0577e7fa2a7da4bcce505582e5f81fce81d0900712b3738d241e",
+      "appearance": {
+        "small": {
+          "background": "0601_301_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_301_b02",
+          "frame": "0601_301_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S31",
+      "resourceIds": [
+        "0601_301_b02",
+        "0601_301_f01",
+        "0601_301_f02",
+        "0601_301_f04",
+        "0601_301_f05",
+        "0601_301_m01"
+      ],
+      "equivalentDonorCount": 10,
+      "staticReviewNo": "S31"
+    },
+    {
+      "id": "ST-302",
+      "series": "ST",
+      "variant": "302",
+      "donorPlayerId": "105634183819783",
+      "donorName": "Víctor Cuesta",
+      "donorVariation": "Brasileirão Assaí Selection 2 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393518",
+      "nativeVariationRecordHex": "07b200e0126000000000000042726173696c656972c3a36f2041737361c3ad2053656c656374696f6e2032204e6f7620273233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "e4d15f9a8377df878342ae362796bd06a54bd5318bab2b7638eb7e137ba332d4",
+      "appearance": {
+        "small": {
+          "background": "0601_302_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_302_b02",
+          "frame": "0601_302_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S34",
+      "resourceIds": [
+        "0601_302_b02",
+        "0601_302_f01",
+        "0601_302_f02",
+        "0601_302_f04",
+        "0601_302_f05",
+        "0601_302_m01"
+      ],
+      "equivalentDonorCount": 11,
+      "staticReviewNo": "S34"
+    },
+    {
+      "id": "ST-303",
+      "series": "ST",
+      "variant": "303",
+      "donorPlayerId": "105634452249921",
+      "donorName": "Chris Smalling",
+      "donorVariation": "Italian League Selection Guardians 6 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393519",
+      "nativeVariationRecordHex": "419d00f012600000000000004974616c69616e204c65616775652053656c656374696f6e20477561726469616e732036204e6f762027323300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "f8bb20eb69676dcdedd7e01295f0f3daec00c159093f5129bc4327270d5ca6f2",
+      "appearance": {
+        "small": {
+          "background": "0601_303_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_303_b02",
+          "frame": "0601_303_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S37",
+      "resourceIds": [
+        "0601_303_b02",
+        "0601_303_f01",
+        "0601_303_f02",
+        "0601_303_f04",
+        "0601_303_m01"
+      ],
+      "equivalentDonorCount": 8,
+      "staticReviewNo": "S37"
+    },
+    {
+      "id": "ST-305",
+      "series": "ST",
+      "variant": "305",
+      "donorPlayerId": "105634989097007",
+      "donorName": "Shiotani Tsukasa",
+      "donorVariation": "J1 LEAGUE Selection 9 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393521",
+      "nativeVariationRecordHex": "2f40001013600000000000004a31204c45414755452053656c656374696f6e2039204e6f762027323300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "455d93da4f2947b62639fd3a2e709edb0f1d2a74bb15712efa73d8cb0c02d1e0",
+      "appearance": {
+        "small": {
+          "background": "0601_305_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_305_b02",
+          "frame": "0601_305_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S40",
+      "resourceIds": [
+        "0601_305_b02",
+        "0601_305_f01",
+        "0601_305_f02",
+        "0601_305_f04",
+        "0601_305_m01"
+      ],
+      "equivalentDonorCount": 9,
+      "staticReviewNo": "S40"
+    },
+    {
+      "id": "ST-306",
+      "series": "ST",
+      "variant": "306",
+      "donorPlayerId": "105635257556454",
+      "donorName": "Xherdan Shaqiri",
+      "donorVariation": "National Teams Selection Attackers 13 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393522",
+      "nativeVariationRecordHex": "e69d002013600000000000004e6174696f6e616c205465616d732053656c656374696f6e2041747461636b657273203133204e6f7620273233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "0078b2a9ce67778c4446e4be42e03e046d814ad42ad4046491c9b6e50ea6c8c1",
+      "appearance": {
+        "small": {
+          "background": "0601_306_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_306_b02",
+          "frame": "0601_306_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S43",
+      "resourceIds": [
+        "0601_306_b02",
+        "0601_306_f01",
+        "0601_306_f02",
+        "0601_306_f04",
+        "0601_306_m01"
+      ],
+      "equivalentDonorCount": 8,
+      "staticReviewNo": "S43"
+    },
+    {
+      "id": "ST-307",
+      "series": "ST",
+      "variant": "307",
+      "donorPlayerId": "105635525998574",
+      "donorName": "Salih Uçan",
+      "donorVariation": "Süper Lig Selection 16 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393523",
+      "nativeVariationRecordHex": "eeb70030136000000000000053c3bc706572204c69672053656c656374696f6e203136204e6f76202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "693acb9538551f21ed6c6dd45d764d33ca45eba9c974cd1b715236242006086a",
+      "appearance": {
+        "small": {
+          "background": "0601_307_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_307_b02",
+          "frame": "0601_307_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S46",
+      "resourceIds": [
+        "0601_307_b02",
+        "0601_307_f01",
+        "0601_307_f04",
+        "0601_307_m01"
+      ],
+      "equivalentDonorCount": 11,
+      "staticReviewNo": "S46"
+    },
+    {
+      "id": "ST-308",
+      "series": "ST",
+      "variant": "308",
+      "donorPlayerId": "105635794403418",
+      "donorName": "Endo Wataru",
+      "donorVariation": "English League Selection Guardians 20 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393524",
+      "nativeVariationRecordHex": "5a4000401360000000000000456e676c697368204c65616775652053656c656374696f6e20477561726469616e73203230204e6f7620273233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "34158487d3d73dfe85a06582e61a23d9db8c182bc5bef75753aa71bcc088c4c0",
+      "appearance": {
+        "small": {
+          "background": "0601_308_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_308_b02",
+          "frame": "0601_308_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S49",
+      "resourceIds": [
+        "0601_308_b02",
+        "0601_308_f01",
+        "0601_308_f02",
+        "0601_308_f04",
+        "0601_308_m01"
+      ],
+      "equivalentDonorCount": 8,
+      "staticReviewNo": "S49"
+    },
+    {
+      "id": "ST-309",
+      "series": "ST",
+      "variant": "309",
+      "donorPlayerId": "105636062867793",
+      "donorName": "Davy Klaassen",
+      "donorVariation": "National Teams Selection Midfielders 16 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393525",
+      "nativeVariationRecordHex": "51b1005013600000000000004e6174696f6e616c205465616d732053656c656374696f6e204d69646669656c64657273203136204e6f762027323300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "ecce56085b86be7e58589471037ee25ade832cf88eeb975fe2720e2771712293",
+      "appearance": {
+        "small": {
+          "background": "0601_309_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_309_b02",
+          "frame": "0601_309_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S52",
+      "resourceIds": [
+        "0601_309_b02",
+        "0601_309_f01",
+        "0601_309_f02",
+        "0601_309_f04",
+        "0601_309_m01"
+      ],
+      "equivalentDonorCount": 8,
+      "staticReviewNo": "S52"
+    },
+    {
+      "id": "ST-310",
+      "series": "ST",
+      "variant": "310",
+      "donorPlayerId": "105636331294412",
+      "donorName": "Chicharito",
+      "donorVariation": "Season Giveaway Chicharito 16 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393526",
+      "nativeVariationRecordHex": "cc8e00601360000000000000536561736f6e204769766561776179204368696368617269746f203136204e6f76202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "8a767c81b00e4d418b58e13a0c083652650c268d0c66ae8d31cfe625598ada85",
+      "appearance": {
+        "small": {
+          "background": "0601_310_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_310_b02",
+          "frame": "0601_310_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S55",
+      "resourceIds": [
+        "0601_310_b02",
+        "0601_310_f01",
+        "0601_310_f02",
+        "0601_310_f04",
+        "0601_310_m01"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S55"
+    },
+    {
+      "id": "ST-314",
+      "series": "ST",
+      "variant": "314",
+      "donorPlayerId": "105637405039682",
+      "donorName": "Robert Lewandowski",
+      "donorVariation": "FC Barcelona Selection 11 Dec '23",
+      "nativeType": "60",
+      "identityPrefix": "393530",
+      "nativeVariationRecordHex": "429c00a0136000000000000046432042617263656c6f6e612053656c656374696f6e2031312044656320273233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "d4fbff922618e4eb50c5971ab8fb641c675ea0debd9102b9dff8e1edcba1888d",
+      "appearance": {
+        "small": {
+          "background": "0601_314_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_314_b02",
+          "frame": "0601_314_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S58",
+      "resourceIds": [
+        "0601_314_b02",
+        "0601_314_f01",
+        "0601_314_f02",
+        "0601_314_f04",
+        "0601_314_m01"
+      ],
+      "equivalentDonorCount": 9,
+      "staticReviewNo": "S58"
+    },
+    {
+      "id": "ST-315",
+      "series": "ST",
+      "variant": "315",
+      "donorPlayerId": "105637673480820",
+      "donorName": "Avilés Hurtado",
+      "donorVariation": "Liga BBVA MX Selection 30 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393531",
+      "nativeVariationRecordHex": "74b200b013600000000000004c6967612042425641204d582053656c656374696f6e203330204e6f7620273233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "9c5f645ced0eb15d8f9979af78237c64e608faa296e2c4755c8992f2037a0e3b",
+      "appearance": {
+        "small": {
+          "background": "0601_315_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_315_b02",
+          "frame": "0601_315_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S61",
+      "resourceIds": [
+        "0601_315_b02",
+        "0601_315_f01",
+        "0601_315_f02",
+        "0601_315_f04",
+        "0601_315_m01"
+      ],
+      "equivalentDonorCount": 11,
+      "staticReviewNo": "S61"
+    },
+    {
+      "id": "ST-316",
+      "series": "ST",
+      "variant": "316",
+      "donorPlayerId": "105637941909807",
+      "donorName": "Renato Augusto",
+      "donorVariation": "Brasileirão Assaí Selection 30 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393532",
+      "nativeVariationRecordHex": "2f9900c0136000000000000042726173696c656972c3a36f2041737361c3ad2053656c656374696f6e203330204e6f76202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "7a8795e4ff4bddd76b0b8525d3a81e1c3aa754de30e9d3e5e9098ae8dd0a930b",
+      "appearance": {
+        "small": {
+          "background": "0601_316_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_316_b02",
+          "frame": "0601_316_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S64",
+      "resourceIds": [
+        "0601_316_b02",
+        "0601_316_f01",
+        "0601_316_f02",
+        "0601_316_f04",
+        "0601_316_m01"
+      ],
+      "equivalentDonorCount": 11,
+      "staticReviewNo": "S64"
+    },
+    {
+      "id": "ST-317",
+      "series": "ST",
+      "variant": "317",
+      "donorPlayerId": "105638210414450",
+      "donorName": "Frank Zambo Anguissa",
+      "donorVariation": "Italian League Selection Midfielders 4 Dec '23",
+      "nativeType": "60",
+      "identityPrefix": "393533",
+      "nativeVariationRecordHex": "72a701d013600000000000004974616c69616e204c65616775652053656c656374696f6e204d69646669656c64657273203420446563202732330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "2ce444187f68a934e69fb3dbbb69408e9ed480342d4490b94b83b354b129b6eb",
+      "appearance": {
+        "small": {
+          "background": "0601_317_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_317_b02",
+          "frame": "0601_317_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S67",
+      "resourceIds": [
+        "0601_317_b02",
+        "0601_317_f01",
+        "0601_317_f02",
+        "0601_317_f04",
+        "0601_317_m01"
+      ],
+      "equivalentDonorCount": 8,
+      "staticReviewNo": "S67"
+    },
+    {
+      "id": "ST-318",
+      "series": "ST",
+      "variant": "318",
+      "donorPlayerId": "105638478779331",
+      "donorName": "Axel Witsel",
+      "donorVariation": "Spanish League Selection Guardians 27 Nov '23",
+      "nativeType": "60",
+      "identityPrefix": "393534",
+      "nativeVariationRecordHex": "c39300e013600000000000005370616e697368204c65616775652053656c656374696f6e20477561726469616e73203237204e6f7620273233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "01b02c0e830070764b3d2af1d3aa1b74a79aebacd0a9440f78a5916db85b4eee",
+      "appearance": {
+        "small": {
+          "background": "0601_318_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_318_b02",
+          "frame": "0601_318_f01"
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record; static review S70",
+      "resourceIds": [
+        "0601_318_b02",
+        "0601_318_f01",
+        "0601_318_f02",
+        "0601_318_f04",
+        "0601_318_m01"
+      ],
+      "equivalentDonorCount": 8,
+      "staticReviewNo": "S70"
+    },
+    {
+      "id": "ST-355",
+      "series": "ST",
+      "variant": "355",
+      "reviewNo": "V18",
+      "donorPlayerId": "106747922604897",
+      "donorName": "Orkun Kökçü",
+      "donorVariation": "Daily Bonus 2026",
+      "nativeType": "61",
+      "identityPrefix": "397667",
+      "nativeVariationRecordHex": "61e3013016610000000000004461696c7920426f6e757320323032360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "88d3a62544d66fea665834ff630fcd65c884d716a2de9bb9a0426060ec3164ca",
+      "appearance": {
+        "small": {
+          "background": "0601_355_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_355_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_355_m01",
+        "0601_355_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "ST-392",
+      "series": "ST",
+      "variant": "392",
+      "reviewNo": "V19",
+      "donorPlayerId": "106757854755138",
+      "donorName": "Lamine Yamal",
+      "donorVariation": "The Football Festival Campaign 2026",
+      "nativeType": "61",
+      "identityPrefix": "397704",
+      "nativeVariationRecordHex": "42790280186100000000000054686520466f6f7462616c6c20466573746976616c2043616d706169676e203230323600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "43da27c621d6fa3319aa4541082001859fabd55fa129b33149b1749f75b99034",
+      "appearance": {
+        "small": {
+          "background": "0601_392_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_392_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_392_m01",
+        "0601_392_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "ST-474",
+      "series": "ST",
+      "variant": "474",
+      "reviewNo": "V20",
+      "donorPlayerId": "106779866307927",
+      "donorName": "Lionel Messi",
+      "donorVariation": "The Football Festival Campaign 2026",
+      "nativeType": "61",
+      "identityPrefix": "397786",
+      "nativeVariationRecordHex": "571d00a01d6100000000000054686520466f6f7462616c6c20466573746976616c2043616d706169676e203230323600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "58182a15f26c4f1bd65a2b5e7a98c7f413d537e3f4827f773479e278573a9a7c",
+      "appearance": {
+        "small": {
+          "background": "0601_474_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_474_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_474_m01",
+        "0601_474_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "ST-476",
+      "series": "ST",
+      "variant": "476",
+      "reviewNo": "V21",
+      "donorPlayerId": "106780403293192",
+      "donorName": "Kubo Takefusa",
+      "donorVariation": "The Football Festival Campaign 2026",
+      "nativeType": "61",
+      "identityPrefix": "397788",
+      "nativeVariationRecordHex": "08dc01c01d6100000000000054686520466f6f7462616c6c20466573746976616c2043616d706169676e203230323600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "d9a89d08117fa265a80c2d4a2be325a7a7766339b37f810af68bd528a9a88a78",
+      "appearance": {
+        "small": {
+          "background": "0601_476_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_476_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_476_m01",
+        "0601_476_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "ST-480",
+      "series": "ST",
+      "variant": "480",
+      "reviewNo": "V22",
+      "donorPlayerId": "106781476920663",
+      "donorName": "Lionel Messi",
+      "donorVariation": "International Cup vol.1",
+      "nativeType": "61",
+      "identityPrefix": "397792",
+      "nativeVariationRecordHex": "571d00001e61000000000000496e7465726e6174696f6e616c2043757020766f6c2e3100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "9b9f50835c2db361ecb1e50213eaba9105272628978de6f58ba5e59dcf06e3f4",
+      "appearance": {
+        "small": {
+          "background": "0601_480_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_480_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_480_m01",
+        "0601_480_f02_v"
+      ],
+      "equivalentDonorCount": 3
+    },
+    {
+      "id": "ST-483",
+      "series": "ST",
+      "variant": "483",
+      "reviewNo": "V23",
+      "donorPlayerId": "106782282266807",
+      "donorName": "Harry Kane",
+      "donorVariation": "International Cup vol.4",
+      "nativeType": "61",
+      "identityPrefix": "397795",
+      "nativeVariationRecordHex": "b7b800301e61000000000000496e7465726e6174696f6e616c2043757020766f6c2e3400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "86e0ee4bbf2a2fa4d7995c315c1c031d4a96ef20e281d9d2d0e7fe56aeedd64d",
+      "appearance": {
+        "small": {
+          "background": "0601_483_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_483_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_483_m01",
+        "0601_483_f02_v"
+      ],
+      "equivalentDonorCount": 3
+    },
+    {
+      "id": "ST-493",
+      "series": "ST",
+      "variant": "493",
+      "reviewNo": "V24",
+      "donorPlayerId": "106784966581591",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Skill Up 2027",
+      "nativeType": "61",
+      "identityPrefix": "397805",
+      "nativeVariationRecordHex": "571d00d01e61000000000000536b696c6c20557020323032370000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "3cb37bdbdde5b9467a4373b8fdac0ba1f422724c82aa5d2309398f4f60f9e467",
+      "appearance": {
+        "small": {
+          "background": "0601_493_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0601_493_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "exact native Variation donor + actual full-area movie + exact shared/per-donor m01; ST native type 0x61",
+      "resourceIds": [
+        "0601_493_m01",
+        "0601_493_f02_v"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "BT-295",
+      "series": "BT",
+      "variant": "295",
+      "donorPlayerId": "89139630444046",
+      "donorName": "Alessandro Del Piero",
+      "donorVariation": "Big Time Italy 19 Jun '00",
+      "nativeType": "51",
+      "identityPrefix": "332071",
+      "nativeVariationRecordHex": "0e0e027012510000000000004269672054696d65204974616c79203139204a756e202730300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "3792f69fa479c9fabbdabe9f746e720350f543c907868a2538d8828dd11a8e4a",
+      "appearance": {
+        "small": {
+          "background": "",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_295_b02",
+          "frame": ""
+        }
+      },
+      "smallMode": "native-inherited",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "native-id-type+variant / local PlayerVariationDetail exact donor record",
+      "resourceIds": [
+        "0501_295_b02"
+      ],
+      "equivalentDonorCount": 1
+    },
+    {
+      "id": "Epic-267-static",
+      "series": "Epic",
+      "variant": "267",
+      "donorPlayerId": "88032602496343",
+      "donorName": "Lionel Messi",
+      "donorVariation": "FC Barcelona 05-06",
+      "nativeType": "50",
+      "identityPrefix": "327947",
+      "nativeVariationRecordHex": "571d00b0105000000000000046432042617263656c6f6e612030352d3036000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "58ad31d15c351234db6faffd3f12c13a4b0397ca25fcaf5c211867820c47e381",
+      "appearance": {
+        "small": {
+          "background": "0500_267_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_267_f01",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "User-selected full-area native static texture; exact source chunk and donor verified",
+      "resourceIds": [
+        "0500_267_m01",
+        "0500_267_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "displayName": "红黄几何",
+      "reviewNo": "静态1"
+    },
+    {
+      "id": "Epic-268-static",
+      "series": "Epic",
+      "variant": "268",
+      "donorPlayerId": "88032870964640",
+      "donorName": "Neymar Jr",
+      "donorVariation": "Brazil 2014",
+      "nativeType": "50",
+      "identityPrefix": "327948",
+      "nativeVariationRecordHex": "a09d00c010500000000000004272617a696c203230313400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "fca71a9758805600883f7e98ab168da4437a54ba4fdff2cbda876fb0173b0fc9",
+      "appearance": {
+        "small": {
+          "background": "0500_268_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_268_f01",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "User-selected full-area native static texture; exact source chunk and donor verified",
+      "resourceIds": [
+        "0500_268_m01",
+        "0500_268_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "displayName": "蓝绿几何",
+      "reviewNo": "静态2"
+    },
+    {
+      "id": "Epic-286-static",
+      "series": "Epic",
+      "variant": "286",
+      "donorPlayerId": "88037702762704",
+      "donorName": "Nakayama Masashi",
+      "donorVariation": "Jubilo Iwata 2002",
+      "nativeType": "50",
+      "identityPrefix": "327966",
+      "nativeVariationRecordHex": "d00000e011500000000000004a7562696c6f204977617461203230303200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "d4f92845084d46877cf3443592de44f494dc7d71fd598c4fff7742aab9691bf4",
+      "appearance": {
+        "small": {
+          "background": "0500_286_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_286_f01",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "User-selected full-area native static texture; exact source chunk and donor verified",
+      "resourceIds": [
+        "0500_286_m01",
+        "0500_286_f01"
+      ],
+      "equivalentDonorCount": 5,
+      "displayName": "金色边框",
+      "reviewNo": "静态3"
+    },
+    {
+      "id": "Epic-287-static",
+      "series": "Epic",
+      "variant": "287",
+      "donorPlayerId": "88037971205463",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Argentina 2024",
+      "nativeType": "50",
+      "identityPrefix": "327967",
+      "nativeVariationRecordHex": "571d00f01150000000000000417267656e74696e61203230323400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "b4c0788c56473639bac98f2cf277db3f949d37fc34eff12fcb27504f25f71585",
+      "appearance": {
+        "small": {
+          "background": "0500_287_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_287_f01",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "User-selected full-area native static texture; exact source chunk and donor verified",
+      "resourceIds": [
+        "0500_287_m01",
+        "0500_287_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "displayName": "霓虹折线",
+      "reviewNo": "静态4"
+    },
+    {
+      "id": "Epic-288-static",
+      "series": "Epic",
+      "variant": "288",
+      "donorPlayerId": "88038239795522",
+      "donorName": "Lamine Yamal",
+      "donorVariation": "Spain 2024",
+      "nativeType": "50",
+      "identityPrefix": "327968",
+      "nativeVariationRecordHex": "427902001250000000000000537061696e20323032340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "067863f24c8e3c381ea594fc67b68ead3992c10e538a17de8430f19e9a78bc64",
+      "appearance": {
+        "small": {
+          "background": "0500_288_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_288_f01",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "User-selected full-area native static texture; exact source chunk and donor verified",
+      "resourceIds": [
+        "0500_288_m01",
+        "0500_288_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "displayName": "彩色闪电",
+      "reviewNo": "静态5"
+    },
+    {
+      "id": "Epic-312-static",
+      "series": "Epic",
+      "variant": "312",
+      "donorPlayerId": "88044682118054",
+      "donorName": "Sergio Agüero",
+      "donorVariation": "Argentina 2018",
+      "nativeType": "50",
+      "identityPrefix": "327992",
+      "nativeVariationRecordHex": "a68300801350000000000000417267656e74696e61203230313800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "820a92ddfe55dcff7dfc6a97e66187d169329b35069bd4a32897e51c9560262d",
+      "appearance": {
+        "small": {
+          "background": "0500_312_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_312_f01",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "User-selected full-area native static texture; exact source chunk and donor verified",
+      "resourceIds": [
+        "0500_312_m01",
+        "0500_312_f01"
+      ],
+      "equivalentDonorCount": 1,
+      "displayName": "绿色圆环",
+      "reviewNo": "静态6"
+    },
+    {
+      "id": "Epic-317",
+      "series": "Epic",
+      "variant": "317",
+      "donorPlayerId": "88046024308919",
+      "donorName": "Harry Kane",
+      "donorVariation": "World Player of the Year 2026",
+      "nativeType": "50",
+      "identityPrefix": "327997",
+      "nativeVariationRecordHex": "b7b800d01350000000000000576f726c6420506c61796572206f66207468652059656172203230323600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "9bb1cd0fa782ad864a6bd938716c19b438df50df9a7a26e11a0a034998196b60",
+      "appearance": {
+        "small": {
+          "background": "0500_317_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_317_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Exact requested card native record + pc9265 native movie + exact native small texture",
+      "resourceIds": [
+        "0500_317_m01",
+        "0500_317_f02_v"
+      ]
+    },
+    {
+      "id": "Epic-322",
+      "series": "Epic",
+      "variant": "322",
+      "donorPlayerId": "88047366601026",
+      "donorName": "Lamine Yamal",
+      "donorVariation": "World Player of the Year 2026",
+      "nativeType": "50",
+      "identityPrefix": "328002",
+      "nativeVariationRecordHex": "427902201450000000000000576f726c6420506c61796572206f66207468652059656172203230323600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "86c510c5f8ede0eb15e660d3f695cd01625c81e4845c25581d0af4564229ee7b",
+      "appearance": {
+        "small": {
+          "background": "0500_322_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_322_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Exact requested card native record + pc9265 native movie + exact native small texture",
+      "resourceIds": [
+        "0500_322_m01",
+        "0500_322_f02_v"
+      ]
+    },
+    {
+      "id": "BT-17-dynamic",
+      "series": "BT",
+      "variant": "17",
+      "donorPlayerId": "89065005387197",
+      "donorName": "Patrick Vieira",
+      "donorVariation": "Big Time 25 Apr '04",
+      "nativeType": "51",
+      "identityPrefix": "331793",
+      "nativeVariationRecordHex": "bd0d021001510000000000004269672054696d6520323520417072202730340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "dec2b9f11fc45f6c52a3dfc96a827460484722b78e7e9541375f76b9be3c6492",
+      "appearance": {
+        "small": {
+          "background": "0501_17_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_17_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Exact native donor and filenameConvTable shared-layer mapping; composed preview",
+      "resourceIds": [
+        "0501_17_m01",
+        "0501_17_f02"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S51",
+      "reviewNo": "BT-17 动态"
+    },
+    {
+      "id": "BT-5-static-hex",
+      "series": "BT",
+      "variant": "5",
+      "donorPlayerId": "89061784067488",
+      "donorName": "Neymar Jr",
+      "donorVariation": "Big Time 12 Jun '14（Limited）",
+      "nativeType": "51",
+      "identityPrefix": "331781",
+      "nativeVariationRecordHex": "a09d005000510000000000004269672054696d65203132204a756e20273134efbc884c696d69746564efbc8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "3ec4d775c06ededa39020294f8f4420e43e0634764b248de1998e11314a11fbf",
+      "appearance": {
+        "small": {
+          "background": "0501_5_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_5_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Explicit user-circled design; exact native donor and source PNG chunks verified; full static preview",
+      "resourceIds": [
+        "0501_5_m01",
+        "0501_5_f02"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S18",
+      "reviewNo": "静态扩充1",
+      "displayName": "巴西 · 金色六边框"
+    },
+    {
+      "id": "BT-6-static-hex",
+      "series": "BT",
+      "variant": "6",
+      "donorPlayerId": "89062052470103",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Big Time 26 Jun '14（Limited）",
+      "nativeType": "51",
+      "identityPrefix": "331782",
+      "nativeVariationRecordHex": "571d006000510000000000004269672054696d65203236204a756e20273134efbc884c696d69746564efbc8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "e83b20b23a6ffce3af4b1f7c43254d98f3a02908ee3b46bd7aacdf1553466c98",
+      "appearance": {
+        "small": {
+          "background": "0501_6_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_6_f02",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Explicit user-circled design; exact native donor and source PNG chunks verified; full static preview",
+      "resourceIds": [
+        "0501_6_m01",
+        "0501_6_f02"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S21",
+      "reviewNo": "静态扩充2",
+      "displayName": "阿根廷 · 金色六边框"
+    },
+    {
+      "id": "Epic-0-static-hex",
+      "series": "Epic",
+      "variant": "0",
+      "reviewNo": "静态扩充3",
+      "donorPlayerId": "87960930356659",
+      "donorName": "Andy Cole",
+      "donorVariation": "Manchester United 98-99",
+      "nativeType": "50",
+      "identityPrefix": "327680",
+      "nativeVariationRecordHex": "b30d020000500000000000004d616e6368657374657220556e697465642039382d393900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "893bfc321cd8b9ef68eab8e90e95efdc8ff99fb430d82a86846e4f1f9173c77c",
+      "appearance": {
+        "small": {
+          "background": "0500_0_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_0_f04",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Explicit user-circled design; exact native donor and source PNG chunks verified; full static preview",
+      "resourceIds": [
+        "0500_0_m01",
+        "0500_0_f04"
+      ],
+      "equivalentDonorCount": 25,
+      "displayName": "绿金六边框"
+    },
+    {
+      "id": "Epic-4-static",
+      "series": "Epic",
+      "variant": "4",
+      "donorPlayerId": "87962004024416",
+      "donorName": "Bruno Fernandes",
+      "donorVariation": "Manchester United 20-21（Limited）",
+      "nativeType": "50",
+      "identityPrefix": "327684",
+      "nativeVariationRecordHex": "60ec004000500000000000004d616e6368657374657220556e697465642032302d3231efbc884c696d69746564efbc89000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "4e44db9c494afc5d15e7ae7e9c412ad47e70fe69d4d8a368185747b2a954c6ad",
+      "appearance": {
+        "small": {
+          "background": "0500_4_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0500_4_f03",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Explicit user-circled design; exact native donor and source PNG chunks verified; full static preview",
+      "resourceIds": [
+        "0500_4_m01",
+        "0500_4_f03"
+      ],
+      "equivalentDonorCount": 1,
+      "reviewNo": "静态扩充4",
+      "displayName": "红黑金几何"
+    },
+    {
+      "id": "BT-4-static",
+      "series": "BT",
+      "variant": "4",
+      "donorPlayerId": "89061515600624",
+      "donorName": "Karim Benzema",
+      "donorVariation": "Big Time 10 Oct '21",
+      "nativeType": "51",
+      "identityPrefix": "331780",
+      "nativeVariationRecordHex": "f022004000510000000000004269672054696d65203130204f6374202732310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "34bba3a1c93f3da0cdf666e3d7903705904ecf42dfbba481b436b792cc00ab9b",
+      "appearance": {
+        "small": {
+          "background": "0501_4_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_4_f03",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Explicit user-circled design; exact native donor and source PNG chunks verified; full static preview",
+      "resourceIds": [
+        "0501_4_m01",
+        "0501_4_f03"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S15",
+      "reviewNo": "静态扩充5",
+      "displayName": "法国 · 彩绘"
+    },
+    {
+      "id": "BT-5-static",
+      "series": "BT",
+      "variant": "5",
+      "donorPlayerId": "89061784067488",
+      "donorName": "Neymar Jr",
+      "donorVariation": "Big Time 12 Jun '14（Limited）",
+      "nativeType": "51",
+      "identityPrefix": "331781",
+      "nativeVariationRecordHex": "a09d005000510000000000004269672054696d65203132204a756e20273134efbc884c696d69746564efbc8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "3ec4d775c06ededa39020294f8f4420e43e0634764b248de1998e11314a11fbf",
+      "appearance": {
+        "small": {
+          "background": "0501_5_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_5_f03",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Explicit user-circled design; exact native donor and source PNG chunks verified; full static preview",
+      "resourceIds": [
+        "0501_5_m01",
+        "0501_5_f03"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S18",
+      "reviewNo": "静态扩充6",
+      "displayName": "巴西 · 彩绘"
+    },
+    {
+      "id": "BT-6-static",
+      "series": "BT",
+      "variant": "6",
+      "donorPlayerId": "89062052470103",
+      "donorName": "Lionel Messi",
+      "donorVariation": "Big Time 26 Jun '14（Limited）",
+      "nativeType": "51",
+      "identityPrefix": "331782",
+      "nativeVariationRecordHex": "571d006000510000000000004269672054696d65203236204a756e20273134efbc884c696d69746564efbc8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "e83b20b23a6ffce3af4b1f7c43254d98f3a02908ee3b46bd7aacdf1553466c98",
+      "appearance": {
+        "small": {
+          "background": "0501_6_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_6_f03",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Explicit user-circled design; exact native donor and source PNG chunks verified; full static preview",
+      "resourceIds": [
+        "0501_6_m01",
+        "0501_6_f03"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S21",
+      "reviewNo": "静态扩充7",
+      "displayName": "阿根廷 · 彩绘"
+    },
+    {
+      "id": "BT-8-static",
+      "series": "BT",
+      "variant": "8",
+      "donorPlayerId": "89062589455364",
+      "donorName": "Ito Junya",
+      "donorVariation": "Big Time 1 Feb '22",
+      "nativeType": "51",
+      "identityPrefix": "331784",
+      "nativeVariationRecordHex": "04dc018000510000000000004269672054696d6520312046656220273232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "nativeVariationRecordSha256": "f5b995cd2d21faa279a503770a3e7fcfb07b599988971dd5b5e25290f879f9be",
+      "appearance": {
+        "small": {
+          "background": "0501_8_m01",
+          "frame": ""
+        },
+        "detail": {
+          "background": "0501_8_f03",
+          "frame": ""
+        }
+      },
+      "smallMode": "texture",
+      "canvas": {
+        "small": [
+          512,
+          512
+        ],
+        "detail": [
+          512,
+          720
+        ],
+        "storedPortrait": [
+          512,
+          512
+        ]
+      },
+      "evidence": "Explicit user-circled design; exact native donor and source PNG chunks verified; full static preview",
+      "resourceIds": [
+        "0501_8_m01",
+        "0501_8_f03"
+      ],
+      "equivalentDonorCount": 1,
+      "staticReviewNo": "S24",
+      "reviewNo": "静态扩充8",
+      "displayName": "日本 · 彩绘"
+    }
+  ],
+  "unmatched": [],
+  "sourceHashes": {
+    "playerDb": "db9bfe47508c66c862d63e9674c06072606b398191ab83486fe2959a29961813",
+    "nativeCpk": "c9a6073609c04c7efb5fae93609ebbfbbdd0f1afc9ea93e0c332b8e81fe32a57"
+  },
+  "curated": true,
+  "staticReview": {
+    "path": "outputs/runs/20261025-E169-static-material-review/catalog.json",
+    "included": [
+      "BT-29",
+      "Epic-257",
+      "BT-0",
+      "ST-276",
+      "Epic-258",
+      "BT-1",
+      "ST-291",
+      "Epic-259",
+      "BT-2",
+      "ST-292",
+      "Epic-260",
+      "BT-3",
+      "ST-295",
+      "Epic-261",
+      "BT-4",
+      "ST-296",
+      "Epic-262",
+      "BT-5",
+      "ST-297",
+      "Epic-263",
+      "BT-6",
+      "ST-298",
+      "Epic-264",
+      "BT-8",
+      "ST-299",
+      "Epic-265",
+      "BT-9",
+      "ST-300",
+      "Epic-267",
+      "BT-10",
+      "ST-301",
+      "Epic-268",
+      "BT-11",
+      "ST-302",
+      "Epic-269",
+      "BT-12",
+      "ST-303",
+      "Epic-270",
+      "BT-13",
+      "ST-305",
+      "Epic-271",
+      "BT-14",
+      "ST-306",
+      "Epic-272",
+      "BT-15",
+      "ST-307",
+      "Epic-273",
+      "BT-16",
+      "ST-308",
+      "Epic-274",
+      "BT-17",
+      "ST-309",
+      "Epic-275",
+      "BT-18",
+      "ST-310",
+      "Epic-276",
+      "BT-28",
+      "ST-314",
+      "Epic-277",
+      "BT-30",
+      "ST-315",
+      "Epic-278",
+      "BT-257",
+      "ST-316",
+      "Epic-279",
+      "BT-258",
+      "ST-317",
+      "Epic-280",
+      "BT-259",
+      "ST-318",
+      "Epic-282",
+      "BT-260"
+    ],
+    "missingOriginalThumbnails": [
+      "BT-257",
+      "BT-258",
+      "BT-259",
+      "BT-260"
+    ]
+  }
+}
