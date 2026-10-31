@@ -7,7 +7,7 @@ Gói **tích lũy đầy đủ**, dùng cho APK 73efootball V19.1 gốc, SHA-256
 1. Export Save để có bản sao lưu. Giữ nguyên dữ liệu và tài nguyên game hiện có.
 2. Mở APK V19.1. Mở thư mục bọc ngoài của ZIP GitHub, chép **assets/** và **classes5.dex** vào gốc APK, thay file trùng.
 3. Ký bằng cùng khóa đang dùng và cài cập nhật. Không gỡ ứng dụng, không xóa dữ liệu, không áp chồng các Part/UI V16 cũ.
-4. README, extras, validation và inventory không chép vào APK. Lưu chỉnh sửa trước Enter Game; đóng/mở lại ứng dụng khi trình chỉnh ảnh yêu cầu.
+4. README, validation và inventory không chép vào APK. Lưu chỉnh sửa trước Enter Game; đóng/mở lại ứng dụng khi trình chỉnh ảnh yêu cầu.
 
 Đây là gói thay file APK, không phải APK 2,5 GB đã ký sẵn. Không chứa save cá nhân.
 
@@ -37,7 +37,7 @@ Migration một lần chỉ xóa cấu hình ngoại hình/phân bổ cũ của 
 
 Giữ tài nguyên và công cụ FULL-1 đã ghép từ V16/UI7.19 trên runtime V19.1: face/kits, skill/editor/progression, model/motion đã kiểm chứng, phụ kiện/màu native, crop, save manager, catalogue và Transfer. Giữ các loại trừ đã yêu cầu: Part3, physics và custom skin colours; chỉ dùng palette da native. Không thay runtime protected V19 bằng V16.
 
-Wukong giữ bản sửa fur dùng atlas râu, cả bốn biến thể, giữ đỉnh/khung/chiều dài, weights và skeleton/bind166 xương. `extras/Wukong/` có Blender và tám ảnh góc xem trước. Đây là render Blender, không phải ảnh chụp Android; shader game cần xác nhận trên máy.
+Wukong giữ bản sửa fur dùng atlas râu, cả bốn biến thể, giữ đỉnh/khung/chiều dài, weights và skeleton/bind166 xương. Blender và tám ảnh góc xem trước được gửi trong ZIP Wukong riêng, không nằm trong gói full. Đây là render Blender, không phải ảnh chụp Android; shader game cần xác nhận trên máy.
 
 ## Saudi trong dữ liệu
 

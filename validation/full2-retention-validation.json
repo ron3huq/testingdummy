@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "FULL1_files_preserved": 863,
+  "FULL1_files_preserved": 854,
   "missing": [],
   "changed_files": [
     "classes5.dex",
@@ -57,5 +57,7 @@
   ],
   "Wukong_blend_and_renders_unchanged": true,
   "private_save_files_included": false,
-  "scope": "FULL1 inventory retention, not a claim that every requested V16 feature was implemented"
+  "scope": "FULL1 inventory retention, not a claim that every requested V16 feature was implemented",
+  "Wukong_preview_excluded_from_full_by_user_request": true,
+  "separate_Wukong_preview_files": 9
 }

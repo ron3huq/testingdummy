@@ -1,7 +1,7 @@
 {
   "README-VI.md": {
-    "bytes": 6698,
-    "sha256": "3b2c18ade3e008b93439ad7a95194a913d2239823a925f7b557c21e91758699d"
+    "bytes": 6738,
+    "sha256": "30e231b3fe610a2eb7adae4781ea0c8acf5ebe2376e03ecf82c228138bfda892"
   },
   "assets/card-designer/LeagueGothic.ttf": {
     "bytes": 63956,
@@ -3383,42 +3383,6 @@
     "bytes": 618140,
     "sha256": "635f02e0f34a76ce99e0bddcee2a09c28687f4fdc72693218edd5dd82d50ae98"
   },
-  "extras/Wukong/Wukong-V2-Dense-Uniform.blend": {
-    "bytes": 11485417,
-    "sha256": "93875be4ec21097e8ffdf841e1d181c2e742a46a98cf2bc3a499a0ffbc605919"
-  },
-  "extras/Wukong/back-left.png": {
-    "bytes": 625229,
-    "sha256": "51059855b418e790ebb373e6b66fecbefd6afe7f7bcd9ca28385e7067b3184cb"
-  },
-  "extras/Wukong/back-right.png": {
-    "bytes": 629232,
-    "sha256": "299f4869cb9e880db36b55857623914253c9a0a12a27ed900c4ba08f7e4fa570"
-  },
-  "extras/Wukong/back.png": {
-    "bytes": 616085,
-    "sha256": "04b9e58af56fe0b77bcc8545bbae8c8ba63f94f0f5e42012f86251ee9717b5e5"
-  },
-  "extras/Wukong/front-left.png": {
-    "bytes": 641244,
-    "sha256": "3aa63e9ff5125e76dba398a842daac8e71a9700658278787b3634cfd5e4d16ac"
-  },
-  "extras/Wukong/front-right.png": {
-    "bytes": 633651,
-    "sha256": "f6c5dcfcfdadb8bb91e64b52071239f980e7208634799cbed5a5ef3346d65640"
-  },
-  "extras/Wukong/front.png": {
-    "bytes": 632606,
-    "sha256": "3ac5d92a9346b9971ca36b5cdc18c74f259291d838ad3ff5bf8c87c0faa22409"
-  },
-  "extras/Wukong/left.png": {
-    "bytes": 637263,
-    "sha256": "f42db1d141c823ff5d964da15e0a0a0a897fe3392c27271306487a47c10f86fe"
-  },
-  "extras/Wukong/right.png": {
-    "bytes": 637753,
-    "sha256": "fdafb608eb1f33a754e479c727460e2e55f318a6e0f0b230c6b864a4b9d0f4b0"
-  },
   "validation/cold-boot-validation.json": {
     "bytes": 564,
     "sha256": "8407c1ef858142834298243d275a88790f7f469afd2b37ced9d5103a3ab7b238"
@@ -3464,8 +3428,8 @@
     "sha256": "7a3c948a3c862f3868039e9e94cdc1805dce63485191976c5654e3ddc268ef4c"
   },
   "validation/full2-retention-validation.json": {
-    "bytes": 2520,
-    "sha256": "f7ce68291956c984f54748213aec495b240cd8dab8ba0a147760f7575b8861f7"
+    "bytes": 2619,
+    "sha256": "d2b9f17864b90639c1394e9ffcfa3f49dfa5a279dd1fad840bf18c76cd3190ad"
   },
   "validation/full2-runtime-validation.json": {
     "bytes": 578,
