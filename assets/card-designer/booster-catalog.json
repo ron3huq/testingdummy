@@ -1,0 +1,3355 @@
+{
+  "schema": "efootball-diy-boosters/v1",
+  "limits": [
+    255,
+    1023
+  ],
+  "source": "player-editor/editor_boosters.py",
+  "sourceHash": "3abce53c1843db8bb8ffb8f8017b23e019ba265a1ed8117e870da3c12fef6cb7",
+  "rows": [
+    {
+      "id": 1,
+      "kind": 0,
+      "category": 1,
+      "amount": 1,
+      "label": "攻门 +1 · 编号 1",
+      "description": "控球 +1、射门 +1、身体对抗 +1、脚下力量 +1"
+    },
+    {
+      "id": 2,
+      "kind": 0,
+      "category": 2,
+      "amount": 1,
+      "label": "自由球 +1 · 编号 2",
+      "description": "射门 +1、定位球 +1、弧线球 +1、脚下力量 +1"
+    },
+    {
+      "id": 3,
+      "kind": 0,
+      "category": 3,
+      "amount": 1,
+      "label": "空中战 +1 · 编号 3",
+      "description": "射门 +1、头球 +1、身体对抗 +1、跳跃 +1"
+    },
+    {
+      "id": 4,
+      "kind": 0,
+      "category": 4,
+      "amount": 1,
+      "label": "传球 +1 · 编号 4",
+      "description": "地面传球 +1、高吊传球 +1、弧线球 +1、脚下力量 +1"
+    },
+    {
+      "id": 5,
+      "kind": 0,
+      "category": 5,
+      "amount": 1,
+      "label": "带球 +1 · 编号 5",
+      "description": "盘球 +1、紧密控球 +1、速度 +1、平衡 +1"
+    },
+    {
+      "id": 6,
+      "kind": 0,
+      "category": 6,
+      "amount": 1,
+      "label": "技术 +1 · 编号 6",
+      "description": "盘球 +1、控球 +1、紧密控球 +1、地面传球 +1"
+    },
+    {
+      "id": 7,
+      "kind": 0,
+      "category": 7,
+      "amount": 1,
+      "label": "防守 +1 · 编号 7",
+      "description": "防守意识 +1、抢截 +1、加速 +1、跳跃 +1"
+    },
+    {
+      "id": 8,
+      "kind": 0,
+      "category": 8,
+      "amount": 1,
+      "label": "对抗 +1 · 编号 8",
+      "description": "防守意识 +1、抢截 +1、速度 +1、体力 +1"
+    },
+    {
+      "id": 9,
+      "kind": 0,
+      "category": 9,
+      "amount": 1,
+      "label": "敏捷 +1 · 编号 9",
+      "description": "速度 +1、平衡 +1、加速 +1、体力 +1"
+    },
+    {
+      "id": 10,
+      "kind": 0,
+      "category": 10,
+      "amount": 1,
+      "label": "体格 +1 · 编号 10",
+      "description": "身体对抗 +1、平衡 +1、跳跃 +1、体力 +1"
+    },
+    {
+      "id": 11,
+      "kind": 0,
+      "category": 11,
+      "amount": 1,
+      "label": "守门 +1 · 编号 11",
+      "description": "守门员意识 +1、守门员接球能力 +1、守门员扑救能力 +1、守门员反应 +1"
+    },
+    {
+      "id": 12,
+      "kind": 0,
+      "category": 1,
+      "amount": 2,
+      "label": "攻门 +2 · 编号 12",
+      "description": "控球 +2、射门 +2、身体对抗 +2、脚下力量 +2"
+    },
+    {
+      "id": 13,
+      "kind": 0,
+      "category": 2,
+      "amount": 2,
+      "label": "自由球 +2 · 编号 13",
+      "description": "射门 +2、定位球 +2、弧线球 +2、脚下力量 +2"
+    },
+    {
+      "id": 14,
+      "kind": 0,
+      "category": 3,
+      "amount": 2,
+      "label": "空中战 +2 · 编号 14",
+      "description": "射门 +2、头球 +2、身体对抗 +2、跳跃 +2"
+    },
+    {
+      "id": 15,
+      "kind": 0,
+      "category": 4,
+      "amount": 2,
+      "label": "传球 +2 · 编号 15",
+      "description": "地面传球 +2、高吊传球 +2、弧线球 +2、脚下力量 +2"
+    },
+    {
+      "id": 16,
+      "kind": 0,
+      "category": 5,
+      "amount": 2,
+      "label": "带球 +2 · 编号 16",
+      "description": "盘球 +2、紧密控球 +2、速度 +2、平衡 +2"
+    },
+    {
+      "id": 17,
+      "kind": 0,
+      "category": 6,
+      "amount": 2,
+      "label": "技术 +2 · 编号 17",
+      "description": "盘球 +2、控球 +2、紧密控球 +2、地面传球 +2"
+    },
+    {
+      "id": 18,
+      "kind": 0,
+      "category": 7,
+      "amount": 2,
+      "label": "防守 +2 · 编号 18",
+      "description": "防守意识 +2、抢截 +2、加速 +2、跳跃 +2"
+    },
+    {
+      "id": 19,
+      "kind": 0,
+      "category": 8,
+      "amount": 2,
+      "label": "对抗 +2 · 编号 19",
+      "description": "防守意识 +2、抢截 +2、速度 +2、体力 +2"
+    },
+    {
+      "id": 20,
+      "kind": 0,
+      "category": 9,
+      "amount": 2,
+      "label": "敏捷 +2 · 编号 20",
+      "description": "速度 +2、平衡 +2、加速 +2、体力 +2"
+    },
+    {
+      "id": 21,
+      "kind": 0,
+      "category": 10,
+      "amount": 2,
+      "label": "体格 +2 · 编号 21",
+      "description": "身体对抗 +2、平衡 +2、跳跃 +2、体力 +2"
+    },
+    {
+      "id": 22,
+      "kind": 0,
+      "category": 11,
+      "amount": 2,
+      "label": "守门 +2 · 编号 22",
+      "description": "守门员意识 +2、守门员接球能力 +2、守门员扑救能力 +2、守门员反应 +2"
+    },
+    {
+      "id": 23,
+      "kind": 0,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3 · 编号 23",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3"
+    },
+    {
+      "id": 24,
+      "kind": 0,
+      "category": 2,
+      "amount": 3,
+      "label": "自由球 +3 · 编号 24",
+      "description": "射门 +3、定位球 +3、弧线球 +3、脚下力量 +3"
+    },
+    {
+      "id": 25,
+      "kind": 0,
+      "category": 3,
+      "amount": 3,
+      "label": "空中战 +3 · 编号 25",
+      "description": "射门 +3、头球 +3、身体对抗 +3、跳跃 +3"
+    },
+    {
+      "id": 26,
+      "kind": 0,
+      "category": 4,
+      "amount": 3,
+      "label": "传球 +3 · 编号 26",
+      "description": "地面传球 +3、高吊传球 +3、弧线球 +3、脚下力量 +3"
+    },
+    {
+      "id": 27,
+      "kind": 0,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3 · 编号 27",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3"
+    },
+    {
+      "id": 28,
+      "kind": 0,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3 · 编号 28",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3"
+    },
+    {
+      "id": 29,
+      "kind": 0,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3 · 编号 29",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3"
+    },
+    {
+      "id": 30,
+      "kind": 0,
+      "category": 8,
+      "amount": 3,
+      "label": "对抗 +3 · 编号 30",
+      "description": "防守意识 +3、抢截 +3、速度 +3、体力 +3"
+    },
+    {
+      "id": 31,
+      "kind": 0,
+      "category": 9,
+      "amount": 3,
+      "label": "敏捷 +3 · 编号 31",
+      "description": "速度 +3、平衡 +3、加速 +3、体力 +3"
+    },
+    {
+      "id": 32,
+      "kind": 0,
+      "category": 10,
+      "amount": 3,
+      "label": "体格 +3 · 编号 32",
+      "description": "身体对抗 +3、平衡 +3、跳跃 +3、体力 +3"
+    },
+    {
+      "id": 33,
+      "kind": 0,
+      "category": 11,
+      "amount": 3,
+      "label": "守门 +3 · 编号 33",
+      "description": "守门员意识 +3、守门员接球能力 +3、守门员扑救能力 +3、守门员反应 +3"
+    },
+    {
+      "id": 34,
+      "kind": 0,
+      "category": 1,
+      "amount": 4,
+      "label": "攻门 +4 · 编号 34",
+      "description": "控球 +4、射门 +4、身体对抗 +4、脚下力量 +4"
+    },
+    {
+      "id": 35,
+      "kind": 0,
+      "category": 2,
+      "amount": 4,
+      "label": "自由球 +4 · 编号 35",
+      "description": "射门 +4、定位球 +4、弧线球 +4、脚下力量 +4"
+    },
+    {
+      "id": 36,
+      "kind": 0,
+      "category": 3,
+      "amount": 4,
+      "label": "空中战 +4 · 编号 36",
+      "description": "射门 +4、头球 +4、身体对抗 +4、跳跃 +4"
+    },
+    {
+      "id": 37,
+      "kind": 0,
+      "category": 4,
+      "amount": 4,
+      "label": "传球 +4 · 编号 37",
+      "description": "地面传球 +4、高吊传球 +4、弧线球 +4、脚下力量 +4"
+    },
+    {
+      "id": 38,
+      "kind": 0,
+      "category": 5,
+      "amount": 4,
+      "label": "带球 +4 · 编号 38",
+      "description": "盘球 +4、紧密控球 +4、速度 +4、平衡 +4"
+    },
+    {
+      "id": 39,
+      "kind": 0,
+      "category": 6,
+      "amount": 4,
+      "label": "技术 +4 · 编号 39",
+      "description": "盘球 +4、控球 +4、紧密控球 +4、地面传球 +4"
+    },
+    {
+      "id": 40,
+      "kind": 0,
+      "category": 7,
+      "amount": 4,
+      "label": "防守 +4 · 编号 40",
+      "description": "防守意识 +4、抢截 +4、加速 +4、跳跃 +4"
+    },
+    {
+      "id": 41,
+      "kind": 0,
+      "category": 8,
+      "amount": 4,
+      "label": "对抗 +4 · 编号 41",
+      "description": "防守意识 +4、抢截 +4、速度 +4、体力 +4"
+    },
+    {
+      "id": 42,
+      "kind": 0,
+      "category": 9,
+      "amount": 4,
+      "label": "敏捷 +4 · 编号 42",
+      "description": "速度 +4、平衡 +4、加速 +4、体力 +4"
+    },
+    {
+      "id": 43,
+      "kind": 0,
+      "category": 10,
+      "amount": 4,
+      "label": "体格 +4 · 编号 43",
+      "description": "身体对抗 +4、平衡 +4、跳跃 +4、体力 +4"
+    },
+    {
+      "id": 44,
+      "kind": 0,
+      "category": 11,
+      "amount": 4,
+      "label": "守门 +4 · 编号 44",
+      "description": "守门员意识 +4、守门员接球能力 +4、守门员扑救能力 +4、守门员反应 +4"
+    },
+    {
+      "id": 45,
+      "kind": 0,
+      "category": 1,
+      "amount": 5,
+      "label": "攻门 +5 · 编号 45",
+      "description": "控球 +5、射门 +5、身体对抗 +5、脚下力量 +5"
+    },
+    {
+      "id": 46,
+      "kind": 0,
+      "category": 2,
+      "amount": 5,
+      "label": "自由球 +5 · 编号 46",
+      "description": "射门 +5、定位球 +5、弧线球 +5、脚下力量 +5"
+    },
+    {
+      "id": 47,
+      "kind": 0,
+      "category": 3,
+      "amount": 5,
+      "label": "空中战 +5 · 编号 47",
+      "description": "射门 +5、头球 +5、身体对抗 +5、跳跃 +5"
+    },
+    {
+      "id": 48,
+      "kind": 0,
+      "category": 4,
+      "amount": 5,
+      "label": "传球 +5 · 编号 48",
+      "description": "地面传球 +5、高吊传球 +5、弧线球 +5、脚下力量 +5"
+    },
+    {
+      "id": 49,
+      "kind": 0,
+      "category": 5,
+      "amount": 5,
+      "label": "带球 +5 · 编号 49",
+      "description": "盘球 +5、紧密控球 +5、速度 +5、平衡 +5"
+    },
+    {
+      "id": 50,
+      "kind": 0,
+      "category": 6,
+      "amount": 5,
+      "label": "技术 +5 · 编号 50",
+      "description": "盘球 +5、控球 +5、紧密控球 +5、地面传球 +5"
+    },
+    {
+      "id": 51,
+      "kind": 0,
+      "category": 7,
+      "amount": 5,
+      "label": "防守 +5 · 编号 51",
+      "description": "防守意识 +5、抢截 +5、加速 +5、跳跃 +5"
+    },
+    {
+      "id": 52,
+      "kind": 0,
+      "category": 8,
+      "amount": 5,
+      "label": "对抗 +5 · 编号 52",
+      "description": "防守意识 +5、抢截 +5、速度 +5、体力 +5"
+    },
+    {
+      "id": 53,
+      "kind": 0,
+      "category": 9,
+      "amount": 5,
+      "label": "敏捷 +5 · 编号 53",
+      "description": "速度 +5、平衡 +5、加速 +5、体力 +5"
+    },
+    {
+      "id": 54,
+      "kind": 0,
+      "category": 10,
+      "amount": 5,
+      "label": "体格 +5 · 编号 54",
+      "description": "身体对抗 +5、平衡 +5、跳跃 +5、体力 +5"
+    },
+    {
+      "id": 55,
+      "kind": 0,
+      "category": 11,
+      "amount": 5,
+      "label": "守门 +5 · 编号 55",
+      "description": "守门员意识 +5、守门员接球能力 +5、守门员扑救能力 +5、守门员反应 +5"
+    },
+    {
+      "id": 56,
+      "kind": 3,
+      "category": 0,
+      "amount": 4,
+      "label": "命运肩负者 +4 · 编号 56",
+      "description": "射门 +4、头球 +4、速度 +4、加速 +4"
+    },
+    {
+      "id": 57,
+      "kind": 3,
+      "category": 0,
+      "amount": 4,
+      "label": "神之子 +4 · 编号 57",
+      "description": "盘球 +4、射门 +4、地面传球 +4、脚下力量 +4"
+    },
+    {
+      "id": 58,
+      "kind": 3,
+      "category": 0,
+      "amount": 4,
+      "label": "球王 +4 · 编号 58",
+      "description": "盘球 +4、紧密控球 +4、身体对抗 +4、平衡 +4"
+    },
+    {
+      "id": 59,
+      "kind": 2,
+      "category": 12,
+      "amount": 1,
+      "label": "全面升级 +1（条件生效） · 编号 59",
+      "description": "全部26项能力 +1；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 60,
+      "kind": 2,
+      "category": 12,
+      "amount": 2,
+      "label": "全面升级 +2（条件生效） · 编号 60",
+      "description": "全部26项能力 +2；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 61,
+      "kind": 2,
+      "category": 12,
+      "amount": 3,
+      "label": "全面升级 +3（条件生效） · 编号 61",
+      "description": "全部26项能力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 62,
+      "kind": 2,
+      "category": 12,
+      "amount": 4,
+      "label": "全面升级 +4（条件生效） · 编号 62",
+      "description": "全部26项能力 +4；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 63,
+      "kind": 2,
+      "category": 12,
+      "amount": 5,
+      "label": "全面升级 +5（条件生效） · 编号 63",
+      "description": "全部26项能力 +5；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 64,
+      "kind": 0,
+      "category": 13,
+      "amount": 1,
+      "label": "前锋直觉 +1 · 编号 64",
+      "description": "进攻意识 +1、控球 +1、射门 +1、加速 +1"
+    },
+    {
+      "id": 65,
+      "kind": 0,
+      "category": 14,
+      "amount": 1,
+      "label": "绝对封杀 +1 · 编号 65",
+      "description": "防守意识 +1、抢截 +1、防守参与 +1、速度 +1"
+    },
+    {
+      "id": 66,
+      "kind": 0,
+      "category": 15,
+      "amount": 1,
+      "label": "体力无限 +1 · 编号 66",
+      "description": "积极性 +1、身体对抗 +1、加速 +1、体力 +1"
+    },
+    {
+      "id": 67,
+      "kind": 0,
+      "category": 16,
+      "amount": 1,
+      "label": "门神 +1 · 编号 67",
+      "description": "守门员意识 +1、守门员扑救能力 +1、守门员反应 +1、守门员臂展 +1"
+    },
+    {
+      "id": 68,
+      "kind": 0,
+      "category": 17,
+      "amount": 1,
+      "label": "传中大师 +1 · 编号 68",
+      "description": "高吊传球 +1、弧线球 +1、速度 +1、体力 +1"
+    },
+    {
+      "id": 69,
+      "kind": 0,
+      "category": 18,
+      "amount": 1,
+      "label": "球场幻想家 +1 · 编号 69",
+      "description": "盘球 +1、控球 +1、射门 +1、平衡 +1"
+    },
+    {
+      "id": 70,
+      "kind": 0,
+      "category": 13,
+      "amount": 2,
+      "label": "前锋直觉 +2 · 编号 70",
+      "description": "进攻意识 +2、控球 +2、射门 +2、加速 +2"
+    },
+    {
+      "id": 71,
+      "kind": 0,
+      "category": 14,
+      "amount": 2,
+      "label": "绝对封杀 +2 · 编号 71",
+      "description": "防守意识 +2、抢截 +2、防守参与 +2、速度 +2"
+    },
+    {
+      "id": 72,
+      "kind": 0,
+      "category": 15,
+      "amount": 2,
+      "label": "体力无限 +2 · 编号 72",
+      "description": "积极性 +2、身体对抗 +2、加速 +2、体力 +2"
+    },
+    {
+      "id": 73,
+      "kind": 0,
+      "category": 16,
+      "amount": 2,
+      "label": "门神 +2 · 编号 73",
+      "description": "守门员意识 +2、守门员扑救能力 +2、守门员反应 +2、守门员臂展 +2"
+    },
+    {
+      "id": 74,
+      "kind": 0,
+      "category": 17,
+      "amount": 2,
+      "label": "传中大师 +2 · 编号 74",
+      "description": "高吊传球 +2、弧线球 +2、速度 +2、体力 +2"
+    },
+    {
+      "id": 75,
+      "kind": 0,
+      "category": 18,
+      "amount": 2,
+      "label": "球场幻想家 +2 · 编号 75",
+      "description": "盘球 +2、控球 +2、射门 +2、平衡 +2"
+    },
+    {
+      "id": 76,
+      "kind": 0,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3 · 编号 76",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3"
+    },
+    {
+      "id": 77,
+      "kind": 0,
+      "category": 14,
+      "amount": 3,
+      "label": "绝对封杀 +3 · 编号 77",
+      "description": "防守意识 +3、抢截 +3、防守参与 +3、速度 +3"
+    },
+    {
+      "id": 78,
+      "kind": 0,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3 · 编号 78",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3"
+    },
+    {
+      "id": 79,
+      "kind": 0,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3 · 编号 79",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3"
+    },
+    {
+      "id": 80,
+      "kind": 0,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3 · 编号 80",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3"
+    },
+    {
+      "id": 81,
+      "kind": 0,
+      "category": 18,
+      "amount": 3,
+      "label": "球场幻想家 +3 · 编号 81",
+      "description": "盘球 +3、控球 +3、射门 +3、平衡 +3"
+    },
+    {
+      "id": 82,
+      "kind": 0,
+      "category": 13,
+      "amount": 4,
+      "label": "前锋直觉 +4 · 编号 82",
+      "description": "进攻意识 +4、控球 +4、射门 +4、加速 +4"
+    },
+    {
+      "id": 83,
+      "kind": 0,
+      "category": 14,
+      "amount": 4,
+      "label": "绝对封杀 +4 · 编号 83",
+      "description": "防守意识 +4、抢截 +4、防守参与 +4、速度 +4"
+    },
+    {
+      "id": 84,
+      "kind": 0,
+      "category": 15,
+      "amount": 4,
+      "label": "体力无限 +4 · 编号 84",
+      "description": "积极性 +4、身体对抗 +4、加速 +4、体力 +4"
+    },
+    {
+      "id": 85,
+      "kind": 0,
+      "category": 16,
+      "amount": 4,
+      "label": "门神 +4 · 编号 85",
+      "description": "守门员意识 +4、守门员扑救能力 +4、守门员反应 +4、守门员臂展 +4"
+    },
+    {
+      "id": 86,
+      "kind": 0,
+      "category": 17,
+      "amount": 4,
+      "label": "传中大师 +4 · 编号 86",
+      "description": "高吊传球 +4、弧线球 +4、速度 +4、体力 +4"
+    },
+    {
+      "id": 87,
+      "kind": 0,
+      "category": 18,
+      "amount": 4,
+      "label": "球场幻想家 +4 · 编号 87",
+      "description": "盘球 +4、控球 +4、射门 +4、平衡 +4"
+    },
+    {
+      "id": 88,
+      "kind": 0,
+      "category": 13,
+      "amount": 5,
+      "label": "前锋直觉 +5 · 编号 88",
+      "description": "进攻意识 +5、控球 +5、射门 +5、加速 +5"
+    },
+    {
+      "id": 89,
+      "kind": 0,
+      "category": 14,
+      "amount": 5,
+      "label": "绝对封杀 +5 · 编号 89",
+      "description": "防守意识 +5、抢截 +5、防守参与 +5、速度 +5"
+    },
+    {
+      "id": 90,
+      "kind": 0,
+      "category": 15,
+      "amount": 5,
+      "label": "体力无限 +5 · 编号 90",
+      "description": "积极性 +5、身体对抗 +5、加速 +5、体力 +5"
+    },
+    {
+      "id": 91,
+      "kind": 0,
+      "category": 16,
+      "amount": 5,
+      "label": "门神 +5 · 编号 91",
+      "description": "守门员意识 +5、守门员扑救能力 +5、守门员反应 +5、守门员臂展 +5"
+    },
+    {
+      "id": 92,
+      "kind": 0,
+      "category": 17,
+      "amount": 5,
+      "label": "传中大师 +5 · 编号 92",
+      "description": "高吊传球 +5、弧线球 +5、速度 +5、体力 +5"
+    },
+    {
+      "id": 93,
+      "kind": 0,
+      "category": 18,
+      "amount": 5,
+      "label": "球场幻想家 +5 · 编号 93",
+      "description": "盘球 +5、控球 +5、射门 +5、平衡 +5"
+    },
+    {
+      "id": 94,
+      "kind": 2,
+      "category": 12,
+      "amount": 1,
+      "label": "全面升级 +1（条件生效） · 编号 94",
+      "description": "全部26项能力 +1；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 95,
+      "kind": 2,
+      "category": 12,
+      "amount": 2,
+      "label": "全面升级 +2（条件生效） · 编号 95",
+      "description": "全部26项能力 +2；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 96,
+      "kind": 2,
+      "category": 12,
+      "amount": 3,
+      "label": "全面升级 +3（条件生效） · 编号 96",
+      "description": "全部26项能力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 97,
+      "kind": 2,
+      "category": 12,
+      "amount": 4,
+      "label": "全面升级 +4（条件生效） · 编号 97",
+      "description": "全部26项能力 +4；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 98,
+      "kind": 2,
+      "category": 12,
+      "amount": 5,
+      "label": "全面升级 +5（条件生效） · 编号 98",
+      "description": "全部26项能力 +5；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 99,
+      "kind": 2,
+      "category": 12,
+      "amount": 1,
+      "label": "全面升级 +1（条件生效） · 编号 99",
+      "description": "全部26项能力 +1；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 100,
+      "kind": 2,
+      "category": 12,
+      "amount": 2,
+      "label": "全面升级 +2（条件生效） · 编号 100",
+      "description": "全部26项能力 +2；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 101,
+      "kind": 2,
+      "category": 12,
+      "amount": 3,
+      "label": "全面升级 +3（条件生效） · 编号 101",
+      "description": "全部26项能力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 102,
+      "kind": 2,
+      "category": 12,
+      "amount": 4,
+      "label": "全面升级 +4（条件生效） · 编号 102",
+      "description": "全部26项能力 +4；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 103,
+      "kind": 2,
+      "category": 12,
+      "amount": 5,
+      "label": "全面升级 +5（条件生效） · 编号 103",
+      "description": "全部26项能力 +5；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 104,
+      "kind": 1,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3 · 编号 104",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3"
+    },
+    {
+      "id": 105,
+      "kind": 1,
+      "category": 2,
+      "amount": 3,
+      "label": "自由球 +3 · 编号 105",
+      "description": "射门 +3、定位球 +3、弧线球 +3、脚下力量 +3"
+    },
+    {
+      "id": 106,
+      "kind": 1,
+      "category": 3,
+      "amount": 3,
+      "label": "空中战 +3 · 编号 106",
+      "description": "射门 +3、头球 +3、身体对抗 +3、跳跃 +3"
+    },
+    {
+      "id": 107,
+      "kind": 1,
+      "category": 4,
+      "amount": 3,
+      "label": "传球 +3 · 编号 107",
+      "description": "地面传球 +3、高吊传球 +3、弧线球 +3、脚下力量 +3"
+    },
+    {
+      "id": 108,
+      "kind": 1,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3 · 编号 108",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3"
+    },
+    {
+      "id": 109,
+      "kind": 1,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3 · 编号 109",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3"
+    },
+    {
+      "id": 110,
+      "kind": 1,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3 · 编号 110",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3"
+    },
+    {
+      "id": 111,
+      "kind": 1,
+      "category": 8,
+      "amount": 3,
+      "label": "对抗 +3 · 编号 111",
+      "description": "防守意识 +3、抢截 +3、速度 +3、体力 +3"
+    },
+    {
+      "id": 112,
+      "kind": 1,
+      "category": 9,
+      "amount": 3,
+      "label": "敏捷 +3 · 编号 112",
+      "description": "速度 +3、平衡 +3、加速 +3、体力 +3"
+    },
+    {
+      "id": 113,
+      "kind": 1,
+      "category": 10,
+      "amount": 3,
+      "label": "体格 +3 · 编号 113",
+      "description": "身体对抗 +3、平衡 +3、跳跃 +3、体力 +3"
+    },
+    {
+      "id": 114,
+      "kind": 1,
+      "category": 11,
+      "amount": 3,
+      "label": "守门 +3 · 编号 114",
+      "description": "守门员意识 +3、守门员接球能力 +3、守门员扑救能力 +3、守门员反应 +3"
+    },
+    {
+      "id": 115,
+      "kind": 1,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3 · 编号 115",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3"
+    },
+    {
+      "id": 116,
+      "kind": 1,
+      "category": 14,
+      "amount": 3,
+      "label": "绝对封杀 +3 · 编号 116",
+      "description": "防守意识 +3、抢截 +3、防守参与 +3、速度 +3"
+    },
+    {
+      "id": 117,
+      "kind": 1,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3 · 编号 117",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3"
+    },
+    {
+      "id": 118,
+      "kind": 1,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3 · 编号 118",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3"
+    },
+    {
+      "id": 119,
+      "kind": 1,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3 · 编号 119",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3"
+    },
+    {
+      "id": 120,
+      "kind": 1,
+      "category": 18,
+      "amount": 3,
+      "label": "球场幻想家 +3 · 编号 120",
+      "description": "盘球 +3、控球 +3、射门 +3、平衡 +3"
+    },
+    {
+      "id": 121,
+      "kind": 1,
+      "category": 12,
+      "amount": 3,
+      "label": "全面升级 +3 · 编号 121",
+      "description": "全部26项能力 +3"
+    },
+    {
+      "id": 122,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 122",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 123,
+      "kind": 2,
+      "category": 3,
+      "amount": 3,
+      "label": "空中战 +3（条件生效） · 编号 123",
+      "description": "射门 +3、头球 +3、身体对抗 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 124,
+      "kind": 2,
+      "category": 4,
+      "amount": 3,
+      "label": "传球 +3（条件生效） · 编号 124",
+      "description": "地面传球 +3、高吊传球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 125,
+      "kind": 2,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3（条件生效） · 编号 125",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 126,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 126",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 127,
+      "kind": 2,
+      "category": 9,
+      "amount": 3,
+      "label": "敏捷 +3（条件生效） · 编号 127",
+      "description": "速度 +3、平衡 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 128,
+      "kind": 2,
+      "category": 10,
+      "amount": 3,
+      "label": "体格 +3（条件生效） · 编号 128",
+      "description": "身体对抗 +3、平衡 +3、跳跃 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 129,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 129",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 130,
+      "kind": 2,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3（条件生效） · 编号 130",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 131,
+      "kind": 2,
+      "category": 18,
+      "amount": 3,
+      "label": "球场幻想家 +3（条件生效） · 编号 131",
+      "description": "盘球 +3、控球 +3、射门 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 132,
+      "kind": 2,
+      "category": 12,
+      "amount": 3,
+      "label": "全面升级 +3（条件生效） · 编号 132",
+      "description": "全部26项能力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 133,
+      "kind": 2,
+      "category": 12,
+      "amount": 3,
+      "label": "全面升级 +3（条件生效） · 编号 133",
+      "description": "全部26项能力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 134,
+      "kind": 3,
+      "category": 0,
+      "amount": 3,
+      "label": "美洲王者 +3 · 编号 134",
+      "description": "进攻意识 +3、盘球 +3、控球 +3、身体对抗 +3"
+    },
+    {
+      "id": 135,
+      "kind": 3,
+      "category": 0,
+      "amount": 3,
+      "label": "小王子 +3 · 编号 135",
+      "description": "进攻意识 +3、射门 +3、地面传球 +3、脚下力量 +3"
+    },
+    {
+      "id": 142,
+      "kind": 3,
+      "category": 0,
+      "amount": 4,
+      "label": "跳蚤 +4 · 编号 142",
+      "description": "进攻意识 +4、盘球 +4、紧密控球 +4、加速 +4"
+    },
+    {
+      "id": 143,
+      "kind": 3,
+      "category": 0,
+      "amount": 4,
+      "label": "神枪手 +4 · 编号 143",
+      "description": "进攻意识 +4、身体对抗 +4、脚下力量 +4、加速 +4"
+    },
+    {
+      "id": 144,
+      "kind": 3,
+      "category": 0,
+      "amount": 4,
+      "label": "森巴之王 +4 · 编号 144",
+      "description": "进攻意识 +4、盘球 +4、控球 +4、射门 +4"
+    },
+    {
+      "id": 145,
+      "kind": 0,
+      "category": 19,
+      "amount": 2,
+      "label": "指挥官 +2 · 编号 145",
+      "description": "防守意识 +2、紧密控球 +2、地面传球 +2、抢截 +2"
+    },
+    {
+      "id": 146,
+      "kind": 0,
+      "category": 20,
+      "amount": 2,
+      "label": "後场组织 +2 · 编号 146",
+      "description": "防守意识 +2、地面传球 +2、积极性 +2、防守参与 +2"
+    },
+    {
+      "id": 147,
+      "kind": 0,
+      "category": 21,
+      "amount": 2,
+      "label": "精准 +2 · 编号 147",
+      "description": "射门 +2、地面传球 +2、高吊传球 +2、脚下力量 +2"
+    },
+    {
+      "id": 148,
+      "kind": 0,
+      "category": 22,
+      "amount": 2,
+      "label": "进攻引擎 +2 · 编号 148",
+      "description": "进攻意识 +2、控球 +2、地面传球 +2、脚下力量 +2"
+    },
+    {
+      "id": 149,
+      "kind": 0,
+      "category": 23,
+      "amount": 2,
+      "label": "护球 +2 · 编号 149",
+      "description": "控球 +2、紧密控球 +2、身体对抗 +2、平衡 +2"
+    },
+    {
+      "id": 150,
+      "kind": 0,
+      "category": 24,
+      "amount": 2,
+      "label": "攻守兼备 +2 · 编号 150",
+      "description": "进攻意识 +2、防守意识 +2、加速 +2、体力 +2"
+    },
+    {
+      "id": 151,
+      "kind": 0,
+      "category": 25,
+      "amount": 2,
+      "label": "反击 +2 · 编号 151",
+      "description": "地面传球 +2、抢截 +2、防守参与 +2、身体对抗 +2"
+    },
+    {
+      "id": 152,
+      "kind": 0,
+      "category": 26,
+      "amount": 2,
+      "label": "空中防守 +2 · 编号 152",
+      "description": "防守意识 +2、头球 +2、身体对抗 +2、跳跃 +2"
+    },
+    {
+      "id": 153,
+      "kind": 0,
+      "category": 27,
+      "amount": 2,
+      "label": "突破 +2 · 编号 153",
+      "description": "盘球 +2、速度 +2、身体对抗 +2、脚下力量 +2"
+    },
+    {
+      "id": 154,
+      "kind": 0,
+      "category": 28,
+      "amount": 2,
+      "label": "强壮 +2 · 编号 154",
+      "description": "速度 +2、身体对抗 +2、脚下力量 +2、跳跃 +2"
+    },
+    {
+      "id": 155,
+      "kind": 0,
+      "category": 29,
+      "amount": 2,
+      "label": "无球跑动 +2 · 编号 155",
+      "description": "进攻意识 +2、速度 +2、加速 +2、体力 +2"
+    },
+    {
+      "id": 156,
+      "kind": 0,
+      "category": 30,
+      "amount": 2,
+      "label": "抢断 +2 · 编号 156",
+      "description": "抢截 +2、积极性 +2、身体对抗 +2、加速 +2"
+    },
+    {
+      "id": 157,
+      "kind": 0,
+      "category": 28,
+      "amount": 4,
+      "label": "强壮 +4 · 编号 157",
+      "description": "速度 +4、身体对抗 +4、脚下力量 +4、跳跃 +4"
+    },
+    {
+      "id": 158,
+      "kind": 1,
+      "category": 19,
+      "amount": 3,
+      "label": "指挥官 +3 · 编号 158",
+      "description": "防守意识 +3、紧密控球 +3、地面传球 +3、抢截 +3"
+    },
+    {
+      "id": 159,
+      "kind": 1,
+      "category": 20,
+      "amount": 3,
+      "label": "後场组织 +3 · 编号 159",
+      "description": "防守意识 +3、地面传球 +3、积极性 +3、防守参与 +3"
+    },
+    {
+      "id": 160,
+      "kind": 1,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3 · 编号 160",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3"
+    },
+    {
+      "id": 161,
+      "kind": 1,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3 · 编号 161",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3"
+    },
+    {
+      "id": 162,
+      "kind": 1,
+      "category": 23,
+      "amount": 3,
+      "label": "护球 +3 · 编号 162",
+      "description": "控球 +3、紧密控球 +3、身体对抗 +3、平衡 +3"
+    },
+    {
+      "id": 163,
+      "kind": 1,
+      "category": 24,
+      "amount": 3,
+      "label": "攻守兼备 +3 · 编号 163",
+      "description": "进攻意识 +3、防守意识 +3、加速 +3、体力 +3"
+    },
+    {
+      "id": 164,
+      "kind": 1,
+      "category": 25,
+      "amount": 3,
+      "label": "反击 +3 · 编号 164",
+      "description": "地面传球 +3、抢截 +3、防守参与 +3、身体对抗 +3"
+    },
+    {
+      "id": 165,
+      "kind": 1,
+      "category": 26,
+      "amount": 3,
+      "label": "空中防守 +3 · 编号 165",
+      "description": "防守意识 +3、头球 +3、身体对抗 +3、跳跃 +3"
+    },
+    {
+      "id": 166,
+      "kind": 1,
+      "category": 27,
+      "amount": 3,
+      "label": "突破 +3 · 编号 166",
+      "description": "盘球 +3、速度 +3、身体对抗 +3、脚下力量 +3"
+    },
+    {
+      "id": 167,
+      "kind": 1,
+      "category": 28,
+      "amount": 3,
+      "label": "强壮 +3 · 编号 167",
+      "description": "速度 +3、身体对抗 +3、脚下力量 +3、跳跃 +3"
+    },
+    {
+      "id": 168,
+      "kind": 1,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3 · 编号 168",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3"
+    },
+    {
+      "id": 169,
+      "kind": 1,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3 · 编号 169",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3"
+    },
+    {
+      "id": 170,
+      "kind": 2,
+      "category": 12,
+      "amount": 3,
+      "label": "全面升级 +3（条件生效） · 编号 170",
+      "description": "全部26项能力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 171,
+      "kind": 2,
+      "category": 12,
+      "amount": 3,
+      "label": "全面升级 +3（条件生效） · 编号 171",
+      "description": "全部26项能力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 172,
+      "kind": 0,
+      "category": 19,
+      "amount": 1,
+      "label": "指挥官 +1 · 编号 172",
+      "description": "防守意识 +1、紧密控球 +1、地面传球 +1、抢截 +1"
+    },
+    {
+      "id": 173,
+      "kind": 0,
+      "category": 20,
+      "amount": 1,
+      "label": "後场组织 +1 · 编号 173",
+      "description": "防守意识 +1、地面传球 +1、积极性 +1、防守参与 +1"
+    },
+    {
+      "id": 174,
+      "kind": 0,
+      "category": 21,
+      "amount": 1,
+      "label": "精准 +1 · 编号 174",
+      "description": "射门 +1、地面传球 +1、高吊传球 +1、脚下力量 +1"
+    },
+    {
+      "id": 175,
+      "kind": 0,
+      "category": 22,
+      "amount": 1,
+      "label": "进攻引擎 +1 · 编号 175",
+      "description": "进攻意识 +1、控球 +1、地面传球 +1、脚下力量 +1"
+    },
+    {
+      "id": 176,
+      "kind": 0,
+      "category": 23,
+      "amount": 1,
+      "label": "护球 +1 · 编号 176",
+      "description": "控球 +1、紧密控球 +1、身体对抗 +1、平衡 +1"
+    },
+    {
+      "id": 177,
+      "kind": 0,
+      "category": 24,
+      "amount": 1,
+      "label": "攻守兼备 +1 · 编号 177",
+      "description": "进攻意识 +1、防守意识 +1、加速 +1、体力 +1"
+    },
+    {
+      "id": 178,
+      "kind": 0,
+      "category": 25,
+      "amount": 1,
+      "label": "反击 +1 · 编号 178",
+      "description": "地面传球 +1、抢截 +1、防守参与 +1、身体对抗 +1"
+    },
+    {
+      "id": 179,
+      "kind": 0,
+      "category": 26,
+      "amount": 1,
+      "label": "空中防守 +1 · 编号 179",
+      "description": "防守意识 +1、头球 +1、身体对抗 +1、跳跃 +1"
+    },
+    {
+      "id": 180,
+      "kind": 0,
+      "category": 27,
+      "amount": 1,
+      "label": "突破 +1 · 编号 180",
+      "description": "盘球 +1、速度 +1、身体对抗 +1、脚下力量 +1"
+    },
+    {
+      "id": 181,
+      "kind": 0,
+      "category": 28,
+      "amount": 1,
+      "label": "强壮 +1 · 编号 181",
+      "description": "速度 +1、身体对抗 +1、脚下力量 +1、跳跃 +1"
+    },
+    {
+      "id": 182,
+      "kind": 0,
+      "category": 29,
+      "amount": 1,
+      "label": "无球跑动 +1 · 编号 182",
+      "description": "进攻意识 +1、速度 +1、加速 +1、体力 +1"
+    },
+    {
+      "id": 183,
+      "kind": 0,
+      "category": 30,
+      "amount": 1,
+      "label": "抢断 +1 · 编号 183",
+      "description": "抢截 +1、积极性 +1、身体对抗 +1、加速 +1"
+    },
+    {
+      "id": 184,
+      "kind": 0,
+      "category": 19,
+      "amount": 3,
+      "label": "指挥官 +3 · 编号 184",
+      "description": "防守意识 +3、紧密控球 +3、地面传球 +3、抢截 +3"
+    },
+    {
+      "id": 185,
+      "kind": 0,
+      "category": 20,
+      "amount": 3,
+      "label": "後场组织 +3 · 编号 185",
+      "description": "防守意识 +3、地面传球 +3、积极性 +3、防守参与 +3"
+    },
+    {
+      "id": 186,
+      "kind": 0,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3 · 编号 186",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3"
+    },
+    {
+      "id": 187,
+      "kind": 0,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3 · 编号 187",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3"
+    },
+    {
+      "id": 188,
+      "kind": 0,
+      "category": 23,
+      "amount": 3,
+      "label": "护球 +3 · 编号 188",
+      "description": "控球 +3、紧密控球 +3、身体对抗 +3、平衡 +3"
+    },
+    {
+      "id": 189,
+      "kind": 0,
+      "category": 24,
+      "amount": 3,
+      "label": "攻守兼备 +3 · 编号 189",
+      "description": "进攻意识 +3、防守意识 +3、加速 +3、体力 +3"
+    },
+    {
+      "id": 190,
+      "kind": 0,
+      "category": 25,
+      "amount": 3,
+      "label": "反击 +3 · 编号 190",
+      "description": "地面传球 +3、抢截 +3、防守参与 +3、身体对抗 +3"
+    },
+    {
+      "id": 191,
+      "kind": 0,
+      "category": 26,
+      "amount": 3,
+      "label": "空中防守 +3 · 编号 191",
+      "description": "防守意识 +3、头球 +3、身体对抗 +3、跳跃 +3"
+    },
+    {
+      "id": 192,
+      "kind": 0,
+      "category": 27,
+      "amount": 3,
+      "label": "突破 +3 · 编号 192",
+      "description": "盘球 +3、速度 +3、身体对抗 +3、脚下力量 +3"
+    },
+    {
+      "id": 193,
+      "kind": 0,
+      "category": 28,
+      "amount": 3,
+      "label": "强壮 +3 · 编号 193",
+      "description": "速度 +3、身体对抗 +3、脚下力量 +3、跳跃 +3"
+    },
+    {
+      "id": 194,
+      "kind": 0,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3 · 编号 194",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3"
+    },
+    {
+      "id": 195,
+      "kind": 0,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3 · 编号 195",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3"
+    },
+    {
+      "id": 197,
+      "kind": 0,
+      "category": 19,
+      "amount": 4,
+      "label": "指挥官 +4 · 编号 197",
+      "description": "防守意识 +4、紧密控球 +4、地面传球 +4、抢截 +4"
+    },
+    {
+      "id": 198,
+      "kind": 0,
+      "category": 20,
+      "amount": 4,
+      "label": "後场组织 +4 · 编号 198",
+      "description": "防守意识 +4、地面传球 +4、积极性 +4、防守参与 +4"
+    },
+    {
+      "id": 199,
+      "kind": 0,
+      "category": 21,
+      "amount": 4,
+      "label": "精准 +4 · 编号 199",
+      "description": "射门 +4、地面传球 +4、高吊传球 +4、脚下力量 +4"
+    },
+    {
+      "id": 200,
+      "kind": 0,
+      "category": 22,
+      "amount": 4,
+      "label": "进攻引擎 +4 · 编号 200",
+      "description": "进攻意识 +4、控球 +4、地面传球 +4、脚下力量 +4"
+    },
+    {
+      "id": 201,
+      "kind": 0,
+      "category": 23,
+      "amount": 4,
+      "label": "护球 +4 · 编号 201",
+      "description": "控球 +4、紧密控球 +4、身体对抗 +4、平衡 +4"
+    },
+    {
+      "id": 202,
+      "kind": 0,
+      "category": 24,
+      "amount": 4,
+      "label": "攻守兼备 +4 · 编号 202",
+      "description": "进攻意识 +4、防守意识 +4、加速 +4、体力 +4"
+    },
+    {
+      "id": 203,
+      "kind": 0,
+      "category": 25,
+      "amount": 4,
+      "label": "反击 +4 · 编号 203",
+      "description": "地面传球 +4、抢截 +4、防守参与 +4、身体对抗 +4"
+    },
+    {
+      "id": 205,
+      "kind": 0,
+      "category": 27,
+      "amount": 4,
+      "label": "突破 +4 · 编号 205",
+      "description": "盘球 +4、速度 +4、身体对抗 +4、脚下力量 +4"
+    },
+    {
+      "id": 206,
+      "kind": 0,
+      "category": 29,
+      "amount": 4,
+      "label": "无球跑动 +4 · 编号 206",
+      "description": "进攻意识 +4、速度 +4、加速 +4、体力 +4"
+    },
+    {
+      "id": 207,
+      "kind": 0,
+      "category": 30,
+      "amount": 4,
+      "label": "抢断 +4 · 编号 207",
+      "description": "抢截 +4、积极性 +4、身体对抗 +4、加速 +4"
+    },
+    {
+      "id": 208,
+      "kind": 2,
+      "category": 12,
+      "amount": 3,
+      "label": "全面升级 +3（条件生效） · 编号 208",
+      "description": "全部26项能力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 239,
+      "kind": 0,
+      "category": 21,
+      "amount": 6,
+      "label": "精准 +6 · 编号 239",
+      "description": "射门 +6、地面传球 +6、高吊传球 +6、脚下力量 +6"
+    },
+    {
+      "id": 250,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "控球 +6 · 编号 250",
+      "description": "控球 +6"
+    },
+    {
+      "id": 251,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "紧密控球 +6 · 编号 251",
+      "description": "紧密控球 +6"
+    },
+    {
+      "id": 253,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "地面传球 +6 · 编号 253",
+      "description": "地面传球 +6"
+    },
+    {
+      "id": 254,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "高吊传球 +6 · 编号 254",
+      "description": "高吊传球 +6"
+    },
+    {
+      "id": 258,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "头球 +6 · 编号 258",
+      "description": "头球 +6"
+    },
+    {
+      "id": 261,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "积极性 +6 · 编号 261",
+      "description": "积极性 +6"
+    },
+    {
+      "id": 262,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "脚下力量 +6 · 编号 262",
+      "description": "脚下力量 +6"
+    },
+    {
+      "id": 263,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "速度 +6 · 编号 263",
+      "description": "速度 +6"
+    },
+    {
+      "id": 265,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "身体对抗 +6 · 编号 265",
+      "description": "身体对抗 +6"
+    },
+    {
+      "id": 266,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "平衡 +6 · 编号 266",
+      "description": "平衡 +6"
+    },
+    {
+      "id": 267,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "跳跃 +6 · 编号 267",
+      "description": "跳跃 +6"
+    },
+    {
+      "id": 271,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "守门员接球能力 +6 · 编号 271",
+      "description": "守门员接球能力 +6"
+    },
+    {
+      "id": 274,
+      "kind": 5,
+      "category": 0,
+      "amount": 6,
+      "label": "防守参与 +6 · 编号 274",
+      "description": "防守参与 +6"
+    },
+    {
+      "id": 283,
+      "kind": 5,
+      "category": 0,
+      "amount": 8,
+      "label": "弧线球 +8 · 编号 283",
+      "description": "弧线球 +8"
+    },
+    {
+      "id": 301,
+      "kind": 2,
+      "category": 11,
+      "amount": 3,
+      "label": "守门 +3（条件生效） · 编号 301",
+      "description": "守门员意识 +3、守门员接球能力 +3、守门员扑救能力 +3、守门员反应 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 302,
+      "kind": 2,
+      "category": 10,
+      "amount": 3,
+      "label": "体格 +3（条件生效） · 编号 302",
+      "description": "身体对抗 +3、平衡 +3、跳跃 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 303,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 303",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 304,
+      "kind": 2,
+      "category": 26,
+      "amount": 3,
+      "label": "空中防守 +3（条件生效） · 编号 304",
+      "description": "防守意识 +3、头球 +3、身体对抗 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 305,
+      "kind": 2,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3（条件生效） · 编号 305",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 306,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 306",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 308,
+      "kind": 2,
+      "category": 28,
+      "amount": 3,
+      "label": "强壮 +3（条件生效） · 编号 308",
+      "description": "速度 +3、身体对抗 +3、脚下力量 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 310,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 310",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 311,
+      "kind": 2,
+      "category": 25,
+      "amount": 3,
+      "label": "反击 +3（条件生效） · 编号 311",
+      "description": "地面传球 +3、抢截 +3、防守参与 +3、身体对抗 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 312,
+      "kind": 2,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3（条件生效） · 编号 312",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 313,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 313",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 314,
+      "kind": 2,
+      "category": 23,
+      "amount": 3,
+      "label": "护球 +3（条件生效） · 编号 314",
+      "description": "控球 +3、紧密控球 +3、身体对抗 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 315,
+      "kind": 2,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3（条件生效） · 编号 315",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 317,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 317",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 318,
+      "kind": 2,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3（条件生效） · 编号 318",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 319,
+      "kind": 2,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3（条件生效） · 编号 319",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 320,
+      "kind": 2,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3（条件生效） · 编号 320",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 321,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 321",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 322,
+      "kind": 2,
+      "category": 28,
+      "amount": 3,
+      "label": "强壮 +3（条件生效） · 编号 322",
+      "description": "速度 +3、身体对抗 +3、脚下力量 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 323,
+      "kind": 2,
+      "category": 4,
+      "amount": 3,
+      "label": "传球 +3（条件生效） · 编号 323",
+      "description": "地面传球 +3、高吊传球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 324,
+      "kind": 2,
+      "category": 8,
+      "amount": 3,
+      "label": "对抗 +3（条件生效） · 编号 324",
+      "description": "防守意识 +3、抢截 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 325,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 325",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 326,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 326",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 327,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 327",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 328,
+      "kind": 2,
+      "category": 28,
+      "amount": 3,
+      "label": "强壮 +3（条件生效） · 编号 328",
+      "description": "速度 +3、身体对抗 +3、脚下力量 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 329,
+      "kind": 2,
+      "category": 3,
+      "amount": 3,
+      "label": "空中战 +3（条件生效） · 编号 329",
+      "description": "射门 +3、头球 +3、身体对抗 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 330,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 330",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 331,
+      "kind": 2,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3（条件生效） · 编号 331",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 332,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 332",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 334,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 334",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 335,
+      "kind": 2,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3（条件生效） · 编号 335",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 336,
+      "kind": 2,
+      "category": 3,
+      "amount": 3,
+      "label": "空中战 +3（条件生效） · 编号 336",
+      "description": "射门 +3、头球 +3、身体对抗 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 337,
+      "kind": 2,
+      "category": 27,
+      "amount": 3,
+      "label": "突破 +3（条件生效） · 编号 337",
+      "description": "盘球 +3、速度 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 338,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 338",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 339,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 339",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 340,
+      "kind": 2,
+      "category": 24,
+      "amount": 3,
+      "label": "攻守兼备 +3（条件生效） · 编号 340",
+      "description": "进攻意识 +3、防守意识 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 341,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 341",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 342,
+      "kind": 2,
+      "category": 25,
+      "amount": 3,
+      "label": "反击 +3（条件生效） · 编号 342",
+      "description": "地面传球 +3、抢截 +3、防守参与 +3、身体对抗 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 343,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 343",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 344,
+      "kind": 2,
+      "category": 27,
+      "amount": 3,
+      "label": "突破 +3（条件生效） · 编号 344",
+      "description": "盘球 +3、速度 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 345,
+      "kind": 2,
+      "category": 4,
+      "amount": 3,
+      "label": "传球 +3（条件生效） · 编号 345",
+      "description": "地面传球 +3、高吊传球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 346,
+      "kind": 2,
+      "category": 2,
+      "amount": 3,
+      "label": "自由球 +3（条件生效） · 编号 346",
+      "description": "射门 +3、定位球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 347,
+      "kind": 2,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3（条件生效） · 编号 347",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 348,
+      "kind": 2,
+      "category": 25,
+      "amount": 3,
+      "label": "反击 +3（条件生效） · 编号 348",
+      "description": "地面传球 +3、抢截 +3、防守参与 +3、身体对抗 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 349,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 349",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 350,
+      "kind": 2,
+      "category": 20,
+      "amount": 3,
+      "label": "後场组织 +3（条件生效） · 编号 350",
+      "description": "防守意识 +3、地面传球 +3、积极性 +3、防守参与 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 351,
+      "kind": 2,
+      "category": 4,
+      "amount": 3,
+      "label": "传球 +3（条件生效） · 编号 351",
+      "description": "地面传球 +3、高吊传球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 352,
+      "kind": 2,
+      "category": 23,
+      "amount": 3,
+      "label": "护球 +3（条件生效） · 编号 352",
+      "description": "控球 +3、紧密控球 +3、身体对抗 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 353,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 353",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 354,
+      "kind": 2,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3（条件生效） · 编号 354",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 355,
+      "kind": 2,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3（条件生效） · 编号 355",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 356,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 356",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 357,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 357",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 358,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 358",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 359,
+      "kind": 2,
+      "category": 11,
+      "amount": 3,
+      "label": "守门 +3（条件生效） · 编号 359",
+      "description": "守门员意识 +3、守门员接球能力 +3、守门员扑救能力 +3、守门员反应 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 360,
+      "kind": 2,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3（条件生效） · 编号 360",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 361,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 361",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 362,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 362",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 363,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 363",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 364,
+      "kind": 2,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3（条件生效） · 编号 364",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 365,
+      "kind": 2,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3（条件生效） · 编号 365",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 366,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 366",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 367,
+      "kind": 2,
+      "category": 28,
+      "amount": 3,
+      "label": "强壮 +3（条件生效） · 编号 367",
+      "description": "速度 +3、身体对抗 +3、脚下力量 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 368,
+      "kind": 2,
+      "category": 25,
+      "amount": 3,
+      "label": "反击 +3（条件生效） · 编号 368",
+      "description": "地面传球 +3、抢截 +3、防守参与 +3、身体对抗 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 370,
+      "kind": 2,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3（条件生效） · 编号 370",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 371,
+      "kind": 2,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3（条件生效） · 编号 371",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 372,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 372",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 373,
+      "kind": 2,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3（条件生效） · 编号 373",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 374,
+      "kind": 2,
+      "category": 25,
+      "amount": 3,
+      "label": "反击 +3（条件生效） · 编号 374",
+      "description": "地面传球 +3、抢截 +3、防守参与 +3、身体对抗 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 375,
+      "kind": 2,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3（条件生效） · 编号 375",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 376,
+      "kind": 2,
+      "category": 2,
+      "amount": 3,
+      "label": "自由球 +3（条件生效） · 编号 376",
+      "description": "射门 +3、定位球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 377,
+      "kind": 2,
+      "category": 10,
+      "amount": 3,
+      "label": "体格 +3（条件生效） · 编号 377",
+      "description": "身体对抗 +3、平衡 +3、跳跃 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 378,
+      "kind": 2,
+      "category": 8,
+      "amount": 3,
+      "label": "对抗 +3（条件生效） · 编号 378",
+      "description": "防守意识 +3、抢截 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 379,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 379",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 380,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 380",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 381,
+      "kind": 2,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3（条件生效） · 编号 381",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 382,
+      "kind": 2,
+      "category": 28,
+      "amount": 3,
+      "label": "强壮 +3（条件生效） · 编号 382",
+      "description": "速度 +3、身体对抗 +3、脚下力量 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 383,
+      "kind": 2,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3（条件生效） · 编号 383",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 384,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 384",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 385,
+      "kind": 2,
+      "category": 20,
+      "amount": 3,
+      "label": "後场组织 +3（条件生效） · 编号 385",
+      "description": "防守意识 +3、地面传球 +3、积极性 +3、防守参与 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 386,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 386",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 387,
+      "kind": 2,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3（条件生效） · 编号 387",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 388,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 388",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 389,
+      "kind": 2,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3（条件生效） · 编号 389",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 390,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 390",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 391,
+      "kind": 2,
+      "category": 11,
+      "amount": 3,
+      "label": "守门 +3（条件生效） · 编号 391",
+      "description": "守门员意识 +3、守门员接球能力 +3、守门员扑救能力 +3、守门员反应 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 392,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 392",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 393,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 393",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 394,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 394",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 395,
+      "kind": 2,
+      "category": 18,
+      "amount": 3,
+      "label": "球场幻想家 +3（条件生效） · 编号 395",
+      "description": "盘球 +3、控球 +3、射门 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 396,
+      "kind": 2,
+      "category": 23,
+      "amount": 3,
+      "label": "护球 +3（条件生效） · 编号 396",
+      "description": "控球 +3、紧密控球 +3、身体对抗 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 397,
+      "kind": 2,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3（条件生效） · 编号 397",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 398,
+      "kind": 2,
+      "category": 28,
+      "amount": 3,
+      "label": "强壮 +3（条件生效） · 编号 398",
+      "description": "速度 +3、身体对抗 +3、脚下力量 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 399,
+      "kind": 2,
+      "category": 10,
+      "amount": 3,
+      "label": "体格 +3（条件生效） · 编号 399",
+      "description": "身体对抗 +3、平衡 +3、跳跃 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 400,
+      "kind": 2,
+      "category": 27,
+      "amount": 3,
+      "label": "突破 +3（条件生效） · 编号 400",
+      "description": "盘球 +3、速度 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 401,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 401",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 402,
+      "kind": 2,
+      "category": 9,
+      "amount": 3,
+      "label": "敏捷 +3（条件生效） · 编号 402",
+      "description": "速度 +3、平衡 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 403,
+      "kind": 2,
+      "category": 8,
+      "amount": 3,
+      "label": "对抗 +3（条件生效） · 编号 403",
+      "description": "防守意识 +3、抢截 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 404,
+      "kind": 2,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3（条件生效） · 编号 404",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 405,
+      "kind": 2,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3（条件生效） · 编号 405",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 406,
+      "kind": 2,
+      "category": 14,
+      "amount": 3,
+      "label": "绝对封杀 +3（条件生效） · 编号 406",
+      "description": "防守意识 +3、抢截 +3、防守参与 +3、速度 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 407,
+      "kind": 2,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3（条件生效） · 编号 407",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 408,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 408",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 409,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 409",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 411,
+      "kind": 2,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3（条件生效） · 编号 411",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 412,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 412",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 413,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 413",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 414,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 414",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 415,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 415",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 416,
+      "kind": 2,
+      "category": 10,
+      "amount": 3,
+      "label": "体格 +3（条件生效） · 编号 416",
+      "description": "身体对抗 +3、平衡 +3、跳跃 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 417,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 417",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 418,
+      "kind": 2,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3（条件生效） · 编号 418",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 419,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 419",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 420,
+      "kind": 2,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3（条件生效） · 编号 420",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 421,
+      "kind": 2,
+      "category": 26,
+      "amount": 3,
+      "label": "空中防守 +3（条件生效） · 编号 421",
+      "description": "防守意识 +3、头球 +3、身体对抗 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 422,
+      "kind": 2,
+      "category": 20,
+      "amount": 3,
+      "label": "後场组织 +3（条件生效） · 编号 422",
+      "description": "防守意识 +3、地面传球 +3、积极性 +3、防守参与 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 423,
+      "kind": 2,
+      "category": 9,
+      "amount": 3,
+      "label": "敏捷 +3（条件生效） · 编号 423",
+      "description": "速度 +3、平衡 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 424,
+      "kind": 2,
+      "category": 27,
+      "amount": 3,
+      "label": "突破 +3（条件生效） · 编号 424",
+      "description": "盘球 +3、速度 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 425,
+      "kind": 2,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3（条件生效） · 编号 425",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 426,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 426",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 427,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 427",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 428,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 428",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 429,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 429",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 430,
+      "kind": 2,
+      "category": 8,
+      "amount": 3,
+      "label": "对抗 +3（条件生效） · 编号 430",
+      "description": "防守意识 +3、抢截 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 431,
+      "kind": 2,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3（条件生效） · 编号 431",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 433,
+      "kind": 2,
+      "category": 2,
+      "amount": 3,
+      "label": "自由球 +3（条件生效） · 编号 433",
+      "description": "射门 +3、定位球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 435,
+      "kind": 2,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3（条件生效） · 编号 435",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 436,
+      "kind": 2,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3（条件生效） · 编号 436",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 437,
+      "kind": 2,
+      "category": 23,
+      "amount": 3,
+      "label": "护球 +3（条件生效） · 编号 437",
+      "description": "控球 +3、紧密控球 +3、身体对抗 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 438,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 438",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 439,
+      "kind": 2,
+      "category": 3,
+      "amount": 3,
+      "label": "空中战 +3（条件生效） · 编号 439",
+      "description": "射门 +3、头球 +3、身体对抗 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 440,
+      "kind": 2,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3（条件生效） · 编号 440",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 441,
+      "kind": 2,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3（条件生效） · 编号 441",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 442,
+      "kind": 2,
+      "category": 26,
+      "amount": 3,
+      "label": "空中防守 +3（条件生效） · 编号 442",
+      "description": "防守意识 +3、头球 +3、身体对抗 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 443,
+      "kind": 2,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3（条件生效） · 编号 443",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 444,
+      "kind": 2,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3（条件生效） · 编号 444",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 445,
+      "kind": 2,
+      "category": 20,
+      "amount": 3,
+      "label": "後场组织 +3（条件生效） · 编号 445",
+      "description": "防守意识 +3、地面传球 +3、积极性 +3、防守参与 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 446,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 446",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 447,
+      "kind": 2,
+      "category": 26,
+      "amount": 3,
+      "label": "空中防守 +3（条件生效） · 编号 447",
+      "description": "防守意识 +3、头球 +3、身体对抗 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 451,
+      "kind": 2,
+      "category": 4,
+      "amount": 3,
+      "label": "传球 +3（条件生效） · 编号 451",
+      "description": "地面传球 +3、高吊传球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 452,
+      "kind": 2,
+      "category": 11,
+      "amount": 3,
+      "label": "守门 +3（条件生效） · 编号 452",
+      "description": "守门员意识 +3、守门员接球能力 +3、守门员扑救能力 +3、守门员反应 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 453,
+      "kind": 2,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3（条件生效） · 编号 453",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 454,
+      "kind": 2,
+      "category": 20,
+      "amount": 3,
+      "label": "後场组织 +3（条件生效） · 编号 454",
+      "description": "防守意识 +3、地面传球 +3、积极性 +3、防守参与 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 455,
+      "kind": 2,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3（条件生效） · 编号 455",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 456,
+      "kind": 2,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3（条件生效） · 编号 456",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 457,
+      "kind": 2,
+      "category": 14,
+      "amount": 3,
+      "label": "绝对封杀 +3（条件生效） · 编号 457",
+      "description": "防守意识 +3、抢截 +3、防守参与 +3、速度 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 458,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 458",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 459,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 459",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 460,
+      "kind": 2,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3（条件生效） · 编号 460",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 461,
+      "kind": 2,
+      "category": 3,
+      "amount": 3,
+      "label": "空中战 +3（条件生效） · 编号 461",
+      "description": "射门 +3、头球 +3、身体对抗 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 462,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 462",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 463,
+      "kind": 2,
+      "category": 10,
+      "amount": 3,
+      "label": "体格 +3（条件生效） · 编号 463",
+      "description": "身体对抗 +3、平衡 +3、跳跃 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 464,
+      "kind": 2,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3（条件生效） · 编号 464",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 465,
+      "kind": 2,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3（条件生效） · 编号 465",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 466,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 466",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 467,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 467",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 468,
+      "kind": 2,
+      "category": 24,
+      "amount": 3,
+      "label": "攻守兼备 +3（条件生效） · 编号 468",
+      "description": "进攻意识 +3、防守意识 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 469,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 469",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 470,
+      "kind": 2,
+      "category": 17,
+      "amount": 3,
+      "label": "传中大师 +3（条件生效） · 编号 470",
+      "description": "高吊传球 +3、弧线球 +3、速度 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 471,
+      "kind": 2,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3（条件生效） · 编号 471",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 472,
+      "kind": 2,
+      "category": 24,
+      "amount": 3,
+      "label": "攻守兼备 +3（条件生效） · 编号 472",
+      "description": "进攻意识 +3、防守意识 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 473,
+      "kind": 2,
+      "category": 11,
+      "amount": 3,
+      "label": "守门 +3（条件生效） · 编号 473",
+      "description": "守门员意识 +3、守门员接球能力 +3、守门员扑救能力 +3、守门员反应 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 474,
+      "kind": 2,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3（条件生效） · 编号 474",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 475,
+      "kind": 2,
+      "category": 11,
+      "amount": 3,
+      "label": "守门 +3（条件生效） · 编号 475",
+      "description": "守门员意识 +3、守门员接球能力 +3、守门员扑救能力 +3、守门员反应 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 476,
+      "kind": 2,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3（条件生效） · 编号 476",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 477,
+      "kind": 2,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3（条件生效） · 编号 477",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 478,
+      "kind": 2,
+      "category": 20,
+      "amount": 3,
+      "label": "後场组织 +3（条件生效） · 编号 478",
+      "description": "防守意识 +3、地面传球 +3、积极性 +3、防守参与 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 480,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 480",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 481,
+      "kind": 2,
+      "category": 25,
+      "amount": 3,
+      "label": "反击 +3（条件生效） · 编号 481",
+      "description": "地面传球 +3、抢截 +3、防守参与 +3、身体对抗 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 482,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 482",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 483,
+      "kind": 2,
+      "category": 20,
+      "amount": 3,
+      "label": "後场组织 +3（条件生效） · 编号 483",
+      "description": "防守意识 +3、地面传球 +3、积极性 +3、防守参与 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 484,
+      "kind": 2,
+      "category": 6,
+      "amount": 3,
+      "label": "技术 +3（条件生效） · 编号 484",
+      "description": "盘球 +3、控球 +3、紧密控球 +3、地面传球 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 485,
+      "kind": 2,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3（条件生效） · 编号 485",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 486,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 486",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 487,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 487",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 488,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 488",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 489,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 489",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 490,
+      "kind": 2,
+      "category": 16,
+      "amount": 3,
+      "label": "门神 +3（条件生效） · 编号 490",
+      "description": "守门员意识 +3、守门员扑救能力 +3、守门员反应 +3、守门员臂展 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 491,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 491",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 492,
+      "kind": 2,
+      "category": 23,
+      "amount": 3,
+      "label": "护球 +3（条件生效） · 编号 492",
+      "description": "控球 +3、紧密控球 +3、身体对抗 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 493,
+      "kind": 2,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3（条件生效） · 编号 493",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 494,
+      "kind": 2,
+      "category": 21,
+      "amount": 3,
+      "label": "精准 +3（条件生效） · 编号 494",
+      "description": "射门 +3、地面传球 +3、高吊传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 495,
+      "kind": 2,
+      "category": 4,
+      "amount": 3,
+      "label": "传球 +3（条件生效） · 编号 495",
+      "description": "地面传球 +3、高吊传球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 496,
+      "kind": 2,
+      "category": 29,
+      "amount": 3,
+      "label": "无球跑动 +3（条件生效） · 编号 496",
+      "description": "进攻意识 +3、速度 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 497,
+      "kind": 2,
+      "category": 27,
+      "amount": 3,
+      "label": "突破 +3（条件生效） · 编号 497",
+      "description": "盘球 +3、速度 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 498,
+      "kind": 2,
+      "category": 28,
+      "amount": 3,
+      "label": "强壮 +3（条件生效） · 编号 498",
+      "description": "速度 +3、身体对抗 +3、脚下力量 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 499,
+      "kind": 2,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3（条件生效） · 编号 499",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 500,
+      "kind": 2,
+      "category": 15,
+      "amount": 3,
+      "label": "体力无限 +3（条件生效） · 编号 500",
+      "description": "积极性 +3、身体对抗 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 501,
+      "kind": 2,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3（条件生效） · 编号 501",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 502,
+      "kind": 2,
+      "category": 4,
+      "amount": 3,
+      "label": "传球 +3（条件生效） · 编号 502",
+      "description": "地面传球 +3、高吊传球 +3、弧线球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 503,
+      "kind": 2,
+      "category": 19,
+      "amount": 3,
+      "label": "指挥官 +3（条件生效） · 编号 503",
+      "description": "防守意识 +3、紧密控球 +3、地面传球 +3、抢截 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 504,
+      "kind": 2,
+      "category": 1,
+      "amount": 3,
+      "label": "攻门 +3（条件生效） · 编号 504",
+      "description": "控球 +3、射门 +3、身体对抗 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 505,
+      "kind": 2,
+      "category": 22,
+      "amount": 3,
+      "label": "进攻引擎 +3（条件生效） · 编号 505",
+      "description": "进攻意识 +3、控球 +3、地面传球 +3、脚下力量 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 506,
+      "kind": 2,
+      "category": 9,
+      "amount": 3,
+      "label": "敏捷 +3（条件生效） · 编号 506",
+      "description": "速度 +3、平衡 +3、加速 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 507,
+      "kind": 2,
+      "category": 23,
+      "amount": 3,
+      "label": "护球 +3（条件生效） · 编号 507",
+      "description": "控球 +3、紧密控球 +3、身体对抗 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 510,
+      "kind": 2,
+      "category": 23,
+      "amount": 3,
+      "label": "护球 +3（条件生效） · 编号 510",
+      "description": "控球 +3、紧密控球 +3、身体对抗 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 511,
+      "kind": 2,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3（条件生效） · 编号 511",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 512,
+      "kind": 2,
+      "category": 7,
+      "amount": 3,
+      "label": "防守 +3（条件生效） · 编号 512",
+      "description": "防守意识 +3、抢截 +3、加速 +3、跳跃 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 513,
+      "kind": 2,
+      "category": 5,
+      "amount": 3,
+      "label": "带球 +3（条件生效） · 编号 513",
+      "description": "盘球 +3、紧密控球 +3、速度 +3、平衡 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 514,
+      "kind": 2,
+      "category": 30,
+      "amount": 3,
+      "label": "抢断 +3（条件生效） · 编号 514",
+      "description": "抢截 +3、积极性 +3、身体对抗 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 515,
+      "kind": 2,
+      "category": 10,
+      "amount": 3,
+      "label": "体格 +3（条件生效） · 编号 515",
+      "description": "身体对抗 +3、平衡 +3、跳跃 +3、体力 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 516,
+      "kind": 2,
+      "category": 13,
+      "amount": 3,
+      "label": "前锋直觉 +3（条件生效） · 编号 516",
+      "description": "进攻意识 +3、控球 +3、射门 +3、加速 +3；需满足游戏对应条件，显示为最高加成"
+    },
+    {
+      "id": 542,
+      "kind": 5,
+      "category": 0,
+      "amount": 7,
+      "label": "防守参与 +7 · 编号 542",
+      "description": "防守参与 +7"
+    }
+  ]
+}

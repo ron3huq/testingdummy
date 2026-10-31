@@ -1,0 +1,76 @@
+/* Canonical workspace: loaded directly by HTML, never an optional JS theme. */
+.phone-common,.phone-nav,.phone-quick{display:none}
+/* Fixed workspace: only the active tool sheet scrolls, never the whole phone page. */
+.card-tool-panel{background:#181e28;border:1px solid #303744;border-radius:11px;padding:16px}
+.card-tool-panel input,.card-tool-panel select{width:100%}
+.card-fields{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.card-fields label{margin:4px 0}
+.card-tool-panel .status{overflow-wrap:anywhere}
+.card-package-dialog{color:#e9edf5;background:#181e28;border:1px solid #58677d;border-radius:14px;width:min(94vw,520px);max-height:90dvh;padding:18px}
+.card-package-dialog::backdrop{background:#000b}
+.card-package-dialog img{width:95px;height:134px;object-fit:fill;background:#111827}
+.card-package-dialog .buttons{margin-top:16px;position:sticky;bottom:0;background:#181e28;padding:8px 0}
+#phonePreviewToggle{display:none}
+#phoneCanvasToggle{display:none}
+/* Launcher-aligned black/purple palette. Native card art itself keeps its original colours. */
+:root{color-scheme:dark;color:#eeebfb;background:#0d0a16;--accent:#a78bfa;--line:#3b3057;--workspace-theme:black-purple;--workspace-version:E169-mobile-11}
+body{background:#0d0a16}header{background:#100c1d;border-color:#302442}
+button,select{background:#241b36;border-color:#443357;color:#eee8ff}button:hover{background:#352447}
+button.active,.primary,.suite-tile[aria-pressed=true]{background:#8b5cf6;border-color:#c4b5fd;color:white}
+input[type=range],input[type=checkbox]{accent-color:#a78bfa}
+input[type=text],input[type=number]{background:#100c1d;border-color:#443357}
+.panel,.card-tool-panel,.phone-common,.card-package-dialog{background:#171122;border-color:#362846}
+.stage{background:#0c0913;border-color:#3a2a50}.status{color:#c4b5fd}.hint,.muted,small{color:#aaa0bd}
+.phone-nav,.card-package-dialog .buttons{background:#130d20;border-color:#3b2a50}
+ #backgroundPicker.phone-selected{background:#171122;border-color:#362846}#editor{border-color:#70568b}
+.suite-filters{display:grid;grid-template-columns:95px 1fr;gap:7px}.suite-filters input{min-width:0}
+#suiteGallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+.suite-tile{padding:5px;min-width:0;display:flex;flex-direction:column;gap:3px;text-align:left}
+.suite-tile-art{width:100%;aspect-ratio:512/720;position:relative;overflow:hidden;background:radial-gradient(ellipse at top,#4c3072,#181020)}
+.suite-tile-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill!important;border:0!important;border-radius:0!important;max-height:none!important;background:transparent!important}
+.suite-tile strong{font-size:11px}.suite-tile>span{font-size:10px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.suite-tile small{font-size:8px;overflow-wrap:anywhere}
+.suite-mark{position:absolute;bottom:4px;left:4px;padding:2px 5px;border-radius:4px;background:#140c23b3;color:#e9ddff;font-size:9px}
+.suite-pager{display:flex;align-items:center;justify-content:space-between;gap:5px;margin-top:7px;font-size:10px}.suite-pager button{padding:5px 8px;min-height:30px}
+#suiteSelection{font-size:10px;margin:6px 0}#suiteAdvanced{margin-top:12px}
+
+
+
+
+
+/* Never expose the retired editor if a workspace module fails to load. */
+#workspaceBoot{max-width:480px;margin:12vh auto;padding:24px;background:#171122;border:1px solid #443357;border-radius:14px;color:#eeebfb}
+html:not([data-workspace-ready]) body{display:block!important;overflow:auto!important}
+html:not([data-workspace-ready]) body>header,html:not([data-workspace-ready]) body>main,html:not([data-workspace-ready]) body>footer,html:not([data-workspace-ready]) .phone-common,html:not([data-workspace-ready]) .phone-nav{display:none!important}
+html[data-workspace-ready] #workspaceBoot{display:none}
+#diyGenerationSteps{display:flex;flex-wrap:wrap;gap:6px 16px;padding-left:22px;font-size:12px;color:#a9a0b7}#diyGenerationSteps [aria-current=step]{color:#e1d0ff;font-weight:700}#diyGeneration[aria-busy=true] #diyGenerationStatus{border-left:3px solid #a78bfa;padding-left:8px}#diyGenerationRefresh{margin:6px 0}#suiteResourceHealth:empty{display:none}.suite-tile[data-resource=missing] .suite-tile-art::before{content:'图片缺失 · 请重新加载';position:absolute;inset:0;display:grid;place-items:center;padding:8px;color:#f7b5b5;background:#211626;font-size:12px;text-align:center}.suite-tile img[hidden]{display:none!important}
+
+#diyGeneration{border-top:1px solid #443357;margin-top:16px;padding-top:2px}
+#diyGenerationSteps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));list-style:none;counter-reset:generation;padding:0;gap:6px;margin:12px 0}
+#diyGenerationSteps li{counter-increment:generation;font-size:11px;line-height:1.5;min-width:0;overflow-wrap:anywhere;color:#aaa0bd;border-top:2px solid #3b3057;padding-top:7px}
+#diyGenerationSteps li::before{content:counter(generation);display:block;font-size:13px;font-weight:700;margin-bottom:2px}
+#diyGenerationSteps li[aria-current=step]{color:#eee8ff;border-color:#a78bfa}
+#diyGeneratePreview{width:100%;min-height:42px;margin:2px 0 4px}
+#diyGenerationRefresh,#diyNewWork{width:calc(50% - 3px);min-height:38px;font-size:12px;padding:7px 4px}
+#diyNewWork{margin-left:6px}
+#diyGenerationStatus{padding:10px 12px;border:1px solid #443357;border-radius:6px;background:#100c1d;line-height:1.7;overflow-wrap:anywhere}
+#diyGenerationHistory>p{border-top:1px solid #362846;padding-top:10px;margin-bottom:6px}
+#diyGenerationHistory>button{width:100%;margin-bottom:8px}
+.phone-nav button:focus-visible,button:focus-visible{outline:2px solid #c4b5fd;outline-offset:2px}
+
+.diy-profile{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.diy-profile h2{font-size:15px;margin:0 0 4px}.diy-profile p{font-size:11px;color:#aaa0bd;margin:0;overflow-wrap:anywhere}
+.diy-profile-icon{display:grid;place-items:center;flex:none;width:42px;height:48px;border-radius:10px;background:linear-gradient(145deg,#61418c,#251b38);border:1px solid #70568b;font-size:12px;font-weight:700;color:#e1d0ff}
+.diy-setting-card{display:block;border:1px solid #3b3057;border-radius:10px;padding:11px;margin:8px 0;background:#100c1d}
+.diy-setting-card h3{margin:0 0 5px!important;font-size:12px}.diy-setting-card>label{margin-top:8px}.diy-setting-card summary{font-size:12px;font-weight:700;line-height:1.8;color:#eee8ff}
+.diy-setting-card summary span{display:block;padding-left:12px;font-size:10px;font-weight:400;color:#aaa0bd;overflow-wrap:anywhere}
+.diy-setting-card input,.diy-setting-card select{border-radius:7px!important}.diy-setting-card input[type=number]{font-variant-numeric:tabular-nums}
+.diy-ability-group h4{font-size:11px;color:#c4b5fd;margin:14px 0 5px}.diy-ability-group label{margin:3px 0!important;display:flex;align-items:center;justify-content:space-between;gap:4px;background:#191224;border-radius:6px;padding:6px;font-size:10px;min-width:0}
+.diy-ability-group input[type=number]{width:48px;min-width:0;flex:none;text-align:center;padding:4px!important;border:0!important;font-weight:700}
+.diy-ability-group input[data-rating=high]{color:#99e3b5}.diy-ability-group input[data-rating=mid]{color:#ead88a}.diy-ability-group input[data-rating=low]{color:#c9bfd7}
+.diy-booster-slot{border-top:1px solid #362846;margin-top:10px;padding-top:4px}.diy-booster-slot select{margin-top:6px;font-size:11px}.diy-booster-slot .hint{font-size:10px;line-height:1.8;margin:7px 0;overflow-wrap:anywhere}
+.booster-badge{display:inline-grid;place-items:center;width:22px;height:24px;border:1px solid;border-radius:6px;margin-right:5px;font-weight:700}.booster-badge.gold{color:#f2d58b;background:#3a2d14;border-color:#9d7d35}.booster-badge.cyan{color:#94dfed;background:#142c36;border-color:#3a8191}
+#diyBoosterQuery{width:100%;background:#191224;border:1px solid #443357;color:#eee8ff;padding:8px;border-radius:7px;min-width:0}
+#diyBoosterStatus,#diyPlayerStatus{font-size:10px;line-height:1.8;margin:8px 0}#diyModelSearchStatus{font-size:10px;grid-column:1/-1;overflow-wrap:anywhere}
+
+/* E169 usability: one header, direct layer removal, compact profile choices. */
+#workspaceBack{flex:none;min-height:40px;padding:7px 12px}body>header{display:flex;gap:10px;align-items:center}.profile-skill-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;max-height:320px;overflow:auto}.profile-skill-grid label{display:flex;gap:7px;align-items:center;background:#21182e;padding:8px;border-radius:7px;font-size:12px}.profile-skill-grid input{width:18px!important;height:18px;flex:none}.art-row{flex-wrap:wrap}.art-row .art-pick{flex-basis:35%;min-width:90px}.art-remove{color:#ffb5b5!important}#diyGenerationProgress{width:100%;height:14px;accent-color:#ad8bfa}#diyProgressLabel{font-size:12px;color:#c9b7e7}

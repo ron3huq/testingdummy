@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "real_Chromium_UI_mini_large_buttons_zoom_and_save": true,
+  "distinct_independent_crops": true,
+  "guides_not_in_export": true,
+  "model_not_loaded_for_transparent_input": true,
+  "Android_tested": false
+}

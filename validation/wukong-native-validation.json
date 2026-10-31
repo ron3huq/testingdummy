@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "meshes": [
+    {
+      "mesh": "SK_NWK9_Face",
+      "vertices": 63897,
+      "triangles": 67170,
+      "fur_triangles": 12821,
+      "positions_preserved_as_set": true,
+      "global_skin_weights_preserved": true,
+      "active_and_required_bones": 166
+    },
+    {
+      "mesh": "SK_NWK9lg00v0000_Face",
+      "vertices": 63897,
+      "triangles": 67170,
+      "fur_triangles": 12821,
+      "positions_preserved_as_set": true,
+      "global_skin_weights_preserved": true,
+      "active_and_required_bones": 166
+    },
+    {
+      "mesh": "SK_NWK9ep00v0313_Face",
+      "vertices": 63897,
+      "triangles": 67170,
+      "fur_triangles": 12821,
+      "positions_preserved_as_set": true,
+      "global_skin_weights_preserved": true,
+      "active_and_required_bones": 166
+    },
+    {
+      "mesh": "SK_NWK9ep01v0291_Face",
+      "vertices": 63897,
+      "triangles": 67170,
+      "fur_triangles": 12821,
+      "positions_preserved_as_set": true,
+      "global_skin_weights_preserved": true,
+      "active_and_required_bones": 166
+    }
+  ],
+  "texture_mips": [
+    [
+      2048,
+      1024
+    ],
+    [
+      1024,
+      512
+    ],
+    [
+      512,
+      256
+    ],
+    [
+      256,
+      128
+    ],
+    [
+      128,
+      64
+    ],
+    [
+      64,
+      32
+    ],
+    [
+      32,
+      16
+    ],
+    [
+      16,
+      8
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "all_container_entries_readback": true,
+  "other_heroes_assets_unchanged": true,
+  "Android_tested": false
+}
