@@ -116,7 +116,12 @@ def save(c,changes):
   if req.get('revision')!=revision(current):raise ValueError('Team changed; reload the team before saving')
   row=copy.deepcopy(req['team']);row['team_id']=tid;row['competition']=cid;row.pop('revision',None)
   for p in row['roster']:p.pop('name',None)
-  row['ui712_transfer']=True;row['source']='USER_EDIT_OF_NATIVE_TEAM';validate_team(row);validate_kits(row);updated[key(tid,cid)]=row
+  # A roster/formation edit is not a kit edit. Native captures can include valid
+  # GK/alternate slots absent from the ordinary selectable-kit catalogue.
+  current_kits=current.get('kits',kit_choices(tid))
+  if row.get('kits',current_kits)!=current_kits:validate_kits(row)
+  elif not current.get('ui712_transfer'):row.pop('kits',None)
+  row['ui712_transfer']=True;row['source']='USER_EDIT_OF_NATIVE_TEAM';validate_team(row);updated[key(tid,cid)]=row
   cfg['teams']=[r for r in cfg['teams']if(r['team_id'],r['competition'])!=(tid,cid)]+[row]
  if len(updated)>128:raise ValueError('Maximum128 simultaneously edited teams')
  editor.validate(cfg)

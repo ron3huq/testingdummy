@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "unchanged_native_GK_alternate_kits_do_not_block_roster_save": true,
+  "position_only_save_does_not_create_kit_override": true,
+  "captain_and_takers_remain_player_ids": true,
+  "explicit_invalid_kit_rejected_atomically": true,
+  "valid_kit_change_persists_across_position_edit": true,
+  "Android_tested": false
+}

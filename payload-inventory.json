@@ -1,15 +1,15 @@
 {
-  "version": "V19.1-FULL5.2-LOGIN-PIPELINE",
+  "version": "V19.1-FULL6",
   "files": [
     {
       "path": "README-VI.md",
-      "bytes": 7020,
-      "sha256": "005c1c05de2d5c880df79725642ca7722fb8d350e64a844ad5e8d7ccfd16b60c"
+      "bytes": 6387,
+      "sha256": "38615e01eb25236cbbe0702256dc8499c1dcb385f6c2ef196bc593c1cc3af554"
     },
     {
       "path": "RESEARCH-VI.md",
-      "bytes": 5797,
-      "sha256": "20596de10f74ea25391f7f44a17789fb992bcf1773f9a7b7b8413558e2638403"
+      "bytes": 7286,
+      "sha256": "8fed5749df79230da29ea53d403fd3ddaeac18766dd16808c2921d4da820a2ca"
     },
     {
       "path": "assets/card-designer/LeagueGothic.ttf",
@@ -3579,17 +3579,17 @@
     {
       "path": "assets/gateway-release/livedata/pc9315_mobile_and.pak",
       "bytes": 365,
-      "sha256": "88076ac15ded6b433176e4f7bf5a34660d30eb99cf79ccf5a4857e23703d63f9"
+      "sha256": "01f54e1a0093dd9e634e8688f30c663c619aee0c71579f196006f214aa26fe78"
     },
     {
       "path": "assets/gateway-release/livedata/pc9315_mobile_and.ucas",
-      "bytes": 36966725,
-      "sha256": "3af55724269d36abbb1af8cd75dbe7a8f6e272227540086d36bcb7045a198b91"
+      "bytes": 36962853,
+      "sha256": "575402fb83254314958f60d89a253992f059c3cc5044541eee127ca2c954981e"
     },
     {
       "path": "assets/gateway-release/livedata/pc9315_mobile_and.utoc",
       "bytes": 38734,
-      "sha256": "9c5bfd39ca0aef87bbff908606da53ceae02275d73ec3b251b94d7e314ffd144"
+      "sha256": "4535fceb0e1468cfa6533aac00c001958fbacb42888e9ebff5378261cf7ec53b"
     },
     {
       "path": "assets/gateway-release/livedata/pc9316_mobile_and.pak",
@@ -3609,17 +3609,17 @@
     {
       "path": "assets/gateway-release/livedata/pc9317_mobile_and.pak",
       "bytes": 365,
-      "sha256": "b739ca5917f94bebdb331445f06eddbed3c0cc89ab3d26340bdf6fd23269b551"
+      "sha256": "c0a366fd6e542b6f31417230de419118629fde74887fbc12db5e3962a4a86059"
     },
     {
       "path": "assets/gateway-release/livedata/pc9317_mobile_and.ucas",
-      "bytes": 31507863,
-      "sha256": "ec09527077f1736a65eafecbcdf34077798a07c9437e1775277403844f77653e"
+      "bytes": 31724788,
+      "sha256": "0661f6553587aa34ed05d79a9fa2efa1d740ccf8f8ab708c34bb71f4d5ae74ed"
     },
     {
       "path": "assets/gateway-release/livedata/pc9317_mobile_and.utoc",
-      "bytes": 41657,
-      "sha256": "80a0a63cb6284166e4dacd9cbe87afedb2a9a29b5c4a2247c1801adcc314eae3"
+      "bytes": 39593,
+      "sha256": "8253a610f18ff5fb2c87e72dad7b5b58578896602ebce1a56964607856d5c0ad"
     },
     {
       "path": "assets/gateway-release/livedata/pc9320_mobile_and.pak",
@@ -3683,13 +3683,13 @@
     },
     {
       "path": "assets/gateway-release/release-manifest.json",
-      "bytes": 1397550,
-      "sha256": "5c2b51593ce95f1efa72c952f8494dc047658f9a8451d5e8aa16770ce4a98e1c"
+      "bytes": 1397551,
+      "sha256": "855bece5952bd9255aed711ed984ae78a3e06c18c27a41c99b691eeb5d8b0a3f"
     },
     {
       "path": "assets/gateway-release/ui6-runtime-manifest.json",
-      "bytes": 21283,
-      "sha256": "4eb62afea22abcb269da03b62331cdf7a3490c24f324eb723d61b9c925d7ce61"
+      "bytes": 21284,
+      "sha256": "af5df3b209075dd42805b1621e53035a6992bc2df4a144f3e4715876602cb81d"
     },
     {
       "path": "assets/gateway-release/work/tools/appearance_choices.py",
@@ -3798,13 +3798,13 @@
     },
     {
       "path": "assets/gateway-release/work/tools/libnoodle_hair.so",
-      "bytes": 175264,
-      "sha256": "babee9076734f3f149382920bb188775dea943ea1ecdd57431ff4be6d9384006"
+      "bytes": 175320,
+      "sha256": "4afdc73ffa7b685d66000280fcf7eaed4b79115fe2cd79562bdadf1e050fdf86"
     },
     {
       "path": "assets/gateway-release/work/tools/libselect_team.so",
-      "bytes": 375304,
-      "sha256": "1e59115ad77b29d43629809fe85aab36636ca24b5df97496c2e1e3ffdfe1cd8f"
+      "bytes": 375856,
+      "sha256": "5abc4d675654e7a7aeaf6354727f865cd22941986aafe6a32072b256aa62cc59"
     },
     {
       "path": "assets/gateway-release/work/tools/live_snapshot.py",
@@ -3918,8 +3918,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_bundle.json",
-      "bytes": 10353,
-      "sha256": "c6138038ba021a2ca8ac2c9fbc6f3c176d09c94598de69573d4e503dd8258a67"
+      "bytes": 11107,
+      "sha256": "e9a73aca1f3cfd6531446de32962979fce3730e389f1e4359d46c5afb156b871"
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.json",
@@ -3929,7 +3929,7 @@
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.py",
       "bytes": 20144,
-      "sha256": "742deaf485566a1fb6b3f98998a67aa35c63687976d19183cb58fddd1c86142b"
+      "sha256": "bf068d99a9f52a79b8224b7b65e564915c38d50e2a73740a3eb929aaa83f274c"
     },
     {
       "path": "assets/gateway-release/work/tools/photo_codec.py",
@@ -3968,8 +3968,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.json",
-      "bytes": 6115,
-      "sha256": "4bd98a3eeba10d37ae318c7f56808cd638fabeb13efc68161cec846e0341db63"
+      "bytes": 6117,
+      "sha256": "83a105f611b36d89c8861492e067f84e963cfd48f95bfb98a0c5976e38243c1f"
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.py",
@@ -3989,7 +3989,7 @@
     {
       "path": "assets/gateway-release/work/tools/select_team_runtime.py",
       "bytes": 25988,
-      "sha256": "7a82bfd4446fb5b6b37e16640e91378e75c81d9eb73339815a5386aa06aa77ea"
+      "sha256": "001c0807c69cce2c7f25f7f2741ecbb79374c472e9c9e37ef70a068d38e7271f"
     },
     {
       "path": "assets/gateway-release/work/tools/stat_editor.py",
@@ -4008,8 +4008,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/transfer_editor.py",
-      "bytes": 15357,
-      "sha256": "a68153e31576af9c9a541bbdfe8e9ae5e76784021f642f6dc72d003439fe7c7b"
+      "bytes": 15674,
+      "sha256": "bd7ae4c226a9e513fb0264f7c1c89cf892082633f0792197c5cf88f95f391a5b"
     },
     {
       "path": "assets/gateway-release/work/tools/transfer_player_editor.py",
@@ -4228,8 +4228,8 @@
     },
     {
       "path": "classes5.dex",
-      "bytes": 633224,
-      "sha256": "baec24360c49b0fd0fcc4fd8b590f8a2d97bfa255b8a34fdb6facb42f729f568"
+      "bytes": 633220,
+      "sha256": "6b330b604c2a1ce627af22dfc7b559d00be071cee52bdf43d392c52ac76c8fae"
     },
     {
       "path": "validation/cold-boot-validation.json",
@@ -4665,6 +4665,126 @@
       "path": "validation/full52-startup-bundle-validation.json",
       "bytes": 571,
       "sha256": "5104310577947e9e10fb5046c2d461e6432588f0a7165c892c2e74b2e6e216ec"
+    },
+    {
+      "path": "validation/full6-accessory-vector-validation.json",
+      "bytes": 1800,
+      "sha256": "3e7f9c758ebbf133beffe548554fe029e0703ff1f695ff5bfdbdd5c36742aa29"
+    },
+    {
+      "path": "validation/full6-cached-player-lookup-validation.json",
+      "bytes": 646,
+      "sha256": "b022e1a5e4d8a776079c0f8f13e3247a5ce16ba644b8854d705f71dd445bf946"
+    },
+    {
+      "path": "validation/full6-cached-roles-bench-validation.json",
+      "bytes": 1663,
+      "sha256": "4a9304b7cf6ad8a0e07aadfb6b322bf72a98d1aa59da520930a14894a909e089"
+    },
+    {
+      "path": "validation/full6-cached-roles-validation.json",
+      "bytes": 1584,
+      "sha256": "41b0c661c73573853992ecf1303b22cfe2f3110d670c98f80fbcdd4c93f4685e"
+    },
+    {
+      "path": "validation/full6-corrected-heads-reader-validation.json",
+      "bytes": 11110,
+      "sha256": "2fc65a85cec61a129e62fbb32326b32d20f0a3830ed026e2981a968aaf2891eb"
+    },
+    {
+      "path": "validation/full6-dex-link-audit.json",
+      "bytes": 48,
+      "sha256": "bf47f249e4b63b8ce153103605632292f3168844d2a7e3820c359fbab9dab5a0"
+    },
+    {
+      "path": "validation/full6-full-login-regression-validation.json",
+      "bytes": 613,
+      "sha256": "e15e476295004ba1b1a3318a1bc5598ab51dd1c081a8434cade15b1e9dc8f298"
+    },
+    {
+      "path": "validation/full6-mobile-head-lod-validation.json",
+      "bytes": 4270,
+      "sha256": "0fcd1bae2084c1390a575ce205d1f3d45455603ec5c6a83e8433285d5ef15c4a"
+    },
+    {
+      "path": "validation/full6-native-abilities-motion-validation.json",
+      "bytes": 236,
+      "sha256": "3bb71ba72acea53d032501dcd372498830ead58ef9bb529d8141eb827f3a481e"
+    },
+    {
+      "path": "validation/full6-native-name-validation.json",
+      "bytes": 359,
+      "sha256": "eca18e8740cfb69ebbefa5c3cbce05e2a57a4d38a1db458ba4df8f82e2fee831"
+    },
+    {
+      "path": "validation/full6-native-trait-validation.json",
+      "bytes": 328,
+      "sha256": "fdf579e8fb1f2ee1345313671d644ee175098826a8a219f84471693c8b59fc91"
+    },
+    {
+      "path": "validation/full6-owned-leagues-native-validation.json",
+      "bytes": 431,
+      "sha256": "2fa491392b05479e2dd99ebe10fee26c256b6958a4a438cb7c20610c8a039bd6"
+    },
+    {
+      "path": "validation/full6-owned-leagues-projection-validation.json",
+      "bytes": 261,
+      "sha256": "b83a720d9edaad3c6315835562a71d470fe6f9685c6f1c0629f744eb11408134"
+    },
+    {
+      "path": "validation/full6-ronaldo4522-head-validation.json",
+      "bytes": 1663,
+      "sha256": "1bae3048a5156a57f067daed5f1c81f6552cd9df7fe81bfc7bf3476d88927aa1"
+    },
+    {
+      "path": "validation/full6-spider-routing-validation.json",
+      "bytes": 260,
+      "sha256": "e40b5619247d46993ff8ff333a5b988989f2640a4dabcfca15a6562957e138cb"
+    },
+    {
+      "path": "validation/full6-startup-bundle-validation.json",
+      "bytes": 571,
+      "sha256": "5104310577947e9e10fb5046c2d461e6432588f0a7165c892c2e74b2e6e216ec"
+    },
+    {
+      "path": "validation/full6-summary.json",
+      "bytes": 2897,
+      "sha256": "d3df99c409d1ac9666eea4f71d2f689c8e61f76fdca5722512d203348710eab0"
+    },
+    {
+      "path": "validation/full6-transfer-kit-validation.json",
+      "bytes": 335,
+      "sha256": "a6cb6f70753b3dd642acdc81a4687904498fe29e026b4c924f3102cdfa8737b2"
+    },
+    {
+      "path": "validation/full6-transfer-native-122-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full6-transfer-native-128-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full6-transfer-native-473-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full6-transfer-native-518-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full6-transfer-player-native-validation.json",
+      "bytes": 260,
+      "sha256": "f7c36ccdbbd1bfdde4508817257e328821644abbd1192214b4cbd9054215b129"
+    },
+    {
+      "path": "validation/full6-wrist-load-boundary-validation.json",
+      "bytes": 473,
+      "sha256": "1db6a95631fd7a7c0e3778cfef74fd5ace6003d2c14dd6b2839044f2ceeb70f6"
     },
     {
       "path": "validation/hook-chain-validation.json",

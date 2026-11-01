@@ -87,15 +87,15 @@
     },
     "pc9315_mobile_and.pak": {
       "size": 365,
-      "sha256": "88076ac15ded6b433176e4f7bf5a34660d30eb99cf79ccf5a4857e23703d63f9"
+      "sha256": "01f54e1a0093dd9e634e8688f30c663c619aee0c71579f196006f214aa26fe78"
     },
     "pc9315_mobile_and.utoc": {
       "size": 38734,
-      "sha256": "9c5bfd39ca0aef87bbff908606da53ceae02275d73ec3b251b94d7e314ffd144"
+      "sha256": "4535fceb0e1468cfa6533aac00c001958fbacb42888e9ebff5378261cf7ec53b"
     },
     "pc9315_mobile_and.ucas": {
-      "size": 36966725,
-      "sha256": "3af55724269d36abbb1af8cd75dbe7a8f6e272227540086d36bcb7045a198b91"
+      "size": 36962853,
+      "sha256": "575402fb83254314958f60d89a253992f059c3cc5044541eee127ca2c954981e"
     },
     "pc9316_mobile_and.pak": {
       "size": 365,
@@ -111,15 +111,15 @@
     },
     "pc9317_mobile_and.pak": {
       "size": 365,
-      "sha256": "b739ca5917f94bebdb331445f06eddbed3c0cc89ab3d26340bdf6fd23269b551"
+      "sha256": "c0a366fd6e542b6f31417230de419118629fde74887fbc12db5e3962a4a86059"
     },
     "pc9317_mobile_and.utoc": {
-      "size": 41657,
-      "sha256": "80a0a63cb6284166e4dacd9cbe87afedb2a9a29b5c4a2247c1801adcc314eae3"
+      "size": 39593,
+      "sha256": "8253a610f18ff5fb2c87e72dad7b5b58578896602ebce1a56964607856d5c0ad"
     },
     "pc9317_mobile_and.ucas": {
-      "size": 31507863,
-      "sha256": "ec09527077f1736a65eafecbcdf34077798a07c9437e1775277403844f77653e"
+      "size": 31724788,
+      "sha256": "0661f6553587aa34ed05d79a9fa2efa1d740ccf8f8ab708c34bb71f4d5ae74ed"
     },
     "pc9320_mobile_and.pak": {
       "size": 365,
@@ -170,6 +170,6 @@
       "sha256": "79b37a500245a626c40a072c1790d91f2a89cf928515683764355aad7b343057"
     }
   },
-  "resource_revision": 19002,
-  "build_label": "FULL52-LOGIN-PIPELINE"
+  "resource_revision": 19003,
+  "build_label": "FULL6-TRANSFER-FACE-LOD"
 }

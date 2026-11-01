@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "native4522_and_native_BaseFace_both_use166_153": true,
+  "native_body_bone_numbers_preserved": true,
+  "Joker_jaw_before": [
+    -0.25112456153003765,
+    8.011263957736864,
+    160.56116286750938
+  ],
+  "Joker_jaw_after": [
+    -0.25112455699689246,
+    7.3456834362542605,
+    165.56012337435382
+  ],
+  "Joker_head_scale": 1.1,
+  "checks": [
+    {
+      "profile": "NJK3",
+      "variant": "",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": true,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1.1
+    },
+    {
+      "profile": "NJK3",
+      "variant": "lg00v0000",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": true,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1.1
+    },
+    {
+      "profile": "NJK3",
+      "variant": "ep00v0313",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": true,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1.1
+    },
+    {
+      "profile": "NJK3",
+      "variant": "ep01v0291",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": true,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1.1
+    },
+    {
+      "profile": "NRA6",
+      "variant": "",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NRA6",
+      "variant": "lg00v0000",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NRA6",
+      "variant": "ep00v0313",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NRA6",
+      "variant": "ep01v0291",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NSV1",
+      "variant": "",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NSV1",
+      "variant": "lg00v0000",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NSV1",
+      "variant": "ep00v0313",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NSV1",
+      "variant": "ep01v0291",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NSM1",
+      "variant": "",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NSM1",
+      "variant": "lg00v0000",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NSM1",
+      "variant": "ep00v0313",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    },
+    {
+      "profile": "NSM1",
+      "variant": "ep01v0291",
+      "body_compact_pose_LOD0": 166,
+      "body_compact_pose_LOD1": 153,
+      "geometry_changed": false,
+      "body_attachment_unchanged": true,
+      "face_shape_scale": 1
+    }
+  ],
+  "Android_tested": false
+}

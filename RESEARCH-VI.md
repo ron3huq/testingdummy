@@ -29,3 +29,11 @@ Chép thẳng texture sẽ tô nhầm da/quần/áo và ảnh hưởng hình xă
 CameraPlayer và quyền điều khiển một cầu thủ là hai phần khác nhau. Camera runtime hiện có trục/type/reset; không có APIchọnplayerID và chuyển inputownership đã xác minh. Có enumEPesCameraType::Player nhưng nó không chứng minh điều khiển hỗn hợp AI/người. ThunkOnPressedAutoPlayButton4035574 gọi base33c74c0(RET); logic thực có thể nằm ởBlueprint/gameplay khác. Hook vào nút đó không đủ để bảo đảm chuyển quyền.
 
 Chưa bật chức năng giả trong menu và không cài hookđịa chỉ đoán. Thiết kế cần kiểm chứng: AIoff→chế độ điều khiển gốc; AIon+lockon→duy nhấtIDđãchọn nhận inputngười, các cầu thủ còn lại AI; tắtlock→trả lạiAIgốc; tắtAI→nhảlocktrước rồi game điều khiển bình thường. Cầu thủ ra sân/chấn thương/đổi trận phải nhảownership, không tự chiếm cầu thủ khác. Cần trace controller/possession/input thực trong trận trên máy để triển khai và kiểm tra bật/tắtAI, pause, replay, thay người, đổi camera. Phần này chưa hoàn tất triển khai.
+
+## Bổ sung FULL6
+
+Đã đối chiếu trực tiếp mesh4522 vàSK_Base_Face gốc: RefSkeleton166 xương, nhưng danh sách RequiredBones là166 ởLOD0 và153 ởLOD1. LOD1 bỏ các mục8–20 trước vai/tay; ví dụ xương upperarm_l73 ở vị trí60 trong pose compact gốc, còn danh sách166 đặt nó ở73. Các face nhập đã dùng danh sách166 ởLOD1. FULL6 sửa5 profile đang xử lý về đúng danh sách từngLOD, remap trọng số bị loại và xác minh bằng trình đọc độc lập cho cả4 biến thể. Đây là sửa cấu trúc payload; việc hết kéo tay trong trận vẫn cần kiểm tra trên máy.
+
+Hai Spider có đúng tài nguyên từ trước nhưng thiếu2ID trong điều kiện cho phép redirect face ngoài4522. Đã tái hiện bằng thư viện cũ và chạy lại160 trường hợp qua hàmARM64 đã biên dịch sau sửa. Không đổiFaceID/ID cầu thủ để ép nhận face.
+
+Tiếp tục xem đường camera/AI: đăng kýOnPressedAutoPlayButton thứ hai tại4035b34 là hàm tạo/đăng kýUFunction, không phải setter nhận input của cầu thủ. Nhánh dùng chuỗiSwitch_PlayerID tại2fbfcd4 dựngFName và đi vào đườngUI; chưa tìm thấy ở đó thao tác gán quyền điều khiển. Vì thế chưa có căn cứ an toàn để coi hai tên này là hàm khóa cầu thủ. Không triển khai chế độ điều khiển hỗn hợp chỉ dựa trên tênenum/chuỗiUI.

@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "real_engine_mode2_cache_lookup": true,
+  "original_cached_team_hook_entry_executed": true,
+  "high_cache_indices_and_upper_word_flags_preserved": true,
+  "captain_and_all_six_takers_resolved_by_real_cache": true,
+  "missing_cached_member_rejected_without_team_write": true,
+  "checks": [
+    {
+      "physical_pool": 0,
+      "repeats": 3,
+      "original_mode2_11_player_ids": [
+        10000000000000,
+        10000000000001,
+        10000000000007,
+        10000000000003,
+        10000000000004,
+        10000000000005,
+        10000000000006,
+        10000000000002,
+        10000000000008,
+        10000000000009,
+        10000000000010
+      ],
+      "captain_and_6_takers_correct": true
+    },
+    {
+      "physical_pool": 1,
+      "repeats": 3,
+      "original_mode2_11_player_ids": [
+        10000000000000,
+        10000000000001,
+        10000000000007,
+        10000000000003,
+        10000000000004,
+        10000000000005,
+        10000000000006,
+        10000000000002,
+        10000000000008,
+        10000000000009,
+        10000000000010
+      ],
+      "captain_and_6_takers_correct": true
+    },
+    {
+      "physical_pool": 2,
+      "repeats": 3,
+      "original_mode2_11_player_ids": [
+        10000000000000,
+        10000000000001,
+        10000000000007,
+        10000000000003,
+        10000000000004,
+        10000000000005,
+        10000000000006,
+        10000000000002,
+        10000000000008,
+        10000000000009,
+        10000000000010
+      ],
+      "captain_and_6_takers_correct": true
+    }
+  ],
+  "Android_tested": false
+}

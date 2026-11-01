@@ -1,5 +1,5 @@
 {
-  "version": "private-v19.1-full-5.2-login-pipeline",
+  "version": "private-v19.1-full-6-transfer-face-lod",
   "files": [
     {
       "path": "custom-resources/legends-v10/dt870_mobile_and.cpk",
@@ -184,17 +184,17 @@
     {
       "path": "livedata/pc9315_mobile_and.pak",
       "bytes": 365,
-      "sha256": "88076ac15ded6b433176e4f7bf5a34660d30eb99cf79ccf5a4857e23703d63f9"
+      "sha256": "01f54e1a0093dd9e634e8688f30c663c619aee0c71579f196006f214aa26fe78"
     },
     {
       "path": "livedata/pc9315_mobile_and.ucas",
-      "bytes": 36966725,
-      "sha256": "3af55724269d36abbb1af8cd75dbe7a8f6e272227540086d36bcb7045a198b91"
+      "bytes": 36962853,
+      "sha256": "575402fb83254314958f60d89a253992f059c3cc5044541eee127ca2c954981e"
     },
     {
       "path": "livedata/pc9315_mobile_and.utoc",
       "bytes": 38734,
-      "sha256": "9c5bfd39ca0aef87bbff908606da53ceae02275d73ec3b251b94d7e314ffd144"
+      "sha256": "4535fceb0e1468cfa6533aac00c001958fbacb42888e9ebff5378261cf7ec53b"
     },
     {
       "path": "livedata/pc9316_mobile_and.pak",
@@ -214,17 +214,17 @@
     {
       "path": "livedata/pc9317_mobile_and.pak",
       "bytes": 365,
-      "sha256": "b739ca5917f94bebdb331445f06eddbed3c0cc89ab3d26340bdf6fd23269b551"
+      "sha256": "c0a366fd6e542b6f31417230de419118629fde74887fbc12db5e3962a4a86059"
     },
     {
       "path": "livedata/pc9317_mobile_and.ucas",
-      "bytes": 31507863,
-      "sha256": "ec09527077f1736a65eafecbcdf34077798a07c9437e1775277403844f77653e"
+      "bytes": 31724788,
+      "sha256": "0661f6553587aa34ed05d79a9fa2efa1d740ccf8f8ab708c34bb71f4d5ae74ed"
     },
     {
       "path": "livedata/pc9317_mobile_and.utoc",
-      "bytes": 41657,
-      "sha256": "80a0a63cb6284166e4dacd9cbe87afedb2a9a29b5c4a2247c1801adcc314eae3"
+      "bytes": 39593,
+      "sha256": "8253a610f18ff5fb2c87e72dad7b5b58578896602ebce1a56964607856d5c0ad"
     },
     {
       "path": "livedata/pc9320_mobile_and.pak",
@@ -393,13 +393,13 @@
     },
     {
       "path": "work/tools/libnoodle_hair.so",
-      "bytes": 175264,
-      "sha256": "babee9076734f3f149382920bb188775dea943ea1ecdd57431ff4be6d9384006"
+      "bytes": 175320,
+      "sha256": "4afdc73ffa7b685d66000280fcf7eaed4b79115fe2cd79562bdadf1e050fdf86"
     },
     {
       "path": "work/tools/libselect_team.so",
-      "bytes": 375304,
-      "sha256": "1e59115ad77b29d43629809fe85aab36636ca24b5df97496c2e1e3ffdfe1cd8f"
+      "bytes": 375856,
+      "sha256": "5abc4d675654e7a7aeaf6354727f865cd22941986aafe6a32072b256aa62cc59"
     },
     {
       "path": "work/tools/live_snapshot.py",
@@ -513,8 +513,8 @@
     },
     {
       "path": "work/tools/noodle_bundle.json",
-      "bytes": 10353,
-      "sha256": "c6138038ba021a2ca8ac2c9fbc6f3c176d09c94598de69573d4e503dd8258a67"
+      "bytes": 11107,
+      "sha256": "e9a73aca1f3cfd6531446de32962979fce3730e389f1e4359d46c5afb156b871"
     },
     {
       "path": "work/tools/noodle_hair.json",
@@ -524,7 +524,7 @@
     {
       "path": "work/tools/noodle_hair.py",
       "bytes": 20144,
-      "sha256": "742deaf485566a1fb6b3f98998a67aa35c63687976d19183cb58fddd1c86142b"
+      "sha256": "bf068d99a9f52a79b8224b7b65e564915c38d50e2a73740a3eb929aaa83f274c"
     },
     {
       "path": "work/tools/photo_codec.py",
@@ -563,8 +563,8 @@
     },
     {
       "path": "work/tools/private_bundles.json",
-      "bytes": 6115,
-      "sha256": "4bd98a3eeba10d37ae318c7f56808cd638fabeb13efc68161cec846e0341db63"
+      "bytes": 6117,
+      "sha256": "83a105f611b36d89c8861492e067f84e963cfd48f95bfb98a0c5976e38243c1f"
     },
     {
       "path": "work/tools/private_bundles.py",
@@ -584,7 +584,7 @@
     {
       "path": "work/tools/select_team_runtime.py",
       "bytes": 25988,
-      "sha256": "7a82bfd4446fb5b6b37e16640e91378e75c81d9eb73339815a5386aa06aa77ea"
+      "sha256": "001c0807c69cce2c7f25f7f2741ecbb79374c472e9c9e37ef70a068d38e7271f"
     },
     {
       "path": "work/tools/stat_editor.py",
@@ -603,8 +603,8 @@
     },
     {
       "path": "work/tools/transfer_editor.py",
-      "bytes": 15357,
-      "sha256": "a68153e31576af9c9a541bbdfe8e9ae5e76784021f642f6dc72d003439fe7c7b"
+      "bytes": 15674,
+      "sha256": "bd7ae4c226a9e513fb0264f7c1c89cf892082633f0792197c5cf88f95f391a5b"
     },
     {
       "path": "work/tools/transfer_player_editor.py",

@@ -1,51 +1,30 @@
-# V19.1 FULL-5.2 · Login pipeline
-Bản5.1 đã sửa kiểm tra danh sáchID nhưng còn lỗi ở bước tiếp theo: `private_bundles.resource_revision` bị ghi bằng nhãn chữ thay vì số. Khi dựng manifestđăng nhập, phép cộng phiên bản gặp lỗi và client báoC_NAJM_0009. Bản5.2 sửa trường này thành số19002, tách nhãn buildriêng và kiểm tra kiểu/range ngay lúc xác minh gói.
+# V19.1 FULL-6 · Transfer, Spider, face và LOD
 
-Đã tái hiện lỗi5.1 qua đúng chuỗi `_local_urls`/`v191_live`/`private_bundles`, sau đó kiểm tra cảCMD_LOGINgốc, đầy đủ các bộquảngbá tài nguyên, checksummanifest, codecversion.bin và đăng nhập lại. Điều kiện chờhooknative vẫn giữ nguyên, không bật fallback để che lỗi. Logger giờ ghi PID và bắt lỗi sau readiness, gồm lỗi tại bước tài nguyênđăng nhập. Chưa xác nhận đăng nhập trực tiếp trênA56.
+Gói tích lũy dành cho APK73 eFootball V19.1 gốc SHA256 `9c0b249557eeab1543ce143af4d08269b6e9a5a965472242815dba5712c76469`. Chép toàn bộ `assets/` và `classes5.dex` vào APK V19.1, thay tệp trùng, ký bằng khóa đang dùng rồi cài cập nhật. Không cần áp lần lượt các FULL trước. Export Save trước khi cập nhật; giữ dữ liệu ứng dụng. Đóng game, chỉnh và lưu trước Enter Game; sau đó mở lại ứng dụng để nạp cấu hình native.
 
-JokerV3 từ `JOKER-V3-105804908843755-ANDROID.zip` thay faceJoker hiện tại ở **106781476920663** (NJK3). Giữ geometry/UV/weights/skeleton/texture từ ZIP, chỉ đổi namespace và liên kết tài nguyên. Không đổi đích sangIDtrong tênfile, không chép .so/runtime đi kèm. Raiden/Ronaldo2017 và các facekhác giữ nguyên. Tài liệu diagnostics người dùng không nằm trong gói.
+## Sửa trong FULL-6
 
-Gói tích lũy, không cần áp FULL5 hoặc5.1 rồi mới áp bản này. Cài theo hướng dẫn dưới. Đã tái hiện lỗi bộ kiểm tra ở bản cũ, xác nhận workerbản mới đi qua xác minh payload tới chờengine trên luồngARM64 giả lập điều kiện nền, kiểm tra5ca sửa sai bị từ chối; chưa xác nhận đăng nhập trực tiếp trên điện thoại.
+- **Transfer toàn ảnh thủ môn:** đã tái hiện bằng bộ tra cứu ARM64 gốc ở chế độ cache2. Bản cũ ghi khóa cache của mọi thành viên thành0, khiến cả đội đọc cầu thủ số0. Bản này giữ nguyên khóa cache và fullID của từng người, chỉ đổi thứ tự đội hình. Kiểm tra đội trưởng và cả6 vai trò đá phạt qua chính bộ tra cứu cache, qua3 pool vật lý và lặp lại nhiều lần. Mã cache có phần cờ ở32bit trên cũng được giữ nguyên. Nếu một cầu thủ chưa được tạo trong cache, bản vá từ chối sửa cache đó thay vì trỏ nhầm về thủ môn; thay cầu thủ trước Enter Game để game tạo lại cache.
+- **Transfer báo “no native kit in that slot”:** lưu vị trí/đội hình không còn tự coi các slot kit/GK có sẵn trong snapshot là một lần thay áo. Đổi kit rõ ràng vẫn được xác minh, kit không tồn tại vẫn bị từ chối và không lưu dở dang. Đội trưởng, người đá phạt và số áo gắn vớiID cầu thủ.
+- **Spider-Man V1 →106782819217056; Miles →88035555413452:** hai ZIP mới gửi có nội dung giống hai ZIP đã nhập. Lỗi nằm trong bộ lọc runtime: thiếu cho phép hai thẻ có face gốc khác4522. Đã sửa và chạy160 trường hợp đường nạp mesh/texture,4 biến thể, dạng đường dẫn có/không dấu nháy vàNUL; thẻ ngoài phạm vi giữ nguyên.
+- **Ronaldo2027 →89138556572074:** dùng geometry mặt/cổ,UV, trọng số xương hiệu dụng và bind gốc4522; bỏ lớp mắt/miệng/face phủ cũ. Giữ tóc2027 và các byte texture tóc; đặt cả khối tóc cao hơn1.05cm để khớp đỉnh đầu4522. Không lấy face từ hai bảnVol9 đã hủy.
+- **Joker →106781476920663:** dùng JokerV3 đã gửi, tăng đầu10%, căn lại mốc hàm với model native và kéo chuyển tiếp cổ liên tục; giữ điểm gắn thân và xương thân/tay. Kiểm tra các đường nối trùng nhau sau khi fit.
+- **LOD/tay kéo dài:** Ronaldo2027, Joker, Raiden và hai Spider dùng danh sách RequiredBones giống4522/SK_Base_Face của game:166 ởLOD0,153 ởLOD1. Loại bỏ13 mục mặt được chèn trước các xương vai/tay ởLOD thấp, đổi các trọng số mặt không có ởLOD đó sang đầu. Không đổi thứ tự xương thân.20 biến thể mesh/material đã qua trình đọc độc lập, kèm40 kiểm tra danh sáchLOD. Giữ LOD0 đãcooked-out của nguồn khi có, tránh nhân đôi buffer mesh không dùng. Cần đối chiếu hình thể trong trận trên điện thoại để xác nhận kết quả cuối.
 
-Gói tích lũy dùng cho APK73efootballV19.1 gốc SHA256`9c0b249557eeab1543ce143af4d08269b6e9a5a965472242815dba5712c76469`. Giữ bản sửa loading đã được người dùng xác nhận của FULL-3. Không cần cài từng FULL cũ trước. Không áp vào APKV16/V20.2.
+## Những phần tích lũy được giữ
 
-## Cài bằng MT Manager
+- Sửa chân thuận, tần suất và độ chính xác chân không thuận bằng đúng trường native; giữ các chỉnh riêng khi sao chép donor.
+- Bảo vệ đội chính và dự bị người dùng khỏi quy tắc giảmOVR của NPC ở7 giải MyLeague. Những chỉ số do người dùng chủ động chỉnh vẫn áp dụng.
+- Trong Transfer, chọn thành viên để mở **Abilities · Celebrations · Accessories**: chỉ số, ID ăn mừng,10 loại phụ kiện native/tay áo áp theo fullID và giải được chọn, kể cả cầu thủNPC không có serial sở hữu. Lưu bản nháp đội trước khi chỉnh thành viên.
+- Y17/Y08: gắn bàn thắng/kiến tạo CPU theo từng sự kiện và trọng số đội; loạiGK và tự kiến tạo. Top20 là tối đa20 cầu thủ thực sự có số liệu. Không viết lại trận cũ hoặc bịa kiến tạo để lấp bảng.
+- Giữ Wukong tóc dày/nâu olive theo ảnh; MulletA dùng tóc56322; Ronaldo2017/Noodle/Honda có miệng tối hơn; Raiden giữ materialPBR kim loại. BảnVol9 vẫn hủy.
+- Giữ Accessories theo nhóm, reset màuOriginal, chỉnh từng tab không xóa tab khác; giữ chỉ mục tìm kiếm, gộp yêu cầu nhanh, giới hạn tải ảnh và dọn observer của giao diện.
+- Giữ sửa đăng nhập FULL5.2: resource_revision là số19003,39 targetID dùng chung một hằng; readiness native vẫn bắt buộc. CPK loading tại cả3 đường giữ SHA256 `6fa4b9050f0a125e9ee295a7260ca3f1b5f718cdca6d5af94e2cc697d215fc4a`.
 
-1. Export Save để có bản sao lưu. Giữ dữ liệu ứng dụng/tài nguyên đang có.
-2. Mở APKV19.1; trong ZIPGitHub mở thư mục bọc ngoài, chép `assets/` và `classes5.dex` vào gốc APK, thay tệp trùng.
-3. Ký cùng khóa đang dùng rồi cài cập nhật. Không gỡ ứng dụng/xóa dữ liệu. Không chép README/validation/inventory vào APK.
-4. Đóng game trước khi chỉnh. Lưu, đóng/mở ứng dụng rồi Enter Game để tạo các cấu hình native mới.
+## Chưa hoàn tất và giới hạn kiểm chứng
 
-## Face đã tích hợp
+**Bandagepack PC chưa chuyển xong sang phụ kiện mobile. Chế độ điều khiển riêng một cầu thủ khiAI bật chưa triển khai.** Gói này giữ các phụ kiện native và camera hiện có; không có hai tính năng mới đó để bật. Bandage cần UV cơ thể tương ứng và material riêng theo cầu thủ; điều khiển cần trace quyền nhận input thực trong trận và kiểm tra vòng bật/tắtAI, thay người, pause/replay. Xem `RESEARCH-VI.md`.
 
-| Thẻ | Face áp vào tài nguyên hiện tại |
-|---|---|
-|106782819217056|Spider-Man V1 từ spidermancurrently.zip|
-|88035555413452|Miles Morales từ spiderman-milesmorales.zip|
-|89138556572074|Ronaldo từ RONALDO-TOC-DEN-88045487528683-MAT-V3-ANDROID.zip|
-|88039045074440|Mullet A: chỉ tóc56322; khuôn mặt/UV/weights giữ nguyên, sửa lớp da sau cổ|
-|88042803047215|Ronaldo2017/Noodle/Honda: miệng/lưỡi tối và bớt đỏ/hồng|
-|105568954067359|Raiden: maskPBR kim loại phản chiếu môi trường, roughness thấp|
-|106781476920663|JokerV3 từ ZIP Android mới|
-|105756321970183|WukongV4: dày thêm tóc trên/sau đầu, giữ đường bao/ngọn và vùng râu quanh mặt; nâu xám olive trầm|
+Nghiên cứu nhịp trận/phong độ dựa trên mô tả A56: chưa xác định nguyên nhân việc sáng thấp/2–5giờ mượt hơn. Không đồng nhất tốc độ di chuyển với đồng hồ trận, không tự thay tốc độ vật lý. Màn hình120Hz/mục tiêuFPS120 chưa phải phép đoFPS render hoặc độ trễ thao tác.
 
-Hai bản RonaldoVol9 đã hủy, không có trong gói và không gán bản vàng cho88036092284395. Ba ZIP mới chỉ lấy tài nguyên face, không chép thư viện/runtime cũ đi kèm. Thay face không sao chép thẻ/chỉ số/định danh cầu thủ. Raiden dùng phản chiếu môi trường của shader native; không phải camera phản chiếu phẳng realtime mới. Ảnh/Blender minh họa tách riêng khỏi gói APK.
-
-## MyLeague và Transfer
-
-- Đội hình chính và dự bị người dùng được bảo vệ khỏi giảmOVR ở cả7giải; sửa cả hooknative và hai đườngSTART_GAME.
-- Thư viện Transfer cũ đã bị lệch với source. Bản xây dựng đúng giữ pool cầu thủ ổn định, táchGamePlan, đúng mộtGK, captain/6vai trò đá phạt/số áo bámID khi đổi chỗ.
-- Trong Transfer chọn thành viên rồi **Abilities · Celebrations · Accessories** để chỉnh chỉ số, IDăn mừng và10loại phụ kiện native/tay áo. Áp đúngfullID trong giải đang chọn; không cần sở hữu thẻ NPC. Lưu bảnnháp đội trước khi chỉnh cầu thủ. Các ô chỉ số trống giữ giá trị hiện tại; không hiển thị một chỉ số gốc đoán khi chưa có bản chụp native.
-- Y17/Y08: sửa kiến tạo bị giới hạn bằng0từ bảnglegacy, dùng lại trọng số ưu tiên ghi bàn/kiến tạo, gắn kiến tạo với từng bànCPU, loạiGK và tự kiến tạo. Không mô phỏng lại trận người dùng đang đá. Bảng là tối đa20người có thống kê thật; lượt đầu có thể ít hơn20. Bản vá không ghi lại kết quả/trận đã chơi hay bịa kiến tạo để lấp bảng cũ. LượtCPU mới dùng đường đã sửa.
-
-## Giao diện và chỉnh cầu thủ
-
-Giữ các sửa chân thuận/WeakFoot/names/cart của FULL4-FOOTFIX. Sửa màu phụ kiện: chọnOriginal xóa màu tùy chỉnh, chỉnh riêng từng tab không xóa lựa chọn khác. Accessories được gom nhóm và mở từng mục. Tra cứu nhãn được lập chỉ mục, dựng danh sách bằngfragment, gộp tìm kiếm nhanh thành yêu cầu đang chạy+cái mới nhất, xóa observerportrait khi rời danh sách, giới hạn tải ảnh đồng thời. Benchmark chỉ đo từng phần, không phải cam kết mọi thao tác nhanh106lần.
-
-## Kiểm tra và giới hạn
-
-Đã kiểm tra bằng gatewaythật trên DBthử tách riêng; hàmARM64 gốc; trình đọcmesh/material độc lập; Chromium. Có105caowned×league,128tổhợpfoottraits,68ca biên ability/motion,4giảiTransfer/13vị trí,12biến thể ba face mới và12biến thểMullet/NR17/Raiden,4Wukong×2LOD;525lớpDEX không có liên kết thiếu. CPK tại cả3đường giữ SHA6fa4b9050f0a125e9ee295a7260ca3f1b5f718cdca6d5af94e2cc697d215fc4a. Không có savecá nhân hay DBthử trong gói.
-
-Chưa xác nhận bảnFULL5 trên điện thoại; phản chiếuGPU, hiển thị wristtape và tải các face nặng còn cần đối chiếu trên máy. Không cam kết100%khôngcrash/khônglag chỉ từ kiểm tra máy phát triển.
-
-**Hai yêu cầu chưa hoàn tất triển khai:** chuyển bandagepackPC thành phụ kiệnmobile và chế độ người điều khiển duy nhất một cầu thủ khiAIbật. Không thêm nút bật giả/hookđoán vào game. Xem `RESEARCH-VI.md` về dữ liệu đã kiểm tra, khác biệtUV/bodytexture, inputownership/camera, cùng nghiên cứu nhịp trận/phong độ trênA56. Đây là giới hạn thực của gói hiện tại, không đánh dấu hai phần này là hoàn thành.
+Các bản kiểm tra kèm trong `validation/` phân biệt hàmARM64/engine thật, gateway thử và phần cần máy thật. Đã kiểm tra CMD_LOGIN gốc, toàn bộ chuỗi manifest tài nguyên và đăng nhập lại bằng cacheversion.bin. Chưa chạy bảnFULL6 trênA56; chưa thể cam kết100% không crash/không lag/không xung đột. Gói không có save,DB thử hay diagnostics cá nhân. Ảnh dựng chỉ phục vụ đối chiếu hình học, không thay thế ảnh trong game.

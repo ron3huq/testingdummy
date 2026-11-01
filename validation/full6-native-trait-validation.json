@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "original_ARM64_getter_setter_and_production_editor_hook": true,
+  "combinations": 128,
+  "parameter_indices": {
+    "preferred_foot": 43,
+    "weak_foot_usage": 45,
+    "weak_foot_accuracy": 33,
+    "injury_resistance": 42
+  },
+  "all_unrelated_143_parameters_unchanged": true,
+  "Android_tested": false
+}

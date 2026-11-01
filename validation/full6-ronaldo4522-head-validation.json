@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "native4522_face_neck_topology_UV_weights_exact": true,
+  "all2027_hair_texture_bytes_exact": true,
+  "source2027_face_eye_oral_overlays_removed": true,
+  "other_cards_byte_exact": true,
+  "variants": [
+    {
+      "mesh": "character/RealFace/SK_NQ27_Face.uasset",
+      "skin_vertices_exact_native4522": 743,
+      "skin_triangles_exact_native4522": 1222,
+      "hair_vertices": 6112,
+      "hair_triangles": 8720,
+      "hair_uv_tangents_exact_2027": true,
+      "hairstyle_rigid_vertical_fit_cm": 1.05,
+      "native166_bind_exact": true
+    },
+    {
+      "mesh": "character/RealFace/SK_NQ27lg00v0000_Face.uasset",
+      "skin_vertices_exact_native4522": 743,
+      "skin_triangles_exact_native4522": 1222,
+      "hair_vertices": 6112,
+      "hair_triangles": 8720,
+      "hair_uv_tangents_exact_2027": true,
+      "hairstyle_rigid_vertical_fit_cm": 1.05,
+      "native166_bind_exact": true
+    },
+    {
+      "mesh": "character/RealFace/SK_NQ27ep00v0313_Face.uasset",
+      "skin_vertices_exact_native4522": 743,
+      "skin_triangles_exact_native4522": 1222,
+      "hair_vertices": 6112,
+      "hair_triangles": 8720,
+      "hair_uv_tangents_exact_2027": true,
+      "hairstyle_rigid_vertical_fit_cm": 1.05,
+      "native166_bind_exact": true
+    },
+    {
+      "mesh": "character/RealFace/SK_NQ27ep01v0291_Face.uasset",
+      "skin_vertices_exact_native4522": 743,
+      "skin_triangles_exact_native4522": 1222,
+      "hair_vertices": 6112,
+      "hair_triangles": 8720,
+      "hair_uv_tangents_exact_2027": true,
+      "hairstyle_rigid_vertical_fit_cm": 1.05,
+      "native166_bind_exact": true
+    }
+  ],
+  "Android_tested": false
+}

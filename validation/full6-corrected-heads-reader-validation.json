@@ -1,0 +1,369 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "mesh": "SK_NQ27_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 6855,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 6855,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 6855,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 6855,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6_Face",
+      "LOD": 0,
+      "cooked_out": false,
+      "vertices": 7698,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 7698,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": false,
+      "vertices": 7698,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 7698,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": false,
+      "vertices": 7698,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 7698,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": false,
+      "vertices": 7698,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 7698,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "vertices": 0,
+      "native_compact_required_bones": 166,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "vertices": 60785,
+      "native_compact_required_bones": 153,
+      "body_joint_compact_indices_match_native": true,
+      "UEReader_material_and_dependency_load_pass": true
+    }
+  ],
+  "Ronaldo4522_skin_topology_UV_weights_bind_exact_both_LODs": true,
+  "all_four_variants_all_five_profiles": true,
+  "original_native_body_joint_compact_indices_preserved": true,
+  "Android_render_tested": false
+}

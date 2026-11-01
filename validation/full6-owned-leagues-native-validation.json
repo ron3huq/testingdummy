@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "original_ARM64_accessors_and_rebuilt_native_hook": true,
+  "owned_player_league_cases": 105,
+  "competitions": [
+    122,
+    128,
+    473,
+    518,
+    566,
+    549,
+    125
+  ],
+  "owned_starting_players": 11,
+  "owned_bench_players": 4,
+  "all_first_70_fields_preserved_for_owned": true,
+  "NPC_balancing_still_active": true,
+  "newly_owned_former_NPC_restores_baseline": true,
+  "Android_tested": false
+}

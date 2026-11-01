@@ -13,7 +13,7 @@ import threading
 import time
 
 ENGINE_SHA = 'efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8'
-HOOK_SHA='1e59115ad77b29d43629809fe85aab36636ca24b5df97496c2e1e3ffdfe1cd8f'
+HOOK_SHA='5abc4d675654e7a7aeaf6354727f865cd22941986aafe6a32072b256aa62cc59'
 GETTER = 0x737e05c
 PROLOGUE = bytes.fromhex('fd7bbaa9fb0b00f9fa6702a9f85f03a9')
 HERE = Path(__file__).resolve().parent
