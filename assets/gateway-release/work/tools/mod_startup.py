@@ -1,5 +1,5 @@
 """Require verified runtime patches before login and match preparation."""
-import functools,json,platform,threading,time,traceback
+import functools,json,platform,threading,time,traceback,os
 from pathlib import Path
 _lock=threading.Lock();_verified=False;_python_ready=False
 
@@ -9,7 +9,7 @@ def record_error(stage,error):
  try:
   with _error_lock:
    tools=Path(__file__).parent
-   report={'version':'73-ui7.19','time_unix':time.time(),'stage':stage,'error':str(error),'traceback':traceback.format_exc()}
+   report={'version':'73-ui7.19','time_unix':time.time(),'pid':os.getpid(),'stage':stage,'error':str(error),'traceback':traceback.format_exc()}
    for name in ['mod-startup-status.json','select-team-status.json','noodle-hair-status.json']:
     try:report[name]=json.loads((tools/name).read_text())
     except Exception:pass
@@ -55,6 +55,11 @@ def install():
  if getattr(original,'_ui6_guard',False):return False
  @functools.wraps(original)
  def handle(self,mid,req):
-  if mid in('CMD_LOGIN','CMD_START_GAME','CMD_GET_VSCOM_OPPONENT'):require_ready()
-  return original(self,mid,req)
+  guarded=mid in('CMD_LOGIN','CMD_START_GAME','CMD_GET_VSCOM_OPPONENT')
+  try:
+   if guarded:require_ready()
+   return original(self,mid,req)
+  except Exception as exc:
+   if guarded:record_error('gate:'+mid,exc)
+   raise
  handle._ui6_guard=True;gate_logic.GateLogic.handle=handle;return True

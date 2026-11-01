@@ -57,7 +57,7 @@
     }
   },
   "native_sha256": "babee9076734f3f149382920bb188775dea943ea1ecdd57431ff4be6d9384006",
-  "asset_revision": "FULL51-LOGIN-JOKER",
+  "asset_revision": "FULL52-LOGIN-PIPELINE",
   "active_head_bones": [
     15,
     8
@@ -80,8 +80,8 @@
     "body_defaults.zlib": "260e9132a34f28102601f25bf02ecc7578cc6b5bc230b71d44a0f622f2abecc5",
     "celebration_choices.json": "0e5d8eeceb4172c54271cfc687639c61577c03b695858f3188ac881344e786a1",
     "level100.py": "d3f668e12cb17393438ee2cdb5b2cf8e7405c02767a3e5cbfe4d5894c13422c1",
-    "private_bundles.py": "131eec6f72a1650015064e9aacd83167e9557df195ea97cbf56f6dfae9e2864e",
-    "private_bundles.json": "4f97f359ad44ead2cfda2d35cd739ca8ff0b9a21d8ceec77d62a35b0ef04892e",
+    "private_bundles.py": "8eefc32ccc1228481caf3841021a441b24d845b17a2e57916190d41ab754bc8f",
+    "private_bundles.json": "4bd98a3eeba10d37ae318c7f56808cd638fabeb13efc68161cec846e0341db63",
     "native_skin_previews.json": "23846b9a6b8179a494cf8f5c8eafcfa6a0a1831fd420b2ef526f951d598dfdec",
     "editor_names.py": "6685f85aac0e52c96b1881bcc87e506e3717d4fe5f9dd75d93337e2a0063b7f7",
     "appearance_gear.py": "5c5f6538eeffa405b5b76378cba80f3d3e8b6fb347c9db55b1796c0915807a9b",
@@ -91,7 +91,7 @@
     "native_overall.py": "98b3c9e7fe8fc6c94c8484ff7124727dc3c0221d0110d75020cd40d5319d0a62",
     "stat_editor.py": "099745184baedd70605a1707b7116dcff9c9bf9552ed5a9dec3541bdd927cfc7",
     "myleague_base_rosters.json.gz": "caa167558b3149593b914cfc896d664b8f50f83bf73d9b8c42b9ecf68aa81210",
-    "mod_startup.py": "26c604ffef732b28d93be63fdf1bba6e4f318a75d55994510107e1661ebb2d5a",
+    "mod_startup.py": "370d3bca99913833c635d5455e90258b1d5e0aa49df0dbd4cde4add9b67d688f",
     "motion_editor.py": "2ee5ff6444932e2a2fa076dc92fa128735dc8c718104e5844777412e11ab3b21",
     "myleague_packs.py": "ae2ae1b8f20a5f000c53c7bf7b49161107097e36ce87ed5d53e428de89586f38",
     "card_rules.py": "888399508b3db9b53fbb7be4aec69dc8016e958d2831d1f17396158b7b970a00",
@@ -128,7 +128,7 @@
     "v19_chain.py": "a2b36d47c5f06b888bfd99db85c6525bf28af5198bd61752078cd8c693740772",
     "v191_original_card.py": "a1030baac969a010539bad3cf04e8cbcf62490c67088717f057e2a57584121f4",
     "v191_card_source.pyc": "0bc36f43be22de346bf53f90428ecf89715488bbf95cd9b69b9afadfa6e60fcd",
-    "v191_live.py": "d1bbb66671b4e7d6a5c89cbb85b86e013230ff319adbfc2da084780bb21ce1fd",
+    "v191_live.py": "519a207e08aa2c7807a022d775583be8f0e6b7337105b3a9cc170b886aa1325a",
     "full2_cards.py": "4e275b0ebfacaf51ef4e74fcfa5931e7a5121db0a809d162e5234cfb69cf631b",
     "full2-card-copies.json": "2a8ded694bc46af000026e6e40d45e70dbd338c3e5ed77eeda2f1b69e3ef9172",
     "full4_trace.py": "108b69d01fe57ec89607647fc833a31128c52bd5a14c770668f955e76543dfa0",

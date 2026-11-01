@@ -1,5 +1,5 @@
 {
-  "release_id": "private-v19.1-full-5.1-login-joker",
+  "release_id": "private-v19.1-full-5.2-login-pipeline",
   "modules": [
     "account_state",
     "ai_division",
@@ -37263,8 +37263,8 @@
     },
     {
       "path": "work/tools/mod_startup.py",
-      "bytes": 2925,
-      "sha256": "26c604ffef732b28d93be63fdf1bba6e4f318a75d55994510107e1661ebb2d5a"
+      "bytes": 3053,
+      "sha256": "370d3bca99913833c635d5455e90258b1d5e0aa49df0dbd4cde4add9b67d688f"
     },
     {
       "path": "work/tools/motion_choices.json",
@@ -37353,8 +37353,8 @@
     },
     {
       "path": "work/tools/noodle_bundle.json",
-      "bytes": 10350,
-      "sha256": "8f69535a99982f435ac74bd48a23433d922a1f908e9762273bcf7d0b68748f16"
+      "bytes": 10353,
+      "sha256": "c6138038ba021a2ca8ac2c9fbc6f3c176d09c94598de69573d4e503dd8258a67"
     },
     {
       "path": "work/tools/noodle_hair.json",
@@ -37403,13 +37403,13 @@
     },
     {
       "path": "work/tools/private_bundles.json",
-      "bytes": 6088,
-      "sha256": "4f97f359ad44ead2cfda2d35cd739ca8ff0b9a21d8ceec77d62a35b0ef04892e"
+      "bytes": 6115,
+      "sha256": "4bd98a3eeba10d37ae318c7f56808cd638fabeb13efc68161cec846e0341db63"
     },
     {
       "path": "work/tools/private_bundles.py",
-      "bytes": 2230,
-      "sha256": "131eec6f72a1650015064e9aacd83167e9557df195ea97cbf56f6dfae9e2864e"
+      "bytes": 2439,
+      "sha256": "8eefc32ccc1228481caf3841021a441b24d845b17a2e57916190d41ab754bc8f"
     },
     {
       "path": "work/tools/profile_editor.py",
@@ -37473,8 +37473,8 @@
     },
     {
       "path": "work/tools/v191_live.py",
-      "bytes": 3219,
-      "sha256": "d1bbb66671b4e7d6a5c89cbb85b86e013230ff319adbfc2da084780bb21ce1fd"
+      "bytes": 3540,
+      "sha256": "519a207e08aa2c7807a022d775583be8f0e6b7337105b3a9cc170b886aa1325a"
     },
     {
       "path": "work/tools/full2-card-copies.json",

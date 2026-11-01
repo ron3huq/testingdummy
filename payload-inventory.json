@@ -1,10 +1,10 @@
 {
-  "version": "V19.1-FULL5.1-LOGIN-JOKER",
+  "version": "V19.1-FULL5.2-LOGIN-PIPELINE",
   "files": [
     {
       "path": "README-VI.md",
-      "bytes": 6538,
-      "sha256": "9adfdb8acf270cfbf7fe8c49c4796383ee8a33f1b8d3d37cf6ea7d0df59b8421"
+      "bytes": 7020,
+      "sha256": "005c1c05de2d5c880df79725642ca7722fb8d350e64a844ad5e8d7ccfd16b60c"
     },
     {
       "path": "RESEARCH-VI.md",
@@ -3683,13 +3683,13 @@
     },
     {
       "path": "assets/gateway-release/release-manifest.json",
-      "bytes": 1397547,
-      "sha256": "6c366a28e78e5160e392511b4e67898394d7d285e80484aa10c1e80d76621ace"
+      "bytes": 1397550,
+      "sha256": "5c2b51593ce95f1efa72c952f8494dc047658f9a8451d5e8aa16770ce4a98e1c"
     },
     {
       "path": "assets/gateway-release/ui6-runtime-manifest.json",
-      "bytes": 21280,
-      "sha256": "f73a973d7f980dc7e3f51d668a605c8889240497d62ba526f7bd888f51995173"
+      "bytes": 21283,
+      "sha256": "4eb62afea22abcb269da03b62331cdf7a3490c24f324eb723d61b9c925d7ce61"
     },
     {
       "path": "assets/gateway-release/work/tools/appearance_choices.py",
@@ -3828,8 +3828,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/mod_startup.py",
-      "bytes": 2925,
-      "sha256": "26c604ffef732b28d93be63fdf1bba6e4f318a75d55994510107e1661ebb2d5a"
+      "bytes": 3053,
+      "sha256": "370d3bca99913833c635d5455e90258b1d5e0aa49df0dbd4cde4add9b67d688f"
     },
     {
       "path": "assets/gateway-release/work/tools/motion_choices.json",
@@ -3918,8 +3918,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_bundle.json",
-      "bytes": 10350,
-      "sha256": "8f69535a99982f435ac74bd48a23433d922a1f908e9762273bcf7d0b68748f16"
+      "bytes": 10353,
+      "sha256": "c6138038ba021a2ca8ac2c9fbc6f3c176d09c94598de69573d4e503dd8258a67"
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.json",
@@ -3968,13 +3968,13 @@
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.json",
-      "bytes": 6088,
-      "sha256": "4f97f359ad44ead2cfda2d35cd739ca8ff0b9a21d8ceec77d62a35b0ef04892e"
+      "bytes": 6115,
+      "sha256": "4bd98a3eeba10d37ae318c7f56808cd638fabeb13efc68161cec846e0341db63"
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.py",
-      "bytes": 2230,
-      "sha256": "131eec6f72a1650015064e9aacd83167e9557df195ea97cbf56f6dfae9e2864e"
+      "bytes": 2439,
+      "sha256": "8eefc32ccc1228481caf3841021a441b24d845b17a2e57916190d41ab754bc8f"
     },
     {
       "path": "assets/gateway-release/work/tools/profile_editor.py",
@@ -4028,8 +4028,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/v191_live.py",
-      "bytes": 3219,
-      "sha256": "d1bbb66671b4e7d6a5c89cbb85b86e013230ff319adbfc2da084780bb21ce1fd"
+      "bytes": 3540,
+      "sha256": "519a207e08aa2c7807a022d775583be8f0e6b7337105b3a9cc170b886aa1325a"
     },
     {
       "path": "assets/gateway-release/work/tools/v191_original_card.py",
@@ -4229,7 +4229,7 @@
     {
       "path": "classes5.dex",
       "bytes": 633224,
-      "sha256": "cbfc73b0f0938ebc64bff86095c909933c28e899951ffc2ae5b287ef1fa851b4"
+      "sha256": "baec24360c49b0fd0fcc4fd8b590f8a2d97bfa255b8a34fdb6facb42f729f568"
     },
     {
       "path": "validation/cold-boot-validation.json",
@@ -4650,6 +4650,21 @@
       "path": "validation/full51-transfer-player-validation.json",
       "bytes": 348,
       "sha256": "f6839b5e0add4f50a9382261f54056432729edcaf83395faf4fcf2a6272ad7b3"
+    },
+    {
+      "path": "validation/full52-dex-link-audit.json",
+      "bytes": 48,
+      "sha256": "bf47f249e4b63b8ce153103605632292f3168844d2a7e3820c359fbab9dab5a0"
+    },
+    {
+      "path": "validation/full52-full-login-regression-validation.json",
+      "bytes": 613,
+      "sha256": "e15e476295004ba1b1a3318a1bc5598ab51dd1c081a8434cade15b1e9dc8f298"
+    },
+    {
+      "path": "validation/full52-startup-bundle-validation.json",
+      "bytes": 571,
+      "sha256": "5104310577947e9e10fb5046c2d461e6432588f0a7165c892c2e74b2e6e216ec"
     },
     {
       "path": "validation/hook-chain-validation.json",

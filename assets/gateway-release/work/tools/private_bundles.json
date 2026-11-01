@@ -170,5 +170,6 @@
       "sha256": "79b37a500245a626c40a072c1790d91f2a89cf928515683764355aad7b343057"
     }
   },
-  "resource_revision": "FULL51-LOGIN-JOKER"
+  "resource_revision": 19002,
+  "build_label": "FULL52-LOGIN-PIPELINE"
 }

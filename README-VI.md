@@ -1,9 +1,11 @@
-# V19.1 FULL-5.1 · Login + Joker
-Bản này sửa lỗi đăng nhập C_NAJM_0009 được xác định từ Runtime Diagnostics: `unexpected noodle bundle identity`. Danh sách39ID đã được bổ sung trong metadataFULL5 nhưng bộ kiểm tra vẫn dùng danh sách36ID cũ. Runtime hiện dùng cùng một hằng ID cho kiểm tra và báo cáo; giữ các kiểm tra checksum/khởi tạo, không bật fallback gốc để che lỗi.
+# V19.1 FULL-5.2 · Login pipeline
+Bản5.1 đã sửa kiểm tra danh sáchID nhưng còn lỗi ở bước tiếp theo: `private_bundles.resource_revision` bị ghi bằng nhãn chữ thay vì số. Khi dựng manifestđăng nhập, phép cộng phiên bản gặp lỗi và client báoC_NAJM_0009. Bản5.2 sửa trường này thành số19002, tách nhãn buildriêng và kiểm tra kiểu/range ngay lúc xác minh gói.
+
+Đã tái hiện lỗi5.1 qua đúng chuỗi `_local_urls`/`v191_live`/`private_bundles`, sau đó kiểm tra cảCMD_LOGINgốc, đầy đủ các bộquảngbá tài nguyên, checksummanifest, codecversion.bin và đăng nhập lại. Điều kiện chờhooknative vẫn giữ nguyên, không bật fallback để che lỗi. Logger giờ ghi PID và bắt lỗi sau readiness, gồm lỗi tại bước tài nguyênđăng nhập. Chưa xác nhận đăng nhập trực tiếp trênA56.
 
 JokerV3 từ `JOKER-V3-105804908843755-ANDROID.zip` thay faceJoker hiện tại ở **106781476920663** (NJK3). Giữ geometry/UV/weights/skeleton/texture từ ZIP, chỉ đổi namespace và liên kết tài nguyên. Không đổi đích sangIDtrong tênfile, không chép .so/runtime đi kèm. Raiden/Ronaldo2017 và các facekhác giữ nguyên. Tài liệu diagnostics người dùng không nằm trong gói.
 
-Gói tích lũy, không cần áp FULL5 rồi mới áp bản này. Cài theo hướng dẫn dưới. Đã tái hiện lỗi bộ kiểm tra ở bản cũ, xác nhận workerbản mới đi qua xác minh payload tới chờengine trên luồngARM64 giả lập điều kiện nền, kiểm tra5ca sửa sai bị từ chối; chưa xác nhận đăng nhập trực tiếp trên điện thoại.
+Gói tích lũy, không cần áp FULL5 hoặc5.1 rồi mới áp bản này. Cài theo hướng dẫn dưới. Đã tái hiện lỗi bộ kiểm tra ở bản cũ, xác nhận workerbản mới đi qua xác minh payload tới chờengine trên luồngARM64 giả lập điều kiện nền, kiểm tra5ca sửa sai bị từ chối; chưa xác nhận đăng nhập trực tiếp trên điện thoại.
 
 Gói tích lũy dùng cho APK73efootballV19.1 gốc SHA256`9c0b249557eeab1543ce143af4d08269b6e9a5a965472242815dba5712c76469`. Giữ bản sửa loading đã được người dùng xác nhận của FULL-3. Không cần cài từng FULL cũ trước. Không áp vào APKV16/V20.2.
 

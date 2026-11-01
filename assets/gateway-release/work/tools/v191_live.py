@@ -28,7 +28,7 @@ def install(root):
 def identities(ver):
  return (ver.get('targetAppVersion'),ver.get('dt870Hash'),ver.get('dt870FileSize'),sorted((r['name'],r.get('hash'),r.get('hashFileSize'),r.get('utoc'),r.get('utocFileSize'),r.get('ucas'),r.get('ucasFileSize'))for r in ver.get('dt880',[])))
 
-def apply(original,value,port):
+def _apply_verified(original,value,port):
  if not isinstance(value,dict)or not isinstance(value.get('version_file'),str)or not isinstance(value.get('livedata_list'),list):return original(value)
  import noodle_hair,extras_runtime,manager_runtime,kits_runtime,private_bundles,photo_editor,live_manifest_upgrade as upgrade
  prepared=photo_editor.advertise(private_bundles.advertise(kits_runtime.advertise(manager_runtime.advertise(extras_runtime.advertise(noodle_hair.advertise(value,port),port),port),port),port),port)
@@ -42,6 +42,15 @@ def apply(original,value,port):
  if not 0<base<2**31:raise ValueError('Private live version is outside the native range')
  ver['version']=base;prepared=dict(prepared,version_file=json.dumps(ver,separators=(',',':')))
  return original(prepared)
+
+
+def apply(original,value,port):
+ try:return _apply_verified(original,value,port)
+ except Exception as exc:
+  if isinstance(value,dict)and isinstance(value.get('version_file'),str)and isinstance(value.get('livedata_list'),list):
+   import mod_startup
+   mod_startup.record_error('login-resources',exc)
+  raise
 
 
 def pin_rebased_kits(namespace):
