@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "variant": "base",
+      "vertices": 60785,
+      "triangles": 115877,
+      "positions_UV_indices_weights_normals_colors_reference_skeleton_exact_to_uploaded_JokerV3": true
+    },
+    {
+      "variant": "lg00v0000",
+      "vertices": 60785,
+      "triangles": 115877,
+      "positions_UV_indices_weights_normals_colors_reference_skeleton_exact_to_uploaded_JokerV3": true
+    },
+    {
+      "variant": "ep01v0291",
+      "vertices": 60785,
+      "triangles": 115877,
+      "positions_UV_indices_weights_normals_colors_reference_skeleton_exact_to_uploaded_JokerV3": true
+    },
+    {
+      "variant": "ep00v0313",
+      "vertices": 60785,
+      "triangles": 115877,
+      "positions_UV_indices_weights_normals_colors_reference_skeleton_exact_to_uploaded_JokerV3": true
+    }
+  ],
+  "Android_tested": false
+}

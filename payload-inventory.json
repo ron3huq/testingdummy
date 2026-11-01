@@ -1,10 +1,10 @@
 {
-  "version": "V19.1-FULL5",
+  "version": "V19.1-FULL5.1-LOGIN-JOKER",
   "files": [
     {
       "path": "README-VI.md",
-      "bytes": 5259,
-      "sha256": "25fa986ad7fd1a928111baf83986aaf55a054cc5eb93d58472111c52cf458d22"
+      "bytes": 6538,
+      "sha256": "9adfdb8acf270cfbf7fe8c49c4796383ee8a33f1b8d3d37cf6ea7d0df59b8421"
     },
     {
       "path": "RESEARCH-VI.md",
@@ -3579,17 +3579,17 @@
     {
       "path": "assets/gateway-release/livedata/pc9315_mobile_and.pak",
       "bytes": 365,
-      "sha256": "439bb5fbcdf9b0a2d33c4d1b71d1e73631bcab7af4386806c91a8d33b9f79296"
+      "sha256": "88076ac15ded6b433176e4f7bf5a34660d30eb99cf79ccf5a4857e23703d63f9"
     },
     {
       "path": "assets/gateway-release/livedata/pc9315_mobile_and.ucas",
-      "bytes": 44172560,
-      "sha256": "34bdd3cf62556285f4a792011d35ac20099abff0ad7bbecfd2f587d66a60286c"
+      "bytes": 36966725,
+      "sha256": "3af55724269d36abbb1af8cd75dbe7a8f6e272227540086d36bcb7045a198b91"
     },
     {
       "path": "assets/gateway-release/livedata/pc9315_mobile_and.utoc",
-      "bytes": 39934,
-      "sha256": "d5b607af8e03ffae12168dfbf02c7f09679b5ba5da988c069e11b9cd8d586d53"
+      "bytes": 38734,
+      "sha256": "9c5bfd39ca0aef87bbff908606da53ceae02275d73ec3b251b94d7e314ffd144"
     },
     {
       "path": "assets/gateway-release/livedata/pc9316_mobile_and.pak",
@@ -3683,13 +3683,13 @@
     },
     {
       "path": "assets/gateway-release/release-manifest.json",
-      "bytes": 1397539,
-      "sha256": "7aaccb1d88fc72d46af6df0ace935e3c0fc37a8a9d294070f3c93121549d1bc4"
+      "bytes": 1397547,
+      "sha256": "6c366a28e78e5160e392511b4e67898394d7d285e80484aa10c1e80d76621ace"
     },
     {
       "path": "assets/gateway-release/ui6-runtime-manifest.json",
-      "bytes": 21272,
-      "sha256": "0815a4c566631ed85ab3c4b562db54f54285f8567cad8ba0d5f7c1e85678bd5f"
+      "bytes": 21280,
+      "sha256": "f73a973d7f980dc7e3f51d668a605c8889240497d62ba526f7bd888f51995173"
     },
     {
       "path": "assets/gateway-release/work/tools/appearance_choices.py",
@@ -3918,8 +3918,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_bundle.json",
-      "bytes": 10137,
-      "sha256": "69183aef6101fdee009fc8d36cf734d7c7987eb7f238ccccbce034f5ce91e2d6"
+      "bytes": 10350,
+      "sha256": "8f69535a99982f435ac74bd48a23433d922a1f908e9762273bcf7d0b68748f16"
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.json",
@@ -3928,8 +3928,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.py",
-      "bytes": 20744,
-      "sha256": "eebebdfd11f71c1b70f99205acd3409efa810cc7d0ab7970b5458566ecc06f59"
+      "bytes": 20144,
+      "sha256": "742deaf485566a1fb6b3f98998a67aa35c63687976d19183cb58fddd1c86142b"
     },
     {
       "path": "assets/gateway-release/work/tools/photo_codec.py",
@@ -3968,8 +3968,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.json",
-      "bytes": 6110,
-      "sha256": "586b9ff54ca2e46731adee0ab01ff9957979315b3ba1848a6ff8e222b1e4e08d"
+      "bytes": 6088,
+      "sha256": "4f97f359ad44ead2cfda2d35cd739ca8ff0b9a21d8ceec77d62a35b0ef04892e"
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.py",
@@ -4228,8 +4228,8 @@
     },
     {
       "path": "classes5.dex",
-      "bytes": 633220,
-      "sha256": "89ae83e822d6fe13ca098f7054a22a8d24bb610013cbe60efb622ded87b8ac29"
+      "bytes": 633224,
+      "sha256": "cbfc73b0f0938ebc64bff86095c909933c28e899951ffc2ae5b287ef1fa851b4"
     },
     {
       "path": "validation/cold-boot-validation.json",
@@ -4615,6 +4615,41 @@
       "path": "validation/full5-wukong-v4-native-validation.json",
       "bytes": 4384,
       "sha256": "0abd3bf3cb924a5e8543d9ec64e9af0f818eb4f400747700d5242889722c71d7"
+    },
+    {
+      "path": "validation/full51-dex-link-audit.json",
+      "bytes": 48,
+      "sha256": "bf47f249e4b63b8ce153103605632292f3168844d2a7e3820c359fbab9dab5a0"
+    },
+    {
+      "path": "validation/full51-joker-geometry-validation.json",
+      "bytes": 852,
+      "sha256": "3473a2185d22dfa17871442e667d9f40f89e77f9083f0c45f3b7c0459349aaf4"
+    },
+    {
+      "path": "validation/full51-joker-import-validation.json",
+      "bytes": 318,
+      "sha256": "cf1a5a00d6b93c8f926478d5ca17e90e304cc2b9395280fa04f6bca08d41175d"
+    },
+    {
+      "path": "validation/full51-joker-native-validation.json",
+      "bytes": 1966,
+      "sha256": "923d011705dde45b34411346639f3bb7169235192de920274f1802f48a14124a"
+    },
+    {
+      "path": "validation/full51-joker-retention-validation.json",
+      "bytes": 1818,
+      "sha256": "dece317b7dad587e939ced415a1b9e8d904e62990924396c6f695b2a1b8645e2"
+    },
+    {
+      "path": "validation/full51-startup-bundle-validation.json",
+      "bytes": 571,
+      "sha256": "5104310577947e9e10fb5046c2d461e6432588f0a7165c892c2e74b2e6e216ec"
+    },
+    {
+      "path": "validation/full51-transfer-player-validation.json",
+      "bytes": 348,
+      "sha256": "f6839b5e0add4f50a9382261f54056432729edcaf83395faf4fcf2a6272ad7b3"
     },
     {
       "path": "validation/hook-chain-validation.json",

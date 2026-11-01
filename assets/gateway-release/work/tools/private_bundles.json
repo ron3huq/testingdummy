@@ -87,15 +87,15 @@
     },
     "pc9315_mobile_and.pak": {
       "size": 365,
-      "sha256": "439bb5fbcdf9b0a2d33c4d1b71d1e73631bcab7af4386806c91a8d33b9f79296"
+      "sha256": "88076ac15ded6b433176e4f7bf5a34660d30eb99cf79ccf5a4857e23703d63f9"
     },
     "pc9315_mobile_and.utoc": {
-      "size": 39934,
-      "sha256": "d5b607af8e03ffae12168dfbf02c7f09679b5ba5da988c069e11b9cd8d586d53"
+      "size": 38734,
+      "sha256": "9c5bfd39ca0aef87bbff908606da53ceae02275d73ec3b251b94d7e314ffd144"
     },
     "pc9315_mobile_and.ucas": {
-      "size": 44172560,
-      "sha256": "34bdd3cf62556285f4a792011d35ac20099abff0ad7bbecfd2f587d66a60286c"
+      "size": 36966725,
+      "sha256": "3af55724269d36abbb1af8cd75dbe7a8f6e272227540086d36bcb7045a198b91"
     },
     "pc9316_mobile_and.pak": {
       "size": 365,
@@ -170,5 +170,5 @@
       "sha256": "79b37a500245a626c40a072c1790d91f2a89cf928515683764355aad7b343057"
     }
   },
-  "resource_revision": "FULL5-verified-native-heads-and-transfer"
+  "resource_revision": "FULL51-LOGIN-JOKER"
 }

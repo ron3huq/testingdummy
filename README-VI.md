@@ -1,4 +1,9 @@
-# V19.1 FULL-5 · Earth
+# V19.1 FULL-5.1 · Login + Joker
+Bản này sửa lỗi đăng nhập C_NAJM_0009 được xác định từ Runtime Diagnostics: `unexpected noodle bundle identity`. Danh sách39ID đã được bổ sung trong metadataFULL5 nhưng bộ kiểm tra vẫn dùng danh sách36ID cũ. Runtime hiện dùng cùng một hằng ID cho kiểm tra và báo cáo; giữ các kiểm tra checksum/khởi tạo, không bật fallback gốc để che lỗi.
+
+JokerV3 từ `JOKER-V3-105804908843755-ANDROID.zip` thay faceJoker hiện tại ở **106781476920663** (NJK3). Giữ geometry/UV/weights/skeleton/texture từ ZIP, chỉ đổi namespace và liên kết tài nguyên. Không đổi đích sangIDtrong tênfile, không chép .so/runtime đi kèm. Raiden/Ronaldo2017 và các facekhác giữ nguyên. Tài liệu diagnostics người dùng không nằm trong gói.
+
+Gói tích lũy, không cần áp FULL5 rồi mới áp bản này. Cài theo hướng dẫn dưới. Đã tái hiện lỗi bộ kiểm tra ở bản cũ, xác nhận workerbản mới đi qua xác minh payload tới chờengine trên luồngARM64 giả lập điều kiện nền, kiểm tra5ca sửa sai bị từ chối; chưa xác nhận đăng nhập trực tiếp trên điện thoại.
 
 Gói tích lũy dùng cho APK73efootballV19.1 gốc SHA256`9c0b249557eeab1543ce143af4d08269b6e9a5a965472242815dba5712c76469`. Giữ bản sửa loading đã được người dùng xác nhận của FULL-3. Không cần cài từng FULL cũ trước. Không áp vào APKV16/V20.2.
 
@@ -19,6 +24,7 @@ Gói tích lũy dùng cho APK73efootballV19.1 gốc SHA256`9c0b249557eeab1543ce1
 |88039045074440|Mullet A: chỉ tóc56322; khuôn mặt/UV/weights giữ nguyên, sửa lớp da sau cổ|
 |88042803047215|Ronaldo2017/Noodle/Honda: miệng/lưỡi tối và bớt đỏ/hồng|
 |105568954067359|Raiden: maskPBR kim loại phản chiếu môi trường, roughness thấp|
+|106781476920663|JokerV3 từ ZIP Android mới|
 |105756321970183|WukongV4: dày thêm tóc trên/sau đầu, giữ đường bao/ngọn và vùng râu quanh mặt; nâu xám olive trầm|
 
 Hai bản RonaldoVol9 đã hủy, không có trong gói và không gán bản vàng cho88036092284395. Ba ZIP mới chỉ lấy tài nguyên face, không chép thư viện/runtime cũ đi kèm. Thay face không sao chép thẻ/chỉ số/định danh cầu thủ. Raiden dùng phản chiếu môi trường của shader native; không phải camera phản chiếu phẳng realtime mới. Ảnh/Blender minh họa tách riêng khỏi gói APK.

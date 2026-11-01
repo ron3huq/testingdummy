@@ -57,7 +57,7 @@
     }
   },
   "native_sha256": "babee9076734f3f149382920bb188775dea943ea1ecdd57431ff4be6d9384006",
-  "asset_revision": "FULL5",
+  "asset_revision": "FULL51-LOGIN-JOKER",
   "active_head_bones": [
     15,
     8
@@ -75,13 +75,13 @@
     "body_dimensions.py": "e44bff0ea78c2fc5472b582077f71c1d538ceb22bb7225d6cea71d0d759f57c8",
     "player_tuning.py": "b43cc6553d0ce6057d0a9f6d2f6e5f1ae914947a4f6ff441f0eab30ce04edc1e",
     "innate_skill_labels.json": "37210205d333cf39bff7e3de0691ab4fad52f7b3c7756640f417ddd01067bed0",
-    "noodle_hair.py": "eebebdfd11f71c1b70f99205acd3409efa810cc7d0ab7970b5458566ecc06f59",
+    "noodle_hair.py": "742deaf485566a1fb6b3f98998a67aa35c63687976d19183cb58fddd1c86142b",
     "appearance_choices.py": "0aaf4986988660bceb9fac4d37a356e6bef69d411822f3ebf9a413fb63b57440",
     "body_defaults.zlib": "260e9132a34f28102601f25bf02ecc7578cc6b5bc230b71d44a0f622f2abecc5",
     "celebration_choices.json": "0e5d8eeceb4172c54271cfc687639c61577c03b695858f3188ac881344e786a1",
     "level100.py": "d3f668e12cb17393438ee2cdb5b2cf8e7405c02767a3e5cbfe4d5894c13422c1",
     "private_bundles.py": "131eec6f72a1650015064e9aacd83167e9557df195ea97cbf56f6dfae9e2864e",
-    "private_bundles.json": "586b9ff54ca2e46731adee0ab01ff9957979315b3ba1848a6ff8e222b1e4e08d",
+    "private_bundles.json": "4f97f359ad44ead2cfda2d35cd739ca8ff0b9a21d8ceec77d62a35b0ef04892e",
     "native_skin_previews.json": "23846b9a6b8179a494cf8f5c8eafcfa6a0a1831fd420b2ef526f951d598dfdec",
     "editor_names.py": "6685f85aac0e52c96b1881bcc87e506e3717d4fe5f9dd75d93337e2a0063b7f7",
     "appearance_gear.py": "5c5f6538eeffa405b5b76378cba80f3d3e8b6fb347c9db55b1796c0915807a9b",
@@ -188,5 +188,12 @@
     "88035555413452": "NSM1",
     "89138556572074": "NQ27"
   },
-  "Vol9_included": false
+  "Vol9_included": false,
+  "joker_profile": {
+    "target": "106781476920663",
+    "source": "JOKER-V3-105804908843755-ANDROID.zip",
+    "profile": "NJK3",
+    "source_runtime_copied": false,
+    "Android_tested": false
+  }
 }

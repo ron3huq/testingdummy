@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "Vol9_included": false,
+  "old_source_runtime_or_library_copied": false,
+  "profiles": [
+    {
+      "source": "joker",
+      "target": "106781476920663",
+      "profile": "NJK3",
+      "source_files": 34,
+      "geometry_UV_bones_weights_texture_compression_payloads_preserved": true
+    }
+  ]
+}

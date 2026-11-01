@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "baseline_FULL5_error_reproduced": true,
+  "actual_delivered_bundle_validates": true,
+  "39_target_ids_use_one_constant_for_validation_and_diagnostics": true,
+  "ARM64_worker_reaches_WAITING_FOR_LIBUE4_with_payload_verified": true,
+  "startup_ready_or_fallback_guards_not_bypassed": true,
+  "five_corruption_checks_still_rejected": true,
+  "login_resource_advertisement_valid_and_idempotent": true,
+  "worker_path_test_uses_mocked_platform_and_engine_map_probe": true,
+  "native_engine_hooks_not_executed": true,
+  "Android_login_not_tested": true
+}
