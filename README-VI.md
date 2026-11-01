@@ -36,7 +36,7 @@ Giữ các sửa chân thuận/WeakFoot/names/cart của FULL4-FOOTFIX. Sửa m�
 
 ## Kiểm tra và giới hạn
 
-Đã kiểm tra bằng gatewaythật trên DBthử tách riêng; hàmARM64 gốc; trình đọcmesh/material độc lập; Chromium. Có105caowned×league,128tổhợpfoottraits,68ca biên ability/motion,4giảiTransfer/13vị trí,12biến thể ba face mới và12biến thểMullet/NR17/Raiden,4Wukong×2LOD;524lớpDEX không có liên kết thiếu. CPK tại cả3đường giữ SHA6fa4b9050f0a125e9ee295a7260ca3f1b5f718cdca6d5af94e2cc697d215fc4a. Không có savecá nhân hay DBthử trong gói.
+Đã kiểm tra bằng gatewaythật trên DBthử tách riêng; hàmARM64 gốc; trình đọcmesh/material độc lập; Chromium. Có105caowned×league,128tổhợpfoottraits,68ca biên ability/motion,4giảiTransfer/13vị trí,12biến thể ba face mới và12biến thểMullet/NR17/Raiden,4Wukong×2LOD;525lớpDEX không có liên kết thiếu. CPK tại cả3đường giữ SHA6fa4b9050f0a125e9ee295a7260ca3f1b5f718cdca6d5af94e2cc697d215fc4a. Không có savecá nhân hay DBthử trong gói.
 
 Chưa xác nhận bảnFULL5 trên điện thoại; phản chiếuGPU, hiển thị wristtape và tải các face nặng còn cần đối chiếu trên máy. Không cam kết100%khôngcrash/khônglag chỉ từ kiểm tra máy phát triển.
 

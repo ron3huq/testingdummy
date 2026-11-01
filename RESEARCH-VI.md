@@ -14,6 +14,8 @@ Phép đối chiếu cần giữ cùng cầu thủ, mũi tên phong độ, thể
 
 Runtime gốc editor_condition có ba hook riêng cho truy vấn/màn thông tin/trận đấu tại82b80f0,330b158,82c11b4; bảnmod giữ các hook sẵn có. Chọn0=E,1=D,2=C,3=B,4=A;-1 là game tự chọn. Cấu hình này độc lập với các chỉ số147tham số và quy tắc giảm OVR cho NPC. Không suy ra một hệ số tăng tốc cố định hay phần trăm tăng chỉ số khi chưa đo engine thực.
 
+Mô phỏng CPU còn có một khái niệm form khác: trọng số ghi bàn/kiến tạo thay đổi ổn định theo từng nhóm4lượt, hệ số0.65–1.4. Đây là xác suất phân bổ sự kiện trong các trận máy tự mô phỏng; không phải mũi tên phong độ trong trận, cũng không phải hệ số tốc độ chạy hoặc xử lý bóng của đội người dùng. Không dùng giờ thực hay độ sáng làm đầu vào.
+
 BảnFULL5 đã sửa cả native lẫn hai wrapperSTART_GAME để đội hình chính/dự bị người dùng không bị quy tắc cân bằng NPC kéo chỉ số xuống. Chỉnh thông số cụ thể do người dùng chọn vẫn được áp dụng. Diagnostics bổ sung trạng thái form của tiến trình hiện tại và báo cáo mục tiêuFPS có sẵn; ghi rõ đó không phải FPS render đo được. PID của launcher sau khi đóng game không phải PID của trận trước.
 
 ## MEGA BANDAGE PACK FWC2026 FL26V7AIO
