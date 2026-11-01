@@ -1,0 +1,1 @@
+Ảnh và Blender xem trước của các face đã đưa vào FULL5. Không chép thư mục này vào APK. Wukong làm dày riêng vùng scalp và giữ hull/tips/râu; Mullet chỉ tóc56322, khôi phục lớp da sau cổ; Raiden dùngPBR phản chiếu môi trường. RenderBlender không chứng minh hình ảnhGPUAndroid. Hai bảnRonaldoVol9 đã hủy và không có trong gói này.
