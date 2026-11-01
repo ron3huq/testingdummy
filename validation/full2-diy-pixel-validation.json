@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "scenes": [
+    {
+      "scene": "mini",
+      "storage": [
+        512,
+        512
+      ],
+      "alpha_bbox": [
+        16,
+        32,
+        48,
+        64
+      ],
+      "aspect_ratio_preserved": true,
+      "native_background_not_baked": true
+    },
+    {
+      "scene": "large",
+      "storage": [
+        512,
+        512
+      ],
+      "alpha_bbox": [
+        36,
+        71,
+        101,
+        199
+      ],
+      "aspect_ratio_preserved": true,
+      "native_background_not_baked": true
+    }
+  ]
+}

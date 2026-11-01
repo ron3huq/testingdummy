@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "read_actions": {
+    "ui7_body_get": {
+      "ok": true,
+      "keys": [
+        "height",
+        "weight"
+      ]
+    },
+    "ui75_model_get": {
+      "ok": true,
+      "keys": [
+        "values",
+        "baseline",
+        "fields",
+        "minimum",
+        "maximum",
+        "copied_model"
+      ]
+    },
+    "ui710_equipment_get": {
+      "ok": true,
+      "keys": [
+        "values",
+        "accessory_choices",
+        "modes",
+        "backgrounds",
+        "background_names"
+      ]
+    },
+    "ui711_profile_get": {
+      "ok": true,
+      "keys": [
+        "values",
+        "current_name",
+        "current_shirt",
+        "age",
+        "traits",
+        "models",
+        "model_source_name",
+        "clubs",
+        "countries"
+      ]
+    },
+    "ui712_stats_get": {
+      "ok": true,
+      "keys": [
+        "values",
+        "fields",
+        "note"
+      ]
+    },
+    "ui718_motion_fields_get": {
+      "ok": true,
+      "keys": [
+        "values",
+        "fields"
+      ]
+    },
+    "ui77_skills_get": {
+      "ok": true,
+      "keys": [
+        "selected",
+        "choices",
+        "additional_skills_unchanged"
+      ]
+    },
+    "ui78_appearance_get": {
+      "ok": true,
+      "keys": [
+        "skin",
+        "59",
+        "60",
+        "choices",
+        "skin_palettes",
+        "skin_previews",
+        "skin_scope",
+        "custom_rgb_supported"
+      ]
+    }
+  },
+  "selected_test_player_only": true,
+  "Android_tested": false
+}

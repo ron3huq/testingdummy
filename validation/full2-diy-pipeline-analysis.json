@@ -1,0 +1,29 @@
+{
+  "original_modules_reviewed": [
+    "diy_gateway",
+    "diy_player_generation",
+    "diy_iostore",
+    "diy_portrait_aliases",
+    "editor_portraits",
+    "diy_routes"
+  ],
+  "original_stages_retained": [
+    "validate project/package",
+    "resolve native model",
+    "render separate small/detail subjects",
+    "prepare candidate",
+    "publish verified resources",
+    "native acceptance/claim"
+  ],
+  "existing_card_adapter": {
+    "renderer": "original drawScene",
+    "layers": "subject layers only; original renderer excludes suite background/frame on offscreen contexts",
+    "large_aspect_preserved": "render at 512 x project height, then uniformly fit into 184 x 256",
+    "mini": "128 x 128",
+    "transport": "asynchronous native worker",
+    "save": "existing ui712_photo_apply ownership and integrity checks",
+    "editor_sync": "PrivateTools.portraitSaved"
+  },
+  "no_change_to_original_candidate_generation_or_grants": true,
+  "Android_tested": false
+}

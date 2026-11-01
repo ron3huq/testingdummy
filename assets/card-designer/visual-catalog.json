@@ -1,0 +1,8328 @@
+{
+  "schema": "diy-visual-catalog/v1",
+  "countries": [
+    {
+      "id": 1,
+      "label": "Afghanistan",
+      "zh": "阿富汗",
+      "group": "亚洲",
+      "flag": "af"
+    },
+    {
+      "id": 191,
+      "label": "Albania",
+      "zh": "阿尔巴尼亚",
+      "group": "欧洲",
+      "flag": "al"
+    },
+    {
+      "id": 44,
+      "label": "Algeria",
+      "zh": "阿尔及利亚",
+      "group": "非洲",
+      "flag": "dz"
+    },
+    {
+      "id": 161,
+      "label": "American Samoa",
+      "zh": "美属萨摩亚",
+      "group": "大洋洲",
+      "flag": "as"
+    },
+    {
+      "id": 192,
+      "label": "Andorra",
+      "zh": "安道尔",
+      "group": "欧洲",
+      "flag": "ad"
+    },
+    {
+      "id": 45,
+      "label": "Angola",
+      "zh": "安哥拉",
+      "group": "非洲",
+      "flag": "ao"
+    },
+    {
+      "id": 103,
+      "label": "Anguilla",
+      "zh": "安圭拉",
+      "group": "北美洲",
+      "flag": "ai"
+    },
+    {
+      "id": 104,
+      "label": "Antigua and Barbuda",
+      "zh": "安提瓜和巴布达",
+      "group": "北美洲",
+      "flag": "ag"
+    },
+    {
+      "id": 144,
+      "label": "Argentina",
+      "zh": "阿根廷",
+      "group": "南美洲",
+      "flag": "ar"
+    },
+    {
+      "id": 193,
+      "label": "Armenia",
+      "zh": "亚美尼亚",
+      "group": "亚洲",
+      "flag": "am"
+    },
+    {
+      "id": 105,
+      "label": "Aruba",
+      "zh": "阿鲁巴",
+      "group": "北美洲",
+      "flag": "aw"
+    },
+    {
+      "id": 162,
+      "label": "Australia",
+      "zh": "澳大利亚",
+      "group": "大洋洲",
+      "flag": "au"
+    },
+    {
+      "id": 194,
+      "label": "Austria",
+      "zh": "奥地利",
+      "group": "欧洲",
+      "flag": "at"
+    },
+    {
+      "id": 195,
+      "label": "Azerbaijan",
+      "zh": "阿塞拜疆",
+      "group": "亚洲",
+      "flag": "az"
+    },
+    {
+      "id": 106,
+      "label": "Bahamas",
+      "zh": "巴哈马",
+      "group": "北美洲",
+      "flag": "bs"
+    },
+    {
+      "id": 2,
+      "label": "Bahrain",
+      "zh": "巴林",
+      "group": "亚洲",
+      "flag": "bh"
+    },
+    {
+      "id": 3,
+      "label": "Bangladesh",
+      "zh": "孟加拉国",
+      "group": "亚洲",
+      "flag": "bd"
+    },
+    {
+      "id": 107,
+      "label": "Barbados",
+      "zh": "巴巴多斯",
+      "group": "北美洲",
+      "flag": "bb"
+    },
+    {
+      "id": 196,
+      "label": "Belarus",
+      "zh": "白俄罗斯",
+      "group": "欧洲",
+      "flag": "by"
+    },
+    {
+      "id": 197,
+      "label": "Belgium",
+      "zh": "比利时",
+      "group": "欧洲",
+      "flag": "be"
+    },
+    {
+      "id": 108,
+      "label": "Belize",
+      "zh": "伯利兹",
+      "group": "北美洲",
+      "flag": "bz"
+    },
+    {
+      "id": 46,
+      "label": "Benin",
+      "zh": "贝宁",
+      "group": "非洲",
+      "flag": "bj"
+    },
+    {
+      "id": 109,
+      "label": "Bermuda",
+      "zh": "百慕大",
+      "group": "北美洲",
+      "flag": "bm"
+    },
+    {
+      "id": 4,
+      "label": "Bhutan",
+      "zh": "不丹",
+      "group": "亚洲",
+      "flag": "bt"
+    },
+    {
+      "id": 145,
+      "label": "Bolivia",
+      "zh": "玻利维亚",
+      "group": "南美洲",
+      "flag": "bo"
+    },
+    {
+      "id": 198,
+      "label": "Bosnia and Herzegovina",
+      "zh": "波斯尼亚和黑塞哥维那",
+      "group": "欧洲",
+      "flag": "ba"
+    },
+    {
+      "id": 47,
+      "label": "Botswana",
+      "zh": "博茨瓦纳",
+      "group": "非洲",
+      "flag": "bw"
+    },
+    {
+      "id": 146,
+      "label": "Brazil",
+      "zh": "巴西",
+      "group": "南美洲",
+      "flag": "br"
+    },
+    {
+      "id": 136,
+      "label": "British Virgin Islands",
+      "zh": "英属维尔京群岛",
+      "group": "北美洲",
+      "flag": "vg"
+    },
+    {
+      "id": 5,
+      "label": "Brunei",
+      "zh": "文莱",
+      "group": "亚洲",
+      "flag": "bn"
+    },
+    {
+      "id": 199,
+      "label": "Bulgaria",
+      "zh": "保加利亚",
+      "group": "欧洲",
+      "flag": "bg"
+    },
+    {
+      "id": 48,
+      "label": "Burkina Faso",
+      "zh": "布基纳法索",
+      "group": "非洲",
+      "flag": "bf"
+    },
+    {
+      "id": 49,
+      "label": "Burundi",
+      "zh": "布隆迪",
+      "group": "非洲",
+      "flag": "bi"
+    },
+    {
+      "id": 51,
+      "label": "Cabo Verde",
+      "zh": "佛得角",
+      "group": "非洲",
+      "flag": "cv"
+    },
+    {
+      "id": 6,
+      "label": "Cambodia",
+      "zh": "柬埔寨",
+      "group": "亚洲",
+      "flag": "kh"
+    },
+    {
+      "id": 50,
+      "label": "Cameroon",
+      "zh": "喀麦隆",
+      "group": "非洲",
+      "flag": "cm"
+    },
+    {
+      "id": 110,
+      "label": "Canada",
+      "zh": "加拿大",
+      "group": "北美洲",
+      "flag": "ca"
+    },
+    {
+      "id": 111,
+      "label": "Cayman Islands",
+      "zh": "开曼群岛",
+      "group": "北美洲",
+      "flag": "ky"
+    },
+    {
+      "id": 52,
+      "label": "Central African Rep.",
+      "zh": "中非共和国",
+      "group": "非洲",
+      "flag": "cf"
+    },
+    {
+      "id": 53,
+      "label": "Chad",
+      "zh": "乍得",
+      "group": "非洲",
+      "flag": "td"
+    },
+    {
+      "id": 147,
+      "label": "Chile",
+      "zh": "智利",
+      "group": "南美洲",
+      "flag": "cl"
+    },
+    {
+      "id": 7,
+      "label": "China PR",
+      "zh": "中国",
+      "group": "亚洲",
+      "flag": "cn"
+    },
+    {
+      "id": 298,
+      "label": "Chinese Taipei",
+      "zh": "台灣",
+      "group": "亚洲",
+      "flag": "tw"
+    },
+    {
+      "id": 148,
+      "label": "Colombia",
+      "zh": "哥伦比亚",
+      "group": "南美洲",
+      "flag": "co"
+    },
+    {
+      "id": 54,
+      "label": "Comoros",
+      "zh": "科摩罗",
+      "group": "非洲",
+      "flag": "km"
+    },
+    {
+      "id": 98,
+      "label": "Congo",
+      "zh": "刚果",
+      "group": "非洲",
+      "flag": "cg"
+    },
+    {
+      "id": 55,
+      "label": "Congo DR",
+      "zh": "民主刚果",
+      "group": "非洲",
+      "flag": "cd"
+    },
+    {
+      "id": 163,
+      "label": "Cook Islands",
+      "zh": "库克群岛",
+      "group": "大洋洲",
+      "flag": "ck"
+    },
+    {
+      "id": 112,
+      "label": "Costa Rica",
+      "zh": "哥斯达黎加",
+      "group": "北美洲",
+      "flag": "cr"
+    },
+    {
+      "id": 200,
+      "label": "Croatia",
+      "zh": "克罗地亚",
+      "group": "欧洲",
+      "flag": "hr"
+    },
+    {
+      "id": 113,
+      "label": "Cuba",
+      "zh": "古巴",
+      "group": "北美洲",
+      "flag": "cu"
+    },
+    {
+      "id": 140,
+      "label": "Curaçao",
+      "zh": "库拉索",
+      "group": "北美洲",
+      "flag": "cw"
+    },
+    {
+      "id": 201,
+      "label": "Cyprus",
+      "zh": "塞浦路斯",
+      "group": "欧洲",
+      "flag": "cy"
+    },
+    {
+      "id": 202,
+      "label": "Czechia",
+      "zh": "捷克",
+      "group": "欧洲",
+      "flag": "cz"
+    },
+    {
+      "id": 56,
+      "label": "Côte d'Ivoire",
+      "zh": "科特迪瓦",
+      "group": "非洲",
+      "flag": "ci"
+    },
+    {
+      "id": 203,
+      "label": "Denmark",
+      "zh": "丹麦",
+      "group": "欧洲",
+      "flag": "dk"
+    },
+    {
+      "id": 57,
+      "label": "Djibouti",
+      "zh": "吉布提",
+      "group": "非洲",
+      "flag": "dj"
+    },
+    {
+      "id": 114,
+      "label": "Dominica",
+      "zh": "多米尼加",
+      "group": "北美洲",
+      "flag": "dm"
+    },
+    {
+      "id": 115,
+      "label": "Dominican Republic",
+      "zh": "多明尼加",
+      "group": "北美洲",
+      "flag": "do"
+    },
+    {
+      "id": 149,
+      "label": "Ecuador",
+      "zh": "厄瓜多尔",
+      "group": "南美洲",
+      "flag": "ec"
+    },
+    {
+      "id": 58,
+      "label": "Egypt",
+      "zh": "埃及",
+      "group": "非洲",
+      "flag": "eg"
+    },
+    {
+      "id": 116,
+      "label": "El Salvador",
+      "zh": "萨尔瓦多",
+      "group": "北美洲",
+      "flag": "sv"
+    },
+    {
+      "id": 204,
+      "label": "England",
+      "zh": "英格兰",
+      "group": "欧洲",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 59,
+      "label": "Equatorial Guinea",
+      "zh": "赤道几内亚",
+      "group": "非洲",
+      "flag": "gq"
+    },
+    {
+      "id": 60,
+      "label": "Eritrea",
+      "zh": "厄立特里亚",
+      "group": "非洲",
+      "flag": "er"
+    },
+    {
+      "id": 205,
+      "label": "Estonia",
+      "zh": "爱沙尼亚",
+      "group": "欧洲",
+      "flag": "ee"
+    },
+    {
+      "id": 89,
+      "label": "Eswatini",
+      "zh": "斯威士兰",
+      "group": "非洲",
+      "flag": "sz"
+    },
+    {
+      "id": 61,
+      "label": "Ethiopia",
+      "zh": "埃塞俄比亚",
+      "group": "非洲",
+      "flag": "et"
+    },
+    {
+      "id": 206,
+      "label": "Faroe Islands",
+      "zh": "法罗群岛",
+      "group": "欧洲",
+      "flag": "fo"
+    },
+    {
+      "id": 164,
+      "label": "Fiji",
+      "zh": "斐济",
+      "group": "大洋洲",
+      "flag": "fj"
+    },
+    {
+      "id": 207,
+      "label": "Finland",
+      "zh": "芬兰",
+      "group": "欧洲",
+      "flag": "fi"
+    },
+    {
+      "id": 208,
+      "label": "France",
+      "zh": "法国",
+      "group": "欧洲",
+      "flag": "fr"
+    },
+    {
+      "id": 62,
+      "label": "Gabon",
+      "zh": "加蓬",
+      "group": "非洲",
+      "flag": "ga"
+    },
+    {
+      "id": 209,
+      "label": "Georgia",
+      "zh": "格鲁吉亚",
+      "group": "亚洲",
+      "flag": "ge"
+    },
+    {
+      "id": 210,
+      "label": "Germany",
+      "zh": "德国",
+      "group": "欧洲",
+      "flag": "de"
+    },
+    {
+      "id": 64,
+      "label": "Ghana",
+      "zh": "加纳",
+      "group": "非洲",
+      "flag": "gh"
+    },
+    {
+      "id": 245,
+      "label": "Gibraltar",
+      "zh": "直布罗陀",
+      "group": "欧洲",
+      "flag": "gi"
+    },
+    {
+      "id": 211,
+      "label": "Greece",
+      "zh": "希腊",
+      "group": "欧洲",
+      "flag": "gr"
+    },
+    {
+      "id": 117,
+      "label": "Grenada",
+      "zh": "格林纳达",
+      "group": "北美洲",
+      "flag": "gd"
+    },
+    {
+      "id": 176,
+      "label": "Guam",
+      "zh": "关岛",
+      "group": "大洋洲",
+      "flag": "gu"
+    },
+    {
+      "id": 119,
+      "label": "Guatemala",
+      "zh": "危地马拉",
+      "group": "北美洲",
+      "flag": "gt"
+    },
+    {
+      "id": 65,
+      "label": "Guinea",
+      "zh": "几内亚",
+      "group": "非洲",
+      "flag": "gn"
+    },
+    {
+      "id": 66,
+      "label": "Guinea-Bissau",
+      "zh": "几内亚比绍",
+      "group": "非洲",
+      "flag": "gw"
+    },
+    {
+      "id": 159,
+      "label": "Guyana",
+      "zh": "圭亚那",
+      "group": "南美洲",
+      "flag": "gy"
+    },
+    {
+      "id": 120,
+      "label": "Haiti",
+      "zh": "海地",
+      "group": "北美洲",
+      "flag": "ht"
+    },
+    {
+      "id": 121,
+      "label": "Honduras",
+      "zh": "洪都拉斯",
+      "group": "北美洲",
+      "flag": "hn"
+    },
+    {
+      "id": 8,
+      "label": "Hong Kong, China",
+      "zh": "香港",
+      "group": "亚洲",
+      "flag": "hk"
+    },
+    {
+      "id": 212,
+      "label": "Hungary",
+      "zh": "匈牙利",
+      "group": "欧洲",
+      "flag": "hu"
+    },
+    {
+      "id": 213,
+      "label": "Iceland",
+      "zh": "冰岛",
+      "group": "欧洲",
+      "flag": "is"
+    },
+    {
+      "id": 9,
+      "label": "India",
+      "zh": "印度",
+      "group": "亚洲",
+      "flag": "in"
+    },
+    {
+      "id": 10,
+      "label": "Indonesia",
+      "zh": "印度尼西亚",
+      "group": "亚洲",
+      "flag": "id"
+    },
+    {
+      "id": 11,
+      "label": "IR Iran",
+      "zh": "伊朗",
+      "group": "亚洲",
+      "flag": "ir"
+    },
+    {
+      "id": 12,
+      "label": "Iraq",
+      "zh": "伊拉克",
+      "group": "亚洲",
+      "flag": "iq"
+    },
+    {
+      "id": 189,
+      "label": "Israel",
+      "zh": "以色列",
+      "group": "亚洲",
+      "flag": "il"
+    },
+    {
+      "id": 215,
+      "label": "Italy",
+      "zh": "意大利",
+      "group": "欧洲",
+      "flag": "it"
+    },
+    {
+      "id": 122,
+      "label": "Jamaica",
+      "zh": "牙买加",
+      "group": "北美洲",
+      "flag": "jm"
+    },
+    {
+      "id": 13,
+      "label": "Japan",
+      "zh": "日本",
+      "group": "亚洲",
+      "flag": "jp"
+    },
+    {
+      "id": 14,
+      "label": "Jordan",
+      "zh": "约旦",
+      "group": "亚洲",
+      "flag": "jo"
+    },
+    {
+      "id": 216,
+      "label": "Kazakhstan",
+      "zh": "哈萨克斯坦",
+      "group": "亚洲",
+      "flag": "kz"
+    },
+    {
+      "id": 67,
+      "label": "Kenya",
+      "zh": "肯尼亚",
+      "group": "非洲",
+      "flag": "ke"
+    },
+    {
+      "id": 15,
+      "label": "Korea DPR",
+      "zh": "朝鲜",
+      "group": "亚洲",
+      "flag": "kp"
+    },
+    {
+      "id": 16,
+      "label": "Korea Republic",
+      "zh": "韩国",
+      "group": "亚洲",
+      "flag": "kr"
+    },
+    {
+      "id": 311,
+      "label": "Kosovo",
+      "zh": "科索沃",
+      "group": "欧洲",
+      "flag": "xk"
+    },
+    {
+      "id": 17,
+      "label": "Kuwait",
+      "zh": "科威特",
+      "group": "亚洲",
+      "flag": "kw"
+    },
+    {
+      "id": 40,
+      "label": "Kyrgyz Republic",
+      "zh": "吉尔吉斯斯坦",
+      "group": "亚洲",
+      "flag": "kg"
+    },
+    {
+      "id": 18,
+      "label": "Laos",
+      "zh": "老挝",
+      "group": "亚洲",
+      "flag": "la"
+    },
+    {
+      "id": 217,
+      "label": "Latvia",
+      "zh": "拉脱维亚",
+      "group": "欧洲",
+      "flag": "lv"
+    },
+    {
+      "id": 19,
+      "label": "Lebanon",
+      "zh": "黎巴嫩",
+      "group": "亚洲",
+      "flag": "lb"
+    },
+    {
+      "id": 68,
+      "label": "Lesotho",
+      "zh": "莱索托",
+      "group": "非洲",
+      "flag": "ls"
+    },
+    {
+      "id": 69,
+      "label": "Liberia",
+      "zh": "利比里亚",
+      "group": "非洲",
+      "flag": "lr"
+    },
+    {
+      "id": 70,
+      "label": "Libya",
+      "zh": "利比亚",
+      "group": "非洲",
+      "flag": "ly"
+    },
+    {
+      "id": 218,
+      "label": "Liechtenstein",
+      "zh": "列支敦士登",
+      "group": "欧洲",
+      "flag": "li"
+    },
+    {
+      "id": 219,
+      "label": "Lithuania",
+      "zh": "立陶宛",
+      "group": "欧洲",
+      "flag": "lt"
+    },
+    {
+      "id": 220,
+      "label": "Luxembourg",
+      "zh": "卢森堡",
+      "group": "欧洲",
+      "flag": "lu"
+    },
+    {
+      "id": 20,
+      "label": "Macau",
+      "zh": "澳门",
+      "group": "亚洲",
+      "flag": "mo"
+    },
+    {
+      "id": 71,
+      "label": "Madagascar",
+      "zh": "马达加斯加",
+      "group": "非洲",
+      "flag": "mg"
+    },
+    {
+      "id": 72,
+      "label": "Malawi",
+      "zh": "马拉维",
+      "group": "非洲",
+      "flag": "mw"
+    },
+    {
+      "id": 21,
+      "label": "Malaysia",
+      "zh": "马来西亚",
+      "group": "亚洲",
+      "flag": "my"
+    },
+    {
+      "id": 22,
+      "label": "Maldives",
+      "zh": "马尔代夫",
+      "group": "亚洲",
+      "flag": "mv"
+    },
+    {
+      "id": 73,
+      "label": "Mali",
+      "zh": "马里",
+      "group": "非洲",
+      "flag": "ml"
+    },
+    {
+      "id": 222,
+      "label": "Malta",
+      "zh": "马耳他",
+      "group": "欧洲",
+      "flag": "mt"
+    },
+    {
+      "id": 74,
+      "label": "Mauritania",
+      "zh": "毛里塔尼亚",
+      "group": "非洲",
+      "flag": "mr"
+    },
+    {
+      "id": 75,
+      "label": "Mauritius",
+      "zh": "毛里求斯",
+      "group": "非洲",
+      "flag": "mu"
+    },
+    {
+      "id": 124,
+      "label": "Mexico",
+      "zh": "墨西哥",
+      "group": "北美洲",
+      "flag": "mx"
+    },
+    {
+      "id": 223,
+      "label": "Moldova",
+      "zh": "摩尔多瓦",
+      "group": "欧洲",
+      "flag": "md"
+    },
+    {
+      "id": 250,
+      "label": "Monaco",
+      "zh": "摩纳哥",
+      "group": "欧洲",
+      "flag": "mc"
+    },
+    {
+      "id": 23,
+      "label": "Mongolia",
+      "zh": "蒙古",
+      "group": "亚洲",
+      "flag": "mn"
+    },
+    {
+      "id": 304,
+      "label": "Montenegro",
+      "zh": "黑山",
+      "group": "欧洲",
+      "flag": "me"
+    },
+    {
+      "id": 125,
+      "label": "Montserrat",
+      "zh": "蒙特塞拉特",
+      "group": "北美洲",
+      "flag": "ms"
+    },
+    {
+      "id": 76,
+      "label": "Morocco",
+      "zh": "摩洛哥",
+      "group": "非洲",
+      "flag": "ma"
+    },
+    {
+      "id": 77,
+      "label": "Mozambique",
+      "zh": "莫桑比克",
+      "group": "非洲",
+      "flag": "mz"
+    },
+    {
+      "id": 24,
+      "label": "Myanmar",
+      "zh": "缅甸",
+      "group": "亚洲",
+      "flag": "mm"
+    },
+    {
+      "id": 78,
+      "label": "Namibia",
+      "zh": "纳米比亚",
+      "group": "非洲",
+      "flag": "na"
+    },
+    {
+      "id": 25,
+      "label": "Nepal",
+      "zh": "尼泊尔",
+      "group": "亚洲",
+      "flag": "np"
+    },
+    {
+      "id": 224,
+      "label": "Netherlands",
+      "zh": "荷兰",
+      "group": "欧洲",
+      "flag": "nl"
+    },
+    {
+      "id": 165,
+      "label": "New Caledonia",
+      "zh": "新喀里多尼亚",
+      "group": "大洋洲",
+      "flag": "nc"
+    },
+    {
+      "id": 166,
+      "label": "New Zealand",
+      "zh": "新西兰",
+      "group": "大洋洲",
+      "flag": "nz"
+    },
+    {
+      "id": 127,
+      "label": "Nicaragua",
+      "zh": "尼加拉瓜",
+      "group": "北美洲",
+      "flag": "ni"
+    },
+    {
+      "id": 79,
+      "label": "Niger",
+      "zh": "尼日尔",
+      "group": "非洲",
+      "flag": "ne"
+    },
+    {
+      "id": 80,
+      "label": "Nigeria",
+      "zh": "尼日利亚",
+      "group": "非洲",
+      "flag": "ng"
+    },
+    {
+      "id": 221,
+      "label": "North Macedonia",
+      "zh": "北馬其頓",
+      "group": "欧洲",
+      "flag": "mk"
+    },
+    {
+      "id": 225,
+      "label": "Northern Ireland",
+      "zh": "北爱尔兰",
+      "group": "欧洲",
+      "flag": "gb"
+    },
+    {
+      "id": 226,
+      "label": "Norway",
+      "zh": "挪威",
+      "group": "欧洲",
+      "flag": "no"
+    },
+    {
+      "id": 26,
+      "label": "Oman",
+      "zh": "阿曼",
+      "group": "亚洲",
+      "flag": "om"
+    },
+    {
+      "id": 260,
+      "label": "Others",
+      "zh": "其他",
+      "group": "其他",
+      "flag": ""
+    },
+    {
+      "id": 27,
+      "label": "Pakistan",
+      "zh": "巴基斯坦",
+      "group": "亚洲",
+      "flag": "pk"
+    },
+    {
+      "id": 184,
+      "label": "Palau",
+      "zh": "帕劳",
+      "group": "大洋洲",
+      "flag": "pw"
+    },
+    {
+      "id": 28,
+      "label": "Palestine",
+      "zh": "巴勒斯坦",
+      "group": "亚洲",
+      "flag": "ps"
+    },
+    {
+      "id": 128,
+      "label": "Panama",
+      "zh": "巴拿马",
+      "group": "北美洲",
+      "flag": "pa"
+    },
+    {
+      "id": 167,
+      "label": "Papua New Guinea",
+      "zh": "巴布亚新几内亚",
+      "group": "大洋洲",
+      "flag": "pg"
+    },
+    {
+      "id": 150,
+      "label": "Paraguay",
+      "zh": "巴拉圭",
+      "group": "南美洲",
+      "flag": "py"
+    },
+    {
+      "id": 151,
+      "label": "Peru",
+      "zh": "秘鲁",
+      "group": "南美洲",
+      "flag": "pe"
+    },
+    {
+      "id": 29,
+      "label": "Philippines",
+      "zh": "菲律宾",
+      "group": "亚洲",
+      "flag": "ph"
+    },
+    {
+      "id": 227,
+      "label": "Poland",
+      "zh": "波兰",
+      "group": "欧洲",
+      "flag": "pl"
+    },
+    {
+      "id": 228,
+      "label": "Portugal",
+      "zh": "葡萄牙",
+      "group": "欧洲",
+      "flag": "pt"
+    },
+    {
+      "id": 129,
+      "label": "Puerto Rico",
+      "zh": "波多黎各",
+      "group": "北美洲",
+      "flag": "pr"
+    },
+    {
+      "id": 30,
+      "label": "Qatar",
+      "zh": "卡塔尔",
+      "group": "亚洲",
+      "flag": "qa"
+    },
+    {
+      "id": 214,
+      "label": "Republic of Ireland",
+      "zh": "爱尔兰",
+      "group": "欧洲",
+      "flag": "ie"
+    },
+    {
+      "id": 229,
+      "label": "Romania",
+      "zh": "罗马尼亚",
+      "group": "欧洲",
+      "flag": "ro"
+    },
+    {
+      "id": 230,
+      "label": "Russia",
+      "zh": "俄罗斯",
+      "group": "欧洲",
+      "flag": "ru"
+    },
+    {
+      "id": 81,
+      "label": "Rwanda",
+      "zh": "卢旺达",
+      "group": "非洲",
+      "flag": "rw"
+    },
+    {
+      "id": 131,
+      "label": "Saint Lucia",
+      "zh": "圣卢西亚",
+      "group": "北美洲",
+      "flag": "lc"
+    },
+    {
+      "id": 168,
+      "label": "Samoa",
+      "zh": "萨摩亚",
+      "group": "大洋洲",
+      "flag": "ws"
+    },
+    {
+      "id": 231,
+      "label": "San Marino",
+      "zh": "圣马力诺",
+      "group": "欧洲",
+      "flag": "sm"
+    },
+    {
+      "id": 31,
+      "label": "Saudi Arabia",
+      "zh": "沙特阿拉伯",
+      "group": "亚洲",
+      "flag": "sa"
+    },
+    {
+      "id": 232,
+      "label": "Scotland",
+      "zh": "苏格兰",
+      "group": "欧洲",
+      "flag": "gb-sct"
+    },
+    {
+      "id": 83,
+      "label": "Senegal",
+      "zh": "塞内加尔",
+      "group": "非洲",
+      "flag": "sn"
+    },
+    {
+      "id": 303,
+      "label": "Serbia",
+      "zh": "塞尔维亚",
+      "group": "欧洲",
+      "flag": "rs"
+    },
+    {
+      "id": 84,
+      "label": "Seychelles",
+      "zh": "塞舌尔",
+      "group": "非洲",
+      "flag": "sc"
+    },
+    {
+      "id": 85,
+      "label": "Sierra Leone",
+      "zh": "塞拉利昂",
+      "group": "非洲",
+      "flag": "sl"
+    },
+    {
+      "id": 32,
+      "label": "Singapore",
+      "zh": "新加坡",
+      "group": "亚洲",
+      "flag": "sg"
+    },
+    {
+      "id": 234,
+      "label": "Slovakia",
+      "zh": "斯洛伐克",
+      "group": "欧洲",
+      "flag": "sk"
+    },
+    {
+      "id": 235,
+      "label": "Slovenia",
+      "zh": "斯洛文尼亚",
+      "group": "欧洲",
+      "flag": "si"
+    },
+    {
+      "id": 169,
+      "label": "Solomon Islands",
+      "zh": "所罗门群岛",
+      "group": "大洋洲",
+      "flag": "sb"
+    },
+    {
+      "id": 86,
+      "label": "Somalia",
+      "zh": "索马里",
+      "group": "非洲",
+      "flag": "so"
+    },
+    {
+      "id": 87,
+      "label": "South Africa",
+      "zh": "南非",
+      "group": "非洲",
+      "flag": "za"
+    },
+    {
+      "id": 312,
+      "label": "South Sudan",
+      "zh": "南苏丹",
+      "group": "非洲",
+      "flag": "ss"
+    },
+    {
+      "id": 236,
+      "label": "Spain",
+      "zh": "西班牙",
+      "group": "欧洲",
+      "flag": "es"
+    },
+    {
+      "id": 33,
+      "label": "Sri Lanka",
+      "zh": "斯里兰卡",
+      "group": "亚洲",
+      "flag": "lk"
+    },
+    {
+      "id": 130,
+      "label": "St Kitts and Nevis",
+      "zh": "圣基茨和尼维斯",
+      "group": "北美洲",
+      "flag": "kn"
+    },
+    {
+      "id": 132,
+      "label": "St Vincent & Grenadines",
+      "zh": "圣文森特和格林纳丁斯",
+      "group": "北美洲",
+      "flag": "vc"
+    },
+    {
+      "id": 88,
+      "label": "Sudan",
+      "zh": "苏丹",
+      "group": "非洲",
+      "flag": "sd"
+    },
+    {
+      "id": 139,
+      "label": "Suriname",
+      "zh": "苏里南",
+      "group": "南美洲",
+      "flag": "sr"
+    },
+    {
+      "id": 237,
+      "label": "Sweden",
+      "zh": "瑞典",
+      "group": "欧洲",
+      "flag": "se"
+    },
+    {
+      "id": 238,
+      "label": "Switzerland",
+      "zh": "瑞士",
+      "group": "欧洲",
+      "flag": "ch"
+    },
+    {
+      "id": 34,
+      "label": "Syria",
+      "zh": "叙利亚",
+      "group": "亚洲",
+      "flag": "sy"
+    },
+    {
+      "id": 82,
+      "label": "São Tomé and Príncipe",
+      "zh": "圣多美和普林西比",
+      "group": "非洲",
+      "flag": "st"
+    },
+    {
+      "id": 170,
+      "label": "Tahiti",
+      "zh": "法属波利尼西亚",
+      "group": "大洋洲",
+      "flag": "pf"
+    },
+    {
+      "id": 41,
+      "label": "Tajikistan",
+      "zh": "塔吉克斯坦",
+      "group": "亚洲",
+      "flag": "tj"
+    },
+    {
+      "id": 90,
+      "label": "Tanzania",
+      "zh": "坦桑尼亚",
+      "group": "非洲",
+      "flag": "tz"
+    },
+    {
+      "id": 36,
+      "label": "Thailand",
+      "zh": "泰国",
+      "group": "亚洲",
+      "flag": "th"
+    },
+    {
+      "id": 63,
+      "label": "The Gambia",
+      "zh": "冈比亚",
+      "group": "非洲",
+      "flag": "gm"
+    },
+    {
+      "id": 43,
+      "label": "Timor-Leste",
+      "zh": "东帝汶",
+      "group": "亚洲",
+      "flag": "tl"
+    },
+    {
+      "id": 91,
+      "label": "Togo",
+      "zh": "多哥",
+      "group": "非洲",
+      "flag": "tg"
+    },
+    {
+      "id": 171,
+      "label": "Tonga",
+      "zh": "汤加",
+      "group": "大洋洲",
+      "flag": "to"
+    },
+    {
+      "id": 133,
+      "label": "Trinidad and Tobago",
+      "zh": "特立尼达和多巴哥",
+      "group": "北美洲",
+      "flag": "tt"
+    },
+    {
+      "id": 92,
+      "label": "Tunisia",
+      "zh": "突尼斯",
+      "group": "非洲",
+      "flag": "tn"
+    },
+    {
+      "id": 42,
+      "label": "Turkmenistan",
+      "zh": "土库曼斯坦",
+      "group": "亚洲",
+      "flag": "tm"
+    },
+    {
+      "id": 134,
+      "label": "Turks and Caicos Is.",
+      "zh": "特克斯和凯科斯群岛",
+      "group": "北美洲",
+      "flag": "tc"
+    },
+    {
+      "id": 190,
+      "label": "Türkiye",
+      "zh": "土耳其",
+      "group": "亚洲",
+      "flag": "tr"
+    },
+    {
+      "id": 93,
+      "label": "Uganda",
+      "zh": "乌干达",
+      "group": "非洲",
+      "flag": "ug"
+    },
+    {
+      "id": 239,
+      "label": "Ukraine",
+      "zh": "乌克兰",
+      "group": "欧洲",
+      "flag": "ua"
+    },
+    {
+      "id": 37,
+      "label": "United Arab Emirates",
+      "zh": "阿拉伯联合酋长国",
+      "group": "亚洲",
+      "flag": "ae"
+    },
+    {
+      "id": 135,
+      "label": "United States",
+      "zh": "美国",
+      "group": "北美洲",
+      "flag": "us"
+    },
+    {
+      "id": 152,
+      "label": "Uruguay",
+      "zh": "乌拉圭",
+      "group": "南美洲",
+      "flag": "uy"
+    },
+    {
+      "id": 137,
+      "label": "US Virgin Islands",
+      "zh": "美属维尔京群岛",
+      "group": "北美洲",
+      "flag": "vi"
+    },
+    {
+      "id": 240,
+      "label": "Uzbekistan",
+      "zh": "乌兹别克斯坦",
+      "group": "亚洲",
+      "flag": "uz"
+    },
+    {
+      "id": 172,
+      "label": "Vanuatu",
+      "zh": "瓦努阿图",
+      "group": "大洋洲",
+      "flag": "vu"
+    },
+    {
+      "id": 153,
+      "label": "Venezuela",
+      "zh": "委内瑞拉",
+      "group": "南美洲",
+      "flag": "ve"
+    },
+    {
+      "id": 38,
+      "label": "Vietnam",
+      "zh": "越南",
+      "group": "亚洲",
+      "flag": "vn"
+    },
+    {
+      "id": 241,
+      "label": "Wales",
+      "zh": "威尔士",
+      "group": "欧洲",
+      "flag": "gb-wls"
+    },
+    {
+      "id": 39,
+      "label": "Yemen",
+      "zh": "也门",
+      "group": "亚洲",
+      "flag": "ye"
+    },
+    {
+      "id": 94,
+      "label": "Zambia",
+      "zh": "赞比亚",
+      "group": "非洲",
+      "flag": "zm"
+    },
+    {
+      "id": 95,
+      "label": "Zimbabwe",
+      "zh": "津巴布韦",
+      "group": "非洲",
+      "flag": "zw"
+    }
+  ],
+  "clubs": [
+    {
+      "id": 0,
+      "label": "Free Agent",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6057,
+      "label": "2026 PFA TOTY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2067,
+      "label": "Aarhus HB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1219,
+      "label": "Aberdeen FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 121,
+      "label": "AC Milan",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 4082,
+      "label": "Académico de Viseu FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 243,
+      "label": "ADO Den Haag",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5743,
+      "label": "Afghanistan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6263,
+      "label": "Agadir RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22259,
+      "label": "Ahal FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6011,
+      "label": "Aichi",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 180,
+      "label": "AJ Auxerre",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 116,
+      "label": "Ajax",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5993,
+      "label": "Akita",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 17733,
+      "label": "Al Ahli Saudi FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22577,
+      "label": "Al Ahli SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 18951,
+      "label": "Al Duhail SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 17872,
+      "label": "Al Gharafa SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 17873,
+      "label": "Al Hilal SFC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22424,
+      "label": "Al Hussein SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 17734,
+      "label": "Al Ittihad Club",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22420,
+      "label": "Al Khaldiya SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22574,
+      "label": "Al Muharraq SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 18961,
+      "label": "Al Nassr FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 20557,
+      "label": "Al Sadd SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 20554,
+      "label": "Al Shorta SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21337,
+      "label": "Al Wahda FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21772,
+      "label": "Al Wasl FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21338,
+      "label": "Al Wehdat SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21975,
+      "label": "Al Zawraa SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4302,
+      "label": "Albacete BN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1165,
+      "label": "Albania",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2536,
+      "label": "Alberdi A",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 167,
+      "label": "Albirex Niigata",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1040,
+      "label": "Algeria",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 82960,
+      "label": "Algeria",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1243,
+      "label": "Almagro AR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 349,
+      "label": "Almelo ZW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 357,
+      "label": "Almería RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2727,
+      "label": "Alta Córdoba RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6081,
+      "label": "Amed SFK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6179,
+      "label": "American Samoa",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4200,
+      "label": "Amiens NB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 174,
+      "label": "Anderlecht PW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1166,
+      "label": "Andorra",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5644,
+      "label": "Andorra la Vella AAR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 403,
+      "label": "Angers SCO",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 1041,
+      "label": "Angola",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 82961,
+      "label": "Angola",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6150,
+      "label": "Anguilla",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1989,
+      "label": "Antalya KB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6151,
+      "label": "Antigua and Barbuda",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5191,
+      "label": "Antwerp RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5923,
+      "label": "Anyang P",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5990,
+      "label": "Aomori",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5962,
+      "label": "Arca Çorum FK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4377,
+      "label": "Arezzo G",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22579,
+      "label": "Arkadag FK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1167,
+      "label": "Armenia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 101,
+      "label": "Arsenal FC",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 6152,
+      "label": "Aruba",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 112,
+      "label": "AS Monaco",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 415,
+      "label": "AS Nancy-Lorraine",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 418,
+      "label": "AS Saint-Étienne",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 317,
+      "label": "Ascoli BN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 107,
+      "label": "Aston RB",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 234,
+      "label": "Atalanta BC",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 1930,
+      "label": "Athletico Paranaense",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5736,
+      "label": "Atlanta RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5740,
+      "label": "Austin GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 49209,
+      "label": "Australia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1237,
+      "label": "Avellaneda AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1240,
+      "label": "Avellaneda R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4141,
+      "label": "Avellino BV",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5954,
+      "label": "Aves VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 169,
+      "label": "Avispa Fukuoka",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5600,
+      "label": "Ayutthaya United FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 242,
+      "label": "AZ",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1168,
+      "label": "Azerbaijan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6153,
+      "label": "Bahamas",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1002,
+      "label": "Bahrain",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 50154,
+      "label": "Bahrain",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1927,
+      "label": "Banfield VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5744,
+      "label": "Bangladesh",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6154,
+      "label": "Barbados",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 319,
+      "label": "Bari BR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5657,
+      "label": "Barracas RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2285,
+      "label": "Barranquilla RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1706,
+      "label": "Basel RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 210,
+      "label": "Bastia BB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 128,
+      "label": "Bayer 04 Leverkusen",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 16679,
+      "label": "Beijing FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1169,
+      "label": "Belarus",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6155,
+      "label": "Belize",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4232,
+      "label": "Benevento GR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6121,
+      "label": "Benin",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 88041,
+      "label": "Benin",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6259,
+      "label": "Berkane ONB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4140,
+      "label": "Berlin RW",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 6156,
+      "label": "Bermuda",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1950,
+      "label": "Bern GS",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5195,
+      "label": "Beveren GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 273,
+      "label": "Beşiktaş JK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4941,
+      "label": "BG Pathum United FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21325,
+      "label": "BG Pathum United FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6176,
+      "label": "Bhutan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 258,
+      "label": "Bilbao BR",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 201,
+      "label": "Birmingham B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5785,
+      "label": "Birmingham BY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 176,
+      "label": "Blackburn BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4101,
+      "label": "Blaublitz Akita",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1258,
+      "label": "Bogotá AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2654,
+      "label": "Bogotá VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1128,
+      "label": "Bolivia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 186,
+      "label": "Bologna RB",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 202,
+      "label": "Bolton WB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 126,
+      "label": "Borussia Dortmund",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 1170,
+      "label": "Bosnia and Herzegovina",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1246,
+      "label": "Botafogo FR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6061,
+      "label": "Botswana",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 87981,
+      "label": "Botswana",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4071,
+      "label": "Bournemouth RB",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 2195,
+      "label": "Boyacá A",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 246,
+      "label": "Breda G",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 185,
+      "label": "Bremen GW",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 4180,
+      "label": "Brentford RW",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 377,
+      "label": "Brighton WB",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 1760,
+      "label": "Bristol R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6157,
+      "label": "British Virgin Islands",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 269,
+      "label": "Brugge BZ",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2009,
+      "label": "Brugge GZ",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6051,
+      "label": "Brunei",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1832,
+      "label": "Brøndby GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5208,
+      "label": "Bucaramanga AV",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5918,
+      "label": "Bucheon RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1238,
+      "label": "Buenos Aires RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4247,
+      "label": "Burgos NB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1493,
+      "label": "Buriram United F.C.",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 17877,
+      "label": "Buriram United F.C.",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1044,
+      "label": "Burkina Faso",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 82964,
+      "label": "Burkina Faso",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 378,
+      "label": "Burnley RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6122,
+      "label": "Burundi",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 139,
+      "label": "CA Boca Juniors",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 138,
+      "label": "CA River Plate",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1046,
+      "label": "Cabo Verde",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 320,
+      "label": "Cagliari RB",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 1257,
+      "label": "Cali R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2650,
+      "label": "Cali VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5745,
+      "label": "Cambodia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 81956,
+      "label": "Cameroon",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1099,
+      "label": "Canada",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 379,
+      "label": "Cardiff B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4218,
+      "label": "Carrara AG",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5633,
+      "label": "Casa Pia AC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6271,
+      "label": "Casablanca RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6268,
+      "label": "Casablanca VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4395,
+      "label": "Castellón NB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4233,
+      "label": "Catanzaro GR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5137,
+      "label": "Caxias do Sul VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6158,
+      "label": "Cayman Islands",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1700,
+      "label": "CD Guadalajara",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1944,
+      "label": "CD Nacional",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2391,
+      "label": "CD Santa Clara",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2454,
+      "label": "Ceará PB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 131,
+      "label": "Celtic FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6123,
+      "label": "Central African Rep.",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 168,
+      "label": "Cerezo Osaka",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1362,
+      "label": "Cesena BN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5895,
+      "label": "Ceuta BR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5844,
+      "label": "CF Estrela da Amadora",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6124,
+      "label": "Chad",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4108,
+      "label": "Chapecoense AF",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2010,
+      "label": "Charleroi ZW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5776,
+      "label": "Charleston YB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5832,
+      "label": "Charlotte BBGW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 203,
+      "label": "Charlton RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 102,
+      "label": "Chelsea B",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 22049,
+      "label": "Chengdu Rongcheng FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6000,
+      "label": "Chiba",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4148,
+      "label": "Chicago RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2699,
+      "label": "Chillán R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 49206,
+      "label": "China PR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5746,
+      "label": "Chinese Taipei",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4175,
+      "label": "Chonburi FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5737,
+      "label": "Cincinnati OB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1775,
+      "label": "Ciudad de México AA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 407,
+      "label": "Clermont Foot 63",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1264,
+      "label": "Club América",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5145,
+      "label": "Clube do Remo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4150,
+      "label": "Colorado BB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5793,
+      "label": "Colorado Springs BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4151,
+      "label": "Columbus BY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4219,
+      "label": "Como 1907",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 6125,
+      "label": "Comoros",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 88045,
+      "label": "Comoros",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2551,
+      "label": "Concepción AA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2709,
+      "label": "Concepción M",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22498,
+      "label": "Cong An Hanoi FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1087,
+      "label": "Congo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6062,
+      "label": "Congo DR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 87982,
+      "label": "Congo DR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 144,
+      "label": "Consadole Sapporo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6180,
+      "label": "Cook Islands",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2707,
+      "label": "Coquimbo AN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5202,
+      "label": "Corendon Alanyaspor",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1931,
+      "label": "Coritiba FBC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4183,
+      "label": "Coventry B",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 1248,
+      "label": "CR Flamengo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 136,
+      "label": "CR Vasco da Gama",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4220,
+      "label": "Cremona GR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2460,
+      "label": "Criciúma ABP",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 274,
+      "label": "Cruzeiro EC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 382,
+      "label": "Crystal Palace RB",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 1976,
+      "label": "CS Marítimo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6159,
+      "label": "Cuba",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5142,
+      "label": "Cuiabá VA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6160,
+      "label": "Curaçao",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1171,
+      "label": "Cyprus",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4308,
+      "label": "Cádiz AA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5210,
+      "label": "Córdoba A",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5046,
+      "label": "Córdoba AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 359,
+      "label": "Córdoba VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1051,
+      "label": "Côte d'Ivoire",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 82971,
+      "label": "Côte d'Ivoire",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2194,
+      "label": "Cúcuta RN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5912,
+      "label": "Daejeon RGW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4153,
+      "label": "Dallas RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6260,
+      "label": "Dcheira VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5878,
+      "label": "Denderleeuw BZR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 383,
+      "label": "Derby WB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5835,
+      "label": "Detroit BY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1328,
+      "label": "Dijon FCO",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6126,
+      "label": "Djibouti",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6161,
+      "label": "Dominica",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6162,
+      "label": "Dominican Republic",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6200,
+      "label": "DPMM FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5985,
+      "label": "Dream Team",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6209,
+      "label": "Dummy 1",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6210,
+      "label": "Dummy 2",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6211,
+      "label": "Dummy 3",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6212,
+      "label": "Dummy 4",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6213,
+      "label": "Dummy 5",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6214,
+      "label": "Dummy 6",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6216,
+      "label": "Dummy 7",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6217,
+      "label": "Dummy 8",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2621,
+      "label": "Dundee FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1220,
+      "label": "Dundee United FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21517,
+      "label": "Eastern SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2453,
+      "label": "EC Bahia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1937,
+      "label": "EC Vitória",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5967,
+      "label": "EFB United",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6215,
+      "label": "EFB United",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5063,
+      "label": "eFootball FC KIT1",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5072,
+      "label": "eFootball FC KIT10",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5073,
+      "label": "eFootball FC KIT11",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5074,
+      "label": "eFootball FC KIT12",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5075,
+      "label": "eFootball FC KIT13",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5076,
+      "label": "eFootball FC KIT14",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5077,
+      "label": "eFootball FC KIT15",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5078,
+      "label": "eFootball FC KIT16",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5079,
+      "label": "eFootball FC KIT17",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5080,
+      "label": "eFootball FC KIT18",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5081,
+      "label": "eFootball FC KIT19",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5064,
+      "label": "eFootball FC KIT2",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5082,
+      "label": "eFootball FC KIT20",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5604,
+      "label": "eFootball FC KIT21",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5605,
+      "label": "eFootball FC KIT22",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5606,
+      "label": "eFootball FC KIT23",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5607,
+      "label": "eFootball FC KIT24",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5608,
+      "label": "eFootball FC KIT25",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5609,
+      "label": "eFootball FC KIT26",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5610,
+      "label": "eFootball FC KIT27",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5611,
+      "label": "eFootball FC KIT28",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5612,
+      "label": "eFootball FC KIT29",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5065,
+      "label": "eFootball FC KIT3",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5613,
+      "label": "eFootball FC KIT30",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5614,
+      "label": "eFootball FC KIT31",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5067,
+      "label": "eFootball FC KIT5",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5070,
+      "label": "eFootball FC KIT8",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5071,
+      "label": "eFootball FC KIT9",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 81954,
+      "label": "Egypt",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6026,
+      "label": "Ehime",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4146,
+      "label": "Eibar AR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 226,
+      "label": "Eintracht Frankfurt",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 6261,
+      "label": "El Jadida VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5794,
+      "label": "El Paso BY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6163,
+      "label": "El Salvador",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2553,
+      "label": "El Salvador BN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 361,
+      "label": "Elche BV",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 4988,
+      "label": "Elda RA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 235,
+      "label": "Empoli A",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 211,
+      "label": "En Avant Guingamp",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4230,
+      "label": "Entella BA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6127,
+      "label": "Equatorial Guinea",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 88047,
+      "label": "Equatorial Guinea",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6128,
+      "label": "Eritrea",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5353,
+      "label": "Erzurumspor FK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 420,
+      "label": "ESTAC Troyes",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 17960,
+      "label": "Esteghlal FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1172,
+      "label": "Estonia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6129,
+      "label": "Eswatini",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1055,
+      "label": "Ethiopia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6058,
+      "label": "Event Team 2",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6059,
+      "label": "Event Team 3",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6060,
+      "label": "Event Team 4",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6089,
+      "label": "Event Team 5",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6090,
+      "label": "Event Team 6",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 177,
+      "label": "Everton B",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 344,
+      "label": "Excelsior Rotterdam",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1881,
+      "label": "Fagiano Okayama",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5317,
+      "label": "Falkirk FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1173,
+      "label": "Faroe Islands",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5652,
+      "label": "Fatih KS",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5845,
+      "label": "FC Alverca",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22580,
+      "label": "FC Andijan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5685,
+      "label": "FC Annecy",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2380,
+      "label": "FC Arouca",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 108,
+      "label": "FC Barcelona",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 5028,
+      "label": "FC Famalicão",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22153,
+      "label": "FC Goa",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 244,
+      "label": "FC Groningen",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5670,
+      "label": "FC Imabari",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21983,
+      "label": "FC Istiklol Dushanbe",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 414,
+      "label": "FC Lorient",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 2372,
+      "label": "FC Machida Zelvia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 18756,
+      "label": "FC Machida Zelvia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4123,
+      "label": "FC Metz",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 216,
+      "label": "FC Nantes",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 20562,
+      "label": "FC Nasaf",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 16665,
+      "label": "FC Pohang Steelers",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 192,
+      "label": "FC Porto",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 16666,
+      "label": "FC Seoul",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 219,
+      "label": "FC Sochaux-Montbéliard",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 150,
+      "label": "FC TOKYO",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 250,
+      "label": "FC Twente",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 251,
+      "label": "FC Utrecht",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 197,
+      "label": "Fenerbahçe SK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 117,
+      "label": "Feyenoord",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6181,
+      "label": "Fiji",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 124,
+      "label": "Firenze V",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 2722,
+      "label": "Florencio Varela AV",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2452,
+      "label": "Florianópolis AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1249,
+      "label": "Fluminense FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5143,
+      "label": "Fortaleza AVB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 345,
+      "label": "Fortuna Sittard",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5229,
+      "label": "Fredericia RS",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 227,
+      "label": "Freiburg WR",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 4234,
+      "label": "Frosinone GA",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 4105,
+      "label": "Fujieda MYFC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6008,
+      "label": "Fukui",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6028,
+      "label": "Fukuoka",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5995,
+      "label": "Fukushima",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 178,
+      "label": "Fulham W",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 6266,
+      "label": "Fès JN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6063,
+      "label": "Gabon",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 87983,
+      "label": "Gabon",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 130,
+      "label": "Galatasaray SK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 157,
+      "label": "Gamba Osaka",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 16541,
+      "label": "Gamba Osaka",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22297,
+      "label": "Gangwon FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5913,
+      "label": "Gangwon O",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5356,
+      "label": "Gaziantep FK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2383,
+      "label": "GD Estoril Praia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1195,
+      "label": "Genk BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 323,
+      "label": "Genova RB",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 1196,
+      "label": "Gent BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1230,
+      "label": "Gençlerbirliği SK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1174,
+      "label": "Georgia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 362,
+      "label": "Getafe A",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 1058,
+      "label": "Ghana",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5439,
+      "label": "Gibraltar",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6009,
+      "label": "Gifu",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 363,
+      "label": "Gijón RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2387,
+      "label": "Gil Vicente FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5924,
+      "label": "Gimcheon RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2187,
+      "label": "Girona R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 346,
+      "label": "Go Ahead Eagles",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1933,
+      "label": "Goiás V",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2451,
+      "label": "Goiânia PV",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1765,
+      "label": "Granada RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6164,
+      "label": "Grenada",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4370,
+      "label": "Grenoble Foot 38",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1250,
+      "label": "Grêmio FBPA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5747,
+      "label": "Guam",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6065,
+      "label": "Guatemala",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1059,
+      "label": "Guinea",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6131,
+      "label": "Guinea-Bissau",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5998,
+      "label": "Gunma",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6165,
+      "label": "Guyana",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5914,
+      "label": "Gwangju Y",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5203,
+      "label": "Göztepe SK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5226,
+      "label": "Haderslev HB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6166,
+      "label": "Haiti",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 129,
+      "label": "Hamburg BWS",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 5778,
+      "label": "Hartford GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 413,
+      "label": "Havre AC",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 1221,
+      "label": "Heart of Midlothian FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1222,
+      "label": "Hibernian FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6022,
+      "label": "Hiroshima",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5989,
+      "label": "Hokkaido",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5748,
+      "label": "Hong Kong, China",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2066,
+      "label": "Horsens GS",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4154,
+      "label": "Houston O",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2188,
+      "label": "Huesca RA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1589,
+      "label": "Hull OB",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 6016,
+      "label": "Hyogo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5996,
+      "label": "Ibaraki",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1175,
+      "label": "Iceland",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5820,
+      "label": "ikas Eyüpspor",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6201,
+      "label": "Immigration FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5915,
+      "label": "Incheon BB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5749,
+      "label": "India",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5787,
+      "label": "Indiana B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5750,
+      "label": "Indonesia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 54902,
+      "label": "Indonesia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 119,
+      "label": "Internazionale Milano",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 386,
+      "label": "Ipswich BW",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 49207,
+      "label": "IR Iran",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1010,
+      "label": "Iraq",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 50162,
+      "label": "Iraq",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6007,
+      "label": "Ishikawa",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1164,
+      "label": "Israel",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5842,
+      "label": "IWAKI FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5991,
+      "label": "Iwate",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 49204,
+      "label": "Japan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 148,
+      "label": "JEF United Chiba",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5135,
+      "label": "Jeju O",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 279,
+      "label": "Jeonju G",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4948,
+      "label": "Johor Darul Ta'zim FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21332,
+      "label": "Johor Darul Ta'zim FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1011,
+      "label": "Jordan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 50163,
+      "label": "Jordan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 154,
+      "label": "Jubilo Iwata",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2730,
+      "label": "Junín V",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6025,
+      "label": "Kagawa",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6034,
+      "label": "Kagoshima",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6002,
+      "label": "Kanagawa",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5965,
+      "label": "Kanchanaburi DD",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4164,
+      "label": "Kansas City BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 146,
+      "label": "Kashima Antlers",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 149,
+      "label": "Kashiwa Reysol",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2625,
+      "label": "Kasımpaşa SK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1880,
+      "label": "Kataller Toyama",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 163,
+      "label": "Kawasaki Frontale",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22159,
+      "label": "Kaya FC-Iloilo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1996,
+      "label": "Kayseri KS",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1176,
+      "label": "Kazakhstan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6202,
+      "label": "Kelantan TRW FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5986,
+      "label": "Kenya",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1985,
+      "label": "Kilmarnock FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5821,
+      "label": "Kocaelispor",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6027,
+      "label": "Kochi",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1012,
+      "label": "Korea DPR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 50164,
+      "label": "Korea DPR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 49205,
+      "label": "Korea Republic",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2013,
+      "label": "Kortrijk RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5440,
+      "label": "Kosovo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6112,
+      "label": "Kuala Lumpur City FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6203,
+      "label": "Kuching City FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6031,
+      "label": "Kumamoto",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1013,
+      "label": "Kuwait",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 50165,
+      "label": "Kuwait",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6014,
+      "label": "Kyoto",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 156,
+      "label": "Kyoto Sanga F.C.",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5751,
+      "label": "Kyrgyz Republic",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 54903,
+      "label": "Kyrgyz Republic",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1207,
+      "label": "København HB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2546,
+      "label": "La Calera R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 111,
+      "label": "La Coruña AB",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 5371,
+      "label": "La Fortaleza RA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6067,
+      "label": "La Louvière GW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1236,
+      "label": "La Paternal RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1239,
+      "label": "La Plata AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2544,
+      "label": "La Serena R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1600,
+      "label": "La Spezia B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5829,
+      "label": "Lamphun Warriors FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1929,
+      "label": "Lanús M",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5988,
+      "label": "Laos",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 364,
+      "label": "Las Palmas AA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5800,
+      "label": "Las Vegas BYBR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4964,
+      "label": "Lausanne BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 212,
+      "label": "Le Mans FC",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 1015,
+      "label": "Lebanon",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4237,
+      "label": "Lecce GR",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 104,
+      "label": "Leeds W",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 4272,
+      "label": "Leganés AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 204,
+      "label": "Leicester B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5010,
+      "label": "Leipzig RW",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 6132,
+      "label": "Lesotho",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5217,
+      "label": "Leuven WZRG",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 366,
+      "label": "Levante RA",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 6091,
+      "label": "Lexington GBW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4252,
+      "label": "León B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6133,
+      "label": "Liberia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6134,
+      "label": "Libya",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1177,
+      "label": "Liechtenstein",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 240,
+      "label": "Liguria B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5980,
+      "label": "Limache R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5624,
+      "label": "Lincoln RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1244,
+      "label": "Liniers AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21982,
+      "label": "Lion City Sailors FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1178,
+      "label": "Lithuania",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 103,
+      "label": "Liverpool R",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 5319,
+      "label": "Livingston YB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1197,
+      "label": "Liège RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 259,
+      "label": "Llobregat AB",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 5422,
+      "label": "Lommel GW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5048,
+      "label": "Londrina AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5741,
+      "label": "Los Angeles BY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4155,
+      "label": "Los Angeles WBY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 213,
+      "label": "LOSC Lille",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 5779,
+      "label": "Loudoun RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5788,
+      "label": "Louisville PW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4965,
+      "label": "Lugano SW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1179,
+      "label": "Luxembourg",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4962,
+      "label": "Luzern BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5224,
+      "label": "Lyngby HB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22573,
+      "label": "Macarthur FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6177,
+      "label": "Macau",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2506,
+      "label": "Maceió VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6135,
+      "label": "Madagascar",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 109,
+      "label": "Madrid Chamartin B",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 172,
+      "label": "Madrid Rosas RB",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 436,
+      "label": "Mainz RW",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 6136,
+      "label": "Malawi",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5752,
+      "label": "Malaysia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5753,
+      "label": "Maldives",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1067,
+      "label": "Mali",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 82987,
+      "label": "Mali",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 261,
+      "label": "Mallorca RN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1181,
+      "label": "Malta",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 173,
+      "label": "Manchester B",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 100,
+      "label": "Manchester United",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 2284,
+      "label": "Manizales B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4379,
+      "label": "Mantova BR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2717,
+      "label": "Mar del Plata VA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6265,
+      "label": "Marrakech RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6137,
+      "label": "Mauritania",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6138,
+      "label": "Mauritius",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1200,
+      "label": "Mechelen GR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2210,
+      "label": "Medellín RA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2193,
+      "label": "Medellín V",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6258,
+      "label": "Meknès RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6204,
+      "label": "Melaka FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22157,
+      "label": "Melbourne City FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4997,
+      "label": "Mendoza NB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5780,
+      "label": "Miami BO",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5738,
+      "label": "Miami BP",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 205,
+      "label": "Middlesbrough RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2069,
+      "label": "Midtjylland SR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6012,
+      "label": "Mie",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 387,
+      "label": "Millwall BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1245,
+      "label": "Minas Gerais PB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2450,
+      "label": "Minas Gerais VP",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5742,
+      "label": "Minnesota GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2616,
+      "label": "Miranda de Ebro RN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5767,
+      "label": "Mirassol FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 161,
+      "label": "Mito Hollyhock",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5992,
+      "label": "Miyagi",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6033,
+      "label": "Miyazaki",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 237,
+      "label": "Modena GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22422,
+      "label": "Mohun Bagan Super Giant",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1182,
+      "label": "Moldova",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5754,
+      "label": "Mongolia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 160,
+      "label": "Montedio Yamagata",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1551,
+      "label": "Montenegro",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5833,
+      "label": "Monterey BB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 215,
+      "label": "Montpellier Hérault SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4156,
+      "label": "Montreal BWB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6167,
+      "label": "Montserrat",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4914,
+      "label": "Monza RB",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 2388,
+      "label": "Moreirense FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 81952,
+      "label": "Morocco",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1986,
+      "label": "Motherwell FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6139,
+      "label": "Mozambique",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 88059,
+      "label": "Mozambique",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2643,
+      "label": "Muang Thong Thani DDK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5755,
+      "label": "Myanmar",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5807,
+      "label": "myClub Default",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 260,
+      "label": "Málaga AB",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 225,
+      "label": "Mönchengladbach SWG",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 127,
+      "label": "München RW",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 247,
+      "label": "N.E.C. Nijmegen",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6005,
+      "label": "Nagano",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6030,
+      "label": "Nagasaki",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 155,
+      "label": "Nagoya Grampus",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5397,
+      "label": "Nakhon Ratchasima S",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22428,
+      "label": "Nam Dinh FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6140,
+      "label": "Namibia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 327,
+      "label": "Napoli A",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 6017,
+      "label": "Nara",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5739,
+      "label": "Nashville YB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6205,
+      "label": "Negeri Sembilan FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5756,
+      "label": "Nepal",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6182,
+      "label": "New Caledonia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4157,
+      "label": "New England BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5795,
+      "label": "New Mexico YB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5061,
+      "label": "New York City B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4158,
+      "label": "New York WR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1141,
+      "label": "New Zealand",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 106,
+      "label": "Newcastle WB",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 6168,
+      "label": "Nicaragua",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6141,
+      "label": "Niger",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 81955,
+      "label": "Nigeria",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6003,
+      "label": "Niigata",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1208,
+      "label": "Nordsjælland RG",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5971,
+      "label": "North Carolina BRY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1180,
+      "label": "North Macedonia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 388,
+      "label": "Norwich YG",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 389,
+      "label": "Nottingham RW",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 5768,
+      "label": "Novo Horizonte AP",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5366,
+      "label": "Nueva Pompeya NB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1782,
+      "label": "Nuevo León AA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5801,
+      "label": "Oakland BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2070,
+      "label": "Odense HB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 217,
+      "label": "OGC Nice",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 6032,
+      "label": "Oita",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 171,
+      "label": "Oita Trinita",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6021,
+      "label": "Okayama",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6035,
+      "label": "Okinawa",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 113,
+      "label": "Olympique de Marseille",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 181,
+      "label": "Olympique Lyonnais",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 1022,
+      "label": "Oman",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 50174,
+      "label": "Oman",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5802,
+      "label": "Orange BO",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5062,
+      "label": "Orlando PW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6015,
+      "label": "Osaka",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4260,
+      "label": "Oviedo A",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5086,
+      "label": "Oxford BY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2320,
+      "label": "Padova BR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6178,
+      "label": "Pakistan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 238,
+      "label": "Palermo RN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5757,
+      "label": "Palestine",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 54909,
+      "label": "Palestine",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 263,
+      "label": "Pamplona RA",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 1113,
+      "label": "Panama",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6183,
+      "label": "Papua New Guinea",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4211,
+      "label": "Paris FC",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 114,
+      "label": "Paris Saint-Germain",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 123,
+      "label": "Parma Calcio 1913",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 1922,
+      "label": "Parque Patricios R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2651,
+      "label": "Pasto RAA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6242,
+      "label": "Pattani FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5099,
+      "label": "Pau FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6206,
+      "label": "PDRM FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 256,
+      "label": "PEC Zwolle",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6207,
+      "label": "Penang FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5370,
+      "label": "Pereira AR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21329,
+      "label": "Persib Bandung",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 199,
+      "label": "PES United",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 328,
+      "label": "Pescara BA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4159,
+      "label": "Philadelphia BY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5758,
+      "label": "Philippines",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5803,
+      "label": "Phoenix RY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 120,
+      "label": "Piemonte BN",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 4241,
+      "label": "Pisa NA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5782,
+      "label": "Pittsburgh YB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 281,
+      "label": "Pohang RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5433,
+      "label": "Ponta Grossa PB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2465,
+      "label": "Ponte Preta BP",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5401,
+      "label": "Port FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4160,
+      "label": "Portland GW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4365,
+      "label": "Portsmouth B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4192,
+      "label": "Preston WB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 118,
+      "label": "PSV",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5402,
+      "label": "PT Prachuap FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6169,
+      "label": "Puerto Rico",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1026,
+      "label": "Qatar",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 50178,
+      "label": "Qatar",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1327,
+      "label": "Queen's Park BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6272,
+      "label": "Rabat BB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6270,
+      "label": "Rabat JN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6262,
+      "label": "Rabat RBN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6257,
+      "label": "Rabat VNR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1995,
+      "label": "RAMS Başakşehir FK",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2541,
+      "label": "Rancagua A",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2071,
+      "label": "Randers B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 132,
+      "label": "Rangers FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6243,
+      "label": "Rasisalai United FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5403,
+      "label": "Ratchaburi FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21787,
+      "label": "Ratchaburi FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5416,
+      "label": "Rayong FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 162,
+      "label": "RB Omiya Ardija",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 182,
+      "label": "RC Lens",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 4213,
+      "label": "RC Strasbourg Alsace",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 1935,
+      "label": "Recife Aflitos VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1936,
+      "label": "Recife PV",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2459,
+      "label": "Red Bull Bragantino",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4212,
+      "label": "Red Star FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4225,
+      "label": "Reggio Emilia G",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5972,
+      "label": "Rhode Island YB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5139,
+      "label": "Ribeirão Preto BVP",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1979,
+      "label": "Rio Ave FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2653,
+      "label": "Rionegro RA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2726,
+      "label": "Rivadavia A",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4372,
+      "label": "Rodez Aveyron Football",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 125,
+      "label": "Roma GR",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 1242,
+      "label": "Rosario AA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1241,
+      "label": "Rosario RN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6142,
+      "label": "Rwanda",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5659,
+      "label": "Río Cuarto AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 122,
+      "label": "S.S. Lazio",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 2523,
+      "label": "Sabadell AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6208,
+      "label": "Sabah FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5804,
+      "label": "Sacramento BR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6267,
+      "label": "Safi RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6029,
+      "label": "Saga",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 170,
+      "label": "Sagan Tosu",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6171,
+      "label": "Saint Lucia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5220,
+      "label": "Saint-Gilles BG",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5999,
+      "label": "Saitama",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4161,
+      "label": "Salt Lake RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6184,
+      "label": "Samoa",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5361,
+      "label": "Samsunspor",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5798,
+      "label": "San Antonio BG",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6084,
+      "label": "San Diego BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4162,
+      "label": "San Jose BB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1183,
+      "label": "San Marino",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 159,
+      "label": "Sanfrecce Hiroshima",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 16543,
+      "label": "Sanfrecce Hiroshima",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4937,
+      "label": "Sankt Gallen GW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2657,
+      "label": "Santa Fe de Bogotá R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2538,
+      "label": "Santa Fe RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 264,
+      "label": "Santander VB",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 2209,
+      "label": "Santiago A",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1256,
+      "label": "Santiago B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2191,
+      "label": "Santiago BAR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4995,
+      "label": "Santiago del Estero BN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2548,
+      "label": "Santiago RBV",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2192,
+      "label": "Santiago VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1254,
+      "label": "Santos FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1919,
+      "label": "Sassuolo NV",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 49208,
+      "label": "Saudi Arabia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 338,
+      "label": "SC Cambuur Leeuwarden",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1247,
+      "label": "SC Corinthians Paulista",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 245,
+      "label": "sc Heerenveen",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1252,
+      "label": "SC Internacional",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 184,
+      "label": "Schalke BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 137,
+      "label": "SE Palmeiras",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4163,
+      "label": "Seattle GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6041,
+      "label": "Selangor FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22425,
+      "label": "Selangor FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 81958,
+      "label": "Senegal",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 282,
+      "label": "Seoul BR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 17725,
+      "label": "Sepahan SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1550,
+      "label": "Serbia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1958,
+      "label": "Servette R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 265,
+      "label": "Sevilla Nervión BR",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 194,
+      "label": "Sevilla Triana VB",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 6144,
+      "label": "Seychelles",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 20560,
+      "label": "Shabab Al Ahli Dubai FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 20478,
+      "label": "Shanghai Port FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21557,
+      "label": "Shanghai Shenhua FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22060,
+      "label": "Sharjah FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 394,
+      "label": "Sheffield BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4194,
+      "label": "Sheffield RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6013,
+      "label": "Shiga",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6020,
+      "label": "Shimane",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 153,
+      "label": "Shimizu S-Pulse",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6010,
+      "label": "Shizuoka",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 165,
+      "label": "Shonan Bellmare",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6145,
+      "label": "Sierra Leone",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5225,
+      "label": "Silkeborg RH",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5759,
+      "label": "Singapore",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5395,
+      "label": "Singha Chiangrai United",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5194,
+      "label": "Sint-Truiden GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1955,
+      "label": "Sion RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6087,
+      "label": "Sisaket United FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 191,
+      "label": "SL Benfica",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6185,
+      "label": "Solomon Islands",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5987,
+      "label": "Somalia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 81957,
+      "label": "South Africa",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6146,
+      "label": "South Sudan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 207,
+      "label": "Southampton RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 351,
+      "label": "Sparta Rotterdam",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1974,
+      "label": "Sporting Braga",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 193,
+      "label": "Sporting CP",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5760,
+      "label": "Sri Lanka",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6170,
+      "label": "St Kitts and Nevis",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6172,
+      "label": "St Vincent & Grenadines",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2365,
+      "label": "St. Johnstone FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5903,
+      "label": "St. Louis PB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1987,
+      "label": "St. Mirren FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2517,
+      "label": "Stabia GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1329,
+      "label": "Stade Brestois 29",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 1330,
+      "label": "Stade de Reims",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 412,
+      "label": "Stade Lavallois MFC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 218,
+      "label": "Stade Rennais FC",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 395,
+      "label": "Stoke RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 231,
+      "label": "Stuttgart WR",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 6147,
+      "label": "Sudan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 88067,
+      "label": "Sudan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5404,
+      "label": "Sukhothai FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 396,
+      "label": "Sunderland RWB",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 6173,
+      "label": "Suriname",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1909,
+      "label": "Swansea W",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1029,
+      "label": "Syria",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5911,
+      "label": "São Bernardo AP",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5973,
+      "label": "São João del-Rei PB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1255,
+      "label": "São Paulo F.C.",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6143,
+      "label": "São Tomé and Príncipe",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4228,
+      "label": "Südtirol BR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6186,
+      "label": "Tahiti",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 22575,
+      "label": "Tai Po FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5761,
+      "label": "Tajikistan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2545,
+      "label": "Talcahuano AN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5783,
+      "label": "Tampa Bay GY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 20499,
+      "label": "Tampines Rovers FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6264,
+      "label": "Tanger BB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6148,
+      "label": "Tanzania",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 88068,
+      "label": "Tanzania",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5984,
+      "label": "Team Blue",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5983,
+      "label": "Team Yellow",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5723,
+      "label": "Tegevajaro Miyazaki",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 352,
+      "label": "Telstar",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4147,
+      "label": "Tenerife AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6113,
+      "label": "Terengganu FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1031,
+      "label": "Thailand",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6130,
+      "label": "The Gambia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4938,
+      "label": "Thun RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6052,
+      "label": "Timor-Leste",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5997,
+      "label": "Tochigi",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6092,
+      "label": "TOCHIGI CITY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1081,
+      "label": "Togo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6024,
+      "label": "Tokushima",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1270,
+      "label": "Tokushima Vortis",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6001,
+      "label": "Tokyo",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 151,
+      "label": "Tokyo Verdy",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2361,
+      "label": "Tolima RA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2614,
+      "label": "Tondela AV",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6187,
+      "label": "Tonga",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 333,
+      "label": "Torino FC",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 4165,
+      "label": "Toronto RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 179,
+      "label": "Tottenham WB",
+      "group": "113",
+      "flag": "gb-eng"
+    },
+    {
+      "id": 6019,
+      "label": "Tottori",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 221,
+      "label": "Toulouse FC",
+      "group": "122",
+      "flag": "fr"
+    },
+    {
+      "id": 6006,
+      "label": "Toyama",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1945,
+      "label": "Trabzonspor",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 18986,
+      "label": "Tractor FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5976,
+      "label": "Trinidad and Tobago",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5394,
+      "label": "True Bangkok United FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 21778,
+      "label": "True Bangkok United FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2719,
+      "label": "Tucumán AB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5786,
+      "label": "Tulsa WY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 81953,
+      "label": "Tunisia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5762,
+      "label": "Turkmenistan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6174,
+      "label": "Turks and Caicos Is.",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5204,
+      "label": "TÜMOSAN Konyaspor",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 190,
+      "label": "Udinese Calcio",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 6149,
+      "label": "Uganda",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 88069,
+      "label": "Uganda",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4174,
+      "label": "Ulsan B",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 20558,
+      "label": "Ulsan HD FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1032,
+      "label": "United Arab Emirates",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 50184,
+      "label": "United Arab Emirates",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 147,
+      "label": "Urawa Reds",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4201,
+      "label": "US Boulogne CO",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6175,
+      "label": "US Virgin Islands",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4206,
+      "label": "USL Dunkerque",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5675,
+      "label": "Uthai Thani FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1184,
+      "label": "Uzbekistan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 50336,
+      "label": "Uzbekistan",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2373,
+      "label": "V-Varen Nagasaki",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1956,
+      "label": "Vaduz R",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 110,
+      "label": "Valencia BN",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 266,
+      "label": "Valladolid MB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 370,
+      "label": "Vallecas BR",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 5207,
+      "label": "Valledupar ABR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4166,
+      "label": "Vancouver BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5592,
+      "label": "Vanraure Hachinohe",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6188,
+      "label": "Vanuatu",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 196,
+      "label": "Vasco Gipuzkoa AB",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 4276,
+      "label": "Vasco Gipuzkoa AB II",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 145,
+      "label": "Vegalta Sendai",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5235,
+      "label": "Vejle RH",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4229,
+      "label": "Venezia ANV",
+      "group": "116",
+      "flag": "it"
+    },
+    {
+      "id": 1129,
+      "label": "Venezuela",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 166,
+      "label": "Ventforet Kofu",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 336,
+      "label": "Verona GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5237,
+      "label": "Viborg GH",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5454,
+      "label": "Vicente López M",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 337,
+      "label": "Vicenza BR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1926,
+      "label": "Victoria AR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5763,
+      "label": "Vietnam",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 195,
+      "label": "Vigo AB",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 4249,
+      "label": "Vigo AB II",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2468,
+      "label": "Vila Nova VB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 267,
+      "label": "Villarreal A",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 5373,
+      "label": "Villavicencio BN",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 158,
+      "label": "Vissel Kobe",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 16542,
+      "label": "Vissel Kobe",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1804,
+      "label": "Vitória SC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2208,
+      "label": "Viña del Mar AA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 253,
+      "label": "Volendam O",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6018,
+      "label": "Wakayama",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 2019,
+      "label": "Waregem GR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4152,
+      "label": "Washington D.C. BR",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 398,
+      "label": "Watford BY",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 200,
+      "label": "WE United",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6119,
+      "label": "WE United",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 399,
+      "label": "West Bromwich WB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 105,
+      "label": "West Ham RB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5221,
+      "label": "Westerlo GB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 255,
+      "label": "Willem II Tilburg",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4968,
+      "label": "Winterthur RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 232,
+      "label": "Wolfsburg GW",
+      "group": "de",
+      "flag": "de"
+    },
+    {
+      "id": 208,
+      "label": "Wolverhampton YB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6069,
+      "label": "Wrexham RW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5994,
+      "label": "Yamagata",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6023,
+      "label": "Yamaguchi",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6004,
+      "label": "Yamanashi",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 5764,
+      "label": "Yemen",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 152,
+      "label": "Yokohama F. Marinos",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 164,
+      "label": "Yokohama FC",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1083,
+      "label": "Zambia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 83003,
+      "label": "Zambia",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 268,
+      "label": "Zaragoza BA",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6269,
+      "label": "Zemamra BB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 6064,
+      "label": "Zimbabwe",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 87984,
+      "label": "Zimbabwe",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1228,
+      "label": "Zürich BW",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 1957,
+      "label": "Zürich WB",
+      "group": "other",
+      "flag": ""
+    },
+    {
+      "id": 4145,
+      "label": "Álava AB",
+      "group": "119",
+      "flag": "es"
+    },
+    {
+      "id": 5354,
+      "label": "Çaykur Rizespor",
+      "group": "other",
+      "flag": ""
+    }
+  ],
+  "leagues": [
+    {
+      "id": "113",
+      "label": "英超",
+      "flag": "gb-eng"
+    },
+    {
+      "id": "119",
+      "label": "西甲",
+      "flag": "es"
+    },
+    {
+      "id": "116",
+      "label": "意甲",
+      "flag": "it"
+    },
+    {
+      "id": "de",
+      "label": "德甲",
+      "flag": "de"
+    },
+    {
+      "id": "122",
+      "label": "法甲",
+      "flag": "fr"
+    }
+  ],
+  "materials": [
+    {
+      "id": "07374b5a63909a88f7b1dc20",
+      "name": "133543_",
+      "label": "Erling Haaland",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "4b71586d1650c0e50c85beb7",
+      "name": "105864233074566_",
+      "label": "Brahim Diaz",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "b2e82c5410a7c54d7219d8d6",
+      "name": "105864233074566_l",
+      "label": "Brahim Diaz",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "51593ef4cf1bf3bbb0ad763a",
+      "name": "105864233101578_",
+      "label": "球员素材 105864233101578_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "0238d87aa1920db7718742d2",
+      "name": "105864233101578_l",
+      "label": "球员素材 105864233101578_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "013968ba7a71d857a2b332e1",
+      "name": "105870675520072_",
+      "label": "球员素材 105870675520072_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "9d41d9fa1b7444dc9f09f4a3",
+      "name": "105870675520072_l",
+      "label": "球员素材 105870675520072_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "76a30ea8b376acc446080c69",
+      "name": "105870675535784_",
+      "label": "球员素材 105870675535784_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "cf532f54a6c0a49ad159b6a6",
+      "name": "105870675535784_l",
+      "label": "球员素材 105870675535784_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "ce1b9b33e648ad375c2dad05",
+      "name": "105870675545440_",
+      "label": "球员素材 105870675545440_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "b8fba1463988d3eb85d5bc1b",
+      "name": "105870675545440_l",
+      "label": "球员素材 105870675545440_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "52aefade4c80325c198a87fc",
+      "name": "105870675551806_",
+      "label": "球员素材 105870675551806_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "d184ec26ed959fa3762994a9",
+      "name": "105870675551806_l",
+      "label": "球员素材 105870675551806_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "8259d80f3c3db2cabda6e02d",
+      "name": "105870675555564_",
+      "label": "球员素材 105870675555564_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "480d15a7d3ac9e2304f74451",
+      "name": "105870675555564_l",
+      "label": "球员素材 105870675555564_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "2434a81d9651a41182ac7f94",
+      "name": "105870675564081_",
+      "label": "球员素材 105870675564081_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "0f6bac5f2960f54945eae595",
+      "name": "105870675564081_l",
+      "label": "球员素材 105870675564081_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "5f7a08626fdf4c59a6c999bf",
+      "name": "105870675581415_",
+      "label": "球员素材 105870675581415_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "9c777408fdb46fc0f516a7ec",
+      "name": "105870675581415_l",
+      "label": "球员素材 105870675581415_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "d37097fe4f1f589ed4b8b7f1",
+      "name": "105870675581444_",
+      "label": "球员素材 105870675581444_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "25573d3f75ee594a4d0f0335",
+      "name": "105870675581444_l",
+      "label": "球员素材 105870675581444_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "aed3540c9b7315158eef5e0b",
+      "name": "105871212318483_",
+      "label": "球员素材 105871212318483_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "2ca5bfffd67fc2725e38ee1b",
+      "name": "105871212318483_l",
+      "label": "球员素材 105871212318483_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "825d3f97b91a11e80164063a",
+      "name": "105871212322278_",
+      "label": "球员素材 105871212322278_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "ad59f2936d19f6f18e12398e",
+      "name": "105871212322278_l",
+      "label": "球员素材 105871212322278_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "e0d9768bcc72b84929036528",
+      "name": "105871212324991_",
+      "label": "球员素材 105871212324991_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "ecae58354cf72b59f7116d3f",
+      "name": "105871212324991_l",
+      "label": "球员素材 105871212324991_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "08f19774e22e43754cdab584",
+      "name": "105871212327249_",
+      "label": "球员素材 105871212327249_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "3b1c5f23ca993748e13371cd",
+      "name": "105871212327249_l",
+      "label": "球员素材 105871212327249_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "e363ff3fffd0b413bd0d6e21",
+      "name": "105871212345523_",
+      "label": "球员素材 105871212345523_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "818c93759d3951602be578aa",
+      "name": "105871212345523_l",
+      "label": "球员素材 105871212345523_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "0ae53ec8d65892f4f9fd1ab8",
+      "name": "105871212417221_",
+      "label": "球员素材 105871212417221_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "c96d25bea05108b0be68af16",
+      "name": "105871212417221_l",
+      "label": "球员素材 105871212417221_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "760d34fba3afb8dc869375fe",
+      "name": "105871212422820_",
+      "label": "球员素材 105871212422820_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "1d7e1340889a93bdb0996c33",
+      "name": "105871212422820_l",
+      "label": "球员素材 105871212422820_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "9f9db7a4e1f9ca639d19c98d",
+      "name": "105871212422988_",
+      "label": "球员素材 105871212422988_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "16d0af81fea6fb3f30f3d965",
+      "name": "105871212422988_l",
+      "label": "球员素材 105871212422988_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "dfb0308f16d8c190d81b477b",
+      "name": "105874165112743_",
+      "label": "球员素材 105874165112743_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "5954317b27dd7465315b50f7",
+      "name": "105874165112743_l",
+      "label": "球员素材 105874165112743_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "9abcad26c6ec90c9970cdd89",
+      "name": "105874165182687_",
+      "label": "Rodri",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "96569e86feb4ef6b0f659683",
+      "name": "105874165182687_l",
+      "label": "Rodri",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "829ab6e01c092a6b048d3922",
+      "name": "105874165183676_",
+      "label": "球员素材 105874165183676_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "945938490aa848496fd26950",
+      "name": "105874165183676_l",
+      "label": "球员素材 105874165183676_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "6c8f553046f7b6ce7b06537f",
+      "name": "105874165184248_",
+      "label": "Jonathan Tah",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "50727f53df04372f856c535a",
+      "name": "105874165184248_l",
+      "label": "Jonathan Tah",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "58fa7f45846fed5d524ff3e9",
+      "name": "105874165188527_",
+      "label": "Dayot Upamecano",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "5f8741115838334611dea430",
+      "name": "105874165188527_l",
+      "label": "Dayot Upamecano",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "9b2684d204ec9237ac3930e3",
+      "name": "105874165191335_",
+      "label": "球员素材 105874165191335_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "a357bba8bb0a78708d59e691",
+      "name": "105874165191335_l",
+      "label": "球员素材 105874165191335_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "84c8996ff7617a06d5d99b12",
+      "name": "105874165191683_",
+      "label": "球员素材 105874165191683_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "f05d4254a7557bc63327ff63",
+      "name": "105874165191683_l",
+      "label": "球员素材 105874165191683_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "12da7d36f8e9f50227389a24",
+      "name": "105874165198697_",
+      "label": "球员素材 105874165198697_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "9f83c42055759a5625e23469",
+      "name": "105874165198697_l",
+      "label": "球员素材 105874165198697_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "db4373f7ea5f261e46f9e4ec",
+      "name": "105874165198910_",
+      "label": "球员素材 105874165198910_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "b42602a4a2628c1757d7657b",
+      "name": "105874165198910_l",
+      "label": "球员素材 105874165198910_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "889245ea53bb26a0c22622af",
+      "name": "105874165213340_",
+      "label": "球员素材 105874165213340_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "8dc08a1e567abac7e66960e9",
+      "name": "105874165213340_l",
+      "label": "球员素材 105874165213340_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "033a3c2888aa1bf9028a7b60",
+      "name": "105874165214108_",
+      "label": "球员素材 105874165214108_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "61b9c115e79989d3aef75cd9",
+      "name": "105874165214108_l",
+      "label": "球员素材 105874165214108_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "630c09b4be8a8d0c784f1c0e",
+      "name": "105880876076204_",
+      "label": "球员素材 105880876076204_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "e6aed53cc0e0713d4e1a551e",
+      "name": "105880876076204_l",
+      "label": "球员素材 105880876076204_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "cdfd8de73dac748506ec0a6d",
+      "name": "105880876084074_",
+      "label": "球员素材 105880876084074_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "e7158528a9c418d43fd65fc6",
+      "name": "105880876084074_l",
+      "label": "球员素材 105880876084074_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "f370efd65bf59375d7dcb39b",
+      "name": "105880876084697_",
+      "label": "球员素材 105880876084697_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "4ff25630f8dcfd35da586a9a",
+      "name": "105880876084697_l",
+      "label": "球员素材 105880876084697_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "8c6870c108fa4bad180fd9a8",
+      "name": "105880876086992_",
+      "label": "K. Kvaratskhelia",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "a53443fd18f3be6f2db9a21f",
+      "name": "105880876086992_l",
+      "label": "K. Kvaratskhelia",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "a6de12730689a170b685a0e2",
+      "name": "105880876091925_",
+      "label": "Rayan Cherki",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "bf8d0c3a8b169560fb6b3014",
+      "name": "105880876091925_l",
+      "label": "Rayan Cherki",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "ea006ed4061ec51686db9fee",
+      "name": "105880876118884_",
+      "label": "球员素材 105880876118884_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "c91be9ab9d9848d18c4751bf",
+      "name": "105880876118884_l",
+      "label": "球员素材 105880876118884_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "cbcc4f23920d69364a5ec39d",
+      "name": "105880876119249_",
+      "label": "球员素材 105880876119249_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "54bbe1ebc960c5efebc00a48",
+      "name": "105880876119249_l",
+      "label": "球员素材 105880876119249_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "49fc7cb439f234518d82c6ac",
+      "name": "105880876137536_",
+      "label": "球员素材 105880876137536_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "4ad8ac50d1e25053d250cd10",
+      "name": "105880876137536_l",
+      "label": "球员素材 105880876137536_l",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "e031cb8839eb6db49415688e",
+      "name": "105899666447703_",
+      "label": "Lionel Messi",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "1189a18d4f38ce8429e7169e",
+      "name": "105899666447703_l",
+      "label": "Lionel Messi",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "613604d6f0ead984e1be255a",
+      "name": "106786040363689_",
+      "label": "John Stones",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "e0887c356ef0cdf7b53565ab",
+      "name": "106786040363689_l",
+      "label": "John Stones",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "81d097bd83d45c0ed2503c37",
+      "name": "106786040448448_",
+      "label": "Ronald Araujo",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "2d902b9e7b199c1dba30a853",
+      "name": "106786040448448_l",
+      "label": "Ronald Araujo",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "fa025aaffec8e7fbd13dbb9b",
+      "name": "106786040464076_",
+      "label": "Maghnes Akliouche",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "5de5e049eb360261c95b9316",
+      "name": "106786040464076_l",
+      "label": "Maghnes Akliouche",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "94f31868a516fb4ec4b37c01",
+      "name": "106788993239598_",
+      "label": "Riccardo Calafiori",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "06f0a24cef36877219aba6fe",
+      "name": "106788993239598_l",
+      "label": "Riccardo Calafiori",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "4922f41a2ea56c9443b5c552",
+      "name": "52902722837891_",
+      "label": "P. E. Aubameyang",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "ed2d3ec58a0c1bcb1e60cea2",
+      "name": "52902722906225_",
+      "label": "Lautaro Martinez",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "65d515f8f89d7e66385b008a",
+      "name": "52902722912074_",
+      "label": "球员素材 52902722912074_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "a104b4ae91167a556c0d5dcb",
+      "name": "52902722912647_",
+      "label": "Alexander Isak",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "a861031611e279bf33a5a712",
+      "name": "52902722916216_",
+      "label": "球员素材 52902722916216_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "6c7e92a23d0959778e4f6f06",
+      "name": "52902722923366_",
+      "label": "球员素材 52902722923366_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "4e95e986e894afc1de2ca7ef",
+      "name": "52902722928810_",
+      "label": "球员素材 52902722928810_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "20eb3dce0a9a638e945b5e36",
+      "name": "52902722932366_",
+      "label": "球员素材 52902722932366_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "f5124613fe1a7f696d4f4886",
+      "name": "52902722945517_",
+      "label": "球员素材 52902722945517_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "904b2ded8fffabf6fcc406d4",
+      "name": "52902722959116_",
+      "label": "Fermin Lopez",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "0332db2ab5df9321c6b1c06e",
+      "name": "52902722965999_",
+      "label": "球员素材 52902722965999_",
+      "club": null,
+      "nationality": null,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "444db2ff4c7a23988347995c",
+      "name": "88045755831094_",
+      "label": "Wesley Sneijder",
+      "club": 109,
+      "nationality": 224,
+      "league": "119",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "668c534f28fb48d7f7bb980e",
+      "name": "88045755831094_l",
+      "label": "Wesley Sneijder",
+      "club": 109,
+      "nationality": 224,
+      "league": "119",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "d230b12c226910cb156d976b",
+      "name": "88045755841990_",
+      "label": "Nagatomo Yuto",
+      "club": 150,
+      "nationality": 13,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "c40b914381cd6853d6ba6495",
+      "name": "88045755841990_l",
+      "label": "Nagatomo Yuto",
+      "club": 150,
+      "nationality": 13,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    },
+    {
+      "id": "e4db30a039f17a2d378c2f24",
+      "name": "88045755960789_",
+      "label": "Javier Zanetti",
+      "club": 0,
+      "nationality": 215,
+      "league": "other",
+      "legend": false,
+      "kind": "thumbnail"
+    },
+    {
+      "id": "47e4395a58454ad2ffb7121e",
+      "name": "88045755960789_l",
+      "label": "Javier Zanetti",
+      "club": 0,
+      "nationality": 215,
+      "league": "other",
+      "legend": false,
+      "kind": "full"
+    }
+  ],
+  "notes": "League grouping follows fixed V16 registry, not the current season. German club grouping is explicit presentation metadata. Unknown material affiliation remains unclassified. Epic donor identity only is marked legend.",
+  "sources": {
+    "assets/gateway-release/outputs/reference/ziru-data/ml_competition_registry.json": "19c63ca81522f55dfb9a3ba637d02fca5b882192c9a6d1fae974667cd08b7966",
+    "assets/gateway-release/outputs/reference/ziru-data/player_records.json": "42d21524ea627a6325f58def538977a8c2de9d45ee1866a59fc13e6f149f620f",
+    "assets/gateway-release/outputs/reference/ziru-data/team_names.json": "91041d4c07bd80ae5c57754a39b393c7e4955448fe9ceffbf9638ad867d126b0",
+    "assets/gateway-release/outputs/reference/ziru-data/game8_player_ids.json": "41b37bb5b97521f1bdada829b65c4bcaed339a6f765611a10b338cc860714fd3"
+  },
+  "countrySource": "mledoze/countries",
+  "flagSource": "lipis/flag-icons (MIT)",
+  "flagSha256": {
+    "ad": "1914f0d751b810056fdde2fa27d5c255082b4eeaa5942f8ac27e48dca3a377ed",
+    "ae": "3bc52a4aac7c6c68cd7c0a04013fa14f715abfe6958e7a6e3194f0793c9eb816",
+    "af": "313a7dd89f3d4bdceae673908ede1bca4a2f1aa0ea3562d8e96fe430d3b4c690",
+    "ag": "131282135f0f5cfca72efa3a6dc6a3392b5999b5b15e1cbd0f3f73253c24080d",
+    "ai": "974c6af4adba3aed291f00a7eddaa8940853f8a7ca9be0c17ff8064714f27c51",
+    "al": "4ae4d2950f6a08528639700e48d19930b964478a2548cb9bf41b898c2b757b11",
+    "am": "efb6cdaad5658ae5024c86b099a96c4e3769028894240f4015cbc090a0e90e0f",
+    "ao": "3a4b1f9b0c95729b128ed86c7446ce82733f29ad9f6387e7a2ca951fa488e763",
+    "ar": "da39bfbe83fd35fae781f605c4a297b632f03ccf72d4cb0499e86dac8370663d",
+    "as": "6f356d18cc09efabdae58579373f5dc89b25695b42cb4e92d7ebc9e94477b81f",
+    "at": "c0e5cb3c1d59fd002afd6e2b0dd03787677ca3c9e7b2321f4af6d9e28256ebcd",
+    "au": "cbb2206c5e59a25d79228306af973666a191e163f0ae337681f447977e6edb18",
+    "aw": "6cabd9394138d55a421da65a8a5b7aebd612c5df48d97fd23790ebfbd59bd1ac",
+    "az": "33ad245b2125c36fbf0f863b0edd5c85cbef37587900e101db3a615870504502",
+    "ba": "b321fe9b47c1cd741c61b330aee66cf00550622a6a9e740161a9f240a14e0787",
+    "bb": "46cfd88ab5ea96e75627e044d008462586fbd04a346205dfd258984a46ffc27a",
+    "bd": "1aabb4a772651fb9a673660233d5bc6f3d78dfc71df09d567769bc97b9eb554f",
+    "be": "d6aff6fa4c913404eafd53f91c0a9b240fcecaddc8f0ac2160d362e38469342c",
+    "bf": "4723f5e95c0728e89b5715f3206ff24d8db157f325e163779bfac41c3200f93b",
+    "bg": "b6d979fc96dc6b46c1697a5e05ecfe1fac1fa912ed480ca7a2a9b450f087faf6",
+    "bh": "7a519f58c9007731d70a975a48cc81fcf516ab52ab972f9739eace370431e0c2",
+    "bi": "5ef1a56b4ebe90326d6d807bbf61bd2d6f0b752fd6966588cd42471a886307bb",
+    "bj": "0a46cbae6018acdbc4a485f6b1c4a3df7a7b36680439f6eb5d1bfb957f704888",
+    "bm": "65e4636aa41be4ff0613f19d2c56af41a2b43cd44522f83cf3e6d89fbd16aba0",
+    "bn": "4fc01eb8e4b3d4776d179cd06dfca4f21ee7ca833751eb564e7943d3203b6851",
+    "bo": "ee1075ebb655dd8252ec317827baa0a75cf0a5e4f0b0b35d6e9766b30686d183",
+    "br": "b0a912826c3ffd7287435ebed66e18fe058e992309c00dc10b430dd41a29ba91",
+    "bs": "1f179c39f296e5e3e062114d62fea394ff0ea487bd29cdffbe3837b7238d46dc",
+    "bt": "05ff0d4d7258357823180eec1e53baa11846505234f51061a47c2f95641d1f43",
+    "bw": "180bfa4e76b78fa7b52bf9f3c8e99d3c1b4aa520b97a239661a8953dc90658b3",
+    "by": "a1efa44ad1167d6d77abbe59ce85aa3a68ff4bd57af79454c08a3ade5c178578",
+    "bz": "9aef8f4ef9d86bf989fbdd714d64c5440dceaa2bc1a23e493942129022e6b677",
+    "ca": "345ec9dac057e203f1331b2d3f9f473789864edaee1182a26bc261356bcf72f1",
+    "cd": "ad93c1afd68e6a7364d141e0989a798e81a202fe4674f21fece3ceea83fd167c",
+    "cf": "1b58dc2035ff0039c82e4dfb16a536dcf74ee09ab4d95b75221d404ad616dc0f",
+    "cg": "628dcfc7f00ab09cc9074b837863c31fe4472c7c3e17c30e233332d94c37585b",
+    "ch": "ac676cd39d7032988598ef2dd73f6bebcd767738e3e469705d6a437835ac485c",
+    "ci": "7a09020c7263a1c35a2fab646bdb4ee16fcc06a292f63d5a1d9f1feb2501ecd2",
+    "ck": "b17c039f7195b292265dd28b50f85b3668e28e490b48df760e953e3ab0bc3557",
+    "cl": "bcf0ccdf0999a1cd82061202988e1f6088c2070e3e76794d67cb375ef325ef76",
+    "cm": "c9a327dc0e355739a9f2bc0a91e1293f8e08e13910e718bc63fda35a244acef5",
+    "cn": "981da9bdf82d48e31691f20578cefcb26cf7d0bd95e4ebd5c0df00bdfe988c1a",
+    "co": "6bab3c96c1657510c6e49354dd40203c69401bee54da497392ab9267334e5fd4",
+    "cr": "4775ef01d28b8a887cde3dbe2826466ed77c87aae4d00517c99d4977afdbdc20",
+    "cu": "15013e0bb414c074af963bab167806dc81b7e1bb6dabc05dac20b2583511e535",
+    "cv": "2fa67e0a2477306f0427877b78d2276c58c496ff50faf4b3d69252350821e138",
+    "cw": "c845d0cad7f00344a2729257315afbf81c70c08bf0772211eb913a716b9aae7c",
+    "cy": "d2ddf86c24e9d4dc4e2f5cd298b189b9d04a08c0f6497c35249f07d6f1969e33",
+    "cz": "d601fcc2e5b1fd48b79d53c55108af4c0e90793f146db51f3ee449d8d69512bc",
+    "de": "efd480af5a154a7651f29da23ee0d09dbc892410fb4041898ddf8face336c575",
+    "dj": "2a22d382f85cef20ba39a9abb6e6ecffdfa806d46afea3f6d26b8a23a5c12e43",
+    "dk": "d2847c0bd7a1fb97977ee51f2f618c5ebc5898dd66ef9804f187613c27bdca1a",
+    "dm": "0a4bf1a27390308c62675099f3fb7c86ac3098fce4e8c5e95046c7a15c54226d",
+    "do": "c14c3f138e9a81ab988a5d58af65ac4250ae63d43d6b156d31b51d2c1e152aba",
+    "dz": "9ea0cf93222ab7b5e7b77b9576afcad80dad1eff33827e8e58dbfbb42aeb8213",
+    "ec": "4472b0618e2f5e31d31d16c0d7d811310c33b07d5a101b54f60fcb7ec84d1d4d",
+    "ee": "25642310e287fbdc02e1ac3e0e08fadca9a32eae195f67b6863bf0fc6247176b",
+    "eg": "1f418e17240c1ff39a1bcc021314d9eb8fa3029cb48ea9d9b8fdd2e4dbce37c5",
+    "er": "64c98a80601fc019f9ca7a71f7dd384ca995da1403e7775edcbfd79118564e45",
+    "es": "f9cfaff858e95f830733ade9591037b5322dfb5827a53b70956a3d190bb49b9a",
+    "et": "a136cd1152e5ab4b02f2ff2eab4f5ae5b48ed3594afd7f3160899f12575b41c7",
+    "fi": "012edd984cf1879463c2855b7df02dea2f7de7f7a66b244fb1e22b4227f7aa65",
+    "fj": "b23cbee897c889ce2d057aaca7c221b74a386ea58efb29da1982418564b58343",
+    "fo": "ec85991b8a9255cae6ea4241413ae3bd836d8afd985cc3a6cc5f91a37a00a1b4",
+    "fr": "a526851c372e3372b1596be71af355ea72b1650bbc4c06e6e2c226900d3de6cc",
+    "ga": "f7b775c474b0331222ed84a3d1b5a5d66af1c097c8565766db17a5cff5237c93",
+    "gb": "c8be1e7208798a4ae692ee1e937065d498bb29e741943f6172b29118b8ed8066",
+    "gb-eng": "53797ba9e2dd9b18cd5344255f4e9ae9fad743ecb628fc9feb98abea4f48f90e",
+    "gb-sct": "7b55bce70824742222ccd804a4bc3d0e0f0f9416d103d05a46dd60825ce559f7",
+    "gb-wls": "61ad944644250599da53b344e16bb40529677a7f35b84aaf6bc81fd18eb09e24",
+    "gd": "eecc1f130ed02b2166c6f185439b7c95cabfa4a41b33c1a834ca59ffe4780785",
+    "ge": "0280a1279c3d1d772f1e885ee821e37a1cdb4aa085ca2870825fe10bad8d7ff1",
+    "gh": "53c55ca455293bceecfe6a5d6b12dc0bb670734c50bfd95cb21dc4ef12197405",
+    "gi": "483f5768d4c360c28a751dd121872ed9a2f6568fc358816a95378284526e1d0b",
+    "gm": "2aa3fad4e8820fb42386f62d3efee1d3923817a49ed2bb05ba364c58d0ca4d3f",
+    "gn": "ee01e7dd4abb0a995980ec8d0ba2bf314b564c73fcaba39fed8a5f48a7c49753",
+    "gq": "61ddf0a98d1d4bf93c6ec53eec080662efceabc37d1361eda4e7d291e10976d8",
+    "gr": "a184070f7678b06777be8ac38cb05ba41829591a6dac9b64b2b72db66aec82f5",
+    "gt": "a20814d011af90ab2e80ea88eae9928cfce824cb9b50edf7b74ce2a98a159059",
+    "gu": "f49a02cc01b2c97d43e89260ed852e9bf7c5006fbbc384a2c786819ba6a6695f",
+    "gw": "6b81a234b51ceacb4b67e889bb5b7ccf5f1084ac34b4fded2b97af5336f4797e",
+    "gy": "5bd7a7b326efd9c28c3ec3b23118b241cb7643967fe9410611f392bc3deb65b0",
+    "hk": "d9d142b2b97ec3b8190bff3802072c1b4f15573a679eead89a0ce59986dcad0c",
+    "hn": "67130fa043e9d30dda7691e0d59567ff32db435a0d72e4e57309bd439fd79995",
+    "hr": "f6db0eb906b48dc7b4d6da48e8a73ccedff47ee2f972d0cca16d231913880154",
+    "ht": "d45f0285b56379b6816ab02ac0fcef2dc47b3f9a926a661e51a5c546b259e5d6",
+    "hu": "4891ce591bf29b5b68609c29d973a30f1ef109032d8dab369208d0d5f615bc74",
+    "id": "5cd3acc4939dd7eae6318c8d75df8c0d1733f650e2504a2635b0dbf3dfabb040",
+    "ie": "f82568d70bd1624ff7ce3ced8712a718a224ff2424fd2ade2da4339be3bba463",
+    "il": "04a099ac4370b5e856f5f8d44ce0822ec47a6d3bc395a7d048d3a46d69274d68",
+    "in": "91185efa1a9b52cdc0e470712518efeefc4e4d6a6555bae9de997ba71885bb98",
+    "iq": "073b07113d582dfea58fbd7e7e63cd9626bfa4afc87b3446a2a798981e26a412",
+    "ir": "cb363e09bafbff6de7c2fba6a002ca33f0563dc83a2328d34adb492cf80ca629",
+    "is": "4ef2de6fb25ff5a16789e8ffc3b68894527e68c89dce3b4e1118f5bbcc0bb7ae",
+    "it": "9fa88118818d9b64838f578e2babcca3d0630aed21b5c33b34aff7ac5ce506bc",
+    "jm": "f837df1ac21a4c64be2c977e2faeb6d6593624703d7c61b71a857fa8355b7f47",
+    "jo": "e3a570d5c50c15f4aca73d27b2543ee335fd04151847e3d8ef2b42e5ac1ebe12",
+    "jp": "bfea80baf9989383dc4bf7ca594ed95be0df0ff125bfc88d0bfa878eb0198022",
+    "ke": "699163d87382eb969d8a26d4ce1a99a00264e8b7b95276abf585476506f46e82",
+    "kg": "b0cf3e6806af23d8712a7007a27e8669403c00aef75faa2d7a15d183fc3d0587",
+    "kh": "21a9681682a2158cab294bd1826a2dda2e3edf17aff891d692c6c976c3d9c874",
+    "km": "81e1befbbdeab3b2a4ec451e060b161bbcc6de00b97ef9d99791bc5741dfddab",
+    "kn": "0832acb7396986c7ba99bdfdadc563df322363f91659775f14aeeeacdd546c7e",
+    "kp": "f79bc8b6502445b51fd6db4bb9b6fa9d49f7fbe00da77b6af4d052b6d9fec4d3",
+    "kr": "7a6cd5b51d0e2841ed8b79b1147ad8a66cf3c09f6344d4a63b5e4413ffa5d15b",
+    "kw": "172a4281fdaf4b168471afcffc9e9ea277d6b5e54acc1a18b2f8ddc0a255cd7c",
+    "ky": "a15e10f11df6e945230ea2870d578330065e56b7e0624e40c9cba6ab28b64272",
+    "kz": "381b22e4c287b13e191c208bccfc2cfb9156cd657de248f033b920a0c713a1f3",
+    "la": "da591b989d90a90d03c736d8515fe567832eb9f24dcfa7a2870b1cf3196fdb05",
+    "lb": "94b12b3f1dc43809f93516592f07bb4eb85dabbfdd6010b736f467fa64283e7f",
+    "lc": "99645e005699eba454a0c3bf052b84d161267b615d8be60c41acb41f9355e47d",
+    "li": "77a33513c5288a0f2044f918efd2f82ba789d599f2e934b2af39b60fba8d9458",
+    "lk": "ed3eee24d19872d6adcecd589513c057c6ecfe4997af36e8d25ef9ed58660d23",
+    "lr": "69f2ce4b9490ab3c94ca30dc94862e5f1e8cb0f84344e5db0eb9300df5c66146",
+    "ls": "83d2e4152ef06ed39f5792dd2d5b9aa9953e3cbfe645f0384449e87b73dc96fb",
+    "lt": "dc0401993f6e14b3a58fa496d874b95dfcb58614052a868b14492166782c1006",
+    "lu": "a0a530e396ac2e2490d32d432a89c08a3d35081816ba089241b9b2b2a76a049e",
+    "lv": "d0d1ac1c0e301f808be3db32bcd7cdbc8986b6ec15574f557f440caed8b7bb31",
+    "ly": "47d96b6e011cd540bdeb30155cbd7994f929cd2f5b84cffdd50936b876823f41",
+    "ma": "28cfcdecf9675b0a14fbfae176324aea03711edab1a13592cfb7d58e6772b25c",
+    "mc": "690c23fe64b6ac71770657fd87f744b88196a7853abb28017b5bff54473ae0da",
+    "md": "987ca12a752ec2b3594c115923d50160343a7d30af8ea5e316ae04fb12b8e9dd",
+    "me": "d284332e23ef88ae4f1b957ce1c6d9b9f691f94e4726f15d1a4219840008387b",
+    "mg": "59246c21300e2456c0c5170791698e43399b089de80a69474deeac00697d2b7b",
+    "mk": "22488dc890fe1e5f7a8bea423dfe2e74f8ccf04402e75090cdeca030b12ca010",
+    "ml": "49e84081981f2b8ec245dcc66ebf44521fc91b3eae6e9f10c925616f78951f14",
+    "mm": "c0b2e23a7e202ff2ad69421ea1b528e58af4e541fc2f4b986479a9cdef7f18e0",
+    "mn": "92d5422514f63fc10800714e71e14b576437e69a22645cf74a7ac0f516d67a69",
+    "mo": "e1f783f6a43285a4338ee45cfe6f76db67801174968935b9f985d44d17914c83",
+    "mr": "ea338a9f7744fb25c3664f3cee5b2355e70bed7b0d79d952d246436cb600edb9",
+    "ms": "c5d14004b158c9e4d8693b3cb50f4331b72516877a6af805316c0b54da6ae1fc",
+    "mt": "a2ad157eeb5f1bb92dc9706ad90faa111dd39ec019586bc5d12e67c5a6aa6cd5",
+    "mu": "51f86810118855ca9a0b0501f3d363e0556fe74f429a66d1be9af5c027b3b593",
+    "mv": "5546d527d669b3935bbff11e0344fb8522200cf5ea84eba730d8a7a0b1e86f15",
+    "mw": "29a3e7057ec47f18bd8dd54312074335263b607c1543fcd969f89f14e307985f",
+    "mx": "9dbc8ad8b35e52ce7cb686d5cd93bd95e4c0dd8505c184186a740148ffd34901",
+    "my": "bb30e84a099d2d9dc286ab091bdd40ae7a8e332eb49827f2df4f11803e613667",
+    "mz": "ad91c2f8e6d6f80f19dca1fb080488539e2e39a4670ead32169d491bc88c3c03",
+    "na": "caa43fcdebb595ebf9808be7c5ba326a65bb40f78172182b1470102dd97a0182",
+    "nc": "f914e0e0c744c4d78dfb3f1da3d8049adb31fb4ff1d6fe9a70cce2aff2aa8aae",
+    "ne": "4b91653d53f76ddaf492a61adad3c1be86528ee9f23d7a18a6044c4eed165cad",
+    "ng": "b7a2a45a6499095efce41592428ff558ec5bd83d2751858dfe5fa4589334b66f",
+    "ni": "b9dfe1fc2aded19b2796ad7b9b681b64457250ca6043f2865b4160e9230d097f",
+    "nl": "8f691f17fe70894537af8e92f2ca47761d353639b0defc15cbe561eb503ab010",
+    "no": "ceea17af051dceefd5759a824213eb40ac8a8095aa88a6874a7bbc8de637357a",
+    "np": "b84c02e2fa659d0be6fc6b5963d5e9fbd25c3a6ab4d469aa61f1e3cdbd3f4637",
+    "nz": "794a2c8c09796090ab748a74bc35aed825e701eaddc46b138f300401ac9a25cd",
+    "om": "3204f5aa802cf3b2b782ba0ddfd798b42c0ba7c3125606245ac34bbb1cf26cc1",
+    "pa": "5e034a8ad127c43b19f52c648fe808160ab4ddb117afa4204772af96566d31bc",
+    "pe": "e9dd299d453d9c173203e60f69623ef2148dbee24b2a1763328e94d4dfece05f",
+    "pf": "67391766bf25f74433f1de41d7c2370215b23a375064b1345b12f9d0e0b6d35c",
+    "pg": "43e492331c192a947d9bd72ac6e1f4edcab1d86af097b8840faa9ac24e439d97",
+    "ph": "c3bd5e08ddc5f6dbdfa899af9efb45577e3841402e6a7f5d00fef754816b2884",
+    "pk": "89e851c0d541d8166b297e13bed97e0cb500bdb4ae48fd83a86b606a078352a8",
+    "pl": "06687a4b90fc00195d0795aea1c26a9f73f1b6ea6a76e358724b2f1f32b7c8f4",
+    "pr": "968c343f7074f4312871383337f26454040aaa84f304460d518da549b2549f8d",
+    "ps": "5d95ca7526bf8edd90a913d7de08130688d68b7c2dd2825cbf0dde3a6aec20e3",
+    "pt": "a7a2cf0b44aaaaf4f3bdc0ee0fa308ec7085bdfedd3f72da1473d43fd2a569fb",
+    "pw": "a61ab9d94f2968304eaf62d838e0ba1674977da8a5056beae5776fe912a8e233",
+    "py": "fe0968470b7910543b23f7621b00cdeeebde8d90cffbd4fbcbfa97783a01cc04",
+    "qa": "fb955ef352ff3ba1ea980090c31d5cf15257729d32949d04b18402651e93b986",
+    "ro": "17a3a747fc5e63302aaa670a667e5812f3676f46768e5a3e87b254bd41762840",
+    "rs": "b6e08e2eca1ec4c287e5d5d7c36d7d4ad9503ad030133b04cf315f95ab49961c",
+    "ru": "7100aaae51ff3b6a2bf0ca932b3bc518bdc760814725e7cca31d821a26c3dd7c",
+    "rw": "9512100aa3e8079ed3780e8b3d6cd6a49639d0986ad78a709f81e9d0827b65b2",
+    "sa": "5738c8cfca5fea63587cbcf69237996c8ce6283f8016853150686f37311b620e",
+    "sb": "b34eabf373af639cec1d7de7c0dff84df6487737f04510efcc356810147c2cfa",
+    "sc": "30cdbe42a1aed2dab0b26cb7b510901813cad3289835ef58e07d5ff1b554ec61",
+    "sd": "25b3fa24693ccbb80991235e235e9370895f182c509c687e96824faf6b65809a",
+    "se": "b3b5071e6c1d4a0e3db828bab5c7dfd68d0e90fcf3b25b15e9a2c4f96c1f79c9",
+    "sg": "25de9044c2e2775f7ccf9c1df02dd02342f915715b22c43248452b7ae24079a5",
+    "si": "3a5e0cac44baaea6b6d8e91054844b6ea72764f6dbe363c11ea11fd81203733a",
+    "sk": "578d0693bc95214334248b47c5719dd01cfc9839bd909a726df045d499fabbb6",
+    "sl": "d0c384b03a037f4eeb6c967346e3faafb4a09a3706667ac762999e54b55bc647",
+    "sm": "fc3388637c187533a086e1a25253cd96ce657bd7d105886624d21addb380af16",
+    "sn": "d97a004ca8a85c79286ced0b87a9dd12e74035e15e155ee93f261310547ca5e0",
+    "so": "249e1acb87efcd0ef0f685285f14f5063f0bf260e0d28ca462e713c3f6178e7d",
+    "sr": "5194a6af4e0d8a350ba7c1f66873725a9e1c91f2054fb9e85fc59cf7f7f2c0f2",
+    "ss": "f7ac7017201841eee0b261f66be6787200a80fbeadbb869dc6e8823e3b2ec220",
+    "st": "880c17f94cb564b1818f604b764ac8c3b87e019d97724a7ebb9e69aa96821238",
+    "sv": "4c2b4e2b8bbb85d6cb97a5a35399f6fa9f269dc4b4c17591350441b61137041d",
+    "sy": "04c5e853ade8f2e5585a3c42e9c1a1a80248125acf6a44afa85e9bbf36cd96c5",
+    "sz": "5d6399c149d143306981f386048047b984586b2f85b0cf11fd7aeaa5757a81e9",
+    "tc": "b8d8c6898f888af85d64bb33aeaf1c507f28489215fae298d8a152f1d0156961",
+    "td": "19a278fbd88e7fa245b44b40a829bd2bc83f4a2b5521feb665cee8d629e2f026",
+    "tg": "f52b955fb48669d149991f511db818761589e8d45ce4dcc84478737cc0156d75",
+    "th": "329cc0d520536d6eb4b9304105f23650c2d02bbdba8f8696e996dbf166de6f2e",
+    "tj": "cd1afa9808833e4983986fa8818b73a9e1640f42c827692123a9639220c4a720",
+    "tl": "09c763aa3e5a48e2092348367b0bc93b1bc0536f5b527b31175e493132c55e19",
+    "tm": "378178e3d5c91c62dafd0416b3f2b789f9505d26db0aef93dab8f5979ad60841",
+    "tn": "8e0274e5762a4d5f783e64f1206dd69008454f750de21d3ba61439d0af3c577c",
+    "to": "b351703fccc1e08a13d2d57260dd71bee8280e393030b879b9df1c7ccd3a9538",
+    "tr": "256a1d6afbedb9f731566982331a1cd1ad14aba211b8a61d338855879505e74f",
+    "tt": "04c13dcd0b3690f91e752680653def1c2bbe5b4553b9e5dc75748b9339636749",
+    "tw": "931757f06b9ee751fd1a0cc8dd7cf862e21fdcaf894d10ed7bcc68dabcca59ad",
+    "tz": "fd317abae009fa3629c51b82a6b9f1c529a7254406478047734bb52de83611cd",
+    "ua": "b7892e2bee1b25eb5407d6f5249b020dcece29ee1c9cc1a8a6a10c4f38ce6801",
+    "ug": "ab6aa03e1324d54ffbed5ea4560f757797f4729da58fc977527cedd586e928a5",
+    "us": "e7be4240cf57987926673708f09233be1ab6bdf35acc7b86bd32a263f197a2a7",
+    "uy": "47656c0bf4961a1f7233841eb78756cd45d074e7d4061b8a1217bba7754a30fe",
+    "uz": "62ce6f1073416e8d3d599639ec8b105f4de167c0730f036e47c650e686c4ff5d",
+    "vc": "4e0a86447af4924dc11f26179f5cbb91195451ae766b2f777effe9c5f7cbc8f6",
+    "ve": "5712f1c63ba0bfa25a853c100cdebfd6698cce98fc2e0ba8d3fab35df541efa1",
+    "vg": "986913ded6a6365a65906d9185ead0c4411c5d71710fc2dfa4f47c16e4f708ab",
+    "vi": "69e264ecc5c61b1750863f7863d74860a8f3ef152167c0537deb633eadced21f",
+    "vn": "2355037201315d74581ab0ad60b5587a29a087d26b0525bdeb8676e64fae5b86",
+    "vu": "6c711900c98d0d79ec9676f921d4bc9f3a77f57bf8a78964176b45fed1923847",
+    "ws": "6b1a7ebcce97d75020af84da13b918875ba38ba4535b4d990b2be8985a67b8ad",
+    "xk": "290d7f74bc73f362f9679a0bb09b7de0f679ab9aeaedf3952e40d79e0e3d25af",
+    "ye": "ead644b90bc8cc74407d5f4680ada429bf0dc3d0dbd1e8a11fbfc7663a2d7fc2",
+    "za": "1755a5e16f1c9f5120e4871e8454bdee663beb4fb4827012bcd02cb9044249c2",
+    "zm": "2753554062cd3761e53a180c3c8f8e245af622fb6ecf1c02020c79db0ff2d644",
+    "zw": "e27fcdcc882d7175cc4c07542779911043dc56262fe43b42f39bdaca09b762d5"
+  }
+}

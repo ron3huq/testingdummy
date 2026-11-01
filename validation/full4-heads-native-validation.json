@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "Ronaldo2017": [
+    {
+      "mesh": "SK_NR17_Face",
+      "LOD": 0,
+      "vertices": 11426,
+      "same_continuous_fit_as_approved_Blender": true,
+      "neck_boundary_unchanged": true,
+      "UV_indices_weights_bones_byte_exact": true
+    },
+    {
+      "mesh": "SK_NR17_Face",
+      "LOD": 1,
+      "vertices": 11426,
+      "same_continuous_fit_as_approved_Blender": true,
+      "neck_boundary_unchanged": true,
+      "UV_indices_weights_bones_byte_exact": true
+    },
+    {
+      "mesh": "SK_NR17lg00v0000_Face",
+      "LOD": 0,
+      "vertices": 11426,
+      "same_continuous_fit_as_approved_Blender": true,
+      "neck_boundary_unchanged": true,
+      "UV_indices_weights_bones_byte_exact": true
+    },
+    {
+      "mesh": "SK_NR17lg00v0000_Face",
+      "LOD": 1,
+      "vertices": 11426,
+      "same_continuous_fit_as_approved_Blender": true,
+      "neck_boundary_unchanged": true,
+      "UV_indices_weights_bones_byte_exact": true
+    },
+    {
+      "mesh": "SK_NR17ep00v0313_Face",
+      "LOD": 0,
+      "vertices": 11426,
+      "same_continuous_fit_as_approved_Blender": true,
+      "neck_boundary_unchanged": true,
+      "UV_indices_weights_bones_byte_exact": true
+    },
+    {
+      "mesh": "SK_NR17ep00v0313_Face",
+      "LOD": 1,
+      "vertices": 11426,
+      "same_continuous_fit_as_approved_Blender": true,
+      "neck_boundary_unchanged": true,
+      "UV_indices_weights_bones_byte_exact": true
+    },
+    {
+      "mesh": "SK_NR17ep01v0291_Face",
+      "LOD": 0,
+      "vertices": 11426,
+      "same_continuous_fit_as_approved_Blender": true,
+      "neck_boundary_unchanged": true,
+      "UV_indices_weights_bones_byte_exact": true
+    },
+    {
+      "mesh": "SK_NR17ep01v0291_Face",
+      "LOD": 1,
+      "vertices": 11426,
+      "same_continuous_fit_as_approved_Blender": true,
+      "neck_boundary_unchanged": true,
+      "UV_indices_weights_bones_byte_exact": true
+    }
+  ],
+  "Raiden": {
+    "approved_mask_UV_polygons": 2065,
+    "hair_gamma": 0.55,
+    "native_face_SRO_mask_specular": 255,
+    "native_face_SRO_mask_roughness": 41,
+    "native_alpha_blocks_preserved": true,
+    "geometry_bones_bind_byte_exact": true,
+    "native_metallic_shader_not_reparented": true
+  },
+  "other_container_assets_byte_exact": true,
+  "Android_tested": false
+}

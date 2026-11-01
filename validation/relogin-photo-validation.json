@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "native_version_codec_used": true,
+  "unchanged_second_login_stable": true,
+  "photo_change_advances_version": true,
+  "photo_container_verified_under_original_v19_integrity_checks": true,
+  "third_login_stable_after_photo_change": true,
+  "Android_tested": false
+}

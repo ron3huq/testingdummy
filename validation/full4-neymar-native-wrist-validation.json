@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "original_V19_Neymar_card": "89136418985307",
+  "original_native_converter_executed": true,
+  "right_wrist_type": 5,
+  "right_wrist_color_rgba": "D2D2D2FF",
+  "original_jersey_and_other_accessory_rows_preserved": true,
+  "existing_On_toggle_produces_same_native_right_wrist_row_as_Neymar": true,
+  "native_mesh_path": "/Game/Assets/character/Accessory/SK_WristTaping_R",
+  "mesh_loading_and_device_rendering_not_verified": true,
+  "next_step": "Need successful in-game Runtime Diagnostics to distinguish hook installation, ID scope and UE asset loading"
+}

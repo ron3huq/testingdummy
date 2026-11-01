@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "original_V19_renderer_loaded": true,
+  "adapter_mounted": true,
+  "independent_scenes": true,
+  "owned_id_and_serial_forwarded": true,
+  "stale_revision_blocked": true,
+  "visible_Chinese_fragments": null,
+  "Android_tested": false
+}

@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "mesh": "SK_NR17_Face",
+      "LOD": 0,
+      "native_reader_passed": true,
+      "positions_changed": 11342,
+      "neck_boundary_byte_exact": true,
+      "triangles_UV_colors_weights_sections_unchanged": true
+    },
+    {
+      "mesh": "SK_NR17_Face",
+      "LOD": 1,
+      "native_reader_passed": true,
+      "positions_changed": 11342,
+      "neck_boundary_byte_exact": true,
+      "triangles_UV_colors_weights_sections_unchanged": true
+    },
+    {
+      "mesh": "SK_NR17lg00v0000_Face",
+      "LOD": 0,
+      "native_reader_passed": true,
+      "positions_changed": 11342,
+      "neck_boundary_byte_exact": true,
+      "triangles_UV_colors_weights_sections_unchanged": true
+    },
+    {
+      "mesh": "SK_NR17lg00v0000_Face",
+      "LOD": 1,
+      "native_reader_passed": true,
+      "positions_changed": 11342,
+      "neck_boundary_byte_exact": true,
+      "triangles_UV_colors_weights_sections_unchanged": true
+    },
+    {
+      "mesh": "SK_NR17ep00v0313_Face",
+      "LOD": 0,
+      "native_reader_passed": true,
+      "positions_changed": 11342,
+      "neck_boundary_byte_exact": true,
+      "triangles_UV_colors_weights_sections_unchanged": true
+    },
+    {
+      "mesh": "SK_NR17ep00v0313_Face",
+      "LOD": 1,
+      "native_reader_passed": true,
+      "positions_changed": 11342,
+      "neck_boundary_byte_exact": true,
+      "triangles_UV_colors_weights_sections_unchanged": true
+    },
+    {
+      "mesh": "SK_NR17ep01v0291_Face",
+      "LOD": 0,
+      "native_reader_passed": true,
+      "positions_changed": 11342,
+      "neck_boundary_byte_exact": true,
+      "triangles_UV_colors_weights_sections_unchanged": true
+    },
+    {
+      "mesh": "SK_NR17ep01v0291_Face",
+      "LOD": 1,
+      "native_reader_passed": true,
+      "positions_changed": 11342,
+      "neck_boundary_byte_exact": true,
+      "triangles_UV_colors_weights_sections_unchanged": true
+    },
+    {
+      "mesh": "SK_NRA6_Face",
+      "native_reader_passed": true,
+      "mesh_bytes_unchanged": true
+    },
+    {
+      "mesh": "SK_NRA6lg00v0000_Face",
+      "native_reader_passed": true,
+      "mesh_bytes_unchanged": true
+    },
+    {
+      "mesh": "SK_NRA6ep00v0313_Face",
+      "native_reader_passed": true,
+      "mesh_bytes_unchanged": true
+    },
+    {
+      "mesh": "SK_NRA6ep01v0291_Face",
+      "native_reader_passed": true,
+      "mesh_bytes_unchanged": true
+    }
+  ],
+  "Android_tested": false
+}
