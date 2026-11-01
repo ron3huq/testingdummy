@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "real_Chromium": true,
+  "booster_lookup": {
+    "before_ms": 201.79999999701977,
+    "after_ms": 1.9000000059604645,
+    "equal": true,
+    "speedup": 106.21052598102932
+  },
+  "rapid_board_clicks": 6,
+  "backend_queries": 2,
+  "latest_query_preserved": true,
+  "translation_language_invalidation": true,
+  "Android_tested": false
+}

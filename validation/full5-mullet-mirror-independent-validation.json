@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "mesh": "SK_NM13_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NM13lg00v0000_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NM13ep00v0313_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NM13ep01v0291_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NR17_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NR17lg00v0000_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NR17ep00v0313_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NR17ep01v0291_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NRA6_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NRA6lg00v0000_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NRA6ep00v0313_Face",
+      "independent_native_reader_passed": true
+    },
+    {
+      "mesh": "SK_NRA6ep01v0291_Face",
+      "independent_native_reader_passed": true
+    }
+  ],
+  "NM13_both_LODs_skin_vertices": 4330,
+  "NM13_both_LODs_hair_vertices": 7456,
+  "Android_tested": false
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "independent_appearance_controls_preserved": true,
+  "independent_sleeve_wrist_color_controls_preserved": true,
+  "all_ability_fields_tested": 26,
+  "ability_boundaries": [
+    0,
+    127
+  ],
+  "invalid_requests_atomic": 8,
+  "persisted_after_module_reload": true,
+  "Android_visual_verified": false
+}

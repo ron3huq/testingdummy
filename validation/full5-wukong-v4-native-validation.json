@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "meshes": [
+    {
+      "mesh": "SK_NWK9_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "moved_scalp_vertices": 11503,
+          "sections_uv_indices_weights_bind_and_untouched_vertices_exact": true,
+          "active_required_bones": 166,
+          "float32_containment_vertex_corrections": 1
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "moved_scalp_vertices": 11503,
+          "sections_uv_indices_weights_bind_and_untouched_vertices_exact": true,
+          "active_required_bones": 166,
+          "float32_containment_vertex_corrections": 1
+        }
+      ]
+    },
+    {
+      "mesh": "SK_NWK9lg00v0000_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "moved_scalp_vertices": 11503,
+          "sections_uv_indices_weights_bind_and_untouched_vertices_exact": true,
+          "active_required_bones": 166,
+          "float32_containment_vertex_corrections": 1
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "moved_scalp_vertices": 11503,
+          "sections_uv_indices_weights_bind_and_untouched_vertices_exact": true,
+          "active_required_bones": 166,
+          "float32_containment_vertex_corrections": 1
+        }
+      ]
+    },
+    {
+      "mesh": "SK_NWK9ep00v0313_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "moved_scalp_vertices": 11503,
+          "sections_uv_indices_weights_bind_and_untouched_vertices_exact": true,
+          "active_required_bones": 166,
+          "float32_containment_vertex_corrections": 1
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "moved_scalp_vertices": 11503,
+          "sections_uv_indices_weights_bind_and_untouched_vertices_exact": true,
+          "active_required_bones": 166,
+          "float32_containment_vertex_corrections": 1
+        }
+      ]
+    },
+    {
+      "mesh": "SK_NWK9ep01v0291_Face",
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "moved_scalp_vertices": 11503,
+          "sections_uv_indices_weights_bind_and_untouched_vertices_exact": true,
+          "active_required_bones": 166,
+          "float32_containment_vertex_corrections": 1
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "moved_scalp_vertices": 11503,
+          "sections_uv_indices_weights_bind_and_untouched_vertices_exact": true,
+          "active_required_bones": 166,
+          "float32_containment_vertex_corrections": 1
+        }
+      ]
+    }
+  ],
+  "only_4_meshes_and_shared_hair_diffuse_changed": [
+    "character/RealFace/SK_NWK9_Face.uasset",
+    "character/RealFace/SK_NWK9ep00v0313_Face.uasset",
+    "character/RealFace/SK_NWK9ep01v0291_Face.uasset",
+    "character/RealFace/SK_NWK9lg00v0000_Face.uasset",
+    "character/RealFace/T_HWK9_Hair_D.uasset",
+    "character/RealFace/T_HWK9_Hair_D.ubulk"
+  ],
+  "all_other_assets_byte_exact": true,
+  "hair_alpha_byte_exact_all_mips": true,
+  "texture_mip_sizes": [
+    [
+      2048,
+      1024
+    ],
+    [
+      1024,
+      512
+    ],
+    [
+      512,
+      256
+    ],
+    [
+      256,
+      128
+    ],
+    [
+      128,
+      64
+    ],
+    [
+      64,
+      32
+    ],
+    [
+      32,
+      16
+    ],
+    [
+      16,
+      8
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "geometry": {
+    "passed": true,
+    "upper_scalp_cards_widened": 4296,
+    "scalp_vertices_changed": 11503,
+    "maximum_increment_mm": 2.50000000000009,
+    "face_beard_vertices_byte_exact": 20737,
+    "hull_vertices_byte_exact": 171,
+    "tips_byte_exact": true,
+    "vertices_inside_original_hull": true,
+    "convex_hull_volume_before": 0.009408503002149784,
+    "convex_hull_volume_after": 0.009408503002149784,
+    "topology_vertex_count_unchanged": true,
+    "muted_olive_brown_fur_RGB_multiplier": [
+      1.17,
+      1.16,
+      1.04
+    ],
+    "hair_alpha_byte_exact": true,
+    "reference_color_exact_match_claimed": false,
+    "Android_tested": false
+  },
+  "Android_tested": false
+}

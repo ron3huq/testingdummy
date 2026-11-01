@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "owned_projection_cases": 105,
+  "bench_and_starting_players": 15,
+  "all_parameters_skills_and_identity_unchanged": true,
+  "NPC_projection_still_balanced": true,
+  "inventory_refresh_updates_protection": true,
+  "Android_tested": false
+}

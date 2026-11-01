@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "base_cards_first": true,
+  "queries_checked": 500,
+  "index_cold_ms": 60.84,
+  "query_max_ms": 43.17,
+  "query_mean_ms": 25.98,
+  "search_does_not_write_SQL": true,
+  "ronaldo_first_results": [
+    {
+      "id": "4522",
+      "name": "Cristiano Ronaldo",
+      "role": 12,
+      "base": true
+    },
+    {
+      "id": "16781738",
+      "name": "Cristiano Ronaldo",
+      "role": 12,
+      "base": true
+    },
+    {
+      "id": "109566",
+      "name": "Ronaldo",
+      "role": 0,
+      "base": true
+    },
+    {
+      "id": "110562",
+      "name": "Ronaldo",
+      "role": 4,
+      "base": true
+    },
+    {
+      "id": "174648",
+      "name": "Ronaldo Dejes\u00fas",
+      "role": 1,
+      "base": true
+    },
+    {
+      "id": "176336",
+      "name": "Ronaldo Julio",
+      "role": 12,
+      "base": true
+    },
+    {
+      "id": "159959",
+      "name": "Ronaldo Mart\u00ednez",
+      "role": 12,
+      "base": true
+    },
+    {
+      "id": "151239",
+      "name": "Ronaldo P\u00e1jaro",
+      "role": 4,
+      "base": true
+    }
+  ],
+  "Android_tested": false
+}

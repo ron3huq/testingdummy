@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "original_ARM64_getter_setter_and_production_editor_hook": true,
+  "ability_fields": 26,
+  "motion_fields": 8,
+  "boundary_cases": 68,
+  "other_146_parameters_preserved_each_case": true,
+  "Android_tested": false
+}

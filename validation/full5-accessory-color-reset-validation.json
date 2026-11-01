@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "native_full_color_form_can_restore_original": true,
+  "empty_full_color_form_clears_saved_overrides": true,
+  "partial_API_changes_preserve_other_colors": true,
+  "gear_modes_preserved": true,
+  "reload_and_native_config_agree": true
+}

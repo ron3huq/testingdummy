@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "old_library_sha256": "cd2141c1deea518f26fd78bf2e1dc64b98e67c674ee337ccb2e7c6ef6e6861f1",
+  "new_library_sha256": "1e59115ad77b29d43629809fe85aab36636ca24b5df97496c2e1e3ffdfe1cd8f",
+  "source_sha256": "2e7f7f86506509d936dc129397f8cf64d120a84246feb60f5c82217b1efe1ca4",
+  "old_export_count": 145,
+  "new_export_count": 145,
+  "missing_exports": [],
+  "old_library_failed_native_pool_stability_test": true,
+  "rebuilt_library_passed_transfer_and_wrist_regressions": true,
+  "all_custom_leagues_protect_owned_starting_and_bench_players": true
+}

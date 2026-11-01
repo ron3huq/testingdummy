@@ -1,0 +1,12 @@
+{
+  "removed_override_card": "89138288266704",
+  "unreachable_reserved_key": "140737488355325",
+  "exact_constant_sites": [
+    "0x18ca0",
+    "0x19bc4",
+    "0x1c54c",
+    "0x1d5ac"
+  ],
+  "data_sites": 1,
+  "unchanged_hook_entries_and_mesh_assets": true
+}

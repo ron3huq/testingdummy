@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "all_128_trait_combinations_stored_UI_wire_config_agree": 128,
+  "unrelated_parameters_preserved": true,
+  "explicit_foot_survives_model_copy": true,
+  "height_override_does_not_hide_donor_foot": true,
+  "partial_trait_save_preserves_other_traits": true,
+  "competition_defaults_do_not_override_user_traits": true,
+  "Android_match_tested": false
+}

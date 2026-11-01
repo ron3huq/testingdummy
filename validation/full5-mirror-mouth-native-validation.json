@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "Ronaldo2017_mouth": [
+    {
+      "asset": "character/RealFace/T_NR17_Face_D.uasset",
+      "oral_RGB_brightness_factor": 0.72,
+      "saturation_factor": 0.72,
+      "all_alpha_and_nonoral_compression_blocks_exact": true
+    },
+    {
+      "asset": "character/RealFace/T_NR17lg00v0000_Face_D.uasset",
+      "oral_RGB_brightness_factor": 0.72,
+      "saturation_factor": 0.72,
+      "all_alpha_and_nonoral_compression_blocks_exact": true
+    },
+    {
+      "asset": "character/RealFace/T_NR17ep00v0313_Face_D.uasset",
+      "oral_RGB_brightness_factor": 0.72,
+      "saturation_factor": 0.72,
+      "all_alpha_and_nonoral_compression_blocks_exact": true
+    },
+    {
+      "asset": "character/RealFace/T_NR17ep01v0291_Face_D.uasset",
+      "oral_RGB_brightness_factor": 0.72,
+      "saturation_factor": 0.72,
+      "all_alpha_and_nonoral_compression_blocks_exact": true
+    }
+  ],
+  "Raiden_mask": {
+    "native_cooked_skeletal_PBR_parent": "M_prop_AMbase_BMNRS",
+    "base_MI": "MI_prop_AMbase_BMNRS_2899028E",
+    "metalness": 1,
+    "roughness": 0.0196078431372549,
+    "specular": 0.5019607843137255,
+    "skin_outside_metalness": 0,
+    "geometry_bones_bind_byte_exact": true,
+    "cooked_shader_permutation_retained": true,
+    "dynamic_planar_reflection_not_available": true
+  },
+  "other_assets_byte_exact": true,
+  "Android_GPU_tested": false
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "Vol9_included": false,
+  "old_source_runtime_or_library_copied": false,
+  "profiles": [
+    {
+      "source": "spider",
+      "target": "106782819217056",
+      "profile": "NSV1",
+      "source_files": 34,
+      "geometry_UV_bones_weights_texture_compression_payloads_preserved": true
+    },
+    {
+      "source": "miles",
+      "target": "88035555413452",
+      "profile": "NSM1",
+      "source_files": 34,
+      "geometry_UV_bones_weights_texture_compression_payloads_preserved": true
+    },
+    {
+      "source": "ronaldo",
+      "target": "89138556572074",
+      "profile": "NQ27",
+      "source_files": 34,
+      "geometry_UV_bones_weights_texture_compression_payloads_preserved": true
+    }
+  ]
+}

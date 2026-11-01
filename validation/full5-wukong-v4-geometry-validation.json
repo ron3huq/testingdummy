@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "upper_scalp_cards_widened": 4296,
+  "scalp_vertices_changed": 11503,
+  "maximum_increment_mm": 2.50000000000009,
+  "face_beard_vertices_byte_exact": 20737,
+  "hull_vertices_byte_exact": 171,
+  "tips_byte_exact": true,
+  "vertices_inside_original_hull": true,
+  "convex_hull_volume_before": 0.009408503002149784,
+  "convex_hull_volume_after": 0.009408503002149784,
+  "topology_vertex_count_unchanged": true,
+  "muted_olive_brown_fur_RGB_multiplier": [
+    1.17,
+    1.16,
+    1.04
+  ],
+  "hair_alpha_byte_exact": true,
+  "reference_color_exact_match_claimed": false,
+  "Android_tested": false
+}

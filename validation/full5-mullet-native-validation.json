@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "target_card": "88039045074440",
+  "profile": "NM13",
+  "sources": [
+    {
+      "section": 0,
+      "source_object": "SK_ND01_Face.001",
+      "source_vertices": 4330,
+      "native_vertices": 4330,
+      "triangles": 7716
+    },
+    {
+      "section": 1,
+      "source_object": "Original 56322 hair only",
+      "source_vertices": 7456,
+      "native_vertices": 7456,
+      "triangles": 11072
+    }
+  ],
+  "face_positions_canonical_native_exact": true,
+  "face_UV_and_weights_from_original_approved_source": true,
+  "nape_skin_material_restored_in_source_preview": 173,
+  "hair_only_from_card89136418985302_head56322": true,
+  "RequiredBones166_preserved_both_LODs": true,
+  "active166_bothLODs": true,
+  "other_assets_byte_exact": true,
+  "Android_tested": false
+}

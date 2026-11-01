@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "mesh": "SK_NSV1_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115877,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NSV1lg00v0000_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115877,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NSV1ep01v0291_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115877,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NSV1ep00v0313_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115877,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NSM1_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115877,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NSM1lg00v0000_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115877,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NSM1ep01v0291_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115877,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NSM1ep00v0313_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115877,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NQ27_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115865,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NQ27lg00v0000_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115865,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NQ27ep01v0291_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115865,
+      "weights_sum255": true
+    },
+    {
+      "mesh": "SK_NQ27ep00v0313_Face",
+      "reader_passed": true,
+      "vertices": 60785,
+      "triangles": 115865,
+      "weights_sum255": true
+    }
+  ],
+  "Android_tested": false
+}

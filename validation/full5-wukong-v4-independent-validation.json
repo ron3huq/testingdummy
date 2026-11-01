@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "meshes": [
+    {
+      "mesh": "SK_NWK9_Face",
+      "independent_UE_reader": true,
+      "bind_matrices_byte_exact": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "scalp_vertices_changed": 11503,
+          "face_skin_positions_byte_exact": true,
+          "native_original_hull_vertices_exact": true,
+          "native_hull_volume_preserved": true,
+          "UV_indices_sections_weights_byte_exact": true,
+          "active_required_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "scalp_vertices_changed": 11503,
+          "face_skin_positions_byte_exact": true,
+          "native_original_hull_vertices_exact": true,
+          "native_hull_volume_preserved": true,
+          "UV_indices_sections_weights_byte_exact": true,
+          "active_required_bones": 166
+        }
+      ]
+    },
+    {
+      "mesh": "SK_NWK9lg00v0000_Face",
+      "independent_UE_reader": true,
+      "bind_matrices_byte_exact": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "scalp_vertices_changed": 11503,
+          "face_skin_positions_byte_exact": true,
+          "native_original_hull_vertices_exact": true,
+          "native_hull_volume_preserved": true,
+          "UV_indices_sections_weights_byte_exact": true,
+          "active_required_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "scalp_vertices_changed": 11503,
+          "face_skin_positions_byte_exact": true,
+          "native_original_hull_vertices_exact": true,
+          "native_hull_volume_preserved": true,
+          "UV_indices_sections_weights_byte_exact": true,
+          "active_required_bones": 166
+        }
+      ]
+    },
+    {
+      "mesh": "SK_NWK9ep00v0313_Face",
+      "independent_UE_reader": true,
+      "bind_matrices_byte_exact": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "scalp_vertices_changed": 11503,
+          "face_skin_positions_byte_exact": true,
+          "native_original_hull_vertices_exact": true,
+          "native_hull_volume_preserved": true,
+          "UV_indices_sections_weights_byte_exact": true,
+          "active_required_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "scalp_vertices_changed": 11503,
+          "face_skin_positions_byte_exact": true,
+          "native_original_hull_vertices_exact": true,
+          "native_hull_volume_preserved": true,
+          "UV_indices_sections_weights_byte_exact": true,
+          "active_required_bones": 166
+        }
+      ]
+    },
+    {
+      "mesh": "SK_NWK9ep01v0291_Face",
+      "independent_UE_reader": true,
+      "bind_matrices_byte_exact": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "scalp_vertices_changed": 11503,
+          "face_skin_positions_byte_exact": true,
+          "native_original_hull_vertices_exact": true,
+          "native_hull_volume_preserved": true,
+          "UV_indices_sections_weights_byte_exact": true,
+          "active_required_bones": 166
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "scalp_vertices_changed": 11503,
+          "face_skin_positions_byte_exact": true,
+          "native_original_hull_vertices_exact": true,
+          "native_hull_volume_preserved": true,
+          "UV_indices_sections_weights_byte_exact": true,
+          "active_required_bones": 166
+        }
+      ]
+    }
+  ],
+  "all_ETC2_alpha_blocks_exact_mips": 11,
+  "Android_tested": false
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": [
+    "ui711_profile_get",
+    "ui7_body_get",
+    "ui75_model_get",
+    "ui710_equipment_get",
+    "ui78_appearance_get",
+    "ui718_motion_fields_get",
+    "ui712_stats_get",
+    "ui712_motion_get",
+    "name_save_wire_and_invalid_rejection",
+    "height_weight_roundtrip",
+    "all_11_model_fields_roundtrip",
+    "all_10_equipment_types_and_colors_save_roundtrip_not_visual",
+    "all_8_motion_fields_and_unrelated_stats_preservation",
+    "ability_save_readback",
+    "config_valid_and_owned_identity_preserved"
+  ],
+  "scope": "Actual protected V19 gateway on disposable host DB; no Android/GPU claims",
+  "wrist_tape_visual_fix_pending_device_trace": true
+}

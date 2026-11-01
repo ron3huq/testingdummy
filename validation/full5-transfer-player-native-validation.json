@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "production_native_hook_and_original_accessors": true,
+  "NPC_ability_and_celebration_values_exact": true,
+  "wrong_competition_and_normal_play_unchanged": true,
+  "accessory_and_color_registry_accepted": true,
+  "Android_tested": false
+}

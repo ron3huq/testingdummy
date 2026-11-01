@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "NR17_mouth": [
+    {
+      "asset": "NR17",
+      "geometry_exact": true,
+      "nonoral_pixels_exact": true,
+      "alpha_exact": true,
+      "oral_RGB_mean_before": 117.24787139892578,
+      "oral_RGB_mean_after": 83.43227640787761
+    },
+    {
+      "asset": "NR17lg00v0000",
+      "geometry_exact": true,
+      "nonoral_pixels_exact": true,
+      "alpha_exact": true,
+      "oral_RGB_mean_before": 117.24787139892578,
+      "oral_RGB_mean_after": 83.43227640787761
+    },
+    {
+      "asset": "NR17ep00v0313",
+      "geometry_exact": true,
+      "nonoral_pixels_exact": true,
+      "alpha_exact": true,
+      "oral_RGB_mean_before": 117.24787139892578,
+      "oral_RGB_mean_after": 83.43227640787761
+    },
+    {
+      "asset": "NR17ep01v0291",
+      "geometry_exact": true,
+      "nonoral_pixels_exact": true,
+      "alpha_exact": true,
+      "oral_RGB_mean_before": 117.24787139892578,
+      "oral_RGB_mean_after": 83.43227640787761
+    }
+  ],
+  "Raiden_geometry_bytes_exact_all4variants": true,
+  "Raiden_HQ_MQ_PBR_texture_scalar_imports_resolved": true,
+  "Raiden_scalar_masks_linear": true,
+  "Mullet_retained_face_positions_native_byte_exact": true,
+  "Mullet_retained_face_UV_matches_native_half_precision": true,
+  "Mullet_retained_weights_max_byte_difference": 0,
+  "Mullet_all166_active_both_LODs": true,
+  "independent_reader_12_heads_passed": true,
+  "Android_GPU_tested": false
+}

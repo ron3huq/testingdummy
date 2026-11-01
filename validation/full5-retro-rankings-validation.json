@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "competition": 518,
+      "CPU_goals_in_ledger": 128,
+      "CPU_assists_in_ledger": 95,
+      "played_rounds": 8,
+      "top_goal_rows": 20,
+      "top_assist_rows": 20
+    },
+    {
+      "competition": 473,
+      "CPU_goals_in_ledger": 107,
+      "CPU_assists_in_ledger": 79,
+      "played_rounds": 8,
+      "top_goal_rows": 20,
+      "top_assist_rows": 20
+    }
+  ],
+  "each_CPU_goal_has_exactly_one_scorer": true,
+  "assist_never_exceeds_team_goals": true,
+  "no_GK_events": true,
+  "same_fixture_reproducible": true,
+  "real_match_and_existing_season_records_not_rewritten": true,
+  "priority_weighted_roster_used": true,
+  "elapsed_seconds": 1.195,
+  "Android_tested": false
+}
