@@ -1,0 +1,9 @@
+{
+  "diagnostic_repeated_CPK_bytes": 7592208,
+  "advertised_rebased_CPK": {
+    "bytes": 7682048,
+    "sha256": "2478859b8ec4d4f19c1da984fdc4d948397fff3c14ed0848d5945b45edb0a317"
+  },
+  "direct_logical_basename_and_URL_and_repair_source_same_bytes": true,
+  "Android_tested": false
+}

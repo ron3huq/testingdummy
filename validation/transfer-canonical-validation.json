@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "production_ARM64_used": true,
+  "native_starting_order_consumers_used": true,
+  "canonical_pool_and_order": true,
+  "swap_keeps_captain_and_six_takers_by_ID": true,
+  "repeat_is_idempotent": true,
+  "restores_outside_competition": true,
+  "GamePlan_clone_removed": true,
+  "Android_tested": false
+}

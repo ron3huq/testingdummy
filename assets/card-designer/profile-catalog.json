@@ -1,0 +1,4901 @@
+{
+  "schema": "efootball-diy-profile/v1",
+  "countries": [
+    {
+      "id": 1,
+      "label": "Afghanistan"
+    },
+    {
+      "id": 191,
+      "label": "Albania"
+    },
+    {
+      "id": 44,
+      "label": "Algeria"
+    },
+    {
+      "id": 161,
+      "label": "American Samoa"
+    },
+    {
+      "id": 192,
+      "label": "Andorra"
+    },
+    {
+      "id": 45,
+      "label": "Angola"
+    },
+    {
+      "id": 103,
+      "label": "Anguilla"
+    },
+    {
+      "id": 104,
+      "label": "Antigua and Barbuda"
+    },
+    {
+      "id": 144,
+      "label": "Argentina"
+    },
+    {
+      "id": 193,
+      "label": "Armenia"
+    },
+    {
+      "id": 105,
+      "label": "Aruba"
+    },
+    {
+      "id": 162,
+      "label": "Australia"
+    },
+    {
+      "id": 194,
+      "label": "Austria"
+    },
+    {
+      "id": 195,
+      "label": "Azerbaijan"
+    },
+    {
+      "id": 106,
+      "label": "Bahamas"
+    },
+    {
+      "id": 2,
+      "label": "Bahrain"
+    },
+    {
+      "id": 3,
+      "label": "Bangladesh"
+    },
+    {
+      "id": 107,
+      "label": "Barbados"
+    },
+    {
+      "id": 196,
+      "label": "Belarus"
+    },
+    {
+      "id": 197,
+      "label": "Belgium"
+    },
+    {
+      "id": 108,
+      "label": "Belize"
+    },
+    {
+      "id": 46,
+      "label": "Benin"
+    },
+    {
+      "id": 109,
+      "label": "Bermuda"
+    },
+    {
+      "id": 4,
+      "label": "Bhutan"
+    },
+    {
+      "id": 145,
+      "label": "Bolivia"
+    },
+    {
+      "id": 198,
+      "label": "Bosnia and Herzegovina"
+    },
+    {
+      "id": 47,
+      "label": "Botswana"
+    },
+    {
+      "id": 146,
+      "label": "Brazil"
+    },
+    {
+      "id": 136,
+      "label": "British Virgin Islands"
+    },
+    {
+      "id": 5,
+      "label": "Brunei"
+    },
+    {
+      "id": 199,
+      "label": "Bulgaria"
+    },
+    {
+      "id": 48,
+      "label": "Burkina Faso"
+    },
+    {
+      "id": 49,
+      "label": "Burundi"
+    },
+    {
+      "id": 51,
+      "label": "Cabo Verde"
+    },
+    {
+      "id": 6,
+      "label": "Cambodia"
+    },
+    {
+      "id": 50,
+      "label": "Cameroon"
+    },
+    {
+      "id": 110,
+      "label": "Canada"
+    },
+    {
+      "id": 111,
+      "label": "Cayman Islands"
+    },
+    {
+      "id": 52,
+      "label": "Central African Rep."
+    },
+    {
+      "id": 53,
+      "label": "Chad"
+    },
+    {
+      "id": 147,
+      "label": "Chile"
+    },
+    {
+      "id": 7,
+      "label": "China PR"
+    },
+    {
+      "id": 298,
+      "label": "Chinese Taipei"
+    },
+    {
+      "id": 148,
+      "label": "Colombia"
+    },
+    {
+      "id": 54,
+      "label": "Comoros"
+    },
+    {
+      "id": 98,
+      "label": "Congo"
+    },
+    {
+      "id": 55,
+      "label": "Congo DR"
+    },
+    {
+      "id": 163,
+      "label": "Cook Islands"
+    },
+    {
+      "id": 112,
+      "label": "Costa Rica"
+    },
+    {
+      "id": 200,
+      "label": "Croatia"
+    },
+    {
+      "id": 113,
+      "label": "Cuba"
+    },
+    {
+      "id": 140,
+      "label": "Curaçao"
+    },
+    {
+      "id": 201,
+      "label": "Cyprus"
+    },
+    {
+      "id": 202,
+      "label": "Czechia"
+    },
+    {
+      "id": 56,
+      "label": "Côte d'Ivoire"
+    },
+    {
+      "id": 203,
+      "label": "Denmark"
+    },
+    {
+      "id": 57,
+      "label": "Djibouti"
+    },
+    {
+      "id": 114,
+      "label": "Dominica"
+    },
+    {
+      "id": 115,
+      "label": "Dominican Republic"
+    },
+    {
+      "id": 149,
+      "label": "Ecuador"
+    },
+    {
+      "id": 58,
+      "label": "Egypt"
+    },
+    {
+      "id": 116,
+      "label": "El Salvador"
+    },
+    {
+      "id": 204,
+      "label": "England"
+    },
+    {
+      "id": 59,
+      "label": "Equatorial Guinea"
+    },
+    {
+      "id": 60,
+      "label": "Eritrea"
+    },
+    {
+      "id": 205,
+      "label": "Estonia"
+    },
+    {
+      "id": 89,
+      "label": "Eswatini"
+    },
+    {
+      "id": 61,
+      "label": "Ethiopia"
+    },
+    {
+      "id": 206,
+      "label": "Faroe Islands"
+    },
+    {
+      "id": 164,
+      "label": "Fiji"
+    },
+    {
+      "id": 207,
+      "label": "Finland"
+    },
+    {
+      "id": 208,
+      "label": "France"
+    },
+    {
+      "id": 62,
+      "label": "Gabon"
+    },
+    {
+      "id": 209,
+      "label": "Georgia"
+    },
+    {
+      "id": 210,
+      "label": "Germany"
+    },
+    {
+      "id": 64,
+      "label": "Ghana"
+    },
+    {
+      "id": 245,
+      "label": "Gibraltar"
+    },
+    {
+      "id": 211,
+      "label": "Greece"
+    },
+    {
+      "id": 117,
+      "label": "Grenada"
+    },
+    {
+      "id": 176,
+      "label": "Guam"
+    },
+    {
+      "id": 119,
+      "label": "Guatemala"
+    },
+    {
+      "id": 65,
+      "label": "Guinea"
+    },
+    {
+      "id": 66,
+      "label": "Guinea-Bissau"
+    },
+    {
+      "id": 159,
+      "label": "Guyana"
+    },
+    {
+      "id": 120,
+      "label": "Haiti"
+    },
+    {
+      "id": 121,
+      "label": "Honduras"
+    },
+    {
+      "id": 8,
+      "label": "Hong Kong, China"
+    },
+    {
+      "id": 212,
+      "label": "Hungary"
+    },
+    {
+      "id": 213,
+      "label": "Iceland"
+    },
+    {
+      "id": 9,
+      "label": "India"
+    },
+    {
+      "id": 10,
+      "label": "Indonesia"
+    },
+    {
+      "id": 11,
+      "label": "IR Iran"
+    },
+    {
+      "id": 12,
+      "label": "Iraq"
+    },
+    {
+      "id": 189,
+      "label": "Israel"
+    },
+    {
+      "id": 215,
+      "label": "Italy"
+    },
+    {
+      "id": 122,
+      "label": "Jamaica"
+    },
+    {
+      "id": 13,
+      "label": "Japan"
+    },
+    {
+      "id": 14,
+      "label": "Jordan"
+    },
+    {
+      "id": 216,
+      "label": "Kazakhstan"
+    },
+    {
+      "id": 67,
+      "label": "Kenya"
+    },
+    {
+      "id": 15,
+      "label": "Korea DPR"
+    },
+    {
+      "id": 16,
+      "label": "Korea Republic"
+    },
+    {
+      "id": 311,
+      "label": "Kosovo"
+    },
+    {
+      "id": 17,
+      "label": "Kuwait"
+    },
+    {
+      "id": 40,
+      "label": "Kyrgyz Republic"
+    },
+    {
+      "id": 18,
+      "label": "Laos"
+    },
+    {
+      "id": 217,
+      "label": "Latvia"
+    },
+    {
+      "id": 19,
+      "label": "Lebanon"
+    },
+    {
+      "id": 68,
+      "label": "Lesotho"
+    },
+    {
+      "id": 69,
+      "label": "Liberia"
+    },
+    {
+      "id": 70,
+      "label": "Libya"
+    },
+    {
+      "id": 218,
+      "label": "Liechtenstein"
+    },
+    {
+      "id": 219,
+      "label": "Lithuania"
+    },
+    {
+      "id": 220,
+      "label": "Luxembourg"
+    },
+    {
+      "id": 20,
+      "label": "Macau"
+    },
+    {
+      "id": 71,
+      "label": "Madagascar"
+    },
+    {
+      "id": 72,
+      "label": "Malawi"
+    },
+    {
+      "id": 21,
+      "label": "Malaysia"
+    },
+    {
+      "id": 22,
+      "label": "Maldives"
+    },
+    {
+      "id": 73,
+      "label": "Mali"
+    },
+    {
+      "id": 222,
+      "label": "Malta"
+    },
+    {
+      "id": 74,
+      "label": "Mauritania"
+    },
+    {
+      "id": 75,
+      "label": "Mauritius"
+    },
+    {
+      "id": 124,
+      "label": "Mexico"
+    },
+    {
+      "id": 223,
+      "label": "Moldova"
+    },
+    {
+      "id": 250,
+      "label": "Monaco"
+    },
+    {
+      "id": 23,
+      "label": "Mongolia"
+    },
+    {
+      "id": 304,
+      "label": "Montenegro"
+    },
+    {
+      "id": 125,
+      "label": "Montserrat"
+    },
+    {
+      "id": 76,
+      "label": "Morocco"
+    },
+    {
+      "id": 77,
+      "label": "Mozambique"
+    },
+    {
+      "id": 24,
+      "label": "Myanmar"
+    },
+    {
+      "id": 78,
+      "label": "Namibia"
+    },
+    {
+      "id": 25,
+      "label": "Nepal"
+    },
+    {
+      "id": 224,
+      "label": "Netherlands"
+    },
+    {
+      "id": 165,
+      "label": "New Caledonia"
+    },
+    {
+      "id": 166,
+      "label": "New Zealand"
+    },
+    {
+      "id": 127,
+      "label": "Nicaragua"
+    },
+    {
+      "id": 79,
+      "label": "Niger"
+    },
+    {
+      "id": 80,
+      "label": "Nigeria"
+    },
+    {
+      "id": 221,
+      "label": "North Macedonia"
+    },
+    {
+      "id": 225,
+      "label": "Northern Ireland"
+    },
+    {
+      "id": 226,
+      "label": "Norway"
+    },
+    {
+      "id": 26,
+      "label": "Oman"
+    },
+    {
+      "id": 260,
+      "label": "Others"
+    },
+    {
+      "id": 27,
+      "label": "Pakistan"
+    },
+    {
+      "id": 184,
+      "label": "Palau"
+    },
+    {
+      "id": 28,
+      "label": "Palestine"
+    },
+    {
+      "id": 128,
+      "label": "Panama"
+    },
+    {
+      "id": 167,
+      "label": "Papua New Guinea"
+    },
+    {
+      "id": 150,
+      "label": "Paraguay"
+    },
+    {
+      "id": 151,
+      "label": "Peru"
+    },
+    {
+      "id": 29,
+      "label": "Philippines"
+    },
+    {
+      "id": 227,
+      "label": "Poland"
+    },
+    {
+      "id": 228,
+      "label": "Portugal"
+    },
+    {
+      "id": 129,
+      "label": "Puerto Rico"
+    },
+    {
+      "id": 30,
+      "label": "Qatar"
+    },
+    {
+      "id": 214,
+      "label": "Republic of Ireland"
+    },
+    {
+      "id": 229,
+      "label": "Romania"
+    },
+    {
+      "id": 230,
+      "label": "Russia"
+    },
+    {
+      "id": 81,
+      "label": "Rwanda"
+    },
+    {
+      "id": 131,
+      "label": "Saint Lucia"
+    },
+    {
+      "id": 168,
+      "label": "Samoa"
+    },
+    {
+      "id": 231,
+      "label": "San Marino"
+    },
+    {
+      "id": 31,
+      "label": "Saudi Arabia"
+    },
+    {
+      "id": 232,
+      "label": "Scotland"
+    },
+    {
+      "id": 83,
+      "label": "Senegal"
+    },
+    {
+      "id": 303,
+      "label": "Serbia"
+    },
+    {
+      "id": 84,
+      "label": "Seychelles"
+    },
+    {
+      "id": 85,
+      "label": "Sierra Leone"
+    },
+    {
+      "id": 32,
+      "label": "Singapore"
+    },
+    {
+      "id": 234,
+      "label": "Slovakia"
+    },
+    {
+      "id": 235,
+      "label": "Slovenia"
+    },
+    {
+      "id": 169,
+      "label": "Solomon Islands"
+    },
+    {
+      "id": 86,
+      "label": "Somalia"
+    },
+    {
+      "id": 87,
+      "label": "South Africa"
+    },
+    {
+      "id": 312,
+      "label": "South Sudan"
+    },
+    {
+      "id": 236,
+      "label": "Spain"
+    },
+    {
+      "id": 33,
+      "label": "Sri Lanka"
+    },
+    {
+      "id": 130,
+      "label": "St Kitts and Nevis"
+    },
+    {
+      "id": 132,
+      "label": "St Vincent & Grenadines"
+    },
+    {
+      "id": 88,
+      "label": "Sudan"
+    },
+    {
+      "id": 139,
+      "label": "Suriname"
+    },
+    {
+      "id": 237,
+      "label": "Sweden"
+    },
+    {
+      "id": 238,
+      "label": "Switzerland"
+    },
+    {
+      "id": 34,
+      "label": "Syria"
+    },
+    {
+      "id": 82,
+      "label": "São Tomé and Príncipe"
+    },
+    {
+      "id": 170,
+      "label": "Tahiti"
+    },
+    {
+      "id": 41,
+      "label": "Tajikistan"
+    },
+    {
+      "id": 90,
+      "label": "Tanzania"
+    },
+    {
+      "id": 36,
+      "label": "Thailand"
+    },
+    {
+      "id": 63,
+      "label": "The Gambia"
+    },
+    {
+      "id": 43,
+      "label": "Timor-Leste"
+    },
+    {
+      "id": 91,
+      "label": "Togo"
+    },
+    {
+      "id": 171,
+      "label": "Tonga"
+    },
+    {
+      "id": 133,
+      "label": "Trinidad and Tobago"
+    },
+    {
+      "id": 92,
+      "label": "Tunisia"
+    },
+    {
+      "id": 42,
+      "label": "Turkmenistan"
+    },
+    {
+      "id": 134,
+      "label": "Turks and Caicos Is."
+    },
+    {
+      "id": 190,
+      "label": "Türkiye"
+    },
+    {
+      "id": 93,
+      "label": "Uganda"
+    },
+    {
+      "id": 239,
+      "label": "Ukraine"
+    },
+    {
+      "id": 37,
+      "label": "United Arab Emirates"
+    },
+    {
+      "id": 135,
+      "label": "United States"
+    },
+    {
+      "id": 152,
+      "label": "Uruguay"
+    },
+    {
+      "id": 137,
+      "label": "US Virgin Islands"
+    },
+    {
+      "id": 240,
+      "label": "Uzbekistan"
+    },
+    {
+      "id": 172,
+      "label": "Vanuatu"
+    },
+    {
+      "id": 153,
+      "label": "Venezuela"
+    },
+    {
+      "id": 38,
+      "label": "Vietnam"
+    },
+    {
+      "id": 241,
+      "label": "Wales"
+    },
+    {
+      "id": 39,
+      "label": "Yemen"
+    },
+    {
+      "id": 94,
+      "label": "Zambia"
+    },
+    {
+      "id": 95,
+      "label": "Zimbabwe"
+    }
+  ],
+  "clubs": [
+    {
+      "id": 0,
+      "label": "Free Agent"
+    },
+    {
+      "id": 6057,
+      "label": "2026 PFA TOTY"
+    },
+    {
+      "id": 2067,
+      "label": "Aarhus HB"
+    },
+    {
+      "id": 1219,
+      "label": "Aberdeen FC"
+    },
+    {
+      "id": 121,
+      "label": "AC Milan"
+    },
+    {
+      "id": 4082,
+      "label": "Académico de Viseu FC"
+    },
+    {
+      "id": 243,
+      "label": "ADO Den Haag"
+    },
+    {
+      "id": 5743,
+      "label": "Afghanistan"
+    },
+    {
+      "id": 6263,
+      "label": "Agadir RB"
+    },
+    {
+      "id": 22259,
+      "label": "Ahal FC"
+    },
+    {
+      "id": 6011,
+      "label": "Aichi"
+    },
+    {
+      "id": 180,
+      "label": "AJ Auxerre"
+    },
+    {
+      "id": 116,
+      "label": "Ajax"
+    },
+    {
+      "id": 5993,
+      "label": "Akita"
+    },
+    {
+      "id": 17733,
+      "label": "Al Ahli Saudi FC"
+    },
+    {
+      "id": 22577,
+      "label": "Al Ahli SC"
+    },
+    {
+      "id": 18951,
+      "label": "Al Duhail SC"
+    },
+    {
+      "id": 17872,
+      "label": "Al Gharafa SC"
+    },
+    {
+      "id": 17873,
+      "label": "Al Hilal SFC"
+    },
+    {
+      "id": 22424,
+      "label": "Al Hussein SC"
+    },
+    {
+      "id": 17734,
+      "label": "Al Ittihad Club"
+    },
+    {
+      "id": 22420,
+      "label": "Al Khaldiya SC"
+    },
+    {
+      "id": 22574,
+      "label": "Al Muharraq SC"
+    },
+    {
+      "id": 18961,
+      "label": "Al Nassr FC"
+    },
+    {
+      "id": 20557,
+      "label": "Al Sadd SC"
+    },
+    {
+      "id": 20554,
+      "label": "Al Shorta SC"
+    },
+    {
+      "id": 21337,
+      "label": "Al Wahda FC"
+    },
+    {
+      "id": 21772,
+      "label": "Al Wasl FC"
+    },
+    {
+      "id": 21338,
+      "label": "Al Wehdat SC"
+    },
+    {
+      "id": 21975,
+      "label": "Al Zawraa SC"
+    },
+    {
+      "id": 4302,
+      "label": "Albacete BN"
+    },
+    {
+      "id": 1165,
+      "label": "Albania"
+    },
+    {
+      "id": 2536,
+      "label": "Alberdi A"
+    },
+    {
+      "id": 167,
+      "label": "Albirex Niigata"
+    },
+    {
+      "id": 1040,
+      "label": "Algeria"
+    },
+    {
+      "id": 82960,
+      "label": "Algeria"
+    },
+    {
+      "id": 1243,
+      "label": "Almagro AR"
+    },
+    {
+      "id": 349,
+      "label": "Almelo ZW"
+    },
+    {
+      "id": 357,
+      "label": "Almería RB"
+    },
+    {
+      "id": 2727,
+      "label": "Alta Córdoba RB"
+    },
+    {
+      "id": 6081,
+      "label": "Amed SFK"
+    },
+    {
+      "id": 6179,
+      "label": "American Samoa"
+    },
+    {
+      "id": 4200,
+      "label": "Amiens NB"
+    },
+    {
+      "id": 174,
+      "label": "Anderlecht PW"
+    },
+    {
+      "id": 1166,
+      "label": "Andorra"
+    },
+    {
+      "id": 5644,
+      "label": "Andorra la Vella AAR"
+    },
+    {
+      "id": 403,
+      "label": "Angers SCO"
+    },
+    {
+      "id": 1041,
+      "label": "Angola"
+    },
+    {
+      "id": 82961,
+      "label": "Angola"
+    },
+    {
+      "id": 6150,
+      "label": "Anguilla"
+    },
+    {
+      "id": 1989,
+      "label": "Antalya KB"
+    },
+    {
+      "id": 6151,
+      "label": "Antigua and Barbuda"
+    },
+    {
+      "id": 5191,
+      "label": "Antwerp RW"
+    },
+    {
+      "id": 5923,
+      "label": "Anyang P"
+    },
+    {
+      "id": 5990,
+      "label": "Aomori"
+    },
+    {
+      "id": 5962,
+      "label": "Arca Çorum FK"
+    },
+    {
+      "id": 4377,
+      "label": "Arezzo G"
+    },
+    {
+      "id": 22579,
+      "label": "Arkadag FK"
+    },
+    {
+      "id": 1167,
+      "label": "Armenia"
+    },
+    {
+      "id": 101,
+      "label": "Arsenal FC"
+    },
+    {
+      "id": 6152,
+      "label": "Aruba"
+    },
+    {
+      "id": 112,
+      "label": "AS Monaco"
+    },
+    {
+      "id": 415,
+      "label": "AS Nancy-Lorraine"
+    },
+    {
+      "id": 418,
+      "label": "AS Saint-Étienne"
+    },
+    {
+      "id": 317,
+      "label": "Ascoli BN"
+    },
+    {
+      "id": 107,
+      "label": "Aston RB"
+    },
+    {
+      "id": 234,
+      "label": "Atalanta BC"
+    },
+    {
+      "id": 1930,
+      "label": "Athletico Paranaense"
+    },
+    {
+      "id": 5736,
+      "label": "Atlanta RB"
+    },
+    {
+      "id": 5740,
+      "label": "Austin GB"
+    },
+    {
+      "id": 49209,
+      "label": "Australia"
+    },
+    {
+      "id": 1237,
+      "label": "Avellaneda AB"
+    },
+    {
+      "id": 1240,
+      "label": "Avellaneda R"
+    },
+    {
+      "id": 4141,
+      "label": "Avellino BV"
+    },
+    {
+      "id": 5954,
+      "label": "Aves VB"
+    },
+    {
+      "id": 169,
+      "label": "Avispa Fukuoka"
+    },
+    {
+      "id": 5600,
+      "label": "Ayutthaya United FC"
+    },
+    {
+      "id": 242,
+      "label": "AZ"
+    },
+    {
+      "id": 1168,
+      "label": "Azerbaijan"
+    },
+    {
+      "id": 6153,
+      "label": "Bahamas"
+    },
+    {
+      "id": 1002,
+      "label": "Bahrain"
+    },
+    {
+      "id": 50154,
+      "label": "Bahrain"
+    },
+    {
+      "id": 1927,
+      "label": "Banfield VB"
+    },
+    {
+      "id": 5744,
+      "label": "Bangladesh"
+    },
+    {
+      "id": 6154,
+      "label": "Barbados"
+    },
+    {
+      "id": 319,
+      "label": "Bari BR"
+    },
+    {
+      "id": 5657,
+      "label": "Barracas RB"
+    },
+    {
+      "id": 2285,
+      "label": "Barranquilla RB"
+    },
+    {
+      "id": 1706,
+      "label": "Basel RB"
+    },
+    {
+      "id": 210,
+      "label": "Bastia BB"
+    },
+    {
+      "id": 128,
+      "label": "Bayer 04 Leverkusen"
+    },
+    {
+      "id": 16679,
+      "label": "Beijing FC"
+    },
+    {
+      "id": 1169,
+      "label": "Belarus"
+    },
+    {
+      "id": 6155,
+      "label": "Belize"
+    },
+    {
+      "id": 4232,
+      "label": "Benevento GR"
+    },
+    {
+      "id": 6121,
+      "label": "Benin"
+    },
+    {
+      "id": 88041,
+      "label": "Benin"
+    },
+    {
+      "id": 6259,
+      "label": "Berkane ONB"
+    },
+    {
+      "id": 4140,
+      "label": "Berlin RW"
+    },
+    {
+      "id": 6156,
+      "label": "Bermuda"
+    },
+    {
+      "id": 1950,
+      "label": "Bern GS"
+    },
+    {
+      "id": 5195,
+      "label": "Beveren GB"
+    },
+    {
+      "id": 273,
+      "label": "Beşiktaş JK"
+    },
+    {
+      "id": 4941,
+      "label": "BG Pathum United FC"
+    },
+    {
+      "id": 21325,
+      "label": "BG Pathum United FC"
+    },
+    {
+      "id": 6176,
+      "label": "Bhutan"
+    },
+    {
+      "id": 258,
+      "label": "Bilbao BR"
+    },
+    {
+      "id": 201,
+      "label": "Birmingham B"
+    },
+    {
+      "id": 5785,
+      "label": "Birmingham BY"
+    },
+    {
+      "id": 176,
+      "label": "Blackburn BW"
+    },
+    {
+      "id": 4101,
+      "label": "Blaublitz Akita"
+    },
+    {
+      "id": 1258,
+      "label": "Bogotá AB"
+    },
+    {
+      "id": 2654,
+      "label": "Bogotá VB"
+    },
+    {
+      "id": 1128,
+      "label": "Bolivia"
+    },
+    {
+      "id": 186,
+      "label": "Bologna RB"
+    },
+    {
+      "id": 202,
+      "label": "Bolton WB"
+    },
+    {
+      "id": 126,
+      "label": "Borussia Dortmund"
+    },
+    {
+      "id": 1170,
+      "label": "Bosnia and Herzegovina"
+    },
+    {
+      "id": 1246,
+      "label": "Botafogo FR"
+    },
+    {
+      "id": 6061,
+      "label": "Botswana"
+    },
+    {
+      "id": 87981,
+      "label": "Botswana"
+    },
+    {
+      "id": 4071,
+      "label": "Bournemouth RB"
+    },
+    {
+      "id": 2195,
+      "label": "Boyacá A"
+    },
+    {
+      "id": 246,
+      "label": "Breda G"
+    },
+    {
+      "id": 185,
+      "label": "Bremen GW"
+    },
+    {
+      "id": 4180,
+      "label": "Brentford RW"
+    },
+    {
+      "id": 377,
+      "label": "Brighton WB"
+    },
+    {
+      "id": 1760,
+      "label": "Bristol R"
+    },
+    {
+      "id": 6157,
+      "label": "British Virgin Islands"
+    },
+    {
+      "id": 269,
+      "label": "Brugge BZ"
+    },
+    {
+      "id": 2009,
+      "label": "Brugge GZ"
+    },
+    {
+      "id": 6051,
+      "label": "Brunei"
+    },
+    {
+      "id": 1832,
+      "label": "Brøndby GB"
+    },
+    {
+      "id": 5208,
+      "label": "Bucaramanga AV"
+    },
+    {
+      "id": 5918,
+      "label": "Bucheon RW"
+    },
+    {
+      "id": 1238,
+      "label": "Buenos Aires RB"
+    },
+    {
+      "id": 4247,
+      "label": "Burgos NB"
+    },
+    {
+      "id": 1493,
+      "label": "Buriram United F.C."
+    },
+    {
+      "id": 17877,
+      "label": "Buriram United F.C."
+    },
+    {
+      "id": 1044,
+      "label": "Burkina Faso"
+    },
+    {
+      "id": 82964,
+      "label": "Burkina Faso"
+    },
+    {
+      "id": 378,
+      "label": "Burnley RB"
+    },
+    {
+      "id": 6122,
+      "label": "Burundi"
+    },
+    {
+      "id": 139,
+      "label": "CA Boca Juniors"
+    },
+    {
+      "id": 138,
+      "label": "CA River Plate"
+    },
+    {
+      "id": 1046,
+      "label": "Cabo Verde"
+    },
+    {
+      "id": 320,
+      "label": "Cagliari RB"
+    },
+    {
+      "id": 1257,
+      "label": "Cali R"
+    },
+    {
+      "id": 2650,
+      "label": "Cali VB"
+    },
+    {
+      "id": 5745,
+      "label": "Cambodia"
+    },
+    {
+      "id": 81956,
+      "label": "Cameroon"
+    },
+    {
+      "id": 1099,
+      "label": "Canada"
+    },
+    {
+      "id": 379,
+      "label": "Cardiff B"
+    },
+    {
+      "id": 4218,
+      "label": "Carrara AG"
+    },
+    {
+      "id": 5633,
+      "label": "Casa Pia AC"
+    },
+    {
+      "id": 6271,
+      "label": "Casablanca RB"
+    },
+    {
+      "id": 6268,
+      "label": "Casablanca VB"
+    },
+    {
+      "id": 4395,
+      "label": "Castellón NB"
+    },
+    {
+      "id": 4233,
+      "label": "Catanzaro GR"
+    },
+    {
+      "id": 5137,
+      "label": "Caxias do Sul VB"
+    },
+    {
+      "id": 6158,
+      "label": "Cayman Islands"
+    },
+    {
+      "id": 1700,
+      "label": "CD Guadalajara"
+    },
+    {
+      "id": 1944,
+      "label": "CD Nacional"
+    },
+    {
+      "id": 2391,
+      "label": "CD Santa Clara"
+    },
+    {
+      "id": 2454,
+      "label": "Ceará PB"
+    },
+    {
+      "id": 131,
+      "label": "Celtic FC"
+    },
+    {
+      "id": 6123,
+      "label": "Central African Rep."
+    },
+    {
+      "id": 168,
+      "label": "Cerezo Osaka"
+    },
+    {
+      "id": 1362,
+      "label": "Cesena BN"
+    },
+    {
+      "id": 5895,
+      "label": "Ceuta BR"
+    },
+    {
+      "id": 5844,
+      "label": "CF Estrela da Amadora"
+    },
+    {
+      "id": 6124,
+      "label": "Chad"
+    },
+    {
+      "id": 4108,
+      "label": "Chapecoense AF"
+    },
+    {
+      "id": 2010,
+      "label": "Charleroi ZW"
+    },
+    {
+      "id": 5776,
+      "label": "Charleston YB"
+    },
+    {
+      "id": 5832,
+      "label": "Charlotte BBGW"
+    },
+    {
+      "id": 203,
+      "label": "Charlton RW"
+    },
+    {
+      "id": 102,
+      "label": "Chelsea B"
+    },
+    {
+      "id": 22049,
+      "label": "Chengdu Rongcheng FC"
+    },
+    {
+      "id": 6000,
+      "label": "Chiba"
+    },
+    {
+      "id": 4148,
+      "label": "Chicago RW"
+    },
+    {
+      "id": 2699,
+      "label": "Chillán R"
+    },
+    {
+      "id": 49206,
+      "label": "China PR"
+    },
+    {
+      "id": 5746,
+      "label": "Chinese Taipei"
+    },
+    {
+      "id": 4175,
+      "label": "Chonburi FC"
+    },
+    {
+      "id": 5737,
+      "label": "Cincinnati OB"
+    },
+    {
+      "id": 1775,
+      "label": "Ciudad de México AA"
+    },
+    {
+      "id": 407,
+      "label": "Clermont Foot 63"
+    },
+    {
+      "id": 1264,
+      "label": "Club América"
+    },
+    {
+      "id": 5145,
+      "label": "Clube do Remo"
+    },
+    {
+      "id": 4150,
+      "label": "Colorado BB"
+    },
+    {
+      "id": 5793,
+      "label": "Colorado Springs BW"
+    },
+    {
+      "id": 4151,
+      "label": "Columbus BY"
+    },
+    {
+      "id": 4219,
+      "label": "Como 1907"
+    },
+    {
+      "id": 6125,
+      "label": "Comoros"
+    },
+    {
+      "id": 88045,
+      "label": "Comoros"
+    },
+    {
+      "id": 2551,
+      "label": "Concepción AA"
+    },
+    {
+      "id": 2709,
+      "label": "Concepción M"
+    },
+    {
+      "id": 22498,
+      "label": "Cong An Hanoi FC"
+    },
+    {
+      "id": 1087,
+      "label": "Congo"
+    },
+    {
+      "id": 6062,
+      "label": "Congo DR"
+    },
+    {
+      "id": 87982,
+      "label": "Congo DR"
+    },
+    {
+      "id": 144,
+      "label": "Consadole Sapporo"
+    },
+    {
+      "id": 6180,
+      "label": "Cook Islands"
+    },
+    {
+      "id": 2707,
+      "label": "Coquimbo AN"
+    },
+    {
+      "id": 5202,
+      "label": "Corendon Alanyaspor"
+    },
+    {
+      "id": 1931,
+      "label": "Coritiba FBC"
+    },
+    {
+      "id": 4183,
+      "label": "Coventry B"
+    },
+    {
+      "id": 1248,
+      "label": "CR Flamengo"
+    },
+    {
+      "id": 136,
+      "label": "CR Vasco da Gama"
+    },
+    {
+      "id": 4220,
+      "label": "Cremona GR"
+    },
+    {
+      "id": 2460,
+      "label": "Criciúma ABP"
+    },
+    {
+      "id": 274,
+      "label": "Cruzeiro EC"
+    },
+    {
+      "id": 382,
+      "label": "Crystal Palace RB"
+    },
+    {
+      "id": 1976,
+      "label": "CS Marítimo"
+    },
+    {
+      "id": 6159,
+      "label": "Cuba"
+    },
+    {
+      "id": 5142,
+      "label": "Cuiabá VA"
+    },
+    {
+      "id": 6160,
+      "label": "Curaçao"
+    },
+    {
+      "id": 1171,
+      "label": "Cyprus"
+    },
+    {
+      "id": 4308,
+      "label": "Cádiz AA"
+    },
+    {
+      "id": 5210,
+      "label": "Córdoba A"
+    },
+    {
+      "id": 5046,
+      "label": "Córdoba AB"
+    },
+    {
+      "id": 359,
+      "label": "Córdoba VB"
+    },
+    {
+      "id": 1051,
+      "label": "Côte d'Ivoire"
+    },
+    {
+      "id": 82971,
+      "label": "Côte d'Ivoire"
+    },
+    {
+      "id": 2194,
+      "label": "Cúcuta RN"
+    },
+    {
+      "id": 5912,
+      "label": "Daejeon RGW"
+    },
+    {
+      "id": 4153,
+      "label": "Dallas RW"
+    },
+    {
+      "id": 6260,
+      "label": "Dcheira VB"
+    },
+    {
+      "id": 5878,
+      "label": "Denderleeuw BZR"
+    },
+    {
+      "id": 383,
+      "label": "Derby WB"
+    },
+    {
+      "id": 5835,
+      "label": "Detroit BY"
+    },
+    {
+      "id": 1328,
+      "label": "Dijon FCO"
+    },
+    {
+      "id": 6126,
+      "label": "Djibouti"
+    },
+    {
+      "id": 6161,
+      "label": "Dominica"
+    },
+    {
+      "id": 6162,
+      "label": "Dominican Republic"
+    },
+    {
+      "id": 6200,
+      "label": "DPMM FC"
+    },
+    {
+      "id": 5985,
+      "label": "Dream Team"
+    },
+    {
+      "id": 6209,
+      "label": "Dummy 1"
+    },
+    {
+      "id": 6210,
+      "label": "Dummy 2"
+    },
+    {
+      "id": 6211,
+      "label": "Dummy 3"
+    },
+    {
+      "id": 6212,
+      "label": "Dummy 4"
+    },
+    {
+      "id": 6213,
+      "label": "Dummy 5"
+    },
+    {
+      "id": 6214,
+      "label": "Dummy 6"
+    },
+    {
+      "id": 6216,
+      "label": "Dummy 7"
+    },
+    {
+      "id": 6217,
+      "label": "Dummy 8"
+    },
+    {
+      "id": 2621,
+      "label": "Dundee FC"
+    },
+    {
+      "id": 1220,
+      "label": "Dundee United FC"
+    },
+    {
+      "id": 21517,
+      "label": "Eastern SC"
+    },
+    {
+      "id": 2453,
+      "label": "EC Bahia"
+    },
+    {
+      "id": 1937,
+      "label": "EC Vitória"
+    },
+    {
+      "id": 5967,
+      "label": "EFB United"
+    },
+    {
+      "id": 6215,
+      "label": "EFB United"
+    },
+    {
+      "id": 5063,
+      "label": "eFootball FC KIT1"
+    },
+    {
+      "id": 5072,
+      "label": "eFootball FC KIT10"
+    },
+    {
+      "id": 5073,
+      "label": "eFootball FC KIT11"
+    },
+    {
+      "id": 5074,
+      "label": "eFootball FC KIT12"
+    },
+    {
+      "id": 5075,
+      "label": "eFootball FC KIT13"
+    },
+    {
+      "id": 5076,
+      "label": "eFootball FC KIT14"
+    },
+    {
+      "id": 5077,
+      "label": "eFootball FC KIT15"
+    },
+    {
+      "id": 5078,
+      "label": "eFootball FC KIT16"
+    },
+    {
+      "id": 5079,
+      "label": "eFootball FC KIT17"
+    },
+    {
+      "id": 5080,
+      "label": "eFootball FC KIT18"
+    },
+    {
+      "id": 5081,
+      "label": "eFootball FC KIT19"
+    },
+    {
+      "id": 5064,
+      "label": "eFootball FC KIT2"
+    },
+    {
+      "id": 5082,
+      "label": "eFootball FC KIT20"
+    },
+    {
+      "id": 5604,
+      "label": "eFootball FC KIT21"
+    },
+    {
+      "id": 5605,
+      "label": "eFootball FC KIT22"
+    },
+    {
+      "id": 5606,
+      "label": "eFootball FC KIT23"
+    },
+    {
+      "id": 5607,
+      "label": "eFootball FC KIT24"
+    },
+    {
+      "id": 5608,
+      "label": "eFootball FC KIT25"
+    },
+    {
+      "id": 5609,
+      "label": "eFootball FC KIT26"
+    },
+    {
+      "id": 5610,
+      "label": "eFootball FC KIT27"
+    },
+    {
+      "id": 5611,
+      "label": "eFootball FC KIT28"
+    },
+    {
+      "id": 5612,
+      "label": "eFootball FC KIT29"
+    },
+    {
+      "id": 5065,
+      "label": "eFootball FC KIT3"
+    },
+    {
+      "id": 5613,
+      "label": "eFootball FC KIT30"
+    },
+    {
+      "id": 5614,
+      "label": "eFootball FC KIT31"
+    },
+    {
+      "id": 5067,
+      "label": "eFootball FC KIT5"
+    },
+    {
+      "id": 5070,
+      "label": "eFootball FC KIT8"
+    },
+    {
+      "id": 5071,
+      "label": "eFootball FC KIT9"
+    },
+    {
+      "id": 81954,
+      "label": "Egypt"
+    },
+    {
+      "id": 6026,
+      "label": "Ehime"
+    },
+    {
+      "id": 4146,
+      "label": "Eibar AR"
+    },
+    {
+      "id": 226,
+      "label": "Eintracht Frankfurt"
+    },
+    {
+      "id": 6261,
+      "label": "El Jadida VB"
+    },
+    {
+      "id": 5794,
+      "label": "El Paso BY"
+    },
+    {
+      "id": 6163,
+      "label": "El Salvador"
+    },
+    {
+      "id": 2553,
+      "label": "El Salvador BN"
+    },
+    {
+      "id": 361,
+      "label": "Elche BV"
+    },
+    {
+      "id": 4988,
+      "label": "Elda RA"
+    },
+    {
+      "id": 235,
+      "label": "Empoli A"
+    },
+    {
+      "id": 211,
+      "label": "En Avant Guingamp"
+    },
+    {
+      "id": 4230,
+      "label": "Entella BA"
+    },
+    {
+      "id": 6127,
+      "label": "Equatorial Guinea"
+    },
+    {
+      "id": 88047,
+      "label": "Equatorial Guinea"
+    },
+    {
+      "id": 6128,
+      "label": "Eritrea"
+    },
+    {
+      "id": 5353,
+      "label": "Erzurumspor FK"
+    },
+    {
+      "id": 420,
+      "label": "ESTAC Troyes"
+    },
+    {
+      "id": 17960,
+      "label": "Esteghlal FC"
+    },
+    {
+      "id": 1172,
+      "label": "Estonia"
+    },
+    {
+      "id": 6129,
+      "label": "Eswatini"
+    },
+    {
+      "id": 1055,
+      "label": "Ethiopia"
+    },
+    {
+      "id": 6058,
+      "label": "Event Team 2"
+    },
+    {
+      "id": 6059,
+      "label": "Event Team 3"
+    },
+    {
+      "id": 6060,
+      "label": "Event Team 4"
+    },
+    {
+      "id": 6089,
+      "label": "Event Team 5"
+    },
+    {
+      "id": 6090,
+      "label": "Event Team 6"
+    },
+    {
+      "id": 177,
+      "label": "Everton B"
+    },
+    {
+      "id": 344,
+      "label": "Excelsior Rotterdam"
+    },
+    {
+      "id": 1881,
+      "label": "Fagiano Okayama"
+    },
+    {
+      "id": 5317,
+      "label": "Falkirk FC"
+    },
+    {
+      "id": 1173,
+      "label": "Faroe Islands"
+    },
+    {
+      "id": 5652,
+      "label": "Fatih KS"
+    },
+    {
+      "id": 5845,
+      "label": "FC Alverca"
+    },
+    {
+      "id": 22580,
+      "label": "FC Andijan"
+    },
+    {
+      "id": 5685,
+      "label": "FC Annecy"
+    },
+    {
+      "id": 2380,
+      "label": "FC Arouca"
+    },
+    {
+      "id": 108,
+      "label": "FC Barcelona"
+    },
+    {
+      "id": 5028,
+      "label": "FC Famalicão"
+    },
+    {
+      "id": 22153,
+      "label": "FC Goa"
+    },
+    {
+      "id": 244,
+      "label": "FC Groningen"
+    },
+    {
+      "id": 5670,
+      "label": "FC Imabari"
+    },
+    {
+      "id": 21983,
+      "label": "FC Istiklol Dushanbe"
+    },
+    {
+      "id": 414,
+      "label": "FC Lorient"
+    },
+    {
+      "id": 2372,
+      "label": "FC Machida Zelvia"
+    },
+    {
+      "id": 18756,
+      "label": "FC Machida Zelvia"
+    },
+    {
+      "id": 4123,
+      "label": "FC Metz"
+    },
+    {
+      "id": 216,
+      "label": "FC Nantes"
+    },
+    {
+      "id": 20562,
+      "label": "FC Nasaf"
+    },
+    {
+      "id": 16665,
+      "label": "FC Pohang Steelers"
+    },
+    {
+      "id": 192,
+      "label": "FC Porto"
+    },
+    {
+      "id": 16666,
+      "label": "FC Seoul"
+    },
+    {
+      "id": 219,
+      "label": "FC Sochaux-Montbéliard"
+    },
+    {
+      "id": 150,
+      "label": "FC TOKYO"
+    },
+    {
+      "id": 250,
+      "label": "FC Twente"
+    },
+    {
+      "id": 251,
+      "label": "FC Utrecht"
+    },
+    {
+      "id": 197,
+      "label": "Fenerbahçe SK"
+    },
+    {
+      "id": 117,
+      "label": "Feyenoord"
+    },
+    {
+      "id": 6181,
+      "label": "Fiji"
+    },
+    {
+      "id": 124,
+      "label": "Firenze V"
+    },
+    {
+      "id": 2722,
+      "label": "Florencio Varela AV"
+    },
+    {
+      "id": 2452,
+      "label": "Florianópolis AB"
+    },
+    {
+      "id": 1249,
+      "label": "Fluminense FC"
+    },
+    {
+      "id": 5143,
+      "label": "Fortaleza AVB"
+    },
+    {
+      "id": 345,
+      "label": "Fortuna Sittard"
+    },
+    {
+      "id": 5229,
+      "label": "Fredericia RS"
+    },
+    {
+      "id": 227,
+      "label": "Freiburg WR"
+    },
+    {
+      "id": 4234,
+      "label": "Frosinone GA"
+    },
+    {
+      "id": 4105,
+      "label": "Fujieda MYFC"
+    },
+    {
+      "id": 6008,
+      "label": "Fukui"
+    },
+    {
+      "id": 6028,
+      "label": "Fukuoka"
+    },
+    {
+      "id": 5995,
+      "label": "Fukushima"
+    },
+    {
+      "id": 178,
+      "label": "Fulham W"
+    },
+    {
+      "id": 6266,
+      "label": "Fès JN"
+    },
+    {
+      "id": 6063,
+      "label": "Gabon"
+    },
+    {
+      "id": 87983,
+      "label": "Gabon"
+    },
+    {
+      "id": 130,
+      "label": "Galatasaray SK"
+    },
+    {
+      "id": 157,
+      "label": "Gamba Osaka"
+    },
+    {
+      "id": 16541,
+      "label": "Gamba Osaka"
+    },
+    {
+      "id": 22297,
+      "label": "Gangwon FC"
+    },
+    {
+      "id": 5913,
+      "label": "Gangwon O"
+    },
+    {
+      "id": 5356,
+      "label": "Gaziantep FK"
+    },
+    {
+      "id": 2383,
+      "label": "GD Estoril Praia"
+    },
+    {
+      "id": 1195,
+      "label": "Genk BW"
+    },
+    {
+      "id": 323,
+      "label": "Genova RB"
+    },
+    {
+      "id": 1196,
+      "label": "Gent BW"
+    },
+    {
+      "id": 1230,
+      "label": "Gençlerbirliği SK"
+    },
+    {
+      "id": 1174,
+      "label": "Georgia"
+    },
+    {
+      "id": 362,
+      "label": "Getafe A"
+    },
+    {
+      "id": 1058,
+      "label": "Ghana"
+    },
+    {
+      "id": 5439,
+      "label": "Gibraltar"
+    },
+    {
+      "id": 6009,
+      "label": "Gifu"
+    },
+    {
+      "id": 363,
+      "label": "Gijón RB"
+    },
+    {
+      "id": 2387,
+      "label": "Gil Vicente FC"
+    },
+    {
+      "id": 5924,
+      "label": "Gimcheon RW"
+    },
+    {
+      "id": 2187,
+      "label": "Girona R"
+    },
+    {
+      "id": 346,
+      "label": "Go Ahead Eagles"
+    },
+    {
+      "id": 1933,
+      "label": "Goiás V"
+    },
+    {
+      "id": 2451,
+      "label": "Goiânia PV"
+    },
+    {
+      "id": 1765,
+      "label": "Granada RB"
+    },
+    {
+      "id": 6164,
+      "label": "Grenada"
+    },
+    {
+      "id": 4370,
+      "label": "Grenoble Foot 38"
+    },
+    {
+      "id": 1250,
+      "label": "Grêmio FBPA"
+    },
+    {
+      "id": 5747,
+      "label": "Guam"
+    },
+    {
+      "id": 6065,
+      "label": "Guatemala"
+    },
+    {
+      "id": 1059,
+      "label": "Guinea"
+    },
+    {
+      "id": 6131,
+      "label": "Guinea-Bissau"
+    },
+    {
+      "id": 5998,
+      "label": "Gunma"
+    },
+    {
+      "id": 6165,
+      "label": "Guyana"
+    },
+    {
+      "id": 5914,
+      "label": "Gwangju Y"
+    },
+    {
+      "id": 5203,
+      "label": "Göztepe SK"
+    },
+    {
+      "id": 5226,
+      "label": "Haderslev HB"
+    },
+    {
+      "id": 6166,
+      "label": "Haiti"
+    },
+    {
+      "id": 129,
+      "label": "Hamburg BWS"
+    },
+    {
+      "id": 5778,
+      "label": "Hartford GB"
+    },
+    {
+      "id": 413,
+      "label": "Havre AC"
+    },
+    {
+      "id": 1221,
+      "label": "Heart of Midlothian FC"
+    },
+    {
+      "id": 1222,
+      "label": "Hibernian FC"
+    },
+    {
+      "id": 6022,
+      "label": "Hiroshima"
+    },
+    {
+      "id": 5989,
+      "label": "Hokkaido"
+    },
+    {
+      "id": 5748,
+      "label": "Hong Kong, China"
+    },
+    {
+      "id": 2066,
+      "label": "Horsens GS"
+    },
+    {
+      "id": 4154,
+      "label": "Houston O"
+    },
+    {
+      "id": 2188,
+      "label": "Huesca RA"
+    },
+    {
+      "id": 1589,
+      "label": "Hull OB"
+    },
+    {
+      "id": 6016,
+      "label": "Hyogo"
+    },
+    {
+      "id": 5996,
+      "label": "Ibaraki"
+    },
+    {
+      "id": 1175,
+      "label": "Iceland"
+    },
+    {
+      "id": 5820,
+      "label": "ikas Eyüpspor"
+    },
+    {
+      "id": 6201,
+      "label": "Immigration FC"
+    },
+    {
+      "id": 5915,
+      "label": "Incheon BB"
+    },
+    {
+      "id": 5749,
+      "label": "India"
+    },
+    {
+      "id": 5787,
+      "label": "Indiana B"
+    },
+    {
+      "id": 5750,
+      "label": "Indonesia"
+    },
+    {
+      "id": 54902,
+      "label": "Indonesia"
+    },
+    {
+      "id": 119,
+      "label": "Internazionale Milano"
+    },
+    {
+      "id": 386,
+      "label": "Ipswich BW"
+    },
+    {
+      "id": 49207,
+      "label": "IR Iran"
+    },
+    {
+      "id": 1010,
+      "label": "Iraq"
+    },
+    {
+      "id": 50162,
+      "label": "Iraq"
+    },
+    {
+      "id": 6007,
+      "label": "Ishikawa"
+    },
+    {
+      "id": 1164,
+      "label": "Israel"
+    },
+    {
+      "id": 5842,
+      "label": "IWAKI FC"
+    },
+    {
+      "id": 5991,
+      "label": "Iwate"
+    },
+    {
+      "id": 49204,
+      "label": "Japan"
+    },
+    {
+      "id": 148,
+      "label": "JEF United Chiba"
+    },
+    {
+      "id": 5135,
+      "label": "Jeju O"
+    },
+    {
+      "id": 279,
+      "label": "Jeonju G"
+    },
+    {
+      "id": 4948,
+      "label": "Johor Darul Ta'zim FC"
+    },
+    {
+      "id": 21332,
+      "label": "Johor Darul Ta'zim FC"
+    },
+    {
+      "id": 1011,
+      "label": "Jordan"
+    },
+    {
+      "id": 50163,
+      "label": "Jordan"
+    },
+    {
+      "id": 154,
+      "label": "Jubilo Iwata"
+    },
+    {
+      "id": 2730,
+      "label": "Junín V"
+    },
+    {
+      "id": 6025,
+      "label": "Kagawa"
+    },
+    {
+      "id": 6034,
+      "label": "Kagoshima"
+    },
+    {
+      "id": 6002,
+      "label": "Kanagawa"
+    },
+    {
+      "id": 5965,
+      "label": "Kanchanaburi DD"
+    },
+    {
+      "id": 4164,
+      "label": "Kansas City BW"
+    },
+    {
+      "id": 146,
+      "label": "Kashima Antlers"
+    },
+    {
+      "id": 149,
+      "label": "Kashiwa Reysol"
+    },
+    {
+      "id": 2625,
+      "label": "Kasımpaşa SK"
+    },
+    {
+      "id": 1880,
+      "label": "Kataller Toyama"
+    },
+    {
+      "id": 163,
+      "label": "Kawasaki Frontale"
+    },
+    {
+      "id": 22159,
+      "label": "Kaya FC-Iloilo"
+    },
+    {
+      "id": 1996,
+      "label": "Kayseri KS"
+    },
+    {
+      "id": 1176,
+      "label": "Kazakhstan"
+    },
+    {
+      "id": 6202,
+      "label": "Kelantan TRW FC"
+    },
+    {
+      "id": 5986,
+      "label": "Kenya"
+    },
+    {
+      "id": 1985,
+      "label": "Kilmarnock FC"
+    },
+    {
+      "id": 5821,
+      "label": "Kocaelispor"
+    },
+    {
+      "id": 6027,
+      "label": "Kochi"
+    },
+    {
+      "id": 1012,
+      "label": "Korea DPR"
+    },
+    {
+      "id": 50164,
+      "label": "Korea DPR"
+    },
+    {
+      "id": 49205,
+      "label": "Korea Republic"
+    },
+    {
+      "id": 2013,
+      "label": "Kortrijk RW"
+    },
+    {
+      "id": 5440,
+      "label": "Kosovo"
+    },
+    {
+      "id": 6112,
+      "label": "Kuala Lumpur City FC"
+    },
+    {
+      "id": 6203,
+      "label": "Kuching City FC"
+    },
+    {
+      "id": 6031,
+      "label": "Kumamoto"
+    },
+    {
+      "id": 1013,
+      "label": "Kuwait"
+    },
+    {
+      "id": 50165,
+      "label": "Kuwait"
+    },
+    {
+      "id": 6014,
+      "label": "Kyoto"
+    },
+    {
+      "id": 156,
+      "label": "Kyoto Sanga F.C."
+    },
+    {
+      "id": 5751,
+      "label": "Kyrgyz Republic"
+    },
+    {
+      "id": 54903,
+      "label": "Kyrgyz Republic"
+    },
+    {
+      "id": 1207,
+      "label": "København HB"
+    },
+    {
+      "id": 2546,
+      "label": "La Calera R"
+    },
+    {
+      "id": 111,
+      "label": "La Coruña AB"
+    },
+    {
+      "id": 5371,
+      "label": "La Fortaleza RA"
+    },
+    {
+      "id": 6067,
+      "label": "La Louvière GW"
+    },
+    {
+      "id": 1236,
+      "label": "La Paternal RB"
+    },
+    {
+      "id": 1239,
+      "label": "La Plata AB"
+    },
+    {
+      "id": 2544,
+      "label": "La Serena R"
+    },
+    {
+      "id": 1600,
+      "label": "La Spezia B"
+    },
+    {
+      "id": 5829,
+      "label": "Lamphun Warriors FC"
+    },
+    {
+      "id": 1929,
+      "label": "Lanús M"
+    },
+    {
+      "id": 5988,
+      "label": "Laos"
+    },
+    {
+      "id": 364,
+      "label": "Las Palmas AA"
+    },
+    {
+      "id": 5800,
+      "label": "Las Vegas BYBR"
+    },
+    {
+      "id": 4964,
+      "label": "Lausanne BW"
+    },
+    {
+      "id": 212,
+      "label": "Le Mans FC"
+    },
+    {
+      "id": 1015,
+      "label": "Lebanon"
+    },
+    {
+      "id": 4237,
+      "label": "Lecce GR"
+    },
+    {
+      "id": 104,
+      "label": "Leeds W"
+    },
+    {
+      "id": 4272,
+      "label": "Leganés AB"
+    },
+    {
+      "id": 204,
+      "label": "Leicester B"
+    },
+    {
+      "id": 5010,
+      "label": "Leipzig RW"
+    },
+    {
+      "id": 6132,
+      "label": "Lesotho"
+    },
+    {
+      "id": 5217,
+      "label": "Leuven WZRG"
+    },
+    {
+      "id": 366,
+      "label": "Levante RA"
+    },
+    {
+      "id": 6091,
+      "label": "Lexington GBW"
+    },
+    {
+      "id": 4252,
+      "label": "León B"
+    },
+    {
+      "id": 6133,
+      "label": "Liberia"
+    },
+    {
+      "id": 6134,
+      "label": "Libya"
+    },
+    {
+      "id": 1177,
+      "label": "Liechtenstein"
+    },
+    {
+      "id": 240,
+      "label": "Liguria B"
+    },
+    {
+      "id": 5980,
+      "label": "Limache R"
+    },
+    {
+      "id": 5624,
+      "label": "Lincoln RW"
+    },
+    {
+      "id": 1244,
+      "label": "Liniers AB"
+    },
+    {
+      "id": 21982,
+      "label": "Lion City Sailors FC"
+    },
+    {
+      "id": 1178,
+      "label": "Lithuania"
+    },
+    {
+      "id": 103,
+      "label": "Liverpool R"
+    },
+    {
+      "id": 5319,
+      "label": "Livingston YB"
+    },
+    {
+      "id": 1197,
+      "label": "Liège RW"
+    },
+    {
+      "id": 259,
+      "label": "Llobregat AB"
+    },
+    {
+      "id": 5422,
+      "label": "Lommel GW"
+    },
+    {
+      "id": 5048,
+      "label": "Londrina AB"
+    },
+    {
+      "id": 5741,
+      "label": "Los Angeles BY"
+    },
+    {
+      "id": 4155,
+      "label": "Los Angeles WBY"
+    },
+    {
+      "id": 213,
+      "label": "LOSC Lille"
+    },
+    {
+      "id": 5779,
+      "label": "Loudoun RW"
+    },
+    {
+      "id": 5788,
+      "label": "Louisville PW"
+    },
+    {
+      "id": 4965,
+      "label": "Lugano SW"
+    },
+    {
+      "id": 1179,
+      "label": "Luxembourg"
+    },
+    {
+      "id": 4962,
+      "label": "Luzern BW"
+    },
+    {
+      "id": 5224,
+      "label": "Lyngby HB"
+    },
+    {
+      "id": 22573,
+      "label": "Macarthur FC"
+    },
+    {
+      "id": 6177,
+      "label": "Macau"
+    },
+    {
+      "id": 2506,
+      "label": "Maceió VB"
+    },
+    {
+      "id": 6135,
+      "label": "Madagascar"
+    },
+    {
+      "id": 109,
+      "label": "Madrid Chamartin B"
+    },
+    {
+      "id": 172,
+      "label": "Madrid Rosas RB"
+    },
+    {
+      "id": 436,
+      "label": "Mainz RW"
+    },
+    {
+      "id": 6136,
+      "label": "Malawi"
+    },
+    {
+      "id": 5752,
+      "label": "Malaysia"
+    },
+    {
+      "id": 5753,
+      "label": "Maldives"
+    },
+    {
+      "id": 1067,
+      "label": "Mali"
+    },
+    {
+      "id": 82987,
+      "label": "Mali"
+    },
+    {
+      "id": 261,
+      "label": "Mallorca RN"
+    },
+    {
+      "id": 1181,
+      "label": "Malta"
+    },
+    {
+      "id": 173,
+      "label": "Manchester B"
+    },
+    {
+      "id": 100,
+      "label": "Manchester United"
+    },
+    {
+      "id": 2284,
+      "label": "Manizales B"
+    },
+    {
+      "id": 4379,
+      "label": "Mantova BR"
+    },
+    {
+      "id": 2717,
+      "label": "Mar del Plata VA"
+    },
+    {
+      "id": 6265,
+      "label": "Marrakech RB"
+    },
+    {
+      "id": 6137,
+      "label": "Mauritania"
+    },
+    {
+      "id": 6138,
+      "label": "Mauritius"
+    },
+    {
+      "id": 1200,
+      "label": "Mechelen GR"
+    },
+    {
+      "id": 2210,
+      "label": "Medellín RA"
+    },
+    {
+      "id": 2193,
+      "label": "Medellín V"
+    },
+    {
+      "id": 6258,
+      "label": "Meknès RB"
+    },
+    {
+      "id": 6204,
+      "label": "Melaka FC"
+    },
+    {
+      "id": 22157,
+      "label": "Melbourne City FC"
+    },
+    {
+      "id": 4997,
+      "label": "Mendoza NB"
+    },
+    {
+      "id": 5780,
+      "label": "Miami BO"
+    },
+    {
+      "id": 5738,
+      "label": "Miami BP"
+    },
+    {
+      "id": 205,
+      "label": "Middlesbrough RW"
+    },
+    {
+      "id": 2069,
+      "label": "Midtjylland SR"
+    },
+    {
+      "id": 6012,
+      "label": "Mie"
+    },
+    {
+      "id": 387,
+      "label": "Millwall BW"
+    },
+    {
+      "id": 1245,
+      "label": "Minas Gerais PB"
+    },
+    {
+      "id": 2450,
+      "label": "Minas Gerais VP"
+    },
+    {
+      "id": 5742,
+      "label": "Minnesota GB"
+    },
+    {
+      "id": 2616,
+      "label": "Miranda de Ebro RN"
+    },
+    {
+      "id": 5767,
+      "label": "Mirassol FC"
+    },
+    {
+      "id": 161,
+      "label": "Mito Hollyhock"
+    },
+    {
+      "id": 5992,
+      "label": "Miyagi"
+    },
+    {
+      "id": 6033,
+      "label": "Miyazaki"
+    },
+    {
+      "id": 237,
+      "label": "Modena GB"
+    },
+    {
+      "id": 22422,
+      "label": "Mohun Bagan Super Giant"
+    },
+    {
+      "id": 1182,
+      "label": "Moldova"
+    },
+    {
+      "id": 5754,
+      "label": "Mongolia"
+    },
+    {
+      "id": 160,
+      "label": "Montedio Yamagata"
+    },
+    {
+      "id": 1551,
+      "label": "Montenegro"
+    },
+    {
+      "id": 5833,
+      "label": "Monterey BB"
+    },
+    {
+      "id": 215,
+      "label": "Montpellier Hérault SC"
+    },
+    {
+      "id": 4156,
+      "label": "Montreal BWB"
+    },
+    {
+      "id": 6167,
+      "label": "Montserrat"
+    },
+    {
+      "id": 4914,
+      "label": "Monza RB"
+    },
+    {
+      "id": 2388,
+      "label": "Moreirense FC"
+    },
+    {
+      "id": 81952,
+      "label": "Morocco"
+    },
+    {
+      "id": 1986,
+      "label": "Motherwell FC"
+    },
+    {
+      "id": 6139,
+      "label": "Mozambique"
+    },
+    {
+      "id": 88059,
+      "label": "Mozambique"
+    },
+    {
+      "id": 2643,
+      "label": "Muang Thong Thani DDK"
+    },
+    {
+      "id": 5755,
+      "label": "Myanmar"
+    },
+    {
+      "id": 5807,
+      "label": "myClub Default"
+    },
+    {
+      "id": 260,
+      "label": "Málaga AB"
+    },
+    {
+      "id": 225,
+      "label": "Mönchengladbach SWG"
+    },
+    {
+      "id": 127,
+      "label": "München RW"
+    },
+    {
+      "id": 247,
+      "label": "N.E.C. Nijmegen"
+    },
+    {
+      "id": 6005,
+      "label": "Nagano"
+    },
+    {
+      "id": 6030,
+      "label": "Nagasaki"
+    },
+    {
+      "id": 155,
+      "label": "Nagoya Grampus"
+    },
+    {
+      "id": 5397,
+      "label": "Nakhon Ratchasima S"
+    },
+    {
+      "id": 22428,
+      "label": "Nam Dinh FC"
+    },
+    {
+      "id": 6140,
+      "label": "Namibia"
+    },
+    {
+      "id": 327,
+      "label": "Napoli A"
+    },
+    {
+      "id": 6017,
+      "label": "Nara"
+    },
+    {
+      "id": 5739,
+      "label": "Nashville YB"
+    },
+    {
+      "id": 6205,
+      "label": "Negeri Sembilan FC"
+    },
+    {
+      "id": 5756,
+      "label": "Nepal"
+    },
+    {
+      "id": 6182,
+      "label": "New Caledonia"
+    },
+    {
+      "id": 4157,
+      "label": "New England BW"
+    },
+    {
+      "id": 5795,
+      "label": "New Mexico YB"
+    },
+    {
+      "id": 5061,
+      "label": "New York City B"
+    },
+    {
+      "id": 4158,
+      "label": "New York WR"
+    },
+    {
+      "id": 1141,
+      "label": "New Zealand"
+    },
+    {
+      "id": 106,
+      "label": "Newcastle WB"
+    },
+    {
+      "id": 6168,
+      "label": "Nicaragua"
+    },
+    {
+      "id": 6141,
+      "label": "Niger"
+    },
+    {
+      "id": 81955,
+      "label": "Nigeria"
+    },
+    {
+      "id": 6003,
+      "label": "Niigata"
+    },
+    {
+      "id": 1208,
+      "label": "Nordsjælland RG"
+    },
+    {
+      "id": 5971,
+      "label": "North Carolina BRY"
+    },
+    {
+      "id": 1180,
+      "label": "North Macedonia"
+    },
+    {
+      "id": 388,
+      "label": "Norwich YG"
+    },
+    {
+      "id": 389,
+      "label": "Nottingham RW"
+    },
+    {
+      "id": 5768,
+      "label": "Novo Horizonte AP"
+    },
+    {
+      "id": 5366,
+      "label": "Nueva Pompeya NB"
+    },
+    {
+      "id": 1782,
+      "label": "Nuevo León AA"
+    },
+    {
+      "id": 5801,
+      "label": "Oakland BW"
+    },
+    {
+      "id": 2070,
+      "label": "Odense HB"
+    },
+    {
+      "id": 217,
+      "label": "OGC Nice"
+    },
+    {
+      "id": 6032,
+      "label": "Oita"
+    },
+    {
+      "id": 171,
+      "label": "Oita Trinita"
+    },
+    {
+      "id": 6021,
+      "label": "Okayama"
+    },
+    {
+      "id": 6035,
+      "label": "Okinawa"
+    },
+    {
+      "id": 113,
+      "label": "Olympique de Marseille"
+    },
+    {
+      "id": 181,
+      "label": "Olympique Lyonnais"
+    },
+    {
+      "id": 1022,
+      "label": "Oman"
+    },
+    {
+      "id": 50174,
+      "label": "Oman"
+    },
+    {
+      "id": 5802,
+      "label": "Orange BO"
+    },
+    {
+      "id": 5062,
+      "label": "Orlando PW"
+    },
+    {
+      "id": 6015,
+      "label": "Osaka"
+    },
+    {
+      "id": 4260,
+      "label": "Oviedo A"
+    },
+    {
+      "id": 5086,
+      "label": "Oxford BY"
+    },
+    {
+      "id": 2320,
+      "label": "Padova BR"
+    },
+    {
+      "id": 6178,
+      "label": "Pakistan"
+    },
+    {
+      "id": 238,
+      "label": "Palermo RN"
+    },
+    {
+      "id": 5757,
+      "label": "Palestine"
+    },
+    {
+      "id": 54909,
+      "label": "Palestine"
+    },
+    {
+      "id": 263,
+      "label": "Pamplona RA"
+    },
+    {
+      "id": 1113,
+      "label": "Panama"
+    },
+    {
+      "id": 6183,
+      "label": "Papua New Guinea"
+    },
+    {
+      "id": 4211,
+      "label": "Paris FC"
+    },
+    {
+      "id": 114,
+      "label": "Paris Saint-Germain"
+    },
+    {
+      "id": 123,
+      "label": "Parma Calcio 1913"
+    },
+    {
+      "id": 1922,
+      "label": "Parque Patricios R"
+    },
+    {
+      "id": 2651,
+      "label": "Pasto RAA"
+    },
+    {
+      "id": 6242,
+      "label": "Pattani FC"
+    },
+    {
+      "id": 5099,
+      "label": "Pau FC"
+    },
+    {
+      "id": 6206,
+      "label": "PDRM FC"
+    },
+    {
+      "id": 256,
+      "label": "PEC Zwolle"
+    },
+    {
+      "id": 6207,
+      "label": "Penang FC"
+    },
+    {
+      "id": 5370,
+      "label": "Pereira AR"
+    },
+    {
+      "id": 21329,
+      "label": "Persib Bandung"
+    },
+    {
+      "id": 199,
+      "label": "PES United"
+    },
+    {
+      "id": 328,
+      "label": "Pescara BA"
+    },
+    {
+      "id": 4159,
+      "label": "Philadelphia BY"
+    },
+    {
+      "id": 5758,
+      "label": "Philippines"
+    },
+    {
+      "id": 5803,
+      "label": "Phoenix RY"
+    },
+    {
+      "id": 120,
+      "label": "Piemonte BN"
+    },
+    {
+      "id": 4241,
+      "label": "Pisa NA"
+    },
+    {
+      "id": 5782,
+      "label": "Pittsburgh YB"
+    },
+    {
+      "id": 281,
+      "label": "Pohang RB"
+    },
+    {
+      "id": 5433,
+      "label": "Ponta Grossa PB"
+    },
+    {
+      "id": 2465,
+      "label": "Ponte Preta BP"
+    },
+    {
+      "id": 5401,
+      "label": "Port FC"
+    },
+    {
+      "id": 4160,
+      "label": "Portland GW"
+    },
+    {
+      "id": 4365,
+      "label": "Portsmouth B"
+    },
+    {
+      "id": 4192,
+      "label": "Preston WB"
+    },
+    {
+      "id": 118,
+      "label": "PSV"
+    },
+    {
+      "id": 5402,
+      "label": "PT Prachuap FC"
+    },
+    {
+      "id": 6169,
+      "label": "Puerto Rico"
+    },
+    {
+      "id": 1026,
+      "label": "Qatar"
+    },
+    {
+      "id": 50178,
+      "label": "Qatar"
+    },
+    {
+      "id": 1327,
+      "label": "Queen's Park BW"
+    },
+    {
+      "id": 6272,
+      "label": "Rabat BB"
+    },
+    {
+      "id": 6270,
+      "label": "Rabat JN"
+    },
+    {
+      "id": 6262,
+      "label": "Rabat RBN"
+    },
+    {
+      "id": 6257,
+      "label": "Rabat VNR"
+    },
+    {
+      "id": 1995,
+      "label": "RAMS Başakşehir FK"
+    },
+    {
+      "id": 2541,
+      "label": "Rancagua A"
+    },
+    {
+      "id": 2071,
+      "label": "Randers B"
+    },
+    {
+      "id": 132,
+      "label": "Rangers FC"
+    },
+    {
+      "id": 6243,
+      "label": "Rasisalai United FC"
+    },
+    {
+      "id": 5403,
+      "label": "Ratchaburi FC"
+    },
+    {
+      "id": 21787,
+      "label": "Ratchaburi FC"
+    },
+    {
+      "id": 5416,
+      "label": "Rayong FC"
+    },
+    {
+      "id": 162,
+      "label": "RB Omiya Ardija"
+    },
+    {
+      "id": 182,
+      "label": "RC Lens"
+    },
+    {
+      "id": 4213,
+      "label": "RC Strasbourg Alsace"
+    },
+    {
+      "id": 1935,
+      "label": "Recife Aflitos VB"
+    },
+    {
+      "id": 1936,
+      "label": "Recife PV"
+    },
+    {
+      "id": 2459,
+      "label": "Red Bull Bragantino"
+    },
+    {
+      "id": 4212,
+      "label": "Red Star FC"
+    },
+    {
+      "id": 4225,
+      "label": "Reggio Emilia G"
+    },
+    {
+      "id": 5972,
+      "label": "Rhode Island YB"
+    },
+    {
+      "id": 5139,
+      "label": "Ribeirão Preto BVP"
+    },
+    {
+      "id": 1979,
+      "label": "Rio Ave FC"
+    },
+    {
+      "id": 2653,
+      "label": "Rionegro RA"
+    },
+    {
+      "id": 2726,
+      "label": "Rivadavia A"
+    },
+    {
+      "id": 4372,
+      "label": "Rodez Aveyron Football"
+    },
+    {
+      "id": 125,
+      "label": "Roma GR"
+    },
+    {
+      "id": 1242,
+      "label": "Rosario AA"
+    },
+    {
+      "id": 1241,
+      "label": "Rosario RN"
+    },
+    {
+      "id": 6142,
+      "label": "Rwanda"
+    },
+    {
+      "id": 5659,
+      "label": "Río Cuarto AB"
+    },
+    {
+      "id": 122,
+      "label": "S.S. Lazio"
+    },
+    {
+      "id": 2523,
+      "label": "Sabadell AB"
+    },
+    {
+      "id": 6208,
+      "label": "Sabah FC"
+    },
+    {
+      "id": 5804,
+      "label": "Sacramento BR"
+    },
+    {
+      "id": 6267,
+      "label": "Safi RB"
+    },
+    {
+      "id": 6029,
+      "label": "Saga"
+    },
+    {
+      "id": 170,
+      "label": "Sagan Tosu"
+    },
+    {
+      "id": 6171,
+      "label": "Saint Lucia"
+    },
+    {
+      "id": 5220,
+      "label": "Saint-Gilles BG"
+    },
+    {
+      "id": 5999,
+      "label": "Saitama"
+    },
+    {
+      "id": 4161,
+      "label": "Salt Lake RB"
+    },
+    {
+      "id": 6184,
+      "label": "Samoa"
+    },
+    {
+      "id": 5361,
+      "label": "Samsunspor"
+    },
+    {
+      "id": 5798,
+      "label": "San Antonio BG"
+    },
+    {
+      "id": 6084,
+      "label": "San Diego BW"
+    },
+    {
+      "id": 4162,
+      "label": "San Jose BB"
+    },
+    {
+      "id": 1183,
+      "label": "San Marino"
+    },
+    {
+      "id": 159,
+      "label": "Sanfrecce Hiroshima"
+    },
+    {
+      "id": 16543,
+      "label": "Sanfrecce Hiroshima"
+    },
+    {
+      "id": 4937,
+      "label": "Sankt Gallen GW"
+    },
+    {
+      "id": 2657,
+      "label": "Santa Fe de Bogotá R"
+    },
+    {
+      "id": 2538,
+      "label": "Santa Fe RB"
+    },
+    {
+      "id": 264,
+      "label": "Santander VB"
+    },
+    {
+      "id": 2209,
+      "label": "Santiago A"
+    },
+    {
+      "id": 1256,
+      "label": "Santiago B"
+    },
+    {
+      "id": 2191,
+      "label": "Santiago BAR"
+    },
+    {
+      "id": 4995,
+      "label": "Santiago del Estero BN"
+    },
+    {
+      "id": 2548,
+      "label": "Santiago RBV"
+    },
+    {
+      "id": 2192,
+      "label": "Santiago VB"
+    },
+    {
+      "id": 1254,
+      "label": "Santos FC"
+    },
+    {
+      "id": 1919,
+      "label": "Sassuolo NV"
+    },
+    {
+      "id": 49208,
+      "label": "Saudi Arabia"
+    },
+    {
+      "id": 338,
+      "label": "SC Cambuur Leeuwarden"
+    },
+    {
+      "id": 1247,
+      "label": "SC Corinthians Paulista"
+    },
+    {
+      "id": 245,
+      "label": "sc Heerenveen"
+    },
+    {
+      "id": 1252,
+      "label": "SC Internacional"
+    },
+    {
+      "id": 184,
+      "label": "Schalke BW"
+    },
+    {
+      "id": 137,
+      "label": "SE Palmeiras"
+    },
+    {
+      "id": 4163,
+      "label": "Seattle GB"
+    },
+    {
+      "id": 6041,
+      "label": "Selangor FC"
+    },
+    {
+      "id": 22425,
+      "label": "Selangor FC"
+    },
+    {
+      "id": 81958,
+      "label": "Senegal"
+    },
+    {
+      "id": 282,
+      "label": "Seoul BR"
+    },
+    {
+      "id": 17725,
+      "label": "Sepahan SC"
+    },
+    {
+      "id": 1550,
+      "label": "Serbia"
+    },
+    {
+      "id": 1958,
+      "label": "Servette R"
+    },
+    {
+      "id": 265,
+      "label": "Sevilla Nervión BR"
+    },
+    {
+      "id": 194,
+      "label": "Sevilla Triana VB"
+    },
+    {
+      "id": 6144,
+      "label": "Seychelles"
+    },
+    {
+      "id": 20560,
+      "label": "Shabab Al Ahli Dubai FC"
+    },
+    {
+      "id": 20478,
+      "label": "Shanghai Port FC"
+    },
+    {
+      "id": 21557,
+      "label": "Shanghai Shenhua FC"
+    },
+    {
+      "id": 22060,
+      "label": "Sharjah FC"
+    },
+    {
+      "id": 394,
+      "label": "Sheffield BW"
+    },
+    {
+      "id": 4194,
+      "label": "Sheffield RB"
+    },
+    {
+      "id": 6013,
+      "label": "Shiga"
+    },
+    {
+      "id": 6020,
+      "label": "Shimane"
+    },
+    {
+      "id": 153,
+      "label": "Shimizu S-Pulse"
+    },
+    {
+      "id": 6010,
+      "label": "Shizuoka"
+    },
+    {
+      "id": 165,
+      "label": "Shonan Bellmare"
+    },
+    {
+      "id": 6145,
+      "label": "Sierra Leone"
+    },
+    {
+      "id": 5225,
+      "label": "Silkeborg RH"
+    },
+    {
+      "id": 5759,
+      "label": "Singapore"
+    },
+    {
+      "id": 5395,
+      "label": "Singha Chiangrai United"
+    },
+    {
+      "id": 5194,
+      "label": "Sint-Truiden GB"
+    },
+    {
+      "id": 1955,
+      "label": "Sion RW"
+    },
+    {
+      "id": 6087,
+      "label": "Sisaket United FC"
+    },
+    {
+      "id": 191,
+      "label": "SL Benfica"
+    },
+    {
+      "id": 6185,
+      "label": "Solomon Islands"
+    },
+    {
+      "id": 5987,
+      "label": "Somalia"
+    },
+    {
+      "id": 81957,
+      "label": "South Africa"
+    },
+    {
+      "id": 6146,
+      "label": "South Sudan"
+    },
+    {
+      "id": 207,
+      "label": "Southampton RW"
+    },
+    {
+      "id": 351,
+      "label": "Sparta Rotterdam"
+    },
+    {
+      "id": 1974,
+      "label": "Sporting Braga"
+    },
+    {
+      "id": 193,
+      "label": "Sporting CP"
+    },
+    {
+      "id": 5760,
+      "label": "Sri Lanka"
+    },
+    {
+      "id": 6170,
+      "label": "St Kitts and Nevis"
+    },
+    {
+      "id": 6172,
+      "label": "St Vincent & Grenadines"
+    },
+    {
+      "id": 2365,
+      "label": "St. Johnstone FC"
+    },
+    {
+      "id": 5903,
+      "label": "St. Louis PB"
+    },
+    {
+      "id": 1987,
+      "label": "St. Mirren FC"
+    },
+    {
+      "id": 2517,
+      "label": "Stabia GB"
+    },
+    {
+      "id": 1329,
+      "label": "Stade Brestois 29"
+    },
+    {
+      "id": 1330,
+      "label": "Stade de Reims"
+    },
+    {
+      "id": 412,
+      "label": "Stade Lavallois MFC"
+    },
+    {
+      "id": 218,
+      "label": "Stade Rennais FC"
+    },
+    {
+      "id": 395,
+      "label": "Stoke RW"
+    },
+    {
+      "id": 231,
+      "label": "Stuttgart WR"
+    },
+    {
+      "id": 6147,
+      "label": "Sudan"
+    },
+    {
+      "id": 88067,
+      "label": "Sudan"
+    },
+    {
+      "id": 5404,
+      "label": "Sukhothai FC"
+    },
+    {
+      "id": 396,
+      "label": "Sunderland RWB"
+    },
+    {
+      "id": 6173,
+      "label": "Suriname"
+    },
+    {
+      "id": 1909,
+      "label": "Swansea W"
+    },
+    {
+      "id": 1029,
+      "label": "Syria"
+    },
+    {
+      "id": 5911,
+      "label": "São Bernardo AP"
+    },
+    {
+      "id": 5973,
+      "label": "São João del-Rei PB"
+    },
+    {
+      "id": 1255,
+      "label": "São Paulo F.C."
+    },
+    {
+      "id": 6143,
+      "label": "São Tomé and Príncipe"
+    },
+    {
+      "id": 4228,
+      "label": "Südtirol BR"
+    },
+    {
+      "id": 6186,
+      "label": "Tahiti"
+    },
+    {
+      "id": 22575,
+      "label": "Tai Po FC"
+    },
+    {
+      "id": 5761,
+      "label": "Tajikistan"
+    },
+    {
+      "id": 2545,
+      "label": "Talcahuano AN"
+    },
+    {
+      "id": 5783,
+      "label": "Tampa Bay GY"
+    },
+    {
+      "id": 20499,
+      "label": "Tampines Rovers FC"
+    },
+    {
+      "id": 6264,
+      "label": "Tanger BB"
+    },
+    {
+      "id": 6148,
+      "label": "Tanzania"
+    },
+    {
+      "id": 88068,
+      "label": "Tanzania"
+    },
+    {
+      "id": 5984,
+      "label": "Team Blue"
+    },
+    {
+      "id": 5983,
+      "label": "Team Yellow"
+    },
+    {
+      "id": 5723,
+      "label": "Tegevajaro Miyazaki"
+    },
+    {
+      "id": 352,
+      "label": "Telstar"
+    },
+    {
+      "id": 4147,
+      "label": "Tenerife AB"
+    },
+    {
+      "id": 6113,
+      "label": "Terengganu FC"
+    },
+    {
+      "id": 1031,
+      "label": "Thailand"
+    },
+    {
+      "id": 6130,
+      "label": "The Gambia"
+    },
+    {
+      "id": 4938,
+      "label": "Thun RW"
+    },
+    {
+      "id": 6052,
+      "label": "Timor-Leste"
+    },
+    {
+      "id": 5997,
+      "label": "Tochigi"
+    },
+    {
+      "id": 6092,
+      "label": "TOCHIGI CITY"
+    },
+    {
+      "id": 1081,
+      "label": "Togo"
+    },
+    {
+      "id": 6024,
+      "label": "Tokushima"
+    },
+    {
+      "id": 1270,
+      "label": "Tokushima Vortis"
+    },
+    {
+      "id": 6001,
+      "label": "Tokyo"
+    },
+    {
+      "id": 151,
+      "label": "Tokyo Verdy"
+    },
+    {
+      "id": 2361,
+      "label": "Tolima RA"
+    },
+    {
+      "id": 2614,
+      "label": "Tondela AV"
+    },
+    {
+      "id": 6187,
+      "label": "Tonga"
+    },
+    {
+      "id": 333,
+      "label": "Torino FC"
+    },
+    {
+      "id": 4165,
+      "label": "Toronto RW"
+    },
+    {
+      "id": 179,
+      "label": "Tottenham WB"
+    },
+    {
+      "id": 6019,
+      "label": "Tottori"
+    },
+    {
+      "id": 221,
+      "label": "Toulouse FC"
+    },
+    {
+      "id": 6006,
+      "label": "Toyama"
+    },
+    {
+      "id": 1945,
+      "label": "Trabzonspor"
+    },
+    {
+      "id": 18986,
+      "label": "Tractor FC"
+    },
+    {
+      "id": 5976,
+      "label": "Trinidad and Tobago"
+    },
+    {
+      "id": 5394,
+      "label": "True Bangkok United FC"
+    },
+    {
+      "id": 21778,
+      "label": "True Bangkok United FC"
+    },
+    {
+      "id": 2719,
+      "label": "Tucumán AB"
+    },
+    {
+      "id": 5786,
+      "label": "Tulsa WY"
+    },
+    {
+      "id": 81953,
+      "label": "Tunisia"
+    },
+    {
+      "id": 5762,
+      "label": "Turkmenistan"
+    },
+    {
+      "id": 6174,
+      "label": "Turks and Caicos Is."
+    },
+    {
+      "id": 5204,
+      "label": "TÜMOSAN Konyaspor"
+    },
+    {
+      "id": 190,
+      "label": "Udinese Calcio"
+    },
+    {
+      "id": 6149,
+      "label": "Uganda"
+    },
+    {
+      "id": 88069,
+      "label": "Uganda"
+    },
+    {
+      "id": 4174,
+      "label": "Ulsan B"
+    },
+    {
+      "id": 20558,
+      "label": "Ulsan HD FC"
+    },
+    {
+      "id": 1032,
+      "label": "United Arab Emirates"
+    },
+    {
+      "id": 50184,
+      "label": "United Arab Emirates"
+    },
+    {
+      "id": 147,
+      "label": "Urawa Reds"
+    },
+    {
+      "id": 4201,
+      "label": "US Boulogne CO"
+    },
+    {
+      "id": 6175,
+      "label": "US Virgin Islands"
+    },
+    {
+      "id": 4206,
+      "label": "USL Dunkerque"
+    },
+    {
+      "id": 5675,
+      "label": "Uthai Thani FC"
+    },
+    {
+      "id": 1184,
+      "label": "Uzbekistan"
+    },
+    {
+      "id": 50336,
+      "label": "Uzbekistan"
+    },
+    {
+      "id": 2373,
+      "label": "V-Varen Nagasaki"
+    },
+    {
+      "id": 1956,
+      "label": "Vaduz R"
+    },
+    {
+      "id": 110,
+      "label": "Valencia BN"
+    },
+    {
+      "id": 266,
+      "label": "Valladolid MB"
+    },
+    {
+      "id": 370,
+      "label": "Vallecas BR"
+    },
+    {
+      "id": 5207,
+      "label": "Valledupar ABR"
+    },
+    {
+      "id": 4166,
+      "label": "Vancouver BW"
+    },
+    {
+      "id": 5592,
+      "label": "Vanraure Hachinohe"
+    },
+    {
+      "id": 6188,
+      "label": "Vanuatu"
+    },
+    {
+      "id": 196,
+      "label": "Vasco Gipuzkoa AB"
+    },
+    {
+      "id": 4276,
+      "label": "Vasco Gipuzkoa AB II"
+    },
+    {
+      "id": 145,
+      "label": "Vegalta Sendai"
+    },
+    {
+      "id": 5235,
+      "label": "Vejle RH"
+    },
+    {
+      "id": 4229,
+      "label": "Venezia ANV"
+    },
+    {
+      "id": 1129,
+      "label": "Venezuela"
+    },
+    {
+      "id": 166,
+      "label": "Ventforet Kofu"
+    },
+    {
+      "id": 336,
+      "label": "Verona GB"
+    },
+    {
+      "id": 5237,
+      "label": "Viborg GH"
+    },
+    {
+      "id": 5454,
+      "label": "Vicente López M"
+    },
+    {
+      "id": 337,
+      "label": "Vicenza BR"
+    },
+    {
+      "id": 1926,
+      "label": "Victoria AR"
+    },
+    {
+      "id": 5763,
+      "label": "Vietnam"
+    },
+    {
+      "id": 195,
+      "label": "Vigo AB"
+    },
+    {
+      "id": 4249,
+      "label": "Vigo AB II"
+    },
+    {
+      "id": 2468,
+      "label": "Vila Nova VB"
+    },
+    {
+      "id": 267,
+      "label": "Villarreal A"
+    },
+    {
+      "id": 5373,
+      "label": "Villavicencio BN"
+    },
+    {
+      "id": 158,
+      "label": "Vissel Kobe"
+    },
+    {
+      "id": 16542,
+      "label": "Vissel Kobe"
+    },
+    {
+      "id": 1804,
+      "label": "Vitória SC"
+    },
+    {
+      "id": 2208,
+      "label": "Viña del Mar AA"
+    },
+    {
+      "id": 253,
+      "label": "Volendam O"
+    },
+    {
+      "id": 6018,
+      "label": "Wakayama"
+    },
+    {
+      "id": 2019,
+      "label": "Waregem GR"
+    },
+    {
+      "id": 4152,
+      "label": "Washington D.C. BR"
+    },
+    {
+      "id": 398,
+      "label": "Watford BY"
+    },
+    {
+      "id": 200,
+      "label": "WE United"
+    },
+    {
+      "id": 6119,
+      "label": "WE United"
+    },
+    {
+      "id": 399,
+      "label": "West Bromwich WB"
+    },
+    {
+      "id": 105,
+      "label": "West Ham RB"
+    },
+    {
+      "id": 5221,
+      "label": "Westerlo GB"
+    },
+    {
+      "id": 255,
+      "label": "Willem II Tilburg"
+    },
+    {
+      "id": 4968,
+      "label": "Winterthur RW"
+    },
+    {
+      "id": 232,
+      "label": "Wolfsburg GW"
+    },
+    {
+      "id": 208,
+      "label": "Wolverhampton YB"
+    },
+    {
+      "id": 6069,
+      "label": "Wrexham RW"
+    },
+    {
+      "id": 5994,
+      "label": "Yamagata"
+    },
+    {
+      "id": 6023,
+      "label": "Yamaguchi"
+    },
+    {
+      "id": 6004,
+      "label": "Yamanashi"
+    },
+    {
+      "id": 5764,
+      "label": "Yemen"
+    },
+    {
+      "id": 152,
+      "label": "Yokohama F. Marinos"
+    },
+    {
+      "id": 164,
+      "label": "Yokohama FC"
+    },
+    {
+      "id": 1083,
+      "label": "Zambia"
+    },
+    {
+      "id": 83003,
+      "label": "Zambia"
+    },
+    {
+      "id": 268,
+      "label": "Zaragoza BA"
+    },
+    {
+      "id": 6269,
+      "label": "Zemamra BB"
+    },
+    {
+      "id": 6064,
+      "label": "Zimbabwe"
+    },
+    {
+      "id": 87984,
+      "label": "Zimbabwe"
+    },
+    {
+      "id": 1228,
+      "label": "Zürich BW"
+    },
+    {
+      "id": 1957,
+      "label": "Zürich WB"
+    },
+    {
+      "id": 4145,
+      "label": "Álava AB"
+    },
+    {
+      "id": 5354,
+      "label": "Çaykur Rizespor"
+    }
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "label": "踩单车",
+      "english": "Scissors Skills",
+      "parameter": 70,
+      "bit": 665
+    },
+    {
+      "id": 1,
+      "label": "两次触球",
+      "english": "Double Touch",
+      "parameter": 107,
+      "bit": 670
+    },
+    {
+      "id": 2,
+      "label": "牛摆尾",
+      "english": "Flip Flap Skills",
+      "parameter": 71,
+      "bit": 611
+    },
+    {
+      "id": 3,
+      "label": "马赛回旋",
+      "english": "Roulette Skills",
+      "parameter": 72,
+      "bit": 620
+    },
+    {
+      "id": 5,
+      "label": "向后切球并转身",
+      "english": "Edge Turn",
+      "parameter": 108,
+      "bit": 287
+    },
+    {
+      "id": 6,
+      "label": "压步转弯",
+      "english": "Quick Touch",
+      "parameter": 74,
+      "bit": 679
+    },
+    {
+      "id": 7,
+      "label": "轴足转身",
+      "english": "Pivot Foot Touch",
+      "parameter": 75,
+      "bit": 673
+    },
+    {
+      "id": 10,
+      "label": "单触控球",
+      "english": "Sole Control",
+      "parameter": 102,
+      "bit": 676
+    },
+    {
+      "id": 12,
+      "label": "爆发加速",
+      "english": "Accel Burst",
+      "parameter": 124,
+      "bit": 633
+    },
+    {
+      "id": 13,
+      "label": "磁力脚",
+      "english": "Breakthrough Dribble",
+      "parameter": 130,
+      "bit": 608
+    },
+    {
+      "id": 15,
+      "label": "头球",
+      "english": "Header",
+      "parameter": 76,
+      "bit": 624
+    },
+    {
+      "id": 16,
+      "label": "子弹头球",
+      "english": "Bullet Header",
+      "parameter": 121,
+      "bit": 604
+    },
+    {
+      "id": 17,
+      "label": "远距离弧线球",
+      "english": "Long Range Drive",
+      "parameter": 77,
+      "bit": 677
+    },
+    {
+      "id": 19,
+      "label": "吊射控制",
+      "english": "Control Loop Shot",
+      "parameter": 101,
+      "bit": 642
+    },
+    {
+      "id": 21,
+      "label": "急坠射门",
+      "english": "Drop Shot",
+      "parameter": 103,
+      "bit": 655
+    },
+    {
+      "id": 22,
+      "label": "远射抽射",
+      "english": "Rising Shot",
+      "parameter": 104,
+      "bit": 630
+    },
+    {
+      "id": 23,
+      "label": "远距离射门",
+      "english": "Middle Shot",
+      "parameter": 109,
+      "bit": 663
+    },
+    {
+      "id": 24,
+      "label": "掠地远射",
+      "english": "Low Impact Shot",
+      "parameter": 127,
+      "bit": 682
+    },
+    {
+      "id": 27,
+      "label": "杂技般射门",
+      "english": "Acrobatic Shot",
+      "parameter": 79,
+      "bit": 666
+    },
+    {
+      "id": 28,
+      "label": "脚跟绝技",
+      "english": "Heel Trick",
+      "parameter": 80,
+      "bit": 641
+    },
+    {
+      "id": 29,
+      "label": "首次射门",
+      "english": "One Touch Shot",
+      "parameter": 81,
+      "bit": 651
+    },
+    {
+      "id": 30,
+      "label": "即兴发挥",
+      "english": "Improviser",
+      "parameter": 114,
+      "bit": 621
+    },
+    {
+      "id": 32,
+      "label": "单触传球",
+      "english": "Direct Pass",
+      "parameter": 82,
+      "bit": 645
+    },
+    {
+      "id": 33,
+      "label": "直传球",
+      "english": "Through Pass",
+      "parameter": 110,
+      "bit": 613
+    },
+    {
+      "id": 34,
+      "label": "加重传球",
+      "english": "Back Spin Lob",
+      "parameter": 83,
+      "bit": 610
+    },
+    {
+      "id": 35,
+      "label": "精确横传球",
+      "english": "Pin Point Cross",
+      "parameter": 84,
+      "bit": 605
+    },
+    {
+      "id": 37,
+      "label": "外脚背弧线球",
+      "english": "Out Side Long",
+      "parameter": 85,
+      "bit": 622
+    },
+    {
+      "id": 38,
+      "label": "插花假动作",
+      "english": "Rabona",
+      "parameter": 86,
+      "bit": 657
+    },
+    {
+      "id": 44,
+      "label": "低空传球",
+      "english": "Low Lob",
+      "parameter": 87,
+      "bit": 615
+    },
+    {
+      "id": 45,
+      "label": "守门员低弹道凌空球",
+      "english": "Low Punt Kick",
+      "parameter": 88,
+      "bit": 617
+    },
+    {
+      "id": 47,
+      "label": "大力界外掷球",
+      "english": "Longthrow",
+      "parameter": 89,
+      "bit": 668
+    },
+    {
+      "id": 49,
+      "label": "点球专家",
+      "english": "Pk Kicker",
+      "parameter": 99,
+      "bit": 667
+    },
+    {
+      "id": 50,
+      "label": "扑点球",
+      "english": "Pk Stopper",
+      "parameter": 100,
+      "bit": 634
+    },
+    {
+      "id": 55,
+      "label": "假摔",
+      "english": "Malicia",
+      "parameter": 91,
+      "bit": 618
+    },
+    {
+      "id": 56,
+      "label": "盯人",
+      "english": "Man Mark",
+      "parameter": 92,
+      "bit": 639
+    },
+    {
+      "id": 57,
+      "label": "追踪",
+      "english": "Chasing",
+      "parameter": 93,
+      "bit": 662
+    },
+    {
+      "id": 58,
+      "label": "拦截",
+      "english": "Intercept",
+      "parameter": 106,
+      "bit": 637
+    },
+    {
+      "id": 59,
+      "label": "封堵",
+      "english": "Blocker",
+      "parameter": 111,
+      "bit": 674
+    },
+    {
+      "id": 60,
+      "label": "制空优势",
+      "english": "Air Battle",
+      "parameter": 112,
+      "bit": 606
+    },
+    {
+      "id": 61,
+      "label": "铲球",
+      "english": "Sliding",
+      "parameter": 113,
+      "bit": 636
+    },
+    {
+      "id": 62,
+      "label": "伸脚抢截",
+      "english": "Physical Tackle",
+      "parameter": 125,
+      "bit": 664
+    },
+    {
+      "id": 64,
+      "label": "坚如磐石",
+      "english": "Fortress",
+      "parameter": 115,
+      "bit": 672
+    },
+    {
+      "id": 65,
+      "label": "杂技般解围",
+      "english": "Acrobatic Clear",
+      "parameter": 94,
+      "bit": 661
+    },
+    {
+      "id": 66,
+      "label": "飞身封堵",
+      "english": "Df Sky High",
+      "parameter": 123,
+      "bit": 609
+    },
+    {
+      "id": 67,
+      "label": "高速回防",
+      "english": "Shadow Guardian",
+      "parameter": 132,
+      "bit": 656
+    },
+    {
+      "id": 69,
+      "label": "队长",
+      "english": "Captaincy",
+      "parameter": 95,
+      "bit": 619
+    },
+    {
+      "id": 71,
+      "label": "超级候补",
+      "english": "Super Sub",
+      "parameter": 96,
+      "bit": 660
+    },
+    {
+      "id": 73,
+      "label": "进攻狂潮",
+      "english": "Break Sprint",
+      "parameter": 133,
+      "bit": 635
+    }
+  ]
+}

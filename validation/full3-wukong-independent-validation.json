@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "meshes": [
+    {
+      "mesh": "SK_NWK9_Face",
+      "skeleton_and_bind_data_byte_exact": true,
+      "independent_UE_reader": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "active_and_required_bones": 166,
+          "every_global_skin_weight_preserved": true,
+          "positions_match_approved_Blender_delta": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "active_and_required_bones": 166,
+          "every_global_skin_weight_preserved": true,
+          "positions_match_approved_Blender_delta": true
+        }
+      ]
+    },
+    {
+      "mesh": "SK_NWK9lg00v0000_Face",
+      "skeleton_and_bind_data_byte_exact": true,
+      "independent_UE_reader": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "active_and_required_bones": 166,
+          "every_global_skin_weight_preserved": true,
+          "positions_match_approved_Blender_delta": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "active_and_required_bones": 166,
+          "every_global_skin_weight_preserved": true,
+          "positions_match_approved_Blender_delta": true
+        }
+      ]
+    },
+    {
+      "mesh": "SK_NWK9ep00v0313_Face",
+      "skeleton_and_bind_data_byte_exact": true,
+      "independent_UE_reader": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "active_and_required_bones": 166,
+          "every_global_skin_weight_preserved": true,
+          "positions_match_approved_Blender_delta": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "active_and_required_bones": 166,
+          "every_global_skin_weight_preserved": true,
+          "positions_match_approved_Blender_delta": true
+        }
+      ]
+    },
+    {
+      "mesh": "SK_NWK9ep01v0291_Face",
+      "skeleton_and_bind_data_byte_exact": true,
+      "independent_UE_reader": true,
+      "LODs": [
+        {
+          "LOD": 0,
+          "vertices": 63897,
+          "triangles": 67170,
+          "active_and_required_bones": 166,
+          "every_global_skin_weight_preserved": true,
+          "positions_match_approved_Blender_delta": true
+        },
+        {
+          "LOD": 1,
+          "vertices": 63897,
+          "triangles": 67170,
+          "active_and_required_bones": 166,
+          "every_global_skin_weight_preserved": true,
+          "positions_match_approved_Blender_delta": true
+        }
+      ]
+    }
+  ],
+  "Android_tested": false
+}

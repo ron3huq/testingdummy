@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "only_verified_upstream_target_is_chained": true,
+  "original_tail_checked": true,
+  "immutable_arena_returns_to_upstream_hook": true,
+  "unknown_entries_rejected": true,
+  "Android_tested": false
+}

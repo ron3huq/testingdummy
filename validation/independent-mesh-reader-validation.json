@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "Wukong": [
+    {
+      "mesh": "SK_NWK9ep01v0291_Face",
+      "bones": 166,
+      "skeleton_and_bind_data_byte_exact": true
+    },
+    {
+      "mesh": "SK_NWK9ep00v0313_Face",
+      "bones": 166,
+      "skeleton_and_bind_data_byte_exact": true
+    },
+    {
+      "mesh": "SK_NWK9lg00v0000_Face",
+      "bones": 166,
+      "skeleton_and_bind_data_byte_exact": true
+    },
+    {
+      "mesh": "SK_NWK9_Face",
+      "bones": 166,
+      "skeleton_and_bind_data_byte_exact": true
+    }
+  ],
+  "original_56334_exported": true,
+  "Android_tested": false
+}

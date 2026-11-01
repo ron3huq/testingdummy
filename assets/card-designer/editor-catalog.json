@@ -1,0 +1,236 @@
+{
+  "schema": "diy-test-editor-catalog/v1",
+  "positions": [
+    "GK",
+    "CB",
+    "LB",
+    "RB",
+    "DMF",
+    "CMF",
+    "LMF",
+    "RMF",
+    "AMF",
+    "LWF",
+    "RWF",
+    "SS",
+    "CF"
+  ],
+  "aptitudes": [
+    "CF",
+    "SS",
+    "LWF",
+    "RWF",
+    "AMF",
+    "DMF",
+    "CMF",
+    "LMF",
+    "RMF",
+    "CB",
+    "LB",
+    "RB",
+    "GK"
+  ],
+  "boots": [
+    {
+      "id": 51,
+      "label": "Classic · ID 51"
+    },
+    {
+      "id": 52,
+      "label": "Classic · ID 52"
+    },
+    {
+      "id": 61,
+      "label": "explorer · ID 61"
+    },
+    {
+      "id": 62,
+      "label": "explorer · ID 62"
+    },
+    {
+      "id": 63,
+      "label": "explorer · ID 63"
+    },
+    {
+      "id": 64,
+      "label": "explorer · ID 64"
+    },
+    {
+      "id": 65,
+      "label": "explorer · ID 65"
+    },
+    {
+      "id": 66,
+      "label": "explorer ex · ID 66"
+    },
+    {
+      "id": 71,
+      "label": "explorer ex · ID 71"
+    },
+    {
+      "id": 72,
+      "label": "explorer ex · ID 72"
+    },
+    {
+      "id": 1051,
+      "label": "X Speedportal+ · ID 1051"
+    },
+    {
+      "id": 1052,
+      "label": "X Speedportal+ · ID 1052"
+    },
+    {
+      "id": 1061,
+      "label": "Predator Edge+ · ID 1061"
+    },
+    {
+      "id": 1071,
+      "label": "X Crazyfast Messi.1 · ID 1071"
+    },
+    {
+      "id": 1072,
+      "label": "F30 · ID 1072"
+    },
+    {
+      "id": 1081,
+      "label": "Copa Sense+ · ID 1081"
+    },
+    {
+      "id": 2021,
+      "label": "Gear Up Mercurial Superfly · ID 2021"
+    },
+    {
+      "id": 2022,
+      "label": "Superfly 9 Elite · ID 2022"
+    },
+    {
+      "id": 2051,
+      "label": "Tiempo Legend 9 · ID 2051"
+    },
+    {
+      "id": 2061,
+      "label": "Phantom GT2 · ID 2061"
+    },
+    {
+      "id": 2062,
+      "label": "PHANTOM GT2 · ID 2062"
+    },
+    {
+      "id": 3041,
+      "label": "ULTRA Ultimate · ID 3041"
+    },
+    {
+      "id": 3051,
+      "label": "Future Ultimate · ID 3051"
+    },
+    {
+      "id": 3052,
+      "label": "FUTURE 1.4 · ID 3052"
+    },
+    {
+      "id": 3061,
+      "label": "球鞋 ID 3061"
+    },
+    {
+      "id": 5011,
+      "label": "MORELIA NEO · ID 5011"
+    },
+    {
+      "id": 5021,
+      "label": "球鞋 ID 5021"
+    },
+    {
+      "id": 5041,
+      "label": "DS LIGHT X-FLY PRO L.E. · ID 5041"
+    },
+    {
+      "id": 8001,
+      "label": "Solista 100 VI Gravity · ID 8001"
+    }
+  ],
+  "sleeves": [
+    {
+      "id": "keep",
+      "label": "保持当前"
+    },
+    {
+      "id": "short",
+      "label": "短袖"
+    },
+    {
+      "id": "long",
+      "label": "长袖"
+    }
+  ],
+  "motions": [
+    {
+      "id": "messi",
+      "label": "梅西动作组合"
+    },
+    {
+      "id": "ronaldo",
+      "label": "C罗动作组合"
+    },
+    {
+      "id": "neymar",
+      "label": "内马尔动作组合"
+    },
+    {
+      "id": "mbappe",
+      "label": "姆巴佩动作组合"
+    },
+    {
+      "id": "salah",
+      "label": "萨拉赫动作组合"
+    },
+    {
+      "id": "haaland",
+      "label": "哈兰德动作组合"
+    },
+    {
+      "id": "suarez",
+      "label": "苏亚雷斯动作组合"
+    },
+    {
+      "id": "musiala",
+      "label": "穆西亚拉动作组合"
+    },
+    {
+      "id": "bellingham",
+      "label": "贝林厄姆动作组合"
+    },
+    {
+      "id": "debruyne",
+      "label": "德布劳内动作组合"
+    }
+  ],
+  "celebrations": [
+    {
+      "id": 0,
+      "label": "Freddie Ljungberg / Robert Pirès / Gilberto Silva的纪念庆祝配置"
+    },
+    {
+      "id": 16,
+      "label": "Bukayo Saka的纪念庆祝配置"
+    },
+    {
+      "id": 22,
+      "label": "Riccardo Calafiori的纪念庆祝配置"
+    },
+    {
+      "id": 90,
+      "label": "William Saliba的纪念庆祝配置"
+    },
+    {
+      "id": 219,
+      "label": "Viktor Gyökeres的纪念庆祝配置"
+    }
+  ],
+  "sources": {
+    "android-offline/runtime-host/src/main/python/player_editor.py": "fbe004f14dcfd4af2921fde05fea8ba973ebf89190a99f1ebccafcca87ab89d2",
+    "android-offline/runtime-host/src/main/python/player_appearance.py": "6cb31126fc08e7de2ab1b9a9200c22e2d1569d4033e8201985d619ceb5fc1e0d",
+    "outputs/runs/20261020-E179-celebration/local-club-celebration-test.sqlite3": "bf465c48db2bf4aad9ac49880716406f6a69a895e0e3f7f426f613185f20a4e8",
+    "android-offline/runtime-host/src/main/python/player_editor_names.json.gz": "d0160201264cd8ac79920a7b958329b376d45f9ee1f7bd1d3c29fd2bfb81f603"
+  },
+  "gameApplied": false
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "last_active_survives_waiting_restart": true,
+  "face_and_accessory_records_independent": true,
+  "only_counter_whitelist_saved": true,
+  "malformed_history_ignored": true,
+  "no_native_hook_or_save_writes": true
+}
