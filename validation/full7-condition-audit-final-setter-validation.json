@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "native_sha256": "53a7786d44f2fcd4f95724509f37a2a0c98f032eddf2fc2948704e4a0d696b94",
+  "original_team_function": "0x82c1284",
+  "actual_hook_arena_RW_target_slot_and_RETURN32_trampoline": true,
+  "original_native_condition_setter_and_UI_getter": true,
+  "native_card_key_decode_executed": true,
+  "both_scope_modes": true,
+  "league_scopes": [
+    122,
+    128,
+    473,
+    518,
+    566,
+    549,
+    125
+  ],
+  "team_calls": 110,
+  "team_record_checks": 3300,
+  "serialized_direct_setter_checks": 64,
+  "invalid_key_cases": 8,
+  "reserved_conditions_5_to7_preserved": true,
+  "unrelated_record_bytes_including_stamina_and_injury_preserved": true,
+  "stock_random_30_player_baseline": {
+    "4": 6,
+    "3": 24
+  },
+  "fixed_presets_and_post_assignment_20percent_cap_overridden": true,
+  "outside_and_disabled_original_results_preserved": true,
+  "owned_only_leaves_nonowned_NPCs_original": true,
+  "empty_owned_roster_no_accidental_full_team_override": true,
+  "LiveUpdate_hook_not_modified": true,
+  "Android_tested": false
+}

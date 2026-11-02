@@ -1,0 +1,1771 @@
+{
+  "passed": true,
+  "target_card": "89138556572074",
+  "profile": "NQ27",
+  "hair_profile": "HQR7",
+  "source_zip_sha256": "54db32cdc6d553c2937369916f5569a0c43853fe82a62a3459b4c23f2a5217e0",
+  "source_face_reapplied": true,
+  "experimental_occlusion_removal_rejected": true,
+  "all_original_occlusion_and_lash_geometry_retained": true,
+  "all_2027_hair_bulk_bytes_exact": true,
+  "all_source_SRO_bulk_bytes_exact": true,
+  "source_runtime_or_library_copied": false,
+  "other_container_entries_byte_exact": 82,
+  "meshes": [
+    {
+      "path": "character/RealFace/SK_NQ27lg00v0000_Face.uasset",
+      "source_all_visible_triangles_exact": true,
+      "source_geometry_positions_UV_colors_tangents_exact": true,
+      "native166_body_name_hierarchy_and_body_transforms_exact": true,
+      "six_original_source_eye_ref_adjustments_preserved": true,
+      "LOD0_required": 166,
+      "LOD1_required": 153,
+      "vertices": 11863,
+      "skin_vertices": 3233,
+      "triangles": 17201,
+      "skin_triangles": 5894,
+      "source_hair_all_triangles_exact": true,
+      "reserved_unused_vertices_removed": 48922
+    },
+    {
+      "path": "character/RealFace/SK_NQ27ep01v0291_Face.uasset",
+      "source_all_visible_triangles_exact": true,
+      "source_geometry_positions_UV_colors_tangents_exact": true,
+      "native166_body_name_hierarchy_and_body_transforms_exact": true,
+      "six_original_source_eye_ref_adjustments_preserved": true,
+      "LOD0_required": 166,
+      "LOD1_required": 153,
+      "vertices": 11863,
+      "skin_vertices": 3233,
+      "triangles": 17201,
+      "skin_triangles": 5894,
+      "source_hair_all_triangles_exact": true,
+      "reserved_unused_vertices_removed": 48922
+    },
+    {
+      "path": "character/RealFace/SK_NQ27ep00v0313_Face.uasset",
+      "source_all_visible_triangles_exact": true,
+      "source_geometry_positions_UV_colors_tangents_exact": true,
+      "native166_body_name_hierarchy_and_body_transforms_exact": true,
+      "six_original_source_eye_ref_adjustments_preserved": true,
+      "LOD0_required": 166,
+      "LOD1_required": 153,
+      "vertices": 11863,
+      "skin_vertices": 3233,
+      "triangles": 17201,
+      "skin_triangles": 5894,
+      "source_hair_all_triangles_exact": true,
+      "reserved_unused_vertices_removed": 48922
+    },
+    {
+      "path": "character/RealFace/SK_NQ27_Face.uasset",
+      "source_all_visible_triangles_exact": true,
+      "source_geometry_positions_UV_colors_tangents_exact": true,
+      "native166_body_name_hierarchy_and_body_transforms_exact": true,
+      "six_original_source_eye_ref_adjustments_preserved": true,
+      "LOD0_required": 166,
+      "LOD1_required": 153,
+      "vertices": 11863,
+      "skin_vertices": 3233,
+      "triangles": 17201,
+      "skin_triangles": 5894,
+      "source_hair_all_triangles_exact": true,
+      "reserved_unused_vertices_removed": 48922
+    }
+  ],
+  "textures": [
+    {
+      "path": "character/RealFace/T_NQ27_Face_D.uasset",
+      "mips": [
+        [
+          2048,
+          2048
+        ],
+        [
+          1024,
+          1024
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_alpha_bits_preserved": true,
+      "encoding": "ETC2 native original format",
+      "blocks": [
+        {
+          "level": 0,
+          "size": [
+            2048,
+            2048
+          ],
+          "preserved_ETC_blocks": 253181,
+          "eye_footprint_blocks": 8963
+        },
+        {
+          "level": 1,
+          "size": [
+            1024,
+            1024
+          ],
+          "preserved_ETC_blocks": 62900,
+          "eye_footprint_blocks": 2636
+        },
+        {
+          "level": 2,
+          "size": [
+            512,
+            512
+          ],
+          "preserved_ETC_blocks": 15521,
+          "eye_footprint_blocks": 863
+        },
+        {
+          "level": 3,
+          "size": [
+            256,
+            256
+          ],
+          "preserved_ETC_blocks": 3769,
+          "eye_footprint_blocks": 327
+        },
+        {
+          "level": 4,
+          "size": [
+            128,
+            128
+          ],
+          "preserved_ETC_blocks": 896,
+          "eye_footprint_blocks": 128
+        },
+        {
+          "level": 5,
+          "size": [
+            64,
+            64
+          ],
+          "preserved_ETC_blocks": 161,
+          "eye_footprint_blocks": 95
+        },
+        {
+          "level": 6,
+          "size": [
+            32,
+            32
+          ],
+          "preserved_ETC_blocks": 16,
+          "eye_footprint_blocks": 48
+        },
+        {
+          "level": 7,
+          "size": [
+            16,
+            16
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 16
+        },
+        {
+          "level": 8,
+          "size": [
+            8,
+            8
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 4
+        },
+        {
+          "level": 9,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 10,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 11,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        }
+      ]
+    },
+    {
+      "path": "character/RealFace/T_NQ27_Face_N.uasset",
+      "mips": [
+        [
+          2048,
+          2048
+        ],
+        [
+          1024,
+          1024
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_alpha_bits_preserved": true,
+      "encoding": "ETC2 native original format",
+      "blocks": [
+        {
+          "level": 0,
+          "size": [
+            2048,
+            2048
+          ],
+          "preserved_ETC_blocks": 255112,
+          "eye_footprint_blocks": 7032
+        },
+        {
+          "level": 1,
+          "size": [
+            1024,
+            1024
+          ],
+          "preserved_ETC_blocks": 63469,
+          "eye_footprint_blocks": 2067
+        },
+        {
+          "level": 2,
+          "size": [
+            512,
+            512
+          ],
+          "preserved_ETC_blocks": 15721,
+          "eye_footprint_blocks": 663
+        },
+        {
+          "level": 3,
+          "size": [
+            256,
+            256
+          ],
+          "preserved_ETC_blocks": 3850,
+          "eye_footprint_blocks": 246
+        },
+        {
+          "level": 4,
+          "size": [
+            128,
+            128
+          ],
+          "preserved_ETC_blocks": 928,
+          "eye_footprint_blocks": 96
+        },
+        {
+          "level": 5,
+          "size": [
+            64,
+            64
+          ],
+          "preserved_ETC_blocks": 184,
+          "eye_footprint_blocks": 72
+        },
+        {
+          "level": 6,
+          "size": [
+            32,
+            32
+          ],
+          "preserved_ETC_blocks": 28,
+          "eye_footprint_blocks": 36
+        },
+        {
+          "level": 7,
+          "size": [
+            16,
+            16
+          ],
+          "preserved_ETC_blocks": 2,
+          "eye_footprint_blocks": 14
+        },
+        {
+          "level": 8,
+          "size": [
+            8,
+            8
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 4
+        },
+        {
+          "level": 9,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 10,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 11,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        }
+      ]
+    },
+    {
+      "path": "character/RealFace/T_NQ27lg00v0000_Face_D.uasset",
+      "mips": [
+        [
+          2048,
+          2048
+        ],
+        [
+          1024,
+          1024
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_alpha_bits_preserved": true,
+      "encoding": "ETC2 native original format",
+      "blocks": [
+        {
+          "level": 0,
+          "size": [
+            2048,
+            2048
+          ],
+          "preserved_ETC_blocks": 253181,
+          "eye_footprint_blocks": 8963
+        },
+        {
+          "level": 1,
+          "size": [
+            1024,
+            1024
+          ],
+          "preserved_ETC_blocks": 62900,
+          "eye_footprint_blocks": 2636
+        },
+        {
+          "level": 2,
+          "size": [
+            512,
+            512
+          ],
+          "preserved_ETC_blocks": 15521,
+          "eye_footprint_blocks": 863
+        },
+        {
+          "level": 3,
+          "size": [
+            256,
+            256
+          ],
+          "preserved_ETC_blocks": 3769,
+          "eye_footprint_blocks": 327
+        },
+        {
+          "level": 4,
+          "size": [
+            128,
+            128
+          ],
+          "preserved_ETC_blocks": 896,
+          "eye_footprint_blocks": 128
+        },
+        {
+          "level": 5,
+          "size": [
+            64,
+            64
+          ],
+          "preserved_ETC_blocks": 161,
+          "eye_footprint_blocks": 95
+        },
+        {
+          "level": 6,
+          "size": [
+            32,
+            32
+          ],
+          "preserved_ETC_blocks": 16,
+          "eye_footprint_blocks": 48
+        },
+        {
+          "level": 7,
+          "size": [
+            16,
+            16
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 16
+        },
+        {
+          "level": 8,
+          "size": [
+            8,
+            8
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 4
+        },
+        {
+          "level": 9,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 10,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 11,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        }
+      ]
+    },
+    {
+      "path": "character/RealFace/T_NQ27lg00v0000_Face_N.uasset",
+      "mips": [
+        [
+          2048,
+          2048
+        ],
+        [
+          1024,
+          1024
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_alpha_bits_preserved": true,
+      "encoding": "ETC2 native original format",
+      "blocks": [
+        {
+          "level": 0,
+          "size": [
+            2048,
+            2048
+          ],
+          "preserved_ETC_blocks": 255112,
+          "eye_footprint_blocks": 7032
+        },
+        {
+          "level": 1,
+          "size": [
+            1024,
+            1024
+          ],
+          "preserved_ETC_blocks": 63469,
+          "eye_footprint_blocks": 2067
+        },
+        {
+          "level": 2,
+          "size": [
+            512,
+            512
+          ],
+          "preserved_ETC_blocks": 15721,
+          "eye_footprint_blocks": 663
+        },
+        {
+          "level": 3,
+          "size": [
+            256,
+            256
+          ],
+          "preserved_ETC_blocks": 3850,
+          "eye_footprint_blocks": 246
+        },
+        {
+          "level": 4,
+          "size": [
+            128,
+            128
+          ],
+          "preserved_ETC_blocks": 928,
+          "eye_footprint_blocks": 96
+        },
+        {
+          "level": 5,
+          "size": [
+            64,
+            64
+          ],
+          "preserved_ETC_blocks": 184,
+          "eye_footprint_blocks": 72
+        },
+        {
+          "level": 6,
+          "size": [
+            32,
+            32
+          ],
+          "preserved_ETC_blocks": 28,
+          "eye_footprint_blocks": 36
+        },
+        {
+          "level": 7,
+          "size": [
+            16,
+            16
+          ],
+          "preserved_ETC_blocks": 2,
+          "eye_footprint_blocks": 14
+        },
+        {
+          "level": 8,
+          "size": [
+            8,
+            8
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 4
+        },
+        {
+          "level": 9,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 10,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 11,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        }
+      ]
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep00v0313_Face_D.uasset",
+      "mips": [
+        [
+          2048,
+          2048
+        ],
+        [
+          1024,
+          1024
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_alpha_bits_preserved": true,
+      "encoding": "ETC2 native original format",
+      "blocks": [
+        {
+          "level": 0,
+          "size": [
+            2048,
+            2048
+          ],
+          "preserved_ETC_blocks": 253181,
+          "eye_footprint_blocks": 8963
+        },
+        {
+          "level": 1,
+          "size": [
+            1024,
+            1024
+          ],
+          "preserved_ETC_blocks": 62900,
+          "eye_footprint_blocks": 2636
+        },
+        {
+          "level": 2,
+          "size": [
+            512,
+            512
+          ],
+          "preserved_ETC_blocks": 15521,
+          "eye_footprint_blocks": 863
+        },
+        {
+          "level": 3,
+          "size": [
+            256,
+            256
+          ],
+          "preserved_ETC_blocks": 3769,
+          "eye_footprint_blocks": 327
+        },
+        {
+          "level": 4,
+          "size": [
+            128,
+            128
+          ],
+          "preserved_ETC_blocks": 896,
+          "eye_footprint_blocks": 128
+        },
+        {
+          "level": 5,
+          "size": [
+            64,
+            64
+          ],
+          "preserved_ETC_blocks": 161,
+          "eye_footprint_blocks": 95
+        },
+        {
+          "level": 6,
+          "size": [
+            32,
+            32
+          ],
+          "preserved_ETC_blocks": 16,
+          "eye_footprint_blocks": 48
+        },
+        {
+          "level": 7,
+          "size": [
+            16,
+            16
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 16
+        },
+        {
+          "level": 8,
+          "size": [
+            8,
+            8
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 4
+        },
+        {
+          "level": 9,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 10,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 11,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        }
+      ]
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep00v0313_Face_N.uasset",
+      "mips": [
+        [
+          2048,
+          2048
+        ],
+        [
+          1024,
+          1024
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_alpha_bits_preserved": true,
+      "encoding": "ETC2 native original format",
+      "blocks": [
+        {
+          "level": 0,
+          "size": [
+            2048,
+            2048
+          ],
+          "preserved_ETC_blocks": 255112,
+          "eye_footprint_blocks": 7032
+        },
+        {
+          "level": 1,
+          "size": [
+            1024,
+            1024
+          ],
+          "preserved_ETC_blocks": 63469,
+          "eye_footprint_blocks": 2067
+        },
+        {
+          "level": 2,
+          "size": [
+            512,
+            512
+          ],
+          "preserved_ETC_blocks": 15721,
+          "eye_footprint_blocks": 663
+        },
+        {
+          "level": 3,
+          "size": [
+            256,
+            256
+          ],
+          "preserved_ETC_blocks": 3850,
+          "eye_footprint_blocks": 246
+        },
+        {
+          "level": 4,
+          "size": [
+            128,
+            128
+          ],
+          "preserved_ETC_blocks": 928,
+          "eye_footprint_blocks": 96
+        },
+        {
+          "level": 5,
+          "size": [
+            64,
+            64
+          ],
+          "preserved_ETC_blocks": 184,
+          "eye_footprint_blocks": 72
+        },
+        {
+          "level": 6,
+          "size": [
+            32,
+            32
+          ],
+          "preserved_ETC_blocks": 28,
+          "eye_footprint_blocks": 36
+        },
+        {
+          "level": 7,
+          "size": [
+            16,
+            16
+          ],
+          "preserved_ETC_blocks": 2,
+          "eye_footprint_blocks": 14
+        },
+        {
+          "level": 8,
+          "size": [
+            8,
+            8
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 4
+        },
+        {
+          "level": 9,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 10,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 11,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        }
+      ]
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep01v0291_Face_D.uasset",
+      "mips": [
+        [
+          2048,
+          2048
+        ],
+        [
+          1024,
+          1024
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_alpha_bits_preserved": true,
+      "encoding": "ETC2 native original format",
+      "blocks": [
+        {
+          "level": 0,
+          "size": [
+            2048,
+            2048
+          ],
+          "preserved_ETC_blocks": 253181,
+          "eye_footprint_blocks": 8963
+        },
+        {
+          "level": 1,
+          "size": [
+            1024,
+            1024
+          ],
+          "preserved_ETC_blocks": 62900,
+          "eye_footprint_blocks": 2636
+        },
+        {
+          "level": 2,
+          "size": [
+            512,
+            512
+          ],
+          "preserved_ETC_blocks": 15521,
+          "eye_footprint_blocks": 863
+        },
+        {
+          "level": 3,
+          "size": [
+            256,
+            256
+          ],
+          "preserved_ETC_blocks": 3769,
+          "eye_footprint_blocks": 327
+        },
+        {
+          "level": 4,
+          "size": [
+            128,
+            128
+          ],
+          "preserved_ETC_blocks": 896,
+          "eye_footprint_blocks": 128
+        },
+        {
+          "level": 5,
+          "size": [
+            64,
+            64
+          ],
+          "preserved_ETC_blocks": 161,
+          "eye_footprint_blocks": 95
+        },
+        {
+          "level": 6,
+          "size": [
+            32,
+            32
+          ],
+          "preserved_ETC_blocks": 16,
+          "eye_footprint_blocks": 48
+        },
+        {
+          "level": 7,
+          "size": [
+            16,
+            16
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 16
+        },
+        {
+          "level": 8,
+          "size": [
+            8,
+            8
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 4
+        },
+        {
+          "level": 9,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 10,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 11,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        }
+      ]
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep01v0291_Face_N.uasset",
+      "mips": [
+        [
+          2048,
+          2048
+        ],
+        [
+          1024,
+          1024
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "source_alpha_bits_preserved": true,
+      "encoding": "ETC2 native original format",
+      "blocks": [
+        {
+          "level": 0,
+          "size": [
+            2048,
+            2048
+          ],
+          "preserved_ETC_blocks": 255112,
+          "eye_footprint_blocks": 7032
+        },
+        {
+          "level": 1,
+          "size": [
+            1024,
+            1024
+          ],
+          "preserved_ETC_blocks": 63469,
+          "eye_footprint_blocks": 2067
+        },
+        {
+          "level": 2,
+          "size": [
+            512,
+            512
+          ],
+          "preserved_ETC_blocks": 15721,
+          "eye_footprint_blocks": 663
+        },
+        {
+          "level": 3,
+          "size": [
+            256,
+            256
+          ],
+          "preserved_ETC_blocks": 3850,
+          "eye_footprint_blocks": 246
+        },
+        {
+          "level": 4,
+          "size": [
+            128,
+            128
+          ],
+          "preserved_ETC_blocks": 928,
+          "eye_footprint_blocks": 96
+        },
+        {
+          "level": 5,
+          "size": [
+            64,
+            64
+          ],
+          "preserved_ETC_blocks": 184,
+          "eye_footprint_blocks": 72
+        },
+        {
+          "level": 6,
+          "size": [
+            32,
+            32
+          ],
+          "preserved_ETC_blocks": 28,
+          "eye_footprint_blocks": 36
+        },
+        {
+          "level": 7,
+          "size": [
+            16,
+            16
+          ],
+          "preserved_ETC_blocks": 2,
+          "eye_footprint_blocks": 14
+        },
+        {
+          "level": 8,
+          "size": [
+            8,
+            8
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 4
+        },
+        {
+          "level": 9,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 10,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        },
+        {
+          "level": 11,
+          "size": [
+            4,
+            4
+          ],
+          "preserved_ETC_blocks": 0,
+          "eye_footprint_blocks": 1
+        }
+      ]
+    }
+  ],
+  "changed_assets": [
+    {
+      "path": "character/RealFace/T_NQ27lg00v0000_Face_SRO.ubulk",
+      "sha256": "c597e0331e352fc951d7675ddf3fe4f69c9d62bd9afd60e039200ac596a729fa",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27lg00v0000_Face_SRO.uasset",
+      "sha256": "0ae98a12a01c3fbc3ea14f5eaac0dd2aa78db8d93e6b3306f63506b88f7959a1",
+      "bytes": 4149
+    },
+    {
+      "path": "character/RealFace/T_NQ27lg00v0000_Face_N.ubulk",
+      "sha256": "d98ae1537207fa483789320c3ac4a096d0d71dce60bc7ee5e8ed92e87ceb869b",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27lg00v0000_Face_N.uasset",
+      "sha256": "1814d8892f939bbe55aae5e022dff91e22369a28544a9c353e377291943cc298",
+      "bytes": 4141
+    },
+    {
+      "path": "character/RealFace/T_NQ27lg00v0000_Face_D.ubulk",
+      "sha256": "7bc8c94c7cf1a399d03a4a977b6d6e34a81db18539656fb871b7610a6ce12318",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27lg00v0000_Face_D.uasset",
+      "sha256": "a4e44f2d11d623d8702791a8b372924edd6c4eb3aff444ce291158b88ab42c96",
+      "bytes": 4083
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep01v0291_Face_SRO.ubulk",
+      "sha256": "c597e0331e352fc951d7675ddf3fe4f69c9d62bd9afd60e039200ac596a729fa",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep01v0291_Face_SRO.uasset",
+      "sha256": "a1d6a57385bc20ef37f3cfd1a0fb0521849c66d31141a680bfe01eb3e3aa44ca",
+      "bytes": 4149
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep01v0291_Face_N.ubulk",
+      "sha256": "d98ae1537207fa483789320c3ac4a096d0d71dce60bc7ee5e8ed92e87ceb869b",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep01v0291_Face_N.uasset",
+      "sha256": "819fae7618af034f1b142a6042f7e4902a20c5bae3ebff13d897f0a69199a3ca",
+      "bytes": 4141
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep01v0291_Face_D.ubulk",
+      "sha256": "7bc8c94c7cf1a399d03a4a977b6d6e34a81db18539656fb871b7610a6ce12318",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep01v0291_Face_D.uasset",
+      "sha256": "f9fe1def1dad55a702492f6688a30ec70dcd173e8182835022ff9782e764f04a",
+      "bytes": 4083
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep00v0313_Face_SRO.ubulk",
+      "sha256": "c597e0331e352fc951d7675ddf3fe4f69c9d62bd9afd60e039200ac596a729fa",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep00v0313_Face_SRO.uasset",
+      "sha256": "6f392d341612d481b7c5a1c7c5867fe435358e9a7df01c89be7b22efd966a0cb",
+      "bytes": 4149
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep00v0313_Face_N.ubulk",
+      "sha256": "d98ae1537207fa483789320c3ac4a096d0d71dce60bc7ee5e8ed92e87ceb869b",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep00v0313_Face_N.uasset",
+      "sha256": "796d84f83f570f3e80559f9ac195ff349c209169fd94fef1664eb4567fe0b76c",
+      "bytes": 4141
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep00v0313_Face_D.ubulk",
+      "sha256": "7bc8c94c7cf1a399d03a4a977b6d6e34a81db18539656fb871b7610a6ce12318",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27ep00v0313_Face_D.uasset",
+      "sha256": "f467715e8c221b9a214fd7583af85670b1f9dd54dd7987aafefb15c76704a0ff",
+      "bytes": 4083
+    },
+    {
+      "path": "character/RealFace/T_NQ27_Face_SRO.ubulk",
+      "sha256": "c597e0331e352fc951d7675ddf3fe4f69c9d62bd9afd60e039200ac596a729fa",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27_Face_SRO.uasset",
+      "sha256": "d3ee9b1ca9b1c13ef0d98cc62a75384a31b9dccfe2ac74d9a461fb6ea5d70703",
+      "bytes": 4125
+    },
+    {
+      "path": "character/RealFace/T_NQ27_Face_N.ubulk",
+      "sha256": "d98ae1537207fa483789320c3ac4a096d0d71dce60bc7ee5e8ed92e87ceb869b",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27_Face_N.uasset",
+      "sha256": "72285fca9a36a3b28ed66131cbb5f1a940fca1d6477340629472a1e0a71eb807",
+      "bytes": 4125
+    },
+    {
+      "path": "character/RealFace/T_NQ27_Face_D.ubulk",
+      "sha256": "7bc8c94c7cf1a399d03a4a977b6d6e34a81db18539656fb871b7610a6ce12318",
+      "bytes": 2793472
+    },
+    {
+      "path": "character/RealFace/T_NQ27_Face_D.uasset",
+      "sha256": "a72ef6872f98469690c2d19e8fdcf1e1497fac1c6be16bb4a3f408075f9bcdc7",
+      "bytes": 4059
+    },
+    {
+      "path": "character/RealFace/T_HQR7_Hair_D.ubulk",
+      "sha256": "f108216daf9e8c488b43f1bc43062844c73052e05babbb9763ea51ddc92c7a79",
+      "bytes": 5586944
+    },
+    {
+      "path": "character/RealFace/T_HQR7_Hair_D.uasset",
+      "sha256": "8e49e090bda0016811bee8c47ab509cfb1b8551e8304b6fd1cc658aa536e3724",
+      "bytes": 6804
+    },
+    {
+      "path": "character/RealFace/SK_NQ27lg00v0000_Face.uasset",
+      "sha256": "47d086e1cbecfbcfd45c2495dfbe32bc285592c2c1fb8a9d4d77150c39a16732",
+      "bytes": 601923
+    },
+    {
+      "path": "character/RealFace/SK_NQ27ep01v0291_Face.uasset",
+      "sha256": "17f905049d155ca5466b4a319018773136871bccd97a0645bc90c896df9ea618",
+      "bytes": 601923
+    },
+    {
+      "path": "character/RealFace/SK_NQ27ep00v0313_Face.uasset",
+      "sha256": "ce7315c5a74641812f75a6cb3fa0b683e318d6e1a6b1b1eb185c334bae0cb163",
+      "bytes": 601923
+    },
+    {
+      "path": "character/RealFace/SK_NQ27_Face.uasset",
+      "sha256": "88f7e55570fb800c1931e945537d95171940043df7f8cd9a00fbcb7192d7d1cc",
+      "bytes": 601907
+    },
+    {
+      "path": "character/RealFace/MI_HQR7_Head_Hair_MQ.uasset",
+      "sha256": "75463503ac95203a9fcbee5b3a839fbaf850fd542bd554ec54d34b59366a7eeb",
+      "bytes": 2223
+    },
+    {
+      "path": "character/RealFace/MI_HQR7_Head_Hair_HQ.uasset",
+      "sha256": "5dfd2215bba5218a985cbac6de425ec1440459c6cf2ad217acdc33c1627ee4e3",
+      "bytes": 2223
+    },
+    {
+      "path": "character/RealFace/MI_HQR7_Head_FaceLegacy_MQ.uasset",
+      "sha256": "57a31acf077dbd7fb9d5f62032daf5e22da21f6e925c32a479db45a5acb382ba",
+      "bytes": 2356
+    },
+    {
+      "path": "character/RealFace/MI_HQR7_Head_FaceLegacy_HQ.uasset",
+      "sha256": "2d79aa6d42f9ed96f0228809b652f51fb58771582da0f9dab1ce9db3f13056bf",
+      "bytes": 3304
+    }
+  ],
+  "entry_metadata": {
+    "character/RealFace/T_NQ27lg00v0000_Face_SRO.uasset": {
+      "id": "2f3040bcdadc343c00000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27lg00v0000_Face_N.uasset": {
+      "id": "e4334e7ce8a430b800000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27lg00v0000_Face_D.uasset": {
+      "id": "3fa3d57ec348afd700000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27ep01v0291_Face_SRO.uasset": {
+      "id": "dcdf1c70155ddf3600000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27ep01v0291_Face_N.uasset": {
+      "id": "748d2347a415d7a400000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27ep01v0291_Face_D.uasset": {
+      "id": "e8d3b5ac1439ffab00000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27ep00v0313_Face_SRO.uasset": {
+      "id": "929d356b69a8f31d00000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27ep00v0313_Face_N.uasset": {
+      "id": "1933808845d884ac00000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27ep00v0313_Face_D.uasset": {
+      "id": "a0e511551086bcca00000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27_Face_SRO.uasset": {
+      "id": "5155b750cea9cc3800000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27_Face_N.uasset": {
+      "id": "25ae303d4dc8913600000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_NQ27_Face_D.uasset": {
+      "id": "4024de40250ea48500000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/T_HQR7_Hair_D.uasset": {
+      "id": "2266870e0d38839700000002",
+      "entry": [
+        "0100000001000000",
+        []
+      ]
+    },
+    "character/RealFace/SK_NQ27lg00v0000_Face.uasset": {
+      "id": "b57d4fb5f73d643a00000002",
+      "entry": [
+        "0200000001000000",
+        [
+          8549136900458166305,
+          6914339079450492914,
+          1334211659898704516,
+          9797115002977841089,
+          13419650090727515024,
+          4779037144234493983
+        ]
+      ]
+    },
+    "character/RealFace/SK_NQ27ep01v0291_Face.uasset": {
+      "id": "ff986ae03fa695de00000002",
+      "entry": [
+        "0200000001000000",
+        [
+          8549136900458166305,
+          6914339079450492914,
+          1334211659898704516,
+          9797115002977841089,
+          13419650090727515024,
+          4779037144234493983
+        ]
+      ]
+    },
+    "character/RealFace/SK_NQ27ep00v0313_Face.uasset": {
+      "id": "e490c16dca3b954800000002",
+      "entry": [
+        "0200000001000000",
+        [
+          8549136900458166305,
+          6914339079450492914,
+          1334211659898704516,
+          9797115002977841089,
+          13419650090727515024,
+          4779037144234493983
+        ]
+      ]
+    },
+    "character/RealFace/SK_NQ27_Face.uasset": {
+      "id": "641aba97f6b5e4e100000002",
+      "entry": [
+        "0200000001000000",
+        [
+          8549136900458166305,
+          6914339079450492914,
+          1334211659898704516,
+          9797115002977841089,
+          13419650090727515024,
+          4779037144234493983
+        ]
+      ]
+    },
+    "character/RealFace/MI_HQR7_Head_Hair_MQ.uasset": {
+      "id": "9023da3ba82c3cba00000002",
+      "entry": [
+        "0100000001000000",
+        [
+          10917631550405699106,
+          9502198759194346440,
+          14612338658290313494
+        ]
+      ]
+    },
+    "character/RealFace/MI_HQR7_Head_Hair_HQ.uasset": {
+      "id": "c1ef24183058f68700000002",
+      "entry": [
+        "0100000001000000",
+        [
+          10917631550405699106,
+          9502198759194346440,
+          14612338658290313494
+        ]
+      ]
+    },
+    "character/RealFace/MI_HQR7_Head_FaceLegacy_MQ.uasset": {
+      "id": "8452728b6f12841200000002",
+      "entry": [
+        "0100000001000000",
+        [
+          9629837456389841984,
+          10545891396931635536,
+          13954437197965610588,
+          3834741816563012230,
+          13399904312082565731
+        ]
+      ]
+    },
+    "character/RealFace/MI_HQR7_Head_FaceLegacy_HQ.uasset": {
+      "id": "f27f3f4fc2aaf45f00000002",
+      "entry": [
+        "0100000001000000",
+        [
+          9629837456389841984,
+          3932144183735791141,
+          4092832864955487569,
+          10545891396931635536,
+          13954437197965610588,
+          12844131984236803113,
+          12950440448487854076,
+          12465215459419269350
+        ]
+      ]
+    }
+  },
+  "Android_tested": false
+}

@@ -111,15 +111,15 @@
     },
     "pc9317_mobile_and.pak": {
       "size": 365,
-      "sha256": "c0a366fd6e542b6f31417230de419118629fde74887fbc12db5e3962a4a86059"
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
     },
     "pc9317_mobile_and.utoc": {
-      "size": 39593,
-      "sha256": "8253a610f18ff5fb2c87e72dad7b5b58578896602ebce1a56964607856d5c0ad"
+      "size": 39785,
+      "sha256": "5af088902df6d3816fb5f3924d09cb2657a42d89240bea487718578ed4fc1ef3"
     },
     "pc9317_mobile_and.ucas": {
-      "size": 31724788,
-      "sha256": "0661f6553587aa34ed05d79a9fa2efa1d740ccf8f8ab708c34bb71f4d5ae74ed"
+      "size": 32245278,
+      "sha256": "0469db99995930a4b4e5bf160a8848b76cd6646646a93e8ce8395416312d4025"
     },
     "pc9320_mobile_and.pak": {
       "size": 365,
@@ -168,8 +168,20 @@
     "pc9324_mobile_and.ucas": {
       "size": 2435570,
       "sha256": "79b37a500245a626c40a072c1790d91f2a89cf928515683764355aad7b343057"
+    },
+    "pc9327_mobile_and.pak": {
+      "size": 365,
+      "sha256": "511ace96d3e07513383a4ec37a7bbc057e8ca57d0f6f5ead04d57d940976cb08"
+    },
+    "pc9327_mobile_and.utoc": {
+      "size": 40216,
+      "sha256": "4f0724da60282268048f9c2978418bd13324a75804a4450497eaba81db3dcc10"
+    },
+    "pc9327_mobile_and.ucas": {
+      "size": 2951475,
+      "sha256": "7d06993174487cc109ed6d672de83c642ebd42d29fd991288755b51bd44dc174"
     }
   },
-  "resource_revision": 19003,
-  "build_label": "FULL6-TRANSFER-FACE-LOD"
+  "resource_revision": 19004,
+  "build_label": "FULL7-CONDITION-FACE-BANDAGE"
 }

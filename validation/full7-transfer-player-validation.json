@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "NPC_roster_editor_without_owned_serial": true,
+  "ability_celebration_accessory_tabs_persist": true,
+  "partial_edits_preserve_other_tabs": true,
+  "reload_and_native_config_match": true,
+  "league_wire_projection_matches": true,
+  "owned_database_unchanged": true,
+  "invalid_requests_atomic": 3,
+  "Android_tested": false
+}

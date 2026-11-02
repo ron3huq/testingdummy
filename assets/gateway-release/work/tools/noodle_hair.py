@@ -4,7 +4,7 @@ import hashlib,json,os,platform,struct,threading,time
 from pathlib import Path
 ENGINE_SHA='efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8'
 TARGET_CARD_IDS=('88044950524330', '89135066911146', '106781745353130', '106734785925546', '105765448873424', '88045755960841', '88038776539586', '105643042189511', '106728863696709', '105848932271764', '105874433662542', '88033139360669', '106726716084650', '106778792700170', '105807861630781', '176104', '84062184', '89138556572074', '106754901843130', '105647605587130', '105804908868664', '105873896755947', '88042803047215', '105634720685845', '105565464400480', '105625593957752', '105797392639585', '106654775417922', '105756321970183', '105568954067359', '106781476920663', '105794439855675', '105863243280360', '105877118037992', '52904065150952', '56164297650152', '88039045074440', '106782819217056', '88035555413452')
-HOOK_SHA='4afdc73ffa7b685d66000280fcf7eaed4b79115fe2cd79562bdadf1e050fdf86'
+HOOK_SHA='824eb528ea72648517af69837570aa1747dafd1963531554036f31839f2e5268'
 GETTER=0x39cd71c
 PROLOGUE=bytes.fromhex('ff0304d1fd7b0ca9f76b00f9f6570ea9')
 HERE=Path(__file__).resolve().parent
@@ -162,6 +162,10 @@ def report():
 
 def preflight(base,path):
     if digest(path)!=ENGINE_SHA:raise RuntimeError("unsupported 73 V16 engine; no patch installed")
+    import bandage_runtime
+    for entry,prologue,_,_ in bandage_runtime.HOOKS:
+        if not owned_entry(base,entry,prologue)and C.string_at(base+entry,len(prologue))!=prologue:
+            raise RuntimeError("Bandage native hook conflict at "+hex(entry))
     for entry,expected in [(0x39ca65c,'e80f19fcfd7b01a9fc6f02a9fa6703a9'),(0x388180c,'fd7bbaa9fc6f01a9fa6702a9f85f03a9'),(59257416, 'ff0307d1fd7b16a9fc6f17a9fa6718a9'), (59247036, 'fd7bbaa9fc6f01a9fa6702a9f85f03a9'), (53522004, 'ff4307d1fd7b17a9fc6f18a9fa6719a9'), (60556320, 'fd7bbba9f90b00f9f85f02a9f65703a9'), (60540272, 'fd7bbea9f44f01a9fd030091f40300aa'), (60540332, '08dc82522aa440a90000088b28004039'), (136560132, 'ff8301d1fd7b03a9f52300f9f44f05a9'), (136977992, 'fd7bbea9f30b00f9fd030091f30300aa'), (61409440, 'ff4306d1fd7b14a9fcab00f9f85f16a9'), (60602204, 'ffc306d1fd7b17a9fc5f18a9f65719a9'), (73095344, 'ff8301d1fd7b03a9f52300f9f44f05a9'), (60634628, 'ff0301d1fd7b01a9f65702a9f44f03a9'), (60636700, 'ff4302d1fd7b03a9fc6f04a9fa6705a9'), (60610332, 'ff0304d1fd7b0ca9f76b00f9f6570ea9'), (60611344, 'ff4307d1fd7b17a9fcc300f9fa6719a9')]:
         prologue=bytes.fromhex(expected)
         if not owned_entry(base,entry,prologue)and C.string_at(base+entry,len(prologue))!=prologue:
@@ -194,6 +198,10 @@ def _worker_once():
                 profile_editor.configure_noodle(_handle)
                 import appearance_gear
                 appearance_gear.configure_native(_handle)
+                import bandage_runtime
+                bandage_runtime.configure_native(_handle)
+                for entry,prologue,name,configure in bandage_runtime.HOOKS:
+                    install(base,path,entry=entry,prologue=prologue,hook_name=name,configure_name=configure)
                 import photo_editor
                 photo_editor.configure(_handle)
                 install(base,path,entry=0x388180c,prologue=bytes.fromhex('fd7bbaa9fc6f01a9fa6702a9f85f03a9'),hook_name='noodle_background_hook',configure_name='configure_background')

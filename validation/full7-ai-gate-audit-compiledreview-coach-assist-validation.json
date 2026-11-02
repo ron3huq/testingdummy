@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "module_sha256": "2e1ef1970c5c48544992d7cfaa8c08e3e1c0e53a696eeb568aacf0f677c0a459",
+  "native_supportsetting_coach_assist1_preserved": true,
+  "feature_disable_restores_native_AI_assist_not_full_AI": true,
+  "native_user_AI_off_clears_assist_flag10": true,
+  "original_selected5_restored": true,
+  "Android_tested": false
+}

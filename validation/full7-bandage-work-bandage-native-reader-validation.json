@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "independent_UEReader_cases": 12,
+  "Skin_and_Body_all6_palettes": true,
+  "rows": [
+    {
+      "texture": "T_BW123_Skin_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW123_Body_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW223_Skin_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW223_Body_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW323_Skin_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW323_Body_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW423_Skin_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW423_Body_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW523_Skin_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW523_Body_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW623_Skin_D",
+      "passed": true
+    },
+    {
+      "texture": "T_BW623_Body_D",
+      "passed": true
+    }
+  ],
+  "Android_tested": false
+}

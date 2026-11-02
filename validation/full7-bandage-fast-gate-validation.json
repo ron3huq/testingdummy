@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "library_sha256": "824eb528ea72648517af69837570aa1747dafd1963531554036f31839f2e5268",
+  "ready_and_has_styles_precomputed_fast_gate": true,
+  "no_profile_and_all_styles_zero_callbacks_take_no_lock": true,
+  "profiled_but_no_active_tokens_asset_paths_take_no_lock": true,
+  "preexisting_face_hooks_disabled_in_fixture_to_isolate_added_bandage_lock_accesses": true,
+  "blocked_tokens_and_threads16_capacity_count_balanced": true,
+  "wrong_thread_and_invalid_token_do_not_underflow": true,
+  "cases": [
+    {
+      "case": "precommit",
+      "long_asset_paths": 120,
+      "bandage_added_lock_accesses": 0,
+      "active_tokens_after_unwind": 0
+    },
+    {
+      "case": "no_profiles",
+      "long_asset_paths": 120,
+      "bandage_added_lock_accesses": 0,
+      "active_tokens_after_unwind": 0
+    },
+    {
+      "case": "all_styles_zero",
+      "long_asset_paths": 120,
+      "bandage_added_lock_accesses": 0,
+      "active_tokens_after_unwind": 0
+    },
+    {
+      "case": "styles_no_active_scope",
+      "long_asset_paths": 120,
+      "bandage_added_lock_accesses": 0,
+      "active_tokens_after_unwind": 0
+    }
+  ],
+  "Android_tested": false
+}

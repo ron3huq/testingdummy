@@ -13,7 +13,7 @@ import threading
 import time
 
 ENGINE_SHA = 'efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8'
-HOOK_SHA='5abc4d675654e7a7aeaf6354727f865cd22941986aafe6a32072b256aa62cc59'
+HOOK_SHA='53a7786d44f2fcd4f95724509f37a2a0c98f032eddf2fc2948704e4a0d696b94'
 GETTER = 0x737e05c
 PROLOGUE = bytes.fromhex('fd7bbaa9fb0b00f9fa6702a9f85f03a9')
 HERE = Path(__file__).resolve().parent
@@ -117,6 +117,9 @@ def set_environment(cid,stadium,snow=False):
 def preflight(base,path):
     __import__("v19_chain").wait(base)
     if digest(path)!=ENGINE_SHA:raise RuntimeError("unsupported 73 V16 engine")
+    import myleague_condition as condition
+    if not owned_entry(base,condition.ENTRY,condition.PROLOGUE) and C.string_at(base+condition.ENTRY,16)!=condition.PROLOGUE:
+        raise RuntimeError('My League final-condition hook conflict; no My League hook installed')
     for entry,expected in [(121102428, 'fd7bbaa9fb0b00f9fa6702a9f85f03a9'), (136563156, 'ffc300d1fd7b01a9f44f02a9fd430091'), (136562900, 'ff0301d1fd7b02a9f44f03a9fd830091'), (136923344, '280040b909bb80520a8018910929a99b'), (136923372, 'ff0301d1fd7b01a9f65702a9f44f03a9'), (136595160, 'ff0301d1fd7b02a9f31b00f9fd830091'), (54665332, 'ff4301d1fd7b02a9f51b00f9f44f04a9'), (54664760, 'ff4301d1fd7b02a9f51b00f9f44f04a9'), (59357124, 'ff4306d1fd7b14a9fc6715a9f85f16a9'), (59358164, 'ff4306d1fd7b14a9fc6715a9f85f16a9'), (59358684, 'ff4306d1fd7b14a9fc6715a9f85f16a9'), (136564688, 'fd7bbea9f44f01a9fd030091f30300aa'), (136564940, 'fd7bbea9f30b00f9fd030091f30300aa'), (137038356, 'e8031f2a3f30007128050054e903012a'), (109906024, 'fd7bbfa9fd03009102600091e00301aa'), (109898564, 'fd7bbaa9fc6f01a9fa6702a9f85f03a9'), (109949264, '800000b4080040f9032d40f960001fd6'), (60863116, 'fd7bbaa9fc6f01a9fa6702a9f85f03a9'), (61173224, 'ff0306d1fd7b12a9fc6f13a9fa6714a9'), (137054844, '00280191c0035fd60850218b3f0c0071'), (61167724, 'fd7bbca9f85f01a9f65702a9f44f03a9'), (61167676, 'fd7bbea9f44f01a9fd030091f303002a'), (61184292, 'ff4305d1fd7b10a9fc8b00f9f85f12a9')]:
         if not owned_entry(base,entry,bytes.fromhex(expected))and C.string_at(base+entry,16)!=bytes.fromhex(expected)and not __import__("v19_chain").accepted(base+entry,bytes.fromhex(expected)):
             raise RuntimeError("My League hook conflict at "+hex(entry)+"; no My League hook installed")
@@ -134,6 +137,9 @@ def _worker_once():
                 preflight(base,matches[0][4])
                 codec_errors={}
                 hook = install(base,matches[0][4])
+                import myleague_condition as condition
+                condition.configure_native(hook,base)
+                install(base,matches[0][4],entry=condition.ENTRY,prologue=condition.PROLOGUE,hook_name='condition_set_hook',configure_name='configure_condition_set')
                 install(base,matches[0][4],entry=0x823c9d4,prologue=bytes.fromhex('ffc300d1fd7b01a9f44f02a9fd430091'),hook_name='team_hook',configure_name='configure_team')
                 install(base,matches[0][4],entry=0x823c8d4,prologue=bytes.fromhex('ff0301d1fd7b02a9f44f03a9fd830091'),hook_name='player_hook',configure_name='configure_player')
                 install(base,matches[0][4],entry=0x82948d0,prologue=bytes.fromhex('280040b909bb80520a8018910929a99b'),hook_name='cached_team_hook',configure_name='configure_cached_team')
@@ -208,6 +214,8 @@ def _worker_once():
                 hook.editor_status.argtypes=[C.c_uint];hook.editor_status.restype=C.c_uint64
                 import noodle_hair
                 face_hook=noodle_hair.wait_ready(15)and noodle_hair._handle
+                hook.configure_bandage_visibility.argtypes=[C.c_uint64];hook.configure_bandage_visibility.restype=None
+                hook.configure_bandage_visibility(C.cast(face_hook.noodle_bandage_styles,C.c_void_p).value)
                 hook.configure_cut_scope.argtypes=[C.c_uint64,C.c_uint64];hook.configure_cut_scope.restype=None
                 hook.configure_cut_scope(C.cast(face_hook.noodle_body_begin,C.c_void_p).value,C.cast(face_hook.noodle_body_end,C.c_void_p).value)
                 for address,prologue,name in [(0x39ce7d8,'ffc306d1fd7b15a9fc6f16a9fa6717a9','detail'),(0x39cefe4,'ffc301d1fd7b03a9f72300f9f65705a9','common')]:

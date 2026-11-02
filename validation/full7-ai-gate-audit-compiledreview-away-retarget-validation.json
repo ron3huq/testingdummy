@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "module_sha256": "2e1ef1970c5c48544992d7cfaa8c08e3e1c0e53a696eeb568aacf0f677c0a459",
+  "away_physical_controller_global_player_index13": true,
+  "opponent_home_manager_does_not_release_away_lock": true,
+  "away_actual_AI_off_on": true,
+  "active_exact_ID_retarget14": true,
+  "missing_ID_returns_native_AI": true,
+  "restored_ID_relocks13": true,
+  "Android_tested": false
+}

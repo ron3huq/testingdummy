@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "ronaldo_reapplied_and_eye_assets_exact": 34,
+  "spider_neck_and_head_meshes_exact": 8,
+  "other_cards_and_textures_byte_exact": true,
+  "long_arms_confirmed_fixed": false,
+  "Android_tested": false,
+  "containers": {
+    "pc9317_mobile_and.ucas": "0469db99995930a4b4e5bf160a8848b76cd6646646a93e8ce8395416312d4025",
+    "pc9317_mobile_and.pak": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf",
+    "pc9317_mobile_and.utoc": "5af088902df6d3816fb5f3924d09cb2657a42d89240bea487718578ed4fc1ef3"
+  }
+}

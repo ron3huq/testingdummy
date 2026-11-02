@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "Android_tested": false,
+  "checks": [
+    {
+      "mesh": "SK_NQ27_Face",
+      "reader_passed": true,
+      "cooked_out_LOD0": true,
+      "RequiredBones_LOD0": 166,
+      "RequiredBones_LOD1": 153,
+      "all_source_visible_geometry_UV_tangents_colors_exact": true,
+      "effective_skin_weights_preserved_after_native_LOD1_collapse": true,
+      "native_body_ref_exact": true,
+      "vertices": 11863,
+      "triangles": 17201
+    },
+    {
+      "mesh": "SK_NQ27lg00v0000_Face",
+      "reader_passed": true,
+      "cooked_out_LOD0": true,
+      "RequiredBones_LOD0": 166,
+      "RequiredBones_LOD1": 153,
+      "all_source_visible_geometry_UV_tangents_colors_exact": true,
+      "effective_skin_weights_preserved_after_native_LOD1_collapse": true,
+      "native_body_ref_exact": true,
+      "vertices": 11863,
+      "triangles": 17201
+    },
+    {
+      "mesh": "SK_NQ27ep00v0313_Face",
+      "reader_passed": true,
+      "cooked_out_LOD0": true,
+      "RequiredBones_LOD0": 166,
+      "RequiredBones_LOD1": 153,
+      "all_source_visible_geometry_UV_tangents_colors_exact": true,
+      "effective_skin_weights_preserved_after_native_LOD1_collapse": true,
+      "native_body_ref_exact": true,
+      "vertices": 11863,
+      "triangles": 17201
+    },
+    {
+      "mesh": "SK_NQ27ep01v0291_Face",
+      "reader_passed": true,
+      "cooked_out_LOD0": true,
+      "RequiredBones_LOD0": 166,
+      "RequiredBones_LOD1": 153,
+      "all_source_visible_geometry_UV_tangents_colors_exact": true,
+      "effective_skin_weights_preserved_after_native_LOD1_collapse": true,
+      "native_body_ref_exact": true,
+      "vertices": 11863,
+      "triangles": 17201
+    }
+  ],
+  "all_4_source_variants_reapplied": true,
+  "body_compact_bone_indices_native166_153_exact": true,
+  "other_cards_not_changed": true,
+  "source_face_and_hair_shape_retained": true,
+  "no_claim_long_arms_fixed": true,
+  "container_files": [
+    {
+      "name": "pc9317_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "febd852298e12141ddd7e248330ab788cf1924b31e8eda954c676c129fca69ec"
+    },
+    {
+      "name": "pc9317_mobile_and.ucas",
+      "bytes": 31502471,
+      "sha256": "7f7e3df80e80f5b85565691d5ac6ee45b11f31dd36c024592a8d96703dd84017"
+    },
+    {
+      "name": "pc9317_mobile_and.utoc",
+      "bytes": 39785,
+      "sha256": "eba3689b1cea1fca6b6c3c28fa68c095b79ae6c9e36beef7d31d561284a3cf02"
+    }
+  ],
+  "visual_preview": {
+    "source": "source-eyes.png",
+    "final_decoded_container": "packaged-eyes.png",
+    "renderer": "Blender4.3.2 Cycles40samples; diffuse+hairalpha; not native UE4 render",
+    "visually_inspected": true,
+    "iris": "warm brown instead of green-grey",
+    "peri_orbital_albedo": "locally brighter",
+    "occlusion_lid_geometry": "source retained; removal experiment rejected"
+  }
+}

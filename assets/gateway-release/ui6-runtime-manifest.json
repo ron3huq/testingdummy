@@ -1,5 +1,5 @@
 {
-  "version": "private-v19.1-full-6-transfer-face-lod",
+  "version": "private-v19.1-full-7-condition-face-bandage",
   "files": [
     {
       "path": "custom-resources/legends-v10/dt870_mobile_and.cpk",
@@ -214,17 +214,17 @@
     {
       "path": "livedata/pc9317_mobile_and.pak",
       "bytes": 365,
-      "sha256": "c0a366fd6e542b6f31417230de419118629fde74887fbc12db5e3962a4a86059"
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
     },
     {
       "path": "livedata/pc9317_mobile_and.ucas",
-      "bytes": 31724788,
-      "sha256": "0661f6553587aa34ed05d79a9fa2efa1d740ccf8f8ab708c34bb71f4d5ae74ed"
+      "bytes": 32245278,
+      "sha256": "0469db99995930a4b4e5bf160a8848b76cd6646646a93e8ce8395416312d4025"
     },
     {
       "path": "livedata/pc9317_mobile_and.utoc",
-      "bytes": 39593,
-      "sha256": "8253a610f18ff5fb2c87e72dad7b5b58578896602ebce1a56964607856d5c0ad"
+      "bytes": 39785,
+      "sha256": "5af088902df6d3816fb5f3924d09cb2657a42d89240bea487718578ed4fc1ef3"
     },
     {
       "path": "livedata/pc9320_mobile_and.pak",
@@ -287,14 +287,34 @@
       "sha256": "371c59344aff7a989d93b7f4767803d2c37950a0ad2d247db8ac53f35feeed62"
     },
     {
+      "path": "livedata/pc9327_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "511ace96d3e07513383a4ec37a7bbc057e8ca57d0f6f5ead04d57d940976cb08"
+    },
+    {
+      "path": "livedata/pc9327_mobile_and.ucas",
+      "bytes": 2951475,
+      "sha256": "7d06993174487cc109ed6d672de83c642ebd42d29fd991288755b51bd44dc174"
+    },
+    {
+      "path": "livedata/pc9327_mobile_and.utoc",
+      "bytes": 40216,
+      "sha256": "4f0724da60282268048f9c2978418bd13324a75804a4450497eaba81db3dcc10"
+    },
+    {
       "path": "work/tools/appearance_choices.py",
       "bytes": 10083,
       "sha256": "0aaf4986988660bceb9fac4d37a356e6bef69d411822f3ebf9a413fb63b57440"
     },
     {
       "path": "work/tools/appearance_gear.py",
-      "bytes": 7177,
-      "sha256": "5c5f6538eeffa405b5b76378cba80f3d3e8b6fb347c9db55b1796c0915807a9b"
+      "bytes": 7377,
+      "sha256": "29483f16d2fe045945d1b557f61cfed25e0bbd744cc091e6f4c579e7ed3d36e8"
+    },
+    {
+      "path": "work/tools/bandage_runtime.py",
+      "bytes": 2194,
+      "sha256": "ce61d6de2dd7e241d25cd6bad027192d51c8cb899fc7a22693546b2fa91a7f41"
     },
     {
       "path": "work/tools/body_defaults.zlib",
@@ -308,8 +328,8 @@
     },
     {
       "path": "work/tools/bridge_73.py",
-      "bytes": 3961,
-      "sha256": "c4832ef85d6f775c5db91a467597a6e85445e9a0933691b9b7986eff42789c87"
+      "bytes": 4149,
+      "sha256": "9f5ba2c08c5d6c6d062d6a572d8b0a4e5e8c83273a888f76368993cf57d03172"
     },
     {
       "path": "work/tools/bundled_editor_photos.json",
@@ -368,8 +388,8 @@
     },
     {
       "path": "work/tools/hook_arena.py",
-      "bytes": 9551,
-      "sha256": "138444333a5fc07b9b0798fde95c3806d645339423ab22848deddb0569429574"
+      "bytes": 9953,
+      "sha256": "4549b6343443c4e7d5e7369df1157c1ca3be4d626390059ec81db19fdf64ac9b"
     },
     {
       "path": "work/tools/innate_skill_labels.json",
@@ -393,18 +413,23 @@
     },
     {
       "path": "work/tools/libnoodle_hair.so",
-      "bytes": 175320,
-      "sha256": "4afdc73ffa7b685d66000280fcf7eaed4b79115fe2cd79562bdadf1e050fdf86"
+      "bytes": 199968,
+      "sha256": "824eb528ea72648517af69837570aa1747dafd1963531554036f31839f2e5268"
     },
     {
       "path": "work/tools/libselect_team.so",
-      "bytes": 375856,
-      "sha256": "5abc4d675654e7a7aeaf6354727f865cd22941986aafe6a32072b256aa62cc59"
+      "bytes": 379752,
+      "sha256": "53a7786d44f2fcd4f95724509f37a2a0c98f032eddf2fc2948704e4a0d696b94"
+    },
+    {
+      "path": "work/tools/libsingle_player.so",
+      "bytes": 47160,
+      "sha256": "2e1ef1970c5c48544992d7cfaa8c08e3e1c0e53a696eeb568aacf0f677c0a459"
     },
     {
       "path": "work/tools/live_snapshot.py",
-      "bytes": 3278,
-      "sha256": "ee7323008b8e00aacd7e010561c6b0f20a7dd02ede7c98f0060ae2e024c05b50"
+      "bytes": 3692,
+      "sha256": "406477f6d72b9340a8b9e9d9cb2122b9e6cefe257cbeee1a9aa848d200bcbb3e"
     },
     {
       "path": "work/tools/manager_bundle.json",
@@ -423,8 +448,8 @@
     },
     {
       "path": "work/tools/mod_startup.py",
-      "bytes": 3053,
-      "sha256": "370d3bca99913833c635d5455e90258b1d5e0aa49df0dbd4cde4add9b67d688f"
+      "bytes": 3338,
+      "sha256": "99046ea5fd6ba01a06d69429c5a0193dbb927a73bfa0cec744a8c625d1584c5f"
     },
     {
       "path": "work/tools/motion_choices.json",
@@ -467,6 +492,16 @@
       "sha256": "caa167558b3149593b914cfc896d664b8f50f83bf73d9b8c42b9ecf68aa81210"
     },
     {
+      "path": "work/tools/myleague_condition.json",
+      "bytes": 76,
+      "sha256": "3fa7a204c6ce49ed61b8eb6e64144f1e2b23b910a0fef36e4e95775857ebcdc9"
+    },
+    {
+      "path": "work/tools/myleague_condition.py",
+      "bytes": 4419,
+      "sha256": "518c9a9a282934f747bd4de24ef5d81e5ece51560d1e0268f32df6ecabd16b1c"
+    },
+    {
       "path": "work/tools/myleague_custom.json",
       "bytes": 585567,
       "sha256": "77a013cc7d6aad9ff34c6f62c17aa7dbe685ac1f0fcc8bbd02deb7c104862e44"
@@ -478,8 +513,8 @@
     },
     {
       "path": "work/tools/myleague_editor_runtime.py",
-      "bytes": 12603,
-      "sha256": "39448f5e792ebb69e34959c348254cec8d3be79cd17fe8483b5904bd2c72636d"
+      "bytes": 12656,
+      "sha256": "fc01ce176c71ce4076a56ae8c6fe54ec15a797083c103cd6d44d1aa8b9a87bb7"
     },
     {
       "path": "work/tools/myleague_packs.py",
@@ -513,8 +548,8 @@
     },
     {
       "path": "work/tools/noodle_bundle.json",
-      "bytes": 11107,
-      "sha256": "e9a73aca1f3cfd6531446de32962979fce3730e389f1e4359d46c5afb156b871"
+      "bytes": 12463,
+      "sha256": "ad024c1ae3e6d0d39dbcd4805d06e9cc989beba73aee187325ebed9a6b127590"
     },
     {
       "path": "work/tools/noodle_hair.json",
@@ -523,8 +558,8 @@
     },
     {
       "path": "work/tools/noodle_hair.py",
-      "bytes": 20144,
-      "sha256": "bf068d99a9f52a79b8224b7b65e564915c38d50e2a73740a3eb929aaa83f274c"
+      "bytes": 20684,
+      "sha256": "376383a680d4e73e39d8e42897e307cbe408c9b318020cdf371cae858823f38c"
     },
     {
       "path": "work/tools/photo_codec.py",
@@ -563,13 +598,13 @@
     },
     {
       "path": "work/tools/private_bundles.json",
-      "bytes": 6117,
-      "sha256": "83a105f611b36d89c8861492e067f84e963cfd48f95bfb98a0c5976e38243c1f"
+      "bytes": 6550,
+      "sha256": "2cafd40e8b806741db494b907b7853de0a61bbe8904d8f9ce60c39d73bac11f1"
     },
     {
       "path": "work/tools/private_bundles.py",
-      "bytes": 2439,
-      "sha256": "8eefc32ccc1228481caf3841021a441b24d845b17a2e57916190d41ab754bc8f"
+      "bytes": 2449,
+      "sha256": "82c06d39bb7827a8f9c5ec38d68b9214eabe7034b2031ea7f3420e9b3d9e36db"
     },
     {
       "path": "work/tools/profile_editor.py",
@@ -583,8 +618,13 @@
     },
     {
       "path": "work/tools/select_team_runtime.py",
-      "bytes": 25988,
-      "sha256": "001c0807c69cce2c7f25f7f2741ecbb79374c472e9c9e37ef70a068d38e7271f"
+      "bytes": 26758,
+      "sha256": "d7fcc94cfb214fafb4c4abf6cd8f4eb1af01b581b3a3d1d4f6b12955fe9489f8"
+    },
+    {
+      "path": "work/tools/single_player_runtime.py",
+      "bytes": 8390,
+      "sha256": "96c96f44da94e6ffa7a9b152ad28a6ae06e0f89973a1424f0f445db3102c066e"
     },
     {
       "path": "work/tools/stat_editor.py",
@@ -608,8 +648,8 @@
     },
     {
       "path": "work/tools/transfer_player_editor.py",
-      "bytes": 4487,
-      "sha256": "cfadd2a1959ed5aa583f5ac3b0aeb8934ca6485cb6239530c8660943edcca8a9"
+      "bytes": 4682,
+      "sha256": "b2a9ef516acd5bfd077286b12468056146651bc8b44d66700770693c9b8318f0"
     },
     {
       "path": "work/tools/ui2_skill_rules.json",

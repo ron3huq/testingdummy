@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "engine_sha256": "efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8",
+  "module_sha256": "2e1ef1970c5c48544992d7cfaa8c08e3e1c0e53a696eeb568aacf0f677c0a459",
+  "actual_native_AI_toggle_intents": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "actual_native_AI_transition_executions": 81,
+  "exact_card_ID_and_onpitch_accessors_executed": true,
+  "native_pause_and_replay_suspend_resume": true,
+  "selected_ID_missing_and_inactive_suspend": true,
+  "opponent_controllers_unchanged": true,
+  "formation_order_re_resolves_exact_ID": true,
+  "disable_restores_native_AI_and_cursor_settings": true,
+  "ctor_dtor_generation_prevents_address_reuse": true,
+  "W4_and_S0_update_ABI_preserved": true,
+  "manual_cursor_dummy_restoration_cases": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ]
+  ],
+  "paused_actual_AI_toggle_off_stays_manual": true,
+  "temporary_clear_restore_phases": [
+    "playing",
+    "paused",
+    "replay"
+  ],
+  "missing_controller_releases_overlay": true,
+  "destructor_with_unmapped_CursorInfo_no_read_or_write": true,
+  "fixture_boundaries": [
+    "initialized registry objects",
+    "physical pad port",
+    "opaque incoming command",
+    "full CursorManager Update",
+    "constructor registration and destructor registry cleanup"
+  ],
+  "Android_gameplay_tested": false
+}

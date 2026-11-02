@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "disabled_installs_no_hooks_or_worker": true,
+  "actual_worker_configures_exact64_ID_and_all7_checked_hooks": true,
+  "ready_only_after_native_mask127_and_all7_installations": true,
+  "engine_native_and_prologue_corruption_fail_before_mutation": true,
+  "trusted_arena_library_routes_to_single_player_module": true,
+  "Ctypes_and_map_boundaries_mocked": true,
+  "Android_tested": false
+}

@@ -9,12 +9,12 @@ def read(c):
 
 def validate(values):
  import stat_editor,appearance_choices,appearance_gear
- if not isinstance(values,dict)or set(values)-{'parameters','celebrations','accessories','accessory_colors','sleeve'}:raise ValueError('Invalid Transfer player fields')
+ if not isinstance(values,dict)or set(values)-{'parameters','celebrations','accessories','accessory_colors','sleeve','bandage_left','bandage_right'}:raise ValueError('Invalid Transfer player fields')
  if 'parameters'in values:stat_editor.validate(values['parameters'])
  if 'celebrations'in values:
   if not isinstance(values['celebrations'],dict)or set(values['celebrations'])-{'59','60'}:raise ValueError('Invalid celebration fields')
   appearance_choices.validate(values['celebrations'])
- gear={k:v for k,v in values.items()if k in ['accessories','accessory_colors','sleeve']}
+ gear={k:v for k,v in values.items()if k in ['accessories','accessory_colors','sleeve','bandage_left','bandage_right']}
  appearance_gear.validate(gear)
  return values
 
@@ -24,7 +24,7 @@ def inject(cfg,data):
   row=next((r for r in cfg['players']if r['id']==pid and r['competition']==int(cid)),None)
   if row is None:row={'id':pid,'competition':int(cid),'sleeve':'none','parameters':{}};cfg['players'].append(row)
   row['parameters'].update(v.get('parameters',{}));row['parameters'].update(v.get('celebrations',{}))
-  for field in ['accessories','accessory_colors','sleeve']:
+  for field in ['accessories','accessory_colors','sleeve','bandage_left','bandage_right']:
    if field in v:row[field]=copy.deepcopy(v[field])
  editor.validate(cfg);return cfg
 
@@ -50,6 +50,8 @@ def manage(c,action,req):
      effective['parameters'].update({k:v for k,v in row.get('parameters',{}).items()if k in {str(i)for i in stat_editor.LABELS}})
      effective['celebrations'].update({k:v for k,v in row.get('parameters',{}).items()if k in ['59','60']})
      for field in ['accessories','accessory_colors']:effective[field].update(row.get(field,{}))
+     for field in ('bandage_left','bandage_right'):
+      if field in row:effective[field]=row[field]
      if row.get('sleeve','none')!='none':effective['sleeve']=row['sleeve']
   return {'player_id':pid,'name':editor_names.NAMES.get(pid,pid),'competition':cid,'values':effective,'fields':[{'index':k,'name':v}for k,v in stat_editor.LABELS.items()],'celebration_choices':appearance_choices.choices()if req.get('section')=='celebrations'else{},'accessory_choices':appearance_gear.CHOICES}
  if body.engine_loaded():raise ValueError('Close and reopen the app; edit before Enter Game')

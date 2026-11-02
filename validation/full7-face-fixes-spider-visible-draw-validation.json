@@ -1,0 +1,167 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "mesh": "SK_NSV1_Face",
+      "section": 0,
+      "original_start_triangle": 0,
+      "new_start_triangle": 0,
+      "visible_triangles_exact_source": 48727,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSV1_Face",
+      "section": 1,
+      "original_start_triangle": 48727,
+      "new_start_triangle": 48727,
+      "visible_triangles_exact_source": 67150,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSV1lg00v0000_Face",
+      "section": 0,
+      "original_start_triangle": 0,
+      "new_start_triangle": 0,
+      "visible_triangles_exact_source": 48727,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSV1lg00v0000_Face",
+      "section": 1,
+      "original_start_triangle": 48727,
+      "new_start_triangle": 48727,
+      "visible_triangles_exact_source": 67150,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSV1ep00v0313_Face",
+      "section": 0,
+      "original_start_triangle": 0,
+      "new_start_triangle": 0,
+      "visible_triangles_exact_source": 48727,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSV1ep00v0313_Face",
+      "section": 1,
+      "original_start_triangle": 48727,
+      "new_start_triangle": 48727,
+      "visible_triangles_exact_source": 67150,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSV1ep01v0291_Face",
+      "section": 0,
+      "original_start_triangle": 0,
+      "new_start_triangle": 0,
+      "visible_triangles_exact_source": 48727,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSV1ep01v0291_Face",
+      "section": 1,
+      "original_start_triangle": 48727,
+      "new_start_triangle": 48727,
+      "visible_triangles_exact_source": 67150,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSM1_Face",
+      "section": 0,
+      "original_start_triangle": 0,
+      "new_start_triangle": 0,
+      "visible_triangles_exact_source": 48727,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSM1_Face",
+      "section": 1,
+      "original_start_triangle": 48727,
+      "new_start_triangle": 48727,
+      "visible_triangles_exact_source": 67150,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSM1lg00v0000_Face",
+      "section": 0,
+      "original_start_triangle": 0,
+      "new_start_triangle": 0,
+      "visible_triangles_exact_source": 48727,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSM1lg00v0000_Face",
+      "section": 1,
+      "original_start_triangle": 48727,
+      "new_start_triangle": 48727,
+      "visible_triangles_exact_source": 67150,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSM1ep00v0313_Face",
+      "section": 0,
+      "original_start_triangle": 0,
+      "new_start_triangle": 0,
+      "visible_triangles_exact_source": 48727,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSM1ep00v0313_Face",
+      "section": 1,
+      "original_start_triangle": 48727,
+      "new_start_triangle": 48727,
+      "visible_triangles_exact_source": 67150,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSM1ep01v0291_Face",
+      "section": 0,
+      "original_start_triangle": 0,
+      "new_start_triangle": 0,
+      "visible_triangles_exact_source": 48727,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    },
+    {
+      "mesh": "SK_NSM1ep01v0291_Face",
+      "section": 1,
+      "original_start_triangle": 48727,
+      "new_start_triangle": 48727,
+      "visible_triangles_exact_source": 67150,
+      "original_reserved_gap_before_section": 0,
+      "cross_section_vertex_fetches": 0,
+      "local_palette_effective_weights_exact_outside_neck": true
+    }
+  ],
+  "native_palette_remap_does_not_change_effective_weights_outside_neck": true,
+  "phone_tested": false
+}

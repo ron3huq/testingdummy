@@ -48,6 +48,7 @@ def validate(data):
    elif ix==47:integer(value,140,220)
    elif ix==48:integer(value,40,130)
    else:raise ValueError('unverified parameter is not editable')
+  __import__('bandage_runtime').validate_fields(row)
   gear=row.get('accessories',{})
   if not isinstance(gear,dict):raise ValueError('invalid accessories')
   for key,mode in gear.items():

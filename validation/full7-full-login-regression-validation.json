@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "old_FULL51_failure_reproduced_through_actual_pipeline": true,
+  "actual_original_CMD_LOGIN_and_recursive_URL_pipeline_pass": true,
+  "all_private_container_hashes_in_login_manifest_match": true,
+  "native_cached_version_codec_and_relogin_stable": true,
+  "CPK_hash_and_size_unchanged": true,
+  "invalid_resource_revision_rejected_early_cases": 5,
+  "native_readiness_not_bypassed": true,
+  "current_downstream_errors_captured_and_reraised": true,
+  "host_fixture_uses_original_protected_V19_gateway": true,
+  "native_hooks_not_executed_in_host_test": true,
+  "Android_login_tested": false
+}

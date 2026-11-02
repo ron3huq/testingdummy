@@ -33,14 +33,14 @@ def require_ready():
  global _verified
  if platform.machine().lower()not in('aarch64','arm64'):return
  if not _python_ready:raise RuntimeError('Mod Python adapter is not initialized; original fallback is blocked.')
- import noodle_hair,select_team_runtime
- if _verified and noodle_hair._ready.is_set()and select_team_runtime._ready.is_set():return
+ import noodle_hair,select_team_runtime,myleague_condition,single_player_runtime
+ if _verified and noodle_hair._ready.is_set()and select_team_runtime._ready.is_set()and myleague_condition.ready()and single_player_runtime.ready():return
  if platform.machine().lower()not in('aarch64','arm64'):return
  with _lock:
-  if _verified and noodle_hair._ready.is_set()and select_team_runtime._ready.is_set():return
-  import noodle_hair,select_team_runtime
+  if _verified and noodle_hair._ready.is_set()and select_team_runtime._ready.is_set()and myleague_condition.ready()and single_player_runtime.ready():return
+  import noodle_hair,select_team_runtime,myleague_condition,single_player_runtime
   try:
-   noodle_hair.wait_ready(15);select_team_runtime.wait_ready(15)
+   noodle_hair.wait_ready(15);select_team_runtime.wait_ready(15);myleague_condition.require_ready(15);single_player_runtime.require_ready(15)
    _verified=True;status={'state':'READY','version':'73-ui7.19','original_fallback':False}
   except Exception as exc:
    record_error('login-readiness',exc)

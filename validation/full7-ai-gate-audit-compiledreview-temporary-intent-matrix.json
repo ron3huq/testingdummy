@@ -1,0 +1,968 @@
+{
+  "passed": true,
+  "module_sha256": "2e1ef1970c5c48544992d7cfaa8c08e3e1c0e53a696eeb568aacf0f677c0a459",
+  "cases": [
+    {
+      "name": "playing_off_only",
+      "passed": true,
+      "phase": "playing",
+      "last_user_intent": 0,
+      "restore_requested_from_native_cc": 0,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 256
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 2,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 0,
+        "pending_cc": 0
+      }
+    },
+    {
+      "name": "playing_off_then_mode_disabled",
+      "passed": true,
+      "phase": "playing",
+      "last_user_intent": 0,
+      "restore_requested_from_native_cc": 0,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 256
+      },
+      "final": {
+        "status": {
+          "enabled": 0,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 2,
+          "controller": 24,
+          "player": 255,
+          "reason": 0,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 0,
+        "pending_cc": 0
+      }
+    },
+    {
+      "name": "playing_off_then_target_changed",
+      "passed": true,
+      "phase": "playing",
+      "last_user_intent": 0,
+      "restore_requested_from_native_cc": 0,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 256
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 100000000008,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 8,
+          "reason": 2,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 0,
+        "pending_cc": 0
+      }
+    },
+    {
+      "name": "playing_off_then_on_again",
+      "passed": true,
+      "phase": "playing",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "playing_manual_then_on",
+      "passed": true,
+      "phase": "playing",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "playing_manual_then_on_mode_disabled",
+      "passed": true,
+      "phase": "playing",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 0,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 2,
+          "controller": 24,
+          "player": 255,
+          "reason": 0,
+          "installed": 127
+        },
+        "raw15": 1,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "playing_manual_then_on_target_changed",
+      "passed": true,
+      "phase": "playing",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 100000000008,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 8,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "playing_on_target_changed",
+      "passed": true,
+      "phase": "playing",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 100000000008,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 8,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "paused_off_only",
+      "passed": true,
+      "phase": "paused",
+      "last_user_intent": 0,
+      "restore_requested_from_native_cc": 0,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 256
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 2,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 0,
+        "pending_cc": 0
+      }
+    },
+    {
+      "name": "paused_off_then_mode_disabled",
+      "passed": true,
+      "phase": "paused",
+      "last_user_intent": 0,
+      "restore_requested_from_native_cc": 0,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 256
+      },
+      "final": {
+        "status": {
+          "enabled": 0,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 2,
+          "controller": 24,
+          "player": 255,
+          "reason": 0,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 0,
+        "pending_cc": 0
+      }
+    },
+    {
+      "name": "paused_off_then_target_changed",
+      "passed": true,
+      "phase": "paused",
+      "last_user_intent": 0,
+      "restore_requested_from_native_cc": 0,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 256
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 100000000008,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 8,
+          "reason": 2,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 0,
+        "pending_cc": 0
+      }
+    },
+    {
+      "name": "paused_off_then_on_again",
+      "passed": true,
+      "phase": "paused",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "paused_manual_then_on",
+      "passed": true,
+      "phase": "paused",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "paused_manual_then_on_mode_disabled",
+      "passed": true,
+      "phase": "paused",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 0,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 2,
+          "controller": 24,
+          "player": 255,
+          "reason": 0,
+          "installed": 127
+        },
+        "raw15": 1,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "paused_manual_then_on_target_changed",
+      "passed": true,
+      "phase": "paused",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 100000000008,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 8,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "paused_on_target_changed",
+      "passed": true,
+      "phase": "paused",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 100000000008,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 8,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "replay_off_only",
+      "passed": true,
+      "phase": "replay",
+      "last_user_intent": 0,
+      "restore_requested_from_native_cc": 0,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 256
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 2,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 0,
+        "pending_cc": 0
+      }
+    },
+    {
+      "name": "replay_off_then_mode_disabled",
+      "passed": true,
+      "phase": "replay",
+      "last_user_intent": 0,
+      "restore_requested_from_native_cc": 0,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 256
+      },
+      "final": {
+        "status": {
+          "enabled": 0,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 2,
+          "controller": 24,
+          "player": 255,
+          "reason": 0,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 0,
+        "pending_cc": 0
+      }
+    },
+    {
+      "name": "replay_off_then_target_changed",
+      "passed": true,
+      "phase": "replay",
+      "last_user_intent": 0,
+      "restore_requested_from_native_cc": 0,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 256
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 100000000008,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 8,
+          "reason": 2,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 0,
+        "pending_cc": 0
+      }
+    },
+    {
+      "name": "replay_off_then_on_again",
+      "passed": true,
+      "phase": "replay",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "replay_manual_then_on",
+      "passed": true,
+      "phase": "replay",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "replay_manual_then_on_mode_disabled",
+      "passed": true,
+      "phase": "replay",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 0,
+          "id": 106782819217056,
+          "intent": 0,
+          "active": 0,
+          "generation": 1,
+          "side": 2,
+          "controller": 24,
+          "player": 255,
+          "reason": 0,
+          "installed": 127
+        },
+        "raw15": 1,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "replay_manual_then_on_target_changed",
+      "passed": true,
+      "phase": "replay",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 100000000008,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 8,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    },
+    {
+      "name": "replay_on_target_changed",
+      "passed": true,
+      "phase": "replay",
+      "last_user_intent": 1,
+      "restore_requested_from_native_cc": 1,
+      "after_user": {
+        "status": {
+          "enabled": 1,
+          "id": 106782819217056,
+          "intent": 1,
+          "active": 0,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 7,
+          "reason": 7,
+          "installed": 127
+        },
+        "raw15": 0,
+        "pending_cc": 257
+      },
+      "final": {
+        "status": {
+          "enabled": 1,
+          "id": 100000000008,
+          "intent": 1,
+          "active": 1,
+          "generation": 1,
+          "side": 0,
+          "controller": 0,
+          "player": 8,
+          "reason": 1,
+          "installed": 127
+        },
+        "raw15": 0,
+        "UI15": 1,
+        "pending_cc": 1
+      }
+    }
+  ],
+  "native_AI_toggle_and_temporary_snapshot_routines_executed": true,
+  "Android_tested": false
+}

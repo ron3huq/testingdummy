@@ -6,6 +6,10 @@ from pathlib import Path
 def install(root, module):
     if getattr(module,'_v191_full_installed',False):return
     tools = Path(root) / 'work/tools'
+    import myleague_condition
+    myleague_condition.install(root,module)
+    import single_player_runtime
+    single_player_runtime.install(root,module)
     import v191_live
     v191_live.install(root)
     import v191_original_card
@@ -86,6 +90,7 @@ def install(root, module):
         try:(tools / 'myleague-73-status.json').write_text(json.dumps({'state':'ERROR','error':str(exc),'version':'73-ui7-full'},indent=2))
         except OSError:pass
         raise RuntimeError('UI7 Python adapter initialization failed')from exc
+    single_player_runtime.start()
     import live_snapshot
     live_snapshot.install(module)
     module._v191_full_installed=True

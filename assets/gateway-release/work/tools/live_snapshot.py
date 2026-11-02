@@ -18,6 +18,18 @@ def snapshot():
   status=getattr(editor_condition,'_status','unknown')
   out['live_form_runtime']={'pid':os.getpid(),'current_process_only':True,'status':status if isinstance(status,str)else'unknown','configured_override_count':len(getattr(editor_condition,'_desired',{})),'grade_mapping':{'0':'E','1':'D','2':'C','3':'B','4':'A','-1':'game_default'}}
  except (ImportError,TypeError):pass
+ try:
+  import myleague_condition
+  out['myleague_actual_condition']=myleague_condition.status()
+ except (ImportError,ValueError,RuntimeError):pass
+ try:
+  import bandage_runtime
+  out['bandage']=bandage_runtime.status()
+ except (ImportError,ValueError,RuntimeError):pass
+ try:
+  import single_player_runtime
+  out['single_player']=single_player_runtime.status()
+ except (ImportError,ValueError,RuntimeError):pass
  h=team._native_handle
  if h is not None and team._ready.is_set():
   def words(name,keys):

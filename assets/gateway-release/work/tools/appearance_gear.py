@@ -6,7 +6,8 @@ KEY='ui710_equipment';profiles={};_conn=None;_lock=threading.RLock()
 BACKGROUNDS=[88039313485858,88045755960770,89138019805599,89138288266704,89133456301399,89133724764840,88037702764935,89139630444046]
 CHOICES={'0':'Short tights','1':'Long tights · full set','2':'Long tights · native variant 2','3':'Long tights · native variant 3','4':'Left wrist tape','5':'Right wrist tape','6':'Ankle tape','7':'Outfield gloves','8':'Undershirt · normal neck','9':'Undershirt · high neck'}
 def validate(v):
- if not isinstance(v,dict)or set(v)-{'sleeve','accessories','accessory_colors','background','socks'}:raise ValueError('Invalid equipment settings')
+ if not isinstance(v,dict)or set(v)-{'sleeve','accessories','accessory_colors','background','socks','bandage_left','bandage_right'}:raise ValueError('Invalid equipment settings')
+ __import__('bandage_runtime').validate_fields(v)
  if v.get('sleeve','none')not in ['none','original','short','long','inner','highneck','cutlong']:raise ValueError('Choose original, short or long sleeves')
  if 'socks'in v and v['socks']not in ['original','normal','long','short']:raise ValueError('Choose original, normal, long or short socks')
  if 'background'in v and (type(v['background'])is not int or v['background']not in [0]+BACKGROUNDS):raise ValueError('Unsupported background donor')
@@ -37,6 +38,9 @@ def write_config(data):
    if 'sleeve'in v:row['sleeve']=v['sleeve']
    if 'accessories'in v:row['accessories']=dict(v['accessories'])
    if 'accessory_colors'in v:row['accessory_colors']=dict(v['accessory_colors'])
+   if row['competition']==0:
+    for field in ('bandage_left','bandage_right'):
+     if field in v:row[field]=v[field]
  editor.validate(cfg);tmp=editor.PATH.with_suffix('.equipment.tmp');tmp.write_text(json.dumps(cfg,indent=2));tmp.replace(editor.PATH);editor._config=None
 
 def manage(conn,action,req):

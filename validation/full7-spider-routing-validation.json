@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "production_ARM64_outer_scope_and_path_hooks_executed": true,
+  "mesh_and_texture_all_four_variants": true,
+  "native_ids_unchanged": true,
+  "unrelated_cards_preserved": true,
+  "cases": 160,
+  "failures": [],
+  "Android_tested": false
+}

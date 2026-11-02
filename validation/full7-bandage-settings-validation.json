@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "actual_manage_routes_owned_and_NPC_transfer": true,
+  "both_wrist_styles_persist_and_reload": true,
+  "scoped_zero_restores_global_and_native_modes_correctly": true,
+  "partial_tabs_preserve_stats_and_bandages": true,
+  "partial_config_inherits_other_wrist": true,
+  "owned_stats_and_body_unchanged": true,
+  "invalid_requests_atomic_cases": 8,
+  "edit_after_Enter_Game_rejected": true,
+  "Android_tested": false
+}

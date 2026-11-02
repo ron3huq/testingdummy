@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "owned_and_catalogue_NPC_selection_supported": true,
+  "exact_full_ID_search_and_pagination_40": true,
+  "saved_choices_survive_database_reopen": true,
+  "no_mutable_pinned_config_files": true,
+  "invalid_enabled_missing_or_unknown_player_atomic": true,
+  "disabled_installs_no_native_hooks": true,
+  "after_Enter_Game_edit_rejected": true,
+  "Android_tested": false
+}

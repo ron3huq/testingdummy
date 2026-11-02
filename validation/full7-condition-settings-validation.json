@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "default_owned_players": true,
+  "both_scopes_toggle_persisted": true,
+  "closed_database_and_package_repair_reload_preserves_user_choices": true,
+  "pinned_default_JSON_immutable": true,
+  "existing_manage_actions_preserved": true,
+  "invalid_values_atomic_rejection": true,
+  "engine_loaded_edit_rejected": true,
+  "Android_tested": false
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "cases": 168,
+  "final_noodle_sha256": "824eb528ea72648517af69837570aa1747dafd1963531554036f31839f2e5268",
+  "final_select_team_sha256": "53a7786d44f2fcd4f95724509f37a2a0c98f032eddf2fc2948704e4a0d696b94",
+  "both_final_ARM64_ELFs_loaded_separately": true,
+  "actual_cross_library_configure_bandage_visibility_callback": true,
+  "actual_cross_library_context_notify": true,
+  "global_and_competition_specific_styles": true,
+  "explicit_scoped_zero_restores_native_and_bundled_default_wrist": true,
+  "all_other_gear_colors_enabled_flags_padding_byte_exact_vs_native_baseline": true,
+  "input_array_unchanged": true,
+  "same_base_but_other_full_ID_unchanged": true,
+  "malformed_duplicate_array_rejected_without_mutation": true,
+  "native_mesh_loader_stubbed_only_at_original_boundary": true,
+  "Android_tested": false
+}

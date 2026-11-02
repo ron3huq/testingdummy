@@ -1,0 +1,337 @@
+{
+  "passed": true,
+  "actual_combined_delivery_container": true,
+  "all_20_variants_40_LOD_descriptors": true,
+  "checks": [
+    {
+      "mesh": "SK_NQ27_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NQ27ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NJK3ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6_Face",
+      "LOD": 0,
+      "cooked_out": false,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": false,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": false,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": false,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NRA6ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSV1ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1lg00v0000_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1lg00v0000_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1ep00v0313_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1ep00v0313_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1ep01v0291_Face",
+      "LOD": 0,
+      "cooked_out": true,
+      "required_bones": 166,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    },
+    {
+      "mesh": "SK_NSM1ep01v0291_Face",
+      "LOD": 1,
+      "cooked_out": false,
+      "required_bones": 153,
+      "normalized_weights": true,
+      "material_and_dependency_load_pass": true
+    }
+  ],
+  "NQ27_source2027_eye_calibrated": true,
+  "Spider_head_neck_refitted": true,
+  "native_compact_body_indices_preserved": true,
+  "container_sha256": {
+    "pc9317_mobile_and.ucas": "0469db99995930a4b4e5bf160a8848b76cd6646646a93e8ce8395416312d4025",
+    "pc9317_mobile_and.pak": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf",
+    "pc9317_mobile_and.utoc": "5af088902df6d3816fb5f3924d09cb2657a42d89240bea487718578ed4fc1ef3"
+  },
+  "long_arms_on_phone_confirmed_fixed": false,
+  "Android_tested": false
+}
