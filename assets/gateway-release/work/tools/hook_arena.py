@@ -11,6 +11,7 @@ from bandage_runtime import HOOKS as _BANDAGE_HOOKS
 PLANS.update({entry:prologue.hex()for entry,prologue,_,_ in _BANDAGE_HOOKS})
 from single_player_runtime import HOOKS as _SINGLE_HOOKS
 PLANS.update({entry:prologue.hex()for entry,prologue,_,_ in _SINGLE_HOOKS})
+PLANS[0x72f2de0]='fd7bbea9f30b00f9fd030091f30300aa'
 SLOT=88;RETURN=32
 
 def branch(source,target):
@@ -94,7 +95,7 @@ class Arena:
 def install(g,base,path,entry,prologue,hook_name,configure_name):
  if g['digest'](path)!=g['ENGINE_SHA']:raise RuntimeError('Unsupported73 engine; no patch installed')
  # Module filenames are fixed trusted startup code, not request input.
- libname='libsingle_player.so'if g['__name__']=='single_player_runtime'else'libnoodle_hair.so'if g['__name__']=='noodle_hair'else'libselect_team.so'
+ libname='libcached_lookup.so'if g['__name__']=='single_player_lookup_runtime'else'libsingle_player.so'if g['__name__']=='single_player_runtime'else'libnoodle_hair.so'if g['__name__']=='noodle_hair'else'libselect_team.so'
  libpath=g['HERE']/libname
  if g['digest'](libpath)!=g['HOOK_SHA']:raise RuntimeError('Hook binary checksum mismatch')
  import v19_chain

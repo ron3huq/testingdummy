@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "original_engine_owned_serial_mismatch_reproduced": true,
+  "live_serial": 37,
+  "full_id": "106782819217056",
+  "original_engine_roster_consumers": true,
+  "caller_scope_preserves_native_serial_lookup": true,
+  "full64_collision_rejected": true,
+  "bench_rejected": true,
+  "new_starting_slot_follows_full_ID": true,
+  "verified_2e1ef197_AI_state_module_unchanged": true,
+  "phone_verified": false
+}

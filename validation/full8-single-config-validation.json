@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "arbitrary_valid_full64_ID_selectable": true,
+  "enabled_ID_survives_reopen": true,
+  "disabled_choice_persists": true,
+  "native_hooks_not_executed_on_host": true,
+  "original_single_player_sha256": "2e1ef1970c5c48544992d7cfaa8c08e3e1c0e53a696eeb568aacf0f677c0a459",
+  "phone_verified": false
+}

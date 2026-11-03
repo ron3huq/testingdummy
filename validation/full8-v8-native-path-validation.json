@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "compiled_native_profile_requests_RV08": [
+    [
+      "/Game/Assets/character/RealFace/SK_RV08_Face.SK_RV08_Face",
+      "/Game/Assets/character/RealFace/SK_RV08_Face.SK_RV08_Face"
+    ],
+    [
+      "/Game/Assets/character/RealFace/SK_RV08ep00v0313_Face.SK_RV08ep00v0313_Face",
+      "/Game/Assets/character/RealFace/SK_RV08ep00v0313_Face.SK_RV08ep00v0313_Face"
+    ],
+    [
+      "/Game/Assets/character/RealFace/SK_RV08ep01v0291_Face.SK_RV08ep01v0291_Face",
+      "/Game/Assets/character/RealFace/SK_RV08ep01v0291_Face.SK_RV08ep01v0291_Face"
+    ],
+    [
+      "/Game/Assets/character/RealFace/SK_RV08lg00v0000_Face.SK_RV08lg00v0000_Face",
+      "/Game/Assets/character/RealFace/SK_RV08lg00v0000_Face.SK_RV08lg00v0000_Face"
+    ]
+  ],
+  "exact_full64_neighbors_and_low32_do_not_select_RV08": true,
+  "original_engine_callbacks_modeled": true,
+  "actual_renderer_not_executed": true,
+  "phone_verified": false
+}

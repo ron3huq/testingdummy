@@ -1,11 +1,12 @@
 {
-  "version": "FULL7-repair-candidate-1",
-  "device_verified": false,
+  "version": "V19.1-FULL8-RC1-V8-native-key-repairs",
+  "resource_revision": 19006,
+  "phone_verified": false,
   "files": [
     {
       "path": "README-VI.md",
-      "bytes": 2978,
-      "sha256": "be4bed4dc48294aa6e39c374567539c4831fe5f1cdc2da3db7a3df680a8f3398"
+      "bytes": 5434,
+      "sha256": "06aa18c1abdcf002577552cd6e5f333a78fc57a02afd48890a9fd21b1815e110"
     },
     {
       "path": "RESEARCH-VI.md",
@@ -3698,14 +3699,74 @@
       "sha256": "4f0724da60282268048f9c2978418bd13324a75804a4450497eaba81db3dcc10"
     },
     {
+      "path": "assets/gateway-release/livedata/pc9328_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9328_mobile_and.ucas",
+      "bytes": 4709995,
+      "sha256": "e82affea22c91806684467f238ded4dcf1cb428a4e962a5a0e90895df3b6bb53"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9328_mobile_and.utoc",
+      "bytes": 4388,
+      "sha256": "1f159699c4b62fc48c89ac610e53801fd93e01faa77c2bc089ead5a96f992805"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9329_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9329_mobile_and.ucas",
+      "bytes": 3576967,
+      "sha256": "67d54d8ab248ca056f13737812b2ab4bcae6db5ad44c92c43b06a83c115dce3f"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9329_mobile_and.utoc",
+      "bytes": 3020,
+      "sha256": "1a997dd02b8b6c5a025d586733a963f90d06416a305bd9310e0b0be898be62b0"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9330_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9330_mobile_and.ucas",
+      "bytes": 3575239,
+      "sha256": "c35b0931a410a955601e33b556966609b442d9632dbe559faac4ddc70b5d141f"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9330_mobile_and.utoc",
+      "bytes": 3020,
+      "sha256": "1f496700c5e536e114714328194dc6903bc04ca70f1f0e3e602357f848b99123"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9331_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9331_mobile_and.ucas",
+      "bytes": 3567666,
+      "sha256": "607656093a516e3481788798d30337a42932a21a17a0a105b8c4430e65c132ae"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9331_mobile_and.utoc",
+      "bytes": 3018,
+      "sha256": "cd37532e84733d10699323b328264dfc72ecc696470d04cf467bfc1d463930a7"
+    },
+    {
       "path": "assets/gateway-release/release-manifest.json",
-      "bytes": 1398871,
-      "sha256": "9767a824013d9737ab8e84481d22e24472a147d28d9828654272039ccfad527c"
+      "bytes": 1401394,
+      "sha256": "ff8dc4019b9131cd970659cc95f40c0dd1d7349cbd4d6545fa4643307ed56606"
     },
     {
       "path": "assets/gateway-release/ui6-runtime-manifest.json",
-      "bytes": 22604,
-      "sha256": "df00f411061045d7c7d3ae5a2b0046cf37bb715b4a9a206765a8390bd75b736d"
+      "bytes": 25127,
+      "sha256": "134c0101dc6e24be0c2f85da1b59ab83891e41af37cd3634f45505e9524947df"
     },
     {
       "path": "assets/gateway-release/work/tools/appearance_choices.py",
@@ -3741,6 +3802,11 @@
       "path": "assets/gateway-release/work/tools/bundled_editor_photos.json",
       "bytes": 384366,
       "sha256": "18509600b51baf1d268515dd4408b45cabe5577ca45c860b3d878157c1566f83"
+    },
+    {
+      "path": "assets/gateway-release/work/tools/cached_lookup_runtime.py",
+      "bytes": 1685,
+      "sha256": "1bcb74e8b5e577297fe1ec36e768219659ea4202ab6a1fa4d2aa40442e3940e8"
     },
     {
       "path": "assets/gateway-release/work/tools/card_rules.py",
@@ -3794,8 +3860,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/hook_arena.py",
-      "bytes": 9953,
-      "sha256": "4549b6343443c4e7d5e7369df1157c1ca3be4d626390059ec81db19fdf64ac9b"
+      "bytes": 10078,
+      "sha256": "2873389304a9abc175be866e16922477cdf5bbae1d06457b90b0e36fa3c843d2"
     },
     {
       "path": "assets/gateway-release/work/tools/innate_skill_labels.json",
@@ -3818,9 +3884,14 @@
       "sha256": "d3f668e12cb17393438ee2cdb5b2cf8e7405c02767a3e5cbfe4d5894c13422c1"
     },
     {
+      "path": "assets/gateway-release/work/tools/libcached_lookup.so",
+      "bytes": 12984,
+      "sha256": "efd0bfb467290ae4e607e690317446b31af355da8c876e93ddb4d2996ade725a"
+    },
+    {
       "path": "assets/gateway-release/work/tools/libnoodle_hair.so",
       "bytes": 199968,
-      "sha256": "824eb528ea72648517af69837570aa1747dafd1963531554036f31839f2e5268"
+      "sha256": "c5907a7b937e8a17ca0f4e2a53972812d764590e4fa248abddae7add8cef1a8a"
     },
     {
       "path": "assets/gateway-release/work/tools/libselect_team.so",
@@ -3934,8 +4005,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/myleague_team_snapshot.py",
-      "bytes": 3880,
-      "sha256": "aeb9172c0b0316122d301496760eab85e507712b510ba866a9087be56afdca64"
+      "bytes": 3889,
+      "sha256": "4b0bfe405c9e71f94a04e0e595472dc2a53aa278c6ca455a96a3d15c232c2c21"
     },
     {
       "path": "assets/gateway-release/work/tools/myleague_worlds.py",
@@ -3954,8 +4025,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_bundle.json",
-      "bytes": 12463,
-      "sha256": "ec7f1b33e2bcedd9c545db2695cb90afd874c4e06b48ce833371aefe4f4bb195"
+      "bytes": 12937,
+      "sha256": "75a28158576f065e22d747374b4856403cb795317b21dd79e3ede21430e409e9"
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.json",
@@ -3965,7 +4036,7 @@
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.py",
       "bytes": 20684,
-      "sha256": "376383a680d4e73e39d8e42897e307cbe408c9b318020cdf371cae858823f38c"
+      "sha256": "96b6959e924ae7034c81ae3237b1845814c8374ab4aa58f21bc4004d820b9033"
     },
     {
       "path": "assets/gateway-release/work/tools/photo_codec.py",
@@ -4004,13 +4075,13 @@
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.json",
-      "bytes": 6550,
-      "sha256": "962459d2c5b0058e9f140938beee8215d946cfc970bcdf034feaf2708d2fa836"
+      "bytes": 8258,
+      "sha256": "a452c258b3079149c98429ed66c02ad13c483608a8ee3c3b442edac3ac94d0c1"
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.py",
-      "bytes": 2449,
-      "sha256": "82c06d39bb7827a8f9c5ec38d68b9214eabe7034b2031ea7f3420e9b3d9e36db"
+      "bytes": 2489,
+      "sha256": "829ba9dfcc3112944ca78de133e5545ddd3505a28eeab7ddbd17327e229bb3b9"
     },
     {
       "path": "assets/gateway-release/work/tools/profile_editor.py",
@@ -4024,13 +4095,18 @@
     },
     {
       "path": "assets/gateway-release/work/tools/select_team_runtime.py",
-      "bytes": 26758,
-      "sha256": "d7fcc94cfb214fafb4c4abf6cd8f4eb1af01b581b3a3d1d4f6b12955fe9489f8"
+      "bytes": 27085,
+      "sha256": "2e5fea5fb513fd6011f8de8701f6c82d28af0cca6943dd9ca7ed959cca172ef4"
+    },
+    {
+      "path": "assets/gateway-release/work/tools/single_player_lookup_runtime.py",
+      "bytes": 1693,
+      "sha256": "0711977ad2532b662b6926d3161f6330814f0ccc3e70a3b89f4fa0ff0befb572"
     },
     {
       "path": "assets/gateway-release/work/tools/single_player_runtime.py",
-      "bytes": 8390,
-      "sha256": "96c96f44da94e6ffa7a9b152ad28a6ae06e0f89973a1424f0f445db3102c066e"
+      "bytes": 8576,
+      "sha256": "70787d8c7191dcf7af4cb6dcc37ce0ec55ef2cd24fe798fc0e27aa8213d1dd07"
     },
     {
       "path": "assets/gateway-release/work/tools/stat_editor.py",
@@ -4286,6 +4362,41 @@
       "path": "source/repair-candidate1/verify.py",
       "bytes": 4842,
       "sha256": "f0602e18220d96c14e6df9d26e90aa11e1bf5af50a8a040d31e7362161d09787"
+    },
+    {
+      "path": "source/repair-full8/build_v8.py",
+      "bytes": 18730,
+      "sha256": "9860b405bd49ecfe8a6ad53b9485558a8b881d53f467fc61603e02b2762b1ce1"
+    },
+    {
+      "path": "source/repair-full8/cached_lookup.c",
+      "bytes": 5448,
+      "sha256": "c53b2adc123a5ee427dc3541ba3cac30a2a94633f486b87de0e612be9904a738"
+    },
+    {
+      "path": "source/repair-full8/cached_lookup_runtime.py",
+      "bytes": 1685,
+      "sha256": "1bcb74e8b5e577297fe1ec36e768219659ea4202ab6a1fa4d2aa40442e3940e8"
+    },
+    {
+      "path": "source/repair-full8/single_player_lookup_runtime.py",
+      "bytes": 1693,
+      "sha256": "0711977ad2532b662b6926d3161f6330814f0ccc3e70a3b89f4fa0ff0befb572"
+    },
+    {
+      "path": "source/repair-full8/test_cached_lookup.py",
+      "bytes": 5374,
+      "sha256": "a06785362cd78c1a1cfd6d78843753602f2787a88b1249935f529dfe4ff3bd02"
+    },
+    {
+      "path": "source/repair-full8/test_single_lookup.py",
+      "bytes": 2293,
+      "sha256": "91b4e106dfb8d05db8dd9517cebf390fe0450def9dcf8c1bf8e5218fa9960c49"
+    },
+    {
+      "path": "source/repair-full8/verify_v8.py",
+      "bytes": 4723,
+      "sha256": "06bcf4d864f8ba1758a9a09f0de0b8be9fffa9f27aca8fe551a7b5aca3064e00"
     },
     {
       "path": "validation/candidate1-launcher-validation.json",
@@ -5059,6 +5170,56 @@
     },
     {
       "path": "validation/full7-wrist-load-boundary-validation.json",
+      "bytes": 473,
+      "sha256": "1db6a95631fd7a7c0e3778cfef74fd5ace6003d2c14dd6b2839044f2ceeb70f6"
+    },
+    {
+      "path": "validation/full8-accessory-vector-validation.json",
+      "bytes": 1800,
+      "sha256": "3e7f9c758ebbf133beffe548554fe029e0703ff1f695ff5bfdbdd5c36742aa29"
+    },
+    {
+      "path": "validation/full8-cached-lookup-validation.json",
+      "bytes": 1488,
+      "sha256": "b613ecaff1455f6fd688ce1104e43965e4fe2eac0af2328b9c059f22e81fbf9d"
+    },
+    {
+      "path": "validation/full8-single-config-validation.json",
+      "bytes": 317,
+      "sha256": "fbd9d2e7ccfdc439abb281ed2b17e6bea92f3de081476384bad64f47fd0c0a9b"
+    },
+    {
+      "path": "validation/full8-single-owned-serial-validation.json",
+      "bytes": 422,
+      "sha256": "b2365885d23c84ba89ad6fbf599a53145627f41657222064e949dbfb739ce401"
+    },
+    {
+      "path": "validation/full8-source-provenance.json",
+      "bytes": 809,
+      "sha256": "8e20d481b23ccb72574fa1e94c0f490004cb87c9c2a9e50b35a60181fd1f7473"
+    },
+    {
+      "path": "validation/full8-v8-asset-build.json",
+      "bytes": 3149,
+      "sha256": "d0ccc67a127221b828472cdfdf805776017708fc6e7313fc2e6096657295f071"
+    },
+    {
+      "path": "validation/full8-v8-containers.json",
+      "bytes": 191,
+      "sha256": "08865d4d4f12770dbc858565d7b025c82a1978c05d2b47f682f5cb753e1f2785"
+    },
+    {
+      "path": "validation/full8-v8-geometry-validation.json",
+      "bytes": 2481,
+      "sha256": "4da0cd091fdb438d5ecbad4152c86e43b8a9827d7a3c8ff337b74acad8c35799"
+    },
+    {
+      "path": "validation/full8-v8-native-path-validation.json",
+      "bytes": 936,
+      "sha256": "12e1f342a11df5ca399f645938a1acbc6221e8322ec0327efba4e57ca437a19c"
+    },
+    {
+      "path": "validation/full8-wrist-load-boundary-validation.json",
       "bytes": 473,
       "sha256": "1db6a95631fd7a7c0e3778cfef74fd5ace6003d2c14dd6b2839044f2ceeb70f6"
     },

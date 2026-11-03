@@ -1,0 +1,82 @@
+[
+  {
+    "asset": "SK_RV08_Face",
+    "independent_reader_both_LODs_real": true,
+    "MinLod": 0,
+    "required_counts": [
+      166,
+      153
+    ],
+    "native_body_bind_pose_exact": true,
+    "low_native_skin_exact": true,
+    "quantized_weights_sum255": true,
+    "facial_weights_include_jaw_eyes_eyelids": true,
+    "jaw_vertices_moved": 1199,
+    "eyelid_vertices_moved": 272,
+    "maximum_jaw_displacement_cm": 2.859249179639959,
+    "maximum_eyelid_displacement_cm": 0.28767265945232623,
+    "neck_stationary_under_facial_controls": true,
+    "limb_bones_not_used": true,
+    "phone_verified": false
+  },
+  {
+    "asset": "SK_RV08ep00v0313_Face",
+    "independent_reader_both_LODs_real": true,
+    "MinLod": 0,
+    "required_counts": [
+      166,
+      153
+    ],
+    "native_body_bind_pose_exact": true,
+    "low_native_skin_exact": true,
+    "quantized_weights_sum255": true,
+    "facial_weights_include_jaw_eyes_eyelids": true,
+    "jaw_vertices_moved": 1199,
+    "eyelid_vertices_moved": 272,
+    "maximum_jaw_displacement_cm": 2.859249179639959,
+    "maximum_eyelid_displacement_cm": 0.28767265945232623,
+    "neck_stationary_under_facial_controls": true,
+    "limb_bones_not_used": true,
+    "phone_verified": false
+  },
+  {
+    "asset": "SK_RV08ep01v0291_Face",
+    "independent_reader_both_LODs_real": true,
+    "MinLod": 0,
+    "required_counts": [
+      166,
+      153
+    ],
+    "native_body_bind_pose_exact": true,
+    "low_native_skin_exact": true,
+    "quantized_weights_sum255": true,
+    "facial_weights_include_jaw_eyes_eyelids": true,
+    "jaw_vertices_moved": 1199,
+    "eyelid_vertices_moved": 272,
+    "maximum_jaw_displacement_cm": 2.859249179639959,
+    "maximum_eyelid_displacement_cm": 0.28767265945232623,
+    "neck_stationary_under_facial_controls": true,
+    "limb_bones_not_used": true,
+    "phone_verified": false
+  },
+  {
+    "asset": "SK_RV08lg00v0000_Face",
+    "independent_reader_both_LODs_real": true,
+    "MinLod": 0,
+    "required_counts": [
+      166,
+      153
+    ],
+    "native_body_bind_pose_exact": true,
+    "low_native_skin_exact": true,
+    "quantized_weights_sum255": true,
+    "facial_weights_include_jaw_eyes_eyelids": true,
+    "jaw_vertices_moved": 1199,
+    "eyelid_vertices_moved": 272,
+    "maximum_jaw_displacement_cm": 2.859249179639959,
+    "maximum_eyelid_displacement_cm": 0.28767265945232623,
+    "neck_stationary_under_facial_controls": true,
+    "limb_bones_not_used": true,
+    "phone_verified": false
+  }
+]

@@ -76,12 +76,12 @@ def manage(action,req):
         if type(page)is not int or not 0<=page<=2048:
             raise ValueError('Invalid player search page')
         rows=[{k:r[k]for k in('id','name')}for r in player_index()if not query or query in r['search']]
+        if query.isascii()and query.isdecimal()and str(int(query))==query and 0<int(query)<2**63 and not any(r['id']==query for r in rows):
+            rows.insert(0,{'id':query,'name':'Full ID '+query})
         return {'players':rows[page*40:(page+1)*40],'page':page,'total':len(rows)}
     import body_dimensions
     d=validate({'schema':1,'enabled':req.get('enabled'),'player_id':req.get('player_id')})
     c=_module._logic.conn
-    if d['enabled']and not any(row['id']==d['player_id']for row in player_index()):
-        raise ValueError('Select a player from the current list')
     if body_dimensions.engine_loaded():
         raise ValueError('Close and reopen the app; save before Enter Game')
     with _lock:
@@ -180,6 +180,8 @@ def _worker():
             hook_arena.install(globals(),base,path,entry,prologue,name,configure)
         if int(hook.single_player_status(9))!=127 or len(_installed_hooks)!=7:
             raise RuntimeError('Incomplete single-player native hook installation')
+        import single_player_lookup_runtime
+        single_player_lookup_runtime.install(base,path,hook)
         _native=hook
         _ready.set()
     except Exception as exc:
@@ -192,11 +194,12 @@ def _worker():
             _started=False
 
 def start():
-    global _started
+    global _started,_error
     if platform.machine().lower()not in('aarch64','arm64')or not config()['enabled']:
         return
     with _lock:
         if _started:
             return
+        _error=None
         _started=True
         threading.Thread(target=_worker,name='SinglePlayerNative',daemon=True).start()

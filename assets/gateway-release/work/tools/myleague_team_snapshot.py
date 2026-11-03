@@ -17,8 +17,9 @@ def decode(blob):
   if origin==1:
    if kind!=0:raise ValueError('unsupported stock player key kind')
   else:
-   if kind>=2**32 or kind==0xffffffff or kind in cache_indices:raise ValueError('invalid or duplicate cached player index')
-   cache_indices.add(kind)
+   index=kind&0xffffffff
+   if index>0x12f34 or index in cache_indices:raise ValueError('invalid or duplicate cached player index')
+   cache_indices.add(index)
   native_keys.append({'word0':kind,'player_id':str(pid)})
   ids.append(str(pid));shirts.append(struct.unpack_from('<H',b,0x3a2+2*i)[0])
  if len(set(ids))!=n:raise ValueError('duplicate native player keys')

@@ -1,5 +1,5 @@
 {
-  "version": "FULL7-repair-candidate-1",
+  "version": "V19.1-FULL8-RC1-V8-native-key-repairs",
   "files": [
     {
       "path": "custom-resources/legends-v10/dt870_mobile_and.cpk",
@@ -388,8 +388,8 @@
     },
     {
       "path": "work/tools/hook_arena.py",
-      "bytes": 9953,
-      "sha256": "4549b6343443c4e7d5e7369df1157c1ca3be4d626390059ec81db19fdf64ac9b"
+      "bytes": 10078,
+      "sha256": "2873389304a9abc175be866e16922477cdf5bbae1d06457b90b0e36fa3c843d2"
     },
     {
       "path": "work/tools/innate_skill_labels.json",
@@ -414,7 +414,7 @@
     {
       "path": "work/tools/libnoodle_hair.so",
       "bytes": 199968,
-      "sha256": "824eb528ea72648517af69837570aa1747dafd1963531554036f31839f2e5268"
+      "sha256": "c5907a7b937e8a17ca0f4e2a53972812d764590e4fa248abddae7add8cef1a8a"
     },
     {
       "path": "work/tools/libselect_team.so",
@@ -528,8 +528,8 @@
     },
     {
       "path": "work/tools/myleague_team_snapshot.py",
-      "bytes": 3880,
-      "sha256": "aeb9172c0b0316122d301496760eab85e507712b510ba866a9087be56afdca64"
+      "bytes": 3889,
+      "sha256": "4b0bfe405c9e71f94a04e0e595472dc2a53aa278c6ca455a96a3d15c232c2c21"
     },
     {
       "path": "work/tools/myleague_worlds.py",
@@ -548,8 +548,8 @@
     },
     {
       "path": "work/tools/noodle_bundle.json",
-      "bytes": 12463,
-      "sha256": "ec7f1b33e2bcedd9c545db2695cb90afd874c4e06b48ce833371aefe4f4bb195"
+      "bytes": 12937,
+      "sha256": "75a28158576f065e22d747374b4856403cb795317b21dd79e3ede21430e409e9"
     },
     {
       "path": "work/tools/noodle_hair.json",
@@ -559,7 +559,7 @@
     {
       "path": "work/tools/noodle_hair.py",
       "bytes": 20684,
-      "sha256": "376383a680d4e73e39d8e42897e307cbe408c9b318020cdf371cae858823f38c"
+      "sha256": "96b6959e924ae7034c81ae3237b1845814c8374ab4aa58f21bc4004d820b9033"
     },
     {
       "path": "work/tools/photo_codec.py",
@@ -598,13 +598,13 @@
     },
     {
       "path": "work/tools/private_bundles.json",
-      "bytes": 6550,
-      "sha256": "962459d2c5b0058e9f140938beee8215d946cfc970bcdf034feaf2708d2fa836"
+      "bytes": 8258,
+      "sha256": "a452c258b3079149c98429ed66c02ad13c483608a8ee3c3b442edac3ac94d0c1"
     },
     {
       "path": "work/tools/private_bundles.py",
-      "bytes": 2449,
-      "sha256": "82c06d39bb7827a8f9c5ec38d68b9214eabe7034b2031ea7f3420e9b3d9e36db"
+      "bytes": 2489,
+      "sha256": "829ba9dfcc3112944ca78de133e5545ddd3505a28eeab7ddbd17327e229bb3b9"
     },
     {
       "path": "work/tools/profile_editor.py",
@@ -618,13 +618,13 @@
     },
     {
       "path": "work/tools/select_team_runtime.py",
-      "bytes": 26758,
-      "sha256": "d7fcc94cfb214fafb4c4abf6cd8f4eb1af01b581b3a3d1d4f6b12955fe9489f8"
+      "bytes": 27085,
+      "sha256": "2e5fea5fb513fd6011f8de8701f6c82d28af0cca6943dd9ca7ed959cca172ef4"
     },
     {
       "path": "work/tools/single_player_runtime.py",
-      "bytes": 8390,
-      "sha256": "96c96f44da94e6ffa7a9b152ad28a6ae06e0f89973a1424f0f445db3102c066e"
+      "bytes": 8576,
+      "sha256": "70787d8c7191dcf7af4cb6dcc37ce0ec55ef2cd24fe798fc0e27aa8213d1dd07"
     },
     {
       "path": "work/tools/stat_editor.py",
@@ -680,6 +680,81 @@
       "path": "work/tools/world_skills.py",
       "bytes": 799,
       "sha256": "ae318b1055a7b95d9b27b0e9eb4c56df2011938fff42c0ccaaa210d1d73863c4"
+    },
+    {
+      "path": "livedata/pc9328_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "livedata/pc9328_mobile_and.utoc",
+      "bytes": 4388,
+      "sha256": "1f159699c4b62fc48c89ac610e53801fd93e01faa77c2bc089ead5a96f992805"
+    },
+    {
+      "path": "livedata/pc9328_mobile_and.ucas",
+      "bytes": 4709995,
+      "sha256": "e82affea22c91806684467f238ded4dcf1cb428a4e962a5a0e90895df3b6bb53"
+    },
+    {
+      "path": "work/tools/libcached_lookup.so",
+      "bytes": 12984,
+      "sha256": "efd0bfb467290ae4e607e690317446b31af355da8c876e93ddb4d2996ade725a"
+    },
+    {
+      "path": "work/tools/cached_lookup_runtime.py",
+      "bytes": 1685,
+      "sha256": "1bcb74e8b5e577297fe1ec36e768219659ea4202ab6a1fa4d2aa40442e3940e8"
+    },
+    {
+      "path": "work/tools/single_player_lookup_runtime.py",
+      "bytes": 1693,
+      "sha256": "0711977ad2532b662b6926d3161f6330814f0ccc3e70a3b89f4fa0ff0befb572"
+    },
+    {
+      "path": "livedata/pc9329_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "livedata/pc9329_mobile_and.ucas",
+      "bytes": 3576967,
+      "sha256": "67d54d8ab248ca056f13737812b2ab4bcae6db5ad44c92c43b06a83c115dce3f"
+    },
+    {
+      "path": "livedata/pc9329_mobile_and.utoc",
+      "bytes": 3020,
+      "sha256": "1a997dd02b8b6c5a025d586733a963f90d06416a305bd9310e0b0be898be62b0"
+    },
+    {
+      "path": "livedata/pc9330_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "livedata/pc9330_mobile_and.ucas",
+      "bytes": 3575239,
+      "sha256": "c35b0931a410a955601e33b556966609b442d9632dbe559faac4ddc70b5d141f"
+    },
+    {
+      "path": "livedata/pc9330_mobile_and.utoc",
+      "bytes": 3020,
+      "sha256": "1f496700c5e536e114714328194dc6903bc04ca70f1f0e3e602357f848b99123"
+    },
+    {
+      "path": "livedata/pc9331_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "livedata/pc9331_mobile_and.ucas",
+      "bytes": 3567666,
+      "sha256": "607656093a516e3481788798d30337a42932a21a17a0a105b8c4430e65c132ae"
+    },
+    {
+      "path": "livedata/pc9331_mobile_and.utoc",
+      "bytes": 3018,
+      "sha256": "cd37532e84733d10699323b328264dfc72ecc696470d04cf467bfc1d463930a7"
     }
   ]
 }

@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "original_engine_mode2_mismatch_reproduced": true,
+  "player_lookup_and_key_decoder_not_stubbed": true,
+  "cached_team_editor_status": 1,
+  "native_pool_indices_and_full_IDs_preserved": [
+    {
+      "slot": 0,
+      "cache_index": 1,
+      "full_id": 10000000000001
+    },
+    {
+      "slot": 1,
+      "cache_index": 8,
+      "full_id": 10000000000008
+    },
+    {
+      "slot": 2,
+      "cache_index": 7,
+      "full_id": 10000000000007
+    },
+    {
+      "slot": 3,
+      "cache_index": 4,
+      "full_id": 10000000000004
+    },
+    {
+      "slot": 4,
+      "cache_index": 5,
+      "full_id": 10000000000005
+    },
+    {
+      "slot": 5,
+      "cache_index": 6,
+      "full_id": 10000000000006
+    },
+    {
+      "slot": 6,
+      "cache_index": 3,
+      "full_id": 10000000000003
+    },
+    {
+      "slot": 7,
+      "cache_index": 2,
+      "full_id": 10000000000002
+    },
+    {
+      "slot": 8,
+      "cache_index": 9,
+      "full_id": 10000000000009
+    },
+    {
+      "slot": 9,
+      "cache_index": 10,
+      "full_id": 10000000000010
+    },
+    {
+      "slot": 10,
+      "cache_index": 11,
+      "full_id": 10000000000011
+    }
+  ],
+  "captain_and_all_six_takers_follow_ID": true,
+  "edited_stat_reaches_actual_mode2_record": true,
+  "record_zero_unchanged": true,
+  "competition_scoped_left_wrist_reaches_native_renderer_vector": true,
+  "right_wrist_and_other_card_unchanged": true,
+  "actual_mesh_rendering_not_executed": true,
+  "phone_verified": false
+}
