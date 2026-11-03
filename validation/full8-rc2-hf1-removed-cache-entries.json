@@ -1,0 +1,42 @@
+{
+  "release-manifest.json": [
+    "work/tools/__pycache__/appearance_choices.cpython-312.pyc",
+    "work/tools/__pycache__/appearance_gear.cpython-312.pyc",
+    "work/tools/__pycache__/bandage_runtime.cpython-312.pyc",
+    "work/tools/__pycache__/body_dimensions.cpython-312.pyc",
+    "work/tools/__pycache__/editor_names.cpython-312.pyc",
+    "work/tools/__pycache__/mod_integrity.cpython-312.pyc",
+    "work/tools/__pycache__/motion_editor.cpython-312.pyc",
+    "work/tools/__pycache__/myleague_editor_runtime.cpython-312.pyc",
+    "work/tools/__pycache__/player_model.cpython-312.pyc",
+    "work/tools/__pycache__/player_tuning.cpython-312.pyc",
+    "work/tools/__pycache__/select_team_runtime.cpython-312.pyc",
+    "work/tools/__pycache__/single_player_runtime.cpython-312.pyc",
+    "work/tools/__pycache__/stat_editor.cpython-312.pyc",
+    "work/tools/__pycache__/transfer_editor.cpython-312.pyc",
+    "work/tools/__pycache__/transfer_player_editor.cpython-312.pyc",
+    "work/tools/__pycache__/transfer_traits.cpython-312.pyc",
+    "work/tools/__pycache__/hook_arena.cpython-312.pyc",
+    "work/tools/__pycache__/tactics_bridge_runtime.cpython-312.pyc"
+  ],
+  "ui6-runtime-manifest.json": [
+    "work/tools/__pycache__/appearance_choices.cpython-312.pyc",
+    "work/tools/__pycache__/appearance_gear.cpython-312.pyc",
+    "work/tools/__pycache__/bandage_runtime.cpython-312.pyc",
+    "work/tools/__pycache__/body_dimensions.cpython-312.pyc",
+    "work/tools/__pycache__/editor_names.cpython-312.pyc",
+    "work/tools/__pycache__/mod_integrity.cpython-312.pyc",
+    "work/tools/__pycache__/motion_editor.cpython-312.pyc",
+    "work/tools/__pycache__/myleague_editor_runtime.cpython-312.pyc",
+    "work/tools/__pycache__/player_model.cpython-312.pyc",
+    "work/tools/__pycache__/player_tuning.cpython-312.pyc",
+    "work/tools/__pycache__/select_team_runtime.cpython-312.pyc",
+    "work/tools/__pycache__/single_player_runtime.cpython-312.pyc",
+    "work/tools/__pycache__/stat_editor.cpython-312.pyc",
+    "work/tools/__pycache__/transfer_editor.cpython-312.pyc",
+    "work/tools/__pycache__/transfer_player_editor.cpython-312.pyc",
+    "work/tools/__pycache__/transfer_traits.cpython-312.pyc",
+    "work/tools/__pycache__/hook_arena.cpython-312.pyc",
+    "work/tools/__pycache__/tactics_bridge_runtime.cpython-312.pyc"
+  ]
+}

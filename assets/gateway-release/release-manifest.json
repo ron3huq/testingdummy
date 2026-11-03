@@ -1,5 +1,5 @@
 {
-  "release_id": "V19.1-FULL8-RC2-live-single-cached-gameplan-native-eyes",
+  "release_id": "V19.1-FULL8-RC2-HF1-manifest-install-repair",
   "modules": [
     "account_state",
     "ai_division",
@@ -37354,7 +37354,7 @@
     {
       "path": "work/tools/noodle_bundle.json",
       "bytes": 13342,
-      "sha256": "292c206655cc0d70b3a9a19dfbdbb7d0bc739b1b53d2cf565f080d3d564feb38"
+      "sha256": "1579b1d9b39ec9a4dafe2d98a4b4a24d07dcd9b7073e03be0e1bdc267c5628a8"
     },
     {
       "path": "work/tools/noodle_hair.json",
@@ -37404,7 +37404,7 @@
     {
       "path": "work/tools/private_bundles.json",
       "bytes": 9966,
-      "sha256": "6b0ab4775ed383c2aa28e64f1e2a9327e8cc8f910bc8561bb5a3ec7ff3ad1fee"
+      "sha256": "fe3c1e90d3d20e741684bd23e424f8428d63748248e74b0d6e98b370b9c61ede"
     },
     {
       "path": "work/tools/private_bundles.py",
@@ -37672,86 +37672,6 @@
       "sha256": "d6a16240d13cb67976c9d6dc2da6ce2b2b3fa752f56b6013deebb1baddfdf212"
     },
     {
-      "path": "work/tools/__pycache__/appearance_choices.cpython-312.pyc",
-      "bytes": 21743,
-      "sha256": "22bdda17dea40cdcb6d9b4930e48829f16ec575d58f44c79d367ce116beb2341"
-    },
-    {
-      "path": "work/tools/__pycache__/appearance_gear.cpython-312.pyc",
-      "bytes": 14638,
-      "sha256": "4b74974fddb08f67a253f566f1b2ebe19a2b8502e2833e823d28767c0868185b"
-    },
-    {
-      "path": "work/tools/__pycache__/bandage_runtime.cpython-312.pyc",
-      "bytes": 4254,
-      "sha256": "ece3901c18fba5e6f56832c4af28d4d9293a93c908ce31d40bd0f05540bc8ff9"
-    },
-    {
-      "path": "work/tools/__pycache__/body_dimensions.cpython-312.pyc",
-      "bytes": 11064,
-      "sha256": "8619d15324bdb926c5d9cec20dd256f13167693da5f351f934f08bd41ae33355"
-    },
-    {
-      "path": "work/tools/__pycache__/editor_names.cpython-312.pyc",
-      "bytes": 3812,
-      "sha256": "144381022c060cde13cf8d5f94f43b6fce8b1cfe051928c5dd08ce15d186a8f2"
-    },
-    {
-      "path": "work/tools/__pycache__/mod_integrity.cpython-312.pyc",
-      "bytes": 3175,
-      "sha256": "38972188b6effd7275ec9a517fdbfc2a7c64750d21ab678033924894b0096b87"
-    },
-    {
-      "path": "work/tools/__pycache__/motion_editor.cpython-312.pyc",
-      "bytes": 20479,
-      "sha256": "e5bfe61841dda07b5354cb53a9da69141c60f24444967f61fd32ee5b5c27f0fd"
-    },
-    {
-      "path": "work/tools/__pycache__/myleague_editor_runtime.cpython-312.pyc",
-      "bytes": 25537,
-      "sha256": "d046b305c04e6d2292d161e54c6bd56829f0f3feb7eb71133ded2b51826beea9"
-    },
-    {
-      "path": "work/tools/__pycache__/player_model.cpython-312.pyc",
-      "bytes": 8555,
-      "sha256": "ac88349588fa9d27cf5bed9a7710dec3c8542a773ff890f109c977bb8a96a1e8"
-    },
-    {
-      "path": "work/tools/__pycache__/player_tuning.cpython-312.pyc",
-      "bytes": 11925,
-      "sha256": "bcb7465b21c9ca18000ef61f24da639e1cf5986c687979a0168a826b4cda57f5"
-    },
-    {
-      "path": "work/tools/__pycache__/select_team_runtime.cpython-312.pyc",
-      "bytes": 44835,
-      "sha256": "e05ffa4412aef14abfe4a6ffe9e028e52883f630f5a363c107099a25749fa085"
-    },
-    {
-      "path": "work/tools/__pycache__/single_player_runtime.cpython-312.pyc",
-      "bytes": 16638,
-      "sha256": "209235866f8ddd12e17d3488aecd13d88a3175ae4bc7db1fec469c0af8b55a52"
-    },
-    {
-      "path": "work/tools/__pycache__/stat_editor.cpython-312.pyc",
-      "bytes": 11391,
-      "sha256": "12bcab28905558b2c3a30b9ded6869de359083fd3f69c18848103406e28b3431"
-    },
-    {
-      "path": "work/tools/__pycache__/transfer_editor.cpython-312.pyc",
-      "bytes": 37189,
-      "sha256": "2750f34b6353e501fa2e858f2d87b3e6fd0ba194657de529b0589a2c4e673a0b"
-    },
-    {
-      "path": "work/tools/__pycache__/transfer_player_editor.cpython-312.pyc",
-      "bytes": 10525,
-      "sha256": "0f25877ca991f621cf9a537791c3e52e8f4aa4c642f0085cc3a187825a1813dd"
-    },
-    {
-      "path": "work/tools/__pycache__/transfer_traits.cpython-312.pyc",
-      "bytes": 4648,
-      "sha256": "fc8935ee4dd6cf6a2b8bc1c40b7586424aed9e0f7c33f8fe51f2cad53bc67b49"
-    },
-    {
       "path": "work/tools/libtactics_bridge.so",
       "bytes": 13944,
       "sha256": "a10411ad99a77f733db3a3794d08f35f216d6f9f902575feb33005958d07fe74"
@@ -37765,16 +37685,6 @@
       "path": "work/tools/transfer_traits.py",
       "bytes": 1949,
       "sha256": "31d0bf8ff4a078a2050b251d3b0cb231c0bc7ce543c7a58b952d64b94f4cbf37"
-    },
-    {
-      "path": "work/tools/__pycache__/hook_arena.cpython-312.pyc",
-      "bytes": 21360,
-      "sha256": "7492cc2b5d96d68768297871be58c70a339bd89f97848d9af9fa07f25e64f38c"
-    },
-    {
-      "path": "work/tools/__pycache__/tactics_bridge_runtime.cpython-312.pyc",
-      "bytes": 6784,
-      "sha256": "60bb9443509b7a4dc842dff94b3a2d82597096792e690944bf400a4c4a737e67"
     }
   ],
   "protection": "AES-256-GCM CPython3.12 bytecode in app.imy; no plaintext gateway Python",

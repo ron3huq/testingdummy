@@ -1,3 +1,17 @@
+# FULL-8 RC2 HF1 · sửa lỗi cài đặt trong ảnh
+
+Bản FULL tích lũy trên nền FULL-7/APK73, nối tiếp RC2 86b01343. **Dùng bản này thay RC2.**
+
+Nguyên nhân đã tái hiện: trình đóng gói RC2 ghi 18 file __pycache__ vào hai manifest rồi xóa các file đó trước khi xuất gói. Launcher cố mở appearance_choices.cpython-312.pyc không tồn tại và chặn chuẩn bị game, Single Player và Transfer. HF1 bỏ các yêu cầu dành cho cache sinh tự động, vẫn giữ kiểm tra size/SHA256 cho toàn bộ166 tài nguyên runtime thật; không thêm file cache để né lỗi.
+
+Không xóa save hoặc DB, không cần gỡ ứng dụng. Ghép toàn bộ assets/ và classes5.dex vào APK73 nền đúng, ký bằng khóa đang dùng. Sau cập nhật mở lại app; nếu còn thông báo cũ, dùng Check & Repair Resources. Đây là payload FULL, không phải APK đã ký.
+
+Resource revision19008, manifest/inventory/checksum cập nhật. Native libraries, face/tóc, assets accessories, logic Transfer và Single Player giữ nguyên RC2. Bản này sửa lỗi cài đặt, không chứng minh các tính năng trong trận đã hoạt động trên điện thoại. Kiểm tra installer được chạy bằng Java với AssetManager thay thế trên máy chủ; không phải test điện thoại.
+
+Chi tiết thay đổi RC2 và các giới hạn còn mở được giữ bên dưới (revision19007 trong phần lịch sử là bản trước).
+
+---
+
 # APK73 V19.1 FULL-8 RC2 · tiếp tục FULL-7
 
 Gói FULL tích lũy mới, nền FULL-7 74a1cd81; nối tiếp RC1 1fb35a66. **Chưa xác nhận bản RC2 trên điện thoại.** Các kết quả dưới đây là kiểm tra mã, dữ liệu tổng hợp và thực thi ARM64/đọc tài nguyên độc lập; không phải cam kết mọi lỗi thực tế đã hết.

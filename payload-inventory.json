@@ -1,12 +1,12 @@
 {
-  "version": "V19.1-FULL8-RC2-live-single-cached-gameplan-native-eyes",
-  "resource_revision": 19007,
+  "version": "V19.1-FULL8-RC2-HF1-manifest-install-repair",
+  "resource_revision": 19008,
   "phone_verified": false,
   "files": [
     {
       "path": "README-VI.md",
-      "bytes": 5737,
-      "sha256": "7bf25d8e0f94d44b2e900a3c6f4a42b5ec3aa47f31199353e70d3a199466bdc6"
+      "bytes": 7252,
+      "sha256": "2cbb71c743c853d2bebb2cf7ca0251a6b13d0e1d6685cb1660cc219b771e7504"
     },
     {
       "path": "RESEARCH-VI.md",
@@ -3820,13 +3820,13 @@
     },
     {
       "path": "assets/gateway-release/release-manifest.json",
-      "bytes": 1407338,
-      "sha256": "bc5049f2b6c8a7b73fd836969756357ba743a6c80c966d8a3f4163d6be9217ab"
+      "bytes": 1403898,
+      "sha256": "c509aa9fffcc7e00222608824c8eb04b8f8944b665b7a82b058583050bfab4c1"
     },
     {
       "path": "assets/gateway-release/ui6-runtime-manifest.json",
-      "bytes": 31071,
-      "sha256": "f8ecd67ebeb2dd251d278a5a69365e4d5d406876751c7a7e01ccc6ccd879a39a"
+      "bytes": 27631,
+      "sha256": "8ca127eee6654d7f2c1b5dd985fce05a32ff8fd7a64f9cffcdb4fed887f6a59a"
     },
     {
       "path": "assets/gateway-release/work/tools/appearance_choices.py",
@@ -4091,7 +4091,7 @@
     {
       "path": "assets/gateway-release/work/tools/noodle_bundle.json",
       "bytes": 13342,
-      "sha256": "292c206655cc0d70b3a9a19dfbdbb7d0bc739b1b53d2cf565f080d3d564feb38"
+      "sha256": "1579b1d9b39ec9a4dafe2d98a4b4a24d07dcd9b7073e03be0e1bdc267c5628a8"
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.json",
@@ -4141,7 +4141,7 @@
     {
       "path": "assets/gateway-release/work/tools/private_bundles.json",
       "bytes": 9966,
-      "sha256": "6b0ab4775ed383c2aa28e64f1e2a9327e8cc8f910bc8561bb5a3ec7ff3ad1fee"
+      "sha256": "fe3c1e90d3d20e741684bd23e424f8428d63748248e74b0d6e98b370b9c61ede"
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.py",
@@ -4532,6 +4532,31 @@
       "path": "source/repair-full8-rc2/verify_package.py",
       "bytes": 2605,
       "sha256": "9abdb768316e1275d217ab0da33b87a07431f22aa052ef5c37783dd65c79c423"
+    },
+    {
+      "path": "source/repair-full8-rc2-hf1/build_runtime_manifests.py",
+      "bytes": 2066,
+      "sha256": "8c9a95efc5dcc0d30167d71449c73e44a3b2c1bb25ab96cda8246c363e8fc1ef"
+    },
+    {
+      "path": "source/repair-full8-rc2-hf1/installer-harness/TestInstall.java",
+      "bytes": 4033,
+      "sha256": "ec1751dc5f5cd69513265cb344135a0f26441844fcac32ea5b3aa797be0ea84f"
+    },
+    {
+      "path": "source/repair-full8-rc2-hf1/installer-harness/android/content/Context.java",
+      "bytes": 226,
+      "sha256": "8f63742b49d47faa1a82415aac0f7a4b4bb0fe928a8e51b1a03c6eac59a4a565"
+    },
+    {
+      "path": "source/repair-full8-rc2-hf1/installer-harness/android/content/res/AssetManager.java",
+      "bytes": 613,
+      "sha256": "b5d05a40b51496ddd4ad40cb5103ee3f9e660a8237e10c1f235d7d1aaab26ef3"
+    },
+    {
+      "path": "source/repair-full8-rc2-hf1/installer-harness/org/efootballrevival/runtimeprobe/ModPayloadRepair.java",
+      "bytes": 3650,
+      "sha256": "935bb539dcbb304c029cca3fddf8bb8bbc74973ccff38e24aa23722e31646791"
     },
     {
       "path": "validation/candidate1-launcher-validation.json",
@@ -5342,6 +5367,16 @@
       "path": "validation/full8-rc2-hair-bake.json",
       "bytes": 331,
       "sha256": "625016dccf8126670630f55a5a3c6a882c9ff4299b7e899d5fdb210c58d29e39"
+    },
+    {
+      "path": "validation/full8-rc2-hf1-installer-validation.json",
+      "bytes": 467,
+      "sha256": "fe4e452a3fd4c458fdddde155f55747749a722d8db2379bc2f761043bbf32365"
+    },
+    {
+      "path": "validation/full8-rc2-hf1-removed-cache-entries.json",
+      "bytes": 2332,
+      "sha256": "a8969b5cbe98ececba3026d1943264bb7819080340afe48bd93f33ef6b4655e2"
     },
     {
       "path": "validation/full8-rc2-package-validation.json",
