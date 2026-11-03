@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "original_cached_accessor_reproduces_stock_plan": true,
+  "cache_direct_consumer_receives_edited_clone": true,
+  "captain_follows_full_ID": true,
+  "starting_order_and_roles_verified_by_original_engine": true,
+  "shared_original_plan_unchanged": true,
+  "phone_verified": false
+}

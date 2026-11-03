@@ -10,6 +10,7 @@ _native=None
 _ready=threading.Event()
 _error=None
 _started=False
+_engine_base=0
 
 
 def validate(data):
@@ -41,21 +42,30 @@ def player_index():
     c=_module._logic.conn
     if _index_conn is c and _index_stamp==c.total_changes:
         return _index_rows
-    owned={str(row[0])for row in c.execute('SELECT DISTINCT id FROM gameplayers')}
-    rows={str(r['id']):{'id':str(r['id']),'name':r['name']}for r in motion_editor.donors().values()}
-    for pid in owned:
-        rows[pid]={'id':pid,'name':editor_names.NAMES.get(pid,rows.get(pid,{}).get('name',pid))}
-    for pid,row in rows.items():
-        row['search']=motion_editor.fold(row['name'])+' '+pid
-        row['owned']=pid in owned
-    _index_rows=tuple(sorted(rows.values(),key=lambda row:(not row['owned'],row['search'],int(row['id']))))
+    # Only exact owned records currently assigned to the active squad.
+    selected=c.execute('SELECT value FROM meta WHERE key=?',('main_squad_id',)).fetchone()
+    squad_id=int(selected[0])if selected else 1
+    saved=c.execute('SELECT json FROM squads WHERE squad_id=?',(squad_id,)).fetchone()
+    squad=json.loads(saved[0])if saved else {}
+    slots=(squad.get('squad_data')or{}).get('player_list')or[]
+    if not isinstance(slots,list)or len(slots)>40:raise ValueError('Invalid current squad')
+    rows={}
+    for slot,entry in enumerate(slots):
+        key=entry.get('gameplayer_id')or{}
+        pid=str(key.get('id',0));serial=key.get('serial',0)
+        if not pid.isdecimal()or not 0<int(pid)<2**63:continue
+        record=c.execute('SELECT json FROM gameplayers WHERE id=? AND serial=?',(int(pid),serial)).fetchone()
+        if not record:continue
+        if pid not in rows:rows[pid]={'id':pid,'name':editor_names.NAMES.get(pid,pid),'owned':True,'slot':slot,'serial':serial}
+    for row in rows.values():row['search']=motion_editor.fold(row['name'])+' '+row['id']
+    _index_rows=tuple(rows.values())
     _index_conn=c;_index_stamp=c.total_changes
     return _index_rows
 
 
 def status():
     d=config()
-    out=dict(d,ready=ready(),AI_off_behavior='native_manual',AI_on_behavior='selected_player_manual_with_AI_teammates',changes_match_speed=False)
+    out=dict(d,ready=ready(),AI_off_behavior='selected_player_manual_when_enabled',AI_on_behavior='selected_player_manual_with_AI_teammates',manual_single_player_supported=True,changes_match_speed=False)
     if d['player_id'] is not None:
         row=next((r for r in player_index()if r['id']==d['player_id']),None)
         out['player_name']=row['name']if row else d['player_id']
@@ -76,23 +86,31 @@ def manage(action,req):
         if type(page)is not int or not 0<=page<=2048:
             raise ValueError('Invalid player search page')
         rows=[{k:r[k]for k in('id','name')}for r in player_index()if not query or query in r['search']]
-        if query.isascii()and query.isdecimal()and str(int(query))==query and 0<int(query)<2**63 and not any(r['id']==query for r in rows):
-            rows.insert(0,{'id':query,'name':'Full ID '+query})
         return {'players':rows[page*40:(page+1)*40],'page':page,'total':len(rows)}
     import body_dimensions
     d=validate({'schema':1,'enabled':req.get('enabled'),'player_id':req.get('player_id')})
     c=_module._logic.conn
-    if body_dimensions.engine_loaded():
-        raise ValueError('Close and reopen the app; save before Enter Game')
+    if d['enabled']and not any(row['id']==d['player_id']for row in player_index()):
+        raise ValueError('Choose a player from your current squad')
+    live=action=='ui7_single_player_live'
+    if body_dimensions.engine_loaded()and not live:
+        raise ValueError('Use the in-match 1P button to change live control')
+    if live:
+        if _native is None or not _ready.is_set():raise ValueError('Single Player is still initializing')
+        previous=config()
     with _lock:
         if c.in_transaction:
             raise ValueError('Another save is active')
         try:
-            c.execute('BEGIN IMMEDIATE');c.execute('INSERT OR REPLACE INTO meta(key,value)VALUES(?,?)',(KEY,json.dumps(d,separators=(',',':'))));c.commit()
+            c.execute('BEGIN IMMEDIATE');c.execute('INSERT OR REPLACE INTO meta(key,value)VALUES(?,?)',(KEY,json.dumps(d,separators=(',',':'))))
+            if live and _native.single_player_configure(_engine_base,int(d['enabled']),int(d['player_id']or 0))!=1:raise ValueError('Live single-player control was rejected')
+            c.commit()
         except Exception:
-            c.rollback();raise
+            c.rollback()
+            if live:_native.single_player_configure(_engine_base,int(previous['enabled']),int(previous['player_id']or 0))
+            raise
     start()
-    return dict(d,saved=True,applies='next_game_launch')
+    return dict(d,saved=True,applies='live'if live else'next_game_launch')
 
 
 def install(root,module):
@@ -104,18 +122,18 @@ def install(root,module):
     original=module.manage
     @functools.wraps(original)
     def wrapped(action,payload=''):
-        if action in('ui7_single_player_get','ui7_single_player_search','ui7_single_player_apply'):
+        if action in('ui7_single_player_get','ui7_single_player_search','ui7_single_player_apply','ui7_single_player_live'):
             return json.dumps(manage(action,json.loads(payload or'{}')))
         return original(action,payload)
     module.manage=wrapped
 
 
 def ready():
-    return not config()['enabled'] or _ready.is_set()
+    return _ready.is_set()
 
 
 def require_ready(timeout=15):
-    if platform.machine().lower()not in('aarch64','arm64')or not config()['enabled']:
+    if platform.machine().lower()not in('aarch64','arm64'):
         return
     start()
     deadline=time.monotonic()+timeout
@@ -127,7 +145,7 @@ def require_ready(timeout=15):
         time.sleep(.05)
 
 ENGINE_SHA='efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8'
-HOOK_SHA='2e1ef1970c5c48544992d7cfaa8c08e3e1c0e53a696eeb568aacf0f677c0a459'
+HOOK_SHA='db7235a3debbd52a04976523ee1d2d144d5d906ce35a8568c74eff05e9771c78'
 HOOKS=(
     (0x6b53180,bytes.fromhex('ffc304d1e86300fdfd7b0da9fc6f0ea9'),'single_update','configure_single_update'),
     (0x6b52b0c,bytes.fromhex('fd7bbea9f44f01a9fd030091f40300aa'),'single_ctor','configure_single_ctor'),
@@ -138,7 +156,7 @@ HOOKS=(
     (0x6a9d2e0,bytes.fromhex('e101805226b6fb17000840bdc0035fd6'),'single_getter','configure_single_getter'),
 )
 
-# Checked native bootstrap. Disabled configurations install no single-player hooks.
+# Checked native bootstrap. Hooks remain passive while disabled, ready for the in-match toggle.
 from mod_integrity import digest
 from select_team_runtime import maps,branch
 _installed_hooks={}
@@ -152,7 +170,7 @@ def owned_entry(base,entry,expected):
     return C.string_at(target,4)==__import__('struct').pack('<I',branch(target,cave)) and C.string_at(target+4,len(expected)-4)==expected[4:]
 
 def _worker():
-    global _native,_error,_started
+    global _native,_error,_started,_engine_base
     try:
         while True:
             matches=[r for r in maps()if r[4].endswith('/libUE4.so')and r[3]==0]
@@ -160,9 +178,7 @@ def _worker():
                 break
             time.sleep(.25)
         d=config()
-        if not d['enabled']:
-            return
-        base=matches[0][0];path=matches[0][4]
+        base=matches[0][0];path=matches[0][4];_engine_base=base
         if digest(path)!=ENGINE_SHA or digest(HERE/'libsingle_player.so')!=HOOK_SHA:
             raise RuntimeError('Unsupported engine or single-player native checksum mismatch')
         for entry,prologue,_,_ in HOOKS:
@@ -173,7 +189,7 @@ def _worker():
         hook.single_player_configure.restype=C.c_uint
         hook.single_player_status.argtypes=[C.c_uint]
         hook.single_player_status.restype=C.c_uint64
-        if hook.single_player_configure(base,1,int(d['player_id']))!=1:
+        if hook.single_player_configure(base,int(d['enabled']),int(d['player_id']or 0))!=1:
             raise RuntimeError('Single-player native configuration rejected')
         import hook_arena
         for entry,prologue,name,configure in HOOKS:
@@ -195,7 +211,7 @@ def _worker():
 
 def start():
     global _started,_error
-    if platform.machine().lower()not in('aarch64','arm64')or not config()['enabled']:
+    if platform.machine().lower()not in('aarch64','arm64'):
         return
     with _lock:
         if _started:

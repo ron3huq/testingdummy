@@ -49,6 +49,7 @@ def validate(data):
    elif ix==48:integer(value,40,130)
    else:raise ValueError('unverified parameter is not editable')
   __import__('bandage_runtime').validate_fields(row)
+  if 'boosters'in row:__import__('editor_boosters').validate(row['boosters'],[0,0,0],three_slots=True)
   gear=row.get('accessories',{})
   if not isinstance(gear,dict):raise ValueError('invalid accessories')
   for key,mode in gear.items():
@@ -173,6 +174,8 @@ def project(player,cid):
  if len(params)!=147:return out
  for row in sorted(rows,key=lambda r:r['competition']!=0):
   for k,v in row.get('parameters',{}).items():params[int(k)]=v
+  if 'boosters'in row:
+   params[144:147]=row['boosters'];out['initial_booster_id_list']=list(row['boosters'])
   removed={i for i,flag in enumerate(FLAGS)if not row.get('ui77_innate')and row.get('parameters',{}).get(str(flag))==0}
   for field in ['additional_skill_id','additional_skill']:
    if field in out:out[field]=[74 if sid in removed else sid for sid in out[field]]

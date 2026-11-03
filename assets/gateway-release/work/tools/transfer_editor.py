@@ -176,6 +176,9 @@ def manage(c,action,req):
    if group is None:raise ValueError('Unknown competition')
    native_rows=captures();classic_rows=__import__('myleague_worlds').config()['classic_teams']
    q=__import__('motion_editor').fold(str(req.get('query','')))[:80];rows=[{'id':tid,'name':team_names().get(tid,'Team '+str(tid)),'edited':key(tid,cid)in profiles,'ready':bool(profiles.get(key(tid,cid))or profiles.get(key(tid,0))or native_rows.get(key(tid,cid))or native_rows.get(key(tid,0))or (str(tid)in classic_rows and classic_rows[str(tid)].get('competition',518)==cid))}for tid in group['teams']if not q or q in __import__('motion_editor').fold(team_names().get(tid,''))or q==str(tid)];return {'teams':rows,'competition':cid,'leagues':leagues(),'roles':catalog()['roles']}
+  if action in ['ui712_transfer_traits_get','ui712_transfer_traits_apply']:
+   import transfer_traits
+   return transfer_traits.manage(c,action,req)
   if action in ['ui712_transfer_player_get','ui712_transfer_player_apply']:
    import transfer_player_editor
    return transfer_player_editor.manage(c,action,req)

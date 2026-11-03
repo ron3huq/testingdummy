@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "inventory_files_verified": 1090,
+  "helper_integrity_pins": true,
+  "all_three_additional_hook_slots_preregistered": true,
+  "missing_slot_reachable_regression_fixed": true,
+  "DEX_roundtrip_actual_launcher_to_lifecycle_to_inmatch_button": true,
+  "transfer_menu_to_traits_handler_linked": true,
+  "new_resources_in_both_manifests": true,
+  "login_CPK_and_working_accessory_pack_unchanged": true,
+  "native_helper_no_undefined_imports": true,
+  "phone_verified": false
+}

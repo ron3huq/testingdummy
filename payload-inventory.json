@@ -1,12 +1,12 @@
 {
-  "version": "V19.1-FULL8-RC1-V8-native-key-repairs",
-  "resource_revision": 19006,
+  "version": "V19.1-FULL8-RC2-live-single-cached-gameplan-native-eyes",
+  "resource_revision": 19007,
   "phone_verified": false,
   "files": [
     {
       "path": "README-VI.md",
-      "bytes": 5434,
-      "sha256": "06aa18c1abdcf002577552cd6e5f333a78fc57a02afd48890a9fd21b1815e110"
+      "bytes": 5737,
+      "sha256": "7bf25d8e0f94d44b2e900a3c6f4a42b5ec3aa47f31199353e70d3a199466bdc6"
     },
     {
       "path": "RESEARCH-VI.md",
@@ -3759,14 +3759,74 @@
       "sha256": "cd37532e84733d10699323b328264dfc72ecc696470d04cf467bfc1d463930a7"
     },
     {
+      "path": "assets/gateway-release/livedata/pc9332_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9332_mobile_and.ucas",
+      "bytes": 5903671,
+      "sha256": "721e99322b4ce16864ac8f1bce66120c7ef857b45c2dcc0cd420025b32296477"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9332_mobile_and.utoc",
+      "bytes": 4544,
+      "sha256": "222b3dc379b2e67640d33a0c88a5418aa5d1ce69a4e399fa9b716d7d20d550f5"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9333_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9333_mobile_and.ucas",
+      "bytes": 3686443,
+      "sha256": "ba234c30950ed6626f13f8d809801269ef56bdf0c12d82788ff003a54c69751b"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9333_mobile_and.utoc",
+      "bytes": 3176,
+      "sha256": "1151670aae41d1d4366e43c4f69c0e40383322bc97a16a49a74fee1307adc8d4"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9334_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9334_mobile_and.ucas",
+      "bytes": 3684715,
+      "sha256": "0a3dd6df4764a2d02f7090b57889f0d5ecf520d7f3a2006d629eaa17ead08789"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9334_mobile_and.utoc",
+      "bytes": 3176,
+      "sha256": "b2d52e96ab1162ab82c3a3ca9dd5b63c560ed0331800f53fdcfa8ea44c60bf64"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9335_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9335_mobile_and.ucas",
+      "bytes": 3677122,
+      "sha256": "d8f41cf659d06954f74c7a2008e9adb0f034af2ce66e218f5ee3f81f28ea528b"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9335_mobile_and.utoc",
+      "bytes": 3174,
+      "sha256": "d6a16240d13cb67976c9d6dc2da6ce2b2b3fa752f56b6013deebb1baddfdf212"
+    },
+    {
       "path": "assets/gateway-release/release-manifest.json",
-      "bytes": 1401394,
-      "sha256": "ff8dc4019b9131cd970659cc95f40c0dd1d7349cbd4d6545fa4643307ed56606"
+      "bytes": 1407338,
+      "sha256": "bc5049f2b6c8a7b73fd836969756357ba743a6c80c966d8a3f4163d6be9217ab"
     },
     {
       "path": "assets/gateway-release/ui6-runtime-manifest.json",
-      "bytes": 25127,
-      "sha256": "134c0101dc6e24be0c2f85da1b59ab83891e41af37cd3634f45505e9524947df"
+      "bytes": 31071,
+      "sha256": "f8ecd67ebeb2dd251d278a5a69365e4d5d406876751c7a7e01ccc6ccd879a39a"
     },
     {
       "path": "assets/gateway-release/work/tools/appearance_choices.py",
@@ -3860,8 +3920,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/hook_arena.py",
-      "bytes": 10078,
-      "sha256": "2873389304a9abc175be866e16922477cdf5bbae1d06457b90b0e36fa3c843d2"
+      "bytes": 10339,
+      "sha256": "588314ffa66c615c37aefad2f4dc6247e910265688ae78671efb140cb65b6980"
     },
     {
       "path": "assets/gateway-release/work/tools/innate_skill_labels.json",
@@ -3891,7 +3951,7 @@
     {
       "path": "assets/gateway-release/work/tools/libnoodle_hair.so",
       "bytes": 199968,
-      "sha256": "c5907a7b937e8a17ca0f4e2a53972812d764590e4fa248abddae7add8cef1a8a"
+      "sha256": "0b98d80158400fcd15ea5792cd844b0d30acf237237203da7a7de23838363ac5"
     },
     {
       "path": "assets/gateway-release/work/tools/libselect_team.so",
@@ -3901,7 +3961,12 @@
     {
       "path": "assets/gateway-release/work/tools/libsingle_player.so",
       "bytes": 47160,
-      "sha256": "2e1ef1970c5c48544992d7cfaa8c08e3e1c0e53a696eeb568aacf0f677c0a459"
+      "sha256": "db7235a3debbd52a04976523ee1d2d144d5d906ce35a8568c74eff05e9771c78"
+    },
+    {
+      "path": "assets/gateway-release/work/tools/libtactics_bridge.so",
+      "bytes": 13944,
+      "sha256": "a10411ad99a77f733db3a3794d08f35f216d6f9f902575feb33005958d07fe74"
     },
     {
       "path": "assets/gateway-release/work/tools/live_snapshot.py",
@@ -3990,8 +4055,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/myleague_editor_runtime.py",
-      "bytes": 12656,
-      "sha256": "fc01ce176c71ce4076a56ae8c6fe54ec15a797083c103cd6d44d1aa8b9a87bb7"
+      "bytes": 12870,
+      "sha256": "303c566c20e63257d01fc001b2ebefd97b3e40fb4cc21aa0fe3addd89ead82c9"
     },
     {
       "path": "assets/gateway-release/work/tools/myleague_packs.py",
@@ -4025,8 +4090,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_bundle.json",
-      "bytes": 12937,
-      "sha256": "75a28158576f065e22d747374b4856403cb795317b21dd79e3ede21430e409e9"
+      "bytes": 13342,
+      "sha256": "292c206655cc0d70b3a9a19dfbdbb7d0bc739b1b53d2cf565f080d3d564feb38"
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.json",
@@ -4036,7 +4101,7 @@
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.py",
       "bytes": 20684,
-      "sha256": "96b6959e924ae7034c81ae3237b1845814c8374ab4aa58f21bc4004d820b9033"
+      "sha256": "e410eb2243f1e52c6c2b61b453848c7fdf9c43529e497f9f4af5413a03883c9a"
     },
     {
       "path": "assets/gateway-release/work/tools/photo_codec.py",
@@ -4075,13 +4140,13 @@
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.json",
-      "bytes": 8258,
-      "sha256": "a452c258b3079149c98429ed66c02ad13c483608a8ee3c3b442edac3ac94d0c1"
+      "bytes": 9966,
+      "sha256": "6b0ab4775ed383c2aa28e64f1e2a9327e8cc8f910bc8561bb5a3ec7ff3ad1fee"
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.py",
-      "bytes": 2489,
-      "sha256": "829ba9dfcc3112944ca78de133e5545ddd3505a28eeab7ddbd17327e229bb3b9"
+      "bytes": 2529,
+      "sha256": "25533fb0be1c9f60feefe0755ec676b4d242267ff2fc53dbf67260f57846ef49"
     },
     {
       "path": "assets/gateway-release/work/tools/profile_editor.py",
@@ -4095,23 +4160,28 @@
     },
     {
       "path": "assets/gateway-release/work/tools/select_team_runtime.py",
-      "bytes": 27085,
-      "sha256": "2e5fea5fb513fd6011f8de8701f6c82d28af0cca6943dd9ca7ed959cca172ef4"
+      "bytes": 27315,
+      "sha256": "590bb6d8b91e8ce1d5556939524c19de498b6fca0e7b8e998144743e41809a5c"
     },
     {
       "path": "assets/gateway-release/work/tools/single_player_lookup_runtime.py",
-      "bytes": 1693,
-      "sha256": "0711977ad2532b662b6926d3161f6330814f0ccc3e70a3b89f4fa0ff0befb572"
+      "bytes": 1712,
+      "sha256": "0674cf1945adc4a99158a80901fa66212df923913a53df24d15b05bb49a5cecc"
     },
     {
       "path": "assets/gateway-release/work/tools/single_player_runtime.py",
-      "bytes": 8576,
-      "sha256": "70787d8c7191dcf7af4cb6dcc37ce0ec55ef2cd24fe798fc0e27aa8213d1dd07"
+      "bytes": 9669,
+      "sha256": "3fc27dc012dc45e3a65a143fdabe756b32a3061b6b60fd673bcf6b5769d5894f"
     },
     {
       "path": "assets/gateway-release/work/tools/stat_editor.py",
       "bytes": 4635,
       "sha256": "099745184baedd70605a1707b7116dcff9c9bf9552ed5a9dec3541bdd927cfc7"
+    },
+    {
+      "path": "assets/gateway-release/work/tools/tactics_bridge_runtime.py",
+      "bytes": 3134,
+      "sha256": "3c16e70ae6b4cf85357d65bf6cce44e5ccafcdae55d8905cd1f21b6b57b3fe49"
     },
     {
       "path": "assets/gateway-release/work/tools/team_kits.py",
@@ -4125,13 +4195,18 @@
     },
     {
       "path": "assets/gateway-release/work/tools/transfer_editor.py",
-      "bytes": 16226,
-      "sha256": "6f7d7174772a2961c10e966ab653492e91b3475eea3745b9112df2b9cc37e40b"
+      "bytes": 16375,
+      "sha256": "52357c5c4000dda8e24e4ca88b0fa78fc5690e80be1a173126922a949d360142"
     },
     {
       "path": "assets/gateway-release/work/tools/transfer_player_editor.py",
-      "bytes": 4682,
-      "sha256": "b2a9ef516acd5bfd077286b12468056146651bc8b44d66700770693c9b8318f0"
+      "bytes": 5093,
+      "sha256": "51c8429a9ff934fff40ed9f35b2e0c29fd2ad8548d01ac6e8a8c98db2e233f5a"
+    },
+    {
+      "path": "assets/gateway-release/work/tools/transfer_traits.py",
+      "bytes": 1949,
+      "sha256": "31d0bf8ff4a078a2050b251d3b0cb231c0bc7ce543c7a58b952d64b94f4cbf37"
     },
     {
       "path": "assets/gateway-release/work/tools/ui2_skill_rules.json",
@@ -4255,8 +4330,8 @@
     },
     {
       "path": "assets/launcher/index.html",
-      "bytes": 8802,
-      "sha256": "b4c849bef12a9455c1c972b01ea4dfe7a82c65046e5be8aa7ee3401fa86755e7"
+      "bytes": 8796,
+      "sha256": "b0ed5d2f0cb2e78477bf9cc259ad148850f364479902bac976e09849130971de"
     },
     {
       "path": "assets/launcher/launcher-startup.js",
@@ -4345,8 +4420,8 @@
     },
     {
       "path": "classes5.dex",
-      "bytes": 649448,
-      "sha256": "2039d300a45697aa0166756ac5cee6949a74f75745d8aeac19abea4d208fb562"
+      "bytes": 660916,
+      "sha256": "f3bbdfe5e690751e6fe93748a7fdee652d682de9bf166f724823761d54d741a4"
     },
     {
       "path": "source/repair-candidate1/PrivateTools.smali",
@@ -4397,6 +4472,66 @@
       "path": "source/repair-full8/verify_v8.py",
       "bytes": 4723,
       "sha256": "06bcf4d864f8ba1758a9a09f0de0b8be9fffa9f27aca8fe551a7b5aca3064e00"
+    },
+    {
+      "path": "source/repair-full8-rc2/SinglePlayerInMatch.java",
+      "bytes": 3556,
+      "sha256": "a503ccc1c2068d79afdeeaf11601ae9c4da1f59b82e862cca350b37d0b6bd3cb"
+    },
+    {
+      "path": "source/repair-full8-rc2/TransferTraitsEditor.java",
+      "bytes": 5568,
+      "sha256": "75b065b5b305fb0dc692eae2b1380f0340faab1c2f3df8561b4e06fd135497eb"
+    },
+    {
+      "path": "source/repair-full8-rc2/bake_hair.py",
+      "bytes": 2398,
+      "sha256": "855bd312a1a67c1309218c180e9c4b57c0fcb99585a14c852568f82924ecad09"
+    },
+    {
+      "path": "source/repair-full8-rc2/bake_hair_unique.py",
+      "bytes": 3872,
+      "sha256": "64513ac555e0c29b1c7506cef4f358b9c2f71c12350974a05d480213d9cd8aff"
+    },
+    {
+      "path": "source/repair-full8-rc2/face_build.py",
+      "bytes": 19858,
+      "sha256": "cee590293444be7c6d3e89907877ebcce92cab96ba084f62aa314134ab50b85d"
+    },
+    {
+      "path": "source/repair-full8-rc2/face_verify.py",
+      "bytes": 3223,
+      "sha256": "8901f5c6dfc9215314dc56fa4a574418ed20d70ed69a6125b9d8065e85ea56f5"
+    },
+    {
+      "path": "source/repair-full8-rc2/tactics_bridge.c",
+      "bytes": 5416,
+      "sha256": "47491dea1145c9a43af88826b692b95bb0ab4eccaf93a75622c9afa4af3ad170"
+    },
+    {
+      "path": "source/repair-full8-rc2/test_boosters_native.py",
+      "bytes": 4583,
+      "sha256": "476b8db5237413b4639b72469e282d63349d15822ab15aaca861e82d69977ce7"
+    },
+    {
+      "path": "source/repair-full8-rc2/test_runtime.py",
+      "bytes": 4399,
+      "sha256": "07a9ed6d78ba82a0aebfd4df6e86ec762ced3cc566b7a902cb04d0844c7e3ded"
+    },
+    {
+      "path": "source/repair-full8-rc2/test_single_gate.py",
+      "bytes": 2050,
+      "sha256": "b3b95e2451467371f39a4167496c228ff9640082da2fcc3fe86173f83b9051d3"
+    },
+    {
+      "path": "source/repair-full8-rc2/test_tactics_cache.py",
+      "bytes": 5099,
+      "sha256": "24e7624e6199fc83a888784b10f5e782e9a542901ca0241e3fe41c8c40bf19c2"
+    },
+    {
+      "path": "source/repair-full8-rc2/verify_package.py",
+      "bytes": 2605,
+      "sha256": "9abdb768316e1275d217ab0da33b87a07431f22aa052ef5c37783dd65c79c423"
     },
     {
       "path": "validation/candidate1-launcher-validation.json",
@@ -5182,6 +5317,51 @@
       "path": "validation/full8-cached-lookup-validation.json",
       "bytes": 1488,
       "sha256": "b613ecaff1455f6fd688ce1104e43965e4fe2eac0af2328b9c059f22e81fbf9d"
+    },
+    {
+      "path": "validation/full8-rc2-asset-build.json",
+      "bytes": 3161,
+      "sha256": "ad165327c7995fa13ed1dc6c2dcf622abe8d64c0d5349704ee4d40d9c4617e17"
+    },
+    {
+      "path": "validation/full8-rc2-boosters-native-validation.json",
+      "bytes": 305,
+      "sha256": "2ce455f0e5a2332db0e83e981795c636220896bea630892e5190f8a08a91c573"
+    },
+    {
+      "path": "validation/full8-rc2-containers.json",
+      "bytes": 191,
+      "sha256": "c169a49a6ab317ef6f91893185d4ac267e5b2042e5d361ed1e2373bfb17f336b"
+    },
+    {
+      "path": "validation/full8-rc2-geometry-validation.json",
+      "bytes": 2385,
+      "sha256": "9442b6ab716cea5e515f5c998e07c751e730f03009bf7e5fdf3530bfbac355ca"
+    },
+    {
+      "path": "validation/full8-rc2-hair-bake.json",
+      "bytes": 331,
+      "sha256": "625016dccf8126670630f55a5a3c6a882c9ff4299b7e899d5fdb210c58d29e39"
+    },
+    {
+      "path": "validation/full8-rc2-package-validation.json",
+      "bytes": 493,
+      "sha256": "13e3c92056cf266d15738e140d54cfbf1163e2efaadda9d9994e15a1143a9f95"
+    },
+    {
+      "path": "validation/full8-rc2-runtime-validation.json",
+      "bytes": 425,
+      "sha256": "7e4af6460f7eaa0a46e6d3c3e9fed2965d2452c10057198c1ab206a6db8ea124"
+    },
+    {
+      "path": "validation/full8-rc2-single-native-gate-validation.json",
+      "bytes": 381,
+      "sha256": "c9c5f0148e3cf7e5da5c50922a849da73a912d03de195eb8ca22ef723a45fd18"
+    },
+    {
+      "path": "validation/full8-rc2-tactics-cache-validation.json",
+      "bytes": 302,
+      "sha256": "429846d8a2c6b431c10d439b3312922b15be58857813a22f99cecc67661d9194"
     },
     {
       "path": "validation/full8-single-config-validation.json",

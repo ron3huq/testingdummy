@@ -1,0 +1,10 @@
+{
+  "source_color": "hair_parts_bsm UV1",
+  "source_alpha": "hair_parts_bsm_alp UV0",
+  "native_uv": "high-resolution cap retained; unique padded strand cells",
+  "source_triangles": 4942,
+  "native_corner_vertices": 13404,
+  "positions_and_normals_from_source": true,
+  "source_shape_not_scaled": true,
+  "phone_verified": false
+}

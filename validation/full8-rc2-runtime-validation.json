@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "current_squad_exact_ID_and_serial_only": true,
+  "unknown_and_unassigned_excluded": true,
+  "single_save_reopen": true,
+  "live_toggle_and_rejection_rollback": true,
+  "transfer_traits_save_reopen_remove": true,
+  "all_74_skill_flags_in_runtime_config": true,
+  "three_booster_slots_in_runtime_config": true,
+  "native_live_calls_mocked": true,
+  "database_synthetic": true,
+  "phone_verified": false
+}

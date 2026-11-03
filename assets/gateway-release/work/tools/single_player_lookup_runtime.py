@@ -17,7 +17,7 @@ def owned_entry(base,entry,expected):
  return C.string_at(target,4)==struct.pack('<I',branch(target,cave))and C.string_at(target+4,len(expected)-4)==expected[4:]
 def install(base,path,single):
  global _helper
- # These offsets are tied to the unchanged, pinned 2e1ef197 module.
+ # These offsets match the pinned layout; the manual variant changes only its AI gate.
  import single_player_runtime as runtime,hook_arena
  if digest(HERE/'libsingle_player.so')!=runtime.HOOK_SHA:raise RuntimeError('Single-player module changed')
  hook_arena.PLANS[ENTRY]=PROLOGUE.hex()

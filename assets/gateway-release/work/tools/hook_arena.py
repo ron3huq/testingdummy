@@ -12,6 +12,7 @@ PLANS.update({entry:prologue.hex()for entry,prologue,_,_ in _BANDAGE_HOOKS})
 from single_player_runtime import HOOKS as _SINGLE_HOOKS
 PLANS.update({entry:prologue.hex()for entry,prologue,_,_ in _SINGLE_HOOKS})
 PLANS[0x72f2de0]='fd7bbea9f30b00f9fd030091f30300aa'
+PLANS.update({0x72f2de0:'fd7bbea9f30b00f9fd030091f30300aa',0x8294a5c:'280040b9093a82520a3180520900098b',0x8294a7c:'ff4301d1fd7b02a9f65703a9f44f04a9'})
 SLOT=88;RETURN=32
 
 def branch(source,target):
@@ -84,6 +85,7 @@ class Arena:
   if PLANS.get(entry)!=prologue.hex():raise RuntimeError('Unregistered hook prologue')
   address=self.address+self.index[entry]*SLOT;branch(self.base+entry,address);return address
  def reachable(self,entry):
+  if entry not in self.index:return False
   delta=self.address+self.index[entry]*SLOT-(self.base+entry)
   return -(1<<27)<=delta<(1<<27)
  def bind(self,entry,target):
@@ -95,7 +97,7 @@ class Arena:
 def install(g,base,path,entry,prologue,hook_name,configure_name):
  if g['digest'](path)!=g['ENGINE_SHA']:raise RuntimeError('Unsupported73 engine; no patch installed')
  # Module filenames are fixed trusted startup code, not request input.
- libname='libcached_lookup.so'if g['__name__']=='single_player_lookup_runtime'else'libsingle_player.so'if g['__name__']=='single_player_runtime'else'libnoodle_hair.so'if g['__name__']=='noodle_hair'else'libselect_team.so'
+ libname='libtactics_bridge.so'if g['__name__']=='tactics_bridge_runtime'else'libcached_lookup.so'if g['__name__']=='single_player_lookup_runtime'else'libsingle_player.so'if g['__name__']=='single_player_runtime'else'libnoodle_hair.so'if g['__name__']=='noodle_hair'else'libselect_team.so'
  libpath=g['HERE']/libname
  if g['digest'](libpath)!=g['HOOK_SHA']:raise RuntimeError('Hook binary checksum mismatch')
  import v19_chain

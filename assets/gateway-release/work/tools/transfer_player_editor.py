@@ -9,8 +9,10 @@ def read(c):
 
 def validate(values):
  import stat_editor,appearance_choices,appearance_gear
- if not isinstance(values,dict)or set(values)-{'parameters','celebrations','accessories','accessory_colors','sleeve','bandage_left','bandage_right'}:raise ValueError('Invalid Transfer player fields')
+ if not isinstance(values,dict)or set(values)-{'parameters','celebrations','accessories','accessory_colors','sleeve','bandage_left','bandage_right','skills','boosters'}:raise ValueError('Invalid Transfer player fields')
  if 'parameters'in values:stat_editor.validate(values['parameters'])
+ if 'skills'in values:__import__('player_tuning').validate_skills(values['skills'])
+ if 'boosters'in values:__import__('editor_boosters').validate(values['boosters'],[0,0,0],three_slots=True)
  if 'celebrations'in values:
   if not isinstance(values['celebrations'],dict)or set(values['celebrations'])-{'59','60'}:raise ValueError('Invalid celebration fields')
   appearance_choices.validate(values['celebrations'])
@@ -24,6 +26,9 @@ def inject(cfg,data):
   row=next((r for r in cfg['players']if r['id']==pid and r['competition']==int(cid)),None)
   if row is None:row={'id':pid,'competition':int(cid),'sleeve':'none','parameters':{}};cfg['players'].append(row)
   row['parameters'].update(v.get('parameters',{}));row['parameters'].update(v.get('celebrations',{}))
+  if 'skills'in v:
+   row['ui77_innate']=True;row['parameters'].update({str(flag):int(i in v['skills'])for i,flag in enumerate(editor.FLAGS)})
+  if 'boosters'in v:row['boosters']=list(v['boosters'])
   for field in ['accessories','accessory_colors','sleeve','bandage_left','bandage_right']:
    if field in v:row[field]=copy.deepcopy(v[field])
  editor.validate(cfg);return cfg

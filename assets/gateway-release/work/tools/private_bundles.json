@@ -228,8 +228,56 @@
     "pc9331_mobile_and.ucas": {
       "size": 3567666,
       "sha256": "607656093a516e3481788798d30337a42932a21a17a0a105b8c4430e65c132ae"
+    },
+    "pc9335_mobile_and.utoc": {
+      "size": 3174,
+      "sha256": "d6a16240d13cb67976c9d6dc2da6ce2b2b3fa752f56b6013deebb1baddfdf212"
+    },
+    "pc9332_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    "pc9333_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    "pc9334_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    "pc9334_mobile_and.ucas": {
+      "size": 3684715,
+      "sha256": "0a3dd6df4764a2d02f7090b57889f0d5ecf520d7f3a2006d629eaa17ead08789"
+    },
+    "pc9334_mobile_and.utoc": {
+      "size": 3176,
+      "sha256": "b2d52e96ab1162ab82c3a3ca9dd5b63c560ed0331800f53fdcfa8ea44c60bf64"
+    },
+    "pc9332_mobile_and.utoc": {
+      "size": 4544,
+      "sha256": "222b3dc379b2e67640d33a0c88a5418aa5d1ce69a4e399fa9b716d7d20d550f5"
+    },
+    "pc9335_mobile_and.ucas": {
+      "size": 3677122,
+      "sha256": "d8f41cf659d06954f74c7a2008e9adb0f034af2ce66e218f5ee3f81f28ea528b"
+    },
+    "pc9333_mobile_and.ucas": {
+      "size": 3686443,
+      "sha256": "ba234c30950ed6626f13f8d809801269ef56bdf0c12d82788ff003a54c69751b"
+    },
+    "pc9333_mobile_and.utoc": {
+      "size": 3176,
+      "sha256": "1151670aae41d1d4366e43c4f69c0e40383322bc97a16a49a74fee1307adc8d4"
+    },
+    "pc9335_mobile_and.pak": {
+      "size": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    "pc9332_mobile_and.ucas": {
+      "size": 5903671,
+      "sha256": "721e99322b4ce16864ac8f1bce66120c7ef857b45c2dcc0cd420025b32296477"
     }
   },
-  "resource_revision": 19006,
+  "resource_revision": 19007,
   "build_label": "FULL7-CONDITION-FACE-BANDAGE"
 }

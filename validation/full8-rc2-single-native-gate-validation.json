@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "actual_ARM64_decision_and_Frame_usable_executed": true,
+  "AI_off_enters_fixed_player_action": true,
+  "AI_on_enters_fixed_player_action": true,
+  "disabled_enters_restore_action": true,
+  "only_one_instruction_changed_from_verified_restore_module": true,
+  "frame_synthetic": true,
+  "control_action_boundary_not_executed": true,
+  "phone_verified": false
+}

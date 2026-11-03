@@ -1,5 +1,5 @@
 {
-  "release_id": "V19.1-FULL8-RC1-V8-native-key-repairs",
+  "release_id": "V19.1-FULL8-RC2-live-single-cached-gameplan-native-eyes",
   "modules": [
     "account_state",
     "ai_division",
@@ -37208,8 +37208,8 @@
     },
     {
       "path": "work/tools/hook_arena.py",
-      "bytes": 10078,
-      "sha256": "2873389304a9abc175be866e16922477cdf5bbae1d06457b90b0e36fa3c843d2"
+      "bytes": 10339,
+      "sha256": "588314ffa66c615c37aefad2f4dc6247e910265688ae78671efb140cb65b6980"
     },
     {
       "path": "work/tools/innate_skill_labels.json",
@@ -37234,7 +37234,7 @@
     {
       "path": "work/tools/libnoodle_hair.so",
       "bytes": 199968,
-      "sha256": "c5907a7b937e8a17ca0f4e2a53972812d764590e4fa248abddae7add8cef1a8a"
+      "sha256": "0b98d80158400fcd15ea5792cd844b0d30acf237237203da7a7de23838363ac5"
     },
     {
       "path": "work/tools/libselect_team.so",
@@ -37318,8 +37318,8 @@
     },
     {
       "path": "work/tools/myleague_editor_runtime.py",
-      "bytes": 12656,
-      "sha256": "fc01ce176c71ce4076a56ae8c6fe54ec15a797083c103cd6d44d1aa8b9a87bb7"
+      "bytes": 12870,
+      "sha256": "303c566c20e63257d01fc001b2ebefd97b3e40fb4cc21aa0fe3addd89ead82c9"
     },
     {
       "path": "work/tools/myleague_packs.py",
@@ -37353,8 +37353,8 @@
     },
     {
       "path": "work/tools/noodle_bundle.json",
-      "bytes": 12937,
-      "sha256": "75a28158576f065e22d747374b4856403cb795317b21dd79e3ede21430e409e9"
+      "bytes": 13342,
+      "sha256": "292c206655cc0d70b3a9a19dfbdbb7d0bc739b1b53d2cf565f080d3d564feb38"
     },
     {
       "path": "work/tools/noodle_hair.json",
@@ -37364,7 +37364,7 @@
     {
       "path": "work/tools/noodle_hair.py",
       "bytes": 20684,
-      "sha256": "96b6959e924ae7034c81ae3237b1845814c8374ab4aa58f21bc4004d820b9033"
+      "sha256": "e410eb2243f1e52c6c2b61b453848c7fdf9c43529e497f9f4af5413a03883c9a"
     },
     {
       "path": "work/tools/photo_codec.py",
@@ -37403,13 +37403,13 @@
     },
     {
       "path": "work/tools/private_bundles.json",
-      "bytes": 8258,
-      "sha256": "a452c258b3079149c98429ed66c02ad13c483608a8ee3c3b442edac3ac94d0c1"
+      "bytes": 9966,
+      "sha256": "6b0ab4775ed383c2aa28e64f1e2a9327e8cc8f910bc8561bb5a3ec7ff3ad1fee"
     },
     {
       "path": "work/tools/private_bundles.py",
-      "bytes": 2489,
-      "sha256": "829ba9dfcc3112944ca78de133e5545ddd3505a28eeab7ddbd17327e229bb3b9"
+      "bytes": 2529,
+      "sha256": "25533fb0be1c9f60feefe0755ec676b4d242267ff2fc53dbf67260f57846ef49"
     },
     {
       "path": "work/tools/profile_editor.py",
@@ -37423,8 +37423,8 @@
     },
     {
       "path": "work/tools/select_team_runtime.py",
-      "bytes": 27085,
-      "sha256": "2e5fea5fb513fd6011f8de8701f6c82d28af0cca6943dd9ca7ed959cca172ef4"
+      "bytes": 27315,
+      "sha256": "590bb6d8b91e8ce1d5556939524c19de498b6fca0e7b8e998144743e41809a5c"
     },
     {
       "path": "work/tools/stat_editor.py",
@@ -37443,8 +37443,8 @@
     },
     {
       "path": "work/tools/transfer_editor.py",
-      "bytes": 16226,
-      "sha256": "6f7d7174772a2961c10e966ab653492e91b3475eea3745b9112df2b9cc37e40b"
+      "bytes": 16375,
+      "sha256": "52357c5c4000dda8e24e4ca88b0fa78fc5690e80be1a173126922a949d360142"
     },
     {
       "path": "work/tools/ui2_skill_rules.json",
@@ -37493,8 +37493,8 @@
     },
     {
       "path": "work/tools/transfer_player_editor.py",
-      "bytes": 4682,
-      "sha256": "b2a9ef516acd5bfd077286b12468056146651bc8b44d66700770693c9b8318f0"
+      "bytes": 5093,
+      "sha256": "51c8429a9ff934fff40ed9f35b2e0c29fd2ad8548d01ac6e8a8c98db2e233f5a"
     },
     {
       "path": "work/tools/myleague_condition.json",
@@ -37529,12 +37529,12 @@
     {
       "path": "work/tools/libsingle_player.so",
       "bytes": 47160,
-      "sha256": "2e1ef1970c5c48544992d7cfaa8c08e3e1c0e53a696eeb568aacf0f677c0a459"
+      "sha256": "db7235a3debbd52a04976523ee1d2d144d5d906ce35a8568c74eff05e9771c78"
     },
     {
       "path": "work/tools/single_player_runtime.py",
-      "bytes": 8576,
-      "sha256": "70787d8c7191dcf7af4cb6dcc37ce0ec55ef2cd24fe798fc0e27aa8213d1dd07"
+      "bytes": 9669,
+      "sha256": "3fc27dc012dc45e3a65a143fdabe756b32a3061b6b60fd673bcf6b5769d5894f"
     },
     {
       "path": "livedata/pc9328_mobile_and.pak",
@@ -37563,8 +37563,8 @@
     },
     {
       "path": "work/tools/single_player_lookup_runtime.py",
-      "bytes": 1693,
-      "sha256": "0711977ad2532b662b6926d3161f6330814f0ccc3e70a3b89f4fa0ff0befb572"
+      "bytes": 1712,
+      "sha256": "0674cf1945adc4a99158a80901fa66212df923913a53df24d15b05bb49a5cecc"
     },
     {
       "path": "livedata/pc9329_mobile_and.pak",
@@ -37610,6 +37610,171 @@
       "path": "livedata/pc9331_mobile_and.utoc",
       "bytes": 3018,
       "sha256": "cd37532e84733d10699323b328264dfc72ecc696470d04cf467bfc1d463930a7"
+    },
+    {
+      "path": "livedata/pc9332_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "livedata/pc9332_mobile_and.ucas",
+      "bytes": 5903671,
+      "sha256": "721e99322b4ce16864ac8f1bce66120c7ef857b45c2dcc0cd420025b32296477"
+    },
+    {
+      "path": "livedata/pc9332_mobile_and.utoc",
+      "bytes": 4544,
+      "sha256": "222b3dc379b2e67640d33a0c88a5418aa5d1ce69a4e399fa9b716d7d20d550f5"
+    },
+    {
+      "path": "livedata/pc9333_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "livedata/pc9333_mobile_and.ucas",
+      "bytes": 3686443,
+      "sha256": "ba234c30950ed6626f13f8d809801269ef56bdf0c12d82788ff003a54c69751b"
+    },
+    {
+      "path": "livedata/pc9333_mobile_and.utoc",
+      "bytes": 3176,
+      "sha256": "1151670aae41d1d4366e43c4f69c0e40383322bc97a16a49a74fee1307adc8d4"
+    },
+    {
+      "path": "livedata/pc9334_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "livedata/pc9334_mobile_and.ucas",
+      "bytes": 3684715,
+      "sha256": "0a3dd6df4764a2d02f7090b57889f0d5ecf520d7f3a2006d629eaa17ead08789"
+    },
+    {
+      "path": "livedata/pc9334_mobile_and.utoc",
+      "bytes": 3176,
+      "sha256": "b2d52e96ab1162ab82c3a3ca9dd5b63c560ed0331800f53fdcfa8ea44c60bf64"
+    },
+    {
+      "path": "livedata/pc9335_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "livedata/pc9335_mobile_and.ucas",
+      "bytes": 3677122,
+      "sha256": "d8f41cf659d06954f74c7a2008e9adb0f034af2ce66e218f5ee3f81f28ea528b"
+    },
+    {
+      "path": "livedata/pc9335_mobile_and.utoc",
+      "bytes": 3174,
+      "sha256": "d6a16240d13cb67976c9d6dc2da6ce2b2b3fa752f56b6013deebb1baddfdf212"
+    },
+    {
+      "path": "work/tools/__pycache__/appearance_choices.cpython-312.pyc",
+      "bytes": 21743,
+      "sha256": "22bdda17dea40cdcb6d9b4930e48829f16ec575d58f44c79d367ce116beb2341"
+    },
+    {
+      "path": "work/tools/__pycache__/appearance_gear.cpython-312.pyc",
+      "bytes": 14638,
+      "sha256": "4b74974fddb08f67a253f566f1b2ebe19a2b8502e2833e823d28767c0868185b"
+    },
+    {
+      "path": "work/tools/__pycache__/bandage_runtime.cpython-312.pyc",
+      "bytes": 4254,
+      "sha256": "ece3901c18fba5e6f56832c4af28d4d9293a93c908ce31d40bd0f05540bc8ff9"
+    },
+    {
+      "path": "work/tools/__pycache__/body_dimensions.cpython-312.pyc",
+      "bytes": 11064,
+      "sha256": "8619d15324bdb926c5d9cec20dd256f13167693da5f351f934f08bd41ae33355"
+    },
+    {
+      "path": "work/tools/__pycache__/editor_names.cpython-312.pyc",
+      "bytes": 3812,
+      "sha256": "144381022c060cde13cf8d5f94f43b6fce8b1cfe051928c5dd08ce15d186a8f2"
+    },
+    {
+      "path": "work/tools/__pycache__/mod_integrity.cpython-312.pyc",
+      "bytes": 3175,
+      "sha256": "38972188b6effd7275ec9a517fdbfc2a7c64750d21ab678033924894b0096b87"
+    },
+    {
+      "path": "work/tools/__pycache__/motion_editor.cpython-312.pyc",
+      "bytes": 20479,
+      "sha256": "e5bfe61841dda07b5354cb53a9da69141c60f24444967f61fd32ee5b5c27f0fd"
+    },
+    {
+      "path": "work/tools/__pycache__/myleague_editor_runtime.cpython-312.pyc",
+      "bytes": 25537,
+      "sha256": "d046b305c04e6d2292d161e54c6bd56829f0f3feb7eb71133ded2b51826beea9"
+    },
+    {
+      "path": "work/tools/__pycache__/player_model.cpython-312.pyc",
+      "bytes": 8555,
+      "sha256": "ac88349588fa9d27cf5bed9a7710dec3c8542a773ff890f109c977bb8a96a1e8"
+    },
+    {
+      "path": "work/tools/__pycache__/player_tuning.cpython-312.pyc",
+      "bytes": 11925,
+      "sha256": "bcb7465b21c9ca18000ef61f24da639e1cf5986c687979a0168a826b4cda57f5"
+    },
+    {
+      "path": "work/tools/__pycache__/select_team_runtime.cpython-312.pyc",
+      "bytes": 44835,
+      "sha256": "e05ffa4412aef14abfe4a6ffe9e028e52883f630f5a363c107099a25749fa085"
+    },
+    {
+      "path": "work/tools/__pycache__/single_player_runtime.cpython-312.pyc",
+      "bytes": 16638,
+      "sha256": "209235866f8ddd12e17d3488aecd13d88a3175ae4bc7db1fec469c0af8b55a52"
+    },
+    {
+      "path": "work/tools/__pycache__/stat_editor.cpython-312.pyc",
+      "bytes": 11391,
+      "sha256": "12bcab28905558b2c3a30b9ded6869de359083fd3f69c18848103406e28b3431"
+    },
+    {
+      "path": "work/tools/__pycache__/transfer_editor.cpython-312.pyc",
+      "bytes": 37189,
+      "sha256": "2750f34b6353e501fa2e858f2d87b3e6fd0ba194657de529b0589a2c4e673a0b"
+    },
+    {
+      "path": "work/tools/__pycache__/transfer_player_editor.cpython-312.pyc",
+      "bytes": 10525,
+      "sha256": "0f25877ca991f621cf9a537791c3e52e8f4aa4c642f0085cc3a187825a1813dd"
+    },
+    {
+      "path": "work/tools/__pycache__/transfer_traits.cpython-312.pyc",
+      "bytes": 4648,
+      "sha256": "fc8935ee4dd6cf6a2b8bc1c40b7586424aed9e0f7c33f8fe51f2cad53bc67b49"
+    },
+    {
+      "path": "work/tools/libtactics_bridge.so",
+      "bytes": 13944,
+      "sha256": "a10411ad99a77f733db3a3794d08f35f216d6f9f902575feb33005958d07fe74"
+    },
+    {
+      "path": "work/tools/tactics_bridge_runtime.py",
+      "bytes": 3134,
+      "sha256": "3c16e70ae6b4cf85357d65bf6cce44e5ccafcdae55d8905cd1f21b6b57b3fe49"
+    },
+    {
+      "path": "work/tools/transfer_traits.py",
+      "bytes": 1949,
+      "sha256": "31d0bf8ff4a078a2050b251d3b0cb231c0bc7ce543c7a58b952d64b94f4cbf37"
+    },
+    {
+      "path": "work/tools/__pycache__/hook_arena.cpython-312.pyc",
+      "bytes": 21360,
+      "sha256": "7492cc2b5d96d68768297871be58c70a339bd89f97848d9af9fa07f25e64f38c"
+    },
+    {
+      "path": "work/tools/__pycache__/tactics_bridge_runtime.cpython-312.pyc",
+      "bytes": 6784,
+      "sha256": "60bb9443509b7a4dc842dff94b3a2d82597096792e690944bf400a4c4a737e67"
     }
   ],
   "protection": "AES-256-GCM CPython3.12 bytecode in app.imy; no plaintext gateway Python",
