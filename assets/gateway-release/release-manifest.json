@@ -1,5 +1,5 @@
 {
-  "release_id": "private-v19.1-full-7-condition-face-bandage",
+  "release_id": "FULL7-repair-candidate-1",
   "modules": [
     "account_state",
     "ai_division",
@@ -37333,8 +37333,8 @@
     },
     {
       "path": "work/tools/myleague_team_snapshot.py",
-      "bytes": 3536,
-      "sha256": "cf37a86069ca3b0d2c30729979c69a17127b2fa36e4f83bb636cc2c5a2aaf354"
+      "bytes": 3880,
+      "sha256": "aeb9172c0b0316122d301496760eab85e507712b510ba866a9087be56afdca64"
     },
     {
       "path": "work/tools/myleague_worlds.py",
@@ -37354,7 +37354,7 @@
     {
       "path": "work/tools/noodle_bundle.json",
       "bytes": 12463,
-      "sha256": "ad024c1ae3e6d0d39dbcd4805d06e9cc989beba73aee187325ebed9a6b127590"
+      "sha256": "ec7f1b33e2bcedd9c545db2695cb90afd874c4e06b48ce833371aefe4f4bb195"
     },
     {
       "path": "work/tools/noodle_hair.json",
@@ -37404,7 +37404,7 @@
     {
       "path": "work/tools/private_bundles.json",
       "bytes": 6550,
-      "sha256": "2cafd40e8b806741db494b907b7853de0a61bbe8904d8f9ce60c39d73bac11f1"
+      "sha256": "962459d2c5b0058e9f140938beee8215d946cfc970bcdf034feaf2708d2fa836"
     },
     {
       "path": "work/tools/private_bundles.py",
@@ -37443,8 +37443,8 @@
     },
     {
       "path": "work/tools/transfer_editor.py",
-      "bytes": 15674,
-      "sha256": "bd7ae4c226a9e513fb0264f7c1c89cf892082633f0792197c5cf88f95f391a5b"
+      "bytes": 16226,
+      "sha256": "6f7d7174772a2961c10e966ab653492e91b3475eea3745b9112df2b9cc37e40b"
     },
     {
       "path": "work/tools/ui2_skill_rules.json",
@@ -37523,8 +37523,8 @@
     },
     {
       "path": "work/tools/bandage_runtime.py",
-      "bytes": 2194,
-      "sha256": "ce61d6de2dd7e241d25cd6bad027192d51c8cb899fc7a22693546b2fa91a7f41"
+      "bytes": 2225,
+      "sha256": "1483704dec3344cdaba33be4578652c7ea35a31be7200f641cced4d11f930446"
     },
     {
       "path": "work/tools/libsingle_player.so",

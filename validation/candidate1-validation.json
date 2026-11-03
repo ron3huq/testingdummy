@@ -1,0 +1,63 @@
+{
+  "base_commit": "74a1cd8100c8ecd022af9f16ef1f9f98cffcfc96",
+  "checks": [
+    "cached index/full-ID decoding",
+    "stock/cached key separation",
+    "duplicate index rejection",
+    "original ARM64 Team accessor on synthetic mode-2 record",
+    "DB restoration after resource replacement",
+    "native installer receives captain and taker by exact player ID"
+  ],
+  "original_native_accessor_keys": [
+    [
+      91,
+      10000000000000
+    ],
+    [
+      23,
+      10000000000001
+    ],
+    [
+      31,
+      10000000000007
+    ],
+    [
+      104,
+      10000000000003
+    ],
+    [
+      15,
+      10000000000004
+    ],
+    [
+      8,
+      10000000000005
+    ],
+    [
+      64,
+      10000000000006
+    ],
+    [
+      77,
+      10000000000002
+    ],
+    [
+      52,
+      10000000000008
+    ],
+    [
+      6,
+      10000000000009
+    ],
+    [
+      99,
+      10000000000010
+    ]
+  ],
+  "device_verified": false,
+  "limitations": [
+    "Synthetic records do not establish real cache pool ownership.",
+    "The original native hook is unchanged.",
+    "No match, facial animation, body rig or real phone validation."
+  ]
+}

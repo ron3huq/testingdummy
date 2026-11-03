@@ -22,7 +22,7 @@ def selected_rows(rows):
 def configure_native(hook):
     global _native
     import myleague_editor_runtime as editor
-    rows=editor.config()['players']
+    rows=editor.requested_long_sleeves(editor.config())['players']
     hook.noodle_bandage_add.argtypes=[C.c_uint64,C.c_uint,C.c_uint,C.c_uint]
     hook.noodle_bandage_add.restype=C.c_uint
     hook.noodle_bandage_commit.argtypes=[]

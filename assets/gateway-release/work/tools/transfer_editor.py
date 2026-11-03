@@ -86,6 +86,17 @@ def load(c):
  for k,row in profiles.items():validate_team(row)
  _conn=c
 
+def restore_config():
+ if not profiles:return
+ cfg=json.loads(editor.PATH.read_text())
+ replacements={(row['team_id'],row['competition']):copy.deepcopy(row)for row in profiles.values()}
+ cfg['teams']=[row for row in cfg['teams']if(row['team_id'],row['competition'])not in replacements]+list(replacements.values())
+ editor.validate(cfg)
+ encoded=json.dumps(cfg,indent=2)
+ if encoded!=editor.PATH.read_text():
+  tmp=editor.PATH.with_suffix('.transfer-restore.tmp');tmp.write_text(encoded);tmp.replace(editor.PATH)
+ editor._config=None
+
 def kit_choices(tid):
  import team_kits,myleague_worlds
  alias=myleague_worlds.config().get('kit_aliases',{}).get(str(tid),tid);ids=team_kits._ui712_original(tid)if hasattr(team_kits,'_ui712_original')else team_kits.uniform_ids(tid)
@@ -218,6 +229,7 @@ def configure(hook):
 def install(module):
  if getattr(module.manage,'_ui712_transfer',False):return
  load(module._logic.conn)
+ restore_config()
  import transfer_player_editor
  transfer_player_editor.restore_config(module._logic.conn)
  old=module.manage

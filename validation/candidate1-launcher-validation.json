@@ -1,0 +1,14 @@
+{
+  "button_present": true,
+  "click_dispatch": {
+    "method": "editor",
+    "payload": {
+      "op": "privateTool",
+      "payload": {
+        "tool": "single-player"
+      }
+    }
+  },
+  "android_dialog_executed": false,
+  "device_verified": false
+}

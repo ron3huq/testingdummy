@@ -1,10 +1,11 @@
 {
-  "version": "V19.1-FULL7",
+  "version": "FULL7-repair-candidate-1",
+  "device_verified": false,
   "files": [
     {
       "path": "README-VI.md",
-      "bytes": 5071,
-      "sha256": "8f0dc8e30d7a5673591f3c9d913e70f7c81723c1a2200c42352aa54419c45f14"
+      "bytes": 2978,
+      "sha256": "be4bed4dc48294aa6e39c374567539c4831fe5f1cdc2da3db7a3df680a8f3398"
     },
     {
       "path": "RESEARCH-VI.md",
@@ -3698,13 +3699,13 @@
     },
     {
       "path": "assets/gateway-release/release-manifest.json",
-      "bytes": 1398890,
-      "sha256": "2d6adefdb6746fcd608202077a942d6effac768756817dd53dce515c31555d45"
+      "bytes": 1398871,
+      "sha256": "9767a824013d9737ab8e84481d22e24472a147d28d9828654272039ccfad527c"
     },
     {
       "path": "assets/gateway-release/ui6-runtime-manifest.json",
-      "bytes": 22623,
-      "sha256": "9dfaae93566a73ec9bb5f3324ba2a6704a8a052bc81684ba8bc8f0ace1be3a20"
+      "bytes": 22604,
+      "sha256": "df00f411061045d7c7d3ae5a2b0046cf37bb715b4a9a206765a8390bd75b736d"
     },
     {
       "path": "assets/gateway-release/work/tools/appearance_choices.py",
@@ -3718,8 +3719,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/bandage_runtime.py",
-      "bytes": 2194,
-      "sha256": "ce61d6de2dd7e241d25cd6bad027192d51c8cb899fc7a22693546b2fa91a7f41"
+      "bytes": 2225,
+      "sha256": "1483704dec3344cdaba33be4578652c7ea35a31be7200f641cced4d11f930446"
     },
     {
       "path": "assets/gateway-release/work/tools/body_defaults.zlib",
@@ -3933,8 +3934,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/myleague_team_snapshot.py",
-      "bytes": 3536,
-      "sha256": "cf37a86069ca3b0d2c30729979c69a17127b2fa36e4f83bb636cc2c5a2aaf354"
+      "bytes": 3880,
+      "sha256": "aeb9172c0b0316122d301496760eab85e507712b510ba866a9087be56afdca64"
     },
     {
       "path": "assets/gateway-release/work/tools/myleague_worlds.py",
@@ -3954,7 +3955,7 @@
     {
       "path": "assets/gateway-release/work/tools/noodle_bundle.json",
       "bytes": 12463,
-      "sha256": "ad024c1ae3e6d0d39dbcd4805d06e9cc989beba73aee187325ebed9a6b127590"
+      "sha256": "ec7f1b33e2bcedd9c545db2695cb90afd874c4e06b48ce833371aefe4f4bb195"
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.json",
@@ -4004,7 +4005,7 @@
     {
       "path": "assets/gateway-release/work/tools/private_bundles.json",
       "bytes": 6550,
-      "sha256": "2cafd40e8b806741db494b907b7853de0a61bbe8904d8f9ce60c39d73bac11f1"
+      "sha256": "962459d2c5b0058e9f140938beee8215d946cfc970bcdf034feaf2708d2fa836"
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.py",
@@ -4048,8 +4049,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/transfer_editor.py",
-      "bytes": 15674,
-      "sha256": "bd7ae4c226a9e513fb0264f7c1c89cf892082633f0792197c5cf88f95f391a5b"
+      "bytes": 16226,
+      "sha256": "6f7d7174772a2961c10e966ab653492e91b3475eea3745b9112df2b9cc37e40b"
     },
     {
       "path": "assets/gateway-release/work/tools/transfer_player_editor.py",
@@ -4178,8 +4179,8 @@
     },
     {
       "path": "assets/launcher/index.html",
-      "bytes": 8566,
-      "sha256": "b3358ecc9a6f296820996758f75eb9b8ce9e83efa60937e04f6df7adeac4905e"
+      "bytes": 8802,
+      "sha256": "b4c849bef12a9455c1c972b01ea4dfe7a82c65046e5be8aa7ee3401fa86755e7"
     },
     {
       "path": "assets/launcher/launcher-startup.js",
@@ -4193,8 +4194,8 @@
     },
     {
       "path": "assets/launcher/launcher.js",
-      "bytes": 16160,
-      "sha256": "8c12acfbb58b4ad3a4919271885a2c891bc63b24b1c15a0b3f8523a4d11cf98c"
+      "bytes": 16320,
+      "sha256": "a306046892bd91445412cb2ab94a114f66ba97cbef31e5fc05ac37d6d359302d"
     },
     {
       "path": "assets/launcher/private.css",
@@ -4268,8 +4269,33 @@
     },
     {
       "path": "classes5.dex",
-      "bytes": 649408,
-      "sha256": "c2763f9777f6a4909c04c9e9db7435aade96c698076d98e885874a89f8835231"
+      "bytes": 649448,
+      "sha256": "2039d300a45697aa0166756ac5cee6949a74f75745d8aeac19abea4d208fb562"
+    },
+    {
+      "path": "source/repair-candidate1/PrivateTools.smali",
+      "bytes": 18313,
+      "sha256": "da39e6ef21ca809a4479f329c72aecead95e95d24dcb230bc66c52eb974abf2a"
+    },
+    {
+      "path": "source/repair-candidate1/patch.py",
+      "bytes": 4184,
+      "sha256": "8793a8379cf9d5516653d2ce3af3f72882f799ed00cb3a09555051ffe79d449e"
+    },
+    {
+      "path": "source/repair-candidate1/verify.py",
+      "bytes": 4842,
+      "sha256": "f0602e18220d96c14e6df9d26e90aa11e1bf5af50a8a040d31e7362161d09787"
+    },
+    {
+      "path": "validation/candidate1-launcher-validation.json",
+      "bytes": 252,
+      "sha256": "8e2a8120643c228549445102265cc8b836272f9e02c40997cc786130b05e35c2"
+    },
+    {
+      "path": "validation/candidate1-validation.json",
+      "bytes": 1128,
+      "sha256": "b22a5432d9be4adc75d5de4f3eca24c4e3c5ff4e7a59718a8ecaaf6199a3fc63"
     },
     {
       "path": "validation/cold-boot-validation.json",

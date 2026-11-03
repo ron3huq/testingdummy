@@ -196,6 +196,7 @@
 
   function bind() {
     $("private-diagnostics").addEventListener("click",()=>call("editor",{op:"privateTool",payload:{tool:"diagnostics"}}).catch(e=>setProgress(e.message)));
+    $("private-single-player").addEventListener("click",()=>call("editor",{op:"privateTool",payload:{tool:"single-player"}}).catch(e=>setProgress(e.message)));
     $("private-transfer").addEventListener("click", () => window.PrivateTransfer.enter());
     $("native-launcher").addEventListener("click", () => { if (!busy) call("nativeLauncher").catch(e => setProgress(e.message)); });
     $("native-editor").addEventListener("click", () => {show("players");window.EditorUI.showPlayers();});

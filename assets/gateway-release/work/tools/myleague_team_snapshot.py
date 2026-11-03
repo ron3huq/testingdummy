@@ -10,10 +10,16 @@ def decode(blob):
  if struct.unpack_from('<I',b)[0]>>14!=tid or origin not in (1,2)or cid not in (0,122,125,473,566,128,549,518):raise ValueError('capture identity mismatch')
  n=(struct.unpack_from('<I',b,0x40c)[0]>>9)&127
  if not 11<=n<=40:raise ValueError('native roster count outside editor range')
- ids=[];shirts=[]
+ ids=[];shirts=[];native_keys=[];cache_indices=set()
  for i in range(n):
   kind,pid=struct.unpack_from('<QQ',b,0x110+16*i)
-  if kind!=0 or not 0<pid<2**63:raise ValueError('non-base/native player key; cannot safely edit this roster')
+  if not 0<pid<2**63:raise ValueError('invalid exact native player ID')
+  if origin==1:
+   if kind!=0:raise ValueError('unsupported stock player key kind')
+  else:
+   if kind>=2**32 or kind==0xffffffff or kind in cache_indices:raise ValueError('invalid or duplicate cached player index')
+   cache_indices.add(kind)
+  native_keys.append({'word0':kind,'player_id':str(pid)})
   ids.append(str(pid));shirts.append(struct.unpack_from('<H',b,0x3a2+2*i)[0])
  if len(set(ids))!=n:raise ValueError('duplicate native player keys')
  order=list(b[0x538:0x538+n]);first=order[:11]
@@ -32,7 +38,7 @@ def decode(blob):
   if index>=n:raise ValueError('invalid native role reference')
   return ids[index]
  roster=[dict(id=ids[old],shirt=shirts[old],**(plans[0]['slots'][new]if new<11 else dict(role=0,x=0,y=0)))for new,old in enumerate(ordered)]
- return dict(team_id=tid,competition=cid,name=b[4:74].split(b'\0')[0].decode('utf8','replace'),roster=roster,plans=plans,captain=taker(b[0x569]),kickers=[taker(v)for v in b[0x560:0x566]],source='NATIVE_MATCH_CACHE'if origin==2 else'NATIVE_TEAM_LOOKUP',capture_generation=generation,capture_sha256=hashlib.sha256(blob).hexdigest(),native_roster_order=ids,native_match_order=order,verified_formation=True)
+ return dict(team_id=tid,competition=cid,name=b[4:74].split(b'\0')[0].decode('utf8','replace'),roster=roster,plans=plans,captain=taker(b[0x569]),kickers=[taker(v)for v in b[0x560:0x566]],source='NATIVE_MATCH_CACHE'if origin==2 else'NATIVE_TEAM_LOOKUP',capture_generation=generation,capture_sha256=hashlib.sha256(blob).hexdigest(),native_roster_order=ids,native_keys=native_keys,native_key_mode=origin,native_match_order=order,verified_formation=True)
 
 _last=None
 
