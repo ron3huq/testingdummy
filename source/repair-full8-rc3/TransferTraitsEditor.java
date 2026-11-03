@@ -1,0 +1,48 @@
+package org.efootballrevival.runtimeprobe;
+import android.app.*;
+import android.view.*;
+import android.widget.*;
+import org.json.*;
+import java.util.*;
+
+public final class TransferTraitsEditor {
+ public static void menu(Activity a,JSONObject req,String id,String name){
+  new AlertDialog.Builder(a).setTitle(name).setItems(new String[]{"Celebration IDs","Accessories","Abilities","Skills & Boosters","Foot & Positions"},(d,i)->{
+   if(i==4){TransferFootEditor.open(a,req,id);return;}
+   if(i<3){TransferPlayerEditor.load(a,req,id,name,i);return;}
+   new Thread(()->{try{JSONObject r=new JSONObject(req.toString()).put("player_id",id);JSONObject data=new JSONObject(EmbeddedGateway.manage(a,"ui712_transfer_traits_get",r.toString()));a.runOnUiThread(()->show(a,r,data));}catch(Exception e){error(a,e);}},"TransferTraitsLoad").start();
+  }).setNegativeButton("Close",null).show();
+ }
+ private static void error(Activity a,Exception e){a.runOnUiThread(()->{if(!a.isFinishing())new AlertDialog.Builder(a).setTitle("Skills & Boosters").setMessage(e.getMessage()).setPositiveButton("OK",null).show();});}
+ private static LinearLayout column(Activity a){LinearLayout l=new LinearLayout(a);l.setOrientation(1);l.setPadding(18,8,18,8);return l;}
+ private static ScrollView scroll(Activity a,LinearLayout l){ScrollView s=new ScrollView(a);s.addView(l);return s;}
+ private static TextView text(Activity a,String value){TextView t=new TextView(a);t.setText(value);t.setPadding(4,8,4,8);return t;}
+ private static void show(Activity a,JSONObject req,JSONObject data){try{
+  if(a.isFinishing())return;
+  JSONArray choices=data.getJSONArray("skill_choices"),selected=data.getJSONArray("skills"),boosters=data.getJSONArray("boosters"),boosterChoices=data.getJSONArray("booster_choices"),limits=data.getJSONArray("booster_limits");
+  HashSet<Integer> before=new HashSet<>();for(int i=0;i<selected.length();i++)before.add(selected.getInt(i));
+  LinearLayout root=column(a),tabs=new LinearLayout(a),skills=column(a),boost=column(a);root.addView(tabs);
+  ScrollView skillScroll=scroll(a,skills),boostScroll=scroll(a,boost);root.addView(skillScroll,new LinearLayout.LayoutParams(-1,0,1));root.addView(boostScroll,new LinearLayout.LayoutParams(-1,0,1));boostScroll.setVisibility(View.GONE);
+  Button sk=new Button(a);sk.setText("Skills");Button bo=new Button(a);bo.setText("Boosters");tabs.addView(sk,new LinearLayout.LayoutParams(0,-2,1));tabs.addView(bo,new LinearLayout.LayoutParams(0,-2,1));
+  sk.setOnClickListener(v->{skillScroll.setVisibility(View.VISIBLE);boostScroll.setVisibility(View.GONE);});bo.setOnClickListener(v->{skillScroll.setVisibility(View.GONE);boostScroll.setVisibility(View.VISIBLE);});
+  ArrayList<CheckBox> checks=new ArrayList<>();ArrayList<Integer> skillIds=new ArrayList<>();
+  for(int i=0;i<choices.length();i++){JSONObject row=choices.getJSONObject(i);int id=row.getInt("id");CheckBox c=new CheckBox(a);c.setText(row.getString("label"));c.setChecked(before.contains(id));skills.addView(c);checks.add(c);skillIds.add(id);}
+  int[] original=new int[3];ArrayList<ArrayList<Integer>> ids=new ArrayList<>();Spinner[] selectors=new Spinner[3];
+  for(int slot=0;slot<3;slot++){
+   original[slot]=boosters.optInt(slot);ArrayList<Integer> values=new ArrayList<>();ArrayList<String> labels=new ArrayList<>();values.add(0);labels.add("Off");
+   for(int i=0;i<boosterChoices.length();i++){JSONObject row=boosterChoices.getJSONObject(i);int id=row.getInt("id");if(id!=0&&id<=limits.getInt(slot)){values.add(id);labels.add(row.getString("label"));}}
+   int at=values.indexOf(original[slot]);if(at<0){values.add(original[slot]);labels.add("Current · "+original[slot]);at=values.size()-1;}
+   boost.addView(text(a,"Booster "+(slot+1)));Spinner pick=new Spinner(a);pick.setAdapter(new ArrayAdapter<String>(a,android.R.layout.simple_spinner_dropdown_item,labels));pick.setSelection(at);boost.addView(pick);ids.add(values);selectors[slot]=pick;
+  }
+  boost.addView(text(a,"Conditional boosters apply when their conditions are met."));
+  AlertDialog dialog=new AlertDialog.Builder(a).setTitle(data.optString("name")+" · Skills & Boosters").setView(root).setNegativeButton("Cancel",null).setPositiveButton("Save",null).create();dialog.show();dialog.getWindow().setLayout(-1,(int)(a.getResources().getDisplayMetrics().heightPixels*.88));
+  dialog.getButton(-1).setOnClickListener(v->{try{
+   JSONArray nextSkills=new JSONArray(),nextBoosters=new JSONArray();HashSet<Integer> next=new HashSet<>();boolean boostChanged=false;
+   for(int i=0;i<checks.size();i++)if(checks.get(i).isChecked()){nextSkills.put(skillIds.get(i));next.add(skillIds.get(i));}
+   for(int i=0;i<3;i++){int value=ids.get(i).get(selectors[i].getSelectedItemPosition());nextBoosters.put(value);boostChanged|=value!=original[i];}
+   JSONObject save=new JSONObject(req.toString());if(!next.equals(before))save.put("skills",nextSkills);if(boostChanged)save.put("boosters",nextBoosters);
+   if(next.equals(before)&&!boostChanged){Toast.makeText(a,"No changes",Toast.LENGTH_SHORT).show();return;}
+   dialog.getButton(-1).setEnabled(false);new Thread(()->{try{JSONObject result=new JSONObject(EmbeddedGateway.manage(a,"ui712_transfer_traits_apply",save.toString()));if(!result.optBoolean("saved"))throw new Exception(result.optString("error","Changes were not saved"));a.runOnUiThread(()->{dialog.dismiss();Toast.makeText(a,"Saved · applies on next game launch",Toast.LENGTH_LONG).show();});}catch(Exception e){a.runOnUiThread(()->dialog.getButton(-1).setEnabled(true));error(a,e);}},"TransferTraitsSave").start();
+  }catch(Exception e){error(a,e);}});
+ }catch(Exception e){error(a,e);}}
+}

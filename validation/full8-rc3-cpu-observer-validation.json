@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "original_mode_dependent_GetCpuLevel_body_executed": true,
+  "global_mode_context_boundaries_mocked": true,
+  "observer_preserves_all_seven_return_values": true,
+  "observer_does_not_write_native_CPU_settings": true,
+  "natural_call_count_and_last_level_available": true,
+  "min_clamp_and_boss_branches_not_executed": true,
+  "AI_decision_effect_not_measured": true,
+  "phone_verified": false
+}

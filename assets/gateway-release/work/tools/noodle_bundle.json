@@ -56,7 +56,7 @@
       "sha256": "8cfdf5027111c09127843dcca640ea1e06402ddc38d93f679c44c6f775db2b50"
     }
   },
-  "native_sha256": "0b98d80158400fcd15ea5792cd844b0d30acf237237203da7a7de23838363ac5",
+  "native_sha256": "c2d8c2718be472e6e688694000c6ba1aee3dba449695868baa17189d098a2c3d",
   "asset_revision": "FULL7-CONDITION-FACE-BANDAGE",
   "active_head_bones": [
     15,
@@ -64,10 +64,10 @@
   ],
   "reference_skeleton_bones": 166,
   "appearance_files": {
-    "select_team_runtime.py": "590bb6d8b91e8ce1d5556939524c19de498b6fca0e7b8e998144743e41809a5c",
+    "select_team_runtime.py": "7523467754bb250807870ec1cccbc80f9860f9a8a5bfec0ae709c8de1d15b5df",
     "libselect_team.so": "53a7786d44f2fcd4f95724509f37a2a0c98f032eddf2fc2948704e4a0d696b94",
-    "myleague_editor_runtime.py": "303c566c20e63257d01fc001b2ebefd97b3e40fb4cc21aa0fe3addd89ead82c9",
-    "hook_arena.py": "588314ffa66c615c37aefad2f4dc6247e910265688ae78671efb140cb65b6980",
+    "myleague_editor_runtime.py": "3a00cd5d95b0b34aaba1cb80e845d6ed852cb445829a493b70a5ce9371c17f64",
+    "hook_arena.py": "0230f8e82428a7221c20a0421b511e1cbf47ffe02c20518c7c4a41d405ecc9af",
     "player_model.py": "b32e596f4ff60f625a211631509369e91052aed6614102e8c5ff44b1220e53af",
     "bridge_73.py": "9f5ba2c08c5d6c6d062d6a572d8b0a4e5e8c83273a888f76368993cf57d03172",
     "multi_cards.py": "06ea7d0bc8df24d9dea836e7c38a80ed53c29c8a42aac0c569e441701ab76358",
@@ -75,13 +75,13 @@
     "body_dimensions.py": "e44bff0ea78c2fc5472b582077f71c1d538ceb22bb7225d6cea71d0d759f57c8",
     "player_tuning.py": "b43cc6553d0ce6057d0a9f6d2f6e5f1ae914947a4f6ff441f0eab30ce04edc1e",
     "innate_skill_labels.json": "37210205d333cf39bff7e3de0691ab4fad52f7b3c7756640f417ddd01067bed0",
-    "noodle_hair.py": "e410eb2243f1e52c6c2b61b453848c7fdf9c43529e497f9f4af5413a03883c9a",
+    "noodle_hair.py": "18d9e8d93d9efbfa7566cd25d7e8dc308252bc22991efbb85c6e985dc35eff7b",
     "appearance_choices.py": "0aaf4986988660bceb9fac4d37a356e6bef69d411822f3ebf9a413fb63b57440",
     "body_defaults.zlib": "260e9132a34f28102601f25bf02ecc7578cc6b5bc230b71d44a0f622f2abecc5",
     "celebration_choices.json": "0e5d8eeceb4172c54271cfc687639c61577c03b695858f3188ac881344e786a1",
     "level100.py": "d3f668e12cb17393438ee2cdb5b2cf8e7405c02767a3e5cbfe4d5894c13422c1",
-    "private_bundles.py": "25533fb0be1c9f60feefe0755ec676b4d242267ff2fc53dbf67260f57846ef49",
-    "private_bundles.json": "fe3c1e90d3d20e741684bd23e424f8428d63748248e74b0d6e98b370b9c61ede",
+    "private_bundles.py": "e434943ef6bcbb1c837590f2ba63725eefce62871c99182caf7728a6622c14c9",
+    "private_bundles.json": "bdd9045638d151bb5551767719691b26b4bf2fd098c9785e3cc2c47aabc1bf08",
     "native_skin_previews.json": "23846b9a6b8179a494cf8f5c8eafcfa6a0a1831fd420b2ef526f951d598dfdec",
     "editor_names.py": "6685f85aac0e52c96b1881bcc87e506e3717d4fe5f9dd75d93337e2a0063b7f7",
     "appearance_gear.py": "29483f16d2fe045945d1b557f61cfed25e0bbd744cc091e6f4c579e7ed3d36e8",
@@ -98,7 +98,7 @@
     "myleague_realism.py": "ea51144f45871ab1b05673956131824fba1b6f43fa4ab0b24f18704d05eae964",
     "photo_codec.py": "512397bee61531bf28873584d6ce2d23aad9f04be63a062ad0a9773e4f4b68fe",
     "photo_editor.py": "c55b5d4be82e0d0cf63ac0ab39878dc1728b552f0eb4993cbd370bfb9bb3b779",
-    "libnoodle_hair.so": "0b98d80158400fcd15ea5792cd844b0d30acf237237203da7a7de23838363ac5",
+    "libnoodle_hair.so": "c2d8c2718be472e6e688694000c6ba1aee3dba449695868baa17189d098a2c3d",
     "physical_runtime.py": "1347e34fc28be2f110b966f712739e27e8fa5f0461370e9a3f698a293dabb64e",
     "mod_integrity.py": "2b27df9bf1ec8cd4f554a53d74ce32f5fc8a676626ee1b7d05ce4414d1e65dc3",
     "team_kits.py": "7090d8a414930ae996c7ba99beeeb6f0a12204efa1791b250c9fee5244d14e1d",
@@ -132,20 +132,20 @@
     "full2_cards.py": "4e275b0ebfacaf51ef4e74fcfa5931e7a5121db0a809d162e5234cfb69cf631b",
     "full2-card-copies.json": "2a8ded694bc46af000026e6e40d45e70dbd338c3e5ed77eeda2f1b69e3ef9172",
     "full4_trace.py": "108b69d01fe57ec89607647fc833a31128c52bd5a14c770668f955e76543dfa0",
-    "transfer_player_editor.py": "51c8429a9ff934fff40ed9f35b2e0c29fd2ad8548d01ac6e8a8c98db2e233f5a",
+    "transfer_player_editor.py": "7394d456617d840d55b1040221f8b01c845d13ae396cdb0d120d873d4d8354c0",
     "myleague_condition.py": "518c9a9a282934f747bd4de24ef5d81e5ece51560d1e0268f32df6ecabd16b1c",
     "myleague_condition.json": "3fa7a204c6ce49ed61b8eb6e64144f1e2b23b910a0fef36e4e95775857ebcdc9",
     "bandage_runtime.py": "1483704dec3344cdaba33be4578652c7ea35a31be7200f641cced4d11f930446",
-    "single_player_runtime.py": "3fc27dc012dc45e3a65a143fdabe756b32a3061b6b60fd673bcf6b5769d5894f",
-    "libsingle_player.so": "db7235a3debbd52a04976523ee1d2d144d5d906ce35a8568c74eff05e9771c78",
+    "single_player_runtime.py": "1ac8ee2d9572bbf267291da39c43db93eca0cde3987b4d1858b3ab9093ff00a5",
+    "libsingle_player.so": "df5a8d88c817e964833e4b66fc7a06239fcfb25521dc72d2c0c96c8bcf1b3a75",
     "libcached_lookup.so": "efd0bfb467290ae4e607e690317446b31af355da8c876e93ddb4d2996ade725a",
     "cached_lookup_runtime.py": "1bcb74e8b5e577297fe1ec36e768219659ea4202ab6a1fa4d2aa40442e3940e8",
     "single_player_lookup_runtime.py": "0674cf1945adc4a99158a80901fa66212df923913a53df24d15b05bb49a5cecc",
-    "libtactics_bridge.so": "a10411ad99a77f733db3a3794d08f35f216d6f9f902575feb33005958d07fe74",
-    "tactics_bridge_runtime.py": "3c16e70ae6b4cf85357d65bf6cce44e5ccafcdae55d8905cd1f21b6b57b3fe49",
-    "transfer_traits.py": "31d0bf8ff4a078a2050b251d3b0cb231c0bc7ce543c7a58b952d64b94f4cbf37"
+    "libtactics_bridge.so": "ca58deb61a20425383d060cc4b2f036b3348b3fb938ad48cd36af386dcc77ca0",
+    "tactics_bridge_runtime.py": "5c2d13fb6206e765d759c9398050cacccf3cde8687e1af04f7d7cef2dd336d3a",
+    "transfer_traits.py": "9834613816a9de60b2c39e1febbebac248dd7bc417ea1168d8f74eb8226157f2"
   },
-  "appearance_overlay_sha256": "303c566c20e63257d01fc001b2ebefd97b3e40fb4cc21aa0fe3addd89ead82c9",
+  "appearance_overlay_sha256": "3a00cd5d95b0b34aaba1cb80e845d6ed852cb445829a493b70a5ce9371c17f64",
   "phone_tested": false,
   "replay_verified": false,
   "retarget": "named Android eye/jaw/eyelid controls, reduced PC facial rig; not all PC expressions",
@@ -196,7 +196,7 @@
   "new_three_faces": {
     "106782819217056": "NSV1",
     "88035555413452": "NSM1",
-    "89138556572074": "RV8B"
+    "89138556572074": "RV8C"
   },
   "Vol9_included": false,
   "joker_profile": {
@@ -210,16 +210,18 @@
   },
   "ronaldo2027_profile": {
     "target": "89138556572074",
-    "profile": "RV8B",
+    "profile": "RV8C",
     "face": "uploaded Cristiano Ronaldo Face V8 PC skin",
-    "hair": "V8 source geometry; UV1 colour + UV0 alpha rebaked for native shader, HV8B",
+    "hair": "V8 unchanged geometry/UV colour-alpha conversion, HV8C",
     "body_bind_pose": "byte-exact native4522",
     "LOD0": "real inline jaw/eye/eyelid weighted V8 skin",
     "LOD1": "genuine native4522 skin with native153 RequiredBones",
     "MinLod": 0,
     "source_PC_skeleton_imported": false,
     "phone_verified": false,
-    "eyes_and_oral": "separate native4522 material slot2, original native UV"
+    "eyes_and_oral": "original native4522 eye/oral geometry and UV, facial pivots preserved",
+    "skin_alpha": "native opaque alpha255; PC gloss alpha not reused",
+    "ocular_surround": "fitted onto native4522 surface, facial weights retained"
   },
   "full6_payload": {
     "source_archive_runtime_copied": false,

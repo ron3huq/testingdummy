@@ -9,8 +9,14 @@ def read(c):
 
 def validate(values):
  import stat_editor,appearance_choices,appearance_gear
- if not isinstance(values,dict)or set(values)-{'parameters','celebrations','accessories','accessory_colors','sleeve','bandage_left','bandage_right','skills','boosters'}:raise ValueError('Invalid Transfer player fields')
+ if not isinstance(values,dict)or set(values)-{'parameters','celebrations','accessories','accessory_colors','sleeve','bandage_left','bandage_right','skills','boosters','foot','positions'}:raise ValueError('Invalid Transfer player fields')
  if 'parameters'in values:stat_editor.validate(values['parameters'])
+ if 'foot'in values:
+  f=values['foot']
+  if not isinstance(f,dict)or set(f)-{'42','43','45'}or any(type(v)is not int or not 0<=v<=(1 if k=='43'else 3)for k,v in f.items()):raise ValueError('Invalid dominant/weak foot fields')
+ if 'positions'in values:
+  f=values['positions']
+  if not isinstance(f,dict)or any(k not in {str(i)for i in range(14)}or type(v)is not int or not 0<=v<=(12 if k=='0'else 2)for k,v in f.items()):raise ValueError('Invalid native position proficiency')
  if 'skills'in values:__import__('player_tuning').validate_skills(values['skills'])
  if 'boosters'in values:__import__('editor_boosters').validate(values['boosters'],[0,0,0],three_slots=True)
  if 'celebrations'in values:
@@ -26,6 +32,8 @@ def inject(cfg,data):
   row=next((r for r in cfg['players']if r['id']==pid and r['competition']==int(cid)),None)
   if row is None:row={'id':pid,'competition':int(cid),'sleeve':'none','parameters':{}};cfg['players'].append(row)
   row['parameters'].update(v.get('parameters',{}));row['parameters'].update(v.get('celebrations',{}))
+  row['parameters'].update(v.get('foot',{}))
+  if 'positions'in v:row['position_parameters']=dict(row.get('position_parameters',{}),**v['positions'])
   if 'skills'in v:
    row['ui77_innate']=True;row['parameters'].update({str(flag):int(i in v['skills'])for i,flag in enumerate(editor.FLAGS)})
   if 'boosters'in v:row['boosters']=list(v['boosters'])

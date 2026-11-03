@@ -13,6 +13,7 @@ from single_player_runtime import HOOKS as _SINGLE_HOOKS
 PLANS.update({entry:prologue.hex()for entry,prologue,_,_ in _SINGLE_HOOKS})
 PLANS[0x72f2de0]='fd7bbea9f30b00f9fd030091f30300aa'
 PLANS.update({0x72f2de0:'fd7bbea9f30b00f9fd030091f30300aa',0x8294a5c:'280040b9093a82520a3180520900098b',0x8294a7c:'ff4301d1fd7b02a9f65703a9f44f04a9'})
+PLANS[0x73a9ba4]='fd7bbca9fc5f01a9f65702a9f44f03a9'
 SLOT=88;RETURN=32
 
 def branch(source,target):

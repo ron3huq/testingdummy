@@ -1,0 +1,34 @@
+[
+  {
+    "native4522_eye_oral_positions_and_UV_byte_exact": true,
+    "variant": "base",
+    "actual_compressed_diffuse_alpha_min": 255,
+    "native_opaque_skin_alpha": true,
+    "mean_skin_RGB": 91.3724365234375,
+    "phone_render_not_executed": true
+  },
+  {
+    "native4522_eye_oral_positions_and_UV_byte_exact": true,
+    "variant": "ep00v0313",
+    "actual_compressed_diffuse_alpha_min": 255,
+    "native_opaque_skin_alpha": true,
+    "mean_skin_RGB": 91.3724365234375,
+    "phone_render_not_executed": true
+  },
+  {
+    "native4522_eye_oral_positions_and_UV_byte_exact": true,
+    "variant": "ep01v0291",
+    "actual_compressed_diffuse_alpha_min": 255,
+    "native_opaque_skin_alpha": true,
+    "mean_skin_RGB": 91.3724365234375,
+    "phone_render_not_executed": true
+  },
+  {
+    "native4522_eye_oral_positions_and_UV_byte_exact": true,
+    "variant": "lg00v0000",
+    "actual_compressed_diffuse_alpha_min": 255,
+    "native_opaque_skin_alpha": true,
+    "mean_skin_RGB": 91.3724365234375,
+    "phone_render_not_executed": true
+  }
+]

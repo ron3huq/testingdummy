@@ -145,7 +145,7 @@ def require_ready(timeout=15):
         time.sleep(.05)
 
 ENGINE_SHA='efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8'
-HOOK_SHA='db7235a3debbd52a04976523ee1d2d144d5d906ce35a8568c74eff05e9771c78'
+HOOK_SHA='df5a8d88c817e964833e4b66fc7a06239fcfb25521dc72d2c0c96c8bcf1b3a75'
 HOOKS=(
     (0x6b53180,bytes.fromhex('ffc304d1e86300fdfd7b0da9fc6f0ea9'),'single_update','configure_single_update'),
     (0x6b52b0c,bytes.fromhex('fd7bbea9f44f01a9fd030091f40300aa'),'single_ctor','configure_single_ctor'),

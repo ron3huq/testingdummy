@@ -1,12 +1,12 @@
 {
-  "version": "V19.1-FULL8-RC2-HF1-manifest-install-repair",
-  "resource_revision": 19008,
+  "version": "V19.1-FULL8-RC3-manual-control-native-eyes-foot-positions",
+  "resource_revision": 19009,
   "phone_verified": false,
   "files": [
     {
       "path": "README-VI.md",
-      "bytes": 7252,
-      "sha256": "2cbb71c743c853d2bebb2cf7ca0251a6b13d0e1d6685cb1660cc219b771e7504"
+      "bytes": 5501,
+      "sha256": "36ec533e805536175c7853d4012307fc8ffc5e30b88ca91020951db9c6ff2260"
     },
     {
       "path": "RESEARCH-VI.md",
@@ -3819,14 +3819,74 @@
       "sha256": "d6a16240d13cb67976c9d6dc2da6ce2b2b3fa752f56b6013deebb1baddfdf212"
     },
     {
+      "path": "assets/gateway-release/livedata/pc9336_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9336_mobile_and.ucas",
+      "bytes": 5982974,
+      "sha256": "82fd02ea1d50c7873774bed989ddb5cfbf55812f2e9f65cd120e976c58c8c961"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9336_mobile_and.utoc",
+      "bytes": 4544,
+      "sha256": "7e90741d3d1bf162c17b8fd85d7e41298ef3a4537b335bab41716bfe837245ec"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9337_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9337_mobile_and.ucas",
+      "bytes": 3765714,
+      "sha256": "566a0ea1ed0036a1eed6df8675e76a056a2999f3bfc2e80e1bc751e72abe37fb"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9337_mobile_and.utoc",
+      "bytes": 3176,
+      "sha256": "edb8c67bb2eb94c29de05838cf5ab0c9f03d4b305be5364ef7e355caf6581755"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9338_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9338_mobile_and.ucas",
+      "bytes": 3764020,
+      "sha256": "365ad8aad29c8d5ce90b6b0d8da7e881df531392e9875c22dbd4f18a38ba6285"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9338_mobile_and.utoc",
+      "bytes": 3176,
+      "sha256": "9ed6d1cdb827a8b1ad5b4dac0c52baa51b385b9b1f5430a5766f9df57540afa0"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9339_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0ecfadadf50bfd5fc0e90c06ee5102037d8107b250bf12f3f59d2a13ee40bbdf"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9339_mobile_and.ucas",
+      "bytes": 3756454,
+      "sha256": "eed327a8140a2baa101057d656194fa00c9e1e00a6178495611e28bd3af5148e"
+    },
+    {
+      "path": "assets/gateway-release/livedata/pc9339_mobile_and.utoc",
+      "bytes": 3174,
+      "sha256": "134b6cce75879e5296db20c9e4bf74b40e205037b11fc08530ad1af0f331bd5f"
+    },
+    {
       "path": "assets/gateway-release/release-manifest.json",
-      "bytes": 1403898,
-      "sha256": "c509aa9fffcc7e00222608824c8eb04b8f8944b665b7a82b058583050bfab4c1"
+      "bytes": 1405909,
+      "sha256": "d79acde2d5ca7d8303b1415d6c3be689d64e47a9440095681864f8d82d469c34"
     },
     {
       "path": "assets/gateway-release/ui6-runtime-manifest.json",
-      "bytes": 27631,
-      "sha256": "8ca127eee6654d7f2c1b5dd985fce05a32ff8fd7a64f9cffcdb4fed887f6a59a"
+      "bytes": 29642,
+      "sha256": "10ae48fb412f2ee462cf13d4a4169dfb561cb99cfb610c056b059c680adbfdc8"
     },
     {
       "path": "assets/gateway-release/work/tools/appearance_choices.py",
@@ -3920,8 +3980,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/hook_arena.py",
-      "bytes": 10339,
-      "sha256": "588314ffa66c615c37aefad2f4dc6247e910265688ae78671efb140cb65b6980"
+      "bytes": 10391,
+      "sha256": "0230f8e82428a7221c20a0421b511e1cbf47ffe02c20518c7c4a41d405ecc9af"
     },
     {
       "path": "assets/gateway-release/work/tools/innate_skill_labels.json",
@@ -3951,7 +4011,7 @@
     {
       "path": "assets/gateway-release/work/tools/libnoodle_hair.so",
       "bytes": 199968,
-      "sha256": "0b98d80158400fcd15ea5792cd844b0d30acf237237203da7a7de23838363ac5"
+      "sha256": "c2d8c2718be472e6e688694000c6ba1aee3dba449695868baa17189d098a2c3d"
     },
     {
       "path": "assets/gateway-release/work/tools/libselect_team.so",
@@ -3961,12 +4021,12 @@
     {
       "path": "assets/gateway-release/work/tools/libsingle_player.so",
       "bytes": 47160,
-      "sha256": "db7235a3debbd52a04976523ee1d2d144d5d906ce35a8568c74eff05e9771c78"
+      "sha256": "df5a8d88c817e964833e4b66fc7a06239fcfb25521dc72d2c0c96c8bcf1b3a75"
     },
     {
       "path": "assets/gateway-release/work/tools/libtactics_bridge.so",
-      "bytes": 13944,
-      "sha256": "a10411ad99a77f733db3a3794d08f35f216d6f9f902575feb33005958d07fe74"
+      "bytes": 17384,
+      "sha256": "ca58deb61a20425383d060cc4b2f036b3348b3fb938ad48cd36af386dcc77ca0"
     },
     {
       "path": "assets/gateway-release/work/tools/live_snapshot.py",
@@ -4055,8 +4115,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/myleague_editor_runtime.py",
-      "bytes": 12870,
-      "sha256": "303c566c20e63257d01fc001b2ebefd97b3e40fb4cc21aa0fe3addd89ead82c9"
+      "bytes": 13063,
+      "sha256": "3a00cd5d95b0b34aaba1cb80e845d6ed852cb445829a493b70a5ce9371c17f64"
     },
     {
       "path": "assets/gateway-release/work/tools/myleague_packs.py",
@@ -4090,8 +4150,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_bundle.json",
-      "bytes": 13342,
-      "sha256": "1579b1d9b39ec9a4dafe2d98a4b4a24d07dcd9b7073e03be0e1bdc267c5628a8"
+      "bytes": 13490,
+      "sha256": "c4319a8f1e3b6af02146a9780f290df109dde247c50e5a49ff581e06295c42d5"
     },
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.json",
@@ -4101,7 +4161,7 @@
     {
       "path": "assets/gateway-release/work/tools/noodle_hair.py",
       "bytes": 20684,
-      "sha256": "e410eb2243f1e52c6c2b61b453848c7fdf9c43529e497f9f4af5413a03883c9a"
+      "sha256": "18d9e8d93d9efbfa7566cd25d7e8dc308252bc22991efbb85c6e985dc35eff7b"
     },
     {
       "path": "assets/gateway-release/work/tools/photo_codec.py",
@@ -4140,13 +4200,13 @@
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.json",
-      "bytes": 9966,
-      "sha256": "fe3c1e90d3d20e741684bd23e424f8428d63748248e74b0d6e98b370b9c61ede"
+      "bytes": 11674,
+      "sha256": "bdd9045638d151bb5551767719691b26b4bf2fd098c9785e3cc2c47aabc1bf08"
     },
     {
       "path": "assets/gateway-release/work/tools/private_bundles.py",
-      "bytes": 2529,
-      "sha256": "25533fb0be1c9f60feefe0755ec676b4d242267ff2fc53dbf67260f57846ef49"
+      "bytes": 2569,
+      "sha256": "e434943ef6bcbb1c837590f2ba63725eefce62871c99182caf7728a6622c14c9"
     },
     {
       "path": "assets/gateway-release/work/tools/profile_editor.py",
@@ -4160,8 +4220,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/select_team_runtime.py",
-      "bytes": 27315,
-      "sha256": "590bb6d8b91e8ce1d5556939524c19de498b6fca0e7b8e998144743e41809a5c"
+      "bytes": 27518,
+      "sha256": "7523467754bb250807870ec1cccbc80f9860f9a8a5bfec0ae709c8de1d15b5df"
     },
     {
       "path": "assets/gateway-release/work/tools/single_player_lookup_runtime.py",
@@ -4171,7 +4231,7 @@
     {
       "path": "assets/gateway-release/work/tools/single_player_runtime.py",
       "bytes": 9669,
-      "sha256": "3fc27dc012dc45e3a65a143fdabe756b32a3061b6b60fd673bcf6b5769d5894f"
+      "sha256": "1ac8ee2d9572bbf267291da39c43db93eca0cde3987b4d1858b3ab9093ff00a5"
     },
     {
       "path": "assets/gateway-release/work/tools/stat_editor.py",
@@ -4180,8 +4240,8 @@
     },
     {
       "path": "assets/gateway-release/work/tools/tactics_bridge_runtime.py",
-      "bytes": 3134,
-      "sha256": "3c16e70ae6b4cf85357d65bf6cce44e5ccafcdae55d8905cd1f21b6b57b3fe49"
+      "bytes": 4378,
+      "sha256": "5c2d13fb6206e765d759c9398050cacccf3cde8687e1af04f7d7cef2dd336d3a"
     },
     {
       "path": "assets/gateway-release/work/tools/team_kits.py",
@@ -4200,13 +4260,13 @@
     },
     {
       "path": "assets/gateway-release/work/tools/transfer_player_editor.py",
-      "bytes": 5093,
-      "sha256": "51c8429a9ff934fff40ed9f35b2e0c29fd2ad8548d01ac6e8a8c98db2e233f5a"
+      "bytes": 5740,
+      "sha256": "7394d456617d840d55b1040221f8b01c845d13ae396cdb0d120d873d4d8354c0"
     },
     {
       "path": "assets/gateway-release/work/tools/transfer_traits.py",
-      "bytes": 1949,
-      "sha256": "31d0bf8ff4a078a2050b251d3b0cb231c0bc7ce543c7a58b952d64b94f4cbf37"
+      "bytes": 2176,
+      "sha256": "9834613816a9de60b2c39e1febbebac248dd7bc417ea1168d8f74eb8226157f2"
     },
     {
       "path": "assets/gateway-release/work/tools/ui2_skill_rules.json",
@@ -4420,8 +4480,8 @@
     },
     {
       "path": "classes5.dex",
-      "bytes": 660916,
-      "sha256": "f3bbdfe5e690751e6fe93748a7fdee652d682de9bf166f724823761d54d741a4"
+      "bytes": 667108,
+      "sha256": "09a747a22ac463b4cef913b49fe790a231e8908490d6ae8b5197ffa303681123"
     },
     {
       "path": "source/repair-candidate1/PrivateTools.smali",
@@ -4557,6 +4617,91 @@
       "path": "source/repair-full8-rc2-hf1/installer-harness/org/efootballrevival/runtimeprobe/ModPayloadRepair.java",
       "bytes": 3650,
       "sha256": "935bb539dcbb304c029cca3fddf8bb8bbc74973ccff38e24aa23722e31646791"
+    },
+    {
+      "path": "source/repair-full8-rc3/AI-LEVELS-VI.md",
+      "bytes": 4226,
+      "sha256": "6fcebde0792aea71caebd08f0cf9f72571772aa3c09254237ff7f7036afb82b9"
+    },
+    {
+      "path": "source/repair-full8-rc3/PES2021-CONTROL-VI.md",
+      "bytes": 1710,
+      "sha256": "503122d840b94a03b28f5b0209972d657866872264b0f4cfab9c26d877e56c54"
+    },
+    {
+      "path": "source/repair-full8-rc3/SinglePlayerInMatch.java",
+      "bytes": 4409,
+      "sha256": "bf5ac273e92d3089f50952e12606e728ed7b1239502afec658cc443b0cdca239"
+    },
+    {
+      "path": "source/repair-full8-rc3/TransferFootEditor.java",
+      "bytes": 3333,
+      "sha256": "a6cf0cb579b7e4957faf4712faecd1c2155749404b68087cfb7f7480b5f00763"
+    },
+    {
+      "path": "source/repair-full8-rc3/TransferTraitsEditor.java",
+      "bytes": 5642,
+      "sha256": "be2e233cd5465ea628e5c7b100e39a52d64e07933095dcb2c26fcd6ee36ed665"
+    },
+    {
+      "path": "source/repair-full8-rc3/face_build.py",
+      "bytes": 20266,
+      "sha256": "78118355c9412d47e56e2c2cfdb08fa870bceeb2fb62e33e713cec91992df2c7"
+    },
+    {
+      "path": "source/repair-full8-rc3/face_verify.py",
+      "bytes": 3223,
+      "sha256": "0db270fa6ec20c355f80e9d18912bf4f3a01412b0684205d1381757d1bb6070b"
+    },
+    {
+      "path": "source/repair-full8-rc3/face_verify_materials.py",
+      "bytes": 1966,
+      "sha256": "9ee2c438da9f057da64dd21b228891fa4a73626f3463312fe6aa19eb28d70eee"
+    },
+    {
+      "path": "source/repair-full8-rc3/patch_single.py",
+      "bytes": 761,
+      "sha256": "924de872defbb76640b23b39091b4889994de1a48f68694a85671dd98c5fef42"
+    },
+    {
+      "path": "source/repair-full8-rc3/tactics_bridge.c",
+      "bytes": 7504,
+      "sha256": "bec70b82c1f564c6bb1a01a72e673ca9269b8bf8c68aa6ce1a549bd6583fcdf6"
+    },
+    {
+      "path": "source/repair-full8-rc3/test_ai_levels.py",
+      "bytes": 2134,
+      "sha256": "3ae9c8818db8d909f7f40cb5f1ed4d903563de3365b1fdc8302a8b0f344d7aaf"
+    },
+    {
+      "path": "source/repair-full8-rc3/test_control_entry.py",
+      "bytes": 3081,
+      "sha256": "ab0ce18a1c060972b74a87490b03f9778dfcb7d91ddeede3f771fb948e1bebbf"
+    },
+    {
+      "path": "source/repair-full8-rc3/test_cpu_probe.py",
+      "bytes": 1585,
+      "sha256": "e9e18079dfe47d75e32e4d22815084a30c77b0e1616f305c21511e07e3454022"
+    },
+    {
+      "path": "source/repair-full8-rc3/test_native_cpu_level.py",
+      "bytes": 1138,
+      "sha256": "d657e2d5fdfa3eccc53e20fe5017c2d64ad250a122aad681113828e048bc0efe"
+    },
+    {
+      "path": "source/repair-full8-rc3/test_runtime.py",
+      "bytes": 4721,
+      "sha256": "e10e206231fe71fe54d87a9584ad8311233bec52d2e61ddad55051bb2de79fe9"
+    },
+    {
+      "path": "source/repair-full8-rc3/test_tactics_cache.py",
+      "bytes": 5099,
+      "sha256": "ca8c883f29805eaca3007612fe0f8ba49c168c3bb481681d649e936ce02df39d"
+    },
+    {
+      "path": "source/repair-full8-rc3/test_traits_native.py",
+      "bytes": 5223,
+      "sha256": "5fdeee43d1c7d3f6ae1cb1f3eb22a52c602a01811b00e883d39c5d2a9d0b5813"
     },
     {
       "path": "validation/candidate1-launcher-validation.json",
@@ -5397,6 +5542,66 @@
       "path": "validation/full8-rc2-tactics-cache-validation.json",
       "bytes": 302,
       "sha256": "429846d8a2c6b431c10d439b3312922b15be58857813a22f99cecc67661d9194"
+    },
+    {
+      "path": "validation/full8-rc3-ai-level-validation.json",
+      "bytes": 1925,
+      "sha256": "8ba6aca70acb5861a5f1ae7121cd253a89db9d56cc7542ebb6dc57b6410790d2"
+    },
+    {
+      "path": "validation/full8-rc3-asset-build.json",
+      "bytes": 3413,
+      "sha256": "b76f4480c847788a81090414f048971d070e4a5e226dfe591250fc3699305f2a"
+    },
+    {
+      "path": "validation/full8-rc3-containers.json",
+      "bytes": 191,
+      "sha256": "96e1b788dd581e1411b47170f8120ca310c2b186954b81d81be6420e0d452550"
+    },
+    {
+      "path": "validation/full8-rc3-control-entry-validation.json",
+      "bytes": 572,
+      "sha256": "2718d4fb22246f34a434e1d01ca3419a9c5de3944a0c81c3ac53d46b19ecf6a9"
+    },
+    {
+      "path": "validation/full8-rc3-cpu-observer-validation.json",
+      "bytes": 416,
+      "sha256": "e1a57940581c3a9ab9cd9df05bc628f955c68109735c7b1e12772f649c77ac5d"
+    },
+    {
+      "path": "validation/full8-rc3-geometry-validation.json",
+      "bytes": 2385,
+      "sha256": "8f29f42fb5c3f3add986d5e4d2cd147b76a81c223cee3edb97ba54c8d26e8115"
+    },
+    {
+      "path": "validation/full8-rc3-installer-validation.json",
+      "bytes": 467,
+      "sha256": "cbd2578f10f3ef789e2b5377c2ae49d63786064bbb520c5f6ca1642bb33bfe49"
+    },
+    {
+      "path": "validation/full8-rc3-material-validation.json",
+      "bytes": 1041,
+      "sha256": "641f7f2b8c18dd6edffacaea3f3e5cc0acfedf1cff898e5e3f9b563ea13fee9e"
+    },
+    {
+      "path": "validation/full8-rc3-native-cpu-level-validation.json",
+      "bytes": 1270,
+      "sha256": "2b6f66fd6104c40edeb3ed2740e26e025df032db88fd01378bc855844053ea1c"
+    },
+    {
+      "path": "validation/full8-rc3-runtime-validation.json",
+      "bytes": 476,
+      "sha256": "5405382fa163c75b22e182516c3f1a01d9c3e5838edcefad1dfd6114e20d5e0b"
+    },
+    {
+      "path": "validation/full8-rc3-tactics-cache-validation.json",
+      "bytes": 302,
+      "sha256": "429846d8a2c6b431c10d439b3312922b15be58857813a22f99cecc67661d9194"
+    },
+    {
+      "path": "validation/full8-rc3-traits-native-validation.json",
+      "bytes": 440,
+      "sha256": "25eb68ef3482395d8cf78da9f285393c3cbc23432d51d0d5881276dca61a1e6e"
     },
     {
       "path": "validation/full8-single-config-validation.json",

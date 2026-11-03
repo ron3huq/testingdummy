@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "full_fixed_action_reasserts_selection_after_all_11_native_cursor_changes": true,
+  "full_restore_executed_with_original_engine_global_context_validation": true,
+  "previous_entry_reproduces_no_change_with_AI_off": true,
+  "full_control_entry_executed_not_stopped_at_boundary": true,
+  "actual_engine_controller_mode_set_to_fixed": true,
+  "actual_engine_current_and_selected_player_set_to7": true,
+  "actual_engine_match_controller_slot_set_to3": true,
+  "AI_original_flag_off": true,
+  "frame_synthetic": true,
+  "actual_phone_not_executed": true
+}

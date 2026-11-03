@@ -1,51 +1,35 @@
-# FULL-8 RC2 HF1 · sửa lỗi cài đặt trong ảnh
+# FULL-8 RC3 · APK73 · nền FULL-7
 
-Bản FULL tích lũy trên nền FULL-7/APK73, nối tiếp RC2 86b01343. **Dùng bản này thay RC2.**
+Gói FULL tích lũy tiếp nối HF1 a7ad1171, resource revision19009. Giữ sửa manifest thiếu cache của HF1. **RC3 chưa được kiểm chứng trên điện thoại.**
 
-Nguyên nhân đã tái hiện: trình đóng gói RC2 ghi 18 file __pycache__ vào hai manifest rồi xóa các file đó trước khi xuất gói. Launcher cố mở appearance_choices.cpython-312.pyc không tồn tại và chặn chuẩn bị game, Single Player và Transfer. HF1 bỏ các yêu cầu dành cho cache sinh tự động, vẫn giữ kiểm tra size/SHA256 cho toàn bộ166 tài nguyên runtime thật; không thêm file cache để né lỗi.
+## Single Player và nút xanh
 
-Không xóa save hoặc DB, không cần gỡ ứng dụng. Ghép toàn bộ assets/ và classes5.dex vào APK73 nền đúng, ký bằng khóa đang dùng. Sau cập nhật mở lại app; nếu còn thông báo cũ, dùng Check & Repair Resources. Đây là payload FULL, không phải APK đã ký.
+Đã xem video: chọn Ronaldo89138556572074 đang trên sân, nút1P ON nhưng cursor vẫn chuyển giữa Nuno Mendes, Dembélé, Stam. Nguyên nhân mã tái hiện được: RC2 chỉ bỏ gate AI tại tick0x112d4; hàm nhận điều khiển vẫn trả về ở gate0x120e8 khi AI tắt. RC3 bỏ thêm gate thứ hai, giữ kiểm tra ownership/pause/replay và restore. Không bắt buộc bật AI xanh.
 
-Resource revision19008, manifest/inventory/checksum cập nhật. Native libraries, face/tóc, assets accessories, logic Transfer và Single Player giữ nguyên RC2. Bản này sửa lỗi cài đặt, không chứng minh các tính năng trong trận đã hoạt động trên điện thoại. Kiểm tra installer được chạy bằng Java với AssetManager thay thế trên máy chủ; không phải test điện thoại.
+Trong trận chạm1P bật/tắt, nhấn giữ chọn cầu thủ đội hình hiện tại. Nút **xanh / 1P ON** khi native báo đã áp dụng; **vàng / 1P WAIT** khi đã yêu cầu nhưng native chưa áp dụng; **xám / 1P OFF** khi tắt. Không còn dùng thông báo lưu thành công làm bằng chứng đã điều khiển được. Trạng thái đọc lại mỗi giây khi cửa sổ game có focus.
 
-Chi tiết thay đổi RC2 và các giới hạn còn mở được giữ bên dưới (revision19007 trong phần lịch sử là bản trước).
+Đã đối chiếu picker/control code PES2021: key/slot live theo side, loại cầu thủ ngoài sân. Không sao chép engine/thư viện PES cũ sang73. Kiểm tra mới chạy xuyên toàn bộ enter, fixed và restore ARM64, không dừng trước hàm enter như RC2; setter/getter engine73 gốc chạy trên cấu trúc tổng hợp. Đã kiểm tra ghi controller và khóa lại cùng người sau11 thay đổi con trỏ, rồi phục hồi trạng thái trước đó khi AI gốc tắt. Các trạng thái trận thật trên điện thoại vẫn cần kiểm chứng.
 
----
+## Transfer · Foot & Positions
 
-# APK73 V19.1 FULL-8 RC2 · tiếp tục FULL-7
+Giữ đội hình và vai trò mà người dùng đã xác nhận hoạt động. Menu cầu thủ Transfer có thêm **Foot & Positions** cạnh Abilities/Accessories/Celebration/Skills & Boosters: chân thuận, mức dùng chân yếu, độ chính xác chân yếu, vị trí chính và13 ô thông thạo vị trí. Mức thông thạo0=None,1=Partial,2=Full. Lưu trước Enter Game, áp dụng ở lần vào game sau.
 
-Gói FULL tích lũy mới, nền FULL-7 74a1cd81; nối tiếp RC1 1fb35a66. **Chưa xác nhận bản RC2 trên điện thoại.** Các kết quả dưới đây là kiểm tra mã, dữ liệu tổng hợp và thực thi ARM64/đọc tài nguyên độc lập; không phải cam kết mọi lỗi thực tế đã hết.
+Hồ sơ lưu theo full ID/giải như Transfer. Chân thuận/yếu qua native parameters43/42/45; vị trí chính/thông thạo qua native0..13 bằng helper riêng vì editor_parameter cũ từ chối0..13. Helper giữ ánh xạ cache/identity và đường GamePlan cũ. Kiểm tra lưu/mở lại và các trường thực trong native record đã qua; cầu thủ khác giữ nguyên, ra khỏi scope giải phục hồi vị trí gốc. Booster global/cid merge theo từng field. Không sửa mặc định toàn đội hay sửa save cá nhân trong gói.
 
-## Single Player
+## Ronaldo2027 →89138556572074
 
-Launcher có Single Player; chỉ tìm cầu thủ sở hữu đang được xếp trong đội hình chính hiện chọn (bao gồm dự bị), dùng đúng full ID và serial. Không liệt kê toàn bộ catalogue hoặc cầu thủ ngoài đội.
+Namespace mới RV8C/HV8C, containerspc9336..9339. Giữ V8 skin/hair. Chuyển kênh alpha diffuse PC sang alpha native255; không dùng PC gloss alpha như mask da UE. Texture nén đọc lại đã có alpha255 ở cả4biến thể. Đây là sửa định dạng material, không tô màu để che rig/cổ.
 
-Trong GameActivity có nút **1P** ở mép trên, cách phải 110dp: chạm để bật/tắt; nhấn giữ để chọn cầu thủ. Lần đầu chưa chọn sẽ mở danh sách. Không cần bật nút AI xanh. Cầu thủ phải đang trên sân để nhận điều khiển; không tự thay cầu thủ dự bị vào sân. Save ở launcher trước Enter Game, hoặc đổi trực tiếp bằng nút 1P trong trận.
+Thay cụm mắt/răng donor đã dịch vị trí bằng135vertex ocular/oral lấy trực tiếp native4522, giữ nguyên tọa độ/UV/tangent. Khớp vùng da quanh mắt với bề mặt4522; giữ bone mắt/hàm/mí riêng, không gom về head. Native material4522 riêng cho mắt/răng; tóc V8 giữ nguyên. Body hierarchy/bind pose nguyên native4522; lowLOD/UV native, MinLOD0, haiLOD thật; UEViewer đọc lại4biến thể và kiểm tra material/weights đã qua.
 
-Giữ slot hook tra cầu thủ đã khai báo trong RC1, bổ sung hai slot GamePlan và kiểm tra an toàn khi slot chưa tồn tại. Log 57 slot lịch sử không đủ chứng minh hook Single Player đã thiếu trên máy. Launcher thực tế đăng ký callback vòng đời để gắn nút trong GameActivity. Live API gọi native configure và lưu giao dịch, lỗi native sẽ rollback. Hooks cài sẵn ở trạng thái tắt để nhận công tắc trong trận. Module xuất phát từ bản 2e1ef197 đã sửa AI restore; chỉ bỏ một lệnh chặn fixed-player khi AI native tắt. Không dùng bản 60e8a5. Các nhánh pause/replay/transition/restore giữ nguyên; việc bật/tắt trên máy, đổi phía và qua trận mới vẫn cần kiểm chứng.
+Chưa có xác nhận điện thoại rằng mặt hết đen, mắt tự nhiên hoặc không xuyên ở mọi animation. Sửa alpha/geometry là thay đổi thực tế; kiểm tra offline không chứng minh renderer cuối trên máy.
 
-Đã nghiên cứu OnePlayerRouter và hai module trong PES.2021LordzGaming.apk trên releasee: picker thuộc đội/side/order, hook điều khiển riêng. Không chép engine hoặc thư viện PES2021 vào gói.
+## Nghiên cứu độ khó AI
 
-## Transfer
+Engine có7mức EMenuCpuLevel: VERYEASY, EASY, NORMAL, HARD, VERYHARD, HARDEST, LEGEND. Gateway ai_division.prepare gửi cpu_level theo hạng10→VERYEASY,9/8→EASY,7→NORMAL,6→HARD,5/4/3→VERYHARD,2→HARDEST,1→LEGEND. Công tắc AI điều khiển và phong độ cầu thủ là các trường khác. Đã chạy my_league.prepare với7mức và setter/getter ARM64 native0..6; thêm observer chỉ đọc mức GetCpuLevel do engine tự tính theo chế độ/sự kiện vào diagnostics. Có nhánh engine áp mức tối thiểu; cần khớp đúng trận để kết luận. Mô phỏng tỉ số nền chỉ dùng level trong seed, không chứng minh AI trên sân khó hơn. Chưa đo hành vi mỗi mức trên máy; bản này không ép/đổi độ khó. Chi tiết trong source/repair-full8-rc3/AI-LEVELS-VI.md.
 
-Sửa thêm hai accessor GamePlan cache trực tiếp: trước đó UI và DB đã sửa nhưng game đọc GamePlan gốc từ cached root. Bridge mới nối cache đó vào editor scoped, giữ nguyên bản GamePlan gốc dùng chung. Thực thi ARM64 engine gốc trên cache tổng hợp xác nhận thứ tự đội hình, vị trí và đội trưởng nhận đúng ID qua bản clone đã sửa. Giữ bridge phân biệt hai word key/pool từ RC1, giữ sửa không ép kit khi chỉ đổi đội hình.
+## Cài gói và giới hạn
 
-Thêm **Skills & Boosters** trong menu cầu thủ Transfer, cạnh Abilities/Accessories/Celebration IDs: thêm/bỏ 74 skill, ba ô booster có Off, cùng danh mục/giới hạn Player Editor. Lưu vào hồ sơ Transfer theo cầu thủ/giải, mở lại lấy overlay thực; skills đi qua native parameter flags, boosters ghi ba trường native144/145/146 vào đúng record. Ra khỏi scope giải sẽ phục hồi booster gốc. Booster có điều kiện vẫn cần điều kiện trong game. Kiểm tra lưu/mở lại/xóa và native ghi/khôi phục đã qua trên dữ liệu tổng hợp.
+Đây là payload FULL để ghép toàn bộ assets/ và classes5.dex vào APK73 đúng nền, ký bằng khóa đang dùng; không phải APK đã ký. Giữ dữ liệu ứng dụng/save. Không gỡ app hoặc xóa data để xử lý lỗi. Giữ CPK đăng nhập, kiểm tra integrity, accessories/bandage đã được xác nhận hoạt động, Spider V1 và Miles. Không thêm Ronaldo Vol9 đã hủy, DB/save người dùng, log/video riêng, RAR/APK nghiên cứu vào gói.
 
-**Giới hạn còn lại:** thêm một ID hoàn toàn chưa tồn tại trong pool roster cache vẫn có nhánh native từ chối; chưa chứng minh sửa trường hợp này. GamePlan thật, mọi vai trò/thay người và hiệu lực chỉ số trong My League trên điện thoại chưa được xác nhận bởi bản RC2.
-
-## Ronaldo V8 → 89138556572074
-
-Giữ mặt và tóc V8 theo lựa chọn mới, namespace RV8B/HV8B, bốn container mới pc9332..9335. Tách mắt/răng/khoang miệng sang material native4522 riêng, UV native; lớp bake da ở slot0 không còn ghi đè material mắt/răng. LOD thấp giữ UV/da native4522, sửa cả LODMaterialMap. Da V8 trỏ đúng material riêng thay vì HQR7 kế thừa.
-
-Tóc PC dùng UV0 cho alpha, UV1 cho màu; converter cũ lấy nhầm bản đồ alpha như màu. Bản này bake cả hai vào atlas native, giữ nguyên vị trí/normal/tam giác tóc, tách vertex ở UV seam cho từng tam giác sợi tóc. Không thay mesh cơ thể để sửa face.
-
-UEViewer đọc/xuất được cả hai LOD của bốn biến thể; xác nhận material/texture4522 và V8 thực được nạp. MinLOD0, LOD0 có dữ liệu thật, mắt/hàm dùng bone riêng, không gom về head. Hierarchy/bind pose cơ thể byte-exact native4522; weight lane trùng được cộng, tổng255; face không dùng bone tay. Đây chưa chứng minh không xuyên môi/cổ ở mọi animation, hoặc hình mắt/tóc cuối cùng trên điện thoại. Không cam kết tuyệt đối từ kiểm tra offline.
-
-## Accessories và cài gói
-
-Giữ đường accessories/bandage đang được người dùng xác nhận hoạt động, không thay tài nguyên pc9327 hoặc gộp scope với cắt tay áo. Giữ Spider V1 106782819217056, Miles88035555413452; không thêm Ronaldo Vol9 đã hủy.
-
-Chép toàn bộ assets/ và classes5.dex vào APK73 V19.1 nền đúng rồi ký bằng khóa đang dùng. Giữ dữ liệu ứng dụng; không xóa save. Đây là gói FULL tài nguyên/runtime để ghép APK73, không phải APK đã ký. Resource revision19007; checksum/manifests cập nhật, giữ nguyên CPK sửa đăng nhập và kiểm tra toàn vẹn. Không chứa save/DB người dùng, diagnostics riêng hoặc RAR/ZIP/APK nghiên cứu.
-
-Các validation/source từ FULL-7 và RC1 là lịch sử. Báo cáo lần này có tiền tố full8-rc2; mỗi báo cáo nêu phạm vi thực thi và phone_verified:false.
+Giới hạn còn mở từ bản trước: Transfer thêm ID hoàn toàn chưa có trong native roster pool còn có thể bị từ chối; mọi state Single Player/animation/renderer thực chưa được xác nhận trên điện thoại. Báo cáo cũ là lịch sử; validation lần này có tiền tố full8-rc3.

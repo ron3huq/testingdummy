@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "actual_original_engine_enum_normalizer_and_CPU_setter_getter_executed": true,
+  "levels": [
+    {
+      "native_event_setting_also_roundtrips": true,
+      "level": 0,
+      "name": "VERYEASY",
+      "actual_native_getter": 0
+    },
+    {
+      "native_event_setting_also_roundtrips": true,
+      "level": 1,
+      "name": "EASY",
+      "actual_native_getter": 1
+    },
+    {
+      "native_event_setting_also_roundtrips": true,
+      "level": 2,
+      "name": "NORMAL",
+      "actual_native_getter": 2
+    },
+    {
+      "native_event_setting_also_roundtrips": true,
+      "level": 3,
+      "name": "HARD",
+      "actual_native_getter": 3
+    },
+    {
+      "native_event_setting_also_roundtrips": true,
+      "level": 4,
+      "name": "VERYHARD",
+      "actual_native_getter": 4
+    },
+    {
+      "native_event_setting_also_roundtrips": true,
+      "level": 5,
+      "name": "HARDEST",
+      "actual_native_getter": 5
+    },
+    {
+      "native_event_setting_also_roundtrips": true,
+      "level": 6,
+      "name": "LEGEND",
+      "actual_native_getter": 6
+    }
+  ],
+  "invalid_native_enum_falls_back_to_NORMAL2": true,
+  "native_context_synthetic": true,
+  "does_not_prove_AI_decision_or_gameplay_difference": true,
+  "phone_verified": false
+}

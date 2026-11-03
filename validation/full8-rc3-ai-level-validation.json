@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "levels": [
+    {
+      "level": "VERYEASY",
+      "opponent_payload": "VERYEASY",
+      "persisted_season": "VERYEASY",
+      "event_win_points": 10,
+      "event_win_fans": 100
+    },
+    {
+      "level": "EASY",
+      "opponent_payload": "EASY",
+      "persisted_season": "EASY",
+      "event_win_points": 15,
+      "event_win_fans": 150
+    },
+    {
+      "level": "NORMAL",
+      "opponent_payload": "NORMAL",
+      "persisted_season": "NORMAL",
+      "event_win_points": 20,
+      "event_win_fans": 200
+    },
+    {
+      "level": "HARD",
+      "opponent_payload": "HARD",
+      "persisted_season": "HARD",
+      "event_win_points": 30,
+      "event_win_fans": 300
+    },
+    {
+      "level": "VERYHARD",
+      "opponent_payload": "VERYHARD",
+      "persisted_season": "VERYHARD",
+      "event_win_points": 40,
+      "event_win_fans": 400
+    },
+    {
+      "level": "HARDEST",
+      "opponent_payload": "HARDEST",
+      "persisted_season": "HARDEST",
+      "event_win_points": 50,
+      "event_win_fans": 500
+    },
+    {
+      "level": "LEGEND",
+      "opponent_payload": "LEGEND",
+      "persisted_season": "LEGEND",
+      "event_win_points": 60,
+      "event_win_fans": 600
+    }
+  ],
+  "my_league_prepare_real_function_executed": true,
+  "season_storage_boundary_mocked": true,
+  "missing_request_preserves_cached_level": true,
+  "invalid_level_rejected": true,
+  "event_rewards_actually_differ": true,
+  "background_simulation_scores": {
+    "VERYEASY": [
+      2,
+      3
+    ],
+    "EASY": [
+      1,
+      1
+    ],
+    "NORMAL": [
+      2,
+      0
+    ],
+    "HARD": [
+      1,
+      2
+    ],
+    "VERYHARD": [
+      3,
+      0
+    ],
+    "HARDEST": [
+      1,
+      1
+    ],
+    "LEGEND": [
+      2,
+      0
+    ]
+  },
+  "background_simulation_uses_level_in_seed_not_a_proven_harder_AI_curve": true,
+  "live_match_engine_difficulty_effect_not_executed": true,
+  "phone_verified": false
+}
