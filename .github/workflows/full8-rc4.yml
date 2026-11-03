@@ -1,0 +1,36 @@
+name: Build verified FULL8 RC4 download
+on:
+  push:
+    branches: [73-full8-rc4-build]
+    paths: ['.ci-full8-rc4/READY.json']
+permissions:
+  contents: read
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Assemble and verify complete payload
+        run: python .ci-full8-rc4/assemble.py
+      - name: Copy only the verified payload for download
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil,json
+          root=Path.cwd();out=root/'FULL8-RC4'
+          inventory=json.loads((root/'payload-inventory.json').read_text())
+          for name in ['payload-inventory.json']+[r['path']for r in inventory['files']]:
+              target=out/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(root/name,target)
+          PY
+      - name: Publish complete FULL download artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC4-complete-APK73
+          path: FULL8-RC4/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 6
