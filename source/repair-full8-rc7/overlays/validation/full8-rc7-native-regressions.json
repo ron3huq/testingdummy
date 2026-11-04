@@ -1,0 +1,15 @@
+{
+  "phone_verified": false,
+  "RC6_wrong_team_getter_reproduced": {
+    "active": 0,
+    "reason": 6,
+    "on_pitch": 4
+  },
+  "RC7_correct_global_scene_getter": true,
+  "both_sides_native_cursor_and_pause_disable_passed": true,
+  "RC6_dirty_padding_reproduced_stat_wanted40_actual79": true,
+  "RC7_dirty_padding_native_fields_match": true,
+  "unedited_Y17_peer_keeps_balance": true,
+  "other_league_no_exemption": true,
+  "targeted_native_skin_palette": 2
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "asset": "SK_RG28_Face",
+    "changed_lid_vertices": 477,
+    "max_lid_adjustment_cm": 0.11268072575330734,
+    "rigid_lower_oral_vertices": 150,
+    "unchanged_topology_UV_ref_pose_LODs_body_hair": true,
+    "no_texture_edit": true,
+    "phone_verified": false
+  },
+  {
+    "asset": "SK_RG28ep00v0313_Face",
+    "changed_lid_vertices": 477,
+    "max_lid_adjustment_cm": 0.11268072575330734,
+    "rigid_lower_oral_vertices": 150,
+    "unchanged_topology_UV_ref_pose_LODs_body_hair": true,
+    "no_texture_edit": true,
+    "phone_verified": false
+  },
+  {
+    "asset": "SK_RG28ep01v0291_Face",
+    "changed_lid_vertices": 477,
+    "max_lid_adjustment_cm": 0.11268072575330734,
+    "rigid_lower_oral_vertices": 150,
+    "unchanged_topology_UV_ref_pose_LODs_body_hair": true,
+    "no_texture_edit": true,
+    "phone_verified": false
+  },
+  {
+    "asset": "SK_RG28lg00v0000_Face",
+    "changed_lid_vertices": 477,
+    "max_lid_adjustment_cm": 0.11268072575330734,
+    "rigid_lower_oral_vertices": 150,
+    "unchanged_topology_UV_ref_pose_LODs_body_hair": true,
+    "no_texture_edit": true,
+    "phone_verified": false
+  }
+]
