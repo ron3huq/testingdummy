@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "public_input_commit": "3fec5449e49c603c3a7af344c223c3097d1984c3",
+  "complete_payload_source_rebuild_and_all_inventory_hashes_matched": true,
+  "runtime_assets_verified": 204,
+  "resource_revision": 19011,
+  "native_module_from_C_SHA256": "75a7cd724c3131bc799daaa23c3ecc2478598a9cc65b0a0e093e712434838281",
+  "DEX_from_public_baseline_plus_two_smali_UI_classes_SHA256": "8c6c72d6e53d2b7015d1ff49e5753fb933a6f097bf444b7155a765417b24a0c0",
+  "final_face_from_validated_V8_assets_and_explicit_vertex_weights": true,
+  "private_DB_or_save_inputs": 0,
+  "host_build_only": true,
+  "phone_verified": false,
+  "native_context_handoff_guard_validated": true
+}

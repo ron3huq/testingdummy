@@ -1,0 +1,18 @@
+from pathlib import Path
+import hashlib,json,sys
+R=Path('/workspace/work/full8-rc4');P=R/'payload';B=Path('/workspace/work/full8-rc3/payload');T=P/'assets/gateway-release/work/tools';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();sys.path[:0]=[str(T),'/workspace/73-v191-migration/decoded']
+import noodle_hair,single_player_runtime,single_player_live_runtime,hook_arena
+for m,n in [(noodle_hair,'libnoodle_hair.so'),(single_player_runtime,'libsingle_player.so'),(single_player_live_runtime,'libsingle_player_live.so')]:assert sha(T/n)==m.HOOK_SHA
+assert len(hook_arena.PLANS)==63
+D=R/'dex-roundtrip/org/efootballrevival/runtimeprobe'
+for n,s in [('LauncherWeb','CameraPanel;->install'),('CameraPanel','SinglePlayerInMatch;->attach'),('TransferPlayerEditor','TransferTraitsEditor;->menu'),('TransferTraitsEditor','TransferFootEditor;->open'),('SinglePlayerInMatch','ui7_single_player_live')]:
+ assert s in (D/(n+'.smali')).read_text(),(n,s)
+assert 'FULL-8 RC4'in(D/'RuntimeDiagnostics.smali').read_text()
+assert b'FULL-8 RC3'not in(P/'classes5.dex').read_bytes()
+assert '[XI]'in(D/'SinglePlayerInMatch.smali').read_text()
+for n in ['libselect_team.so','libcached_lookup.so','libtactics_bridge.so','transfer_editor.py','transfer_player_editor.py','transfer_traits.py','tactics_bridge_runtime.py','bandage_runtime.py','appearance_gear.py']:
+ assert sha(T/n)==sha(B/'assets/gateway-release/work/tools'/n),n
+for f in (P/'assets/gateway-release/livedata').glob('pc9327*'):assert sha(f)==sha(B/f.relative_to(P))
+assert sha(P/'assets/gateway-release/livedata/dt870_mobile_and.cpk')==sha(B/'assets/gateway-release/livedata/dt870_mobile_and.cpk')
+for r in json.loads((P/'payload-inventory.json').read_text())['files']:assert sha(P/r['path'])==r['sha256']
+print('PASS: integrity pins, 63 planned hooks, actual launcher/DEX route, preserved Transfer/accessories/login, inventory')

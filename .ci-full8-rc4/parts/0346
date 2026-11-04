@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "host_ARM64_fixture_only": true,
+  "phone_verified": false,
+  "real_native_scene_controller_roster_accessors": true,
+  "raw_key_both_words_preserved": true,
+  "roster_includes_bench_without_SQL_ownership_filter": true,
+  "all_11_cursor_switches_intercepted": true,
+  "other_controller_unchanged": true,
+  "bench_waits": true,
+  "pause_real_native_setter_and_resume": true,
+  "off_restores": true,
+  "legacy_test_not_used_as_evidence": true
+}

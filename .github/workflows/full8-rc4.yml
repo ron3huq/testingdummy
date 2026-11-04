@@ -9,12 +9,18 @@ jobs:
   assemble:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - name: Assemble and verify complete payload
-        run: python .ci-full8-rc4/assemble.py
+      - name: Install pinned public build tools in an isolated environment
+        run: |
+          python -m venv .ci-full8-rc4/venv
+          .ci-full8-rc4/venv/bin/python -m pip install --disable-pip-version-check ziglang==0.13.0 cityhash==0.4.10
+      - name: Assemble and verify complete payload from source
+        run: .ci-full8-rc4/venv/bin/python .ci-full8-rc4/assemble.py
       - name: Copy only the verified payload for download
         run: |
           python - <<'PY'

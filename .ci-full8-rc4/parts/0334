@@ -1,0 +1,16 @@
+// Host fixture: scripted auto-switch calls actual engine cursor accessors.
+// This is not the game's complete Update implementation or phone input.
+typedef unsigned long U;typedef unsigned int W;
+#define EX __attribute__((visibility("default")))
+static void* pad;static W observed[22],count;static U seen[6];
+EX void fixture_pad(void*p){pad=p;count=0;}
+EX void fixture_update(void*a,const void*b,const void*c,void*m,W s,float dt){
+ seen[0]=(U)a;seen[1]=(U)b;seen[2]=(U)c;seen[3]=(U)m;seen[4]=s;union{float f;W w;}v;v.f=dt;seen[5]=v.w;
+ for(W i=s*11;i<s*11+11;i++){
+ ((void(*)(void*,W))0x72de848)(pad,i);
+ ((void(*)(void*,W))0x6a520bc)(pad,i);
+ observed[i]=((W(*)(void*))0x6a4eb78)(pad);count++;
+ }
+}
+EX U fixture_seen(W i){return i<6?seen[i]:0;}
+EX W fixture_observed(W i){return i<22?observed[i]:255;}

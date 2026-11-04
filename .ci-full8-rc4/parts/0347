@@ -1,0 +1,150 @@
+[
+  {
+    "asset": "SK_RV8E_Face",
+    "native_facial_driver_weights_connected": {
+      "9": {
+        "vertices": 508,
+        "weighted_height_cm": 163.36747593106597
+      },
+      "16": {
+        "vertices": 413,
+        "weighted_height_cm": 165.45937672884648
+      },
+      "17": {
+        "vertices": 445,
+        "weighted_height_cm": 164.90177899531758
+      },
+      "18": {
+        "vertices": 249,
+        "weighted_height_cm": 172.91129280310193
+      },
+      "19": {
+        "vertices": 440,
+        "weighted_height_cm": 164.89732057980885
+      },
+      "20": {
+        "vertices": 245,
+        "weighted_height_cm": 172.94193929908636
+      }
+    },
+    "native_lower_lip9_inherits_jaw8_upper16_stays_under_head7": true,
+    "all_geometry_and_low_LOD_unchanged": true,
+    "body_bind_hierarchy_byte_exact": true,
+    "all_weights255": true,
+    "no_limb_weights": true,
+    "real_two_LODs_MinLOD0": true,
+    "material_and_texture_E_namespace_loaded": true,
+    "phone_verified": false
+  },
+  {
+    "asset": "SK_RV8Eep00v0313_Face",
+    "native_facial_driver_weights_connected": {
+      "9": {
+        "vertices": 508,
+        "weighted_height_cm": 163.36747593106597
+      },
+      "16": {
+        "vertices": 413,
+        "weighted_height_cm": 165.45937672884648
+      },
+      "17": {
+        "vertices": 445,
+        "weighted_height_cm": 164.90177899531758
+      },
+      "18": {
+        "vertices": 249,
+        "weighted_height_cm": 172.91129280310193
+      },
+      "19": {
+        "vertices": 440,
+        "weighted_height_cm": 164.89732057980885
+      },
+      "20": {
+        "vertices": 245,
+        "weighted_height_cm": 172.94193929908636
+      }
+    },
+    "native_lower_lip9_inherits_jaw8_upper16_stays_under_head7": true,
+    "all_geometry_and_low_LOD_unchanged": true,
+    "body_bind_hierarchy_byte_exact": true,
+    "all_weights255": true,
+    "no_limb_weights": true,
+    "real_two_LODs_MinLOD0": true,
+    "material_and_texture_E_namespace_loaded": true,
+    "phone_verified": false
+  },
+  {
+    "asset": "SK_RV8Eep01v0291_Face",
+    "native_facial_driver_weights_connected": {
+      "9": {
+        "vertices": 508,
+        "weighted_height_cm": 163.36747593106597
+      },
+      "16": {
+        "vertices": 413,
+        "weighted_height_cm": 165.45937672884648
+      },
+      "17": {
+        "vertices": 445,
+        "weighted_height_cm": 164.90177899531758
+      },
+      "18": {
+        "vertices": 249,
+        "weighted_height_cm": 172.91129280310193
+      },
+      "19": {
+        "vertices": 440,
+        "weighted_height_cm": 164.89732057980885
+      },
+      "20": {
+        "vertices": 245,
+        "weighted_height_cm": 172.94193929908636
+      }
+    },
+    "native_lower_lip9_inherits_jaw8_upper16_stays_under_head7": true,
+    "all_geometry_and_low_LOD_unchanged": true,
+    "body_bind_hierarchy_byte_exact": true,
+    "all_weights255": true,
+    "no_limb_weights": true,
+    "real_two_LODs_MinLOD0": true,
+    "material_and_texture_E_namespace_loaded": true,
+    "phone_verified": false
+  },
+  {
+    "asset": "SK_RV8Elg00v0000_Face",
+    "native_facial_driver_weights_connected": {
+      "9": {
+        "vertices": 508,
+        "weighted_height_cm": 163.36747593106597
+      },
+      "16": {
+        "vertices": 413,
+        "weighted_height_cm": 165.45937672884648
+      },
+      "17": {
+        "vertices": 445,
+        "weighted_height_cm": 164.90177899531758
+      },
+      "18": {
+        "vertices": 249,
+        "weighted_height_cm": 172.91129280310193
+      },
+      "19": {
+        "vertices": 440,
+        "weighted_height_cm": 164.89732057980885
+      },
+      "20": {
+        "vertices": 245,
+        "weighted_height_cm": 172.94193929908636
+      }
+    },
+    "native_lower_lip9_inherits_jaw8_upper16_stays_under_head7": true,
+    "all_geometry_and_low_LOD_unchanged": true,
+    "body_bind_hierarchy_byte_exact": true,
+    "all_weights255": true,
+    "no_limb_weights": true,
+    "real_two_LODs_MinLOD0": true,
+    "material_and_texture_E_namespace_loaded": true,
+    "phone_verified": false
+  }
+]

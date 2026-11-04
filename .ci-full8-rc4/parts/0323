@@ -1,0 +1,40 @@
+from pathlib import Path
+import sys,inspect,struct,json,collections
+import numpy as np
+sys.path[:0]=['/workspace/work/full8/recovered-tools','/workspace/ronaldo-work/pes-fmdl-blender/pes-fmdl']
+import mesh_tools
+from iostore import Toc
+from bundle_tools import decode_first_texture
+from FmdlFile import FmdlFile
+ns={};exec(inspect.getsource(mesh_tools.Mesh).replace('len(self.info)==2','len(self.info)in(2,4)'),mesh_tools.__dict__,ns);Mesh=ns['Mesh']
+R=Path('/workspace/work/full8-rc4/face');f=FmdlFile();f.readFile(str(R/'models/face_high.fmdl'));h=FmdlFile();h.readFile(str(R/'models/hair_high.fmdl'))
+source=[m for m in f.meshes if m.materialInstance.name=='fox_skin_mat']+[m for m in h.meshes if m.materialInstance.name=='fox_head_shell_mat']
+p=np.array([[v.position.x*100,v.position.z*100,v.position.y*100]for m in source for v in m.vertices])
+oc=next(m for m in f.meshes if m.materialInstance.name=='fox_eyeOcclusion_mat');op=np.array([[v.position.x*100,v.position.z*100,v.position.y*100]for v in oc.vertices])
+source_lid=np.array([[2.7999,13.7957,169.6785],[-2.8001,13.79565,169.67864]]);target_lid=np.array([[2.559586,13.423939,171.34475],[-3.500015,13.572004,171.35321]]);scale=(target_lid[0,0]-target_lid[1,0])/(source_lid[0,0]-source_lid[1,0]);offset=target_lid.mean(0)-source_lid.mean(0)*np.array([scale,1,1])
+def head_frame(points):
+ blend=np.clip((points[:,2]-159)/5,0,1);blend=blend*blend*(3-2*blend);return points*(1-blend[:,None])+(points*np.array([scale,1,1])+offset)*blend[:,None]
+reports=[]
+for i,suffix in enumerate(['','ep00v0313','ep01v0291','lg00v0000']):
+ t=Toc(str(R/'built'/f'pc{9340+i}_mobile_and.utoc'));name='SK_RV8D'+suffix+'_Face';b=t.read(t.files['character/RealFace/'+name+'.uasset']);log=(R/'readbacklogs'/(name+'.log')).read_text()
+ assert log.count('cooked_out=0 inlined=1')==2 and '*** ERROR'not in log
+ high=Mesh(b,log,0);low=Mesh(b,log,1);assert len(high.info)==4 and len(low.info)==2
+ assert [struct.unpack_from('<H',q['head'],2)[0]for q in high.info]==[0,2,3,1]
+ assert 'Loading MaterialInstanceConstant MI_RV8D_EyeOcclusion' in log
+ assert 'Loading Texture2D T_RV8D_EyeOcclusion_D' in log
+ assert np.allclose(high.positions[:len(p)][p[:,2]>159],head_frame(p)[p[:,2]>159],atol=1e-4)
+ q=high.info[2];assert q['verts']==40;assert np.allclose(high.positions[q['basevert']:q['basevert']+40],head_frame(op),atol=1e-5)
+ assert {10,11,12,13}<=set(high.info[0]['bones']) and {14,15,8}<=set(high.info[1]['bones'])
+ native=Path('/workspace/ronaldo-work/ronaldo-android-fit/extracted/SK_4522'+suffix+'_Face.uasset').read_bytes();nm=Mesh(native,Path('/workspace/ronaldo-work','native-'+suffix+'.log').read_text(),1)
+ at=high.r['REF_BEGIN'];nat=nm.r['REF_BEGIN'];end=4+166*12+4+166*40
+ assert b[at:at+end]==native[nat:nat+end]
+ assert np.array_equal(low.positions[:743],nm.positions[:743]);assert mesh_tools.platform_lod_properties(b)['MinLod']==[0]
+ for m in [high,low]:
+  assert np.isfinite(m.positions).all() and m.indices.max()<len(m.positions)
+  for si,q in enumerate(m.info):
+   assert all(sum(v for k,v in pairs)==255 for pairs in m.global_weights(si))
+   triangles=m.indices[q['baseidx']//3:q['baseidx']//3+q['tris']];assert triangles.min()>=q['basevert']and triangles.max()<q['basevert']+q['verts']
+ for q in high.info:assert not (set(q['bones'])&set(range(21,166)))
+ n='character/RealFace/T_RV8D'+suffix+'_Face_D';a=np.asarray(decode_first_texture(t.read(t.files[n+'.uasset']),t.read(t.files[n+'.ubulk'])).convert('RGBA'));assert a[:1024,:1024,3].min()>=254
+ reports.append(dict(variant=suffix or'base',source_V8_ocular_detail_preserved_in_native_rig_frame=True,native_eye_positions_kept_at_native_eye_pivots=True,source40_occlusion_geometry_and_mapped_lid_weights_restored=True,native_masked_occlusion_material_and_alpha_loaded=True,eyes_jaw_lids_independently_weighted=True,body_bind_and_hierarchy_byte_exact_native4522=True,all_lane_sums255=True,real_two_LODs_MinLOD0=True,low_native_geometry_preserved=True,no_limb_influences=True,compressed_skin_alpha_opaque=True,phone_verified=False))
+(R/'geometry-validation.json').write_text(json.dumps(reports,indent=2));print(json.dumps(reports,indent=2))

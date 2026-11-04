@@ -1,0 +1,138 @@
+[
+  {
+    "asset": "SK_RV8D_Face",
+    "high_vertices": 18876,
+    "low_vertices": 15944,
+    "source_skin_vertices": 3500,
+    "native_animated_accessories": 135,
+    "face_bones": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "low_native_required_bones": 153,
+    "high_native_required_bones": 166,
+    "body_bind_pose": "exact native4522",
+    "neck_vertices_interpolated": 321,
+    "maximum_neck_surface_correction_cm": 0.6849091514101483,
+    "native_lod_properties": {
+      "MinLod": [
+        0
+      ],
+      "ScreenSize": [
+        0.30000001192092896,
+        0.05000000074505806
+      ]
+    },
+    "hair": "V8 hair unchanged; native4522 ocular/oral geometry; PC diffuse alpha converted to native opaque alpha",
+    "hair_vertices": 15201,
+    "hair_triangles": 5067,
+    "device_verified": false
+  },
+  {
+    "asset": "SK_RV8Dep00v0313_Face",
+    "high_vertices": 18876,
+    "low_vertices": 15944,
+    "source_skin_vertices": 3500,
+    "native_animated_accessories": 135,
+    "face_bones": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "low_native_required_bones": 153,
+    "high_native_required_bones": 166,
+    "body_bind_pose": "exact native4522",
+    "neck_vertices_interpolated": 321,
+    "maximum_neck_surface_correction_cm": 0.6849091514101483,
+    "native_lod_properties": {
+      "MinLod": [
+        0
+      ],
+      "ScreenSize": [
+        0.30000001192092896,
+        0.05000000074505806
+      ]
+    },
+    "hair": "V8 hair unchanged; native4522 ocular/oral geometry; PC diffuse alpha converted to native opaque alpha",
+    "hair_vertices": 15201,
+    "hair_triangles": 5067,
+    "device_verified": false
+  },
+  {
+    "asset": "SK_RV8Dep01v0291_Face",
+    "high_vertices": 18876,
+    "low_vertices": 15944,
+    "source_skin_vertices": 3500,
+    "native_animated_accessories": 135,
+    "face_bones": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "low_native_required_bones": 153,
+    "high_native_required_bones": 166,
+    "body_bind_pose": "exact native4522",
+    "neck_vertices_interpolated": 321,
+    "maximum_neck_surface_correction_cm": 0.6849091514101483,
+    "native_lod_properties": {
+      "MinLod": [
+        0
+      ],
+      "ScreenSize": [
+        0.30000001192092896,
+        0.05000000074505806
+      ]
+    },
+    "hair": "V8 hair unchanged; native4522 ocular/oral geometry; PC diffuse alpha converted to native opaque alpha",
+    "hair_vertices": 15201,
+    "hair_triangles": 5067,
+    "device_verified": false
+  },
+  {
+    "asset": "SK_RV8Dlg00v0000_Face",
+    "high_vertices": 18876,
+    "low_vertices": 15944,
+    "source_skin_vertices": 3500,
+    "native_animated_accessories": 135,
+    "face_bones": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "low_native_required_bones": 153,
+    "high_native_required_bones": 166,
+    "body_bind_pose": "exact native4522",
+    "neck_vertices_interpolated": 321,
+    "maximum_neck_surface_correction_cm": 0.6983956934663574,
+    "native_lod_properties": {
+      "MinLod": [
+        0
+      ],
+      "ScreenSize": [
+        0.30000001192092896,
+        0.05000000074505806
+      ]
+    },
+    "hair": "V8 hair unchanged; native4522 ocular/oral geometry; PC diffuse alpha converted to native opaque alpha",
+    "hair_vertices": 15201,
+    "hair_triangles": 5067,
+    "device_verified": false
+  }
+]

@@ -1,0 +1,17 @@
+exec(open('/workspace/work/full8-rc4/test_live.py').read().split("report=dict(")[0] if False else open('/workspace/work/full8-rc4/test_live.py').read().split('report={')[0])
+f=load(R/'update_fixture.so',0x3b000000)
+call(f['fixture_pad'],pad);call(fn['live_bind_previous'],0,0,f['fixture_update'])
+for side in [0,1]:
+ w(pad,'B',side*2);w(team,'I',side);w(0xa5909e8+side*8,'Q',actor);w(scene+0x3630+side*0x50,'Q',team)
+ # Different full ID with identical low32 bits must not match the chosen ID.
+ w(team+0xa8+6*0x198+0x30,'QQ',43,ids[7]+2**32)
+ assert call(fn['single_player_configure'],0,1,ids[7])==1
+ u.reg_write(UC_ARM64_REG_S0,struct.unpack('<I',struct.pack('<f',.016))[0])
+ call(fn['live_update'],actor,0x1234,0x2345,match,side)
+ assert st(3)==1,(side,st(8))
+ for i in range(side*11,side*11+11):assert call(f['fixture_observed'],i)==side*11+7
+ assert [call(f['fixture_seen'],i)for i in range(5)]==[actor,0x1234,0x2345,match,side]
+ assert call(f['fixture_seen'],5)==struct.unpack('<I',struct.pack('<f',.016))[0]
+ call(fn['single_player_configure'],0,0,ids[7]);call(fn['live_update'],actor,0x1234,0x2345,match,side)
+ for i in range(side*11,side*11+11):assert call(f['fixture_observed'],i)==i
+print('PASS: scoped real native cursor accessors inside scripted Update on both sides; off native; full64 identity; integer/FP arguments')

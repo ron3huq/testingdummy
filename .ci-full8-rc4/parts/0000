@@ -1,0 +1,35 @@
+# FULL-8 RC4 · bản73 · tiếp tục nền FULL-7
+
+Gói FULL tích lũy tiếp nối RC3, resource_revision **19011**. Không chuyển sang FULL-6/efootxi. **Đây là bản ứng viên chưa được kiểm chứng trên điện thoại; không bảo đảm đã sửa hết hành vi trong trận.**
+
+## Single Player
+
+Thay đường nhận điều khiển của RC3 bằng module libsingle_player_live.so: lấy đúng controller của người dùng và roster native của bên đang điều khiển; giữ đủ hai word key. Chặn các getter/setter con trỏ mà Update dùng ngay bên trong tick, chỉ cho đúng pad của người dùng. Đường cũ giữ ở trạng thái disabled và chuyển tiếp hàm native. Không cần bật AI xanh.
+
+Chạm **1P** để bật/tắt; giữ nút để chọn trong đội hình thật đang nạp (tối đa40, có nhãn **XI/Bench**), không quét40k cầu thủ và không loại cầu thủ Transfer/loan chỉ vì thiếu record sở hữu trong DB. Cầu thủ dự bị chưa vào sân sẽ chờ. Khi engine chưa có roster, không lấy đội hình offline cũ để giả làm danh sách trận. Tắt vẫn dùng được khi cầu thủ đã rời sân. Nút **xanh ON** khi native báo khóa đang áp dụng; **vàng WAIT** khi yêu cầu chưa áp dụng; **xám OFF** khi tắt. Màu xanh là trạng thái module, chưa tự chứng minh game đã định tuyến input đúng.
+
+Có counters đọc/ghi con trỏ, cập nhật roster và restore; lưu snapshot game gần nhất với PID/thời điểm và nhãn lịch sử, phân biệt trạng thái launcher mới. Không ghi roster/save vào gói. AI native bật lại sẽ nhường quyền; tắt AI hoặc yêu cầu1P lại có thể nhận lại. Pause, restore replay, mất scene và teardown có đường nhả khóa.
+
+Đã nghiên cứu đường chọn player/order của PES2021 trong releasee, không sao chép engine cũ. Kiểm tra RC4 chạy engine73 ARM64 gốc trên đối tượng tổng hợp: đọc roster/controller/key, đổi11 cursor ở cả hai phía, phân biệt full64ID, pause, AI flag15, restore, tắt và teardown. Original Update được thay bằng fixture gọi các accessor thật; rebuild controller đầy đủ ở test AI vẫn là boundary giả lập. Vì vậy chưa chứng minh actual input, mọi replay/thay người/mode/đổi phía trên điện thoại. Kiểm tra entry RC3 trước có callback sai trong fixture và đã được đánh dấu superseded, không được dùng làm bằng chứng đã hoạt động.
+
+## Ronaldo V8 →89138556572074
+
+Namespace cuối RV8E, containerspc9344..9347; giữ RV8D/HV8D pc9340..9343 làm nguồn V8 đã chuyển. Giữ tóc V8. Bỏ phép chiếu vùng mắt V8 lên da mặt4522; giữ chi tiết mắt/mí V8 trong một phép khớp khung rig theo các pivot mí native. Nhãn cầu4522 giữ tại đúng pivot native, không dịch quả mắt ra khỏi tâm xoay; khôi phục40 vertex occlusion gốc V8 với material masked và alpha gốc. Fit lại cụm răng/khoang miệng theo vị trí môi V8; bản trước cụm oral còn cao hơn miệng V8. Tóc có rãnh nhỏ bên trái bằng cắt bề mặt tóc, lộ scalp V8 bên dưới, không vẽ vạch trắng.
+
+Bind pose/hierarchy cổ-thân byte-exact4522, không đổi mesh cơ thể; mắt/hàm/mí có trọng số riêng, cộng lane trùng. Đã xác minh vị trí/parent của native bone9 (môi dưới, con của hàm8),16 (môi trên),17/19 (khóe miệng),18/20 (lông mày); nối đúng trọng số V8 vào các driver này. Không còn dồn các control môi/lông mày về head. Geometry và bind pose vẫn byte-exact bản V8 đã khớp khung rig. HaiLOD thật, MinLOD0; LOD thấp giữ native4522. UEViewer đọc lại4biến thể, skin alpha sau nén opaque, indices/weights/material được kiểm tra. Có xem trước host nhưng chưa kiểm chứng shader/animation/độ giống và va chạm trên điện thoại. Không cam kết mắt giống tuyệt đối ảnh ngoài đời hoặc hết lỗi trong mọi biểu cảm.
+
+## Giữ các phần đã hoạt động
+
+Giữ nguyên thư viện Transfer/cache/tactics và gói accessories/bandage mà người dùng đã xác nhận chạy được; giữ vai trò gắn fullID, Skills & Boosters, Foot & Positions (chân thuận/yếu, vị trí chính,13 mức thông thạo) từ RC3. Không ép thay kit khi chỉ sửa đội hình. Giữ login CPK/integrity, Spider V1 106782819217056 và Miles88035555413452. Không thêm Ronaldo Vol9 đã hủy. Đội hình/MyLeague thật vẫn phụ thuộc scope và native pool; ID chưa có trong pool vẫn có thể bị từ chối.
+
+## Độ khó AI
+
+Giữ observer chỉ đọc của RC3: engine có7mức VERYEASY/EASY/NORMAL/HARD/VERYHARD/HARDEST/LEGEND, đồng thời có mức global/event và GetCpuLevel theo chế độ. MyLeague request/state và getter/setter native đã kiểm tra; chưa đo được mức ảnh hưởng lên quyết định AI thực trong trận trên điện thoại. Công tắc AI điều khiển không phải cấp độ khó. Không ép mức khó hoặc tuyên bố mọi mức làm AI khó hơn từ kiểm tra mô phỏng.
+
+## Dùng gói
+
+Đây là **payload FULL**, không phải APK đã ký. Ghép toàn bộ assets/ và classes5.dex vào APK73 đúng nền, ký bằng khóa đang dùng. Giữ save/data ứng dụng; không gỡ app/xóa data để sửa. Không có DB/save cá nhân, video/log riêng, source RAR hoặc APK nghiên cứu trong payload. Installer giữ kiểm tra toàn vẹn và không khai báo __pycache__; checksum/manifest/revision đã làm mới.
+
+Báo cáo cũ trong source/validation là lịch sử. Kết quả mới có tiền tố full8-rc4; kiểm tra host không thay thế kiểm chứng điện thoại.
+
+Gói trên GitHub được build từ nguồn: thư viện gốc public áp patch nhỏ có kiểm tra hash, 1P biên dịch từ C bằng Zig0.13.0, DEX lắp từ hai lớp smali UI và baseline public, face RV8E dựng từ tài nguyên RV8D và bảng trọng số đỉnh rõ nghĩa. Không tải lên ELF/DEX không rõ nguồn. Workflow chỉ đọc repo, không tự commit/push; artifact tải cần đăng nhập GitHub và được lưu7ngày.

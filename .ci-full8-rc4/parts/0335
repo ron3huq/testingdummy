@@ -1,0 +1,28 @@
+from pathlib import Path
+import sys,inspect,struct,json
+import numpy as np
+sys.path.insert(0,'/workspace/work/full8/recovered-tools');from iostore import Toc;import mesh_tools
+n={};exec(inspect.getsource(mesh_tools.Mesh).replace('len(self.info)==2','len(self.info)in(2,4)'),mesh_tools.__dict__,n);Mesh=n['Mesh']
+R=Path('/workspace/work/full8-rc4');G=R/'payload/assets/gateway-release/livedata';reports=[]
+for i,suffix in enumerate(['','ep00v0313','ep01v0291','lg00v0000']):
+ old='SK_RV8D'+suffix+'_Face';new=old.replace('RV8D','RV8E');dt=Toc(str(G/f'pc{9340+i}_mobile_and.utoc'));et=Toc(str(G/f'pc{9344+i}_mobile_and.utoc'));db=dt.read(dt.files['character/RealFace/'+old+'.uasset']);eb=et.read(et.files['character/RealFace/'+new+'.uasset']);dl=(R/'face/readbacklogs'/(old+'.log')).read_text();el=(R/'expressions/readbacklogs'/(new+'.log')).read_text()
+ assert '*** ERROR'not in el and el.count('cooked_out=0 inlined=1')==2
+ d=Mesh(db,dl,0);e=Mesh(eb,el,0);dlow=Mesh(db,dl,1);elow=Mesh(eb,el,1)
+ assert np.array_equal(d.positions,e.positions)and np.array_equal(d.indices,e.indices)and np.array_equal(d.uv,e.uv)
+ assert np.array_equal(dlow.positions,elow.positions)and np.array_equal(dlow.weights,elow.weights)
+ off=4+166*12+4+166*40;assert eb[e.r['REF_BEGIN']:e.r['REF_BEGIN']+off]==db[d.r['REF_BEGIN']:d.r['REF_BEGIN']+off]
+ assert {9,16,17,18,19,20}<=set(e.info[0]['bones']);assert set(e.info[0]['bones'])<=set(range(21));assert mesh_tools.platform_lod_properties(eb)['MinLod']==[0]
+ controls={};rows=e.global_weights(0)
+ for bone in [9,16,17,18,19,20]:
+  influenced=[k for k,pairs in enumerate(rows)if any(b==bone and w>0 for b,w in pairs)];assert influenced
+  weights=[sum(w for b,w in rows[k]if b==bone)for k in influenced];z=float(np.average(e.positions[influenced,2],weights=weights));controls[bone]={'vertices':len(influenced),'weighted_height_cm':z}
+ assert min(controls[18]['weighted_height_cm'],controls[20]['weighted_height_cm'])>171
+ assert controls[9]['weighted_height_cm']<controls[16]['weighted_height_cm']<169
+ parents=[struct.unpack_from('<i',eb,e.r['REF_BEGIN']+4+j*12+8)[0]for j in range(166)];assert parents[9]==8 and all(parents[j]==7 for j in [16,17,18,19,20])
+ for si,q in enumerate(e.info):assert all(sum(w for b,w in pairs)==255 for pairs in e.global_weights(si))
+ # Teeth and native eyeball geometry/weights are untouched by lip/brow retarget.
+ for si in [1,3]:
+  assert e.global_weights(si)==d.global_weights(si)
+ assert 'Loading Texture2D T_RV8E'+suffix+'_Face_D'in el
+ reports.append(dict(asset=new,native_facial_driver_weights_connected=controls,native_lower_lip9_inherits_jaw8_upper16_stays_under_head7=True,all_geometry_and_low_LOD_unchanged=True,body_bind_hierarchy_byte_exact=True,all_weights255=True,no_limb_weights=True,real_two_LODs_MinLOD0=True,material_and_texture_E_namespace_loaded=True,phone_verified=False))
+(R/'expressions/validation.json').write_text(json.dumps(reports,indent=2));print(json.dumps(reports,indent=2))

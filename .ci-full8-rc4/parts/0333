@@ -1,0 +1,44 @@
+from pathlib import Path
+import sys,sqlite3,json,types
+R=Path('/workspace/work/full8-rc4');T=R/'payload/assets/gateway-release/work/tools';sys.path[:0]=[str(T),'/workspace/73-v191-migration/decoded']
+import single_player_runtime as single,body_dimensions,single_player_live_runtime as live
+c=sqlite3.connect(':memory:');c.executescript('CREATE TABLE meta(key TEXT PRIMARY KEY,value TEXT);CREATE TABLE squads(squad_id INTEGER PRIMARY KEY,json TEXT)')
+pids=['89138556572074','88035555413452','106782819217056']
+c.execute('INSERT INTO squads VALUES(1,?)',(json.dumps({'squad_data':{'player_list':[{'gameplayer_id':{'id':int(p),'serial':i}}for i,p in enumerate(pids)]}}),));c.commit()
+single._module=types.SimpleNamespace(_logic=types.SimpleNamespace(conn=c));single.start=lambda:None
+body_dimensions.engine_loaded=lambda:False
+assert [r['id']for r in single.player_index()]==pids
+assert single.manage('ui7_single_player_apply',{'enabled':True,'player_id':pids[0]})['saved']
+assert single.config()['player_id']==pids[0]
+class Native:
+ def __init__(self):self.calls=[];self.reject=False
+ def single_player_configure(self,*args):self.calls.append(args);return int(not self.reject)
+n=Native();single._native=n;single._ready.set();single._engine_base=123
+body_dimensions.engine_loaded=lambda:True
+# Live team includes a starter absent from saved squad AND all ownership tables.
+live.roster=lambda h:{'players':[{'id':'105756321970183','slot':0,'order':0},{'id':pids[0],'slot':7,'order':7},{'id':pids[1],'slot':13,'order':255}]}
+assert [r['id']for r in single.player_index()]==['105756321970183',pids[0],pids[1]]
+result=single.manage('ui7_single_player_search',{})
+assert result['total']==3 and result['players'][0]['source']=='native_live_roster'
+assert result['players'][2]['on_pitch']is False
+assert single.manage('ui7_single_player_live',{'enabled':True,'player_id':'105756321970183'})['saved']
+n.reject=True
+try:single.manage('ui7_single_player_live',{'enabled':False,'player_id':'105756321970183'});raise AssertionError('rejection ignored')
+except ValueError:pass
+assert single.config()['enabled']and n.calls[-1]==(123,1,105756321970183)
+# No stale offline fallback while engine is present but native team unavailable.
+live.roster=lambda h:None
+assert single.player_index()==()
+try:single.manage('ui7_single_player_live',{'enabled':True,'player_id':pids[0]});raise AssertionError('stale squad accepted')
+except ValueError:pass
+# Off remains available even when roster has gone (substitution/match ended).
+n.reject=False
+assert single.manage('ui7_single_player_live',{'enabled':False,'player_id':pids[0]})['saved']
+from elftools.elf.elffile import ELFFile
+with (T/'libsingle_player_live.so').open('rb')as f:
+ e=ELFFile(f);assert not[s.name for s in e.get_section_by_name('.dynsym').iter_symbols()if s.name and s['st_shndx']=='SHN_UNDEF']
+import hook_arena,hashlib
+assert len(hook_arena.PLANS)==63
+assert hashlib.sha256((T/'libsingle_player_live.so').read_bytes()).hexdigest()==live.HOOK_SHA
+report={'passed':True,'live_roster_no_ownership_SQL_filter':True,'missing_saved_starter_appears':True,'bench_labeled':True,'live_roster_unavailable_no_stale_fallback':True,'save_reopen_and_native_rejection_rollback':True,'off_available_without_roster':True,'all63_hook_entries_preregistered':True,'native_no_undefined_symbols':True,'phone_verified':False}
+(R/'runtime-validation.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

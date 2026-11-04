@@ -1,0 +1,30 @@
+from pathlib import Path
+import numpy as np,json
+R=Path('/workspace/work/full8-rc4/face');src=np.load('/workspace/work/full8-rc3/face/hair-native.npz')
+p=src['positions'];uv=src['uv'];tan=src['tangents'];tri=src['triangles'];out=[];removed=0;clipped=0
+# Narrow shave on anatomical left. Remove the hair surface itself, exposing
+# V8's actual skin shell underneath. No bright stripe drawn onto the texture.
+def distance(v):return v[2]-(178.0-.16*(v[1]-3))
+def clip(poly,sign,threshold):
+ result=[]
+ for a,b in zip(poly,poly[1:]+poly[:1]):
+  da=sign*(distance(a)-threshold);db=sign*(distance(b)-threshold)
+  if da>=0:result.append(a)
+  if (da>=0)!=(db>=0):result.append(a+(b-a)*(da/(da-db)))
+ return result
+for t in tri:
+ poly=[np.r_[p[i],uv[i],tan[i].view('i1').astype(float)]for i in t];center=p[t].mean(0)
+ width=.095*np.clip((center[1]-2)/2,0,1)*np.clip((15-center[1])/2,0,1)
+ if center[0]>5.4 and 2<center[1]<15 and width>0:
+  d=np.array([distance(v)for v in poly])
+  if d.min()<width and d.max()>-width:
+   polys=[clip(poly,-1,-width),clip(poly,1,width)];clipped+=1
+  else:polys=[poly]
+ else:polys=[poly]
+ for polygon in polys:
+  for j in range(1,len(polygon)-1):out.extend([polygon[0],polygon[j],polygon[j+1]])
+a=np.array(out);pos=a[:,:3].astype('<f4');u=a[:,3:7].astype('<f2');tang=np.clip(np.rint(a[:,7:]),-127,127).astype('i1').view('u1');tr=np.arange(len(a),dtype='<u2').reshape(-1,3)
+q=R/'hair-native.npz'
+if q.is_symlink():q.unlink()
+np.savez_compressed(q,positions=pos,uv=u,tangents=tang,triangles=tr)
+(R/'hairline-validation.json').write_text(json.dumps(dict(anatomical_left=True,method='geometric strip removal exposing original V8 scalp; no painted white stripe',clipped_source_triangles=clipped,vertices=len(pos),phone_verified=False),indent=2));print(clipped,len(pos))

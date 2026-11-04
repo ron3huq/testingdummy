@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "live_roster_no_ownership_SQL_filter": true,
+  "missing_saved_starter_appears": true,
+  "bench_labeled": true,
+  "live_roster_unavailable_no_stale_fallback": true,
+  "save_reopen_and_native_rejection_rollback": true,
+  "off_available_without_roster": true,
+  "all63_hook_entries_preregistered": true,
+  "native_no_undefined_symbols": true,
+  "phone_verified": false
+}

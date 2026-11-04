@@ -1,0 +1,63 @@
+from pathlib import Path
+import sys,inspect,json,struct,collections,hashlib
+import numpy as np
+sys.path[:0]=['/workspace/work/full8/recovered-tools','/workspace/ronaldo-work/pes-fmdl-blender/pes-fmdl']
+from iostore import Toc
+import mesh_tools
+from FmdlFile import FmdlFile
+from mesh_tools import quantize
+scope={};exec(inspect.getsource(mesh_tools.Mesh).replace('len(self.info)==2','len(self.info)in(2,4)'),mesh_tools.__dict__,scope);Mesh=scope['Mesh']
+R=Path('/workspace/work/full8-rc4');P=R/'payload';G=P/'assets/gateway-release';C=R/'ci-source'
+def model(p):f=FmdlFile();f.readFile(str(p));return f
+f=model(R/'face/models/face_high.fmdl');h=model(R/'face/models/hair_high.fmdl')
+meshes=[m for m in f.meshes if m.materialInstance.name=='fox_skin_mat']+[m for m in h.meshes if m.materialInstance.name=='fox_head_shell_mat']
+vertices=[v for m in meshes for v in m.vertices]
+g=json.loads(Path('/workspace/ronaldo-work/native-export/Game/Assets/character/RealFace/SK_4522_Face.gltf').read_text());ids={g['nodes'][j]['name']:i for i,j in enumerate(g['skins'][0]['joints'])}
+aliases={'sk_neck':6,'sk_chest':4,'dsk_neckback':5,'dsk_scm':6,'dsk_clavicle_l':4,'dsk_clavicle_r':4}
+def row(v):
+ out=collections.defaultdict(float);left=v.position.x>0;corner=17 if left else 19;brow=18 if left else 20;upperlid=10 if left else 12;lowerlid=11 if left else 13
+ upper=sum(w for b,w in v.boneMapping.items()if b.name.startswith('skf_lip_t_'));lower=sum(w for b,w in v.boneMapping.items()if b.name.startswith('skf_lip_b_')or b.name in ['skf_jaw','skf_doublechin']);jaw=lower/(upper+lower)if upper+lower>.05 else .5
+ for bone,w in v.boneMapping.items():
+  n=bone.name
+  if n in ids:targets={ids[n]:1}
+  elif n in aliases:targets={aliases[n]:1}
+  elif n.startswith('skf_lip_b_'):targets={9:1} # native9 is LOWER LIP, child of jaw8
+  elif n.startswith('skf_lip_t_'):targets={16:1} # native16 is UPPER LIP, child of head7
+  elif n.startswith('skf_lip_s_'):targets={corner:1}
+  elif n=='skf_lip_volume':targets={16:1-jaw,9:jaw}
+  elif n=='skf_doublechin':targets={8:1}
+  elif n.startswith('skf_brow'):targets={brow:1}
+  elif n.startswith('skf_glabella'):targets={18:.5,20:.5}
+  elif n.startswith('skf_orbicularisoculi'):targets={upperlid if v.position.y*100>=169.6785 else lowerlid:1}
+  elif n.startswith(('skf_cheek','skf_nasolabial')):targets={7:.7,corner:.3}
+  elif n.startswith('skf_nose'):targets={7:.75,16:.25}if v.position.y*100<166 else{7:1} # rigid nasal bridge stays skull; base follows upper lip
+  else:raise ValueError('Unknown face control '+n)
+  for k,factor in targets.items():out[k]+=w*factor
+ assert out and min(out.values())>=0
+ return dict(out)
+rows=[row(v)for v in vertices];groups=collections.defaultdict(list)
+for i,v in enumerate(vertices):
+ if v.position.y*100<159:continue
+ dominant=max(v.boneMapping,key=v.boneMapping.get).name;category=dominant if dominant.startswith(('skf_lip_t_','skf_lip_b_','skf_lip_s_','skf_eyelid_'))else'skin';groups[(round(v.position.x,5),round(v.position.y,5),round(v.position.z,5),category)].append(i)
+for indices in groups.values():
+ if len(indices)<2:continue
+ keys=set().union(*(rows[i]for i in indices));avg={k:sum(rows[i].get(k,0)for i in indices)/len(indices)for k in keys}
+ for i in indices:rows[i]=avg.copy()
+skinmap=sorted({4,5,6}|{k for row in rows for k,w in row.items()if w>0});assert {9,16,17,18,19,20}<=set(skinmap)
+weights=quantize(rows,skinmap);skin_overrides={str(i):weights[i].tolist()for i,v in enumerate(vertices)if v.position.y*100>=159}
+occ=next(m for m in f.meshes if m.materialInstance.name=='fox_eyeOcclusion_mat');occrows=[row(v)for v in occ.vertices];occmap=sorted({k for r in occrows for k,w in r.items()if w>0});occweights=quantize(occrows,occmap)
+weightdoc={'kind':'skeletal_mesh_vertex_weights_only_not_player_or_save_records','skin':skin_overrides,'occlusion':{str(i):w.tolist()for i,w in enumerate(occweights)},'native_controls':{'9':'lower_lip_child_of_jaw8','16':'upper_lip','17_19':'left_right_mouth_corner','18_20':'left_right_brow','10_13':'eyelids','14_15':'eyes_preserved_from_native4522'}}
+(C/'face_weights.json').write_text(json.dumps(weightdoc,separators=(',',':')))
+variants=[]
+for i,suffix in enumerate(['','ep00v0313','ep01v0291','lg00v0000']):
+ t=Toc(str(G/'livedata'/f'pc{9340+i}_mobile_and.utoc'));name='SK_RV8D'+suffix+'_Face';raw=t.read(t.files['character/RealFace/'+name+'.uasset']);m=Mesh(raw,(R/'face/readbacklogs'/(name+'.log')).read_text(),0);assert m.info[0]['verts']==len(vertices)
+ sections=[]
+ for si,bm,key in [(0,skinmap,'skin'),(2,occmap,'occlusion')]:
+  q=m.info[si];a=m.sections[si]+29;nb=struct.unpack_from('<I',raw,a)[0];sections.append(dict(old_bones=q['bones'],new_bones=bm,map_start=a,map_end=a+4+nb*2,weight_offset=m.r['SKIN_WEIGHTS_BEGIN']+30+q['basevert']*8,vertices=q['verts'],weights_key=key))
+ active=set(skinmap)|set(occmap)|set(m.info[1]['bones'])|set(m.info[3]['bones']);parents=[struct.unpack_from('<i',raw,m.r['REF_BEGIN']+4+j*12+8)[0]for j in range(166)]
+ for k in list(active):
+  while k>0:k=parents[k];active.add(k)
+ assert active<=set(range(21))
+ variants.append(dict(input_container='pc'+str(9340+i),output_container='pc'+str(9344+i),old_name=name,new_name=name.replace('RV8D','RV8E'),input_sha256=hashlib.sha256(raw).hexdigest(),sections=sections,active_start=m.r['ACTIVE_BEGIN'],active_end=m.r['ACTIVE_END'],active_bones=sorted(active)))
+(C/'face_spec.json').write_text(json.dumps({'variants':variants},separators=(',',':')))
+print('Skin rows',len(rows),'native controls',skinmap,'overrides',len(skin_overrides),'occlusion',occmap)

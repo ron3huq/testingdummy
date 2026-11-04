@@ -1,0 +1,46 @@
+"""Native live roster and scoped control accessors for APK73. Never scans the DB."""
+from pathlib import Path
+import ctypes as C
+from mod_integrity import digest
+from select_team_runtime import maps,branch
+HERE=Path(__file__).parent
+ENGINE_SHA='efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8'
+HOOK_SHA='75a7cd724c3131bc799daaa23c3ecc2478598a9cc65b0a0e093e712434838281'
+HOOKS=((111471480, b'\x00\x10@\xb9\xc0\x03_\xd6\x08e\x89R\x00\x00\x08\x8b', 'live_get_current', 'configure_live_get'), (111485116, b'\x01\x14\x00\xb9\xc0\x03_\xd6\xe8\x03\x00\xaa\x00\x04@\xf9', 'live_set_selected', 'configure_live_selected'), (120449096, b'\x08\x10@\xb9\x1f\x01\x01k\x80\x00\x00T\x08\x18\x00\xb9', 'live_set_current', 'configure_live_current'))
+_installed_hooks={}
+_keep=[]
+def owned_entry(base,entry,expected):
+ item=_installed_hooks.get((base,entry))
+ if item is None:return False
+ import struct
+ target,cave,_=item
+ return C.string_at(target,4)==struct.pack('<I',branch(target,cave))and C.string_at(target+4,len(expected)-4)==expected[4:]
+def install(base,path,legacy):
+ import hook_arena
+ if digest(HERE/'libsingle_player_live.so')!=HOOK_SHA:raise RuntimeError('Single Player live checksum mismatch')
+ h=C.CDLL(str(HERE/'libsingle_player_live.so'))
+ h.live_bind_previous.argtypes=[C.c_size_t,C.c_uint,C.c_size_t];h.live_bind_previous.restype=C.c_uint
+ h.single_player_configure.argtypes=[C.c_size_t,C.c_uint,C.c_size_t];h.single_player_configure.restype=C.c_uint
+ h.single_player_status.argtypes=[C.c_uint];h.single_player_status.restype=C.c_uint64
+ h.live_copy_roster.argtypes=[C.c_void_p,C.c_size_t];h.live_copy_roster.restype=C.c_uint
+ names=('update','ctor','dtor','restore','pause','transition')
+ entries=(0x6b53180,0x6b52b0c,0x6b52f2c,0x72dfe40,0x72df7f4,0x72defe4)
+ # Legacy module stays disabled and retains its original trampolines.
+ for i,name in enumerate(names):
+  address=C.cast(getattr(legacy,'single_'+name),C.c_void_p).value
+  if h.live_bind_previous(base,i,address)!=1:raise RuntimeError('Single Player original binding failed')
+ for entry,prologue,name,configure in HOOKS:hook_arena.install(globals(),base,path,entry,prologue,name,configure)
+ if h.single_player_status(9)!=511:raise RuntimeError('Incomplete live control hooks')
+ # Publish only fully configured targets. Existing entry branches are unchanged.
+ with hook_arena._LOCK:
+  for entry,name in zip(entries,names):
+   pool=next(p for p in hook_arena._ARENAS[base]if p.targets[p.index[entry]])
+   pool.bind(entry,C.cast(getattr(h,'live_'+name),C.c_void_p).value)
+ _keep.extend((h,legacy))
+ return h
+class Row(C.Structure):_fields_=[('id',C.c_uint64),('word0',C.c_uint64),('slot',C.c_uint32),('order',C.c_uint32)]
+class Roster(C.Structure):_fields_=[('generation',C.c_uint64),('side',C.c_uint32),('count',C.c_uint32),('on_pitch',C.c_uint32),('reason',C.c_uint32),('rows',Row*40)]
+def roster(h):
+ d=Roster()
+ if not h or h.live_copy_roster(C.byref(d),C.sizeof(d))!=1:return None
+ return {'generation':int(d.generation),'side':int(d.side),'reason':int(d.reason),'players':[{'id':str(r.id),'slot':int(r.slot),'order':int(r.order)}for r in list(d.rows)[:min(d.count,40)]]}

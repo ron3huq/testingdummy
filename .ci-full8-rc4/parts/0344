@@ -1,0 +1,14 @@
+{
+  "synthetic_save_preserved": true,
+  "upgrade_from_failed_install": true,
+  "runtime_asset_count": 204,
+  "phone_verified": false,
+  "corrupted_native_file_repaired": true,
+  "fresh_install_all_assets_opened": true,
+  "passed": true,
+  "original_RC2_FileNotFoundException_reproduced": true,
+  "tampered_source_rejected": true,
+  "original_Java_installer_source_executed": true,
+  "warm_reopen": true,
+  "Android_AssetManager_replaced_by_filesystem_adapter": true
+}

@@ -1,0 +1,54 @@
+"""Retarget V8 lip/brow controls to actual native4522 facial driver bones.
+Derives output only from verified RV8D game assets and explicit mesh weights.
+"""
+from pathlib import Path
+import json,struct,hashlib
+from iostore import Toc
+from ci_bundle import Bundle
+from zen_clone import rename,pid
+BASE='/Game/Assets/character/RealFace/'
+def packed(a):return struct.pack('<I',len(a))+struct.pack('<%dH'%len(a),*a)
+def mesh_patch(raw,spec,weights):
+ assert hashlib.sha256(raw).hexdigest()==spec['input_sha256']
+ edits=[]
+ for section in spec['sections']:
+  oldmap=section['old_bones'];newmap=section['new_bones'];lookup={b:i for i,b in enumerate(newmap)}
+  start=section['weight_offset'];n=section['vertices'];buf=bytearray(raw[start:start+n*8]);overrides=weights[section['weights_key']]
+  for i in range(n):
+   row=overrides.get(str(i))
+   if row is None:
+    for lane in range(4):buf[i*8+lane]=lookup[oldmap[buf[i*8+lane]]]
+   else:
+    assert len(row)==8 and sum(row[4:])==255 and max(row[:4])<len(newmap)
+    buf[i*8:i*8+8]=bytes(row)
+  edits.append((start,start+n*8,bytes(buf)))
+  edits.append((section['map_start'],section['map_end'],packed(newmap)))
+ edits.append((spec['active_start'],spec['active_end'],packed(spec['active_bones'])))
+ out=bytearray(raw)
+ for a,b,value in sorted(edits,reverse=True):out[a:b]=value
+ em=struct.unpack_from('<I',raw,44)[0];struct.pack_into('<Q',out,em+80,struct.unpack_from('<Q',raw,em+80)[0]+len(out)-len(raw))
+ old=BASE+spec['old_name'];new=BASE+spec['new_name']
+ # All face material/texture imports are cloned below into the same E namespace.
+ return bytes(out)
+def build(root,spec_path,weights_path):
+ root=Path(root);doc=json.loads(Path(spec_path).read_text());weights=json.loads(Path(weights_path).read_text());livedata=root/'assets/gateway-release/livedata'
+ for spec in doc['variants']:
+  toc=Toc(str(livedata/(spec['input_container']+'_mobile_and.utoc')));base=Bundle(toc);out=Bundle(toc);out.files={};out.entries={};out.output_name=spec['output_container']+'_mobile_and'
+  mappings={BASE+Path(path).stem:BASE+Path(path).stem.replace('RV8D','RV8E')for path in toc.files if 'RV8D'in path and path.endswith('.uasset')}
+  remap={pid(a):pid(b)for a,b in mappings.items()}
+  for path,index in toc.files.items():
+   if 'RV8D'not in path:continue
+   newpath=path.replace('RV8D','RV8E');raw=toc.read(index);name=Path(path).stem;newname=name.replace('RV8D','RV8E');extension=Path(path).suffix
+   entry=None
+   if extension=='.uasset':
+    pk=int.from_bytes(toc.ids[index][:8],'little');fixed,deps=base.entries[pk];entry=(fixed,[remap.get(x,x)for x in deps])
+    if name==spec['old_name']:raw=mesh_patch(raw,spec,weights)
+    replacements={BASE+name:BASE+newname,name:newname}
+    for a,b in mappings.items():replacements[a]=b;replacements[a.rsplit('/',1)[-1]]=b.rsplit('/',1)[-1]
+    raw=rename(raw,replacements,BASE+name,BASE+newname,imports=mappings)
+   chunk=struct.pack('<Q',pid(BASE+newname))+b'\0\0\0'+(b'\2'if extension=='.uasset'else b'\3')
+   out.put(newpath,chunk,raw,entry)
+  out.write(livedata)
+if __name__=='__main__':
+ import sys
+ build(sys.argv[1],sys.argv[2],sys.argv[3])

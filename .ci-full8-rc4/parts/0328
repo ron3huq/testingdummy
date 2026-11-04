@@ -1,0 +1,120 @@
+typedef unsigned long U;typedef unsigned int W;typedef unsigned char B;typedef struct{U word0,id;}Key;
+#define EX __attribute__((visibility("default")))
+static U engine;static W bound,hookmask,configured;U live_originals[6] __attribute__((visibility("hidden")));
+static U cfg_id,cfg_generation;static W cfg_enabled;
+static U active_pad,published_generation,seen_generation;static W chosen_order=255,published_side=2,published_controller=24,published_owner=255,reason=2;
+static U updates,captures,getter_forces,setter_forces,restores,invalidations;static W suspended,ticks_hold,own_transition;
+static U thread_owner;
+static W(*original_get)(void*);static void(*original_selected)(void*,W);static void(*original_current)(void*,W);
+typedef struct{U id,word0;W slot,order;}Row;
+typedef struct{U generation;W side,count,on_pitch,reason;Row rows[40];}Roster;
+static Roster roster;static W roster_lock;
+typedef struct{void*actor,*scene,*match,*pad;W side,controller,owner,mode,current,selected,previous,counter,policy,ai;U gen;W valid;}Saved;
+static Saved saved;
+static void lock_roster(void){while(__atomic_exchange_n(&roster_lock,1,__ATOMIC_ACQUIRE)){} }
+static void unlock_roster(void){__atomic_store_n(&roster_lock,0,__ATOMIC_RELEASE);}
+static U thread_id(void){U t;__asm__ volatile("mrs %0,tpidr_el0":"=r"(t));return t;}
+static W enabled(void){return __atomic_load_n(&cfg_enabled,__ATOMIC_ACQUIRE);}
+static void deactivate(W why){__atomic_store_n(&active_pad,0,__ATOMIC_RELEASE);__atomic_store_n(&reason,why,__ATOMIC_RELAXED);}
+static void* scene(void){return ((void*(*)(void))(engine+0x698f7e0))();}
+static void* match_of(void*g){return g?((void*(*)(void*))(engine+0x698f7f0))(g):0;}
+static int valid_saved(void){return saved.valid&&scene()==saved.scene&&match_of(saved.scene)==saved.match&&*(void**)(engine+0xa5909e8+saved.side*8)==saved.actor&&((void*(*)(void*,W))(engine+0x69772f4))(saved.match,saved.controller)==saved.pad&&((W(*)(void*))(engine+0x6a4eae8))(saved.pad)==saved.side&&((W(*)(void*))(engine+0x698fc6c))(saved.pad)==saved.owner;}
+static void transition(void*p,W ai,void*m){if(!live_originals[5])return;own_transition=1;((void(*)(void*,W,void*,W))live_originals[5])(p,ai,m,0);own_transition=0;}
+static void restore(W why){
+ deactivate(why);
+ if(valid_saved()){
+  W ai=(*(W*)((B*)saved.pad+4)>>15)&1;
+  if(ai!=saved.ai)transition(saved.pad,saved.ai,saved.match);
+  *(B*)((B*)saved.pad+0x5c)=(B)saved.mode;
+  original_selected(saved.pad,saved.selected);original_current(saved.pad,saved.current);
+  *(W*)((B*)saved.pad+0x18)=saved.previous;*(W*)((B*)saved.pad+0x2c)=saved.counter;
+  *(W*)((B*)saved.match+0x1998+saved.controller*4)=saved.policy;
+  __atomic_fetch_add(&restores,1,__ATOMIC_RELAXED);
+ }
+ saved.valid=0;
+}
+static int force_for(void*p){
+ U gen=__atomic_load_n(&cfg_generation,__ATOMIC_ACQUIRE);
+ if((gen&1)||!enabled()||gen!=__atomic_load_n(&published_generation,__ATOMIC_ACQUIRE)||!p||(U)p!=__atomic_load_n(&active_pad,__ATOMIC_ACQUIRE))return 0;
+ if(((W(*)(void*))(engine+0x6a4eae8))(p)!=__atomic_load_n(&published_side,__ATOMIC_RELAXED)||((W(*)(void*))(engine+0x698fc6c))(p)!=__atomic_load_n(&published_owner,__ATOMIC_RELAXED)){deactivate(9);return 0;}
+ return 1;
+}
+EX W live_get_current(void*p){if(force_for(p)){__atomic_fetch_add(&getter_forces,1,__ATOMIC_RELAXED);return __atomic_load_n(&chosen_order,__ATOMIC_RELAXED);}return original_get(p);}
+EX void live_set_selected(void*p,W value){if(force_for(p)){if(value<22){value=__atomic_load_n(&chosen_order,__ATOMIC_RELAXED);__atomic_fetch_add(&setter_forces,1,__ATOMIC_RELAXED);}else{deactivate(10);__atomic_fetch_add(&invalidations,1,__ATOMIC_RELAXED);}}original_selected(p,value);}
+EX void live_set_current(void*p,W value){if(force_for(p)){if(value<22){value=__atomic_load_n(&chosen_order,__ATOMIC_RELAXED);__atomic_fetch_add(&setter_forces,1,__ATOMIC_RELAXED);}else{deactivate(10);__atomic_fetch_add(&invalidations,1,__ATOMIC_RELAXED);}}original_current(p,value);}
+EX void configure_live_get(U base,U fn){engine=base;original_get=(void*)fn;hookmask|=1;}
+EX void configure_live_selected(U base,U fn){engine=base;original_selected=(void*)fn;hookmask|=2;}
+EX void configure_live_current(U base,U fn){engine=base;original_current=(void*)fn;hookmask|=4;}
+EX W live_bind_previous(U base,W index,U fn){if(index>=6||!fn)return 0;if(bound&&engine!=base)return 0;engine=base;live_originals[index]=fn;bound|=1u<<index;configured=1;return 1;}
+EX W single_player_configure(U base,W on,U id){if(!configured||base!=engine||on>1||(on&&(!id||id>>63)))return 0;__atomic_fetch_add(&cfg_generation,1,__ATOMIC_ACQ_REL);__atomic_store_n(&cfg_id,id,__ATOMIC_RELEASE);__atomic_store_n(&cfg_enabled,on,__ATOMIC_RELEASE);__atomic_fetch_add(&cfg_generation,1,__ATOMIC_RELEASE);return 1;}
+static void empty_roster(W why){lock_roster();roster.count=0;roster.on_pitch=0;roster.reason=why;roster.generation++;unlock_roster();}
+static void capture(void*actor,void*match,W call_side){
+ U t=thread_id();if(!thread_owner)thread_owner=t;if(thread_owner!=t)return;
+ void*g=scene();if(!g||!match||match_of(g)!=match){if(saved.valid)restore(2);empty_roster(2);return;}
+ W pad_id=((W(*)(void))(engine+0x8223884))();
+ W controller=((W(*)(void*,W))(engine+0x698f7f8))(match,pad_id);
+ if(controller>=24){if(saved.valid)restore(3);empty_roster(3);return;}
+ void*pad=((void*(*)(void*,W))(engine+0x69772f4))(match,controller);
+ W side=pad?((W(*)(void*))(engine+0x6a4eae8))(pad):2;
+ if(side>1||((W(*)(void*))(engine+0x698fc6c))(pad)!=pad_id){if(saved.valid)restore(3);empty_roster(3);return;}
+ if(call_side!=side||*(void**)(engine+0xa5909e8+side*8)!=actor)return;
+ if(saved.valid&&(saved.actor!=actor||saved.match!=match||saved.pad!=pad||saved.side!=side||saved.owner!=pad_id))restore(9);
+ void*team=((void*(*)(void*,W))(engine+0x72c404c))(g,side);
+ if(!team){restore(7);empty_roster(7);return;}
+ Row rows[40];W count=0,on_pitch=0;U selected=__atomic_load_n(&cfg_id,__ATOMIC_ACQUIRE);W order=255;
+ for(W slot=0;slot<40;slot++){
+  W pool=((W(*)(void*,W))(engine+0x72f29c4))(team,slot);if(pool>=40)continue;
+  void*entry=((void*(*)(void*,W))(engine+0x72f2ca8))(team,pool);if(!entry)continue;
+  Key key=((Key(*)(void*))(engine+0x72f29e0))(entry);if(!key.id||key.id>>63)continue;
+  /* Preserve both words exactly. They are not interpreted as a DB cache key. */
+  W live_order=slot<11?((W(*)(void*,Key))(engine+0x72f2de0))(team,key):255;
+  rows[count++]=(Row){key.id,key.word0,slot,live_order};if(slot<11)on_pitch++;
+  if(key.id==selected&&slot<11&&live_order<22&&live_order/11==side)order=live_order;
+ }
+ lock_roster();roster.side=side;roster.count=count;roster.on_pitch=on_pitch;roster.reason=0;roster.generation++;for(W i=0;i<count;i++)roster.rows[i]=rows[i];unlock_roster();
+ __atomic_fetch_add(&captures,1,__ATOMIC_RELAXED);
+ U gen=__atomic_load_n(&cfg_generation,__ATOMIC_ACQUIRE);if(gen&1)return;
+ if(saved.valid&&saved.gen!=gen)restore(12);
+ if(gen!=seen_generation){suspended=0;ticks_hold=0;seen_generation=gen;}
+ if(!enabled()){restore(0);published_generation=gen;return;}
+ if(((W(*)(void*))(engine+0x72e1080))(match)){restore(4);return;}
+ /* Do not treat unexplained flag11/12 bits as a match-eligibility gate. */
+ if(ticks_hold){ticks_hold--;restore(11);return;}
+ if(suspended){restore(13);return;}
+ if(order>=22){restore(6);return;}
+ if(!saved.valid){
+  deactivate(12);saved.actor=actor;saved.scene=g;saved.match=match;saved.pad=pad;saved.side=side;saved.controller=controller;saved.owner=pad_id;saved.gen=gen;
+  saved.mode=*((B*)pad+0x5c);saved.current=*(W*)((B*)pad+0x10);saved.selected=*(W*)((B*)pad+0x14);saved.previous=*(W*)((B*)pad+0x18);saved.counter=*(W*)((B*)pad+0x2c);saved.policy=*(W*)((B*)match+0x1998+controller*4);saved.ai=(*(W*)((B*)pad+4)>>15)&1;saved.valid=1;
+  if(saved.ai)transition(pad,0,match);
+ }
+ /* Native control mode3 plus interception of the actual reads/writes used
+    INSIDE Update, rather than a before/after cursor assignment alone. */
+ *((B*)pad+0x5c)=3;*(W*)((B*)match+0x1998+controller*4)=3;
+ original_selected(pad,order);original_current(pad,order);
+ __atomic_store_n(&chosen_order,order,__ATOMIC_RELAXED);__atomic_store_n(&published_side,side,__ATOMIC_RELAXED);__atomic_store_n(&published_controller,controller,__ATOMIC_RELAXED);__atomic_store_n(&published_owner,pad_id,__ATOMIC_RELAXED);__atomic_store_n(&published_generation,gen,__ATOMIC_RELEASE);__atomic_store_n(&reason,1,__ATOMIC_RELAXED);__atomic_store_n(&active_pad,(U)pad,__ATOMIC_RELEASE);
+}
+EX void live_update(void*actor,const void*a1,const void*a2,void*match,W side,float dt){__atomic_fetch_add(&updates,1,__ATOMIC_RELAXED);capture(actor,match,side);((void(*)(void*,const void*,const void*,void*,W,float))live_originals[0])(actor,a1,a2,match,side,dt);capture(actor,match,side);}
+__attribute__((used,noinline,visibility("hidden")))void live_event(W kind,U a0,U a1,U a2){
+ if(thread_owner&&thread_owner!=thread_id()){deactivate(14);return;}
+ if(own_transition)return;
+ if(kind==1){if(saved.valid&&a1==saved.side)restore(9);if(a1==roster.side)empty_roster(9);}
+ else if(kind==2){if(saved.valid&&(void*)a0==saved.actor){restore(9);empty_roster(9);}}
+ else if(kind==3){if(saved.valid&&(void*)a0==saved.pad){restore(11);ticks_hold=2;}}
+ else if(kind==4){if(a1&1){restore(4);}}
+ else if(kind==5){if(a1&1){restore(13);suspended=1;}else suspended=0;}
+}
+#define STUB(name,index,offset) EX __attribute__((naked))void name(void){__asm__ volatile( \
+"sub sp,sp,#0x120\n" \
+"stp x0,x1,[sp,#0]\nstp x2,x3,[sp,#0x10]\nstp x4,x5,[sp,#0x20]\nstp x6,x7,[sp,#0x30]\n" \
+"stp x8,x9,[sp,#0x40]\nstp x10,x11,[sp,#0x50]\nstp x12,x13,[sp,#0x60]\nstp x14,x15,[sp,#0x70]\nstp x16,x17,[sp,#0x80]\nstp x18,x30,[sp,#0x90]\n" \
+"stp q0,q1,[sp,#0xa0]\nstp q2,q3,[sp,#0xc0]\nstp q4,q5,[sp,#0xe0]\nstp q6,q7,[sp,#0x100]\n" \
+"mov x3,x2\nmov x2,x1\nmov x1,x0\nmov w0,#" #index "\nbl live_event\n" \
+"ldp q0,q1,[sp,#0xa0]\nldp q2,q3,[sp,#0xc0]\nldp q4,q5,[sp,#0xe0]\nldp q6,q7,[sp,#0x100]\n" \
+"ldp x0,x1,[sp,#0]\nldp x2,x3,[sp,#0x10]\nldp x4,x5,[sp,#0x20]\nldp x6,x7,[sp,#0x30]\n" \
+"ldp x8,x9,[sp,#0x40]\nldp x10,x11,[sp,#0x50]\nldp x12,x13,[sp,#0x60]\nldp x14,x15,[sp,#0x70]\nldp x16,x17,[sp,#0x80]\nldp x18,x30,[sp,#0x90]\n" \
+"adrp x16,live_originals\nadd x16,x16,:lo12:live_originals\nldr x16,[x16,#" #offset "]\nadd sp,sp,#0x120\nbr x16\n");}
+STUB(live_ctor,1,8) STUB(live_dtor,2,16) STUB(live_restore,3,24) STUB(live_pause,4,32) STUB(live_transition,5,40)
+EX W live_copy_roster(void*out,U bytes){if(!out||bytes<sizeof(Roster))return 0;lock_roster();U*d=out,*s=(U*)&roster;for(U i=0;i<sizeof(Roster)/sizeof(U);i++)d[i]=s[i];unlock_roster();return 1;}
+EX U single_player_status(W i){switch(i){case 0:return configured;case 1:return __atomic_load_n(&cfg_id,__ATOMIC_ACQUIRE);case 2:return saved.valid?saved.ai:0;case 3:return enabled()&&__atomic_load_n(&active_pad,__ATOMIC_ACQUIRE)!=0;case 4:return __atomic_load_n(&cfg_generation,__ATOMIC_ACQUIRE);case 5:return __atomic_load_n(&published_side,__ATOMIC_RELAXED);case 6:return __atomic_load_n(&published_controller,__ATOMIC_RELAXED);case 7:return __atomic_load_n(&chosen_order,__ATOMIC_RELAXED);case 8:return __atomic_load_n(&reason,__ATOMIC_RELAXED);case 9:return (bound<<3)|hookmask;case 10:return updates;case 11:return captures;case 12:return getter_forces;case 13:return setter_forces;case 14:return restores;case 15:return roster.count;case 16:return roster.on_pitch;case 17:return invalidations;default:return 0;}}
+EX void flush(void*start,U n){U ctr;__asm__ volatile("mrs %0,ctr_el0":"=r"(ctr));U ds=4ul<<((ctr>>16)&15),is=4ul<<(ctr&15),end=(U)start+n;for(U p=(U)start&~(ds-1);p<end;p+=ds)__asm__ volatile("dc cvau,%0"::"r"(p):"memory");__asm__ volatile("dsb ish":::"memory");for(U p=(U)start&~(is-1);p<end;p+=is)__asm__ volatile("ic ivau,%0"::"r"(p):"memory");__asm__ volatile("dsb ish;isb":::"memory");}
+EX void store_instruction(void*p,W v){__atomic_store_n((W*)p,v,__ATOMIC_RELEASE);}

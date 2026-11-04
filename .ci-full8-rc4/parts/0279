@@ -1,0 +1,1772 @@
+{
+  "release_id": "V19.1-FULL8-RC4-live-roster-control-V8-rig-frame",
+  "modules": [
+    "account_state",
+    "ai_division",
+    "assemble_gate_player",
+    "camera_hooks_payload",
+    "camera_page_hooks_payload",
+    "camera_page_runtime",
+    "camera_runtime",
+    "club_pack",
+    "club_store",
+    "cup16_mode",
+    "cup16_service",
+    "cup_entry",
+    "custom_card_training",
+    "custom_stadium",
+    "developed_preview",
+    "device_checks",
+    "device_file_log",
+    "division_history",
+    "diy_binding_outer",
+    "diy_boosters",
+    "diy_candidate_audit",
+    "diy_candidate_delta",
+    "diy_candidate_migration",
+    "diy_claim_pool",
+    "diy_delivery",
+    "diy_editor_settings",
+    "diy_game_integration",
+    "diy_gateway",
+    "diy_gateway_overlay",
+    "diy_hashes",
+    "diy_integration_retention",
+    "diy_iostore",
+    "diy_lifecycle",
+    "diy_materials",
+    "diy_models",
+    "diy_native",
+    "diy_native_abilities",
+    "diy_native_reader",
+    "diy_payload_contract",
+    "diy_player_generation",
+    "diy_profile",
+    "diy_profile_catalog",
+    "diy_progress",
+    "diy_publication",
+    "diy_resource_sharing",
+    "diy_route_templates",
+    "diy_routes",
+    "diy_runtime",
+    "diy_search",
+    "diy_startup",
+    "draw_presentation",
+    "e186_cr_stats",
+    "e227_boaz_card_extension",
+    "e227_card_extension",
+    "editor_boosters",
+    "editor_condition",
+    "editor_etc2",
+    "editor_image_aliases",
+    "editor_portraits",
+    "editor_progression",
+    "efhub_new_player_pool",
+    "efhub_new_player_pool_data",
+    "embedded_gateway",
+    "entry_info",
+    "event_availability",
+    "export_ai_playing_styles",
+    "four_card_skill_updates",
+    "four_native_card_profiles",
+    "fps120_runtime",
+    "gate_logic",
+    "league_sim_data",
+    "legend_card_style",
+    "legend_cr7_grants",
+    "legends_v10",
+    "list_projection_cache",
+    "magical_dribblers_data",
+    "magical_dribblers_update",
+    "managed_card_pool",
+    "ml_career",
+    "ml_event",
+    "ml_event_entry",
+    "ml_event_match",
+    "ml_gacha_ui",
+    "ml_super_league",
+    "model_card_corrections",
+    "my_league",
+    "my_league_opponents",
+    "native_dv_formations",
+    "new_card_import_policy",
+    "new_cards_pack",
+    "new_cards_pack_data",
+    "new_player_pool_v19",
+    "opponent_squad",
+    "optional_game_features",
+    "owned_coaches",
+    "pes_const",
+    "pes_msg",
+    "pes_tables",
+    "player_appearance",
+    "player_editor",
+    "player_foot_data",
+    "player_identity",
+    "player_match_stats",
+    "player_operations",
+    "player_parameters",
+    "player_skills",
+    "player_teams",
+    "player_training",
+    "pogba_card_profile",
+    "potw_oct22_data",
+    "potw_oct22_update",
+    "privacy_profile",
+    "random_dv_prepared",
+    "random_dv_squad",
+    "recommended_allocation",
+    "release_save",
+    "requested_coaches",
+    "robben_card_profile",
+    "runtime_probe",
+    "save_manager",
+    "save_transfer",
+    "scout_team_categories",
+    "six_card_skill_updates",
+    "six_cards_pack",
+    "six_native_card_profiles",
+    "special_uniforms",
+    "two_card_argentina_updates",
+    "two_card_style_updates",
+    "verified_card_update",
+    "vscom_result",
+    "warehouse_operations",
+    "ziru_data"
+  ],
+  "commands": 134,
+  "seed_players": 23,
+  "seed_squads": 1,
+  "external_imports": [
+    "__future__",
+    "argparse",
+    "collections",
+    "copy",
+    "cryptography",
+    "csv",
+    "ctypes",
+    "datetime",
+    "fractions",
+    "gzip",
+    "hashlib",
+    "java",
+    "json",
+    "logging",
+    "msgpack",
+    "os",
+    "pathlib",
+    "random",
+    "re",
+    "sqlite3",
+    "struct",
+    "sys",
+    "threading",
+    "time",
+    "typing",
+    "zlib"
+  ],
+  "files": [
+    {
+      "path": "custom-resources/legends-v10/dt870_mobile_and.cpk",
+      "bytes": 7680000,
+      "sha256": "6fa4b9050f0a125e9ee295a7260ca3f1b5f718cdca6d5af94e2cc697d215fc4a"
+    },
+    {
+      "path": "custom-resources/legends-v10/pc3700_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "4bfd4f7c74670f5a6fccf4ec3197594c4eaa8b8c369383aee899ae1bc0efeec3"
+    },
+    {
+      "path": "custom-resources/legends-v10/pc3700_mobile_and.ucas",
+      "bytes": 273470928,
+      "sha256": "2b8e4bafc4d6b82c8d64649a12590f839dad6088c4feb2cc06d2394cd50fae1c"
+    },
+    {
+      "path": "custom-resources/legends-v10/pc3700_mobile_and.utoc",
+      "bytes": 756962,
+      "sha256": "0caff6ef1dc94fe1224d194600cbcb68c1fdce32170d84b2614f0ab0e933eb50"
+    },
+    {
+      "path": "livedata/dt870_mobile_and.cpk",
+      "bytes": 7680000,
+      "sha256": "6fa4b9050f0a125e9ee295a7260ca3f1b5f718cdca6d5af94e2cc697d215fc4a"
+    },
+    {
+      "path": "livedata/pc9257_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "a8135500c905108577fec26753a54caa31befccc026c7a1972cce2c9a677bdf9"
+    },
+    {
+      "path": "livedata/pc9257_mobile_and.ucas",
+      "bytes": 2894032,
+      "sha256": "90a8e75f6dc955496927fd67a2eacd7b6497bbe64a329feb5a9f17c221697b4d"
+    },
+    {
+      "path": "livedata/pc9257_mobile_and.utoc",
+      "bytes": 26970,
+      "sha256": "0c2fea6b39b7d8ac1c96e665df62c3ac7a34341f674dc73750b9640d737ce075"
+    },
+    {
+      "path": "livedata/pc9258_mobile_and.pak",
+      "bytes": 591602,
+      "sha256": "c5c85d50cb3255ae6d5f1357f3526b90f0dab868d20628a0a1e5913278c2a56f"
+    },
+    {
+      "path": "livedata/pc9258_mobile_and.ucas",
+      "bytes": 6266496,
+      "sha256": "2e84cef82c83bf10f275c136221f8fc58cf53cbec40d2d3324a977409c6b4d8a"
+    },
+    {
+      "path": "livedata/pc9258_mobile_and.utoc",
+      "bytes": 49017,
+      "sha256": "96c0dc1958d3715c2d278cf44039c993fc81647609be27ef286a86a1b3b7eac9"
+    },
+    {
+      "path": "livedata/pc9259_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "d0cce30a7566fefa0d20a01c17070806ab8222f702e2ace7fbb7a6216a7344a9"
+    },
+    {
+      "path": "livedata/pc9259_mobile_and.ucas",
+      "bytes": 453872,
+      "sha256": "a75620c9f842236763920f72e81677ab937a3673b2bcb0c05fe37fe9bf6bc6ef"
+    },
+    {
+      "path": "livedata/pc9259_mobile_and.utoc",
+      "bytes": 5070,
+      "sha256": "9f73ffe9af1fe713ae0aa5a96c89e4a21a3d52454bac24717437d4d7f4e04961"
+    },
+    {
+      "path": "livedata/pc9260_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "8f695a6f055f4d849134cc777c6b35cbe4ecb752e6737e60f6f8bd41edfe4362"
+    },
+    {
+      "path": "livedata/pc9260_mobile_and.ucas",
+      "bytes": 2425696,
+      "sha256": "1a6929c6553a8c9605a01d5e8339929bfa3ccd70d003553108240eb5babb9f41"
+    },
+    {
+      "path": "livedata/pc9260_mobile_and.utoc",
+      "bytes": 25924,
+      "sha256": "c202d983bf1e56a7689cc25d51762ec965b1a353d203ccca163be0ed7f50b7e4"
+    },
+    {
+      "path": "livedata/pc9261_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "8676453f1a9f0a15f3b9beaea8aac4d86af198b1cfdb27f1acb7f73bce1a1a48"
+    },
+    {
+      "path": "livedata/pc9261_mobile_and.ucas",
+      "bytes": 9390144,
+      "sha256": "2c4c1c17854bd9340af9dea7ef81a01f5c292f2e703034990b06267a031a720d"
+    },
+    {
+      "path": "livedata/pc9261_mobile_and.utoc",
+      "bytes": 41644,
+      "sha256": "31d8583c17735cbf6680305f9b4040fbd91c8eed090196f84c20607a6e2f8d45"
+    },
+    {
+      "path": "livedata/pc9262_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "572293f4d7ce17a00bb04e9f1e400005a8704946a039d3888d223d611db66e38"
+    },
+    {
+      "path": "livedata/pc9262_mobile_and.ucas",
+      "bytes": 7751456,
+      "sha256": "4c8471d49f80984b3d4e5202cbe0c22fb0d0740473cc409c2d11c4de049dbe18"
+    },
+    {
+      "path": "livedata/pc9262_mobile_and.utoc",
+      "bytes": 46487,
+      "sha256": "b4158958abc75691b7439be88f027685e2ed32ed60c3e74884f95c3fa0b670f4"
+    },
+    {
+      "path": "outputs/efootball/local-club.sqlite3",
+      "bytes": 33267712,
+      "sha256": "b721840f5787c979c34180f2a6bf3ad2d97417da7427037303bd3c8d8b9fbb75"
+    },
+    {
+      "path": "outputs/reference/card-class-table.csv",
+      "bytes": 1434997,
+      "sha256": "e341a7da6499c712bdb1defa7caff48e790a38493b9849195f42fa358c44774f"
+    },
+    {
+      "path": "outputs/reference/coach_boost_map.json",
+      "bytes": 163,
+      "sha256": "b93a5c3ac24142388124abd0ded223762fb59d241f2d44722d3efb91ff567c5a"
+    },
+    {
+      "path": "outputs/reference/decrypted/000_gate_CMD_GET_SERVER_ENV_resp.txt",
+      "bytes": 4576,
+      "sha256": "5c43644d4858603b73d91333b15bd32b51980f351cc7011cafdfcc7898606673"
+    },
+    {
+      "path": "outputs/reference/decrypted/001_gate_CMD_GET_USER_EULA_INFO_resp.txt",
+      "bytes": 796,
+      "sha256": "b9703985078431ecb56a1df7c75e13d20154814a203a3cf19fe74ce39717c71b"
+    },
+    {
+      "path": "outputs/reference/decrypted/002_gate_CMD_GET_COUNTRY_LIST_resp.txt",
+      "bytes": 13578,
+      "sha256": "3603fccb81a5aa9ca3f6ea445a07ac3bd4850cab817672027619d63dc0494d64"
+    },
+    {
+      "path": "outputs/reference/decrypted/003_gate_CMD_GET_AGE_GATE_REQUIREMENTS_resp.txt",
+      "bytes": 101,
+      "sha256": "91e8adfb5bf8714c251fa153e5eb703de76f515ae952670a991f0f79f7c6a112"
+    },
+    {
+      "path": "outputs/reference/decrypted/004_gate_CMD_LOGIN_resp.txt",
+      "bytes": 57713,
+      "sha256": "9d5ae511fd6f38a2d950ca3aa7ae1163614840296731c31c4ecdc5ed83366f58"
+    },
+    {
+      "path": "outputs/reference/decrypted/005_gate_CMD_SET_TRACKRECORD_resp.txt",
+      "bytes": 50,
+      "sha256": "989b6b89bb8f8cc8c02f2d4e05d439c23111b2499c79e84b6278ee0ce0025bae"
+    },
+    {
+      "path": "outputs/reference/decrypted/006_gate_CMD_GET_STADIUM_DATA_resp.txt",
+      "bytes": 1812,
+      "sha256": "844583c7e4887b1b766ab54d14ffd6e771c38fb988993965bb223c3a6e1ca17c"
+    },
+    {
+      "path": "outputs/reference/decrypted/007_gate_CMD_GET_GAMERELAY_QUALITYCHECK_LIST_resp.txt",
+      "bytes": 12500,
+      "sha256": "4c59f7c36995d4f07171280d413181943d76d6cecb53866d709a8d561e389439"
+    },
+    {
+      "path": "outputs/reference/decrypted/008_gate_CMD_GET_MAINMENU_INFO_resp.txt",
+      "bytes": 21696,
+      "sha256": "ace997591e530b6d57fc9ef50dd28391a98f833e4d30bf1e07270b53761e9c4d"
+    },
+    {
+      "path": "outputs/reference/decrypted/009_gate_CMD_SET_GAMERELAY_QUALITY_resp.txt",
+      "bytes": 56,
+      "sha256": "83a4b2e776aaca71f98c4ea323df7010801d665ee9fe46dbb950c7398c029356"
+    },
+    {
+      "path": "outputs/reference/decrypted/012_gate_CMD_GET_MAINMENU_MATCH_CREATIVE_INFO_resp.txt",
+      "bytes": 56228,
+      "sha256": "415418a9ac9b451d135ef75f905a8edef2d77f3b1d5462196283f48798dca51b"
+    },
+    {
+      "path": "outputs/reference/decrypted/014_gate_CMD_SET_MENU_TRACKRECORD_resp.txt",
+      "bytes": 55,
+      "sha256": "242f4b372f96cb29fd774ae7b62ee56797bc02b6f361bd6e08dbfb099570ead3"
+    },
+    {
+      "path": "outputs/reference/decrypted/015_gate_CMD_GET_MYCLUB_CONTRACT_INFO_resp.txt",
+      "bytes": 504,
+      "sha256": "82f2412a85460f744e6056b61bd94ce04019245acb6b41deb55f8e885f445f41"
+    },
+    {
+      "path": "outputs/reference/decrypted/016_gate_CMD_GET_MYCLUB_AGENTLIST_resp.txt",
+      "bytes": 78747,
+      "sha256": "5bbc424bd66d25a607b13a320012f99e0a94629d3484e5bbb401b9630de013e9"
+    },
+    {
+      "path": "outputs/reference/decrypted/017_gate_CMD_USE_MYCLUB_AGENT_resp.txt",
+      "bytes": 10063,
+      "sha256": "4551f287173705e8afccfec62457a4ab9e7bc166492a6a9e579eedbf3bf0dd11"
+    },
+    {
+      "path": "outputs/reference/decrypted/019_gate_CMD_SEND_ANALYSIS_LOG_resp.txt",
+      "bytes": 52,
+      "sha256": "a4f00a41818ea93ee9df04581511a0f1deb199dee632baf7fa854b9061fe08f6"
+    },
+    {
+      "path": "outputs/reference/decrypted/023_gate_CMD_SET_MYCLUB_SQUAD_INFO_resp.txt",
+      "bytes": 132,
+      "sha256": "5df7be049627497c96929a38abcbb933f3d515b4977ed1bb3c95460479faebf1"
+    },
+    {
+      "path": "outputs/reference/decrypted/029_gate_CMD_GET_PATHTOGLORY_INFO_resp.txt",
+      "bytes": 57683,
+      "sha256": "5383ee44f91760a5199d87d89f9d2c224651561fa69808da18f0337b3c75bb34"
+    },
+    {
+      "path": "outputs/reference/decrypted/030_gate_CMD_CHECK_MATCH_ENABLE_resp.txt",
+      "bytes": 123,
+      "sha256": "b823dd5e137e5790079a47128b882c5320ef4ce2d543f01d17882ce78818ffb9"
+    },
+    {
+      "path": "outputs/reference/decrypted/032_gate_CMD_SET_PATHTOGLORY_GAMERESULT_resp.txt",
+      "bytes": 1106,
+      "sha256": "54317c90113bd66c9594609f9df9ac50cbadb2ebdb624151bbbc28c6c02316ee"
+    },
+    {
+      "path": "outputs/reference/decrypted/046_gate_CMD_GET_MAILBOX_INFO_resp.txt",
+      "bytes": 13709,
+      "sha256": "872c597ebe1148ec47d2ac2ad1bac84f57c8eca572b6f6fed31199006026e972"
+    },
+    {
+      "path": "outputs/reference/decrypted/047_gate_CMD_SET_NEWSLIST_resp.txt",
+      "bytes": 47,
+      "sha256": "3f921057160fe61291d6a487801560f85a114066aee94ae051a2033c8abb7fd4"
+    },
+    {
+      "path": "outputs/reference/decrypted/049_gate_CMD_IS_FIRST_LEAGUE_resp.txt",
+      "bytes": 70,
+      "sha256": "bbeecefa6dd1df6fad28e1495d4dd6b00d6601ce1b4fbae70b558d8e9ff86568"
+    },
+    {
+      "path": "outputs/reference/decrypted/050_gate_CMD_GET_LEAGUE_COM_INFO_resp.txt",
+      "bytes": 6640,
+      "sha256": "0de6655ccfce8675c407c9ca65dbcb1b1d8578116378c52c5943ab59613e8a0c"
+    },
+    {
+      "path": "outputs/reference/decrypted/053_gate_CMD_GET_VSCOM_OPPONENT_resp.txt",
+      "bytes": 16701,
+      "sha256": "6ee58643b13f2d2d5363ac3fd5fe8fe87bcce0c73c4625bd32c2d7206eb4db53"
+    },
+    {
+      "path": "outputs/reference/decrypted/054_gate_CMD_START_GAME_resp.txt",
+      "bytes": 9443,
+      "sha256": "e96dad9f8a83795e870175da1f37acf66bea9c4c445282bfa2cd66f5a587dadf"
+    },
+    {
+      "path": "outputs/reference/decrypted/055_gate_CMD_ADD_MYCLUB_AUCTION_WATCH_LIST_resp.txt",
+      "bytes": 71,
+      "sha256": "979b8a33b64757a2b6f4111a1ed0590154ae7908893e7166ba029f49bb624a3e"
+    },
+    {
+      "path": "outputs/reference/decrypted/056_gate_CMD_BUY_MYCLUB_MARKET_COACH_resp.txt",
+      "bytes": 396,
+      "sha256": "6626c7847b4ec426135fb5963ce1548590756abf50ca23856394e46179017f55"
+    },
+    {
+      "path": "outputs/reference/decrypted/057_gate_CMD_BUY_MYCLUB_SCOUT_PLAYER_resp.txt",
+      "bytes": 748,
+      "sha256": "99365ccf741d14b648871bbb2f5e4697f2b2393ba80c28cad76b1343e0014f78"
+    },
+    {
+      "path": "outputs/reference/decrypted/058_gate_CMD_CHECK_STRING_resp.txt",
+      "bytes": 47,
+      "sha256": "6b29918be533bd3f14c7bd6709bc3c03bfa9c20951148141f6e26e58be3b4b16"
+    },
+    {
+      "path": "outputs/reference/decrypted/059_gate_CMD_CREATEUSER_resp.txt",
+      "bytes": 189,
+      "sha256": "49a125765484666d363863605aab22617211225608bedc7ec43d5296a09159cb"
+    },
+    {
+      "path": "outputs/reference/decrypted/060_gate_CMD_EXTEND_MYCLUB_COACH_resp.txt",
+      "bytes": 84,
+      "sha256": "884639e0e841c1ad38fb70f4ea172c8d26db965105b41ea7702cc5dc18c2400b"
+    },
+    {
+      "path": "outputs/reference/decrypted/061_gate_CMD_EXTEND_MYCLUB_GAMEPLAYER_resp.txt",
+      "bytes": 89,
+      "sha256": "bcef5a8cf64913d82ad1644f4461a246dd5d3805163e2a167553bf442ed416d7"
+    },
+    {
+      "path": "outputs/reference/decrypted/063_gate_CMD_GATE_INFO_resp.txt",
+      "bytes": 143,
+      "sha256": "859648f29ea510769a12ba49db0a2eaf289c23f9974b14e2f104a7e9d612de27"
+    },
+    {
+      "path": "outputs/reference/decrypted/064_gate_CMD_GENERIC_resp.txt",
+      "bytes": 28,
+      "sha256": "0f03f1f04e6dbe1ddc1151ac5f3af9ce909c866acdbd7b1a5e2c24a17531e05f"
+    },
+    {
+      "path": "outputs/reference/decrypted/065_gate_CMD_GETAUCTIONLIST_resp.txt",
+      "bytes": 822,
+      "sha256": "4cbd796d4c35492f8e3a4ae121cbdd23c994a37d0aaebc9c37763ad4b26d6236"
+    },
+    {
+      "path": "outputs/reference/decrypted/066_gate_CMD_GETSEASONSCHEDULE_resp.txt",
+      "bytes": 22765,
+      "sha256": "803c85d75ae6b23a8814f165ef238ab259783e5dc75246c8b9604095e7be196a"
+    },
+    {
+      "path": "outputs/reference/decrypted/067_gate_CMD_GET_ADVERTISEMENT_resp.txt",
+      "bytes": 359,
+      "sha256": "4d821668a201d140a9ef6d6b95d9d183c19db64886a4b4b5f6307adf83710576"
+    },
+    {
+      "path": "outputs/reference/decrypted/068_gate_CMD_GET_COMMENTARY_DATA_resp.txt",
+      "bytes": 4708,
+      "sha256": "58e91cfc60a21708c9237660ad3847fe8420ce90df911ca16666b3b006204a4b"
+    },
+    {
+      "path": "outputs/reference/decrypted/069_gate_CMD_GET_ENTRY_INFO_resp.txt",
+      "bytes": 231822,
+      "sha256": "bbe582dba5b764c27e7504735fd135cc40e46bf0c832233140e71c9195b090dd"
+    },
+    {
+      "path": "outputs/reference/decrypted/070_gate_CMD_GET_EULA_AREA_LIST_resp.txt",
+      "bytes": 824,
+      "sha256": "91edab3c64708dab726aaa6dd054ea16eea0c464b18e9ed2d3b129c791ade4a2"
+    },
+    {
+      "path": "outputs/reference/decrypted/071_gate_CMD_GET_EVENT_LIST_AND_LOG_resp.txt",
+      "bytes": 29277,
+      "sha256": "7f2df01d1ea8a201d9eea18ab9129224457d405a48c8ba4a04161ee79f024294"
+    },
+    {
+      "path": "outputs/reference/decrypted/072_gate_CMD_GET_GAMERESULT_LIST_resp.txt",
+      "bytes": 91,
+      "sha256": "f3e96a8dff2caf001593dd7b64d09585c5c47aa365f72cd37c5231942a5c3606"
+    },
+    {
+      "path": "outputs/reference/decrypted/073_gate_CMD_GET_GPSHOP_ITEM_LIST_resp.txt",
+      "bytes": 80,
+      "sha256": "74cf9563442083fee001852fcb9468d07b8286cb01b84c4c30cd9bf380a4a484"
+    },
+    {
+      "path": "outputs/reference/decrypted/074_gate_CMD_GET_KGS_GUEST_LOGIN_TOKEN_resp.txt",
+      "bytes": 105,
+      "sha256": "9a66b1d9700020a8e7f15b151bfcb7311c9d9e17143cc45bf809e222e1bc03a4"
+    },
+    {
+      "path": "outputs/reference/decrypted/075_gate_CMD_GET_KONAMIID_INFO_NO_LOGIN_resp.txt",
+      "bytes": 82,
+      "sha256": "6e50aceb2cc5dec3ca63af66c75272adfa9ec774c3472a3f1a56de4678f4a0ae"
+    },
+    {
+      "path": "outputs/reference/decrypted/076_gate_CMD_GET_LOCALIZED_COUNTRY_NAME_resp.txt",
+      "bytes": 76,
+      "sha256": "906a124ef7675f4ee99e428b98f450b4dc515b1dbabc5e1ead84f87e96039241"
+    },
+    {
+      "path": "outputs/reference/decrypted/077_gate_CMD_GET_LOGIN_BONUS_INFO_resp.txt",
+      "bytes": 87,
+      "sha256": "e5bf710175bfae64fb25d90ac2cf50b73caebe1198ea5d39f98ff62082a7d4f5"
+    },
+    {
+      "path": "outputs/reference/decrypted/078_gate_CMD_GET_MAINTENANCE_INFO_resp.txt",
+      "bytes": 107,
+      "sha256": "d5f123db60b8cf877f31c2ab212157f4e380269c780d598005296faffdf6e808"
+    },
+    {
+      "path": "outputs/reference/decrypted/079_gate_CMD_GET_MYCLUB_ACHIEVEMENTLIST_resp.txt",
+      "bytes": 221,
+      "sha256": "81326ae088cedd8cc7045672af6980580067fee14f43118378ab28e12a49d756"
+    },
+    {
+      "path": "outputs/reference/decrypted/080_gate_CMD_GET_MYCLUB_ACHIEVEMENT_INFO_LIST_resp.txt",
+      "bytes": 192,
+      "sha256": "85d1245da1439e00ce862e18cb69fdb43ef3ff4096cfa1ef3dd1fa5502691197"
+    },
+    {
+      "path": "outputs/reference/decrypted/081_gate_CMD_GET_MYCLUB_ACHIEVEMENT_LIST_resp.txt",
+      "bytes": 186,
+      "sha256": "fbea5dfa27c5df1a02932cbf0789c636b764cf3a9f1f3c07b6f9046e779223c1"
+    },
+    {
+      "path": "outputs/reference/decrypted/082_gate_CMD_GET_MYCLUB_AGENT_BOX_INFO_resp.txt",
+      "bytes": 126,
+      "sha256": "8b258e7de97edc803f821954b703f2d0cdda26a4368dc157c5cfae2e11472197"
+    },
+    {
+      "path": "outputs/reference/decrypted/083_gate_CMD_GET_MYCLUB_AUCTION_UPDATE_INFO_resp.txt",
+      "bytes": 396,
+      "sha256": "23d7e00f8663a4bc31e4abf62a4fdab3159063e60179e3f74604c8a67dc442b1"
+    },
+    {
+      "path": "outputs/reference/decrypted/084_gate_CMD_GET_MYCLUB_COACHES_NORMA_resp.txt",
+      "bytes": 240,
+      "sha256": "cc1f62d8ba9521afe55380ca43700f845985bd652da43a24818b3b254e464ef1"
+    },
+    {
+      "path": "outputs/reference/decrypted/086_gate_CMD_GET_MYCLUB_COMMENTARY_INFO_resp.txt",
+      "bytes": 613,
+      "sha256": "1ec9cb0a3acd03a4250d8cf1c5c5205709dd4031d18f46cb7b617791b73dd97c"
+    },
+    {
+      "path": "outputs/reference/decrypted/087_gate_CMD_GET_MYCLUB_FRIEND_PENDING_LIST_resp.txt",
+      "bytes": 550,
+      "sha256": "aac6f1322a3881a941cf6eae975515a1ac54131d833589d540383462ef5a19bd"
+    },
+    {
+      "path": "outputs/reference/decrypted/089_gate_CMD_GET_MYCLUB_MARKET_AGENTLIST_resp.txt",
+      "bytes": 164,
+      "sha256": "4def94c9df36aee29a0dbadbb93894b624ae7cb33c28c22910423d045d2cc9fd"
+    },
+    {
+      "path": "outputs/reference/decrypted/090_gate_CMD_GET_MYCLUB_MARKET_COACHLIST_resp.txt",
+      "bytes": 437,
+      "sha256": "f00fa9231cd74a82748ece6afc957fe97ad7dd720d16faebc472e0c6a470e4b8"
+    },
+    {
+      "path": "outputs/reference/decrypted/091_gate_CMD_GET_MYCLUB_MATCH_STATS_resp.txt",
+      "bytes": 101,
+      "sha256": "2ecd1189e7fd90b0ef4b1eeca3f957d68b561e597e830bbf381058636feeca83"
+    },
+    {
+      "path": "outputs/reference/decrypted/092_gate_CMD_GET_MYCLUB_NEWSLIST_resp.txt",
+      "bytes": 523,
+      "sha256": "e5953a974984749342dad219deafe540e43b966c306b68a9ec15aedf989d43e3"
+    },
+    {
+      "path": "outputs/reference/decrypted/093_gate_CMD_GET_MYCLUB_PACK_LIST_resp.txt",
+      "bytes": 30562,
+      "sha256": "2c61de3720f04d5721d8238e47e3f8860dba02668471e87e38677dfb54829378"
+    },
+    {
+      "path": "outputs/reference/decrypted/094_gate_CMD_GET_MYCLUB_PLAYER_DATA_resp.txt",
+      "bytes": 157633,
+      "sha256": "fc5f409a66a6ad452ce3f39996bdbe63d93c5c2699a15c8122e81275b044e000"
+    },
+    {
+      "path": "outputs/reference/decrypted/095_gate_CMD_GET_MYCLUB_PRESENTLIST_resp.txt",
+      "bytes": 89,
+      "sha256": "6375b5b462eaa81aac65df8f87bbe1ab96d806d83572523477eed9a7f79dc96f"
+    },
+    {
+      "path": "outputs/reference/decrypted/096_gate_CMD_GET_MYCLUB_PROCURABLE_GAMEPLAYERLIST_resp.txt",
+      "bytes": 6285,
+      "sha256": "905e00e7e1783b031d1830137f3be738ab4b82dff475c03e01a9c8316bd74855"
+    },
+    {
+      "path": "outputs/reference/decrypted/097_gate_CMD_GET_MYCLUB_SCOUT_PLAYERLIST_resp.txt",
+      "bytes": 69885,
+      "sha256": "51dc1515fc60bcb794d45ce2f2c8c896cb375524a6fd82ec8050603da53b5380"
+    },
+    {
+      "path": "outputs/reference/decrypted/098_gate_CMD_GET_MYCLUB_USER_DETAIL_resp.txt",
+      "bytes": 295,
+      "sha256": "023f51584c8c42b5f49434c29060ba7194b060b036958e0ffa364823df93bb4b"
+    },
+    {
+      "path": "outputs/reference/decrypted/100_gate_CMD_GET_ONLINE_AD_FILE_resp.txt",
+      "bytes": 43,
+      "sha256": "a10fbd0e977c62777b0358a1e766c0c85455399119f1353a059078d4d2fe4f20"
+    },
+    {
+      "path": "outputs/reference/decrypted/101_gate_CMD_GET_ONLINE_MATCH_INFO_resp.txt",
+      "bytes": 311,
+      "sha256": "ada335754ef684ff581865acdba43a3da28cea4ff7c1bec1bcd76c1e67ef5801"
+    },
+    {
+      "path": "outputs/reference/decrypted/102_gate_CMD_GET_PRODUCT_LIST_resp.txt",
+      "bytes": 1935,
+      "sha256": "76d0c49dfea988f4d25842d1e1370662e13065ffd35462f5a0e5ba2b8373fcac"
+    },
+    {
+      "path": "outputs/reference/decrypted/103_gate_CMD_GET_SEASON_INFO_resp.txt",
+      "bytes": 7585,
+      "sha256": "e0d8e889e4136dfc228fcf28574d7d152244591908d792743e78c33c421a3698"
+    },
+    {
+      "path": "outputs/reference/decrypted/104_gate_CMD_GET_SEASON_POINT_RENTALPLAYER_LIST_resp.txt",
+      "bytes": 30893,
+      "sha256": "4d5702898cefe93096497051781085adf27b31dc66788529664756638b33eea8"
+    },
+    {
+      "path": "outputs/reference/decrypted/105_gate_CMD_GET_SUGOROKU_resp.txt",
+      "bytes": 37444,
+      "sha256": "eaf43fe25f826a4e652ed22188898fcecad637b67e66002ee830cbcb58d20078"
+    },
+    {
+      "path": "outputs/reference/decrypted/106_gate_CMD_GET_USEABLE_TEAM_LIST_resp.txt",
+      "bytes": 2779,
+      "sha256": "04e219ec5854574f7fdca18939abdce47ce3cf86fce3d5a52683677a745e64f2"
+    },
+    {
+      "path": "outputs/reference/decrypted/107_gate_CMD_RECOVER_ENERGY_resp.txt",
+      "bytes": 85,
+      "sha256": "6335b26598219a3e4fe3d55e0a1a4196e4890da715c9b9e4ff1ea8387b487d18"
+    },
+    {
+      "path": "outputs/reference/decrypted/108_gate_CMD_SEND_ADJUST_PARAM_resp.txt",
+      "bytes": 42,
+      "sha256": "33ab295240af1ade2129a3e4aa718df6f86930f51aab39c89041ca84c7602383"
+    },
+    {
+      "path": "outputs/reference/decrypted/109_gate_CMD_SEND_DOWNLOAD_STATS_DATA_resp.txt",
+      "bytes": 55,
+      "sha256": "910c6953766b6ec6135acbb7c2c0d89c80a5988234bc7d441b0832e27ec55b3c"
+    },
+    {
+      "path": "outputs/reference/decrypted/110_gate_CMD_SEND_HEARTBEAT_resp.txt",
+      "bytes": 59,
+      "sha256": "71d1e4a6362dfe00ce933d6b9adba7a1b4fdcc8fb63d08016fb2208739ff5b7d"
+    },
+    {
+      "path": "outputs/reference/decrypted/111_gate_CMD_SEND_MATCH_TEAM_INFO_resp.txt",
+      "bytes": 83,
+      "sha256": "71e3605206701230e70d5b9a6693af14b6def187a1bdf22c879fcfdc7f96c9d6"
+    },
+    {
+      "path": "outputs/reference/decrypted/112_gate_CMD_SEND_PLAYLOG_resp.txt",
+      "bytes": 43,
+      "sha256": "b62b4d21ed61e71af2ca4c8590af99cd0b222871770fe4cd5b905898483f3a96"
+    },
+    {
+      "path": "outputs/reference/decrypted/113_gate_CMD_SET_DEVICETOKEN_resp.txt",
+      "bytes": 46,
+      "sha256": "1b64ff16e36f17f385d2475b3fa4cf294cb56122a2037629dc7d82db7cc26585"
+    },
+    {
+      "path": "outputs/reference/decrypted/114_gate_CMD_SET_EVENTGAMEPLAN_resp.txt",
+      "bytes": 63,
+      "sha256": "0d5d1a995a2a68e0f4698c056f44950226a535b6ce117a3fff91367264eda19f"
+    },
+    {
+      "path": "outputs/reference/decrypted/115_gate_CMD_SET_EVENT_ENTER_resp.txt",
+      "bytes": 40,
+      "sha256": "ba79366580e71d6e575c64c605cce5e0da4918ce85404679d62424e2b0edd079"
+    },
+    {
+      "path": "outputs/reference/decrypted/116_gate_CMD_SET_MATCH_RESULT_resp.txt",
+      "bytes": 373,
+      "sha256": "b2e2d2604e73df00d29b8e6f34f9f630ca41354e06947291e48575c654ff471b"
+    },
+    {
+      "path": "outputs/reference/decrypted/117_gate_CMD_SET_MYCLUBUSER_ACHIEVEENTLIST_resp.txt",
+      "bytes": 1181,
+      "sha256": "22d871884e8affcb119f0a32b1c1b1db1965984733eaf4980d98767a35c92f0f"
+    },
+    {
+      "path": "outputs/reference/decrypted/118_gate_CMD_SET_MYCLUB_ENTRY_INFO_resp.txt",
+      "bytes": 34639,
+      "sha256": "c9887ec5cc093817839e580c8f670d8bbbf05fa1bf876853d00d8f3ca9f8e2d8"
+    },
+    {
+      "path": "outputs/reference/decrypted/119_gate_CMD_SET_MYCLUB_LANGUAGE_resp.txt",
+      "bytes": 50,
+      "sha256": "d50445636e514ad61d87802e1a142efaa895ea75e25b996fa4bea53bde877a02"
+    },
+    {
+      "path": "outputs/reference/decrypted/120_gate_CMD_SET_MYCLUB_LOCK_GAMEPLAYER_resp.txt",
+      "bytes": 75,
+      "sha256": "be4402424cba0d3522505c18e250bc169f0b9a59dd6d0eccbf475df5f2c82e1f"
+    },
+    {
+      "path": "outputs/reference/decrypted/121_gate_CMD_SET_MYCLUB_MAIN_SQUAD_resp.txt",
+      "bytes": 70,
+      "sha256": "ff1f9cd6b9f3b6eff7e1a3f60f827335b6a5a788cbe07899f88a1a938506c2b2"
+    },
+    {
+      "path": "outputs/reference/decrypted/122_gate_CMD_SET_MYCLUB_NEWSLIST_resp.txt",
+      "bytes": 60,
+      "sha256": "5adffa0ecfdcacffcf5ac92a0072cd52b5dfafa6fffc4e24dcb85033495b3c19"
+    },
+    {
+      "path": "outputs/reference/decrypted/123_gate_CMD_SET_MYCLUB_SEASON_UPDATE_INFO_resp.txt",
+      "bytes": 79,
+      "sha256": "883df539b8d872f7ea77b45c3b81831cc109e25acd5050fc3c638c8f2206772b"
+    },
+    {
+      "path": "outputs/reference/decrypted/124_gate_CMD_SET_MYCLUB_SQUAD_NAME_resp.txt",
+      "bytes": 70,
+      "sha256": "0ac42a9be1b65c5f9ef44340a4368e529069c05aacd71fa87d9fe7ad6ab81f94"
+    },
+    {
+      "path": "outputs/reference/decrypted/125_gate_CMD_SET_MYCLUB_TUTORIAL_ACHIEVEMENT_INFO_resp.txt",
+      "bytes": 72,
+      "sha256": "af71d93d6c8cdc06bfbd66d9cb227582d91c87c43306a7ef5fa2fcb584bf6473"
+    },
+    {
+      "path": "outputs/reference/decrypted/126_gate_CMD_SET_MYCLUB_USER_INFO_resp.txt",
+      "bytes": 55,
+      "sha256": "df92eadb67bf401b94f8754e6eb1547097da57b3349fb7320a0a49e2b74d9061"
+    },
+    {
+      "path": "outputs/reference/decrypted/127_gate_CMD_SET_USER_EULA_INFO_resp.txt",
+      "bytes": 49,
+      "sha256": "f3d007314e5755707f5c94fdda306bf8ca8f8dda4fa4ba6856d5015c836cecbd"
+    },
+    {
+      "path": "outputs/reference/decrypted/128_gate_CMD_SET_USER_UPDATE_INFO_resp.txt",
+      "bytes": 51,
+      "sha256": "20fa48f77a9c1e473edb4f70da10bd77c63d67541c4a3c956d932e460c1e99ae"
+    },
+    {
+      "path": "outputs/reference/decrypted/129_gate_CMD_START_MATCH_resp.txt",
+      "bytes": 140,
+      "sha256": "007a554eafb32e57f283104a45a3cc361b40266acfec3de87b3f66ebc152185f"
+    },
+    {
+      "path": "outputs/reference/decrypted/133_gate_CMD_DELETE_MYCLUB_SKILL_resp.txt",
+      "bytes": 50,
+      "sha256": "9680b05f1c027dbadd15d5ab2f3b83317caa9cf15cf32ef8a7ca14b581707a44"
+    },
+    {
+      "path": "outputs/reference/decrypted/181_gate_CMD_RESET_MYCLUB_AGENT_resp.txt",
+      "bytes": 49,
+      "sha256": "6846916cb24cb6850c878a8e393e4893cf2df13ea10916b4dbc4d557b295ceb0"
+    },
+    {
+      "path": "outputs/reference/decrypted/204_gate_CMD_USE_MYCLUB_CAREERPLAN_resp.txt",
+      "bytes": 52,
+      "sha256": "c787a4a180d14f97816e700aca3ad157c1f987216cce5bc6a1eb3d29fd29f343"
+    },
+    {
+      "path": "outputs/reference/decrypted/205_gate_CMD_USE_MYCLUB_ITEM_resp.txt",
+      "bytes": 1226,
+      "sha256": "0efa0566db4afd6bd280472b7123161968d30a866073eab728b62e9f2d63cd58"
+    },
+    {
+      "path": "outputs/reference/decrypted/206_gate_CMD_ZIRU_2027_TEAM_NAMES_resp.txt",
+      "bytes": 32264,
+      "sha256": "b9c1ef11b5f51932a3021b3bd5177ee3d5acc70d7ea76956d0cb7b35573f82be"
+    },
+    {
+      "path": "outputs/reference/decrypted/208_gate_CMD_ZIRU_DIVISION_OPPONENT_POOL_resp.txt",
+      "bytes": 5742,
+      "sha256": "9c31d76d37e41ff3813a4c93e889ca0d7836aee9a7f69884d5d7885984dbe107"
+    },
+    {
+      "path": "outputs/reference/decrypted/209_gate_CMD_ZIRU_DIVISION_RULES_2027_resp.txt",
+      "bytes": 600,
+      "sha256": "56da390bddaf40da11408bcd5805e3f88c2e0707e22e895d6a42e3e1189b61c7"
+    },
+    {
+      "path": "outputs/reference/decrypted/212_gate_CMD_ZIRU_GET_VSCOM_GAME_RESULT_TEMPLATE_resp.txt",
+      "bytes": 17993,
+      "sha256": "0802af129909319e2ea48a2e725931c78f4464505c54cd46ac102752e6f0d5f0"
+    },
+    {
+      "path": "outputs/reference/decrypted/215_gate_CMD_ZIRU_MATCH_PROFILES_resp.txt",
+      "bytes": 19978,
+      "sha256": "455a0e1edc3293f92f99c2c145f677d506f6854856464d3232e973bc5cbd3e57"
+    },
+    {
+      "path": "outputs/reference/decrypted/216_gate_CMD_ZIRU_MATCH_TEAMS_resp.txt",
+      "bytes": 108019,
+      "sha256": "8cf3c7e2bfcd665ecbcca75a2df3683d4e967f425a582611559a9e027a315f18"
+    },
+    {
+      "path": "outputs/reference/decrypted/217_gate_CMD_ZIRU_ML_CAMPAIGN_PASS_REWARD_resp.txt",
+      "bytes": 38832,
+      "sha256": "c3548ec7a3f2d323d1638b16c43b358969cd8c31e84397f6ef15b19dbdad7f21"
+    },
+    {
+      "path": "outputs/reference/decrypted/219_gate_CMD_ZIRU_ML_COMPETITION_REGISTRY_resp.txt",
+      "bytes": 24024,
+      "sha256": "0e69ba3c2a4012e161eb325ca3bfd3e954ec049615330a557e872d941e74044e"
+    },
+    {
+      "path": "outputs/reference/decrypted/220_gate_CMD_ZIRU_ML_EXCHANGE_ITEM_resp.txt",
+      "bytes": 94,
+      "sha256": "23cd8f2a03047dada7a802fc50c8473a9d983b355f88aa95ec140eb1f3a84321"
+    },
+    {
+      "path": "outputs/reference/decrypted/221_gate_CMD_ZIRU_ML_EXCHANGE_RENTAL_resp.txt",
+      "bytes": 689,
+      "sha256": "7946ac8fe67c3a03789027e5eb6df6bafd80e14ce11db552ada620b1c40b8916"
+    },
+    {
+      "path": "outputs/reference/decrypted/224_gate_CMD_ZIRU_ML_POINT_ITEM_LIST_resp.txt",
+      "bytes": 1894,
+      "sha256": "b28cbe7509cf18a96ca66f037a019ff9f9055f9e16e25e87ebe730b4675dc920"
+    },
+    {
+      "path": "outputs/reference/decrypted/226_gate_CMD_ZIRU_ML_ROSTERS_resp.txt",
+      "bytes": 66403,
+      "sha256": "9379b7c060233c8e87555218aef1c928f2361ce66b1aebbb348bbb3a87e47a7e"
+    },
+    {
+      "path": "outputs/reference/decrypted/256_gate_CMD_ZIRU_ML_SET_MISSION_DISPED_resp.txt",
+      "bytes": 60,
+      "sha256": "8a4d915849bc51339629774468a38d6a032ed7e959010e1bf290f1c5901eb91a"
+    },
+    {
+      "path": "outputs/reference/decrypted/257_gate_CMD_ZIRU_ML_SET_PLAYDATA_MATCH_resp.txt",
+      "bytes": 53,
+      "sha256": "37f9cd8e9164da599d8312d62d1f5e658bc965887a3ae6a10884b590fd485f99"
+    },
+    {
+      "path": "outputs/reference/decrypted/258_gate_CMD_ZIRU_ML_SET_SEASON_ENTER_resp.txt",
+      "bytes": 4661,
+      "sha256": "b6b7e33f53078e3d2f9e75a981df3e56946f1280b22fc60fe55c3bd72bff57c6"
+    },
+    {
+      "path": "outputs/reference/decrypted/259_gate_CMD_ZIRU_ML_SET_SPECIAL_SQUAD_resp.txt",
+      "bytes": 97,
+      "sha256": "36057812e07c191c800bb51a912a68c8323f43bcb41ed85380ce89ca75e8b5bd"
+    },
+    {
+      "path": "outputs/reference/decrypted/261_gate_CMD_ZIRU_MOTION_REPAIR_V_8_REPORT_resp.txt",
+      "bytes": 4717,
+      "sha256": "385dcb14f594d405228c40598ed124fe360d718bfc9a46e94ea118d8ebe74a9f"
+    },
+    {
+      "path": "outputs/reference/decrypted/262_gate_CMD_ZIRU_PACKS_CONFIG_resp.txt",
+      "bytes": 16636,
+      "sha256": "e681c7cbdc1ca8fdcfedb37a1829263877377a4be5c8bb7883303766b04660c9"
+    },
+    {
+      "path": "outputs/reference/decrypted/263_gate_CMD_ZIRU_PACKS_MAINMENU_TOP_3_REPORT_resp.txt",
+      "bytes": 4776,
+      "sha256": "edde895c2836f0be3222ca6d4e584932d1ad7001c84492eafb94fdda55b0bf19"
+    },
+    {
+      "path": "outputs/reference/decrypted/264_gate_CMD_ZIRU_PACKS_V_4_2_FEATURED_REPORT_resp.txt",
+      "bytes": 4711,
+      "sha256": "b505503d50645d8e0e655a84a788adc425675332f5503aa9f676350f1135ac11"
+    },
+    {
+      "path": "outputs/reference/decrypted/265_gate_CMD_ZIRU_PACKS_V_4_3_SYNC_REPORT_resp.txt",
+      "bytes": 1099,
+      "sha256": "7c91e06bd61b48ac4789050a60279a29900ec0e7b8b00db6c15d3c9035a43087"
+    },
+    {
+      "path": "outputs/reference/decrypted/266_gate_CMD_ZIRU_PACKS_V_4_FIX_REPORT_resp.txt",
+      "bytes": 1796,
+      "sha256": "027f71344dc10f58df9cba6cf76d727bd3969625cb3e3f9e0970456630862432"
+    },
+    {
+      "path": "outputs/reference/decrypted/267_gate_CMD_ZIRU_PACK_SMART_MATCH_V_2_AUDIT_resp.txt",
+      "bytes": 16048,
+      "sha256": "0639d56c7d71982dfc26f77cb7364f247ee5272a8bd76b0c7add6e8064f6813c"
+    },
+    {
+      "path": "outputs/reference/decrypted/268_gate_CMD_ZIRU_PACK_THEMATIC_V_3_AUDIT_resp.txt",
+      "bytes": 63537,
+      "sha256": "b12cd0b1bcd8be189f36bf77e911ab6dd319e7b95c5ce6ae57c9ce95dc5d1033"
+    },
+    {
+      "path": "outputs/reference/decrypted/269_gate_CMD_ZIRU_PLAYER_RECORDS_resp.txt",
+      "bytes": 1128526,
+      "sha256": "b5b1d65c2cfd16a4e335b2a200a01314801b90bee1aa15e2d2ab5729de1d6bb4"
+    },
+    {
+      "path": "outputs/reference/decrypted/270_gate_CMD_ZIRU_RANDOM_BOOSTERS_resp.txt",
+      "bytes": 210,
+      "sha256": "8277be3d26a5673cee999513c6b2e695034b291c2bfc0988249001ab53d916c0"
+    },
+    {
+      "path": "outputs/reference/decrypted/272_gate_CMD_ZIRU_V_71_STATE_MANIFEST_resp.txt",
+      "bytes": 582,
+      "sha256": "8820a55d15227f6bd9d051484629cd24384b2f7b313b2a4d36dc1ac002c7bd60"
+    },
+    {
+      "path": "outputs/reference/decrypted/273_gate_CMD_ZIRU_V_72_STATE_MANIFEST_resp.txt",
+      "bytes": 578,
+      "sha256": "41e6a3b870eb6ff3e160a3edddbccdc5b4584a1600a7c243d1db460e1be8d6e0"
+    },
+    {
+      "path": "outputs/reference/decrypted/274_gate_CMD_ZIRU_V_73_STATE_MANIFEST_resp.txt",
+      "bytes": 488,
+      "sha256": "5e0f6f00fb9495d269850f5c35cd2dd7aba331981ae1f0c5bdb7d748d8abbf81"
+    },
+    {
+      "path": "outputs/reference/decrypted/275_gate_CMD_ZIRU_V_75_STATE_MANIFEST_resp.txt",
+      "bytes": 593,
+      "sha256": "2477295b90b3d65e228ebdf968e54d7d7f64c1e1a7a322e9525984e04044a732"
+    },
+    {
+      "path": "outputs/reference/decrypted/276_gate_CMD_ZIRU_WC_CONFIG_resp.txt",
+      "bytes": 469,
+      "sha256": "72c256aa049652dbb1dee2993a5c69c2c11206428d31276cb0f626174f779c98"
+    },
+    {
+      "path": "outputs/reference/decrypted/277_gate_CMD_ZIRU_WC_NATIVE_USERCOMPE_MAP_resp.txt",
+      "bytes": 1755,
+      "sha256": "9c8b61895c1a43514e909887195e03087969b1461fe8b6d7fea7527e21396104"
+    },
+    {
+      "path": "outputs/reference/decrypted/278_gate_CMD_ZIRU_WC_SPECIAL_POOL_resp.txt",
+      "bytes": 16481,
+      "sha256": "da8a95e27a4d681f28116cd63bc772b9bdf1cd389aa0dbdc158622625de7b141"
+    },
+    {
+      "path": "outputs/reference/division_opponents_100.json",
+      "bytes": 607061,
+      "sha256": "10ec633ba0b87cc9d12b4e01907507ecaaa2f371c37bfd0015e4be05adb3907c"
+    },
+    {
+      "path": "outputs/reference/excluded_card_catalog.json",
+      "bytes": 52014,
+      "sha256": "a1ceec5daeaebb4fe3c437a523babfbdb77696077fe14046e2eceb351a343120"
+    },
+    {
+      "path": "outputs/reference/external-attrs/100299.json",
+      "bytes": 2550,
+      "sha256": "7edfcc37f4b9e05942d89148e3b4be694de24ab68c815ab71ba5759229b0be66"
+    },
+    {
+      "path": "outputs/reference/external-attrs/100620.json",
+      "bytes": 2496,
+      "sha256": "7ec5b5746eba1ac140bfd7e469a84a01730206125dafec40bc40e6b2068418b8"
+    },
+    {
+      "path": "outputs/reference/external-attrs/100630.json",
+      "bytes": 2477,
+      "sha256": "f2c45ca75204c9d8945e151e8470ebb00289ed7ed3614f753c680b8cb79eda5b"
+    },
+    {
+      "path": "outputs/reference/external-attrs/100809.json",
+      "bytes": 2447,
+      "sha256": "ce7703222aced523958f41a9af4eca0cc95f48a44db88fb287d9cbb184f68270"
+    },
+    {
+      "path": "outputs/reference/external-attrs/101028.json",
+      "bytes": 2517,
+      "sha256": "e647213c8a62cf3fe750317bfaa468f94fa92bd3030e6a9cb2c94d02d2b69477"
+    },
+    {
+      "path": "outputs/reference/external-attrs/101058.json",
+      "bytes": 2620,
+      "sha256": "b7f49e75373b929dab527547f01e3f0861d34d406ee639aadc579e3e98a0a51f"
+    },
+    {
+      "path": "outputs/reference/external-attrs/101076.json",
+      "bytes": 2018,
+      "sha256": "901fa7f9c2350aa52d327c9f938382457d2d8ef01ca27a90d27d6ce87e0e4a4d"
+    },
+    {
+      "path": "outputs/reference/external-attrs/101097.json",
+      "bytes": 3472,
+      "sha256": "92c7c815d236f3d9be440e162a70d9a5bf3efbe48a37a25587f5a882939a22ed"
+    },
+    {
+      "path": "outputs/reference/external-attrs/101115.json",
+      "bytes": 2613,
+      "sha256": "249b7519cd17c05f17347814fd9621ee699231204de7544405cdd692c336b22f"
+    },
+    {
+      "path": "outputs/reference/external-attrs/101334.json",
+      "bytes": 2445,
+      "sha256": "a24683a5eb56561f63c6bd0f529e955ec8708898f6f687ca0187050e4bd10455"
+    },
+    {
+      "path": "outputs/reference/external-attrs/101520.json",
+      "bytes": 1932,
+      "sha256": "ce2964e7c8733334fc8ebae51d2e5b2910a575cb710b6e3c0f2a7fe9832db1ea"
+    },
+    {
+      "path": "outputs/reference/external-attrs/101615.json",
+      "bytes": 2429,
+      "sha256": "3987a898ed3419704fb4d96512be76a0de832cdab6ac631118c7bc3fa42f2a3d"
+    },
+    {
+      "path": "outputs/reference/external-attrs/102240.json",
+      "bytes": 2385,
+      "sha256": "1a9ea1cf28a3f58e163322e127afdc5ab413b77a03d382d0ae7bf7213c9b0d7c"
+    },
+    {
+      "path": "outputs/reference/external-attrs/102290.json",
+      "bytes": 2582,
+      "sha256": "2812891a21be5e530a8bf0592687ddfef1dd5a539599fba32e236f40a42a122d"
+    },
+    {
+      "path": "outputs/reference/external-attrs/102526.json",
+      "bytes": 2594,
+      "sha256": "33da5202e80f253d231238464d5bcad84a07b2f8a9c61c6b8cc23edd33d639f0"
+    },
+    {
+      "path": "outputs/reference/external-attrs/102719.json",
+      "bytes": 2322,
+      "sha256": "6746dbbe1e17b8d56e05dc45108856a2c111fe2f2f4dbe1baea6ecad691f9319"
+    },
+    {
+      "path": "outputs/reference/external-attrs/102742.json",
+      "bytes": 2261,
+      "sha256": "3b1a510ae5bff5d5df37329687d4f11effa006681442f49988cc30b1c4b9e6b8"
+    },
+    {
+      "path": "outputs/reference/external-attrs/102901.json",
+      "bytes": 2955,
+      "sha256": "3b7121a5cf58d68139bb809cea116fbd53e5821f33a68011d191620b69bf9e22"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103008.json",
+      "bytes": 2898,
+      "sha256": "f0430d5e2e567b955cf660030ddd6e0e5a1c097693b770390e6acd85286187cd"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103120.json",
+      "bytes": 1998,
+      "sha256": "bb955f16238a7f9a3a3d803593ac61a746b48e25680906ddc25a3d880f281395"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103404.json",
+      "bytes": 3038,
+      "sha256": "90f36bf9ec9f85e7c26c97c58ac4f9c5c31d93c08ed4969435b8573c5e74d240"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103408.json",
+      "bytes": 2434,
+      "sha256": "48b6ce3ac1598198cf4bf2f5515f79d58be764a7ffa88c6f2253bae87c16ab4a"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103420.json",
+      "bytes": 2795,
+      "sha256": "5a939f20dd8b173a8273ad4ddc6327acc8d81681757922a46b3b2ea2f40c0172"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103551.json",
+      "bytes": 2022,
+      "sha256": "08521fb4444a21903245cff8243e113168083eee4a8724c9937291b70e07f675"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103613.json",
+      "bytes": 2698,
+      "sha256": "ae8a843e745d6f8ddbe071a6f97bdea0e856cdfc45e5ceee3a5bba67e4f4499d"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103686.json",
+      "bytes": 3249,
+      "sha256": "e2505717dc878a3ca9171f2cbc8322435cd5a8eeb5a3f68dae5089a98ca20ee4"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103830.json",
+      "bytes": 1955,
+      "sha256": "91ee0ef0ef59e2491a156e9e0f9a6ce381a8ba762dfae1369725a1bed43c877b"
+    },
+    {
+      "path": "outputs/reference/external-attrs/103845.json",
+      "bytes": 2382,
+      "sha256": "5380a38582df33da3cecb8fad86a6472b6b2215351ceeda647fafb3de46f3464"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104204.json",
+      "bytes": 2372,
+      "sha256": "8701bcfbd56455d48f9de295dcb2924a8073872bc6b8231bfe49d4c4b3ce58e4"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104226.json",
+      "bytes": 3025,
+      "sha256": "c9719bd4f83622ec0abd1246d2a8cc379b66b6b82147bdd3307419993fbc691a"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104337.json",
+      "bytes": 2052,
+      "sha256": "6a6738c87e15996c49795a48d2da2768fb07f13ea9b1d8166bdd282cc14025fa"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104418.json",
+      "bytes": 2022,
+      "sha256": "737d905ab7e9c3621561ca9b8c5019ce1d45f57e56ac7926ec463f790a3dcb32"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104485.json",
+      "bytes": 1977,
+      "sha256": "24e84acdac4e7d02cd86d6c57453fda941c8e9ba10aa1ebbe0282d1b9ff5481e"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104494.json",
+      "bytes": 2105,
+      "sha256": "590bb5f7b46abb5ca579367ba90888565b77cf2d60279a4fc8a68def681730a0"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104527.json",
+      "bytes": 2269,
+      "sha256": "73a34621d1c0dc8aebc30356fd8d343237bc19b5fccf865b99dd1e5a8a3595fc"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104612.json",
+      "bytes": 2071,
+      "sha256": "982205b7b4baff1b5fbb4945edd28a2bd6a4bd043a9cf4b328653ad481cebd0f"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104677.json",
+      "bytes": 2664,
+      "sha256": "e4cbaaaad7773c567476148537d837c97ee9f4a982165a032321087cae9686a0"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104680.json",
+      "bytes": 2432,
+      "sha256": "02c46b2b52b45d41a59a14b63c5622a004d7ffa4983ca031b2e59d9fa7b4fd33"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104710.json",
+      "bytes": 2424,
+      "sha256": "4c07bc9e4301c8b9e69d68804acce90f892122e290ceda51756d19a4f553bb17"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104717.json",
+      "bytes": 2580,
+      "sha256": "fbe8f57a15122bdf46839e60578ad01e6913bc0187cc91c5428b0ea5260ad6b8"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104722.json",
+      "bytes": 2322,
+      "sha256": "2b2f5d68247cc1982fc99c17a35287b57f45056658b106e29059f77f4dd2f3f2"
+    },
+    {
+      "path": "outputs/reference/external-attrs/104752.json",
+      "bytes": 2878,
+      "sha256": "e1ec2029a8f9564feef3a964c268c952a4b275b6797d821caac6356ed7a3bd05"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105297.json",
+      "bytes": 2371,
+      "sha256": "e5331407b18e447154280121195963d9c65351460779f0081932a2ebedbc4ad1"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553116301513.json",
+      "bytes": 2262,
+      "sha256": "23a7cb5160cd94d3cac553f303058d14131b521f51ee4eb9e89fe8e01ccc06c3"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553384739779.json",
+      "bytes": 2579,
+      "sha256": "86e6d36af13059aecddc75c8b967d6ec22b337ba8aabd45301a5efc017d9a85f"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553384740391.json",
+      "bytes": 2785,
+      "sha256": "64ace3864d15d7305d72c7ef36a6069a668bf14ede91363ba1d77577e189fbb9"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553384746975.json",
+      "bytes": 2412,
+      "sha256": "50fe51d07d0c5e7db1e3f4f58263a540b49cfea877c937bd0799fcdfdeb52877"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553384747220.json",
+      "bytes": 2604,
+      "sha256": "ad697036406fb01845eb2c0c870eaf78fe98f6ec125c231bb08c167c286e1bea"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553384806629.json",
+      "bytes": 2614,
+      "sha256": "73a390e34cf7d8f519c9449f3f67e1378fa2bcc13ee29dd483c76b602c9eb95f"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553384806756.json",
+      "bytes": 2015,
+      "sha256": "313fca82824636d4d3aba95fb4d83508781920af4c9347c82879fb96d269fdac"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553384812308.json",
+      "bytes": 2303,
+      "sha256": "cb9734aa118d91697e5e758f54d777b20625d1325c86c718f4a2a14d31f99b8a"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553384835253.json",
+      "bytes": 2726,
+      "sha256": "b37eeb4ffe49569e4b709760899e1a7bcf01817449c35b74f967adc0c2891d0a"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553653170645.json",
+      "bytes": 2503,
+      "sha256": "75a5522bd240b634ac978b2b131e11e0134ff9f2e5098da92c57a6e6c9c68e32"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553653241021.json",
+      "bytes": 2827,
+      "sha256": "f928a14f2603ecdedc9834690b2fc56a20cdf1f7174e73d1750a328840c83cb5"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553653242156.json",
+      "bytes": 2159,
+      "sha256": "8f55e4950d01d7da9bae9aeceb06182e8e632506b68f4affe8e45239abfc6351"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553653244364.json",
+      "bytes": 2015,
+      "sha256": "4188954181d9c3d2f426d1cd93ec456db8d5b847684870ab3f5dd985e2f93925"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553653248004.json",
+      "bytes": 2857,
+      "sha256": "93fcd77241a9be682640ca8154761f0e264954964d4471579759bf5e47dcced0"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553653249417.json",
+      "bytes": 2341,
+      "sha256": "9b5b19680d31f19c2b8c783b0c15170cb460d45a07d8f5a246f9aa1cbef1fcc6"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553653252487.json",
+      "bytes": 2315,
+      "sha256": "85862428624e585b0793cd472a9d188efc272a412c6d69e0c50f8083041a4a77"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105553921606966.json",
+      "bytes": 2037,
+      "sha256": "55717d090af301797ffae79baf1f10efeb634d8d6efab3c8a1304f57159cdbdf"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554190017298.json",
+      "bytes": 2065,
+      "sha256": "73b50daf31ef79b7259d1eacb897cd0de18cf89e24735d35e60957603ecd47e8"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554190048256.json",
+      "bytes": 2978,
+      "sha256": "12155c6205a44bee517de168d6fef1849569685a2d4ff90fde229b689f2b6aea"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554190048442.json",
+      "bytes": 2941,
+      "sha256": "23c07977f8c021fcee77e3df608ab03955631c0df45a97e0d60bb7aa430d13ff"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554190055716.json",
+      "bytes": 2414,
+      "sha256": "1081c7b103408535ff99535b727b80d746608c462e792b86b451c21d00a6c598"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554190109417.json",
+      "bytes": 3511,
+      "sha256": "17719b60ef759c5b88e1186740cdf6301d8434167a80f1d2dc1f358952ef9f87"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554190110045.json",
+      "bytes": 2396,
+      "sha256": "943d0756bb657d617e7597f4bbdce64d2f5a37c6b1708345f8d47b7f3f936327"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554190112006.json",
+      "bytes": 3245,
+      "sha256": "0f0265215415aace94af6cd1a6648e8a92a3f066716ca95d0b8ab42cb674ba10"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554190116977.json",
+      "bytes": 3504,
+      "sha256": "bd3257c9900ab80f764bbf0959de955fe1cdcda4724665d67f8bc3b78bd3db34"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554458446362.json",
+      "bytes": 2308,
+      "sha256": "314ead882ca42518c7e07111100dab594c6cf5ed4c1989cfbad39a710f9218cf"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554458482403.json",
+      "bytes": 2670,
+      "sha256": "195cb69aed5646c966c1c8b26ce9f16cb1bc5566ac84d39bb5f3adfacb670ec6"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554458554333.json",
+      "bytes": 2423,
+      "sha256": "9b833facc12d67bbebf3f8d01fe2929e961f1515b0a6966c8ab2e5e1dc920e91"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554458555028.json",
+      "bytes": 2908,
+      "sha256": "c752cb0c57c6123054ece6385a234f50ea4ed4c65f72e3b38dc92373d8978050"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554726917887.json",
+      "bytes": 2514,
+      "sha256": "da7e2cce42de9f7cae62384a30cbce645c9a3ddc634e6e8f6efa589c1155dad4"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554726925194.json",
+      "bytes": 2259,
+      "sha256": "da3533d3871aa8bd636072f212528a448255ab75e3f81577f9d33d92111b2bdc"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554726926447.json",
+      "bytes": 2002,
+      "sha256": "c82821c7b3ff9a5be75fe68a4c91a384d8233ec53036481555280ab0cc4a9f62"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554726939070.json",
+      "bytes": 2584,
+      "sha256": "12c473deebd50cf896e9d076db885d38d1f47f5fb91c5adf847f4efd3e3b9f3e"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554726939859.json",
+      "bytes": 2325,
+      "sha256": "83310d94156ed235ef9d4926bab5152064f317ee94b26df07e39a2c4c540ee58"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554995350193.json",
+      "bytes": 2136,
+      "sha256": "68df8b70d848df84e5d5cd746e9ae1de72ebf4aa5f4da51547d667c257bff535"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554995414847.json",
+      "bytes": 2370,
+      "sha256": "d01ec9a48af28767268827daeb90a50b1a732056f4fdd685639f047beced7fed"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554995426772.json",
+      "bytes": 2251,
+      "sha256": "57953d19cfe6611ac3c49997ee32547a372d9731979b23063613f44583b7ecfc"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554995428724.json",
+      "bytes": 2755,
+      "sha256": "a02f9248ca32bc46c7d8ceb628a5205ec0cccb3f05537b402a5cdc81e1af5ddc"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105554995429649.json",
+      "bytes": 2305,
+      "sha256": "f6e359e90526578f37253fe506fc86d55b39d3ca3d13f951dc99e6c9b8886ed2"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555263790439.json",
+      "bytes": 2548,
+      "sha256": "b216d2226f1e862826ed127ba7e8a307e77065b0ae642b98475d7877befd8f67"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555263794984.json",
+      "bytes": 3032,
+      "sha256": "4e17174e7f6b9695a7ef5d86bfa46cf0eb852e312357e4e7d49d35b1dcce44ac"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555263797430.json",
+      "bytes": 2073,
+      "sha256": "df29882051de6c4301cc9085fb5e663044a615f5400b83beaac4239d30c2203c"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555263797431.json",
+      "bytes": 3358,
+      "sha256": "7ed141bfa50036c381792ec62d7225d5bb22e58931c4488daf28553e154f6fde"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555263807267.json",
+      "bytes": 3426,
+      "sha256": "9b269965aa7d762e71126c815d76329124a4c8177a9aaa5746838cb9550d1c34"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555263851172.json",
+      "bytes": 2552,
+      "sha256": "1ed7d054659ea3282b4e34fda2007357220a079e2557ceb5f8982ec9583c4e7b"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555263858377.json",
+      "bytes": 2572,
+      "sha256": "6693021c30d776c6b493bbbe462f4b50060c87c14395997940e774eb33c7574b"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555263868240.json",
+      "bytes": 2760,
+      "sha256": "62502a353feb8da7937589bab5268c5eeac8a31bd20ac0c306fe3bb708861832"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555532218679.json",
+      "bytes": 2287,
+      "sha256": "b33de558b21667ffcaccf5d69f5dd7c553f85ea9c931351ceeaa99a704a5eb36"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555532222706.json",
+      "bytes": 2910,
+      "sha256": "9c54e1a904b1030e803f1f1f4c3571c0de8259c4b0f6604e14c030a444b8dd5c"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555532226537.json",
+      "bytes": 2053,
+      "sha256": "4e8c53b9c44a3613b1f2391bb65caacd8e78d01b75b46a8122694f9a5a61862b"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555532232651.json",
+      "bytes": 2739,
+      "sha256": "6c0f465656e5386aefe1c5c2169a49194c831d9b96a5103a01e59846c2090cfb"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555532297086.json",
+      "bytes": 2724,
+      "sha256": "220498f0986c0824c558a5835f0b235cce679f2314bd008d81c42f6d6f8b44f7"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555532303213.json",
+      "bytes": 2707,
+      "sha256": "02ce023c84ef25a0fd12da3033d36abb1dd5c27197512d8c78dc2b0cb1d8a03d"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555800664471.json",
+      "bytes": 2051,
+      "sha256": "8223e426a34a5d3997f5e945b9d722324c6eea001bf40d0999e8dc507bb95a5d"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555800723775.json",
+      "bytes": 2450,
+      "sha256": "e71396475bfc329fde8fdc024b92f908dc29c05c377c23e6c019673d8a4156a1"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105555800743048.json",
+      "bytes": 2320,
+      "sha256": "5791446a6a7d9a1ce3728babc7725a59462da727f869ad070ddf09e141608bd7"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556069117062.json",
+      "bytes": 2616,
+      "sha256": "89c8a1a78f636667bc98a6710299314a0ed228c88d9f00cb57bdecc6ef7be029"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556069156811.json",
+      "bytes": 2473,
+      "sha256": "2cf6c712ce0e05659e9aa38c77a376cbc1092c37b970bcddc670456eb2de23f8"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556069160342.json",
+      "bytes": 1985,
+      "sha256": "a8a13db4b0e24464fdc77d71d71e0e81e0a223ca6e4d51c3ef2bc89316d50824"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556069173561.json",
+      "bytes": 2731,
+      "sha256": "4e5dbed7d18f93beb330925e66349664ee0969113452d662c5ee65e1c583a733"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556337499280.json",
+      "bytes": 2399,
+      "sha256": "2cf7518b34bcd02f70b1faa25c8df435ad0115e7d5b1b677922b317dea1fea55"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556337526070.json",
+      "bytes": 2037,
+      "sha256": "0b0dbb50db50e8180c391ce4bafe7e6267f2924a4755caecb1562931dc962964"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556605969020.json",
+      "bytes": 2478,
+      "sha256": "e95f1d39c2792e3cc39a28b114c5a492dcd838e5c89cdcc7ecdd98ea659dd971"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556605970093.json",
+      "bytes": 2964,
+      "sha256": "d0699de9e1f91f7cbfebb366ecc0af0f3d78ba6ee03d1d115f7bc5bf24ea0b0e"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556605974288.json",
+      "bytes": 2300,
+      "sha256": "10afbfb5d09c4f463d2b1fec344b58f7d31377c606d5b8dffa8feb1cc8cbb011"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556605974603.json",
+      "bytes": 2304,
+      "sha256": "5d48eb562acaadf91f651abbc5f4aff4f0d0d5ce311e72f7078a6b1a6ad7b9f0"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556606032159.json",
+      "bytes": 2471,
+      "sha256": "0793554234be2253ca95d4ec798738d3fd3d1c4ac2c246bb6f11a7eff2cbbd9d"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556606035098.json",
+      "bytes": 2334,
+      "sha256": "f0a2e2bc3b1a0ba0d2210f66b3964888402a8a17ddd4a742fbd6eed34db20323"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556606038208.json",
+      "bytes": 2933,
+      "sha256": "ba3a2d9e5f268b4c8b04168c2f1506683a14d4ab2e4c8f07e43693f23b775aea"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556606043999.json",
+      "bytes": 2628,
+      "sha256": "d1d1d46acf9022425df8c528438ce17b6ab50fda2523b790b712089063c8e1ac"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556874371824.json",
+      "bytes": 2648,
+      "sha256": "c3df2e9686035c6f4e519dd9ae8e9869648d26e9bced44be3167c875b5fa6c14"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556874404004.json",
+      "bytes": 2692,
+      "sha256": "c199528f15f36712ba3e4932164f5408ea10cf6b01d1b852c2224a9532899b8c"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556874407263.json",
+      "bytes": 2024,
+      "sha256": "6b4d8f50e07e0a9769771944d485aa4d754a95d51f9a5227799cc2ec630315c3"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556874470769.json",
+      "bytes": 2329,
+      "sha256": "51932ac04b749019e089bd5f758b1dbaeb814bbd217f6bd7b576d6ebb861146c"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556874476405.json",
+      "bytes": 2573,
+      "sha256": "0bd22fa3a03f5d6874963330ce70051f92e0bca0ded3fb69bd5ec7606752e47e"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556874479927.json",
+      "bytes": 3304,
+      "sha256": "8f5f7a4f55e6b9107c3d748ba9eefb47ac6934bbf94854b014f72a97c6515c3f"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105556874482662.json",
+      "bytes": 2921,
+      "sha256": "59442481b31f3b2967286bcee0da385104ff8e59805e78c43d5665189ca7cd54"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557142802858.json",
+      "bytes": 3222,
+      "sha256": "1311e79cf889e9a2208ee396eb3d3d08174f1ccc85d24f31186115d7928d05dc"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557142807469.json",
+      "bytes": 2376,
+      "sha256": "702039a26abdc6b0a0dc3d50b8f4e673e9fbd1d714ffc67e049d5b21fe74c095"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557142833204.json",
+      "bytes": 2021,
+      "sha256": "14914702ad244aca1ba8795c7fd698f65f3a08b2f9ad76e504cdebaea993b7be"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557142845406.json",
+      "bytes": 2620,
+      "sha256": "127ef4064869999640efcc804c72e22a5c0a273779d867bb3b01708611e7bc56"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557142858963.json",
+      "bytes": 2325,
+      "sha256": "086db67c7b9d39ed493fea75f1c52050075c76833d45b233bee70fb80c04f2f0"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557142902562.json",
+      "bytes": 3023,
+      "sha256": "bf182d4cf658f88e47849bd8418a5fa20d72d1f7345500346bec9fd40e156bbd"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557142908980.json",
+      "bytes": 3480,
+      "sha256": "66f19f97abf8aa8b342535c7fc03350529095862251abe7041dc0e7ef5eda3d7"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557142910136.json",
+      "bytes": 2607,
+      "sha256": "b4cc8baa3e64b51d59548844ff67d1e43337965bb1ef44eb64c5dda0ef00fd79"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557142924672.json",
+      "bytes": 2928,
+      "sha256": "447d263211078963a81a8f54fd64532a67e833a864841d82f859fb96bff46bcb"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557411337196.json",
+      "bytes": 3189,
+      "sha256": "3fc87a19e4960f1079c3392382377dfb25128089f0bc56bdfa434fd1bf8d60da"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557411341992.json",
+      "bytes": 2694,
+      "sha256": "82afd87c2e0aa314e29a2669f306385edf481a99d0779a0c1c4ec290b6e72da7"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557411347132.json",
+      "bytes": 2466,
+      "sha256": "44ea26c017e201cd8204ad9c24385f717ea6641a7786990e8502a45a2981f9ed"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557411349020.json",
+      "bytes": 2021,
+      "sha256": "f8ef448960dac4bcaca3ce81a3e39dde4784ba6547cd894d222a1e2f7e12697e"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557411355605.json",
+      "bytes": 2563,
+      "sha256": "c1d2a40fefd96b8b48995dc33f35390e41fbec7431e36e6e459e3541f76719f1"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557411366310.json",
+      "bytes": 2796,
+      "sha256": "15e2f58d524aa075bec94b7c73131d23db9431a24d88d09fc2bfaa000a6eb5e4"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679707816.json",
+      "bytes": 2479,
+      "sha256": "ffab1d606228913e6f2e13de6a430e78c7acaf529c708906a6a988e1ccb90a12"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679709250.json",
+      "bytes": 3558,
+      "sha256": "ca9d86fa620c318e23b18c1c3e781060988c98a3f947adbc27ddaafcc909d338"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679709673.json",
+      "bytes": 2599,
+      "sha256": "59943ad1238be03becaac67d3bd0e6436b8647b5b47b444b2a2b1073d0cb2aee"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679730920.json",
+      "bytes": 2053,
+      "sha256": "f4b972d8a08dbc40b4cf9b55d95097c011b2d6b9dabc932ceb5771a8aa46fb0e"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679773093.json",
+      "bytes": 2348,
+      "sha256": "5e552704169ebff4adfe108c6e7e457cf5c5a56faa11bc3b0eb0a3372ad9b01d"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679777183.json",
+      "bytes": 2468,
+      "sha256": "4908e21c70fe6d7eea374928fbf967910520aacf7d635fd70d9baf78cbb0241a"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679779892.json",
+      "bytes": 3480,
+      "sha256": "508b23cf61e58a4ecbd3d45236a410753b7188ded2b76c073599dc6afd07eae2"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679801792.json",
+      "bytes": 2694,
+      "sha256": "9d9ad2f0a02ba35255f11df0c096317ea90736d2f2266c5e59c1f7bcb6732721"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679802405.json",
+      "bytes": 3290,
+      "sha256": "7f20fb07bfbcff46dc868d1f0f91550dfe235949f99b8e97e6dcff368e7d26b6"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679802463.json",
+      "bytes": 2750,
+      "sha256": "572893ca5a7664b8272e93c67cacbf462dc2bb6bb9047071603a3e3a576c4043"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557679816483.json",
+      "bytes": 2854,
+      "sha256": "de7f65f0d901e374f55fba08490a3a2f540776059fc3e9f506cf3214052e122f"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948137889.json",
+      "bytes": 2024,
+      "sha256": "4245c88dfce0846cd1c32393df97430728a6e0faa70559b2a3d073466b668461"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948145418.json",
+      "bytes": 2983,
+      "sha256": "4a5ab2bedd933d8d9ebc8f99d73084b6f712b2720708be09590980fc35caeabc"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948162008.json",
+      "bytes": 2670,
+      "sha256": "44b5b358e0d18aa28cac3032982c0b73e2899f6b37c5b9d4445f2d3d8a49d0e5"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948165084.json",
+      "bytes": 2755,
+      "sha256": "577c3561d8a87b23a09133fc234e89b25249f78c10a3f357191d785599f5f233"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948207605.json",
+      "bytes": 2321,
+      "sha256": "7dfa3fb1016ebd8b8030ffd15d2684545d5b19d3cbae0e5f7fbe9cc6266c75bf"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948209421.json",
+      "bytes": 2581,
+      "sha256": "4578f71b826dc91e0707889b3b6cfe2065b93d77108ba02d8cef50b7594edeb1"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948213709.json",
+      "bytes": 3138,
+      "sha256": "a05181647595109e2d3503d4da3b0f502404e005c911141922abc238c0370577"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948218809.json",
+      "bytes": 2693,
+      "sha256": "69723463763c07042fbecf6adf3674b6cdea8815b6f3d32e8e68617f98f4b673"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948221359.json",
+      "bytes": 2866,
+      "sha256": "3e679786e3c0a24319b7f895f6ed485be7c3f0b190858386a2d171310c0a416c"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948231773.json",
+      "bytes": 2636,
+      "sha256": "97dc94940d15c5e0428e8181445da912c100540610a04b00ed435898e3a091de"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105557948242704.json",
+      "bytes": 3129,
+      "sha256": "2b682626ddc466eb6afadf173674545b27142667d27e48e289e6fbf7f858c0d2"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105558216544682.json",
+      "bytes": 3222,
+      "sha256": "7d534739a713db4c72b49039ee06b60b1b7871ce387c4b3116cbf4cdf4810ee9"
+    },
+    {
+      "path": "outputs/reference/external-attrs/105558216580731.json",
+      "bytes": 2020,
+      "sha256": "4753eb26a28e2929448f115ef453

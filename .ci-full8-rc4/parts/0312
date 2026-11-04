@@ -1,0 +1,616 @@
+": "validation/full52-startup-bundle-validation.json",
+      "bytes": 571,
+      "sha256": "5104310577947e9e10fb5046c2d461e6432588f0a7165c892c2e74b2e6e216ec"
+    },
+    {
+      "path": "validation/full6-accessory-vector-validation.json",
+      "bytes": 1800,
+      "sha256": "3e7f9c758ebbf133beffe548554fe029e0703ff1f695ff5bfdbdd5c36742aa29"
+    },
+    {
+      "path": "validation/full6-cached-player-lookup-validation.json",
+      "bytes": 646,
+      "sha256": "b022e1a5e4d8a776079c0f8f13e3247a5ce16ba644b8854d705f71dd445bf946"
+    },
+    {
+      "path": "validation/full6-cached-roles-bench-validation.json",
+      "bytes": 1663,
+      "sha256": "4a9304b7cf6ad8a0e07aadfb6b322bf72a98d1aa59da520930a14894a909e089"
+    },
+    {
+      "path": "validation/full6-cached-roles-validation.json",
+      "bytes": 1584,
+      "sha256": "41b0c661c73573853992ecf1303b22cfe2f3110d670c98f80fbcdd4c93f4685e"
+    },
+    {
+      "path": "validation/full6-corrected-heads-reader-validation.json",
+      "bytes": 11110,
+      "sha256": "2fc65a85cec61a129e62fbb32326b32d20f0a3830ed026e2981a968aaf2891eb"
+    },
+    {
+      "path": "validation/full6-dex-link-audit.json",
+      "bytes": 48,
+      "sha256": "bf47f249e4b63b8ce153103605632292f3168844d2a7e3820c359fbab9dab5a0"
+    },
+    {
+      "path": "validation/full6-full-login-regression-validation.json",
+      "bytes": 613,
+      "sha256": "e15e476295004ba1b1a3318a1bc5598ab51dd1c081a8434cade15b1e9dc8f298"
+    },
+    {
+      "path": "validation/full6-mobile-head-lod-validation.json",
+      "bytes": 4270,
+      "sha256": "0fcd1bae2084c1390a575ce205d1f3d45455603ec5c6a83e8433285d5ef15c4a"
+    },
+    {
+      "path": "validation/full6-native-abilities-motion-validation.json",
+      "bytes": 236,
+      "sha256": "3bb71ba72acea53d032501dcd372498830ead58ef9bb529d8141eb827f3a481e"
+    },
+    {
+      "path": "validation/full6-native-name-validation.json",
+      "bytes": 359,
+      "sha256": "eca18e8740cfb69ebbefa5c3cbce05e2a57a4d38a1db458ba4df8f82e2fee831"
+    },
+    {
+      "path": "validation/full6-native-trait-validation.json",
+      "bytes": 328,
+      "sha256": "fdf579e8fb1f2ee1345313671d644ee175098826a8a219f84471693c8b59fc91"
+    },
+    {
+      "path": "validation/full6-owned-leagues-native-validation.json",
+      "bytes": 431,
+      "sha256": "2fa491392b05479e2dd99ebe10fee26c256b6958a4a438cb7c20610c8a039bd6"
+    },
+    {
+      "path": "validation/full6-owned-leagues-projection-validation.json",
+      "bytes": 261,
+      "sha256": "b83a720d9edaad3c6315835562a71d470fe6f9685c6f1c0629f744eb11408134"
+    },
+    {
+      "path": "validation/full6-ronaldo4522-head-validation.json",
+      "bytes": 1663,
+      "sha256": "1bae3048a5156a57f067daed5f1c81f6552cd9df7fe81bfc7bf3476d88927aa1"
+    },
+    {
+      "path": "validation/full6-spider-routing-validation.json",
+      "bytes": 260,
+      "sha256": "e40b5619247d46993ff8ff333a5b988989f2640a4dabcfca15a6562957e138cb"
+    },
+    {
+      "path": "validation/full6-startup-bundle-validation.json",
+      "bytes": 571,
+      "sha256": "5104310577947e9e10fb5046c2d461e6432588f0a7165c892c2e74b2e6e216ec"
+    },
+    {
+      "path": "validation/full6-summary.json",
+      "bytes": 2897,
+      "sha256": "d3df99c409d1ac9666eea4f71d2f689c8e61f76fdca5722512d203348710eab0"
+    },
+    {
+      "path": "validation/full6-transfer-kit-validation.json",
+      "bytes": 335,
+      "sha256": "a6cb6f70753b3dd642acdc81a4687904498fe29e026b4c924f3102cdfa8737b2"
+    },
+    {
+      "path": "validation/full6-transfer-native-122-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full6-transfer-native-128-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full6-transfer-native-473-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full6-transfer-native-518-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full6-transfer-player-native-validation.json",
+      "bytes": 260,
+      "sha256": "f7c36ccdbbd1bfdde4508817257e328821644abbd1192214b4cbd9054215b129"
+    },
+    {
+      "path": "validation/full6-wrist-load-boundary-validation.json",
+      "bytes": 473,
+      "sha256": "1db6a95631fd7a7c0e3778cfef74fd5ace6003d2c14dd6b2839044f2ceeb70f6"
+    },
+    {
+      "path": "validation/full7-accessory-vector-validation.json",
+      "bytes": 1800,
+      "sha256": "3e7f9c758ebbf133beffe548554fe029e0703ff1f695ff5bfdbdd5c36742aa29"
+    },
+    {
+      "path": "validation/full7-ai-gate-audit-compiledreview-away-retarget-validation.json",
+      "bytes": 396,
+      "sha256": "18cbed8a461df0c7c33d83393936e46237db8b19e550df36d065e3e70fac76f1"
+    },
+    {
+      "path": "validation/full7-ai-gate-audit-compiledreview-coach-assist-validation.json",
+      "bytes": 346,
+      "sha256": "8a4c839eb8cbcb88c7e2f7200f8fd812697047a343dd4cc41ca0b1270d2311cf"
+    },
+    {
+      "path": "validation/full7-ai-gate-audit-compiledreview-temporary-intent-matrix.json",
+      "bytes": 22013,
+      "sha256": "2dd9d9a8cd606a23249c2c9a7e26f51eaffbbe023fcd9ee0391a1e5fb97f0626"
+    },
+    {
+      "path": "validation/full7-bandage-fast-gate-validation.json",
+      "bytes": 1170,
+      "sha256": "70b6edb41c9d3b64905b2f670df49a207957d1de11e344de413bb58420d97917"
+    },
+    {
+      "path": "validation/full7-bandage-final-native-validation.json",
+      "bytes": 1315,
+      "sha256": "54826a47d9b47ff0b3c02533a0e405b2e2cc5c035bf46552947bcf2d8ad5cb1a"
+    },
+    {
+      "path": "validation/full7-bandage-final-wrist-integration-validation.json",
+      "bytes": 840,
+      "sha256": "6ef57692f5fc9c933525c60560bca5f05814a9af9dc6fd3171841c9180d7cf9b"
+    },
+    {
+      "path": "validation/full7-bandage-settings-validation.json",
+      "bytes": 437,
+      "sha256": "6e707561b7bf2344175412de0b3fc5ed33ead24c4ece7ec84a95e96462b80ead"
+    },
+    {
+      "path": "validation/full7-bandage-work-bandage-build-validation.json",
+      "bytes": 368019,
+      "sha256": "c155c8c6c4bbae912d99472349b61e421faaa3f2f51a00e470c7ce403683165b"
+    },
+    {
+      "path": "validation/full7-bandage-work-bandage-native-reader-validation.json",
+      "bytes": 966,
+      "sha256": "cd9447fb6e38f27287770da536e40123581737e31cef00680579e71bdd785c51"
+    },
+    {
+      "path": "validation/full7-cached-player-lookup-validation.json",
+      "bytes": 646,
+      "sha256": "b022e1a5e4d8a776079c0f8f13e3247a5ce16ba644b8854d705f71dd445bf946"
+    },
+    {
+      "path": "validation/full7-cached-roles-bench-validation.json",
+      "bytes": 1663,
+      "sha256": "4a9304b7cf6ad8a0e07aadfb6b322bf72a98d1aa59da520930a14894a909e089"
+    },
+    {
+      "path": "validation/full7-cached-roles-validation.json",
+      "bytes": 1584,
+      "sha256": "41b0c661c73573853992ecf1303b22cfe2f3110d670c98f80fbcdd4c93f4685e"
+    },
+    {
+      "path": "validation/full7-camera-work-single-player-module-validation.json",
+      "bytes": 1718,
+      "sha256": "0cc225d7347d2304d41d3859f6e30adbd773e147d7fc4c617d0860033592b25d"
+    },
+    {
+      "path": "validation/full7-condition-audit-final-setter-validation.json",
+      "bytes": 1050,
+      "sha256": "f350621dea35c7e4f2378fe63be97fdc73a8e85d9fe8eb23d70d22129973cc98"
+    },
+    {
+      "path": "validation/full7-condition-settings-validation.json",
+      "bytes": 364,
+      "sha256": "693906bcbb1e249c1fd6566b8a428719667648a52a30dfe1dd1f4e5bd29406db"
+    },
+    {
+      "path": "validation/full7-dex-link-audit.json",
+      "bytes": 48,
+      "sha256": "086619b1a3474795df0ca83656778195fa0bf7a5161aeedec7ca01affd55663a"
+    },
+    {
+      "path": "validation/full7-face-fixes-spider-visible-draw-validation.json",
+      "bytes": 5626,
+      "sha256": "a293ee768964bebe9c3de017b48d76152dabf06e06499ba196ade95ad87dbe04"
+    },
+    {
+      "path": "validation/full7-full-login-regression-validation.json",
+      "bytes": 613,
+      "sha256": "e15e476295004ba1b1a3318a1bc5598ab51dd1c081a8434cade15b1e9dc8f298"
+    },
+    {
+      "path": "validation/full7-hook-arena-validation.json",
+      "bytes": 558,
+      "sha256": "0e793b7923b25a066a4b0cb953f84e1dcdde2af268fe31c7ca7c6e352ef22b48"
+    },
+    {
+      "path": "validation/full7-merged-faces-validation.json",
+      "bytes": 537,
+      "sha256": "efd1e32f0762446b8f2da3779e9bf8de8e09dd17dc32550289e81c4e9c4ac22c"
+    },
+    {
+      "path": "validation/full7-merged-heads-reader-validation.json",
+      "bytes": 8787,
+      "sha256": "46ba8c0078c50960494b7177b31ee310629913358039cabf169b080d1eaa5eb1"
+    },
+    {
+      "path": "validation/full7-native-abilities-motion-validation.json",
+      "bytes": 236,
+      "sha256": "3bb71ba72acea53d032501dcd372498830ead58ef9bb529d8141eb827f3a481e"
+    },
+    {
+      "path": "validation/full7-native-name-validation.json",
+      "bytes": 359,
+      "sha256": "eca18e8740cfb69ebbefa5c3cbce05e2a57a4d38a1db458ba4df8f82e2fee831"
+    },
+    {
+      "path": "validation/full7-native-trait-validation.json",
+      "bytes": 328,
+      "sha256": "fdf579e8fb1f2ee1345313671d644ee175098826a8a219f84471693c8b59fc91"
+    },
+    {
+      "path": "validation/full7-owned-leagues-native-validation.json",
+      "bytes": 431,
+      "sha256": "2fa491392b05479e2dd99ebe10fee26c256b6958a4a438cb7c20610c8a039bd6"
+    },
+    {
+      "path": "validation/full7-owned-leagues-projection-validation.json",
+      "bytes": 261,
+      "sha256": "b83a720d9edaad3c6315835562a71d470fe6f9685c6f1c0629f744eb11408134"
+    },
+    {
+      "path": "validation/full7-ronaldo-fixes-asset-build-validation.json",
+      "bytes": 38126,
+      "sha256": "fe09ccd14df3594a891eee62e155df66067ea47c6098cb37ed25fb8299392926"
+    },
+    {
+      "path": "validation/full7-ronaldo-fixes-reader-validation.json",
+      "bytes": 2813,
+      "sha256": "e049b26ff2a48cf1baf9e24f282985a91e2e667e767bcfcc1a702077b03dac56"
+    },
+    {
+      "path": "validation/full7-single-player-bootstrap-validation.json",
+      "bytes": 409,
+      "sha256": "584d623bce9f392ffc790a319c2c9112664c22e06b3baab4259ac719cd714a56"
+    },
+    {
+      "path": "validation/full7-single-player-settings-validation.json",
+      "bytes": 390,
+      "sha256": "02cd425ebbd0df65ca19cecb52eb79c40e182bd5561db06577fc34b7d2fed7b4"
+    },
+    {
+      "path": "validation/full7-spider-routing-validation.json",
+      "bytes": 260,
+      "sha256": "e40b5619247d46993ff8ff333a5b988989f2640a4dabcfca15a6562957e138cb"
+    },
+    {
+      "path": "validation/full7-startup-bundle-validation.json",
+      "bytes": 571,
+      "sha256": "5104310577947e9e10fb5046c2d461e6432588f0a7165c892c2e74b2e6e216ec"
+    },
+    {
+      "path": "validation/full7-summary.json",
+      "bytes": 4457,
+      "sha256": "0901f98ef172f463417c396b25135271d253c414542380f79c71ca2263832ec7"
+    },
+    {
+      "path": "validation/full7-transfer-kit-validation.json",
+      "bytes": 335,
+      "sha256": "a6cb6f70753b3dd642acdc81a4687904498fe29e026b4c924f3102cdfa8737b2"
+    },
+    {
+      "path": "validation/full7-transfer-native-122-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full7-transfer-native-128-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full7-transfer-native-473-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full7-transfer-native-518-validation.json",
+      "bytes": 725,
+      "sha256": "72db08dfd0017d2af50b92e47a35889245e64120fc2afca5c72fd398597ebc59"
+    },
+    {
+      "path": "validation/full7-transfer-player-native-validation.json",
+      "bytes": 260,
+      "sha256": "f7c36ccdbbd1bfdde4508817257e328821644abbd1192214b4cbd9054215b129"
+    },
+    {
+      "path": "validation/full7-transfer-player-validation.json",
+      "bytes": 348,
+      "sha256": "f6839b5e0add4f50a9382261f54056432729edcaf83395faf4fcf2a6272ad7b3"
+    },
+    {
+      "path": "validation/full7-wrist-load-boundary-validation.json",
+      "bytes": 473,
+      "sha256": "1db6a95631fd7a7c0e3778cfef74fd5ace6003d2c14dd6b2839044f2ceeb70f6"
+    },
+    {
+      "path": "validation/full8-accessory-vector-validation.json",
+      "bytes": 1800,
+      "sha256": "3e7f9c758ebbf133beffe548554fe029e0703ff1f695ff5bfdbdd5c36742aa29"
+    },
+    {
+      "path": "validation/full8-cached-lookup-validation.json",
+      "bytes": 1488,
+      "sha256": "b613ecaff1455f6fd688ce1104e43965e4fe2eac0af2328b9c059f22e81fbf9d"
+    },
+    {
+      "path": "validation/full8-rc2-asset-build.json",
+      "bytes": 3161,
+      "sha256": "ad165327c7995fa13ed1dc6c2dcf622abe8d64c0d5349704ee4d40d9c4617e17"
+    },
+    {
+      "path": "validation/full8-rc2-boosters-native-validation.json",
+      "bytes": 305,
+      "sha256": "2ce455f0e5a2332db0e83e981795c636220896bea630892e5190f8a08a91c573"
+    },
+    {
+      "path": "validation/full8-rc2-containers.json",
+      "bytes": 191,
+      "sha256": "c169a49a6ab317ef6f91893185d4ac267e5b2042e5d361ed1e2373bfb17f336b"
+    },
+    {
+      "path": "validation/full8-rc2-geometry-validation.json",
+      "bytes": 2385,
+      "sha256": "9442b6ab716cea5e515f5c998e07c751e730f03009bf7e5fdf3530bfbac355ca"
+    },
+    {
+      "path": "validation/full8-rc2-hair-bake.json",
+      "bytes": 331,
+      "sha256": "625016dccf8126670630f55a5a3c6a882c9ff4299b7e899d5fdb210c58d29e39"
+    },
+    {
+      "path": "validation/full8-rc2-hf1-installer-validation.json",
+      "bytes": 467,
+      "sha256": "fe4e452a3fd4c458fdddde155f55747749a722d8db2379bc2f761043bbf32365"
+    },
+    {
+      "path": "validation/full8-rc2-hf1-removed-cache-entries.json",
+      "bytes": 2332,
+      "sha256": "a8969b5cbe98ececba3026d1943264bb7819080340afe48bd93f33ef6b4655e2"
+    },
+    {
+      "path": "validation/full8-rc2-package-validation.json",
+      "bytes": 493,
+      "sha256": "13e3c92056cf266d15738e140d54cfbf1163e2efaadda9d9994e15a1143a9f95"
+    },
+    {
+      "path": "validation/full8-rc2-runtime-validation.json",
+      "bytes": 425,
+      "sha256": "7e4af6460f7eaa0a46e6d3c3e9fed2965d2452c10057198c1ab206a6db8ea124"
+    },
+    {
+      "path": "validation/full8-rc2-single-native-gate-validation.json",
+      "bytes": 381,
+      "sha256": "c9c5f0148e3cf7e5da5c50922a849da73a912d03de195eb8ca22ef723a45fd18"
+    },
+    {
+      "path": "validation/full8-rc2-tactics-cache-validation.json",
+      "bytes": 302,
+      "sha256": "429846d8a2c6b431c10d439b3312922b15be58857813a22f99cecc67661d9194"
+    },
+    {
+      "path": "validation/full8-rc3-ai-level-validation.json",
+      "bytes": 1925,
+      "sha256": "8ba6aca70acb5861a5f1ae7121cd253a89db9d56cc7542ebb6dc57b6410790d2"
+    },
+    {
+      "path": "validation/full8-rc3-asset-build.json",
+      "bytes": 3413,
+      "sha256": "b76f4480c847788a81090414f048971d070e4a5e226dfe591250fc3699305f2a"
+    },
+    {
+      "path": "validation/full8-rc3-containers.json",
+      "bytes": 191,
+      "sha256": "96e1b788dd581e1411b47170f8120ca310c2b186954b81d81be6420e0d452550"
+    },
+    {
+      "path": "validation/full8-rc3-control-entry-validation.json",
+      "bytes": 773,
+      "sha256": "503fdda49914846290773708000d86d8331466932d2be2ec3416251d09a8fa5b"
+    },
+    {
+      "path": "validation/full8-rc3-cpu-observer-validation.json",
+      "bytes": 416,
+      "sha256": "e1a57940581c3a9ab9cd9df05bc628f955c68109735c7b1e12772f649c77ac5d"
+    },
+    {
+      "path": "validation/full8-rc3-geometry-validation.json",
+      "bytes": 2385,
+      "sha256": "8f29f42fb5c3f3add986d5e4d2cd147b76a81c223cee3edb97ba54c8d26e8115"
+    },
+    {
+      "path": "validation/full8-rc3-installer-validation.json",
+      "bytes": 467,
+      "sha256": "cbd2578f10f3ef789e2b5377c2ae49d63786064bbb520c5f6ca1642bb33bfe49"
+    },
+    {
+      "path": "validation/full8-rc3-material-validation.json",
+      "bytes": 1041,
+      "sha256": "641f7f2b8c18dd6edffacaea3f3e5cc0acfedf1cff898e5e3f9b563ea13fee9e"
+    },
+    {
+      "path": "validation/full8-rc3-native-cpu-level-validation.json",
+      "bytes": 1270,
+      "sha256": "2b6f66fd6104c40edeb3ed2740e26e025df032db88fd01378bc855844053ea1c"
+    },
+    {
+      "path": "validation/full8-rc3-runtime-validation.json",
+      "bytes": 476,
+      "sha256": "5405382fa163c75b22e182516c3f1a01d9c3e5838edcefad1dfd6114e20d5e0b"
+    },
+    {
+      "path": "validation/full8-rc3-tactics-cache-validation.json",
+      "bytes": 302,
+      "sha256": "429846d8a2c6b431c10d439b3312922b15be58857813a22f99cecc67661d9194"
+    },
+    {
+      "path": "validation/full8-rc3-traits-native-validation.json",
+      "bytes": 440,
+      "sha256": "25eb68ef3482395d8cf78da9f285393c3cbc23432d51d0d5881276dca61a1e6e"
+    },
+    {
+      "path": "validation/full8-rc4-asset-build.json",
+      "bytes": 3413,
+      "sha256": "07845792910c55d25f5ca05f76de0623c223ad7ec2a4489b66d149d4bafeeee8"
+    },
+    {
+      "path": "validation/full8-rc4-containers.json",
+      "bytes": 194,
+      "sha256": "7fdcdc19b7770b2c7bb5bf87596a76e792d58f561072a190e7b40bc55f85a7d1"
+    },
+    {
+      "path": "validation/full8-rc4-geometry-validation.json",
+      "bytes": 2473,
+      "sha256": "730c53b41b86255e3fe9bc7a5703a275a79e0baae6e1ad2ab2b0f616d9707df8"
+    },
+    {
+      "path": "validation/full8-rc4-hairline-validation.json",
+      "bytes": 203,
+      "sha256": "afb622722f45ce6fdd91e725927fe190bd5f0f178781a045ab9856a470635e0c"
+    },
+    {
+      "path": "validation/full8-rc4-handoff-validation.json",
+      "bytes": 221,
+      "sha256": "109a35014e5e0288bfb55ef8b3446a4a2663e28348eb09f710c4032c157dd3b6"
+    },
+    {
+      "path": "validation/full8-rc4-installer-validation.json",
+      "bytes": 467,
+      "sha256": "55ca60b8bf71bd9d0ab5b59ecf6261298056d144dce65fc3b22bf7ead0d32567"
+    },
+    {
+      "path": "validation/full8-rc4-lifecycle-validation.json",
+      "bytes": 371,
+      "sha256": "91f4c0b0cf058a0770eb4adcf5fec0db9e4ea71562159feeec2ab6e31f1904fb"
+    },
+    {
+      "path": "validation/full8-rc4-live-validation.json",
+      "bytes": 463,
+      "sha256": "58befc273dbeafd2ffd16d05596c56e348cf399c9084414f565d8ad7140ce026"
+    },
+    {
+      "path": "validation/full8-rc4-native-facial-controls.json",
+      "bytes": 4065,
+      "sha256": "e9da914bea4bc63f6b6db293025788207a6785171a856bf47edc1f47a30d39e5"
+    },
+    {
+      "path": "validation/full8-rc4-runtime-validation.json",
+      "bytes": 389,
+      "sha256": "cc2c5001b69101f49764ef5059ff76a66f007152d6e422baf42b74e5933682a5"
+    },
+    {
+      "path": "validation/full8-rc4-source-rebuild-validation.json",
+      "bytes": 674,
+      "sha256": "36907932d7810b56f7d2475013ae16b7d9ea8657d5f7f93b9fad887a240421e2"
+    },
+    {
+      "path": "validation/full8-single-config-validation.json",
+      "bytes": 317,
+      "sha256": "fbd9d2e7ccfdc439abb281ed2b17e6bea92f3de081476384bad64f47fd0c0a9b"
+    },
+    {
+      "path": "validation/full8-single-owned-serial-validation.json",
+      "bytes": 422,
+      "sha256": "b2365885d23c84ba89ad6fbf599a53145627f41657222064e949dbfb739ce401"
+    },
+    {
+      "path": "validation/full8-source-provenance.json",
+      "bytes": 809,
+      "sha256": "8e20d481b23ccb72574fa1e94c0f490004cb87c9c2a9e50b35a60181fd1f7473"
+    },
+    {
+      "path": "validation/full8-v8-asset-build.json",
+      "bytes": 3149,
+      "sha256": "d0ccc67a127221b828472cdfdf805776017708fc6e7313fc2e6096657295f071"
+    },
+    {
+      "path": "validation/full8-v8-containers.json",
+      "bytes": 191,
+      "sha256": "08865d4d4f12770dbc858565d7b025c82a1978c05d2b47f682f5cb753e1f2785"
+    },
+    {
+      "path": "validation/full8-v8-geometry-validation.json",
+      "bytes": 2481,
+      "sha256": "4da0cd091fdb438d5ecbad4152c86e43b8a9827d7a3c8ff337b74acad8c35799"
+    },
+    {
+      "path": "validation/full8-v8-native-path-validation.json",
+      "bytes": 936,
+      "sha256": "12e1f342a11df5ca399f645938a1acbc6221e8322ec0327efba4e57ca437a19c"
+    },
+    {
+      "path": "validation/full8-wrist-load-boundary-validation.json",
+      "bytes": 473,
+      "sha256": "1db6a95631fd7a7c0e3778cfef74fd5ace6003d2c14dd6b2839044f2ceeb70f6"
+    },
+    {
+      "path": "validation/hook-chain-validation.json",
+      "bytes": 220,
+      "sha256": "655ef4397aa8cea77c985fc93daad9dea029d0a61cd416d1bd6348d7c2281d2f"
+    },
+    {
+      "path": "validation/independent-mesh-reader-validation.json",
+      "bytes": 571,
+      "sha256": "09e11ccd30320e64c8e33f0c1dcf9eb27c9fa23f5482711a6ee7b0eb27219f76"
+    },
+    {
+      "path": "validation/launcher-browser-validation.json",
+      "bytes": 319,
+      "sha256": "1845f13d6714ad5b8bbb87385972579ff25ddbe56cf927c6f604d33dad04c505"
+    },
+    {
+      "path": "validation/original-card-bundle-validation.json",
+      "bytes": 2226,
+      "sha256": "3a1a57b3ef00e880b64382563b0f844c287bb165557a3b31792e4c1196ed99f3"
+    },
+    {
+      "path": "validation/photo-editor-browser-validation.json",
+      "bytes": 228,
+      "sha256": "9fbc5ddf87de99b1eaedcd22589aeec088164e8eac0a69b6fcb692afbc4db22f"
+    },
+    {
+      "path": "validation/relogin-photo-validation.json",
+      "bytes": 287,
+      "sha256": "0306aaee6c5a0f906e3ccb2e2b1a604dd9aa64e584efb23546c775871d70aea1"
+    },
+    {
+      "path": "validation/source-hashes.json",
+      "bytes": 1594,
+      "sha256": "afa05607bcaaafa9690f0036d4fe33de691f1a0b0701bdea6372c14b07bc20f1"
+    },
+    {
+      "path": "validation/transfer-canonical-validation.json",
+      "bytes": 321,
+      "sha256": "db442320ed13f8a0730cab544947d8919fc32530170a4ee9869d0d9647e45595"
+    },
+    {
+      "path": "validation/upstream-hook-overlaps.json",
+      "bytes": 124,
+      "sha256": "11f41941ffe6c599c489ceca74fe2b7ec5f94e142eabc2ca4509bb6600def9d3"
+    },
+    {
+      "path": "validation/v19-kit-rebase-validation.json",
+      "bytes": 159,
+      "sha256": "3d86fcb2e749d3813807fa600fb771260baccc64c6ec7bcc3a68fca5c897b2eb"
+    },
+    {
+      "path": "validation/v202-source-hashes.json",
+      "bytes": 345,
+      "sha256": "4988bd836159f730437235e9bfc1f79a2036ea6d3d326f63c85557d334aef104"
+    },
+    {
+      "path": "validation/wukong-native-validation.json",
+      "bytes": 1556,
+      "sha256": "e6dcdd855947391022996cb9963d50541c25848d8fcf0ec402fe8d4a45cd2f3d"
+    }
+  ]
+}
