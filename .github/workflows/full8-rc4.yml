@@ -1,8 +1,7 @@
 name: Build verified FULL8 RC4 download
 on:
   push:
-    branches: [73-full8-rc4-build]
-    paths: ['.ci-full8-rc4/READY.json']
+    branches: [73-full8-rc4-build-source]
 permissions:
   contents: read
 jobs:
