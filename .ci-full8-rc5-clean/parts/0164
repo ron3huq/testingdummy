@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "native_side_changed_same_pad_snapshot_not_reused": true,
+  "new_native_cursor13_and_mode2_restored_after_off": true,
+  "real_native_accessors_on_synthetic_context": true,
+  "phone_verified": false
+}

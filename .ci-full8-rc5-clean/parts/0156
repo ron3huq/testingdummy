@@ -1,0 +1,12 @@
+exec(open('/workspace/work/full8-rc5/test_live.py').read().split('report={')[0])
+call(fn['single_player_configure'],0,1,ids[7]);call(fn['live_update'],actor,0,0,match,0);assert st(3)==1
+# Native side handoff reuses the controller but has already assigned its new
+# mode/cursor. Restoring the OLD side's snapshot must not overwrite this state.
+import os
+actor1=actor if os.environ.get('RC4_SAME_ACTOR')else actor+0x100;w(0xa5909e8+8,'Q',actor1);w(scene+0x3630+0x50,'Q',team);w(team,'I',1);w(pad,'B',2)
+w(pad+0x5c,'B',2);call(0x72de848,pad,13);call(0x6a520bc,pad,13);assert call(0x6a4eb78,pad)==13,'OLD_SCOPE_INTERCEPTS_NATIVE_SIDE_CHANGE';w(pad+0x18,'I',12);w(pad+0x2c,'I',42);w(match+0x1998+8,'I',2)
+call(fn['live_update'],actor1,0,0,match,1);assert st(3)==1 and st(7)==18
+call(fn['single_player_configure'],0,0,ids[7]);call(fn['live_update'],actor1,0,0,match,1)
+value=struct.unpack('<II',u.mem_read(pad+0x10,8));mode=u.mem_read(pad+0x5c,1)[0]
+assert value==(13,13)and mode==2,('STALE_OLD_SIDE_RESTORE',value,mode)
+report={'passed':True,'native_side_changed_same_pad_snapshot_not_reused':True,'new_native_cursor13_and_mode2_restored_after_off':True,'real_native_accessors_on_synthetic_context':True,'phone_verified':False};(R/'handoff-validation.json').write_text(json.dumps(report,indent=2));print(json.dumps(report))

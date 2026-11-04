@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "host_fixture_only": true,
+  "phone_verified": false,
+  "AI_native_flag15_transition_and_suspension": true,
+  "replay_restore_two_capture_delay": true,
+  "native_invalid_selection_preserved": true,
+  "owned_destructor_clears_control_and_roster": true,
+  "scene_removed_no_stale_interception": true,
+  "AI_controller_rebuild_boundary_stubbed": true
+}

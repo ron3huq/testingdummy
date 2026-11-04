@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "phone_verified": false,
+  "NPC_Valverde113911_native_base_read": true,
+  "all_abilities_prefilled": true,
+  "save_reopen_only_changed_fields": true,
+  "skills_add_remove_boosters_foot_positions_scope": true,
+  "exact_ID_no_lowword_alias": true,
+  "celebration_owner_names": true,
+  "packaged_Dex_menu_mapping": [
+    1,
+    2,
+    0
+  ],
+  "worker_migration_host_ARM64": true,
+  "foreign_lifecycle_does_not_suspend": true
+}

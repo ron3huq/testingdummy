@@ -1,0 +1,50 @@
+"""Build V8F from explicit centimeter/UV/triangle/bone-weight arrays and public D assets.
+No archive, save, personal DB, binary patch blob, or private engine input.
+"""
+from pathlib import Path
+import struct,json,hashlib,sys
+sys.path.insert(0,str(Path(__file__).resolve().parents[0].parent/'repair-full8-rc4'))
+from iostore import Toc
+from ci_bundle import Bundle
+from zen_clone import rename,pid
+BASE='/Game/Assets/character/RealFace/'
+def sha(b):return hashlib.sha256(b).hexdigest()
+def array16(a):return struct.pack('<I',len(a))+struct.pack('<%dH'%len(a),*a)
+def flatten(a):return [x for row in a for x in row]
+def build_mesh(raw,spec,buffers):
+ assert sha(raw)==spec['input_mesh_sha256'];prefix=bytearray(raw[:spec['source_prefix_end']]);struct.pack_into('<7f',prefix,spec['bounds_offset'],*spec['bounds']);lods=[]
+ for lod in spec['lods']:
+  a=lambda key:buffers[lod[key]]
+  positions=a('positions_cm');n=len(positions);triangles=flatten(a('triangles'));weights=a('influences_4indices_4weights')
+  assert len(weights)==n and all(sum(r[4:])==255 for r in weights)and max(triangles)<n<65536
+  stream=bytes(lod['stream_header'])+struct.pack('<BII',2,2,len(triangles))+struct.pack('<%dH'%len(triangles),*triangles)
+  stream+=struct.pack('<4I',12,n,12,n)+struct.pack('<%df'%(n*3),*flatten(positions))
+  stream+=bytes(lod['tangent_uv_header'])+struct.pack('<II',8,n)+bytes(flatten(a('tangents_SNORM8')))+struct.pack('<II',4,n*2)+struct.pack('<%de'%(n*4),*flatten(a('uv')))
+  stream+=bytes(lod['skin_header'])+struct.pack('<II',1,n*8)+bytes(flatten(weights))+bytes(lod['skin_tail'])
+  stream+=bytes(lod['color_header'])+struct.pack('<4I',4,n,4,n)+bytes(flatten(a('vertex_colors')))+bytes(lod['color_tail'])
+  sections=b''.join(bytes(s['header'])+array16(s['bone_map'])+bytes(s['tail'])for s in lod['sections'])
+  lods.append(bytes(lod['header'])+array16(lod['required'])+struct.pack('<I',len(lod['sections']))+sections+array16(lod['active'])+struct.pack('<I',len(stream))+stream)
+ out=bytearray(prefix+b''.join(lods)+bytes([2,2,0,0,0,0]));em=struct.unpack_from('<I',raw,44)[0];struct.pack_into('<Q',out,em+80,struct.unpack_from('<Q',raw,em+80)[0]+len(out)-len(raw));return bytes(out)
+def build(root,docpath):
+ root=Path(root);live=root/'assets/gateway-release/livedata';doc=json.loads(Path(docpath).read_text())
+ converted=lambda name:name.replace('RV8D','RV8F').replace('HV8D','HV8F')
+ allpaths=[p for spec in doc['variants']for p in Toc(str(live/(spec['input_container']+'_mobile_and.utoc'))).files]
+ global_mappings={BASE+Path(p).stem:BASE+converted(Path(p).stem)for p in allpaths if p.endswith('.uasset')}
+ for spec in doc['variants']:
+  t=Toc(str(live/(spec['input_container']+'_mobile_and.utoc')));source=Bundle(t);out=Bundle(t);out.files={};out.entries={};out.output_name=spec['output_container']+'_mobile_and'
+  converted=lambda name:name.replace('RV8D','RV8F').replace('HV8D','HV8F')
+  mappings=global_mappings;remap={pid(a):pid(b)for a,b in mappings.items()}
+  for path,index in t.files.items():
+   name=Path(path).stem;newname=converted(name);ext=Path(path).suffix;raw=t.read(index);entry=None
+   if ext=='.uasset':
+    key=int.from_bytes(t.ids[index][:8],'little');fixed,deps=source.entries[key];entry=(fixed,[remap.get(x,x)for x in deps])
+    if name==spec['old_name']:raw=build_mesh(raw,spec,doc['buffers'])
+    replacements={BASE+name:BASE+newname,name:newname}
+    for a,b in mappings.items():replacements[a]=b;replacements[a.rsplit('/',1)[-1]]=b.rsplit('/',1)[-1]
+    raw=rename(raw,replacements,BASE+name,BASE+newname,imports=mappings)
+    if name==spec['old_name']:
+     assert sha(raw)==spec['expected_mesh_sha256'],'Source mesh reconstruction differs: '+name
+   chunk=struct.pack('<Q',pid(BASE+newname))+b'\0\0\0'+(b'\2'if ext=='.uasset'else b'\3')
+   out.put(str(Path(path).with_name(newname+ext)),chunk,raw,entry)
+  out.write(live)
+if __name__=='__main__':build(sys.argv[1],sys.argv[2])

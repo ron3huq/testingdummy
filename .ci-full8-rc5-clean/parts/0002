@@ -1,0 +1,10 @@
+{
+  "source": "public game73 Player table, not a user save",
+  "records": 46623,
+  "importer": "0x82aa124",
+  "getter": "0x82a84d4",
+  "engine_sha256": "efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8",
+  "table_sha256": "557e38cf96f8f49329690666df4bb81c3587305534369bf87de23c7517ad9b59",
+  "row_length": 147,
+  "owned_records_overlaid_at_runtime": true
+}

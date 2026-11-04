@@ -1,0 +1,5 @@
+typedef unsigned long U;typedef unsigned int W;
+__attribute__((visibility("default"))) void scan(void*record,void*raw,W*out){
+ ((void(*)(void*,void*,W))0x82aa124)(record,raw,0);
+ for(W i=0;i<147;i++){out[i]=0;((void(*)(void*,W,W*))0x82a84d4)(record,i,out+i);}
+}

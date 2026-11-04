@@ -1,0 +1,26 @@
+exec(open('/workspace/work/full8-rc5/test_live.py').read().split('report={')[0])
+# Native AI setter executes its genuine flag15 update. Only the subsequent
+# broad controller-rebuild boundary (needs complete match objects) is stubbed.
+def rebuild(uc,addr,size,data):
+ if addr==0x72ded88:uc.reg_write(UC_ARM64_REG_PC,uc.reg_read(UC_ARM64_REG_LR))
+u.hook_add(UC_HOOK_CODE,rebuild)
+call(fn['live_bind_previous'],0,5,0x72defe4)
+call(fn['single_player_configure'],0,1,ids[7]);call(fn['live_update'],actor,0,0,match,0);assert st(3)==1
+call(fn['live_transition'],pad,1,match,0);assert st(3)==0 and call(0x6a9d2e0,pad)==1
+call(fn['live_update'],actor,0,0,match,0);assert st(8)==13 and st(3)==0
+call(fn['live_transition'],pad,0,match,0);assert call(0x6a9d2e0,pad)==0
+call(fn['live_update'],actor,0,0,match,0);assert st(3)==1
+# Replay restore invalidates control until two capture opportunities pass.
+call(fn['live_restore'],pad,0,0);assert st(3)==0
+call(fn['live_update'],actor,0,0,match,0);assert st(3)==0 and st(8)==11
+call(fn['live_update'],actor,0,0,match,0);assert st(3)==1
+# Native invalidation is respected, never replaced with an invalid player.
+call(0x72de848,pad,255);assert st(3)==0 and call(0x6a4eb78,pad)==255
+call(fn['live_update'],actor,0,0,match,0);assert st(3)==1
+# Own actor destructor releases control and clears roster before native teardown.
+call(fn['live_dtor'],actor,0,0);assert st(3)==0 and st(15)==0
+# With scene gone, no dead pad writes; native getter/setter pass through.
+w(0xa58de28,'Q',0);call(fn['live_update'],actor,0,0,match,0);assert st(3)==0 and st(15)==0
+call(0x72de848,pad,3);assert call(0x6a4eb78,pad)==3
+report=dict(passed=True,host_fixture_only=True,phone_verified=False,AI_native_flag15_transition_and_suspension=True,replay_restore_two_capture_delay=True,native_invalid_selection_preserved=True,owned_destructor_clears_control_and_roster=True,scene_removed_no_stale_interception=True,AI_controller_rebuild_boundary_stubbed=True)
+(R/'lifecycle-validation.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

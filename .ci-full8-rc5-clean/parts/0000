@@ -1,0 +1,21 @@
+# FULL-8 RC5 · APK73 · nền FULL-7
+
+Resource revision19012. Gói FULL tích lũy, không phải APK đã ký. Giữ Transfer đội hình/vai trò, accessories đã được người dùng xác nhận và kiểm tra toàn vẹn/login. Không có save/DB cá nhân, log, video, RAR nguồn hay hai Ronaldo Vol9 đã hủy.
+
+## Transfer Edit Member
+
+Sửa ánh xạ menu Celebration IDs/Accessories/Abilities. NPC không có trong kho sở hữu được tra bằng đúng full ID từ46623 bản ghi game73 công khai, giải mã bằng importer/getter native gốc. Record sở hữu đúng duy nhất được ưu tiên, sau đó áp các chỉnh sửa toàn cục và theo giải. Không đoán record bằng cách cắt ID hoặc chọn bừa serial. Nguồn được ghi trong response data_source. Abilities hiện số gốc đã giải mã và chỉnh sửa đã lưu; không gồm buff tức thời trong trận. Khi lưu chỉ số chỉ ghi trường đã thay đổi. Skills/Boosters/Foot/Positions dùng cùng dữ liệu này và lưu theo cầu thủ/giải. Celebration dùng tên cầu thủ trong cùng catalogue Player Editor; ID không có chủ đã biết được ghi rõ, không tự gán tên.
+
+## Single Player
+
+Bỏ khóa luồng gọi đầu tiên khiến capture bị chặn mã14; kiểm tra đúng scene/match/controller/actor vẫn giữ. Lifecycle của đối thủ không được vô hiệu hóa controller người dùng. Bổ sung counter nguyên nhân và chuyển worker. Chọn từ roster native trong trận, không quét40k cầu thủ. Khi chưa có roster, chỉ báo một lần và tự mở picker khi roster sẵn sàng; chạm lần nữa để hủy chờ. Giữ nút để đổi cầu thủ. OFF trả điều khiển native; xanhON khi module native báo active, vàngWAIT khi chưa áp dụng. Launcher chỉ lưu lựa chọn, không chứng minh input trong trận. Không cần bậtAI xanh.
+
+## Ronaldo2027 ID89138556572074
+
+RV8F pc9348..9351. Bỏ phép kéo giãn/dịch toàn đầu; khôi phục đúng đỉnh đầu trên cổ và tóc13404vertex/4942triangle của V8, không cắt rãnh mesh tóc. Chỉ vùng cổ thấp được khớp bề mặt native; rig thân/cổ giữ nguyên4522. Nhãn cầu native được đặt tại pivot mí nguồnV8; răng/khoang miệng khớp vị trí môiV8. Giữ các driver mắt/mí/môi riêng và cộng trọng số lane trùng. LOD0/1 thực,MinLOD0; LOD thấp vẫn dùng native4522. Không thay mesh thân. Chưa xác nhận sự chuyểnLOD, shader hay biểu cảm thực trên điện thoại.
+
+## Giới hạn kiểm tra
+
+Các kiểm tra dữ liệu lưu/mở lại, decoder native, worker migration/AI/pause/đổi bên trên ARM64 host và UEViewer đọc lại mesh đã qua. Fixture không phải trận chạy thật trên điện thoại. **Chưa thể bảo đảm Single Player đã nhận input đúng hoặc face hết lỗi trên máy.** Báo cáo RC4 trở về trước là lịch sử, không chứng minh RC5 hoạt động. Nghiên cứu AI vẫn có7mức native; chưa có bằng chứng đo hành vi độ khó/MyLeague trên điện thoại. Không đổi độ khó bằng suy đoán.
+
+Ghép toàn bộ assets/ và classes5.dex vào đúng APK73, ký bằng khóa đang dùng; không gỡ app/xóa save. Artifact GitHub cần đăng nhập và giữ7ngày. Không dùng ZIP nhánh source làm gói FULL.
