@@ -1008,7 +1008,7 @@
     {
       "path": "classes5.dex",
       "bytes": 667284,
-      "sha256": "8c6c72d6e53d2b7015d1ff49e5753fb933a6f097bf444b7155a765417b24a0c0"
+      "sha256": "28f644d042a4f1b30f081ffc4b7b25222cc288dec3abf3d1120e69e15309143a"
     },
     {
       "path": "source/repair-candidate1/PrivateTools.smali",
@@ -1232,8 +1232,8 @@
     },
     {
       "path": "source/repair-full8-rc4/DexTool.java",
-      "bytes": 851,
-      "sha256": "682192e88d2affc4be6ff4817bff39870d39169a81ea8e71e44cfcaafa9a4d3e"
+      "bytes": 860,
+      "sha256": "fb33fd751edd68686f9320a51e334bce560a3d520bb4afc8b5ba5f75f6efc709"
     },
     {
       "path": "source/repair-full8-rc4/RuntimeDiagnostics.smali",
@@ -1252,8 +1252,8 @@
     },
     {
       "path": "source/repair-full8-rc4/build_recipe.json",
-      "bytes": 2964,
-      "sha256": "05ae832fe30d3d87d55eab6aa6bb250a3039e7d7c0d1889bc81d365e86b4a775"
+      "bytes": 3041,
+      "sha256": "d847572c0275d17ca693d66b9d830d5022053e769d4fb7ba4b08f5ef1fcc9a10"
     },
     {
       "path": "source/repair-full8-rc4/ci_bundle.py",

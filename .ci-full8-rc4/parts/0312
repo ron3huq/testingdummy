@@ -510,7 +510,7 @@
     {
       "path": "validation/full8-rc4-source-rebuild-validation.json",
       "bytes": 674,
-      "sha256": "36907932d7810b56f7d2475013ae16b7d9ea8657d5f7f93b9fad887a240421e2"
+      "sha256": "05cd11feff02614d27b027c3f1de1e835ffc0b9d5c9a749b45c9fc6d2d348122"
     },
     {
       "path": "validation/full8-single-config-validation.json",
