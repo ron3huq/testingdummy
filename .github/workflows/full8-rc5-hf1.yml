@@ -1,0 +1,44 @@
+name: Build verified FULL8 RC5 HF1 download
+on:
+  push:
+    branches: [73-full8-rc5-hf1-login-integrity]
+permissions:
+  contents: read
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install pinned public build tools in an isolated environment
+        run: |
+          python -m venv .ci-full8-rc5/venv
+          .ci-full8-rc5/venv/bin/python -m pip install --disable-pip-version-check ziglang==0.13.0 cityhash==0.4.10
+      - name: Assemble and verify complete payload from source
+        run: |
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc4/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc5/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc5-hf1/assemble.py
+      - name: Copy only the verified payload for download
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil,json
+          root=Path.cwd();out=root/'FULL8-RC5-HF1'
+          inventory=json.loads((root/'payload-inventory.json').read_text())
+          for name in ['payload-inventory.json']+[r['path']for r in inventory['files']]:
+              target=out/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(root/name,target)
+          PY
+      - name: Publish complete FULL download artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC5-HF1-complete-APK73
+          path: FULL8-RC5-HF1/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 6
