@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "phone_verified": false,
+  "roster_fixture": "distinct Update x3 vs global scene pad manager",
+  "actual_engine_accessors_executed": true,
+  "Update_boundary_scripted": true,
+  "cursor_getter_setter_hooks_checked": true,
+  "disabled_restores_native": true
+}

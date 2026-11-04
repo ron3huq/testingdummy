@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "name": "pc9298_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424",
+      "parts": [
+        ".ci-full8-rc6-input/face-parts/0000"
+      ]
+    },
+    {
+      "name": "pc9298_mobile_and.utoc",
+      "bytes": 13497,
+      "sha256": "14c1fef775b04d5412eb540c7b610b598ff3cd6f6ca41fdbc4ef977a27461a46",
+      "parts": [
+        ".ci-full8-rc6-input/face-parts/0001"
+      ]
+    },
+    {
+      "name": "pc9298_mobile_and.ucas",
+      "bytes": 9560415,
+      "sha256": "e0306e35293c9efd913976b7241f2d126a94cc729f945fe0acb7fc5e5413cee7",
+      "parts": [
+        ".ci-full8-rc6-input/face-parts/0002",
+        ".ci-full8-rc6-input/face-parts/0003",
+        ".ci-full8-rc6-input/face-parts/0004",
+        ".ci-full8-rc6-input/face-parts/0005",
+        ".ci-full8-rc6-input/face-parts/0006",
+        ".ci-full8-rc6-input/face-parts/0007",
+        ".ci-full8-rc6-input/face-parts/0008",
+        ".ci-full8-rc6-input/face-parts/0009",
+        ".ci-full8-rc6-input/face-parts/0010",
+        ".ci-full8-rc6-input/face-parts/0011",
+        ".ci-full8-rc6-input/face-parts/0012",
+        ".ci-full8-rc6-input/face-parts/0013",
+        ".ci-full8-rc6-input/face-parts/0014",
+        ".ci-full8-rc6-input/face-parts/0015",
+        ".ci-full8-rc6-input/face-parts/0016",
+        ".ci-full8-rc6-input/face-parts/0017",
+        ".ci-full8-rc6-input/face-parts/0018",
+        ".ci-full8-rc6-input/face-parts/0019",
+        ".ci-full8-rc6-input/face-parts/0020",
+        ".ci-full8-rc6-input/face-parts/0021",
+        ".ci-full8-rc6-input/face-parts/0022",
+        ".ci-full8-rc6-input/face-parts/0023",
+        ".ci-full8-rc6-input/face-parts/0024",
+        ".ci-full8-rc6-input/face-parts/0025",
+        ".ci-full8-rc6-input/face-parts/0026",
+        ".ci-full8-rc6-input/face-parts/0027",
+        ".ci-full8-rc6-input/face-parts/0028",
+        ".ci-full8-rc6-input/face-parts/0029",
+        ".ci-full8-rc6-input/face-parts/0030",
+        ".ci-full8-rc6-input/face-parts/0031",
+        ".ci-full8-rc6-input/face-parts/0032",
+        ".ci-full8-rc6-input/face-parts/0033",
+        ".ci-full8-rc6-input/face-parts/0034",
+        ".ci-full8-rc6-input/face-parts/0035",
+        ".ci-full8-rc6-input/face-parts/0036",
+        ".ci-full8-rc6-input/face-parts/0037",
+        ".ci-full8-rc6-input/face-parts/0038",
+        ".ci-full8-rc6-input/face-parts/0039"
+      ]
+    }
+  ],
+  "source_attachment_sha256": "5336edc370f5eba5b511902e75d8311cec2974b39fcd713d2c508ca644b0c643"
+}

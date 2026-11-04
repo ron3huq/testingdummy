@@ -1,0 +1,9 @@
+{
+  "dex_sha256": "4b6989711dc7b27fab5b399491542f5d9de0d50bae05e863407891609889221e",
+  "native_sha256": {
+    "libsingle_player_live.so": "81ff08c4e222f017ca09d813c07bb69ea27a8de56e783b8003bd1f9c76d06074",
+    "libtransfer_final.so": "6d21e71ee21b113512268ebf1a1ceb477c9e23bc2628c740c41971e3f7f5dc21",
+    "libselect_team.so": "674fca3a1293aa06a572124cce8e67ef3251f3c84d70d059bcf29f756df92ab6"
+  },
+  "inventory_sha256": "f22cdfcb67882ce1df71f9cac35de4593076b945bb5a8020745e96a47e94a819"
+}

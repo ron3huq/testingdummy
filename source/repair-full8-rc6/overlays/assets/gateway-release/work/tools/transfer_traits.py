@@ -1,0 +1,15 @@
+"""Transfer skills/boosters use the same native fields and catalogue as Player Editor."""
+from pathlib import Path
+import json
+import myleague_editor_runtime as editor
+def manage(c,action,req):
+ import transfer_editor as transfer,transfer_player_editor as players,editor_boosters,editor_names,player_editor
+ tid,cid=transfer.identity(req);pid=str(req.get('player_id',''));editor.identity(pid)
+ team=transfer.source(tid,cid)
+ if team is None or not any(p['id']==pid for p in team['roster']):raise ValueError('Select a current team member')
+ if action.endswith('_apply'):
+  return players.manage(c,'ui712_transfer_player_apply',dict(req,values={k:req[k]for k in ('skills','boosters','foot','positions')if k in req}))
+ import transfer_native_data
+ params,data_source=transfer_native_data.read(c,pid,cid)
+ labels=json.loads(Path(__file__).with_name('innate_skill_labels.json').read_text())
+ return dict(data_source=data_source,foot={str(i):params[i]for i in[42,43,45]},positions={str(i):params[i]for i in range(14)},position_choices=list(player_editor.POSITIONS),player_id=pid,name=editor_names.NAMES.get(pid,pid),skills=[i for i,flag in enumerate(editor.FLAGS)if params[flag]],skill_choices=[{'id':i,'label':labels.get(str(i),'Native skill '+str(i))}for i in range(len(editor.FLAGS))],boosters=params[144:147],booster_choices=__import__('transfer_booster_choices').catalogue(),booster_limits=list(getattr(editor_boosters,'EDITOR_LIMITS',(255,1023,1023))))

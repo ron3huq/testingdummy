@@ -1,0 +1,50 @@
+{
+  "source_user_attachment": "RONALDO-MESSIPRADEEP-V2-106654775417922-ANDROID (1).zip",
+  "source_zip_sha256": "5336edc370f5eba5b511902e75d8311cec2974b39fcd713d2c508ca644b0c643",
+  "purpose": "Retarget supplied Ronaldo face to89138556572074, preserve every mesh/rig/texture value",
+  "ignored": [
+    "HUONG-DAN.txt",
+    "TAT-FACE.zip",
+    "work/tools/gateway_runtime.py",
+    "work/tools/libnoodle_hair.so",
+    "work/tools/noodle_hair.py",
+    "work/tools/noodle_hair.json",
+    "work/tools/noodle_bundle.json"
+  ],
+  "exported_inputs": [
+    {
+      "name": "pc9298_mobile_and.pak",
+      "bytes": 365,
+      "sha256": "0c9d79129f5ca913335ca2f864ae40d39818a16a12805c9ab55fa1329c7f9424"
+    },
+    {
+      "name": "pc9298_mobile_and.ucas",
+      "bytes": 9560415,
+      "sha256": "e0306e35293c9efd913976b7241f2d126a94cc729f945fe0acb7fc5e5413cee7"
+    },
+    {
+      "name": "pc9298_mobile_and.utoc",
+      "bytes": 13497,
+      "sha256": "14c1fef775b04d5412eb540c7b610b598ff3cd6f6ca41fdbc4ef977a27461a46"
+    }
+  ],
+  "logical_assets": 34,
+  "source_geometry": {
+    "vertices": 60785,
+    "bone_count": 166,
+    "required_bones": [
+      166,
+      166
+    ],
+    "body_neck_shoulder_bind_pose": "byte-exact native4522",
+    "changed_source_pivots_only": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "script_or_blueprint_assets": false
+  }
+}

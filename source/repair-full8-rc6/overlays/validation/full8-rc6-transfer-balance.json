@@ -1,0 +1,19 @@
+{
+  "phone_verified": false,
+  "automated_checks": {
+    "existing_FULL7_exports_unchanged": true,
+    "no_RWX_load_segments": true,
+    "edited_Messi_Y17_stat_40_survives_native_balance": true,
+    "all_26_stats_preserved_for_edited_profile": true,
+    "unedited_Y17_peer_unchanged": true,
+    "exemption_not_applied_in_other_league": true,
+    "unchanged_UI_save_does_not_exempt": true,
+    "save_and_reopen_passed": true
+  },
+  "sha256": {
+    "transfer_final.c": "d2e8ccd4404e91bafc12d6ac1670e7d83b6406de94c6866830a84c641deb1e79",
+    "editor_callbacks.S": "66cc96b5f7ca0733cd4d3cb4226ecac9f707b8a297a5ea3d73b68472f6ed0a44",
+    "libtransfer_final.so": "6d21e71ee21b113512268ebf1a1ceb477c9e23bc2628c740c41971e3f7f5dc21",
+    "libselect_team.so": "674fca3a1293aa06a572124cce8e67ef3251f3c84d70d059bcf29f756df92ab6"
+  }
+}

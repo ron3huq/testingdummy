@@ -1,0 +1,117 @@
+"""Competition-scoped player edits for real native Transfer rosters, including NPCs."""
+import copy,json
+import body_dimensions as body,myleague_editor_runtime as editor
+KEY='full5_transfer_players';_profiles={}
+def read(c):
+ row=c.execute('SELECT value FROM meta WHERE key=?',(KEY,)).fetchone();data=json.loads(row[0])if row else{}
+ if not isinstance(data,dict)or len(data)>1024:raise ValueError('Invalid Transfer player profiles')
+ return data
+
+def validate(values):
+ import stat_editor,appearance_choices,appearance_gear
+ if not isinstance(values,dict)or set(values)-{'parameters','celebrations','accessories','accessory_colors','sleeve','bandage_left','bandage_right','skills','boosters','foot','positions'}:raise ValueError('Invalid Transfer player fields')
+ if 'parameters'in values:stat_editor.validate(values['parameters'])
+ if 'foot'in values:
+  f=values['foot']
+  if not isinstance(f,dict)or set(f)-{'42','43','45'}or any(type(v)is not int or not 0<=v<=(1 if k=='43'else 3)for k,v in f.items()):raise ValueError('Invalid dominant/weak foot fields')
+ if 'positions'in values:
+  f=values['positions']
+  if not isinstance(f,dict)or any(k not in {str(i)for i in range(14)}or type(v)is not int or not 0<=v<=(12 if k=='0'else 2)for k,v in f.items()):raise ValueError('Invalid native position proficiency')
+ if 'skills'in values:__import__('player_tuning').validate_skills(values['skills'])
+ if 'boosters'in values:__import__('editor_boosters').validate(values['boosters'],[0,0,0],three_slots=True)
+ if 'celebrations'in values:
+  if not isinstance(values['celebrations'],dict)or set(values['celebrations'])-{'59','60'}:raise ValueError('Invalid celebration fields')
+  appearance_choices.validate(values['celebrations'])
+ gear={k:v for k,v in values.items()if k in ['accessories','accessory_colors','sleeve','bandage_left','bandage_right']}
+ appearance_gear.validate(gear)
+ return values
+
+def inject(cfg,data):
+ for key,v in data.items():
+  cid,pid=key.split(':');body.identity(pid);editor.integer(int(cid),0,1000);validate(v)
+  row=next((r for r in cfg['players']if r['id']==pid and r['competition']==int(cid)),None)
+  if row is None:row={'id':pid,'competition':int(cid),'sleeve':'none','parameters':{}};cfg['players'].append(row)
+  row['parameters'].update(v.get('parameters',{}));row['parameters'].update(v.get('celebrations',{}))
+  row['parameters'].update(v.get('foot',{}))
+  if 'positions'in v:row['position_parameters']=dict(row.get('position_parameters',{}),**v['positions'])
+  if 'skills'in v:
+   row['ui77_innate']=True;row['parameters'].update({str(flag):int(i in v['skills'])for i,flag in enumerate(editor.FLAGS)})
+  if 'boosters'in v:row['boosters']=list(v['boosters'])
+  for field in ['accessories','accessory_colors','sleeve','bandage_left','bandage_right']:
+   if field in v:row[field]=copy.deepcopy(v[field])
+ editor.validate(cfg);return cfg
+
+def restore_config(c):
+ global _profiles
+ data=read(c);_profiles=data
+ if not data:return
+ before=editor.PATH.read_text();encoded=json.dumps(inject(json.loads(before),data),indent=2)
+ if encoded!=before:
+  tmp=editor.PATH.with_suffix('.transfer-players.tmp');tmp.write_text(encoded);tmp.replace(editor.PATH);editor._config=None
+
+def manage(c,action,req):
+ global _profiles
+ import transfer_editor as transfer,stat_editor,appearance_choices,appearance_gear,editor_names
+ tid,cid=transfer.identity(req);pid=body.identity(str(req.get('player_id','')));roster=transfer.source(tid,cid)
+ if roster is None or not any(p['id']==pid for p in roster['roster']):raise ValueError('Reload the team and select a current member')
+ data=read(c);key=str(cid)+':'+pid;current=data.get(key,{})
+ if action.endswith('_get'):
+  import transfer_native_data
+  native_values,data_source=transfer_native_data.read(c,pid,cid)
+  effective={'parameters':{str(k):native_values[k]for k in stat_editor.LABELS},'celebrations':{str(k):native_values[k]for k in [59,60]},'accessories':{},'accessory_colors':{}}
+  for scope in [0,cid]:
+   for row in editor.config()['players']:
+    if row['id']==pid and row['competition']==scope:
+     effective['parameters'].update({k:v for k,v in row.get('parameters',{}).items()if k in {str(i)for i in stat_editor.LABELS}})
+     effective['celebrations'].update({k:v for k,v in row.get('parameters',{}).items()if k in ['59','60']})
+     for field in ['accessories','accessory_colors']:effective[field].update(row.get(field,{}))
+     for field in ('bandage_left','bandage_right'):
+      if field in row:effective[field]=row[field]
+     if row.get('sleeve','none')!='none':effective['sleeve']=row['sleeve']
+  return {'player_id':pid,'name':editor_names.NAMES.get(pid,pid),'competition':cid,'values':effective,'fields':[{'index':k,'name':v}for k,v in stat_editor.LABELS.items()],'data_source':data_source,'data_source_label':{'native_MyLeague_record_observed':'My League native record (last observed)','game73_classic_native_path':'Verified native classic profile','gameplayers':'Owned player record','player_pool':'Player pool record','game73_native_base':'Base game data; My League record not yet observed'}.get(data_source,data_source),'celebration_choices':transfer_native_data.celebrations()if req.get('section')=='celebrations'else{},'accessory_choices':appearance_gear.CHOICES}
+ if body.engine_loaded():raise ValueError('Close and reopen the app; edit before Enter Game')
+ if c.in_transaction:raise ValueError('Another save is active')
+ changes=copy.deepcopy(validate(req.get('values')))
+ if 'parameters'in changes:
+  import transfer_native_data
+  before_parameters,_=transfer_native_data.read(c,pid,cid)
+  changed=any(before_parameters[int(k)]!=v for k,v in changes['parameters'].items())
+  changes['parameters']=dict({str(k):before_parameters[k]for k in stat_editor.LABELS},**changes['parameters'])if changed else{}
+ updated=copy.deepcopy(data);v=copy.deepcopy(current)
+ for field,value in changes.items():
+  if isinstance(value,dict):v[field]=dict(v.get(field,{}),**value)
+  else:v[field]=value
+ validate(v);updated[key]=v
+ if len(updated)>1024:raise ValueError('Maximum 1024 Transfer player profiles')
+ before=editor.PATH.read_bytes();cfg=inject(json.loads(before),updated)
+ tmp=editor.PATH.with_suffix('.transfer-players.tmp')
+ try:
+  c.execute('BEGIN IMMEDIATE');c.execute('INSERT OR REPLACE INTO meta(key,value)VALUES(?,?)',(KEY,json.dumps(updated,separators=(',',':'))));tmp.write_text(json.dumps(cfg,indent=2));tmp.replace(editor.PATH);c.commit()
+ except Exception:
+  c.rollback();tmp.write_bytes(before);tmp.replace(editor.PATH);editor._config=None;raise
+ _profiles=updated;editor._config=None;return {'saved':True,'player_id':pid,'competition':cid,'values':v}
+
+
+def project_parameters(parameters,values):
+ out=list(parameters)
+ for field in ['parameters','celebrations','foot','positions']:
+  for k,v in values.get(field,{}).items():out[int(k)]=v
+ if 'skills'in values:
+  for i,flag in enumerate(editor.FLAGS):out[flag]=int(i in values['skills'])
+ if 'boosters'in values:out[144:147]=list(values['boosters'])
+ return out
+
+
+def runtime_fields(pid,cid,values):
+ fields={**values.get('celebrations',{}),**values.get('foot',{}),**values.get('positions',{})}
+ if values.get('parameters'):
+  import transfer_editor,transfer_native_data,stat_editor
+  conn=getattr(transfer_editor,'_conn',None)
+  if conn is not None:base,_=transfer_native_data.read(conn,pid,cid)
+  else:
+   classic=json.loads(__import__('pathlib').Path(__file__).with_name('transfer_classic_native_baselines.json').read_text());base=classic.get(str(cid)+':'+pid)or transfer_native_data.baselines().get(pid)
+   if base is None:raise ValueError('No verified baseline for edited Transfer player '+pid)
+  fields.update({str(k):base[k]for k in stat_editor.LABELS});fields.update(values['parameters'])
+ if 'skills'in values:fields.update({str(flag):int(i in values['skills'])for i,flag in enumerate(editor.FLAGS)})
+ if 'boosters'in values:fields.update({str(144+i):v for i,v in enumerate(values['boosters'])})
+ return fields
