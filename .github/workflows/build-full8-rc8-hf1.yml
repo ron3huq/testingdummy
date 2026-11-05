@@ -1,7 +1,7 @@
 name: Build FULL8 RC8 HF1 cumulative download
 on:
   push:
-    branches: [73-full8-rc8-hf1-compact-arena]
+    branches: [73-full8-rc8-hf1-compact-arena-final]
 permissions:
   contents: read
 jobs:
