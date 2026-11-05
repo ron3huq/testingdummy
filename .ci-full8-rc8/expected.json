@@ -1,0 +1,10 @@
+{
+  "dex_sha256": "c831d0cd461bc6c3671427955e2562cbef9efdd8d849228f967ccc4ffdaead3e",
+  "inventory_sha256": "9d1a3e3aee2c62461978cd8c2303a7394e7171a64fec3d88b2e290de5be2d368",
+  "native_sha256": {
+    "libsingle_player_live.so": "eb5dc425760a5cfa1694d7c859b418db8ee4b64b0378a6751838d09c15c53063",
+    "libnoodle_hair.so": "b3cc3f656446c5de1d97d5c60c483d5f0d63b5f12c80d4803d6071bf5e9a4e31",
+    "libtransfer_final.so": "0d0d588b4305536d3dd3db14edbeb1d6965f1957178b6a8eeedc24a33052d403",
+    "libselect_team.so": "674fca3a1293aa06a572124cce8e67ef3251f3c84d70d059bcf29f756df92ab6"
+  }
+}

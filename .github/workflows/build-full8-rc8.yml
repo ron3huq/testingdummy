@@ -1,0 +1,47 @@
+name: Build FULL8 RC8 cumulative download
+on:
+  push:
+    branches: [73-full8-rc8-manual-skin-lods]
+permissions:
+  contents: read
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install pinned public build tools
+        run: |
+          python -m venv .ci-full8-rc5/venv
+          .ci-full8-rc5/venv/bin/python -m pip install --disable-pip-version-check ziglang==0.13.0 cityhash==0.4.10 pyelftools==0.32 numpy==2.5.4 scipy==1.18.1 Pillow==13.0.0 etcpak==0.9.15 texture2ddecoder==1.0.6
+      - name: Build and verify cumulative FULL from source
+        run: |
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc4/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc5/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc5-hf1/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc6/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc7/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc8/assemble.py
+      - name: Copy allowlisted FULL payload only
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil,json
+          root=Path.cwd();out=root/'FULL8-RC8'
+          doc=json.loads((root/'payload-inventory.json').read_text())
+          for name in ['payload-inventory.json']+[r['path']for r in doc['files']]:
+              dest=out/name;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(root/name,dest)
+          PY
+      - name: Publish complete FULL download
+        uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC8-complete-APK73
+          path: FULL8-RC8/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 6

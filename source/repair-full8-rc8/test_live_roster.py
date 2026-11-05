@@ -1,0 +1,72 @@
+from pathlib import Path
+import struct,json
+exec(Path('/workspace/ronaldo-work/73-ui6/test_native.py').read_text().split('import sys,sqlite3')[0])
+from unicorn import UC_HOOK_CODE
+R=Path('/workspace/work/full8-rc8');base=0x39000000;fn=load(R/'libsingle_player_live.so',base)
+# Three actual engine functions; only their entry dispatch is replaced, just as
+# the arena will do. Trampolines preserve original instructions at original VA.
+detours={}
+for idx,(entry,name,conf) in enumerate([(0x6a4eb78,'live_get_current','configure_live_get'),(0x6a520bc,'live_set_selected','configure_live_selected'),(0x72de848,'live_set_current','configure_live_current')]):
+ trampoline=0x33010000+idx*0x100
+ # Relocated first instruction then absolute jump back to second instruction.
+ u.mem_write(trampoline,bytes(u.mem_read(entry,4))+struct.pack('<IIQ',0x58000050,0xd61f0200,entry+4))
+ call(fn[conf],0,trampoline);detours[entry]=fn[name]
+scene=0x33300000;match=0x33310000;actor=0x33320000;team=0x33330000;pad=match+2*0xd0
+w(0xa58de28,'Q',scene);w(scene+0x340,'Q',match);w(0xa5909e8,'Q',actor);w(scene+0x30d0,'Q',team)
+for i in range(24):w(match+i*0xd0+8,'I',255)
+w(pad,'B',0);w(pad+8,'I',0);w(team,'I',0)
+# Poison the old wrong getter with a plausible, unrelated object.
+wrong_team=0x33380000;w(scene+0x3630,'Q',wrong_team)
+for k in range(40):w(wrong_team+4+k*4,'I',255)
+for k in range(4):
+ w(wrong_team+4+k*4,'I',k);w(wrong_team+0xa8+k*0x198+0x30,'QQ',0,516686400412+k)
+ids=[89138556572074+i for i in range(16)]
+for slot in range(40):w(team+4+slot*4,'I',slot if slot<len(ids) else 255)
+for slot,pid in enumerate(ids):w(team+0xa8+slot*0x198+0x30,'QQ',37+slot,pid)
+w(pad+0x5c,'B',1);w(pad+0x10,'I',2);w(pad+0x14,'I',2);w(pad+0x18,'I',1);w(pad+0x2c,'I',70);w(match+0x1998+8,'I',1)
+# Boundary stubs ONLY: user pad getter (requires libc mutex), original Update
+# (we exercise each real cursor get/set inside this boundary below), lifecycle.
+original_update=0x33020000;noop=0x33020100
+u.mem_write(noop,struct.pack('<I',0xd65f03c0));u.mem_write(original_update,struct.pack('<I',0xd65f03c0))
+inside=[]
+def hook(uc,addr,size,data):
+ if addr in detours:uc.reg_write(UC_ARM64_REG_PC,detours[addr])
+ elif addr==0x8223884:uc.reg_write(UC_ARM64_REG_X0,0);uc.reg_write(UC_ARM64_REG_PC,uc.reg_read(UC_ARM64_REG_LR))
+u.hook_add(UC_HOOK_CODE,hook)
+for i in range(6):assert call(fn['live_bind_previous'],0,i,original_update if i==0 else noop)==1
+assert call(fn['single_player_configure'],0,1,ids[7])==1
+call(fn['live_update'],actor,0x33450000,0x33460000,0x33470000,0)
+def st(i):return call(fn['single_player_status'],i)
+assert st(3)==1,(st(8),st(15),st(16))
+
+# All real cursor accessors are called AFTER capture, as Update does internally.
+for v in range(11):
+ call(0x72de848,pad,v);call(0x6a520bc,pad,v)
+ assert call(0x6a4eb78,pad)==7
+ assert struct.unpack('<II',u.mem_read(pad+0x10,8))==(7,7)
+other=match+3*0xd0;call(0x72de848,other,4);assert call(0x6a4eb78,other)==4
+buf=0x33350000;assert call(fn['live_copy_roster'],buf,984)==1
+count=struct.unpack('<I',u.mem_read(buf+12,4))[0];assert count==16
+raw=bytes(u.mem_read(buf,984));assert struct.unpack_from('<Q',raw,24+7*24)[0]==ids[7]
+# Native human settings remain intact while all internal cursor hooks lock ID.
+assert call(0x7317168,pad+0x5c)==1
+assert struct.unpack('<I',u.mem_read(match+0x1998+8,4))[0]==1
+assert st(25)>0 and st(26)==1 and st(27)==1
+# Bench selection must wait, not secretly choose a different player.
+assert call(fn['single_player_configure'],0,1,ids[12])==1;call(fn['live_update'],actor,0x33450000,0x33460000,0x33470000,0);assert st(3)==0 and st(8)==6
+assert struct.unpack('<II',u.mem_read(pad+0x10,8))==(2,2)
+assert call(fn['single_player_configure'],0,1,ids[7])==1;call(fn['live_update'],actor,0x33450000,0x33460000,0x33470000,0);assert st(3)==1
+# Pause passes the true native setter and restores before it runs.
+# Bind original pause setter so native byte changes, preserving original args.
+assert call(fn['live_bind_previous'],0,4,0x72df7f4)==1
+call(fn['live_pause'],match,1);assert st(3)==0;assert call(0x72e1080,match)==1
+call(fn['live_update'],actor,0x33450000,0x33460000,0x33470000,0);assert st(8)==4 and st(3)==0
+call(fn['live_pause'],match,0);call(fn['live_update'],actor,0x33450000,0x33460000,0x33470000,0);assert st(3)==1
+# Disable releases interception immediately, restores at next game update.
+call(fn['single_player_configure'],0,0,ids[7]);call(0x72de848,pad,5);assert call(0x6a4eb78,pad)==5
+call(fn['live_update'],actor,0x33450000,0x33460000,0x33470000,0);assert st(3)==0 and st(8)==0
+assert struct.unpack('<II',u.mem_read(pad+0x10,8))==(2,2)
+assert call(0x7317168,pad+0x5c)==1
+assert struct.unpack('<I',u.mem_read(match+0x1998+8,4))[0]==1
+
+assert st(20)>0 and st(11)>0;print('PASS distinct Update context and actual global pad manager; real native roster/pad accessors and cursor hooks. Host fixture only.')

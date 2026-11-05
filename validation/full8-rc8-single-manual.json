@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "phone_verified": false,
+  "test_scope": "real ARM64 cursor accessors and fixed-mode predicate on synthetic match context; no movement simulation",
+  "results": [
+    {
+      "build": "RC7",
+      "output": "NATIVE_MODE 3 NATIVE_FIXED_FAMILY 1\nPASS distinct Update context and actual global pad manager; real native roster/pad accessors and cursor hooks. Host fixture only.",
+      "sha256": "92cf68fe309a515f8be4ab6a1fc829eb164565d062f5f920b9d4d7dc57465b19"
+    },
+    {
+      "build": "RC8-candidate",
+      "output": "NATIVE_MODE 1 NATIVE_FIXED_FAMILY 0\nPASS distinct Update context and actual global pad manager; real native roster/pad accessors and cursor hooks. Host fixture only.",
+      "sha256": "eb5dc425760a5cfa1694d7c859b418db8ee4b64b0378a6751838d09c15c53063"
+    }
+  ]
+}

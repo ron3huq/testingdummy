@@ -1,0 +1,343 @@
+{
+  "passed": true,
+  "phone_verified": false,
+  "actual_repacked_assets_checked": 24,
+  "results": [
+    {
+      "asset": "SK_R8A1_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A2_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A3_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A4_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A5_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A6_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A1ep00v0313_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A2ep00v0313_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A3ep00v0313_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A4ep00v0313_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A5ep00v0313_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A6ep00v0313_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A1ep01v0291_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A2ep01v0291_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A3ep01v0291_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A4ep01v0291_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A5ep01v0291_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A6ep01v0291_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A1lg00v0000_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A2lg00v0000_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A3lg00v0000_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A4lg00v0000_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A5lg00v0000_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    },
+    {
+      "asset": "SK_R8A6lg00v0000_Face",
+      "independent_reader": true,
+      "full_LOD0": 60785,
+      "native_required_bones": [
+        166,
+        153
+      ],
+      "face_eye_oral_weights_exact": true,
+      "hair_exact": true,
+      "ref_pose_exact": true,
+      "split_skin_rest_seams_preserved": 327,
+      "phone_verified": false
+    }
+  ]
+}
