@@ -1,3 +1,5 @@
+> Cập nhật kết quả native06/11/2026: thêm ucl_lp_result.py đọc trường score_1st/score_2nd/score_ex1st/score_ex2nd, score_pk và match_result.game_id/pk_flag theo v19.1. Store.finish_native dùng cùng transaction/receipt với finish. Từ chối hiệp phụ khi tổng tỷ số chưa hòa, các kết quả bỏ trận/bất thường chưa có policy, và ID session mâu thuẫn. Sửa bộ kiểm tra penalty để chấp nhận1-0/2-0 hợp lệ, từ chối5-2 vốn đã kết thúc sớm hơn. Test native packet, rollback và replay đều qua trên host. Chưa cài hook command hay cung cấp đường cho engine bật hiệp phụ theo tổng tỷ số.
+
 > Cập nhật06/11/2026: mô tả face19018 bên dưới là lịch sử của ứng viên ĐÃ THU HỒI. Xem source/repair-full8-rc10-face-detail/README-VI.md cho WIP19019. Không cài19018.
 
 UCL bổ sung ledger vua phá lưới/kiến tạo tách theo mùa: lưu cùng transaction với receipt, xác nhận roster gốc, xử lý phản lưới, ID lớn, rollback và chống cộng trùng sau restart. test_ucl_stats.py đã chạy host. Chưa có bộ giải mã packet native, UI, hay gán scorer CPU cho đủ toàn giải; leaderboard trả coverage rõ ràng khi thiếu. Đây vẫn chưa phải tính năng UCL đã tích hợp.

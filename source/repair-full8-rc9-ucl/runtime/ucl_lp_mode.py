@@ -80,6 +80,24 @@ def aggregate_before(s,m):
  if first.get('result')is None:raise UclError('first leg has no valid result')
  r=first['result'];return(r['away'],r['home'])
 
+def valid_shootout(home,away):
+ # Reachable terminal scores under five kicks each then paired sudden death.
+ # Low scores such as1-0/2-0 are legal;5-2 would have stopped earlier.
+ if type(home)is not int or type(away)is not int or min(home,away)<0 or home==away:return False
+ if max(home,away)>5:return abs(home-away)==1
+ pending={(0,0,0,0)};terminal=set()
+ for kick in range(10):
+  following=set()
+  for hs,aws,h,a in pending:
+   for goal in(0,1):
+    nhs,naws,nh,na=(hs+1,aws,h+goal,a)if kick%2==0 else(hs,aws+1,h,a+goal)
+    if nh>na+5-naws or na>nh+5-nhs:terminal.add((nh,na))
+    else:following.add((nhs,naws,nh,na))
+  pending=following
+ # A tied initial series can be any0..5; a sudden-death pair can finish1-0.
+ for tied in range(6):terminal.update([(tied+1,tied),(tied,tied+1)])
+ return(home,away)in terminal or(away,home)in terminal
+
 def score(s,m,home,away,pk_home=None,pk_away=None,discipline_home=0,discipline_away=0):
  h,a=number(home),number(away);dh,da=number(discipline_home,999),number(discipline_away,999)
  bh,ba=aggregate_before(s,m)if m['leg']==2 else(0,0)
@@ -87,7 +105,7 @@ def score(s,m,home,away,pk_home=None,pk_away=None,discipline_home=0,discipline_a
  if level:
   ph,pa=number(pk_home),number(pk_away)
   # Reject impossible/unresolved shootout receipts; no invented penalties.
-  if ph==pa or max(ph,pa)<3 or abs(ph-pa)>3:raise UclError('valid deciding shootout required')
+  if not valid_shootout(ph,pa):raise UclError('valid deciding shootout required')
  elif pk_home is not None or pk_away is not None:raise UclError('shootout is not permitted for this fixture')
  else:ph=pa=None
  return dict(home=h,away=a,pk_home=ph,pk_away=pa,discipline_home=dh,discipline_away=da)
@@ -214,6 +232,16 @@ class Store:
     from ucl_lp_stats import record
     fixture=own_match(s);checked=score(s,fixture,**result);record(s,fixture,checked,active['native'].get('ucl_rosters',{}),player_events)
    apply(s,row[1],result);self.save(s);receipt=dict(season=s['season_uuid'],fixture=row[1],reply=reply);self.conn.execute('UPDATE ucl_lp_sessions SET receipt=? WHERE game=?',(json.dumps(receipt),game));return receipt
+ def finish_native(self,request,reply=None,player_events=None):
+  from ucl_lp_result import game_id,decode
+  game=game_id(request)
+  row=self.conn.execute('SELECT season,fixture,started,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
+  if not row or not row[2]:raise UclError('native match was not started')
+  if row[3]is not None:return json.loads(row[3])
+  state=self.get(row[0]);fixture=own_match(state)if state else None
+  if fixture is None or fixture['id']!=row[1]:raise UclError('native fixture mismatch')
+  result=decode(state,fixture,request)
+  return self.finish(game,result,reply,player_events)
  def start(self,game):
   game=session_key(game)
   with self.transaction():
