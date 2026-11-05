@@ -1,0 +1,75 @@
+{
+  "states": {
+    "neutral": {
+      "finite": true,
+      "duplicate_skin_seam_max_cm": 0.0,
+      "eye32": 258,
+      "eye33": 224,
+      "oral28": 0,
+      "oral29": 0,
+      "oral30": 0
+    },
+    "blink": {
+      "finite": true,
+      "duplicate_skin_seam_max_cm": 0.0,
+      "eye32": 0,
+      "eye33": 0,
+      "oral28": 0,
+      "oral29": 0,
+      "oral30": 0
+    },
+    "jaw5": {
+      "finite": true,
+      "duplicate_skin_seam_max_cm": 0.0,
+      "eye32": 258,
+      "eye33": 224,
+      "oral28": 23,
+      "oral29": 1,
+      "oral30": 2
+    },
+    "jaw12": {
+      "finite": true,
+      "duplicate_skin_seam_max_cm": 0.0,
+      "eye32": 258,
+      "eye33": 224,
+      "oral28": 22,
+      "oral29": 5,
+      "oral30": 4
+    },
+    "jaw20": {
+      "finite": true,
+      "duplicate_skin_seam_max_cm": 0.0,
+      "eye32": 258,
+      "eye33": 224,
+      "oral28": 22,
+      "oral29": 5,
+      "oral30": 8
+    },
+    "jaw30": {
+      "finite": true,
+      "duplicate_skin_seam_max_cm": 0.0,
+      "eye32": 258,
+      "eye33": 224,
+      "oral28": 23,
+      "oral29": 7,
+      "oral30": 10
+    },
+    "head-turn": {
+      "finite": true,
+      "duplicate_skin_seam_max_cm": 0.0
+    },
+    "combined-blink-jaw-turn": {
+      "finite": true,
+      "duplicate_skin_seam_max_cm": 0.0,
+      "eye32": 0,
+      "eye33": 0,
+      "oral28": 22,
+      "oral29": 5,
+      "oral30": 18
+    }
+  },
+  "phone_verified": false,
+  "asset_path": "character/RealFace/SK_R9B2_Face.uasset",
+  "asset_sha256": "b578fe4acd87c5c7b6440d7f75af73dab99343200e03eadf6f90ca5bbd7c8fce",
+  "execution": "Blender 4.3.2 host CPU LBS and ray visibility; not Android"
+}

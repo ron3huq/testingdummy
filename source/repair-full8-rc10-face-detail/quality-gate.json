@@ -1,0 +1,25 @@
+{
+  "revision": 19019,
+  "ready_for_delivery": false,
+  "phone_verified": false,
+  "ucl_integrated": false,
+  "blocked_by": [
+    "Visible oral mucosal triangle curtains in actual packaged-asset jaw20 render",
+    "Native UCL match/UI/aggregate extra-time adapter and player stats are not implemented"
+  ],
+  "face_checks": {
+    "buffer_and_index_checks_24_assets": true,
+    "ARM64_palette_selector": true,
+    "skin_duplicate_seam_checks": true,
+    "oral_shape_visual_review": false
+  },
+  "oral_diagnostic": {
+    "jaw12_edges_over_3x": 5,
+    "jaw20_edges_over_3x": 13,
+    "jaw20_max_ratio": 4.741958256229104,
+    "jaw30_edges_over_3x": 26,
+    "jaw30_max_ratio": 6.571067904350884
+  },
+  "baseline": "FULL8 RC7 v19.1 revision19015",
+  "do_not_install_revision": 19018
+}
