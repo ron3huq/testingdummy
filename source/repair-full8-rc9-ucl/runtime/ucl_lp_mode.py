@@ -13,6 +13,11 @@ def number(v,hi=99):
  if type(v)is not int or not 0<=v<=hi:raise UclError('invalid score')
  return v
 
+def session_key(value):
+ if type(value)is int:value=str(value)
+ if not isinstance(value,str)or not value.isascii()or not value.isdecimal()or not 0<int(value)<2**63 or str(int(value))!=value:raise UclError('invalid native session ID')
+ return value
+
 def rng(*parts):return random.Random(hashlib.sha256('|'.join(map(str,parts)).encode()).digest())
 def validate_draw(teams,rounds):
  ids={t['team_id']for t in teams};by={t['team_id']:t for t in teams}
@@ -180,21 +185,37 @@ class Store:
    self.save(s);self.conn.execute('INSERT OR REPLACE INTO ucl_lp_selection VALUES(1,?)',(s['season_uuid'],))
   return s
  def reserve(self,game,native):
+  game=session_key(game)
+  if not isinstance(native,dict):raise UclError('invalid native session payload')
   with self.transaction():
-   s=self.get();m=own_match(s)
+   s=self.get()
+   if not s:raise UclError('no selected UCL season')
+   m=own_match(s)
    if m is None:raise UclError('no playable fixture')
-   if s['active']and s['active']['game_id']!=game:raise UclError('pending fixture already reserved')
-   self.conn.execute('INSERT OR IGNORE INTO ucl_lp_sessions(game,season,fixture)VALUES(?,?,?)',(str(game),s['season_uuid'],m['id']));s['active']=dict(game_id=game,fixture=m['id'],native=native);self.save(s)
+   active=s.get('active')
+   if active and session_key(active['game_id'])!=game:raise UclError('pending fixture already reserved')
+   previous=self.conn.execute('SELECT season,fixture,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
+   if previous:
+    if previous[0]!=s['season_uuid']or previous[1]!=m['id']or previous[2]is not None:raise UclError('native session ID already belongs to another fixture')
+    if not active or active.get('fixture')!=m['id']:raise UclError('pending session state is inconsistent')
+    return copy.deepcopy(active)
+   try:self.conn.execute('INSERT INTO ucl_lp_sessions(game,season,fixture)VALUES(?,?,?)',(game,s['season_uuid'],m['id']))
+   except sqlite3.IntegrityError as error:raise UclError('fixture already has a native session')from error
+   s['active']=dict(game_id=game,fixture=m['id'],native=copy.deepcopy(native));self.save(s);return copy.deepcopy(s['active'])
  def finish(self,game,result,reply=None):
+  game=session_key(game)
   with self.transaction():
-   row=self.conn.execute('SELECT season,fixture,started,receipt FROM ucl_lp_sessions WHERE game=?',(str(game),)).fetchone()
+   row=self.conn.execute('SELECT season,fixture,started,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
    if not row or not row[2]:raise UclError('native match was not started')
    if row[3]is not None:return json.loads(row[3])
-   s=self.get(row[0]);apply(s,row[1],result);self.save(s);receipt=dict(season=s['season_uuid'],fixture=row[1],reply=reply);self.conn.execute('UPDATE ucl_lp_sessions SET receipt=? WHERE game=?',(json.dumps(receipt),str(game)));return receipt
+   s=self.get(row[0]);active=s.get('active')if s else None
+   if not active or session_key(active['game_id'])!=game or active.get('fixture')!=row[1]:raise UclError('result does not belong to the pending native session')
+   apply(s,row[1],result);self.save(s);receipt=dict(season=s['season_uuid'],fixture=row[1],reply=reply);self.conn.execute('UPDATE ucl_lp_sessions SET receipt=? WHERE game=?',(json.dumps(receipt),game));return receipt
  def start(self,game):
+  game=session_key(game)
   with self.transaction():
-   row=self.conn.execute('SELECT season,fixture,receipt FROM ucl_lp_sessions WHERE game=?',(str(game),)).fetchone()
+   row=self.conn.execute('SELECT season,fixture,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
    if not row or row[2]is not None:raise UclError('session is not pending')
-   s=self.get(row[0])
-   if not s.get('active')or str(s['active']['game_id'])!=str(game):raise UclError('session mismatch')
-   self.conn.execute('UPDATE ucl_lp_sessions SET started=1 WHERE game=?',(str(game),))
+   s=self.get(row[0]);active=s.get('active')if s else None
+   if not active or session_key(active['game_id'])!=game or active.get('fixture')!=row[1]:raise UclError('session mismatch')
+   self.conn.execute('UPDATE ucl_lp_sessions SET started=1 WHERE game=?',(game,))

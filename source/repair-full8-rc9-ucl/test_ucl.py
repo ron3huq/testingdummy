@@ -33,5 +33,26 @@ def run():
  # SQLite resume and a durable receipt, not a RAM-only duplicate guard.
  with tempfile.TemporaryDirectory()as d:
   p=Path(d)/'test.sqlite3';c=sqlite3.connect(p);st=Store(c);s=st.create(teams,draws[0]['rounds'],a,0);m=own_match(s);st.reserve('123456',{'test':True});fails(lambda:st.finish('123456',dict(home=1,away=0)));st.start('123456');receipt=st.finish('123456',dict(home=1,away=0));snapshot=c.execute('SELECT state FROM ucl_lp_seasons').fetchone()[0];c.close();c=sqlite3.connect(p);st=Store(c);assert st.finish('123456',dict(home=99,away=99))==receipt;assert c.execute('SELECT state FROM ucl_lp_seasons').fetchone()[0]==snapshot;fails(lambda:st.finish('999',dict(home=0,away=0)));c.close()
- return dict(passed=True,draws=len(draws),league_matches=144,total_matches=189,champion_routes=[15,17],two_leg_aggregate_shootout_checks=True,sqlite_restart_idempotency=True,phone_verified=False)
+
+ # Session replay must preserve its original roster snapshot and reject ID reuse.
+ c=sqlite3.connect(':memory:');st=Store(c);fails(lambda:st.reserve('1',{}))
+ st.create(teams,draws[0]['rounds'],a,0);first=st.reserve(9007199254740993,{'roster':'original'})
+ assert first['game_id']=='9007199254740993'
+ assert st.reserve('9007199254740993',{'roster':'changed'})==first
+ st.start('9007199254740993');st.finish('9007199254740993',dict(home=2,away=0))
+ snapshot=c.execute('SELECT state FROM ucl_lp_seasons').fetchone()[0]
+ fails(lambda:st.reserve('9007199254740993',{'roster':'wrong fixture'}))
+ assert c.execute('SELECT state FROM ucl_lp_seasons').fetchone()[0]==snapshot
+ for invalid in [True,1.5,'1.5','01','0',str(2**63)]:fails(lambda:st.reserve(invalid,{}))
+ # Failed aggregate settlement rolls back and keeps a resumable pending session.
+ state=st.get();field=[a,b]+[t['team_id']for t in teams if t['team_id']not in(a,b)][:6];add_ties(state,'QF',list(zip(field[::2],field[1::2])),True)
+ for game in current_matches(state):game['result']=score(state,game,2,1)if a in(game['home'],game['away'])else simulate(state,game)
+ transition(state)
+ with st.transaction():st.save(state)
+ st.reserve('987654321',{});st.start('987654321');before=c.execute('SELECT state FROM ucl_lp_seasons').fetchone()[0]
+ fails(lambda:st.finish('987654321',dict(home=3,away=2)))
+ assert c.execute('SELECT state FROM ucl_lp_seasons').fetchone()[0]==before
+ assert c.execute('SELECT receipt FROM ucl_lp_sessions WHERE game=?',('987654321',)).fetchone()[0]is None
+ st.finish('987654321',dict(home=3,away=2,pk_home=5,pk_away=4));c.close()
+ return dict(passed=True,draws=len(draws),league_matches=144,total_matches=189,champion_routes=[15,17],two_leg_aggregate_shootout_checks=True,sqlite_restart_idempotency=True,session_collision_and_roster_replay=True,invalid_aggregate_result_rolls_back=True,phone_verified=False)
 if __name__=='__main__':print(json.dumps(run(),indent=2))
