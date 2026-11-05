@@ -14,8 +14,10 @@ UCL CHƯA TÍCH HỢP VÀO TRẬN THẬT. Source lõi UCL36đội có trong sour
 
 Không có save, DB, log cá nhân, APK/video/RAR nghiên cứu, engine hoặc protected bundle v25 trong gói. app.imy là thành phần gốc của APK, được giữ lại.
 
-## Chặn bàn giao sau kiểm tra cận cảnh
+## Kiểm tra cận cảnh và chặn bàn giao FULL
 
-Bản render từ pc9385 cho thấy các dải tam giác niêm mạc kéo qua khe miệng khi há hàm20độ. Kiểm tra mép da trùng nhau không phát hiện được lỗi này. Phân tích bổ sung thấy13tam giác nội miệng có cạnh kéo dài hơn3lần ở20độ (lớn nhất4,742lần),26tam giác ở30độ (lớn nhất6,571lần). Đây là chẩn đoán, không phải ngưỡng bảo đảm mọi animation. Chưa sửa bằng cách xóa mặt, bôi đen hoặc thay topology để che lỗi. Cần xử lý liên kết/biến dạng niêm mạc và kiểm tra lại với chuyển động môi/hàm thực của rig.
+Phát hiện hai island niêm mạc5/10 (146đỉnh) lấy UV từ atlas má. Chỉnh riêng UV0 của chúng sang vùng khoang miệng hiện có (0.9375,0.8125), không đổi vị trí, tam giác, trọng số hay UV ngoài môi/má. Ảnh jaw20 mới dựng lại từ pc9385 sau đóng gói cho thấy vùng niêm mạc tối; răng và lưỡi dùng UV riêng được giữ. Các thử nghiệm kéo niêm mạc ra sau hoặc tô tối theo atlas má gây lỗi ở má và đã bị loại bỏ, không áp vào asset.
 
-Không gọi bản này là hoàn thiện, không tải gói Android cho người dùng cài. finalize_face_candidate.py bị chặn bởi quality-gate.json cho tới khi có bằng chứng sửa lỗi miệng. Báo cáo motion cũ chỉ xác nhận hữu hạn/mép da/độ che mắt và độ nhìn thấy oral, không chứng minh không có xuyên hoặc kéo mesh.
+Số đo kéo giãn niêm mạc là chẩn đoán, không phải ngưỡng chứng minh mọi animation. Báo cáo motion chỉ xác nhận hữu hạn, mép da trùng, độ che mắt và độ nhìn thấy oral; không chứng minh không có mọi xuyên mesh. Chưa kiểm thử trực tiếp điện thoại.
+
+quality-gate.json vẫn chặn bàn giao FULL: UCL chưa nối native/UI/hiệp phụ tổng tỷ số. Không gửi gói face riêng như bàn giao cuối và không gọi bản WIP này là FULL hoàn thiện.

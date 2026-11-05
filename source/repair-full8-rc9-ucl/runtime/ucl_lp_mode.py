@@ -202,7 +202,7 @@ class Store:
    try:self.conn.execute('INSERT INTO ucl_lp_sessions(game,season,fixture)VALUES(?,?,?)',(game,s['season_uuid'],m['id']))
    except sqlite3.IntegrityError as error:raise UclError('fixture already has a native session')from error
    s['active']=dict(game_id=game,fixture=m['id'],native=copy.deepcopy(native));self.save(s);return copy.deepcopy(s['active'])
- def finish(self,game,result,reply=None):
+ def finish(self,game,result,reply=None,player_events=None):
   game=session_key(game)
   with self.transaction():
    row=self.conn.execute('SELECT season,fixture,started,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
@@ -210,6 +210,9 @@ class Store:
    if row[3]is not None:return json.loads(row[3])
    s=self.get(row[0]);active=s.get('active')if s else None
    if not active or session_key(active['game_id'])!=game or active.get('fixture')!=row[1]:raise UclError('result does not belong to the pending native session')
+   if player_events is not None:
+    from ucl_lp_stats import record
+    fixture=own_match(s);checked=score(s,fixture,**result);record(s,fixture,checked,active['native'].get('ucl_rosters',{}),player_events)
    apply(s,row[1],result);self.save(s);receipt=dict(season=s['season_uuid'],fixture=row[1],reply=reply);self.conn.execute('UPDATE ucl_lp_sessions SET receipt=? WHERE game=?',(json.dumps(receipt),game));return receipt
  def start(self,game):
   game=session_key(game)

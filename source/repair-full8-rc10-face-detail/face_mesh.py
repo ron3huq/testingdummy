@@ -71,7 +71,11 @@ def lod_blob(m,geometry,required,active):
 def build_mesh(raw,log,native_raw,native_log,authored_weights):
  m=Mesh(raw,log,lod_index=1);nm=Mesh(native_raw,native_log,lod_index=1);pos,tan,lab,report=lip_mesh(m)
  weights=m.weights.copy();oral=np.flatnonzero(np.isin(lab,[29,30]));weights[oral]=authored_weights[oral];report.update(neck_positions_and_weights_from_RC7=True,source_calibrated_oral_weights_restored=int(len(oral)))
- active_indices=np.concatenate([drawn_triangles(m,0),drawn_triangles(m,1)]);high=(pos,tan,m.uv,weights,m.colors,active_indices,m.info[0]['verts'],m.info[0]['tris'],m.info[0]['bones']);low,maxdist=low_surface(m,nm,pos,tan,lab)
+ # The two disconnected inner-lining islands incorrectly sample cheek skin.
+ # Assign their own UVs to the existing dark cavity patch; preserve all
+ # positions, indices, skin weights and every external lip/cheek UV.
+ highuv=m.uv.copy();lining=np.isin(lab,[5,10]);highuv[np.flatnonzero(lining),:2]=[.9375,.8125];report['inner_lining_UV_vertices']=int(lining.sum())
+ active_indices=np.concatenate([drawn_triangles(m,0),drawn_triangles(m,1)]);high=(pos,tan,highuv,weights,m.colors,active_indices,m.info[0]['verts'],m.info[0]['tris'],m.info[0]['bones']);low,maxdist=low_surface(m,nm,pos,tan,lab)
  req0=list(range(166));at=nm.lods[1];n=struct.unpack_from('<I',native_raw,at+10)[0];req1=list(struct.unpack_from('<%dH'%n,native_raw,at+14));assert len(req1)==153 and not set(range(8,21))&set(req1)
  prefix=bytearray(raw[:m.lods[0]]);lo=pos.min(0);hi=pos.max(0);cen=(hi+lo)/2;ext=(hi-lo)/2;struct.pack_into('<7f',prefix,m.r['BOUNDS_BEGIN'],*cen,*ext,float(np.linalg.norm(ext)))
  # Change MinLod only. Preserve authored ScreenSize thresholds instead of

@@ -17,4 +17,6 @@ jobs:
       - name: Check UCL state core, not native game integration
         env:
           PYTHONDONTWRITEBYTECODE: '1'
-        run: python source/repair-full8-rc9-ucl/test_ucl.py
+        run: |
+          python source/repair-full8-rc9-ucl/test_ucl.py
+          python source/repair-full8-rc9-ucl/test_ucl_stats.py

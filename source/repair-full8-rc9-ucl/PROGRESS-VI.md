@@ -1,3 +1,7 @@
+> Cập nhật06/11/2026: mô tả face19018 bên dưới là lịch sử của ứng viên ĐÃ THU HỒI. Xem source/repair-full8-rc10-face-detail/README-VI.md cho WIP19019. Không cài19018.
+
+UCL bổ sung ledger vua phá lưới/kiến tạo tách theo mùa: lưu cùng transaction với receipt, xác nhận roster gốc, xử lý phản lưới, ID lớn, rollback và chống cộng trùng sau restart. test_ucl_stats.py đã chạy host. Chưa có bộ giải mã packet native, UI, hay gán scorer CPU cho đủ toàn giải; leaderboard trả coverage rõ ràng khi thiếu. Đây vẫn chưa phải tính năng UCL đã tích hợp.
+
 # Tiến độ — chưa hoàn tất UCL
 
 Đã xác minh nền FULL8 RC7/v19.1: inventory4acc1d023a92a7e75874aa7684e97e21e49193f3cd166911fc04eacd78e95ff8,1397tệp. Không chạy assembler RC8. Giữ nguyên DEX và control/Transfer RC7.

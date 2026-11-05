@@ -70,6 +70,7 @@
   },
   "phone_verified": false,
   "asset_path": "character/RealFace/SK_R9B2_Face.uasset",
-  "asset_sha256": "b578fe4acd87c5c7b6440d7f75af73dab99343200e03eadf6f90ca5bbd7c8fce",
-  "execution": "Blender 4.3.2 host CPU LBS and ray visibility; not Android"
+  "asset_sha256": "30c13b4dd850acda2e0f260da5c4f3ceee9f17dc86b72ef9f737f72031b4cb1d",
+  "execution": "Blender 4.3.2 host CPU LBS and ray visibility; not Android",
+  "scope": "Finite deformations, duplicate skin seams, eye/oral visibility; not proof of absence of all interpenetration or every animation"
 }

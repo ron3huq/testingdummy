@@ -41,7 +41,8 @@ def run(root):
   for palette in range(1,7):
    toc=Toc(str(live/('pc%d_mobile_and.utoc'%(9384+variant*6+palette-1))));p=next(p for p in toc.files if p.endswith('SK_R9B'+str(palette)+suffix+'_Face.uasset'));b=toc.read(toc.files[p]);a=read_lod(b,mesh.lods[0]);low=read_lod(b,a['end']);assert b[low['end']:]==bytes.fromhex('020200000000');assert len(a['required'])==166 and len(low['required'])==153;assert set(range(8,21)).isdisjoint(low['required']);assert a['active']==list(range(166))and low['active']==list(range(8));assert a['sections'][0]['verts']==mesh.info[0]['verts']and low['sections'][0]['verts']==743
    pos,faces,tangent,uv,weights=buffers(b,a);buffers(b,low);n=len(lab);oral=np.flatnonzero(np.isin(lab,[29,30]));keep=np.ones(len(weights),bool);keep[oral]=False
-   assert np.array_equal(faces,np.concatenate([drawn_triangles(mesh,0),drawn_triangles(mesh,1)]))and np.array_equal(uv,mesh.uv)
+   assert np.array_equal(faces,np.concatenate([drawn_triangles(mesh,0),drawn_triangles(mesh,1)]))
+   expected_uv=mesh.uv.copy();expected_uv[np.flatnonzero(np.isin(lab,[5,10])),:2]=[.9375,.8125];assert np.array_equal(uv,expected_uv)
    assert np.array_equal(weights[keep],mesh.weights[keep])and np.array_equal(weights[oral],authmesh.weights[oral])
    assert np.array_equal(pos[:n][lab==34],mesh.positions[:n][lab==34])and np.array_equal(pos[n:],mesh.positions[n:])
    assert np.max(abs(pos-mesh.positions))<.13
@@ -50,6 +51,6 @@ def run(root):
     assert set(lod['active'])<=set(lod['required'])
     for sec in lod['sections']:assert set(sec['bones'])<=set(lod['required'])
    # Original skeleton prefix stays byte-identical except bounds, MinLod and size fixups (reviewed in builder).
-   reports.append(dict(variant=suffix or'base',palette=palette,required_bones=[166,153],low_skin_vertices=743,streams_exact_length=True,HQ_topology_UV_bind_pose_exact=True,body_neck_positions_weights_exact=True,original_oral_calibration_restored=True))
+   reports.append(dict(variant=suffix or'base',palette=palette,required_bones=[166,153],low_skin_vertices=743,streams_exact_length=True,HQ_drawn_topology_bind_pose_exact=True,external_UV_exact=True,inner_lining_UV_uses_separate_existing_cavity=True,body_neck_positions_weights_exact=True,original_oral_calibration_restored=True))
  return dict(passed=True,assets=reports,phone_verified=False)
 if __name__=='__main__':print(json.dumps(run(sys.argv[1]),indent=2))

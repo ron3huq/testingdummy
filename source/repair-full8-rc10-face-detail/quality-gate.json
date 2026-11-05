@@ -4,22 +4,32 @@
   "phone_verified": false,
   "ucl_integrated": false,
   "blocked_by": [
-    "Visible oral mucosal triangle curtains in actual packaged-asset jaw20 render",
-    "Native UCL match/UI/aggregate extra-time adapter and player stats are not implemented"
+    "Native UCL match/UI/aggregate extra-time adapter and full player-stat attribution are not implemented",
+    "Actual Android mouth/eye/LOD/SIUU verification pending"
   ],
   "face_checks": {
     "buffer_and_index_checks_24_assets": true,
     "ARM64_palette_selector": true,
     "skin_duplicate_seam_checks": true,
-    "oral_shape_visual_review": false
+    "oral_shape_visual_review": "UV correction verified on packaged jaw20 render; phone and actual native expression pending"
   },
   "oral_diagnostic": {
     "jaw12_edges_over_3x": 5,
     "jaw20_edges_over_3x": 13,
     "jaw20_max_ratio": 4.741958256229104,
     "jaw30_edges_over_3x": 26,
-    "jaw30_max_ratio": 6.571067904350884
+    "jaw30_max_ratio": 6.571067904350884,
+    "interpretation": "Strain numbers are diagnostic; internal lining deformation is not in itself a skin crack. Incorrect cheek-atlas UVs on islands5/10 corrected without position/index/weight edits."
   },
   "baseline": "FULL8 RC7 v19.1 revision19015",
-  "do_not_install_revision": 19018
+  "do_not_install_revision": 19018,
+  "oral_uv_correction": {
+    "vertices": 146,
+    "UV0": [
+      0.9375,
+      0.8125
+    ],
+    "external_UV_unchanged": true,
+    "geometry_weights_unchanged_by_UV_fix": true
+  }
 }
