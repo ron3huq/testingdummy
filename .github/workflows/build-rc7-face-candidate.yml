@@ -1,0 +1,48 @@
+name: RC7 face candidate and UCL core checks
+on:
+  push:
+    branches: [73-rc7-ronaldo-facefix-ucl-core-20261105]
+permissions:
+  contents: read
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install pinned tools
+        run: |
+          python -m venv .ci-full8-rc5/venv
+          .ci-full8-rc5/venv/bin/python -m pip install ziglang==0.13.0 cityhash==0.4.10 pyelftools==0.32 numpy==2.5.4 scipy==1.18.1 Pillow==13.0.0 etcpak==0.9.15 texture2ddecoder==1.0.6 unicorn==2.1.4
+      - name: Reconstruct RC7 exactly; do not apply RC8
+        run: |
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc4/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc5/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc5-hf1/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc6/assemble.py
+          .ci-full8-rc5/venv/bin/python .ci-full8-rc7/assemble.py
+      - name: Build face-only candidate and test UCL core source
+        run: .ci-full8-rc5/venv/bin/python source/repair-full8-rc9-ucl/ci_face.py
+      - name: Copy allowlisted candidate
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil,json
+          root=Path.cwd();out=root/'FACE-CANDIDATE-UCL-NOT-INTEGRATED'
+          doc=json.loads((root/'payload-inventory.json').read_text())
+          assert doc['ucl_integrated']is False
+          for name in ['payload-inventory.json']+[r['path']for r in doc['files']]:
+              dest=out/name;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(root/name,dest)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: RC7-BASE-FACEFIX-19018-CANDIDATE-UCL-NOT-INTEGRATED
+          path: FACE-CANDIDATE-UCL-NOT-INTEGRATED/
+          include-hidden-files: true
+          retention-days: 7
+          if-no-files-found: error
+          compression-level: 6

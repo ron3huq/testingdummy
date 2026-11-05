@@ -1,0 +1,1 @@
+Baseline: FULL8 RC7 revision19015, inventory4acc1d023a92a7e75874aa7684e97e21e49193f3cd166911fc04eacd78e95ff8. Face helpers reviewed from RC8 source only; RC8 controls, DEX and cumulative payload are not applied. UCL authored separately; v25 bundle research stays outside payload. Work in progress, not a release.
