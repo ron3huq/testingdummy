@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "planned_slots": 63,
+  "old_span_bytes": 8192,
+  "new_span_bytes": 4096,
+  "single_page_gap_old_fails_new_fits": true,
+  "ARM64_indirect_dispatch": true,
+  "conditional_trampoline_both_paths": true,
+  "cached_lookup_uses_shared_RETURN": true,
+  "phone_verified": false
+}
