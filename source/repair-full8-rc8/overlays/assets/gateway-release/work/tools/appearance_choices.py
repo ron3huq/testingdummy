@@ -1,4 +1,4 @@
-"""Exact-card celebration and native body-palette settings; cached after startup."""
+"""Exact-card celebrations and native palettes; Ronaldo2027 also uses a matching head atlas."""
 import json,functools,threading,ctypes as C,zlib,sqlite3
 from pathlib import Path
 import body_dimensions as body,myleague_editor_runtime as editor
@@ -83,7 +83,7 @@ def manage(conn,action,req):
   load(conn);pid,player=body.owned(conn,req);p=player['parameters']
   if action.endswith('_get'):
    current=profiles.get(pid,{})
-   return {'skin':current.get('skin',0),'59':current.get('59',p[59]),'60':current.get('60',p[60]),'choices':choices()if req.get('section')!='skin'else{},'skin_palettes':[1,2,3,4,5,6],'skin_previews':skin_previews(),'skin_scope':'native_body_palettes_only','custom_rgb_supported':False}
+   return {'skin':current.get('skin',0),'59':current.get('59',p[59]),'60':current.get('60',p[60]),'choices':choices()if req.get('section')!='skin'else{},'skin_palettes':[1,2,3,4,5,6],'skin_previews':skin_previews(),'skin_scope':('head_and_body_native_palettes'if pid=='89138556572074'else'native_body_palettes_only'),'custom_rgb_supported':False}
   values=validate(req.get('values'))
   if body.engine_loaded():raise ValueError('Close and reopen the app, then edit before entering the game')
   if conn.in_transaction:raise ValueError('Another save operation is active')

@@ -9,17 +9,17 @@ def finalize(root):
   p=t/code;text,n=re.subn(r"HOOK_SHA='[^']+'","HOOK_SHA='"+sha(t/lib)+"'",p.read_text());assert n==1;p.write_text(text)
  p=t/'full4_trace.py';p.write_text(p.read_text().replace('FULL8-RC7','FULL8-RC8'))
  p=t/'private_bundles.py';text=p.read_text();assert "'pc9359']"in text;p.write_text(text.replace("'pc9359']","'pc9359', "+', '.join(repr('pc%d'%n)for n in range(9360,9384))+']'))
- p=t/'private_bundles.json';d=json.loads(p.read_text());d['resource_revision']=19016
+ p=t/'private_bundles.json';d=json.loads(p.read_text());d['resource_revision']=19017
  for n in range(9360,9384):
   for ext in ['pak','utoc','ucas']:
    q=g/'livedata'/('pc%d_mobile_and.%s'%(n,ext));d['files'][q.name]={'size':q.stat().st_size,'sha256':sha(q)}
  p.write_text(json.dumps(d,indent=2))
- p=t/'noodle_bundle.json';d=json.loads(p.read_text());d['version']=VERSION;d['asset_revision']=19016;d['native_sha256']=sha(t/'libnoodle_hair.so');d['new_three_faces']['89138556572074']='R8A2';d['ronaldo2027_profile'].update(profile='R8A1..R8A6',final_face_containers='pc9360..9383',geometry_texture_weights_bind_pose_LODs='Authored HQ topology, eyes, oral geometry, facial weights, hair and bind pose retained. Local lip seal; native surface/weights below neck z156. Real full LOD0 and independent native compact LOD1 (166/153). Native skin choice also selects head atlas before cache creation; neck atlas tint corrected and oral cavity darkened.',native_body_palette=2,selectable_head_and_body_palettes=[1,2,3,4,5,6],phone_verified=False);d['appearance_files']={n:sha(t/n)for n in d['appearance_files']};d['appearance_overlay_sha256']=sha(t/'myleague_editor_runtime.py');p.write_text(json.dumps(d,indent=2))
+ p=t/'noodle_bundle.json';d=json.loads(p.read_text());d['version']=VERSION;d['asset_revision']=19017;d['native_sha256']=sha(t/'libnoodle_hair.so');d['new_three_faces']['89138556572074']='R8A2';d['ronaldo2027_profile'].update(profile='R8A1..R8A6',final_face_containers='pc9360..9383',geometry_texture_weights_bind_pose_LODs='Authored HQ topology, eyes, oral geometry, facial weights, hair and bind pose retained. Local lip seal; native surface/weights below neck z156. Real full LOD0 and independent native compact LOD1 (166/153). Native skin choice also selects head atlas before cache creation; neck atlas tint corrected and oral cavity darkened.',native_body_palette=2,selectable_head_and_body_palettes=[1,2,3,4,5,6],phone_verified=False);d['appearance_files']={n:sha(t/n)for n in d['appearance_files']};d['appearance_overlay_sha256']=sha(t/'myleague_editor_runtime.py');p.write_text(json.dumps(d,indent=2))
  for name,key in [('release-manifest.json','release_id'),('ui6-runtime-manifest.json','version')]:
   p=g/name;d=json.loads(p.read_text());d[key]=VERSION;p.write_text(json.dumps(d,indent=2))
  (root/'README-VI.md').write_text('''# FULL-8 RC8 · APK73 · nền FULL-7
 
-FULL tích lũy tiếp nối RC7; resource_revision19016. Payload assets/ và classes5.dex, không phải APK đã ký. Giữ save/data và khóa ký cũ; không gỡ app/xóa data.
+FULL tích lũy tiếp nối RC7; resource_revision19017. Payload assets/ và classes5.dex, không phải APK đã ký. Giữ save/data và khóa ký cũ; không gỡ app/xóa data.
 
 Người dùng đã xác nhận Single Player, Transfer và accessories RC7 hoạt động trên điện thoại. RC8 giữ các sửa roster, full ID, vai trò và key padding đó. Không thay native Transfer library hoặc giảm kiểm tra toàn vẹn/đăng nhập.
 
@@ -34,12 +34,12 @@ Vùng texture cổ dưới nguồn thiên hồng được chỉnh về tông vù
 Không có save/DB cá nhân, diagnostics người dùng, ZIP/RAR nghiên cứu, video hay APK nghiên cứu trong gói. Reports cũ là lịch sử. Kiểm tra mới có tiền tố full8-rc8; checksum sai vẫn chặn LOGIN.
 ''')
  helper=root/'source/repair-full8-rc2-hf1/build_runtime_manifests.py';ns={};exec(compile(helper.read_text(),str(helper),'exec'),ns);ns['update'](g);n=ns['check'](g)
- sys.path.insert(0,str(root/'source/repair-full8-rc5-hf1'));from check_startup_integrity import verify;report=verify(root);from verify_login_gate import run;report.update(run(root));report['revision']=19016
+ sys.path.insert(0,str(root/'source/repair-full8-rc5-hf1'));from check_startup_integrity import verify;report=verify(root);from verify_login_gate import run;report.update(run(root));report['revision']=19017
  (v/'full8-rc8-startup-integrity.json').write_text(json.dumps(report,indent=2))
  for p in t.glob('*.py'):ast.parse(p.read_text())
  names={x['path']for x in prior['files']}|{p.relative_to(root).as_posix()for p in s.rglob('*')if p.is_file()}|{p.relative_to(root).as_posix()for p in(g/'livedata').glob('pc93*_mobile_and.*')if 9360<=int(p.name[2:6])<=9383}|{p.relative_to(root).as_posix()for p in v.glob('full8-rc8-*.json')}
  rows=[]
  for name in sorted(names):
   p=root/name;assert p.is_file(),name;assert '__pycache__'not in p.parts and not p.name.endswith('.private.json')and p.suffix.lower()not in{'.log','.db','.sqlite','.sqlite3','.zip','.rar','.apk','.mp4'},name;rows.append({'path':name,'bytes':p.stat().st_size,'sha256':sha(p)})
- (root/'payload-inventory.json').write_text(json.dumps({'version':VERSION,'resource_revision':19016,'phone_verified':False,'files':rows},indent=2));print(json.dumps({'files':len(rows)+1,'runtime':n,'login':report},indent=2))
+ (root/'payload-inventory.json').write_text(json.dumps({'version':VERSION,'resource_revision':19017,'phone_verified':False,'files':rows},indent=2));print(json.dumps({'files':len(rows)+1,'runtime':n,'login':report},indent=2))
 if __name__=='__main__':finalize(sys.argv[1])

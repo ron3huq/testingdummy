@@ -3,7 +3,7 @@ from pathlib import Path
 import hashlib,json,sys,zipfile
 
 def check(root):
- root=Path(root);d=json.loads((root/'payload-inventory.json').read_text());assert d['resource_revision']==19016 and d['phone_verified']is False
+ root=Path(root);d=json.loads((root/'payload-inventory.json').read_text());assert d['resource_revision']==19017 and d['phone_verified']is False
  names=['payload-inventory.json'];seen=set()
  for r in d['files']:
   n=r['path'];p=root/n;assert n not in seen and p.resolve().is_relative_to(root.resolve());seen.add(n)

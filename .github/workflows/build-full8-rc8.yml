@@ -1,7 +1,7 @@
 name: Build FULL8 RC8 cumulative download
 on:
   push:
-    branches: [73-full8-rc8-manual-skin-lods]
+    branches: [73-full8-rc8-manual-skin-lods-ui]
 permissions:
   contents: read
 jobs:

@@ -13,7 +13,9 @@ obj=stage/'single_live.o';run([sys.executable,'-m','ziglang','cc','-target','aar
 obj=stage/'profile.o';stub=stage/'profile.elf';run([sys.executable,'-m','ziglang','cc','-target','aarch64-freestanding','-c',src/'profile.S','-o',obj],env=env);run([sys.executable,'-m','ziglang','ld.lld','-T',src/'profile.ld',obj,'-o',stub],env=env)
 run([sys.executable,src/'patch_profile.py',t/'libnoodle_hair.so',stub,t/'libnoodle_hair.so'])
 for name,wanted in spec['native_sha256'].items():assert sha(t/name)==wanted,name
-jar=root/'.ci-full8-rc5/apktool.jar';tool=root/'source/repair-full8-rc4/DexTool.java';smali=stage/'smali';run(['java','-cp',jar,tool,'d',root/'classes5.dex',smali]);shutil.copyfile(src/'RuntimeDiagnostics.smali',smali/'org/efootballrevival/runtimeprobe/RuntimeDiagnostics.smali');run(['java','-cp',jar,tool,'a',smali,root/'classes5.dex']);assert sha(root/'classes5.dex')==spec['dex_sha256']
+jar=root/'.ci-full8-rc5/apktool.jar';tool=root/'source/repair-full8-rc4/DexTool.java';smali=stage/'smali';run(['java','-cp',jar,tool,'d',root/'classes5.dex',smali]);
+for p in src.glob('*.smali'):shutil.copyfile(p,smali/'org/efootballrevival/runtimeprobe'/p.name)
+run(['java','-cp',jar,tool,'a',smali,root/'classes5.dex']);assert sha(root/'classes5.dex')==spec['dex_sha256']
 run([sys.executable,src/'build_face.py',root,root/'source/repair-full8-rc7/mesh-ranges.json',src/'low-ranges.json',root/'validation/full8-rc8-face-local-corrections.json'])
 run([sys.executable,src/'finalize.py',root]);run([sys.executable,src/'check_payload.py',root]);assert sha(root/'payload-inventory.json')==spec['inventory_sha256'],'RC8 reconstruction differs from local inventory'
 print('RC8 cumulative FULL source reconstruction exactly matches validated local inventory. Phone verification remains false.')
