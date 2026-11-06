@@ -1,0 +1,33 @@
+name: RC21 FULL download
+on:
+  push:
+    branches: [rc21-download]
+    paths: [.github/workflows/rc21-full-artifact.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  full-zip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify parts and recover the original FULL ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          sha256sum --check PARTS.sha256
+          7z x FULL8-RC21-UCL-two-leg-APK73.7z.001 -oout
+          echo '7bd79bb92eea4f9ec60550adfa16498eb47179109bc1f10ddcdbaa80686d6159  out/FULL8-RC21-UCL-two-leg-APK73.zip' | sha256sum --check
+          cp INSTALL-VI.md out/
+          cp FULL8-RC21-UCL-two-leg-APK73.validation.json out/
+      - name: Upload the complete FULL package
+        uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC21-UCL-two-leg-APK73
+          path: out/
+          compression-level: 0
+          if-no-files-found: error
+          retention-days: 30
