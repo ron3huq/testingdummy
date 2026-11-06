@@ -120,7 +120,8 @@ class Bridge:
             if not isinstance(active,dict)or session_key(reply.get('game_id'))!=session_key(active.get('game_id')):raise NativeAbort('native packet/session mismatch')
             actual=(active.get('opponent')or{}).get('team_data',{}).get('base_team_id')
             if actual!=opponent:raise NativeAbort('native opponent identity mismatch')
-            self.store._reserve_locked(session_key(active['game_id']),dict(projection=projection))
+            from ucl_lp_match_plan import build
+            self.store._reserve_locked(session_key(active['game_id']),dict(projection=projection,match_plan=build(state,match)))
             return reply
     def home_references(self,request):
         state=self.store.get()
@@ -140,6 +141,9 @@ class Bridge:
                 if session_key(reply.get('game_id'))!=session_key(active['game_id']):raise NativeAbort('cached start packet/session mismatch')
                 reply['rqid']=request.get('rqid');return reply
             match=own_match(state)
+            from ucl_lp_match_plan import build
+            frozen=active['native'].get('match_plan')
+            if frozen is not None and frozen!=build(state,match):raise UclError('reserved aggregate match plan changed')
             # A two-leg return match MUST have a verified aggregate-aware setup.
             # No silent downgrade to isolated-leg extra time or simulated PK.
             if needs_decision(state,match) and self.aggregate_setup is None:raise UclError('native aggregate setup is not installed')

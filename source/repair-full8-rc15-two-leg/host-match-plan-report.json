@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "new_seasons_two_legs": true,
+  "carry_reverses_home_away": true,
+  "leg_win_aggregate_draw_requires_et": true,
+  "leg_draw_aggregate_win_no_et": true,
+  "no_away_goals_rule": true,
+  "played_scores_not_inflated": true,
+  "native_hook_integrated": false
+}
