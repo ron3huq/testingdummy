@@ -1,0 +1,290 @@
+{
+  "schema": 1,
+  "field": "Custom36-club native-compatible pool; not an official UEFA qualified-team list",
+  "removed_missing_native_rosters": [
+    126,
+    128,
+    226,
+    231
+  ],
+  "replacement_native_teams": [
+    213,
+    182,
+    1195,
+    5220
+  ],
+  "inputs": [
+    {
+      "file": "team_names.json",
+      "sha256": "91041d4c07bd80ae5c57754a39b393c7e4955448fe9ceffbf9638ad867d126b0"
+    },
+    {
+      "file": "ml_rosters.json",
+      "sha256": "6e32f999a29fffabb6815c7471da4170fe91e7789523c14ec2e53a5fb32ff5bf"
+    }
+  ],
+  "rc7_roster_config_sha256": "77a013cc7d6aad9ff34c6f62c17aa7dbe685ac1f0fcc8bbd02deb7c104862e44",
+  "teams": [
+    {
+      "team_id": 109,
+      "name": "Real Madrid",
+      "short": "MDC",
+      "roster_count": 31,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 127,
+      "name": "Bayern München",
+      "short": "MUN",
+      "roster_count": 22,
+      "roster_source": "RC7 native roster override"
+    },
+    {
+      "team_id": 173,
+      "name": "Manchester City",
+      "short": "MNB",
+      "roster_count": 26,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 103,
+      "name": "Liverpool",
+      "short": "LIV",
+      "roster_count": 30,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 108,
+      "name": "FC Barcelona",
+      "short": "BAR",
+      "roster_count": 30,
+      "roster_source": "RC7 native roster override"
+    },
+    {
+      "team_id": 114,
+      "name": "Paris Saint-Germain",
+      "short": "PSG",
+      "roster_count": 24,
+      "roster_source": "RC7 native roster override"
+    },
+    {
+      "team_id": 119,
+      "name": "Internazionale Milano",
+      "short": "INT",
+      "roster_count": 28,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 101,
+      "name": "Arsenal FC",
+      "short": "ARS",
+      "roster_count": 28,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 100,
+      "name": "Manchester United",
+      "short": "MUN",
+      "roster_count": 30,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 102,
+      "name": "Chelsea",
+      "short": "CHE",
+      "roster_count": 36,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 213,
+      "name": "LOSC Lille",
+      "short": "LIL",
+      "roster_count": 28,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 182,
+      "name": "RC Lens",
+      "short": "RCL",
+      "roster_count": 30,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 172,
+      "name": "Atlético Madrid",
+      "short": "MDR",
+      "roster_count": 28,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 120,
+      "name": "Juventus",
+      "short": "PIE",
+      "roster_count": 28,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 121,
+      "name": "AC Milan",
+      "short": "MIL",
+      "roster_count": 28,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 327,
+      "name": "Napoli",
+      "short": "NAP",
+      "roster_count": 30,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 234,
+      "name": "Atalanta BC",
+      "short": "ATA",
+      "roster_count": 34,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 179,
+      "name": "Tottenham Hotspur",
+      "short": "TOT",
+      "roster_count": 33,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 1195,
+      "name": "KRC Genk",
+      "short": "GNK",
+      "roster_count": 29,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 269,
+      "name": "Club Brugge",
+      "short": "BRB",
+      "roster_count": 29,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 125,
+      "name": "AS Roma",
+      "short": "ROM",
+      "roster_count": 29,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 191,
+      "name": "SL Benfica",
+      "short": "SLB",
+      "roster_count": 31,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 192,
+      "name": "FC Porto",
+      "short": "POR",
+      "roster_count": 29,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 193,
+      "name": "Sporting CP",
+      "short": "SCP",
+      "roster_count": 31,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 112,
+      "name": "AS Monaco",
+      "short": "ASM",
+      "roster_count": 32,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 113,
+      "name": "Olympique de Marseille",
+      "short": "OM",
+      "roster_count": 24,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 4219,
+      "name": "Como 1907",
+      "short": "CMO",
+      "roster_count": 30,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 118,
+      "name": "PSV",
+      "short": "PSV",
+      "roster_count": 29,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 117,
+      "name": "Feyenoord",
+      "short": "FEY",
+      "roster_count": 32,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 197,
+      "name": "Fenerbahçe SK",
+      "short": "FB",
+      "roster_count": 36,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 181,
+      "name": "Olympique Lyonnais",
+      "short": "OL",
+      "roster_count": 33,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 265,
+      "name": "Sevilla",
+      "short": "SEN",
+      "roster_count": 28,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 267,
+      "name": "Villarreal",
+      "short": "VIL",
+      "roster_count": 26,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 196,
+      "name": "Real Sociedad",
+      "short": "VCG",
+      "roster_count": 25,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 130,
+      "name": "Galatasaray SK",
+      "short": "GS",
+      "roster_count": 31,
+      "roster_source": "APK73 v19.1 native roster data"
+    },
+    {
+      "team_id": 5220,
+      "name": "Union Saint-Gilloise",
+      "short": "SGB",
+      "roster_count": 28,
+      "roster_source": "APK73 v19.1 native roster data"
+    }
+  ],
+  "user_requested_replacements": [
+    {
+      "removed": 116,
+      "removed_name": "Ajax",
+      "added": 4219,
+      "added_name": "Como 1907",
+      "association": "ITA"
+    }
+  ]
+}

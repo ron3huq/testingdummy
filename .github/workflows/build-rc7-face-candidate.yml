@@ -23,3 +23,6 @@ jobs:
           python source/repair-full8-rc9-ucl/test_ucl_native_result.py
           python source/repair-full8-rc9-ucl/test_ucl_controller.py
           python source/repair-full8-rc9-ucl/test_ucl_install.py
+          python source/repair-full8-rc9-ucl/test_ucl_pool.py
+      - name: Check UCL launcher source syntax
+        run: node --check source/repair-full8-rc11-ucl-entry/launcher/ucl.js

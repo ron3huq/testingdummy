@@ -1,0 +1,14 @@
+{
+  "staged_only": true,
+  "finished_full": false,
+  "baseline_dex_sha256": "687f574b70c37888c274bd8d9b1cf193dc3eff33d4556eb8db34d8b124a53c51",
+  "entry_dex_sha256": "044d1c0a22b25657cda71cb457a7bedd8f8e38e4e0521580863a978453132b7f",
+  "classes_verified": 588,
+  "changed_classes": [
+    "org/efootballrevival/runtimeprobe/LauncherWeb.smali"
+  ],
+  "normal_single_player_transfer_classes_exact": true,
+  "original_payload_not_modified": true,
+  "aggregate_provider_installed": false,
+  "phone_verified": false
+}

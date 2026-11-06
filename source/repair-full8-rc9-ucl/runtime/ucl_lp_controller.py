@@ -18,7 +18,7 @@ class Controller:
         return bool(row and season and row[0]==season['season_uuid'])
     def status(self):
         season=self.store.get();bridge=self.bridge_factory()
-        return dict(ready=bridge.aggregate_setup is not None,enabled=self.enabled(),teams=self.draws['teams'],levels=['VERYEASY','EASY','NORMAL','HARD','VERYHARD','HARDEST','LEGEND'],season=None if season is None else dict(id=season['season_uuid'],own=season['own'],stage=season['stage'],round=season['round'],champion=season['champion'],pending=season.get('active')is not None,ranking=table(season),matches=copy.deepcopy(season['matches']),goals=leaderboard(season),assists=leaderboard(season,'assists')))
+        return dict(ready=bridge.aggregate_setup is not None,enabled=self.enabled(),draw_count=len(self.draws['draws']),teams=self.draws['teams'],levels=['VERYEASY','EASY','NORMAL','HARD','VERYHARD','HARDEST','LEGEND'],season=None if season is None else dict(id=season['season_uuid'],own=season['own'],stage=season['stage'],round=season['round'],champion=season['champion'],pending=season.get('active')is not None,ranking=table(season),matches=copy.deepcopy(season['matches']),goals=leaderboard(season),assists=leaderboard(season,'assists')))
     def manage(self,request):
         op=request.get('op','status')
         if op=='status':return self.status()
