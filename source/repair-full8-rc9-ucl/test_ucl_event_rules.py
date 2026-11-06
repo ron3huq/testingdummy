@@ -16,7 +16,21 @@ def run(path=None):
         try:configure(template,state)
         except UclError:pass
         else:raise AssertionError('invalid event policy accepted')
-    report=dict(passed=True,stage_level_combinations=42,league_phase_extra_time_disabled=True,knockout_extra_time_penalties_enabled=True,source_template_unchanged=True,start_reply_root_not_used=True,native_event_entry_integrated=False,phone_verified=False)
+    two_leg_cases=0
+    for stage in ['PLAYOFFS','R16','QF','SF']:
+        for level in ['VERYEASY','EASY','NORMAL','HARD','VERYHARD','HARDEST','LEGEND']:
+            state=dict(stage=stage,cpu_level=level,knockout_legs=2,round=1)
+            first=configure(source,state);assert first['match_env']['exTime']==first['match_env']['pk']=='NO'
+            state['round']=2
+            try:configure(source,state)
+            except UclError:pass
+            else:raise AssertionError('unverified return-leg setup enabled')
+            second=configure(source,state,native_aggregate_ready=True)
+            assert second['match_env']['exTime']==second['match_env']['pk']=='YES'
+            assert second['match_env']['cpu_level']==level
+            two_leg_cases+=1
+    assert configure(source,dict(stage='FINAL',knockout_legs=2))['match_env']['exTime']=='YES'
+    report=dict(passed=True,stage_level_combinations=42,two_leg_stage_level_combinations=two_leg_cases,first_leg_extra_time_disabled=True,return_leg_requires_verified_aggregate_setup=True,final_extra_time_enabled=True,league_phase_extra_time_disabled=True,knockout_extra_time_penalties_enabled=True,source_template_unchanged=True,start_reply_root_not_used=True,native_event_entry_integrated=False,phone_verified=False)
     if path:
         raw=Path(path).read_bytes();code=marshal.loads(raw[16:]);function=next(c for c in code.co_consts if isinstance(c,types.CodeType)and c.co_name=='_knockout_event')
         assert function.co_filename=='cup_entry.py'
@@ -27,6 +41,9 @@ def run(path=None):
         reference=native(source,dict(two_legs=False,phase='R16'),spec)
         ours=configure(source,dict(stage='R16',cpu_level='NORMAL',knockout_legs=1))
         assert reference['match_env']==ours['match_env']and source==original
-        report.update(actual_v25_knockout_function_compared=True,v25_input_sha256=hashlib.sha256(raw).hexdigest())
+        legacy_two=native(source,dict(two_legs=True,phase='R16'),spec)
+        assert legacy_two['match_env']['exTime']==legacy_two['match_env']['pk']=='NO'
+        assert source==original
+        report.update(v25_two_leg_knockout_disables_extra_time_confirmed=True,actual_v25_knockout_function_compared=True,v25_input_sha256=hashlib.sha256(raw).hexdigest())
     print(json.dumps(report,indent=2))
 if __name__=='__main__':run(sys.argv[1]if len(sys.argv)>1 else None)

@@ -1,3 +1,5 @@
+Cập nhật rc19: chạy hàm _knockout_event v25 xác nhận một lượt bật YES/YES, nhánh two_legs ở R16/QF/SF đặt NO/NO. EventRules mới phân biệt lượt đi/lượt về/chung kết; lượt về yêu cầu xác nhận provider tổng tỷ số trước khi xuất YES/YES. 42ca một lượt +28ca hai lượt qua; chưa nối entry và chưa FULL. Chi tiết source/repair-full8-rc19-event-extra-time.
+
 Cập nhật rc18 theo ảnh tham khảo: cần tỷ số trận + ôtổnghai lượt cập nhật live. Đã chạy native publicationblock6ba04ac..6ba05bc với ngữcảnhregisterđược cấp: ghi riêng current tại61dc/61e0, total61f0/61f4 vàflag61ec.25tổ hợp qua; chưa chạyoutergates hoặcpixelHUD/điện thoại, chưaFULL. Xem source/repair-full8-rc18-aggregate-scoreboard.
 
 Cập nhật rc17: Bridge trảcachedstartcũng kiểm tra lại frozenaggregateplan và gọi provider nạp nativeRAM; thêm cleanup đúngsession khi finish. Controller định tuyến categorytrống nhưgatewaygốc, và chặn matchstart/chuẩn bị modekhác khiUCLpending. TestactualPythonAPIcode/Controller qua; chưa cài nativehook, chưa chứng minh nhánh90/120phút và chưaFULL. Xem source/repair-full8-rc17-session-lifecycle.
