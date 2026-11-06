@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "stage_level_combinations": 42,
+  "league_phase_extra_time_disabled": true,
+  "knockout_extra_time_penalties_enabled": true,
+  "source_template_unchanged": true,
+  "start_reply_root_not_used": true,
+  "native_event_entry_integrated": false,
+  "phone_verified": false,
+  "actual_v25_knockout_function_compared": true,
+  "v25_input_sha256": "5bb2845c1861b7b43b03acafec0ef9cf7e7be7be908747fb6a343668b71c3100"
+}
