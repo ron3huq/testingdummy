@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "engine_sha256": "efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8",
+  "native_publication_block": [
+    "0x6ba04ac",
+    "0x6ba05bc"
+  ],
+  "example_matching_reference": {
+    "match": [
+      0,
+      0
+    ],
+    "aggregate": [
+      1,
+      0
+    ],
+    "aggregate_visible": 1
+  },
+  "after_goals": {
+    "match": [
+      2,
+      1
+    ],
+    "aggregate": [
+      3,
+      1
+    ],
+    "aggregate_visible": 1
+  },
+  "comparison_cases": 25,
+  "aggregate_off_hides_panel_flag": true,
+  "current_goals_lookup_mocked": true,
+  "valid_display_context_registers_supplied": true,
+  "outer_display_gate_executed": false,
+  "pixel_layout_verified": false,
+  "live_game_hud_binding_verified": false,
+  "phone_verified": false
+}

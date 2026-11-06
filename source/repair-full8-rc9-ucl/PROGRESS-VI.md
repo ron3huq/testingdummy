@@ -1,3 +1,5 @@
+Cập nhật rc18 theo ảnh tham khảo: cần tỷ số trận + ôtổnghai lượt cập nhật live. Đã chạy native publicationblock6ba04ac..6ba05bc với ngữcảnhregisterđược cấp: ghi riêng current tại61dc/61e0, total61f0/61f4 vàflag61ec.25tổ hợp qua; chưa chạyoutergates hoặcpixelHUD/điện thoại, chưaFULL. Xem source/repair-full8-rc18-aggregate-scoreboard.
+
 Cập nhật rc17: Bridge trảcachedstartcũng kiểm tra lại frozenaggregateplan và gọi provider nạp nativeRAM; thêm cleanup đúngsession khi finish. Controller định tuyến categorytrống nhưgatewaygốc, và chặn matchstart/chuẩn bị modekhác khiUCLpending. TestactualPythonAPIcode/Controller qua; chưa cài nativehook, chưa chứng minh nhánh90/120phút và chưaFULL. Xem source/repair-full8-rc17-session-lifecycle.
 
 Cập nhật rc16: tìm thấy và chạy thử nativeaggregatecomparator0x6cacc80→0x6cacb24: cộng RuleInputcarry12c/12e khi cờ12a bật;60ca qua. Thư viện ARM64prototype nạp config đã build và test với getterđội native thật; chưa cài vào runtime. Chưa xác minh nhánh hết giờ và canonicalgamebinding, do đó chưa bỏgate và chưa cóFULL. Xem source/repair-full8-rc16-native-aggregate/README-VI.md.
