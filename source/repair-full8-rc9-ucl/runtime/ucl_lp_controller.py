@@ -58,13 +58,17 @@ class Controller:
         if command=='CMD_GET_SEASON_INFO':return bridge.info(response,request)
         if command=='CMD_GET_SEASON_SCHEDULE':return bridge.schedule(response,request)
         if command=='CMD_GET_VSCOM_OPPONENT':
-            if not bridge.league.is_season(request):return PASS
+            if request.get('match_category')and not bridge.league.is_season(request):
+                season=self.store.get()
+                if season and season.get('active'):raise UclError('finish the pending UCL match before preparing another mode')
+                return PASS
             return bridge.prepare(request)
         if command=='CMD_START_GAME':
             try:game=session_key(request.get('game_id'))
             except UclError:return PASS
             season=self.store.get();active=season.get('active')if season else None
-            if not active or game!=session_key(active['game_id']):return PASS
+            if active and game!=session_key(active['game_id']):raise UclError('another match cannot start while UCL has a pending session')
+            if not active:return PASS
             # Entry construction belongs to the installed gateway's owned-player
             # path. Never invent or replace its native player objects here.
             if self.home_entries is None:raise UclError('unsupported gateway owned-entry binding')

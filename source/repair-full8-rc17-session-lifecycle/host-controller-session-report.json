@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "normal_season_untouched": true,
+  "unrelated_match_passthrough": true,
+  "aggregate_readiness_gate": true,
+  "explicit_season_replace": true,
+  "pending_match_leave_guard": true,
+  "pending_other_match_start_guard": true,
+  "implicit_category_routes_to_ucl": true,
+  "installed_in_game": false
+}

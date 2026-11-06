@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "actual_prepare_start_info_finish_schedule_enter_executed": true,
+  "eight_native_result_rounds_to_R16": true,
+  "end_season_not_sent_after_league_phase": true,
+  "native_36_row_ranking_response": true,
+  "normal_special_squad_not_read": true,
+  "native_input_sha256": "74711ac3d97a5b96cb07d2204336ca1b3c1f1626062eac57c356f2b6eeca60ca",
+  "normal_league_save_unchanged": true,
+  "rollback_atomic": true,
+  "resume_start_packet_frozen": true,
+  "global_functions_unchanged": true,
+  "missing_aggregate_provider_blocks_return_leg": true,
+  "cached_start_rearms_provider": true,
+  "cached_start_revalidates_carry": true,
+  "completed_session_cleanup": true,
+  "game_ui_hooks_installed": false,
+  "phone_verified": false
+}

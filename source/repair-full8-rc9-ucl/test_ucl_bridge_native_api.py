@@ -48,13 +48,28 @@ def run(path):
     else:raise AssertionError('empty native playing lineup accepted')
     assert store.get()==frozen;assert conn.execute('SELECT started FROM ucl_lp_sessions').fetchone()[0]==0
     assert bridge.home_references({})==[dict(id=123,serial=1)]
+    configurations=[];cleanups=[]
+    class Setup:
+        def __call__(self,state,fixture,reply):configurations.append((state['active']['game_id'],copy.deepcopy(state['active']['native']['match_plan'])))
+        def on_finish(self,game):cleanups.append(game)
+    bridge.aggregate_setup=Setup()
     entries=[dict(gameplayer_id=dict(id=123,serial=1))];started=bridge.start({},dict(game_id=gid,rqid=4),entries);assert started['squad_data_home']['player_list']==entries;assert started['squad_data_home']['team_id']==season['own'];assert started['squad_data_home']['squad_gameplan']=='UCL-OWNED-PLAN';assert conn.execute('SELECT started FROM ucl_lp_sessions').fetchone()[0]==1
     # Durable start reply ignores changed retry lineups/kit data except rqid.
     snapshot=copy.deepcopy(store.get());repeat=bridge.start({},dict(game_id=gid,rqid=5),[dict(gameplayer_id=dict(id=999,serial=2))]);assert repeat['squad_data_home']['player_list']==entries and repeat['rqid']==5;assert store.get()==snapshot
+    assert len(configurations)==2 and configurations[0]==configurations[1]
+    tampered=copy.deepcopy(snapshot);tampered['active']['native']['match_plan']['carry_home']=1
+    with store.transaction():store.save(tampered)
+    try:bridge.start({},dict(game_id=gid,rqid=6),entries)
+    except UclError:pass
+    else:raise AssertionError('cached start bypassed frozen carry validation')
+    assert len(configurations)==2
+    with store.transaction():store.save(snapshot)
     assert Meta.get_meta(conn,'my_league_state_v1')=='NORMAL-LEAGUE-SENTINEL'and Meta.get_meta(conn,'my_league_sequence')=='777';assert Meta.get_meta(conn,'ucl_lp_native_sequence')==str(gid)
     # No global replacement of the installed module's original globals.
     assert namespace.get('state')is None and namespace.get('begin')is None
     request=dict(match_result=dict(game_id=gid,pk_flag='NO'),score=[dict(score_1st=99 if match['home']==season['own']else 0,score_2nd=0),dict(score_1st=99 if match['away']==season['own']else 0,score_2nd=0)]);bridge.finish(request);assert store.get()['active']is None;assert Meta.get_meta(conn,'my_league_state_v1')=='NORMAL-LEAGUE-SENTINEL'
+    assert cleanups==[str(gid)]
+    bridge.aggregate_setup=None
     for day in range(2,9):
         current=store.get();fixture=own_match(current);prepared=bridge.prepare(dict(rqid=day*10));bridge.start({},dict(game_id=prepared['game_id']),entries)
         request=dict(match_result=dict(game_id=prepared['game_id'],pk_flag='NO'),score=[dict(score_1st=99 if fixture['home']==current['own']else 0,score_2nd=0),dict(score_1st=99 if fixture['away']==current['own']else 0,score_2nd=0)])
@@ -72,5 +87,5 @@ def run(path):
     except UclError as e:assert 'aggregate'in str(e)
     else:raise AssertionError('unverified aggregate setup bypassed')
     assert store.get()==before
-    print(json.dumps(dict(passed=True,actual_prepare_start_info_finish_schedule_enter_executed=True,eight_native_result_rounds_to_R16=True,end_season_not_sent_after_league_phase=True,native_36_row_ranking_response=True,normal_special_squad_not_read=True,native_input_sha256=hashlib.sha256(data).hexdigest(),normal_league_save_unchanged=True,rollback_atomic=True,resume_start_packet_frozen=True,global_functions_unchanged=True,missing_aggregate_provider_blocks_return_leg=True,game_ui_hooks_installed=False,phone_verified=False),indent=2))
+    print(json.dumps(dict(passed=True,actual_prepare_start_info_finish_schedule_enter_executed=True,eight_native_result_rounds_to_R16=True,end_season_not_sent_after_league_phase=True,native_36_row_ranking_response=True,normal_special_squad_not_read=True,native_input_sha256=hashlib.sha256(data).hexdigest(),normal_league_save_unchanged=True,rollback_atomic=True,resume_start_packet_frozen=True,global_functions_unchanged=True,missing_aggregate_provider_blocks_return_leg=True,cached_start_rearms_provider=True,cached_start_revalidates_carry=True,completed_session_cleanup=True,game_ui_hooks_installed=False,phone_verified=False),indent=2))
 if __name__=='__main__':run(sys.argv[1])

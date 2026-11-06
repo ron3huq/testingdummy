@@ -17,11 +17,18 @@ def run():
     assert c.route('CMD_GET_SEASON_INFO',{}, {})is PASS
     bridge.aggregate_setup=lambda *a:None;c.manage(dict(op='activate'));assert c.enabled();assert c.route('CMD_GET_SEASON_INFO',{}, {})['source']=='UCL'
     assert c.route('CMD_GET_VSCOM_OPPONENT',dict(match_category='EXHIBITION'),{})is PASS
+    bridge.prepare=lambda req:dict(result='NOERR',implicit_ucl=True)
+    assert c.route('CMD_GET_VSCOM_OPPONENT',{}, {})['implicit_ucl'] is True
     assert c.route('CMD_START_GAME',dict(game_id=123),{})is PASS
     assert c.route('CMD_GET_VSCOM_GAME_RESULT',dict(match_result=dict(game_id=123)),{})is PASS
     bridge.home_references=lambda req:[{'id':123,'serial':1}];bridge.start=lambda resp,req,entries:dict(result='NOERR',entries=entries)
     c.home_entries=lambda refs,log_substitutes:[{'gameplayer_id':r}for r in refs]
-    c.store.reserve(123,{});c.store.start(123);assert c.route('CMD_START_GAME',{'game_id':123},{})['entries']==[{'gameplayer_id':{'id':123,'serial':1}}];c.route('CMD_GET_VSCOM_GAME_RESULT',dict(match_result=dict(game_id=123)),{});assert len(calls)==1
+    c.store.reserve(123,{})
+    for command,request in [('CMD_START_GAME',dict(game_id=124)),('CMD_GET_VSCOM_OPPONENT',dict(match_category='EXHIBITION'))]:
+        try:c.route(command,request,{})
+        except UclError:pass
+        else:raise AssertionError('another mode entered while UCL native input was pending')
+    c.store.start(123);assert c.route('CMD_START_GAME',{'game_id':123},{})['entries']==[{'gameplayer_id':{'id':123,'serial':1}}];c.route('CMD_GET_VSCOM_GAME_RESULT',dict(match_result=dict(game_id=123)),{});assert len(calls)==1
     try:c.manage(dict(op='leave'))
     except UclError:pass
     else:raise AssertionError('pending match abandoned')
@@ -31,5 +38,5 @@ def run():
     except UclError:pass
     else:raise AssertionError('season replaced without explicit confirmation')
     assert conn.execute('SELECT value FROM meta WHERE key=?',('my_league_state_v1',)).fetchone()[0]=='normal-sentinel'
-    print(json.dumps(dict(passed=True,normal_season_untouched=True,unrelated_match_passthrough=True,aggregate_readiness_gate=True,explicit_season_replace=True,pending_match_leave_guard=True,installed_in_game=False),indent=2))
+    print(json.dumps(dict(passed=True,normal_season_untouched=True,unrelated_match_passthrough=True,aggregate_readiness_gate=True,explicit_season_replace=True,pending_match_leave_guard=True,pending_other_match_start_guard=True,implicit_category_routes_to_ucl=True,installed_in_game=False),indent=2))
 if __name__=='__main__':run()

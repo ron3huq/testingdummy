@@ -135,18 +135,18 @@ class Bridge:
         with self.store.transaction():
             state=self.store.get();active=state.get('active')if state else None
             if not active or session_key(request.get('game_id'))!=session_key(active['game_id']):raise UclError('native start does not match reserved UCL session')
-            cache=active['native'].get('start_packet')
-            if cache is not None:
-                reply=self.check(copy.deepcopy(cache))
-                if session_key(reply.get('game_id'))!=session_key(active['game_id']):raise NativeAbort('cached start packet/session mismatch')
-                reply['rqid']=request.get('rqid');return reply
             match=own_match(state)
             from ucl_lp_match_plan import build
             frozen=active['native'].get('match_plan')
             if frozen is not None and frozen!=build(state,match):raise UclError('reserved aggregate match plan changed')
-            # A two-leg return match MUST have a verified aggregate-aware setup.
-            # No silent downgrade to isolated-leg extra time or simulated PK.
             if needs_decision(state,match) and self.aggregate_setup is None:raise UclError('native aggregate setup is not installed')
+            cache=active['native'].get('start_packet')
+            if cache is not None:
+                reply=self.check(copy.deepcopy(cache))
+                if session_key(reply.get('game_id'))!=session_key(active['game_id']):raise NativeAbort('cached start packet/session mismatch')
+                # A fresh process may retain the saved reply but lose native RAM.
+                if self.aggregate_setup is not None:self.aggregate_setup(state,match,reply)
+                reply['rqid']=request.get('rqid');return reply
             projection=self.projection(state);reply=self.check(self.function('start',projection)(ConnectionView(self.store.conn),response,request,home_entries))
             if self.aggregate_setup is not None:self.aggregate_setup(state,match,reply)
             if session_key(reply.get('game_id'))!=session_key(active['game_id']):raise NativeAbort('native start packet/session mismatch')
@@ -190,4 +190,6 @@ class Bridge:
             end=reply.get('game_end_result',{}).get('extra_match_result',{}).get('season_match_result')
             if isinstance(end,dict):end.update(is_end_season='YES'if predicted.get('champion')or predicted.get('eliminated')else'NO',is_champion='YES'if predicted.get('champion')==state['own']else'NO',is_promote='NO',is_relegate='NO',next_compe_unit_id=122)
             self.store._finish_locked(game,result,reply,player_events)
+            cleanup=getattr(self.aggregate_setup,'on_finish',None)
+            if cleanup is not None:cleanup(game)
             return reply
