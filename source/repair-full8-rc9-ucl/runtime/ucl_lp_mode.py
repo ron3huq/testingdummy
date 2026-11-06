@@ -53,11 +53,12 @@ def table(s):
  for i,row in enumerate(ranked):row['rank']=i+1
  return ranked
 
-def new(teams,rounds,own,seed,level='NORMAL'):
+def new(teams,rounds,own,seed,level='NORMAL',knockout_legs=2):
+ if type(knockout_legs)is not int or knockout_legs not in(1,2):raise UclError('knockout legs must be1 or2')
  validate_draw(teams,rounds)
  if own not in {t['team_id']for t in teams}:raise UclError('selected club is outside the validated UCL field')
  if level not in {'VERYEASY','EASY','NORMAL','HARD','VERYHARD','HARDEST','LEGEND'}:raise UclError('invalid difficulty')
- s=dict(schema_version=1,ruleset=RULESET,mode='UCL_LP',season_uuid=uuid.uuid4().hex,seed=seed,own=own,cpu_level=level,stage='LEAGUE_PHASE',round=1,teams=copy.deepcopy(teams),matches=[],ties=[],stats={},active=None,champion=None,eliminated=False)
+ s=dict(schema_version=1,knockout_legs=knockout_legs,ruleset=RULESET if knockout_legs==2 else'ucl-lp-single-match-knockout-v1',mode='UCL_LP',season_uuid=uuid.uuid4().hex,seed=seed,own=own,cpu_level=level,stage='LEAGUE_PHASE',round=1,teams=copy.deepcopy(teams),matches=[],ties=[],stats={},active=None,champion=None,eliminated=False)
  for day,games in enumerate(rounds,1):
   for h,a in games:s['matches'].append(dict(id='LP-%d-%d-%d'%(day,h,a),stage='LEAGUE_PHASE',round=day,leg=1,home=h,away=a,result=None))
  policy_path=Path(__file__).with_name('ucl_lp_probability.json')
@@ -72,7 +73,7 @@ def current_matches(s):return[m for m in s['matches']if m['stage']==s['stage']an
 def own_match(s):return next((m for m in current_matches(s)if s['own']in(m['home'],m['away'])),None)
 def tie_for(s,m):return next((t for t in s['ties']if t['id']==m.get('tie')),None)
 def needs_decision(s,m):
- if m['stage']=='FINAL':return True
+ if m['stage']=='FINAL'or(m['stage']in TWO_LEGS and s.get('knockout_legs',2)==1):return True
  if m['stage']not in TWO_LEGS or m['leg']!=2:return False
  return True
 
@@ -130,7 +131,7 @@ def simulate(s,m):
 def add_ties(s,stage,pairs,seeded=False):
  s['stage']=stage;s['round']=1
  for k,(a,b)in enumerate(pairs):
-  tid=stage+'-'+str(k);two=stage in TWO_LEGS
+  tid=stage+'-'+str(k);two=stage in TWO_LEGS and s.get('knockout_legs',2)==2
   # Seeded club a hosts leg two. QF/SF order was drawn once, not drawn after results.
   if not seeded and rng(s['seed'],stage,k,'home-order').random()<.5:a,b=b,a
   games=[(b,a),(a,b)]if two else[(a,b)]
@@ -160,7 +161,7 @@ def transition(s):
   p=s['draw_rank_pairs'];pairs=[]
   for high,low in [(9,23),(11,21),(13,19),(15,17)]:pairs.extend(zip(p[str(high)],p[str(low)]))
   add_ties(s,'PLAYOFFS',pairs,True);return
- if s['stage']in TWO_LEGS and s['round']==1:s['round']=2;return
+ if s['stage']in TWO_LEGS and s.get('knockout_legs',2)==2 and s['round']==1:s['round']=2;return
  settle_ties(s);ties=[t for t in s['ties']if t['stage']==s['stage']];winners=[t['winner']for t in ties]
  if s['stage']=='FINAL':s['champion']=winners[0];s['stage']='CHAMPION'if s['own']==winners[0]else'ELIMINATED';s['eliminated']=s['own']!=winners[0];return
  if s['stage']=='PLAYOFFS':
@@ -204,8 +205,8 @@ class Store:
   row=self.conn.execute('SELECT state FROM ucl_lp_seasons WHERE id=?',(sid,)).fetchone()
   return json.loads(row[0])if row else None
  def save(self,s):self.conn.execute('INSERT OR REPLACE INTO ucl_lp_seasons VALUES(?,?)',(s['season_uuid'],json.dumps(s,separators=(',',':'))))
- def create(self,teams,rounds,own,seed,level='NORMAL'):
-  s=new(teams,rounds,own,seed,level)
+ def create(self,teams,rounds,own,seed,level='NORMAL',knockout_legs=1):
+  s=new(teams,rounds,own,seed,level,knockout_legs)
   with self.transaction():
    old=self.get()
    if old and old.get('active'):raise UclError('finish or explicitly abandon the pending match before creating a season')

@@ -95,7 +95,7 @@ def streak(state,team,fixture_id):
 def fixture_result(state,match,rng,before=(0,0)):
     policy=state['cpu_policy'];groups=policy['groups'];home_group=groups[str(match['home'])];away_group=groups[str(match['away'])];teams={t['team_id']:t for t in state['teams']}
     regular=regulation(rng,home_group,away_group,streak(state,match['home'],match['id']),streak(state,match['away'],match['id']),teams[match['home']]['association']==teams[match['away']]['association'],match['stage']=='FINAL',tuple(t in policy['prolific_teams']for t in(match['home'],match['away'])))
-    h,a=regular['home'],regular['away'];eh=ea=0;ph=pa=None;deciding=match['stage']=='FINAL'or(match['stage']in('PLAYOFFS','R16','QF','SF')and match['leg']==2)
+    h,a=regular['home'],regular['away'];eh=ea=0;ph=pa=None;deciding=match['stage']=='FINAL'or(match['stage']in('PLAYOFFS','R16','QF','SF')and(state.get('knockout_legs',2)==1 or match['leg']==2))
     if deciding and h+before[0]==a+before[1]:
         eh,ea=extra_time(rng,home_group,away_group)
         if h+eh+before[0]==a+ea+before[1]:ph,pa=shootout(rng)

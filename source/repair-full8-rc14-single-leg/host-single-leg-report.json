@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "draws_checked": 8,
+  "whole_season_champion_routes": [
+    12,
+    13
+  ],
+  "total_matches": 167,
+  "no_return_legs": true,
+  "extra_time_native_scores": true,
+  "shootout_native_scores": true,
+  "old_saved_season_format_preserved": true,
+  "phone_verified": false
+}

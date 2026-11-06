@@ -19,6 +19,7 @@ jobs:
           PYTHONDONTWRITEBYTECODE: '1'
         run: |
           python source/repair-full8-rc9-ucl/test_ucl.py
+          python source/repair-full8-rc9-ucl/test_ucl_single_leg.py
           python source/repair-full8-rc9-ucl/test_ucl_stats.py
           python source/repair-full8-rc9-ucl/test_ucl_native_result.py
           python source/repair-full8-rc9-ucl/test_ucl_controller.py

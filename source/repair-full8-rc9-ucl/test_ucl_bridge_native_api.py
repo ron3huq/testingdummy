@@ -34,7 +34,7 @@ def run(path):
     namespace['vscom_result']=types.SimpleNamespace(gave_up=lambda req:False,outcome=lambda req,side,h,a:'DRAW'if h==a else'WIN'if(h>a)==(side!='AWAY')else'LOSE',result_fields=lambda req,h,a,result:dict(game_res=result,gameend_reason='NORMAL_END',abnormalend_reason='NOERR',score_data=dict(home_score=h,away_score=a)))
     namespace['valid_kit_binding']=types.FunctionType(codes['valid_kit_binding'],namespace)
     league=types.SimpleNamespace(**{name:types.FunctionType(codes[name],namespace)for name in ['prepare','start','info','finish','enter_view','get_schedule','match_squad']})
-    doc=json.loads((Path(__file__).parent/'runtime/ucl_lp_draws.json').read_text());store=Store(conn);season=store.create(doc['teams'],doc['draws'][0]['rounds'],doc['teams'][0]['team_id'],0);match=own_match(season);bridge=Bridge(conn,league,lambda team:1,Meta.default_uniforms)
+    doc=json.loads((Path(__file__).parent/'runtime/ucl_lp_draws.json').read_text());store=Store(conn);season=store.create(doc['teams'],doc['draws'][0]['rounds'],doc['teams'][0]['team_id'],0,knockout_legs=2);match=own_match(season);bridge=Bridge(conn,league,lambda team:1,Meta.default_uniforms)
     info=bridge.info(dict(msgid='CMD_GET_LEAGUE_SEASON_INFO'),dict(rqid=0));assert len(info['ranking'])==36 and len(info['auto_match_list'])==18;assert info['team_id']==season['own']
     prepared=bridge.prepare(dict(rqid=1));assert prepared['result']=='NOERR';gid=prepared['game_id'];assert store.get()['active']['game_id']==str(gid);assert prepared['side']==('AWAY'if match['home']==season['own']else'HOME')
     frozen=copy.deepcopy(store.get());assert bridge.prepare(dict(rqid=2))['game_id']==gid;assert store.get()==frozen

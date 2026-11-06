@@ -45,7 +45,7 @@ def run():
  assert c.execute('SELECT state FROM ucl_lp_seasons').fetchone()[0]==snapshot
  for invalid in [True,1.5,'1.5','01','0',str(2**63)]:fails(lambda:st.reserve(invalid,{}))
  # Failed aggregate settlement rolls back and keeps a resumable pending session.
- state=st.get();field=[a,b]+[t['team_id']for t in teams if t['team_id']not in(a,b)][:6];add_ties(state,'QF',list(zip(field[::2],field[1::2])),True)
+ state=st.get();state['knockout_legs']=2;field=[a,b]+[t['team_id']for t in teams if t['team_id']not in(a,b)][:6];add_ties(state,'QF',list(zip(field[::2],field[1::2])),True)
  for game in current_matches(state):game['result']=score(state,game,2,1)if a in(game['home'],game['away'])else simulate(state,game)
  transition(state)
  with st.transaction():st.save(state)
