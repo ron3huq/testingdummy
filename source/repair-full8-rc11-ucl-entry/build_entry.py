@@ -37,7 +37,11 @@ def build(root,stage):
     runtime=root/'source/repair-full8-rc9-ucl/runtime'
     for p in runtime.glob('*.py'):shutil.copyfile(p,tools/p.name)
     for p in runtime.glob('ucl_lp_*.json'):shutil.copyfile(p,tools/p.name)
+    sys.path.insert(0,str(runtime))
+    from ucl_lp_roster import inject
+    editor=json.loads((root/'assets/gateway-release/work/tools/myleague_editor.json').read_text())
+    (tools/'myleague_editor.json').write_text(json.dumps(inject(editor),ensure_ascii=False,indent=2)+'\n')
     bootstrap=root/'assets/gateway-release/work/tools/bridge_73.py';text=bootstrap.read_text();needle='        mod_startup._python_ready=True';assert text.count(needle)==1;text=text.replace(needle,'        import ucl_lp_install\n        ucl_lp_install.install(module)\n'+needle);(tools/'bridge_73.py').write_text(text)
-    report=dict(staged_only=True,finished_full=False,baseline_dex_sha256=RC7_DEX,entry_dex_sha256=sha(outdex),classes_verified=len(before),changed_classes=changed,normal_single_player_transfer_classes_exact=True,original_payload_not_modified=True,aggregate_provider_installed=False,phone_verified=False)
+    report=dict(staged_only=True,finished_full=False,baseline_dex_sha256=RC7_DEX,entry_dex_sha256=sha(outdex),classes_verified=len(before),changed_classes=changed,normal_single_player_transfer_classes_exact=True,original_payload_not_modified=True,aggregate_provider_installed=False,dortmund_editor_scope=122,dortmund_roster_players=22,dortmund_phone_verified=False,phone_verified=False)
     (stage/'entry-validation.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))
 if __name__=='__main__':build(*sys.argv[1:])

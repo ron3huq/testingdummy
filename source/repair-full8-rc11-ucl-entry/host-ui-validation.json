@@ -1,1 +1,14 @@
-{"passed":true,"actual_launcher_scripts":true,"mock_android_host":true,"como_selected":true,"ajax_absent":true,"table_rows":36,"rounds":8,"matches_per_round":18,"season_create_activate_resume_leave":true,"unready_activation_hidden":true,"phone_tested":false}
+{
+  "passed": true,
+  "actual_launcher_scripts": true,
+  "mock_android_host": true,
+  "como_selected": true,
+  "ajax_absent": true,
+  "table_rows": 36,
+  "rounds": 8,
+  "matches_per_round": 18,
+  "season_create_activate_resume_leave": true,
+  "unready_activation_hidden": true,
+  "phone_tested": false,
+  "stage": "ucl-entry-stage2"
+}

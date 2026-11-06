@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "actual_rc7_arm64_editor_executed": true,
+  "roster22": true,
+  "scope122": true,
+  "native_ensure_team_propagates_editor_failure": true,
+  "other_scope125_unchanged": true,
+  "scope_exit_restores_baseline": true,
+  "missing_player_rejected_without_partial_write": true,
+  "engine_boundaries_mocked": true,
+  "phone_verified": false
+}
