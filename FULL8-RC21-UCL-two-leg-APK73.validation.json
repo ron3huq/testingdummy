@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "archive": "/workspace/handoff-apk73-rc21/FULL8-RC21-UCL-two-leg-APK73.zip",
+  "bytes": 591314497,
+  "sha256": "7bd79bb92eea4f9ec60550adfa16498eb47179109bc1f10ddcdbaa80686d6159",
+  "files": 1506,
+  "every_inventory_hash_rechecked_from_zip": true,
+  "zip_crc_passed": true,
+  "phone_verified": false
+}
