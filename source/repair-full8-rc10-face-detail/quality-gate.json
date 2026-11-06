@@ -4,7 +4,7 @@
   "phone_verified": false,
   "ucl_integrated": false,
   "blocked_by": [
-    "Native UCL match/UI/aggregate extra-time adapter and full player-stat attribution are not implemented",
+    "UCL source adapters and controller are host-tested, but launcher/bootstrap integration, aggregate-aware engine setup, WorldCup/EventAI filter and full stats attribution remain unfinished",
     "Actual Android mouth/eye/LOD/SIUU verification pending"
   ],
   "face_checks": {

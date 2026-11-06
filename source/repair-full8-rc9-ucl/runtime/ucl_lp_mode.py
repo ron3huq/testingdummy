@@ -205,33 +205,37 @@ class Store:
  def reserve(self,game,native):
   game=session_key(game)
   if not isinstance(native,dict):raise UclError('invalid native session payload')
-  with self.transaction():
-   s=self.get()
-   if not s:raise UclError('no selected UCL season')
-   m=own_match(s)
-   if m is None:raise UclError('no playable fixture')
-   active=s.get('active')
-   if active and session_key(active['game_id'])!=game:raise UclError('pending fixture already reserved')
-   previous=self.conn.execute('SELECT season,fixture,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
-   if previous:
-    if previous[0]!=s['season_uuid']or previous[1]!=m['id']or previous[2]is not None:raise UclError('native session ID already belongs to another fixture')
-    if not active or active.get('fixture')!=m['id']:raise UclError('pending session state is inconsistent')
-    return copy.deepcopy(active)
-   try:self.conn.execute('INSERT INTO ucl_lp_sessions(game,season,fixture)VALUES(?,?,?)',(game,s['season_uuid'],m['id']))
-   except sqlite3.IntegrityError as error:raise UclError('fixture already has a native session')from error
-   s['active']=dict(game_id=game,fixture=m['id'],native=copy.deepcopy(native));self.save(s);return copy.deepcopy(s['active'])
+  with self.transaction():return self._reserve_locked(game,native)
+ def _reserve_locked(self,game,native):
+  if not self.conn.in_transaction:raise UclError('UCL transaction required')
+  s=self.get()
+  if not s:raise UclError('no selected UCL season')
+  m=own_match(s)
+  if m is None:raise UclError('no playable fixture')
+  active=s.get('active')
+  if active and session_key(active['game_id'])!=game:raise UclError('pending fixture already reserved')
+  previous=self.conn.execute('SELECT season,fixture,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
+  if previous:
+   if previous[0]!=s['season_uuid']or previous[1]!=m['id']or previous[2]is not None:raise UclError('native session ID already belongs to another fixture')
+   if not active or active.get('fixture')!=m['id']:raise UclError('pending session state is inconsistent')
+   return copy.deepcopy(active)
+  try:self.conn.execute('INSERT INTO ucl_lp_sessions(game,season,fixture)VALUES(?,?,?)',(game,s['season_uuid'],m['id']))
+  except sqlite3.IntegrityError as error:raise UclError('fixture already has a native session')from error
+  s['active']=dict(game_id=game,fixture=m['id'],native=copy.deepcopy(native));self.save(s);return copy.deepcopy(s['active'])
  def finish(self,game,result,reply=None,player_events=None):
   game=session_key(game)
-  with self.transaction():
-   row=self.conn.execute('SELECT season,fixture,started,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
-   if not row or not row[2]:raise UclError('native match was not started')
-   if row[3]is not None:return json.loads(row[3])
-   s=self.get(row[0]);active=s.get('active')if s else None
-   if not active or session_key(active['game_id'])!=game or active.get('fixture')!=row[1]:raise UclError('result does not belong to the pending native session')
-   if player_events is not None:
-    from ucl_lp_stats import record
-    fixture=own_match(s);checked=score(s,fixture,**result);record(s,fixture,checked,active['native'].get('ucl_rosters',{}),player_events)
-   apply(s,row[1],result);self.save(s);receipt=dict(season=s['season_uuid'],fixture=row[1],reply=reply);self.conn.execute('UPDATE ucl_lp_sessions SET receipt=? WHERE game=?',(json.dumps(receipt),game));return receipt
+  with self.transaction():return self._finish_locked(game,result,reply,player_events)
+ def _finish_locked(self,game,result,reply=None,player_events=None):
+  if not self.conn.in_transaction:raise UclError('UCL transaction required')
+  row=self.conn.execute('SELECT season,fixture,started,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
+  if not row or not row[2]:raise UclError('native match was not started')
+  if row[3]is not None:return json.loads(row[3])
+  s=self.get(row[0]);active=s.get('active')if s else None
+  if not active or session_key(active['game_id'])!=game or active.get('fixture')!=row[1]:raise UclError('result does not belong to the pending native session')
+  if player_events is not None:
+   from ucl_lp_stats import record
+   fixture=own_match(s);checked=score(s,fixture,**result);record(s,fixture,checked,active['native'].get('ucl_rosters',{}),player_events)
+  apply(s,row[1],result);self.save(s);receipt=dict(season=s['season_uuid'],fixture=row[1],reply=reply);self.conn.execute('UPDATE ucl_lp_sessions SET receipt=? WHERE game=?',(json.dumps(receipt),game));return receipt
  def finish_native(self,request,reply=None,player_events=None):
   from ucl_lp_result import game_id,decode
   game=game_id(request)
@@ -244,9 +248,11 @@ class Store:
   return self.finish(game,result,reply,player_events)
  def start(self,game):
   game=session_key(game)
-  with self.transaction():
-   row=self.conn.execute('SELECT season,fixture,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
-   if not row or row[2]is not None:raise UclError('session is not pending')
-   s=self.get(row[0]);active=s.get('active')if s else None
-   if not active or session_key(active['game_id'])!=game or active.get('fixture')!=row[1]:raise UclError('session mismatch')
-   self.conn.execute('UPDATE ucl_lp_sessions SET started=1 WHERE game=?',(game,))
+  with self.transaction():return self._start_locked(game)
+ def _start_locked(self,game):
+  if not self.conn.in_transaction:raise UclError('UCL transaction required')
+  row=self.conn.execute('SELECT season,fixture,receipt FROM ucl_lp_sessions WHERE game=?',(game,)).fetchone()
+  if not row or row[2]is not None:raise UclError('session is not pending')
+  s=self.get(row[0]);active=s.get('active')if s else None
+  if not active or session_key(active['game_id'])!=game or active.get('fixture')!=row[1]:raise UclError('session mismatch')
+  self.conn.execute('UPDATE ucl_lp_sessions SET started=1 WHERE game=?',(game,))
