@@ -1,0 +1,188 @@
+{
+  "team_id": 126,
+  "name": "Borussia Dortmund",
+  "association": "GER",
+  "era": "Modern in-game data roster matching the document stars; not asserted as current official2026/27 registration",
+  "roster_count": 22,
+  "source_names_sha256": "d0160201264cd8ac79920a7b958329b376d45f9ee1f7bd1d3c29fd2bfb81f603",
+  "source_positions_sha256": "caa167558b3149593b914cfc896d664b8f50f83bf73d9b8c42b9ecf68aa81210",
+  "native_application_ready": false,
+  "players": [
+    {
+      "player_id": 142061,
+      "name": "Gregor Kobel",
+      "native_primary_position": 0,
+      "requested_role": "GK",
+      "shirt": 1,
+      "starting": true
+    },
+    {
+      "player_id": 142063,
+      "name": "Waldemar Anton",
+      "native_primary_position": 1,
+      "requested_role": "CB",
+      "shirt": 3,
+      "starting": true
+    },
+    {
+      "player_id": 142237,
+      "name": "Nico Schlotterbeck",
+      "native_primary_position": 1,
+      "requested_role": "CB",
+      "shirt": 4,
+      "starting": true
+    },
+    {
+      "player_id": 108692,
+      "name": "Ramy Bensebaïni",
+      "native_primary_position": 1,
+      "requested_role": "LB",
+      "shirt": 5,
+      "starting": true
+    },
+    {
+      "player_id": 142236,
+      "name": "Julian Ryerson",
+      "native_primary_position": 3,
+      "requested_role": "RB",
+      "shirt": 26,
+      "starting": true
+    },
+    {
+      "player_id": 46825,
+      "name": "Emre Can",
+      "native_primary_position": 1,
+      "requested_role": "DMF",
+      "shirt": 23,
+      "starting": true
+    },
+    {
+      "player_id": 102526,
+      "name": "Marcel Sabitzer",
+      "native_primary_position": 5,
+      "requested_role": "CMF",
+      "shirt": 20,
+      "starting": true
+    },
+    {
+      "player_id": 60928,
+      "name": "Julian Brandt",
+      "native_primary_position": 8,
+      "requested_role": "AMF",
+      "shirt": 10,
+      "starting": true
+    },
+    {
+      "player_id": 144438,
+      "name": "Karim Adeyemi",
+      "native_primary_position": 10,
+      "requested_role": "RWF",
+      "shirt": 27,
+      "starting": true
+    },
+    {
+      "player_id": 142159,
+      "name": "Maximilian Beier",
+      "native_primary_position": 12,
+      "requested_role": "LWF",
+      "shirt": 14,
+      "starting": true
+    },
+    {
+      "player_id": 102240,
+      "name": "Serhou Guirassy",
+      "native_primary_position": 12,
+      "requested_role": "CF",
+      "shirt": 9,
+      "starting": true
+    },
+    {
+      "player_id": 174084,
+      "name": "Alexander Meyer",
+      "native_primary_position": 0,
+      "requested_role": "GK",
+      "shirt": 33,
+      "starting": false
+    },
+    {
+      "player_id": 174082,
+      "name": "Silas Ostrzinski",
+      "native_primary_position": 0,
+      "requested_role": "GK",
+      "shirt": 31,
+      "starting": false
+    },
+    {
+      "player_id": 174094,
+      "name": "Filippo Mané",
+      "native_primary_position": 1,
+      "requested_role": "CB",
+      "shirt": 39,
+      "starting": false
+    },
+    {
+      "player_id": 138442,
+      "name": "Daniel Svensson",
+      "native_primary_position": 2,
+      "requested_role": "LB",
+      "shirt": 24,
+      "starting": false
+    },
+    {
+      "player_id": 135017,
+      "name": "Yan Couto",
+      "native_primary_position": 7,
+      "requested_role": "RB",
+      "shirt": 2,
+      "starting": false
+    },
+    {
+      "player_id": 127617,
+      "name": "Felix Nmecha",
+      "native_primary_position": 5,
+      "requested_role": "CMF",
+      "shirt": 8,
+      "starting": false
+    },
+    {
+      "player_id": 147337,
+      "name": "Jobe Bellingham",
+      "native_primary_position": 5,
+      "requested_role": "CMF",
+      "shirt": 7,
+      "starting": false
+    },
+    {
+      "player_id": 143418,
+      "name": "Carney Chukwuemeka",
+      "native_primary_position": 5,
+      "requested_role": "AMF",
+      "shirt": 17,
+      "starting": false
+    },
+    {
+      "player_id": 132974,
+      "name": "Fábio Silva",
+      "native_primary_position": 12,
+      "requested_role": "CF",
+      "shirt": 21,
+      "starting": false
+    },
+    {
+      "player_id": 155741,
+      "name": "Julien Duranville",
+      "native_primary_position": 9,
+      "requested_role": "LWF",
+      "shirt": 16,
+      "starting": false
+    },
+    {
+      "player_id": 142226,
+      "name": "Salih Özcan",
+      "native_primary_position": 4,
+      "requested_role": "DMF",
+      "shirt": 6,
+      "starting": false
+    }
+  ]
+}

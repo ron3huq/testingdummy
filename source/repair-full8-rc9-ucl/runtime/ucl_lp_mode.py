@@ -60,6 +60,12 @@ def new(teams,rounds,own,seed,level='NORMAL'):
  s=dict(schema_version=1,ruleset=RULESET,mode='UCL_LP',season_uuid=uuid.uuid4().hex,seed=seed,own=own,cpu_level=level,stage='LEAGUE_PHASE',round=1,teams=copy.deepcopy(teams),matches=[],ties=[],stats={},active=None,champion=None,eliminated=False)
  for day,games in enumerate(rounds,1):
   for h,a in games:s['matches'].append(dict(id='LP-%d-%d-%d'%(day,h,a),stage='LEAGUE_PHASE',round=day,leg=1,home=h,away=a,result=None))
+ policy_path=Path(__file__).with_name('ucl_lp_probability.json')
+ if policy_path.exists():
+  policy=json.loads(policy_path.read_text());ids={str(t['team_id'])for t in teams}
+  if set(policy['groups'])!=ids:raise UclError('CPU probability policy does not match the selected36 clubs')
+  if policy['model']!='user-ucl-probability-v1'or any(type(g)is not int or not 1<=g<=5 for g in policy['groups'].values()):raise UclError('invalid CPU probability policy')
+  s['cpu_policy']=policy
  return s
 
 def current_matches(s):return[m for m in s['matches']if m['stage']==s['stage']and m['round']==s['round']]
@@ -111,6 +117,9 @@ def score(s,m,home,away,pk_home=None,pk_away=None,discipline_home=0,discipline_a
  return dict(home=h,away=a,pk_home=ph,pk_away=pa,discipline_home=dh,discipline_away=da)
 
 def simulate(s,m):
+ if s.get('cpu_policy'):
+  from ucl_lp_probability import fixture_result
+  value=fixture_result(s,m,rng(s['season_uuid'],s['seed'],m['id']),aggregate_before(s,m)if m['leg']==2 else(0,0));meta=value.pop('simulation');result=score(s,m,**value);result['simulation']=meta;return result
  r=rng(s['season_uuid'],s['seed'],m['id']);strength={t['team_id']:t['strength']for t in s['teams']};gap=max(-15,min(15,strength[m['home']]-strength[m['away']]));h=sum(r.random()<(.22+gap*.006)for _ in range(6));a=sum(r.random()<(.18-gap*.006)for _ in range(6));bh,ba=aggregate_before(s,m)if m['leg']==2 else(0,0);ph=pa=None
  if needs_decision(s,m)and h+bh==a+ba:
   # CPU extra time and shootout; persisted once in the same transaction as the round.

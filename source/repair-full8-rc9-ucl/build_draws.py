@@ -4,8 +4,8 @@ from pathlib import Path
 import numpy as np
 from scipy.optimize import milp,Bounds,LinearConstraint
 from scipy.sparse import lil_matrix
-IDS=[109,127,173,103,108,114,119,101,100,102,213,182,172,120,121,327,234,179,1195,269,125,191,192,193,112,113,4219,118,117,197,181,265,267,196,130,5220]
-ASSOC={'ENG':[100,101,102,103,106,107,173,179],'ESP':[109,108,172,265,267,196],'GER':[127],'FRA':[114,112,113,181,213,182],'ITA':[119,120,121,327,234,125,4219,122,124],'POR':[191,192,193],'NED':[118,117],'TUR':[130,197],'BEL':[269,1195,5220]}
+IDS=[109,127,173,103,108,114,119,101,100,102,213,182,172,120,121,327,234,179,126,269,125,191,192,193,112,113,4219,118,117,197,181,265,194,196,130,5220]
+ASSOC={'ENG':[100,101,102,103,106,107,173,179],'ESP':[109,108,172,265,194,196],'GER':[127,126],'FRA':[114,112,113,181,213,182],'ITA':[119,120,121,327,234,125,4219,122,124],'POR':[191,192,193],'NED':[118,117],'TUR':[130,197],'BEL':[269,5220]}
 TEAMS=[dict(team_id=t,association=next(a for a,ts in ASSOC.items()if t in ts),pot=i//9+1,strength=90-i*.35,coefficient=None)for i,t in enumerate(IDS)]
 # Build four balanced native-strength tiers. Coefficients are unavailable in APK73.
 pr=[];pl=[];pu=[]

@@ -152,11 +152,12 @@
       "roster_source": "APK73 v19.1 native roster data"
     },
     {
-      "team_id": 1195,
-      "name": "KRC Genk",
-      "short": "GNK",
-      "roster_count": 29,
-      "roster_source": "APK73 v19.1 native roster data"
+      "team_id": 126,
+      "name": "Borussia Dortmund",
+      "short": "BVB",
+      "roster_count": 22,
+      "roster_source": "Authored modern in-game roster candidate; native application pending",
+      "native_application_ready": false
     },
     {
       "team_id": 269,
@@ -250,10 +251,10 @@
       "roster_source": "APK73 v19.1 native roster data"
     },
     {
-      "team_id": 267,
-      "name": "Villarreal",
-      "short": "VIL",
-      "roster_count": 26,
+      "team_id": 194,
+      "name": "Real Betis",
+      "short": "BET",
+      "roster_count": 28,
       "roster_source": "APK73 v19.1 native roster data"
     },
     {
@@ -285,6 +286,19 @@
       "added": 4219,
       "added_name": "Como 1907",
       "association": "ITA"
+    },
+    {
+      "removed": 1195,
+      "removed_name": "Genk",
+      "added": 126,
+      "added_name": "Borussia Dortmund"
+    },
+    {
+      "removed": 267,
+      "removed_name": "Villarreal",
+      "added": 194,
+      "added_name": "Real Betis"
     }
-  ]
+  ],
+  "dortmund_roster_candidate": "runtime/ucl_lp_dortmund_roster.json"
 }

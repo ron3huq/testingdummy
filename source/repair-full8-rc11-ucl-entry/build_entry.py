@@ -36,7 +36,7 @@ def build(root,stage):
     tools=stage/'assets/gateway-release/work/tools';tools.mkdir(parents=True)
     runtime=root/'source/repair-full8-rc9-ucl/runtime'
     for p in runtime.glob('*.py'):shutil.copyfile(p,tools/p.name)
-    shutil.copyfile(runtime/'ucl_lp_draws.json',tools/'ucl_lp_draws.json')
+    for p in runtime.glob('ucl_lp_*.json'):shutil.copyfile(p,tools/p.name)
     bootstrap=root/'assets/gateway-release/work/tools/bridge_73.py';text=bootstrap.read_text();needle='        mod_startup._python_ready=True';assert text.count(needle)==1;text=text.replace(needle,'        import ucl_lp_install\n        ucl_lp_install.install(module)\n'+needle);(tools/'bridge_73.py').write_text(text)
     report=dict(staged_only=True,finished_full=False,baseline_dex_sha256=RC7_DEX,entry_dex_sha256=sha(outdex),classes_verified=len(before),changed_classes=changed,normal_single_player_transfer_classes_exact=True,original_payload_not_modified=True,aggregate_provider_installed=False,phone_verified=False)
     (stage/'entry-validation.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

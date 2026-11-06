@@ -2,7 +2,7 @@
 
 Nền vẫn là FULL8 RC7 trên APK73/v19.1. Giai đoạn này thêm nút launcher, operation `ucl → ui73_ucl` trong LauncherWeb, và lệnh cài router trong bản sao bridge_73. `build_entry.py` tạo stage độc lập; không sửa DEX, payload inventory hoặc runtime đang quảng bá của RC7. Không chép stage riêng này vào điện thoại: đây chưa phải FULL có manifest được hoàn tất.
 
-Danh sách36đội theo native_pool.json đã thay Ajax116 bằng Como1907 ID4219 theo yêu cầu. Como có30slot trong dữ liệu roster gốc. Đã loại126/128/226/231 vì thiếu roster trong dữ liệu nền; không dùng Celtic131/Rangers132 vì RC7 đang gán các ID đó cho đội Y17. Các đội thay thế hiện tại là Lille213, Lens182, Genk1195 và Union Saint-Gilloise5220. Không ID nào của pool trùng classic_teams hoặc hai giải Y08/Y17. Đây là pool tùy chọn, không giả là danh sách dự UCL chính thức của một mùa UEFA.
+Danh sách 36 đội giữ Como1907 ID4219 thay Ajax116. Theo lựa chọn mới của người dùng khi đọc tài liệu xác suất, Dortmund126 thay Genk1195 và Real Betis194 thay Villarreal267. Betis có28slot trong dữ liệu nền. Dortmund có danh sách22cầu thủ hiện đại được đối chiếu tên và vị trí bằng catalog game, nhưng **chưa nối bộ áp roster native**; không coi JSON ứng viên là đội hình đã chạy được trong engine. Không dùng Celtic131/Rangers132 vì RC7 đang gán các ID đó cho đội Y17. Không ID nào của pool trùng classic_teams hoặc hai giải Y08/Y17. Đây là pool tùy chọn, không phải danh sách dự UCL chính thức.
 
 Có8bộ lịch hợp lệ; mỗi bộ8lượt ×18trận, mỗi đội8đối thủ khác nhau,4nhà/4khách,1nhà/1khách với mỗi pot; không gặp cùng liên đoàn và tối đa2đối thủ của một liên đoàn khác. Thuật toán host tách đồ thị8bậc thành5perfect-matching và3màu cuối, thay cho bài màu1152biến lớn. Android nhận lịch JSON đã kiểm tra, không chạy SciPy.
 
