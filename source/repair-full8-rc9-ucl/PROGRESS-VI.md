@@ -1,3 +1,5 @@
+YÊU CẦU HIỆN HÀNH: người dùng chốt lại knockout MỘT TRẬN, có hiệp phụ và penalty, không lượt về hoặc ô tổng tỷ số. Store tạo mùa mới mặc định1; league phase36đội/8lượt.167trận toàn giải, đường vô địch12/13trận. Các nghiên cứu hai lượt và ô tổng bên dưới là lịch sử, không là yêu cầu hiện hành. Test toàn mùa và cấu hình một lượt v25 đã qua; native event entry vẫn chưa nối hoàn chỉnh, chưa có FULL bàn giao.
+
 Cập nhật rc19: chạy hàm _knockout_event v25 xác nhận một lượt bật YES/YES, nhánh two_legs ở R16/QF/SF đặt NO/NO. EventRules mới phân biệt lượt đi/lượt về/chung kết; lượt về yêu cầu xác nhận provider tổng tỷ số trước khi xuất YES/YES. 42ca một lượt +28ca hai lượt qua; chưa nối entry và chưa FULL. Chi tiết source/repair-full8-rc19-event-extra-time.
 
 Cập nhật rc18 theo ảnh tham khảo: cần tỷ số trận + ôtổnghai lượt cập nhật live. Đã chạy native publicationblock6ba04ac..6ba05bc với ngữcảnhregisterđược cấp: ghi riêng current tại61dc/61e0, total61f0/61f4 vàflag61ec.25tổ hợp qua; chưa chạyoutergates hoặcpixelHUD/điện thoại, chưaFULL. Xem source/repair-full8-rc18-aggregate-scoreboard.

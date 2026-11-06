@@ -43,7 +43,7 @@ def run():
     request['match_result']['pk_flag']='YES';request['score'][0]['score_pk']=5;request['score'][1]['score_pk']=4
     value=decode(state,match,request);assert(value['home'],value['away'],value['pk_home'])==(2,2,5)
     request['score'][0]['score_2nd']=2;rejected(lambda:decode(state,match,request))
-    c=sqlite3.connect(':memory:');store=Store(c);assert store.create(teams,data['draws'][0]['rounds'],4219,1,knockout_legs=1)['knockout_legs']==1
+    c=sqlite3.connect(':memory:');store=Store(c);assert store.create(teams,data['draws'][0]['rounds'],4219,1)['knockout_legs']==1
     legacy=new(teams,data['draws'][0]['rounds'],4219,1);legacy.pop('knockout_legs');add_ties(legacy,'QF',[(4219,114)],True)
     assert len([m for m in legacy['matches']if m['stage']=='QF'])==2
     print(json.dumps(dict(passed=True,draws_checked=8,whole_season_champion_routes=routes,total_matches=167,no_return_legs=True,extra_time_native_scores=True,shootout_native_scores=True,old_saved_season_format_preserved=True,phone_verified=False),indent=2))

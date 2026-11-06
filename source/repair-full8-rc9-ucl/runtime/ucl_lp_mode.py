@@ -205,7 +205,7 @@ class Store:
   row=self.conn.execute('SELECT state FROM ucl_lp_seasons WHERE id=?',(sid,)).fetchone()
   return json.loads(row[0])if row else None
  def save(self,s):self.conn.execute('INSERT OR REPLACE INTO ucl_lp_seasons VALUES(?,?)',(s['season_uuid'],json.dumps(s,separators=(',',':'))))
- def create(self,teams,rounds,own,seed,level='NORMAL',knockout_legs=2):
+ def create(self,teams,rounds,own,seed,level='NORMAL',knockout_legs=1):
   s=new(teams,rounds,own,seed,level,knockout_legs)
   with self.transaction():
    old=self.get()

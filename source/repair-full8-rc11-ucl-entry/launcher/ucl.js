@@ -37,7 +37,7 @@
   async function create(status){
     const h=UI().h,club=h("select",{"aria-label":"Câu lạc bộ"}),level=h("select",{"aria-label":"Độ khó"});
     options(club,status.teams.map(t=>[t.team_id,t.name||t.short||"Câu lạc bộ"]));options(level,status.levels.map(k=>[k,levels[k]||k]));level.value="NORMAL";
-    const form=h("div",{class:"ucl-fields"},h("label",{},"Câu lạc bộ",club),h("label",{},"Độ khó",level),h("p",{class:"ucl-note"},"36 đội · 8 đối thủ · 4 trận sân nhà / 4 trận sân khách. Nhóm hạt giống theo sức mạnh trong game. Play-off đến bán kết đá hai lượt, xét tổng bàn; chung kết một trận. Hòa tổng tỷ số sau lượt về thì hiệp phụ và luân lưu."));
+    const form=h("div",{class:"ucl-fields"},h("label",{},"Câu lạc bộ",club),h("label",{},"Độ khó",level),h("p",{class:"ucl-note"},"36 đội · 8 đối thủ · 4 trận sân nhà / 4 trận sân khách. Nhóm hạt giống theo sức mạnh trong game. Tất cả vòng loại trực tiếp đá một trận. Hòa sau 90 phút thì đá hiệp phụ, còn hòa thì luân lưu."));
     const agreed=await UI().sheet("Mùa UCL mới",status.season?"Mùa đang chọn sẽ được thay bằng mùa mới. Save My League thường được giữ nguyên.":"",[button("Hủy",false),button("Tạo mùa",true,"primary")],form);
     if(!agreed)return status;
     const seed=Date.now()%2147483647;
