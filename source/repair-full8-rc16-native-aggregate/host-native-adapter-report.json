@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "actual_compiled_arm64_adapter": true,
+  "genuine_native_team_getters": true,
+  "unrelated_teams_unchanged": true,
+  "disabled_unchanged": true,
+  "output_only_verified_fields_changed": true,
+  "source_pointer_binding": true,
+  "carry_follows_physical_team_order": true,
+  "retry_and_clear_guards": true,
+  "original_rule_builder_mocked": true,
+  "native_hook_installed": false,
+  "phone_verified": false
+}

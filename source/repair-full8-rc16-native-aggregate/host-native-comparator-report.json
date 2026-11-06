@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "engine_sha256": "efd257d9e41b622d6ecb8f51f7b0a8ee8820113fd427c5572025df1c8eecc7b8",
+  "actual_native_comparator": "0x6cacc80 -> 0x6cacb24",
+  "aggregate_flag_offset": "0x12a",
+  "carry_offsets": [
+    "0x12c",
+    "0x12e"
+  ],
+  "away_goals_disabled_offsets": [
+    "0x135",
+    "0x136"
+  ],
+  "comparison_cases": 60,
+  "native_away_goals_flag_independently_checked": true,
+  "disabled_flag_restores_normal_comparison": true,
+  "leg_win_aggregate_draw_native_result_zero": true,
+  "live_goal_and_period_boundaries_mocked": true,
+  "end_of_match_branch_verified": false,
+  "native_hook_installed": false,
+  "phone_verified": false
+}
