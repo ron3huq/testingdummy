@@ -2,6 +2,12 @@
 
 Gói FULL tích lũy từ RC7, chia 7 phần để tải qua GitHub. Không cần GitHub API hay token để tải.
 
+## Tải một gói FULL bằng GitHub Actions
+
+[TẢI FULL RC21 — một artifact](https://github.com/ron3huq/testingdummy/actions/runs/42239360429/artifacts/13515010930)
+
+Actions đã đối chiếu checksum và chạy thành công. Đăng nhập GitHub để tải. Artifact có nguyên `FULL8-RC21-UCL-two-leg-APK73.zip` cùng tài liệu; giải nén ZIP tải về để lấy ZIP FULL bên trong. Artifact được giữ 30 ngày; các phần bên dưới là phương án lưu lâu dài.
+
 ## Tải đủ 7 phần
 
 - [Tải phần 001](https://raw.githubusercontent.com/ron3huq/testingdummy/rc21-download/FULL8-RC21-UCL-two-leg-APK73.7z.001)
