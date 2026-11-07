@@ -1,0 +1,28 @@
+name: RC23 FULL Ronaldo2027 download
+on:
+  push:
+    branches: [rc23-full-download]
+    paths: [.github/workflows/rc23-full.yml]
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Download pinned original RC7 baseline
+        run: curl --fail --location --retry 3 'https://github.com/ron3huq/testingdummy/releases/download/releasee/FULL8-RC7-complete-APK73.zip' --output RC7-baseline.zip
+      - name: Reconstruct FULL RC23 and verify all payload hashes
+        run: python3 _ci/reconstruct.py
+      - name: Upload one FULL ZIP with assets and classes5 at root
+        uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC23-RC22BASE-RONALDO2027
+          path: payload/
+          include-hidden-files: true
+          compression-level: 6
+          if-no-files-found: error
+          retention-days: 30
