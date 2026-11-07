@@ -1,0 +1,30 @@
+name: RC24 FULL three Ronaldo faces and V25 Events
+on:
+  push:
+    branches: [rc24-full-download]
+    paths: [.github/workflows/rc24-full.yml]
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Download pinned original RC7 baseline
+        run: curl --fail --location --retry 3 'https://github.com/ron3huq/testingdummy/releases/download/releasee/FULL8-RC7-complete-APK73.zip' --output RC7-baseline.zip
+      - name: Download pinned RC23 reconstruction delta
+        run: curl --fail --location --retry 3 'https://raw.githubusercontent.com/ron3huq/testingdummy/62c719af065ffc88eec3e5dfaf068bf3905261c4/_ci/RC23-RECONSTRUCTION-DELTA.zip' --output RC23-delta.zip
+      - name: Reconstruct FULL RC24 and verify every payload hash
+        run: python3 _ci/reconstruct.py
+      - name: Upload one FULL ZIP with assets and classes5 at root
+        uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC24-3RONALDO-V25-EVENT
+          path: payload/
+          include-hidden-files: true
+          compression-level: 6
+          if-no-files-found: error
+          retention-days: 30
