@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "version": "V19.1-FULL8-RC24-3RONALDO-V25-EVENT",
+  "archive": "FULL8-RC24-3RONALDO-V25-EVENT.zip",
+  "bytes": 769667939,
+  "sha256": "3023e48af8e6e295c240634e2a1efa4f002362119f39ac8a0d342653915b1e4f",
+  "files": 1932,
+  "all_inventory_hashes_rechecked_from_zip": true,
+  "zip_crc_passed": true,
+  "baseline_zip_sha256": "4b5ce5e35c3089f81b0c3c10ccd556b926f32018be2d5c6a8428215bbd3cf210",
+  "baseline_payload_files": 1128,
+  "unchanged_baseline_payload_files": 1118,
+  "changed_baseline_payload": [
+    "assets/gateway-release/release-manifest.json",
+    "assets/gateway-release/ui6-runtime-manifest.json",
+    "assets/gateway-release/work/tools/appearance_choices.py",
+    "assets/gateway-release/work/tools/bridge_73.py",
+    "assets/gateway-release/work/tools/libnoodle_hair.so",
+    "assets/gateway-release/work/tools/noodle_bundle.json",
+    "assets/gateway-release/work/tools/noodle_hair.py",
+    "assets/gateway-release/work/tools/private_bundles.json",
+    "assets/gateway-release/work/tools/private_bundles.py",
+    "classes5.dex"
+  ],
+  "old_livedata_exact": true,
+  "old_native_libraries_except_targeted_noodle_profile_exact": true,
+  "launcher_exact_RC23": true,
+  "rc21_ucl_runtime_absent": true,
+  "delta_bytes": 87786678,
+  "delta_sha256": "97135a899bdfddca60672371fce4b2a0c7b00aec68b1f5a3874f8198bbc6e3e2",
+  "delta_files": 275,
+  "phone_verified": false
+}
