@@ -1,3 +1,11 @@
+# Tải FULL8 RC24
+
+**[TẢI GÓI FULL8 RC24](https://github.com/ron3huq/testingdummy/actions/runs/42368678302/artifacts/13572673084)**
+
+GitHub Actions đã dựng thành công và kiểm tra đủ 1.932 tệp. Đăng nhập GitHub để tải artifact. Artifact có hạn lưu 30 ngày. Đây là ZIP FULL tích lũy, có `assets/` và `classes5.dex` ngay ở gốc; không cần tải delta trong thư mục `_ci`.
+
+Nguồn dựng và checksum: [_ci/reconstruction.json](_ci/reconstruction.json). Checksum ZIP cục bộ khác ZIP do GitHub đóng; nội dung từng tệp được xác thực bằng `payload-inventory.json`.
+
 # FULL8 RC24 · ba mặt Ronaldo và Event v25
 
 FULL tích lũy nền FULL8 RC7 → RC22 → RC23, áp lên APK v19.1 bằng MT Manager. Không chứa APK, engine, save cá nhân hoặc Blend. Bản ứng viên chưa thử trên điện thoại.
