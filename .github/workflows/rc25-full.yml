@@ -1,0 +1,32 @@
+name: RC25 FULL Event Edit, UCL v5, V18 settings and Ronaldo loader
+on:
+  push:
+    branches: [rc25-full-download]
+    paths: [.github/workflows/rc25-full.yml]
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Download pinned RC7 original FULL
+        run: curl --fail --location --retry 3 'https://github.com/ron3huq/testingdummy/releases/download/releasee/FULL8-RC7-complete-APK73.zip' --output RC7-baseline.zip
+      - name: Download pinned RC23 layer
+        run: curl --fail --location --retry 3 'https://raw.githubusercontent.com/ron3huq/testingdummy/62c719af065ffc88eec3e5dfaf068bf3905261c4/_ci/RC23-RECONSTRUCTION-DELTA.zip' --output RC23-delta.zip
+      - name: Download pinned RC24 layer
+        run: curl --fail --location --retry 3 'https://raw.githubusercontent.com/ron3huq/testingdummy/2bfb4861d62dcf18dec0ab647445521cb9f762c2/_ci/RC24-RECONSTRUCTION-DELTA.zip' --output RC24-delta.zip
+      - name: Reconstruct FULL RC25 and verify every file
+        run: python3 _ci/reconstruct.py
+      - name: Upload one complete FULL ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC25-EVENT-EDIT-V5-SETTINGS-FACEGATE
+          path: payload/
+          include-hidden-files: true
+          compression-level: 6
+          if-no-files-found: error
+          retention-days: 30
