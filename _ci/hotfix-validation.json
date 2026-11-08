@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "requires": "FULL8 RC25",
+  "assets_changed": 6,
+  "native_libraries_or_DEX_changed": false,
+  "bytes": 439959,
+  "sha256": "59092513f5ab14ce9d351baec0a0a9ccd5f4466664301453d57dc7074834749e"
+}
