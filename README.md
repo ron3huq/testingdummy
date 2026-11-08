@@ -1,3 +1,10 @@
+# Tải bản khôi phục RC26
+
+- **[HOTFIX nhỏ cho RC25 · khoảng430KB](https://raw.githubusercontent.com/ron3huq/testingdummy/3f587df8d8babc96880048ce0d7709a31c2ec588/HOTFIX-RC26-ON-RC25.zip)**: chỉ chép đè `assets/` vào APK RC25, lưu/ký bằng khóa cũ, cập nhật đè rồi đóng hẳn/mở lại. Không cần thay DEX, không xóa data.
+- **[FULL8 RC26 đầy đủ](https://github.com/ron3huq/testingdummy/actions/runs/42446638646/artifacts/13603931472)**: đăng nhập GitHub để tải artifact. Gói FULL có `assets/` và `classes5.dex` ở gốc, đã kiểm tra1.991tệp. Artifact lưu30ngày.
+
+Chỉ cần dùng một trong hai gói. Hotfix và FULL có cùng6tệp sửa runtime; face, setting, native libraries, DEX và giao diện giữ nguyên RC25. Chỉnh sửa Event vẫn lưu riêng. Các kiểm tra host đã qua; chưa xác nhận lại trên điện thoại.
+
 # FULL8 RC26 · Khôi phục Transfer Edit My League
 
 Sửa hồi quy RC25: việc tách Event Edit đã gỡ lớp dữ liệu nền chỉ đọc của Transfer cũ. Vì vậy Barcelona và các đội UEFA/World Nation lại báo cần snapshot native và không mở editor.
