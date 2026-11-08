@@ -1,3 +1,13 @@
+# Tải FULL8 RC25 cho APK v19.1
+
+**[TẢI GÓI FULL8 RC25](https://github.com/ron3huq/testingdummy/actions/runs/42439862743/artifacts/13601456391)**
+
+GitHub Actions đã dựng thành công và kiểm tra đủ **1.983 tệp**. Đăng nhập GitHub để tải artifact; hạn lưu30ngày. Đây là ZIP FULL tích lũy, có `assets/` và `classes5.dex` ở gốc, không cần tải delta trong `_ci`.
+
+Mở **UCL Event Edit**, **World Cup Event Edit**, **Match Settings** trên giao diện ngoài trước Enter Game. Nút Transfer cũ giữ nguyên. Giữ pool v25 và tên/logo Ajax hiện tại. Chưa thử trên điện thoại.
+
+Các tệp được kiểm tra bằng `payload-inventory.json`. Checksum ZIP GitHub có thể khác ZIP cục bộ vì cách đóng ZIP; nội dung payload đã được so khớp từng tệp.
+
 # FULL8 RC25 · Event Edit riêng, hệ thống UCL v5 và setting v18-fixed
 
 FULL tích lũy để áp lên APK v19.1 bằng MT Manager. Nền RC24/RC7, không chứa APK, engine, save cá nhân hoặc Blend. Chưa chạy bản này trên điện thoại.
