@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "version": "V19.1-FULL8-RC26-TRANSFER-RESTORE",
+  "archive": "FULL8-RC26-TRANSFER-RESTORE.zip",
+  "bytes": 769775103,
+  "sha256": "1c2abfa7a2594e846de54883295634303e8da401987a4be55b943136d0a17923",
+  "files": 1991,
+  "all_inventory_hashes_rechecked_from_zip": true,
+  "zip_crc_passed": true,
+  "baseline_zip_sha256": "38b4adb581b602a4472186c1b2c1e624fec97978130e46d71bd9374298cb5124",
+  "baseline_payload_files": 1356,
+  "unchanged_baseline_payload_files": 1350,
+  "changed_baseline_payload": [
+    "assets/gateway-release/release-manifest.json",
+    "assets/gateway-release/ui6-runtime-manifest.json",
+    "assets/gateway-release/work/tools/bridge_73.py",
+    "assets/gateway-release/work/tools/noodle_bundle.json",
+    "assets/gateway-release/work/tools/private_bundles.json",
+    "assets/gateway-release/work/tools/rc24_registry.py"
+  ],
+  "old_livedata_exact": true,
+  "all_native_libraries_exact_RC25": true,
+  "DEX_and_launcher_exact_RC25": true,
+  "Ajax_configuration_and_native_emblem_exact_RC24": true,
+  "rc21_ucl_runtime_absent": true,
+  "delta_bytes": 548461,
+  "delta_sha256": "c3b76755e00f1f339b9fa1d869b06839c60915e3260b203be3453f2ab8e51f3c",
+  "delta_files": 16,
+  "phone_verified": false
+}
