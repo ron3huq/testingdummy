@@ -37,6 +37,10 @@ jobs:
         run: |
           mkdir -p out
           python3 rc27/reconstruct.py --artifact
+          mkdir -p addon/AP-DUNG/assets addon/KHOI-PHUC/assets
+          unzip -p V30.apk assets/dt270_mobile_all.cpk > addon/KHOI-PHUC/assets/dt270_mobile_all.cpk
+          python3 rc27/source/ball_tune.py addon/KHOI-PHUC/assets/dt270_mobile_all.cpk addon/AP-DUNG/assets/dt270_mobile_all.cpk ronaldo
+          cp rc27/README-QUY-DAO-VI.md rc27/source/ball_tune.py addon/
           rm -f V30.apk RC26.zip
           du -sh payload payload-data
       - name: Upload FULL part 1 (core)
@@ -54,5 +58,13 @@ jobs:
           name: FULL8-RC27-V30-MERGE-part2-data
           path: payload-data/
           compression-level: 0
+          if-no-files-found: error
+          retention-days: 30
+      - name: Upload ball trajectory add-on
+        uses: actions/upload-artifact@v4
+        with:
+          name: ADDON-QUY-DAO-RONALDO-KNUCKLE
+          path: addon/
+          compression-level: 6
           if-no-files-found: error
           retention-days: 30
