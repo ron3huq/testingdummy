@@ -1,0 +1,58 @@
+name: RC27 FULL (V30 + RC26 merge for V19.1)
+on:
+  push:
+    branches: [claude/vigilant-albattani-3r4gnp]
+    paths: [.github/workflows/rc27-full.yml, rc27/**]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/share/boost || true
+          df -h .
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download pinned inputs from release
+        run: |
+          B=https://github.com/ron3huq/testingdummy/releases/download/releasee
+          for f in 73efootball-V30.part1.rar 73efootball-V30.part2.rar FULL8-RC26-TRANSFER-RESTORE.zip; do
+            curl --fail --location --retry 5 -o "$f" "$B/$f"
+          done
+          echo "9873772a203064b1043f6973153d41e0bc147d74bb1f1e5e893a18bef120245f  FULL8-RC26-TRANSFER-RESTORE.zip" | sha256sum -c
+          7z x -y 73efootball-V30.part1.rar > /dev/null
+          rm 73efootball-V30.part*.rar
+          mv 73efootball-V30.apk V30.apk
+          mv FULL8-RC26-TRANSFER-RESTORE.zip RC26.zip
+          df -h .
+      - name: Reconstruct and verify every file
+        run: |
+          mkdir -p out
+          python3 rc27/reconstruct.py --artifact
+          rm -f V30.apk RC26.zip
+          du -sh payload payload-data
+      - name: Upload FULL part 1 (core)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC27-V30-MERGE-part1-core
+          path: payload/
+          include-hidden-files: true
+          compression-level: 6
+          if-no-files-found: error
+          retention-days: 30
+      - name: Upload FULL part 2 (data)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC27-V30-MERGE-part2-data
+          path: payload-data/
+          compression-level: 0
+          if-no-files-found: error
+          retention-days: 30
