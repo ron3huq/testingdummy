@@ -8,4 +8,6 @@ RC26 nguyên bản + face NR17 cho 88044950524330. Chỉ đổi file trong `asse
 Trong MT Manager khi thay/thêm file này: chọn **mức nén = Không nén / Store (0)**, rồi ký. Kiểm tra lại trong thuộc tính file trong APK: phương thức nén phải là Stored.
 Muốn bỏ: chép lại `dt270_mobile_all.cpk` từ APK V19.1 gốc (cũng Store).
 
-Thông số: knuckle lắc 1.0→1.6, dải 45–105→38–125 km/h, bay cao hơn (0.75), cắm mạnh (5.0); dipping rise 0.8, down 13; Magnus giữ nguyên. Chưa thử trên điện thoại.
+Bản mới (v2): bảng quỹ đạo được nén lại đúng bằng kích thước gốc (2582 byte), mục lục CPK giữ nguyên 100%, chỉ khác 2553 byte trong dữ liệu bảng.
+
+Thông số: knuckle lắc 1.0→1.625, dải 45–105→38–125 km/h, bay cao hơn (0.75), cắm mạnh (5.0); dipping rise 0.8125, down 13; Magnus giữ nguyên. Chưa thử trên điện thoại.
