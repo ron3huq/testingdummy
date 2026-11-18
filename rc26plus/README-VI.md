@@ -1,13 +1,14 @@
 # FULL8 RC26 PLUS (không có V30)
 
-## Gói 1: FULL8-RC26-PLUS-FACE (áp như RC26)
-RC26 nguyên bản + face NR17 cho 88044950524330. Chỉ đổi file trong `assets/gateway-release` (Java tự giải nén) nên áp y hệt RC26: chép đè `assets/` + `classes5.dex`, ký khóa cũ, cập nhật đè.
+Áp y hệt RC26: chép đè `assets/` + `classes5.dex`, ký khóa cũ, cập nhật đè.
+**KHÔNG** thay `dt270_mobile_all.cpk` nữa — giữ nguyên file gốc của V19.1.
 
-## Gói 2: quỹ đạo sút (`assets/dt270_mobile_all.cpk`) — PHẢI CHÉP KHÔNG NÉN
-`dt270` là file engine đọc thẳng từ APK. Trong APK gốc nó được lưu **không nén (Store)**. Nếu MT Manager nén lại khi thay file → **vào game màn hình đen**.
-Trong MT Manager khi thay/thêm file này: chọn **mức nén = Không nén / Store (0)**, rồi ký. Kiểm tra lại trong thuộc tính file trong APK: phương thức nén phải là Stored.
-Muốn bỏ: chép lại `dt270_mobile_all.cpk` từ APK V19.1 gốc (cũng Store).
+Gồm:
+- Face NR17 (Ronaldo 2017 noodle hair) cho 88044950524330.
+- Quỹ đạo sút kiểu Ronaldo, chỉnh **lúc game chạy** (trong `noodle_hair.py`): tìm bảng vật lý bóng trong bộ nhớ, ghi đè thông số, tự ghi lại nếu game nạp lại bảng.
+  - Dipping (xoáy lên): bay cao hơn (topSpinRiseDecRate 1.0→0.7), cắm xuống gắt hơn (topSpinDownDecRate 10→15).
+  - Knuckle (không xoáy): lắc 1.0→1.6, dải tốc độ 45–105→38–125 km/h, bay cao (0.75), cắm (5.0).
+  - Magnus (độ cong) giữ nguyên.
 
-Bản mới (v2): bảng quỹ đạo được nén lại đúng bằng kích thước gốc (2582 byte), mục lục CPK giữ nguyên 100%, chỉ khác 2553 byte trong dữ liệu bảng.
-
-Thông số: knuckle lắc 1.0→1.625, dải 45–105→38–125 km/h, bay cao hơn (0.75), cắm mạnh (5.0); dipping rise 0.8125, down 13; Magnus giữ nguyên. Chưa thử trên điện thoại.
+Kiểm tra: trong Diagnostics, mục `noodle-hair-status.json` → `ball_trajectory.state` = `APPLIED` là đã chạy.
+Chưa thử trên điện thoại.

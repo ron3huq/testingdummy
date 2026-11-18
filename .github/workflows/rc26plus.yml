@@ -1,4 +1,4 @@
-name: FULL8 RC26 PLUS (face NR17 + ball trajectory)
+name: FULL8 RC26 PLUS (face NR17 + runtime ball trajectory)
 on:
   push:
     branches: [claude/vigilant-albattani-3r4gnp]
@@ -26,21 +26,12 @@ jobs:
           unzip -o -q rc26plus/RC26PLUS-DELTA.zip -d payload
           (cd payload && sha256sum -c ../rc26plus/delta.sha256)
           cp rc26plus/README-VI.md payload/README-RC26-PLUS-VI.md
-          mkdir -p addon/assets
-          mv payload/assets/dt270_mobile_all.cpk addon/assets/
-          cp rc26plus/README-VI.md addon/README-QUY-DAO-VI.md
-          du -sh payload addon
+          test ! -e payload/assets/dt270_mobile_all.cpk
+          du -sh payload
       - uses: actions/upload-artifact@v4
         with:
-          name: FULL8-RC26-PLUS-FACE
+          name: FULL8-RC26-PLUS-FACE-BALL
           path: payload/
-          compression-level: 6
-          if-no-files-found: error
-          retention-days: 30
-      - uses: actions/upload-artifact@v4
-        with:
-          name: ADDON-QUY-DAO-dt270-CHEP-KHONG-NEN
-          path: addon/
           compression-level: 6
           if-no-files-found: error
           retention-days: 30
