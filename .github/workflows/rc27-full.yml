@@ -1,4 +1,4 @@
-name: RC27 FULL (V30 + RC26 merge for V19.1)
+name: RC28 LITE (V30 + RC26 for V19.1)
 on:
   push:
     branches: [claude/vigilant-albattani-3r4gnp]
@@ -46,7 +46,7 @@ jobs:
       - name: Upload FULL part 1 (core)
         uses: actions/upload-artifact@v4
         with:
-          name: FULL8-RC27-V30-MERGE-part1-core
+          name: FULL8-RC28-LITE-part1-core
           path: payload/
           include-hidden-files: true
           compression-level: 6
@@ -55,7 +55,7 @@ jobs:
       - name: Upload FULL part 2 (data)
         uses: actions/upload-artifact@v4
         with:
-          name: FULL8-RC27-V30-MERGE-part2-data
+          name: FULL8-RC28-LITE-part2-data
           path: payload-data/
           compression-level: 0
           if-no-files-found: error

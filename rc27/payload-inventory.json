@@ -1,12 +1,7 @@
 {
- "version": "V19.1-FULL8-RC27-V30-MERGE",
+ "version": "V19.1-FULL8-RC28-V30-LITE",
  "phone_verified": false,
  "files": [
-  {
-   "path": "AndroidManifest.xml",
-   "bytes": 47596,
-   "sha256": "4aa903d64122978b5ec88e1fd541eed4943cce5e0d27d8827e31745725281ed3"
-  },
   {
    "path": "assets/antiscam/antiscam.css",
    "bytes": 6287,
@@ -111,16 +106,6 @@
    "path": "assets/antiscam/voice/phrase.mp3",
    "bytes": 98206,
    "sha256": "b95db4ca287d56d76732120aae6255464272977fde16f09051829393daa1d6dd"
-  },
-  {
-   "path": "assets/card-art/index.json",
-   "bytes": 755655,
-   "sha256": "9f41130439d88c218bbb366aef9b92f511a8458d41234f42f4e32fc4f8ebf2b3"
-  },
-  {
-   "path": "assets/card-art/pack.bin",
-   "bytes": 312332810,
-   "sha256": "de5c67b15a30fdd994c66f5038ef38b19f7775aed0705bce0e93bb0be353c1e8"
   },
   {
    "path": "assets/card-designer/LeagueGothic.ttf",
@@ -3509,8 +3494,8 @@
   },
   {
    "path": "assets/card-designer/ui-locales.js",
-   "bytes": 5156570,
-   "sha256": "ead086d07aecd7f4f123baa5a21f36973500b7986da2016d8f27cbdae3b5eef4"
+   "bytes": 225,
+   "sha256": "ea4d87d16d99bcbc2d636f4fccafc68c8babf280226378c9467999533e2903fe"
   },
   {
    "path": "assets/card-designer/ui-localization.js",
@@ -6464,13 +6449,13 @@
   },
   {
    "path": "assets/gateway-release/release-manifest.json",
-   "bytes": 1487595,
-   "sha256": "8ae9cdbb3bd7b528e896741c04ad3676388f5f22644eece42f75adf6f7e65c07"
+   "bytes": 1484836,
+   "sha256": "da8405d5d09924d1f94b3ce0efb5d872ee9975593d74a1297704b5ae9b856ce9"
   },
   {
    "path": "assets/gateway-release/ui6-runtime-manifest.json",
-   "bytes": 110364,
-   "sha256": "6e535c5be6896205f63f2e60d994873dfa3f6cbb1d6e4320cb032b08965aba42"
+   "bytes": 107605,
+   "sha256": "504f34857a3b2942264493748ad14415376eb4290c2f3c1ec2d25561904a12fa"
   },
   {
    "path": "assets/gateway-release/work/templates/CMD_LOGIN_LIVEDATA.json",
@@ -6838,89 +6823,9 @@
    "sha256": "12613f5ad7c97b02b463beed55712b030d63442b4c81f31af69656539ed78719"
   },
   {
-   "path": "assets/gateway-release/work/tools/rc22_v25_cup16_mode.pyc",
-   "bytes": 39565,
-   "sha256": "5ba18838264dffbe55541eeaf41b62f284400d20fde8de3219eaa7dbe519c675"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_cup16_service.pyc",
-   "bytes": 28768,
-   "sha256": "2a84aed35b4871ab7dec001e9914e17c4dfd9a5e3abe674ec97e469ddc9e8709"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_cup_entry.pyc",
-   "bytes": 26307,
-   "sha256": "5bb2845c1861b7b43b03acafec0ef9cf7e7be7be908747fb6a343668b71c3100"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_cup_spec.pyc",
-   "bytes": 5559,
-   "sha256": "0b095a851f6ff37816d5200113e1d4c5ab1c511edb513347dfbdc6265d5c9806"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_cup_ui.marshal",
-   "bytes": 77274,
-   "sha256": "70ca1af09c2449abc83e6c7d01bb26163d9a563bcbbfe1602efdad6b9217e3ea"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_events.json",
-   "bytes": 2475,
-   "sha256": "5afedbde919fa188c3907fc65539969e746c0d95c4df13284bc49461fe22381f"
-  },
-  {
    "path": "assets/gateway-release/work/tools/rc22_v25_events.py",
    "bytes": 2942,
    "sha256": "8423e35da87af0447dd3cda7678f01b26702c72dab58667deb1bbcfeb2a4174b"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_my_league_e112_candidate.pyc",
-   "bytes": 56644,
-   "sha256": "e97842add3228169724319c5667d5326174b839ca96f262946f6c6b2d6d4f622"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_my_league_opponents.pyc",
-   "bytes": 129531,
-   "sha256": "affda3bafc1d2a605595fffe965046c06efc8bd4180c33fb7aa57076dfa1946a"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_native_dv_formations.pyc",
-   "bytes": 2938,
-   "sha256": "60019baa968af5c3e23d950cedb479fd2f5f4d6fe1682a9fa5032526ac57f009"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_opponent_squad.pyc",
-   "bytes": 490813,
-   "sha256": "1292c44584448d4e77e8ceb5dc655081690f0c5b60779293e447c23aa02fbf7b"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_ucl_group_bridge.pyc",
-   "bytes": 7384,
-   "sha256": "8eed483d7659a6cd7b7f9e714f08a2e732491e52b74daf3d2dc76f198cb240e1"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_ucl_mode.pyc",
-   "bytes": 48571,
-   "sha256": "819c92e893e5648ff626aef64936e0e2115538d52cc4fc33132a4d30f056e4ac"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_ucl_service.pyc",
-   "bytes": 40159,
-   "sha256": "39e154ff08731d7578dde04ec1820affc735ee73622b65fcf7d04a9603c36be5"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_user_compe_service.pyc",
-   "bytes": 10242,
-   "sha256": "a3f8e88d65113bfff4b5aea4c7451220e12343e3f392e8dc56abf3b5f4177588"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_wc_field.pyc",
-   "bytes": 12480,
-   "sha256": "34e495c4355894f88b98f57980f7099427231b412ffef6ee2ede53385a16bf23"
-  },
-  {
-   "path": "assets/gateway-release/work/tools/rc22_v25_wc_sim.pyc",
-   "bytes": 21131,
-   "sha256": "92ed75a78117ad62ebe73c345f0baaff56908304f583084d2cd4599361c2130c"
   },
   {
    "path": "assets/gateway-release/work/tools/rc24_awards.py",
@@ -7168,16 +7073,6 @@
    "sha256": "002f02ac6fe02ea32808f0eea13e59f188fea246f365758efa5b86fc747aa194"
   },
   {
-   "path": "assets/launcher/english-native.json",
-   "bytes": 222352,
-   "sha256": "459c92388405574dbb4b06667d58c1dab26815f3d6e5442e367807d751e0b289"
-  },
-  {
-   "path": "assets/launcher/english-words.js",
-   "bytes": 222379,
-   "sha256": "9b579cea34f3c8f925c5d734a7884da2214f90a1ff64f20840e2380c82d12dd4"
-  },
-  {
    "path": "assets/launcher/index.html",
    "bytes": 14179,
    "sha256": "30ecf17b35d27e3e4edb0db0c58391a5172be5a052d4c7f07fad7a48e9e8d6b0"
@@ -7199,8 +7094,8 @@
   },
   {
    "path": "assets/launcher/private.css",
-   "bytes": 770,
-   "sha256": "aa384361a459e4365d66d1440899b5ee650b8d0962b979aef9413f1088145235"
+   "bytes": 1039,
+   "sha256": "8954adda10e0ef6d1f64139229a742ef2fad607a12d1f21c1095038ae7da28b2"
   },
   {
    "path": "assets/launcher/stadium-editor.js",
@@ -7209,8 +7104,8 @@
   },
   {
    "path": "assets/launcher/ui-locales.js",
-   "bytes": 5156570,
-   "sha256": "ead086d07aecd7f4f123baa5a21f36973500b7986da2016d8f27cbdae3b5eef4"
+   "bytes": 225,
+   "sha256": "ea4d87d16d99bcbc2d636f4fccafc68c8babf280226378c9467999533e2903fe"
   },
   {
    "path": "assets/launcher/ui-localization.js",
@@ -9773,34 +9668,9 @@
    "sha256": "f6a416e0368c2f743146b03cb2e3c39f0833f352db294d75bf50252005f144f0"
   },
   {
-   "path": "classes.dex",
-   "bytes": 7893328,
-   "sha256": "0217e731edc16b5722a068805bc933deb4c15d3d98c385ca7b9064b67974c8ef"
-  },
-  {
-   "path": "classes2.dex",
-   "bytes": 7759368,
-   "sha256": "7961820cf35257e14409b9a1f3dba2828b5d6c7e8970fa41941168624f1fc4f0"
-  },
-  {
-   "path": "classes3.dex",
-   "bytes": 5518076,
-   "sha256": "c491beb422d10beb1f5b60c856e204b05091979fda64e785d5926fc2bed1e00f"
-  },
-  {
-   "path": "classes4.dex",
-   "bytes": 2556,
-   "sha256": "3641b6aa8caafe6bbfcfff5d8181875fec8abefbb9b5977b35f14a69159b9fee"
-  },
-  {
    "path": "classes5.dex",
-   "bytes": 3868220,
-   "sha256": "1d1236604eddd44ceb7af307d1b22d1724e446d5852acec7c821eab0764f33b5"
-  },
-  {
-   "path": "resources.arsc",
-   "bytes": 154660,
-   "sha256": "65edb5d8684d1c105bb5c6444528c98d72d5fd0d92411e57cafb43072951316b"
+   "bytes": 3868224,
+   "sha256": "1b3b6b02730f0569ab20d3283634e57380423444f827e45f84e500577d4f56ac"
   }
  ]
 }
