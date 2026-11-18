@@ -61,6 +61,7 @@ def main():
         # two artifact folders, each with assets/... at its root, ready to copy over the APK
         data = Path('payload-data')
         for r in sorted(BIG):
+            if not (STAGE / r).exists(): continue
             d = data / r; d.parent.mkdir(parents=True, exist_ok=True); shutil.move(str(STAGE / r), str(d))
         for m in ['README-VI.md', 'payload-inventory.json']: shutil.copy2(HERE / m, STAGE / m)
         shutil.copytree(HERE / 'source', STAGE / 'source/full8-rc27-v30-merge')
