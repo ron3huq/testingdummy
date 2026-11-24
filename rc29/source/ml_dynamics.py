@@ -21,6 +21,52 @@ import json, math, random, zlib
 KEY = 'rc29_dyn_v1'
 FORWARD = {'CF', 'SS', 'LWF', 'RWF', 'AMF'}
 _cache = {'season': None, 'doc': None, 'loaded': False}
+_live = {'t': 0.0, 'players': {}, 'lines': {}}
+GRP_OF = {'GK': 'G', 'CB': 'D', 'LB': 'D', 'RB': 'D', 'DMF': 'M', 'CMF': 'M', 'LMF': 'M', 'RMF': 'M', 'AMF': 'M', 'LWF': 'F', 'RWF': 'F', 'SS': 'F', 'CF': 'F'}
+SCORER_POS = {'CF', 'SS', 'LWF', 'RWF', 'AMF', 'LMF', 'RMF'}
+
+
+# ------------------------------------------------------------------ the living world, right now (edits and transfers count at once)
+def _world_rows(conn):
+    """{team: [(name, pos, ca)]} from the current Master League world files (our league + the four others)."""
+    out = {}
+    try:
+        import iml_world as IW, iml_world_leagues as W, my_league
+        s = my_league.state(conn) or {}
+        worlds = [IW.load(conn)] + [W.load(conn, int(c)) for c in W.others(s)]
+        for w in worlds:
+            for p in ((w or {}).get('players') or {}).values():
+                if p.get('status') != 'active' or p.get('club') is None:
+                    continue
+                pos = p.get('pos') or {'G': 'GK', 'D': 'CB', 'M': 'CMF', 'F': 'CF'}.get(p.get('grp'), 'CMF')
+                out.setdefault(int(p['club']), []).append((p.get('name') or '', pos, float(p.get('ca') or 110)))
+    except Exception:
+        pass
+    return out
+
+
+def refresh(conn, force=False):
+    """Re-read every club's squad and every player's ability (at most every 90 s, or at once after an edit)."""
+    import time
+    if not force and time.time() - _live['t'] < 90:
+        return _live
+    rows = _world_rows(conn)
+    if not rows:
+        return _live
+    import ml_realism as M
+    players = {}
+    for team, rs in rows.items():
+        for name, pos, ca in rs:
+            k = M._norm(name)
+            if k not in players or ca > players[k][0]:
+                players[k] = (ca, pos, team)
+    _live.update(t=time.time(), players=players, lines={t: _lines(sorted(rs, key=lambda r: -r[2])[:20]) for t, rs in rows.items()})
+    _clear_star_cache()
+    return _live
+
+
+def live_ability(norm_name):
+    return _live['players'].get(norm_name)
 
 
 def _store():
@@ -72,24 +118,57 @@ def current_page():
 
 
 def club_factor(team, season):
-    """(attack x, defence x) of a club in a season; (1, 1) in season 1 or before any rollover."""
+    """(attack x, defence x): the club's era (season drift, from season 2) x its squad NOW against the squad it started the career with."""
     p = _page(season)
-    if not p:
-        return 1.0, 1.0
-    f = (p.get('club') or {}).get(str(int(team)))
-    return (f[0], f[1]) if f else (1.0, 1.0)
+    da, dd = 1.0, 1.0
+    if p:
+        f = (p.get('drift') or {}).get(str(int(team))) or (p.get('club') or {}).get(str(int(team)))
+        if f:
+            da, dd = f[0], f[1]
+    sa = sd = 1.0
+    base = ((_cache['doc'] or {}).get('base') or {}).get(str(int(team)))
+    now = _live['lines'].get(int(team))
+    if base and now and ((_cache['doc'] or {}).get('base_v') == 2):
+        sa = max(0.75, min(1.3, math.exp((now[0] - base[0]) / 32.0)))
+        sd = max(0.75, min(1.3, math.exp(-(now[1] - base[1]) / 32.0)))
+    return da * sa, dd * sd
+
+
+def _ability_factor(norm_name):
+    """How much better / worse the player is now than when the career started: (CA now / CA then)^3, 0.45..1.35."""
+    now = _live['players'].get(norm_name)
+    then = ((_cache['doc'] or {}).get('base_ca') or {}).get(norm_name)
+    if not now or not then:
+        return 1.0
+    return max(0.45, min(1.35, (now[0] / then) ** 3))
+
+
+def implied_share(norm_name):
+    """A player nobody listed as a scorer, who IS one by ability now (an edit, a breakout): his share by CA and position."""
+    now = _live['players'].get(norm_name)
+    if not now:
+        return None
+    ca, pos, team = now
+    if pos not in SCORER_POS or ca < 168:
+        return None
+    g = min(0.30, 0.10 + (ca - 168) * 0.0085) * (1.0 if pos in ('CF', 'SS') else 0.7)
+    a = min(0.18, 0.06 + (ca - 168) * 0.004) * (1.4 if pos in ('AMF', 'LWF', 'RWF', 'LMF', 'RMF') else 0.8)
+    return (round(g, 4), round(a, 4))
 
 
 def star_adjust(norm_name, base):
-    """Season-adjusted (goal share, assist share) for a player; base = the hand-tuned share or None."""
+    """(goal share, assist share) of a player now: his known share x his season form x how his ability changed (edits count at once);
+    a player who became a scorer by ability gets an implied share; nobody passes 36% of his team's goals."""
     p = current_page()
-    if not p:
-        return base
+    abil = _ability_factor(norm_name)
     if base:
-        m = (p.get('star') or {}).get(norm_name)
-        return (base[0] * m, base[1] * m) if m else base
-    e = (p.get('new') or {}).get(norm_name)
-    return (e[0], e[1]) if e else None
+        m = (p.get('star') or {}).get(norm_name) if p else None
+        m = max(0.85, min(1.15, m)) if m else 1.0
+        return (min(0.36, base[0] * m * abil), min(0.24, base[1] * m * abil))
+    e = (p.get('new') or {}).get(norm_name) if p else None
+    if e:
+        return (min(0.36, e[0] * abil), min(0.24, e[1] * abil))
+    return implied_share(norm_name)
 
 
 # ------------------------------------------------------------------ the summer: write next season's page
@@ -131,12 +210,13 @@ def _lines(rows):
 
 def ensure_base(conn):
     doc = _cache['doc'] if _cache['loaded'] else load(conn)
-    if doc.get('base'):
+    if doc.get('base') and doc.get('base_v') == 2:
         return doc
-    sq = _squads(conn)
-    if not sq:
+    live = refresh(conn, force=True)
+    if not live['lines']:
         return doc
-    doc = dict(doc, base={str(t): list(_lines(rows)) for t, rows in sq.items()}, seasons=doc.get('seasons') or {})
+    doc = dict(doc, base={str(t): list(v) for t, v in live['lines'].items()}, base_ca={k: v[0] for k, v in live['players'].items()},
+               base_v=2, seasons=doc.get('seasons') or {})
     save(conn, doc)
     return doc
 
@@ -152,7 +232,7 @@ def rollover(conn, old_season):
     prev = seasons.get(str(int(old_season))) or {}
     seed = doc.setdefault('seed', random.randrange(1, 10 ** 9))
     rnd = lambda *k: random.Random(zlib.crc32(':'.join(map(str, (seed,) + k)).encode()))
-    sq = _squads(conn)
+    sq = _world_rows(conn)
     base = doc.get('base') or {}
     club, drift = {}, {}
     for t in set(R.CLUBS) | {int(x) for x in sq}:
@@ -160,19 +240,13 @@ def rollover(conn, old_season):
         r = rnd('club', new, t)
         da = max(0.78, min(1.25, pa ** 0.6 * math.exp(r.gauss(0, 0.07))))
         dd = max(0.78, min(1.25, pd ** 0.6 * math.exp(r.gauss(0, 0.07))))
-        sa = sd = 1.0
-        if str(t) in base and t in sq:
-            a0, d0 = base[str(t)]
-            a1, d1 = _lines(sq[t])
-            sa = max(0.75, min(1.3, math.exp((a1 - a0) / 25.0)))
-            sd = max(0.75, min(1.3, math.exp(-(d1 - d0) / 25.0)))
-        club[str(t)] = [round(da * sa, 4), round(dd * sd, 4)]
+        club[str(t)] = [round(da, 4), round(dd, 4)]      # the squad part is read live (club_factor)
         drift[str(t)] = [round(da, 4), round(dd, 4)]
     star = {}
     for keys, g, a in M._STAR_KEYS:
         k = keys[0]
         pm = (prev.get('star') or {}).get(k, 1.0)
-        star[k] = round(max(0.55, min(1.35, pm ** 0.65 * math.exp(rnd('star', new, k).gauss(0, 0.16)))), 4)
+        star[k] = round(max(0.85, min(1.15, pm ** 0.5 * math.exp(rnd('star', new, k).gauss(0, 0.07)))), 4)
     # emerging stars: keep last year's (with drift), then add new ones up to six
     newer = {}
     for k, (g, a) in (prev.get('new') or {}).items():

@@ -100,7 +100,15 @@ def _names():
     return _cache['names']
 
 
+NAME_OVERRIDE = {88042803047215: 'Cristiano Ronaldo'}
+
+
 def _name(pid):
+    try:
+        if int(pid) in NAME_OVERRIDE:
+            return NAME_OVERRIDE[int(pid)]
+    except Exception:
+        pass
     v = _names().get(str(pid))
     return (v[0] if isinstance(v, list) else v) or str(pid)
 
@@ -127,6 +135,7 @@ def _pos(pid):
 # UCL 2017: every player belongs to ONE club, all from his 2014-19 spell there (the RC26 Y17 squads borrow a few players
 # from other clubs and eras; My League keeps them, this cup does not).  team -> [(remove name, add id, add position)]
 U17_FIX = {
+    1220: [('Cristiano Ronaldo', 88042803047215, 'LWF')],     # the user's own Ronaldo card (face-swapped Honda card)
     2365: [('Dani Alves', 105559290329771, 'RB'), ('Paul Pogba', 105804640335593, 'CMF'), ('Arturo Vidal', 105739158855570, 'LWF'), ('Lilian Thuram', 105642505376103, 'CB')],
     5317: [('Medhi Benatia', 128181, 'CB')],
     1219: [('Kieran Trippier', 44857, 'RB'), ('Diego Costa', 60235, 'CF'), ('Diego Forlán', 105566806576367, 'DMF')],

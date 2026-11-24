@@ -1,5 +1,5 @@
 {
- "version": "RC29.7",
+ "version": "RC29.8",
  "base": "73efootball-V19.1.apk",
  "phone_verified": false,
  "files": [
@@ -345,13 +345,13 @@
   },
   {
    "path": "assets/chaquopy/app.imy",
-   "bytes": 312778919,
-   "sha256": "9cd0ef95259e14c81bd1bd58cb48a6b975061bce018f008d0d8d09eb63fb8965"
+   "bytes": 312789891,
+   "sha256": "f228d9a9eac8dc3b3b93fcb0b55a2ff646b41483f70dd430006974878e7e53bb"
   },
   {
    "path": "assets/chaquopy/build.json",
    "bytes": 1747,
-   "sha256": "c3cba80ae9b079dc7111534b55e0d5da45ce0dadb9e77a53a180b4da60894282"
+   "sha256": "467784b4d50b683680356e251d8e96c77b8af0a1740d3d5113e66ba93e863320"
   },
   {
    "path": "assets/chaquopy/requirements-common.imy",
@@ -6395,8 +6395,8 @@
   },
   {
    "path": "classes5.dex",
-   "bytes": 3876008,
-   "sha256": "44434d9ce665db026ac54fcf1bbb791b251e2799e5aa3047a27475adb5ec6c23"
+   "bytes": 3876012,
+   "sha256": "232b8e3c377e8f915604d685680f6d5e06dc7525feb7ebea756bf3bfc20477dc"
   }
  ]
 }

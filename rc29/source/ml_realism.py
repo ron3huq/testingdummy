@@ -44,6 +44,19 @@ _STAR_KEYS = [([_norm(k) for k in keys], g, a) for keys, g, a in R.STARS]
 _star_cache = {}
 
 
+def _name_match(k, n, words):
+    """A star key names ONE person: a one-word key must be the surname (or the whole name / first name + Junior),
+    never just any word of the name ('isak' is Alexander Isak, not Isak Hien; 'kane' is Harry Kane)."""
+    if ' ' in k:
+        return (' ' + k + ' ') in words
+    toks = n.split()
+    if not toks:
+        return False
+    if toks[-1] == k or n == k:
+        return True
+    return toks[0] == k and all(t in ('junior', 'jr', 'jnr', 'filho') for t in toks[1:])
+
+
 def star_of(name):
     """(goal share, assist share) of a leading player, or None."""
     n = _norm(name)
@@ -51,13 +64,15 @@ def star_of(name):
         return _star_cache[n]
     hit = None
     words = ' ' + n + ' '
+    hit_key = None
     for keys, g, a in _STAR_KEYS:
-        if any((' ' + k + ' ') in words for k in keys):
+        if any(_name_match(k, n, words) for k in keys):
             hit = (g, a)
+            hit_key = keys[0]
             break
     try:
         import ml_dynamics
-        hit = ml_dynamics.star_adjust(n if not hit else next(keys[0] for keys, g, a in _STAR_KEYS if any((' ' + k + ' ') in words for k in keys)), hit)
+        hit = ml_dynamics.star_adjust(hit_key or n, hit)
     except Exception:
         pass
     _star_cache[n] = hit
@@ -89,6 +104,20 @@ def season_u(tag, f, k):
     return (f * 7 + k) * PHI + off
 
 
+SQRT2M1 = 0.41421356237309515
+
+
+def season_v(tag, f, k):
+    """Like season_u but on an independent low-discrepancy sequence (assists must not move in step with the goals:
+    with the same stride the assist draw always fell on the scorer's slot and a 30-goal striker never got an assist)."""
+    off = (zlib.crc32(tag.encode()) % 100000) / 100000.0
+    try:
+        f = int(f)
+    except Exception:
+        f = zlib.crc32(str(f).encode()) % 997
+    return (f * 11 + k * 3) * SQRT2M1 + off
+
+
 def shared_weights(cands, assist=False):
     """cands: [(key, name, base weight)] -> {key: weight} where a leading player gets his real share of the team's total."""
     shares = {}
@@ -105,7 +134,34 @@ def shared_weights(cands, assist=False):
     if shares and rest > 0:
         for key, s in shares.items():
             out[key] = s / (1.0 - total) * rest
-    return out
+    return cap_shares(out, set(shares), NONSTAR_CAP_A if assist else NONSTAR_CAP_G)
+
+
+NONSTAR_CAP_G = 0.14     # a player who is not a proven scorer takes at most ~17% of his team's goals (about 12-13 a season)
+NONSTAR_CAP_A = 0.15
+
+
+def cap_shares(weights, stars, cap):
+    """Water-filling: no non-star keeps more than `cap` of the total; what they lose goes to everybody else in proportion."""
+    w = {k: max(0.0, float(v)) for k, v in weights.items()}
+    capped = set()
+    for _ in range(10):
+        total = sum(w.values())
+        if total <= 0:
+            return w
+        over = {k for k, v in w.items() if k not in stars and k not in capped and v / total > cap + 1e-9}
+        if not over:
+            return w
+        capped |= over
+        rest = [k for k in w if k not in capped]
+        rest_sum = sum(w[k] for k in rest)
+        if rest_sum <= 0 or cap * len(capped) >= 1.0:
+            return w
+        # capped players hold exactly `cap` of the total, the others keep their proportions
+        unit = rest_sum / (1.0 - cap * len(capped))
+        for k in capped:
+            w[k] = cap * unit
+    return w
 
 
 # ---------------------------------------------------------------- results
@@ -149,6 +205,9 @@ def _poisson(rng, lam):
         k += 1
 
 
+LEAGUE_GOAL_FACTOR = {116: 1.20, 122: 1.12, 119: 1.08, 900307: 1.08, 113: 1.02}
+
+
 def realistic_score(season, rnd, home, away, neutral=False):
     ah, dh = team_strength(home, season, rnd)
     aa, da = team_strength(away, season, rnd)
@@ -157,8 +216,11 @@ def realistic_score(season, rnd, home, away, neutral=False):
         ah, dh = ah * (ch / ca) ** 1.2, dh / (ch / ca) ** 0.6
         aa, da = aa * (ca / ch) ** 1.2, da / (ca / ch) ** 0.6
     hf, af = (1.0, 1.0) if neutral else (R.HOME, R.AWAY)
-    lh = ah * da / R.LEAGUE_GOALS * hf
-    la = aa * dh / R.LEAGUE_GOALS * af
+    # each league's real scoring level (goals a game): Serie A ~2.6, La Liga ~2.65, Ligue 1 ~2.85, Bundesliga ~3.15, Premier League ~2.9
+    lgh, lga = R.LEAGUE_OF.get(str(home)), R.LEAGUE_OF.get(str(away))
+    gfac = LEAGUE_GOAL_FACTOR.get(int(lgh), 1.0) if lgh is not None and lgh == lga else 1.0
+    lh = ah * da / R.LEAGUE_GOALS * hf * gfac
+    la = aa * dh / R.LEAGUE_GOALS * af * gfac
     rng = random.Random(zlib.crc32(('rc29-cpu:%s:%s:%s:%s' % (season, rnd, home, away)).encode()))
     return _poisson(rng, lh), _poisson(rng, la)
 
@@ -218,6 +280,10 @@ def _sim_scorer(orig, ml):
     return pick
 
 
+def _world_grp(pid):
+    return None
+
+
 def _round_stats(orig, ml):
     @functools.wraps(orig)
     def stats(s, matches, fixture, req=None):
@@ -242,8 +308,18 @@ def _round_stats(orig, ml):
                 total = sum(int(r.get('assist') or 0) for r in trs)
                 if not total:
                     continue
-                players = list(dict.fromkeys(rosters.get(str(team)) or []))[:11]
-                cands = [(p, _name(p), POS_ASSIST.get(sp[p][0], 0)) for p in players if p in sp and sp[p][0] in POS_ASSIST]
+                # the players really in this match first (the living squad: transfers, the editor), then the club's regulars
+                players = list(dict.fromkeys([r['player_id'] for r in trs] + list(rosters.get(str(team)) or [])[:16]))
+                cands = []
+                for p in players:
+                    code = sp[p][0] if p in sp else None
+                    if code is None:
+                        try:
+                            code = {'G': 0, 'D': 1, 'M': 5, 'F': 12}.get(_world_grp(p), 8)
+                        except Exception:
+                            code = 8
+                    if code in POS_ASSIST:
+                        cands.append((p, _name(p), POS_ASSIST.get(code, 0)))
                 if not cands:
                     continue
                 w = shared_weights(cands, assist=True)
@@ -324,7 +400,7 @@ def _league_scorers(orig, wl):
                     if rng.random() < 0.78:
                         opts = [x for x in ak if x != sc]
                         if opts:
-                            hp = spread_pick(opts, [aw[x] for x in opts], season_u('a:%s:%s:%s' % (self.cid, season, team), f, k))
+                            hp = spread_pick(opts, [aw[x] for x in opts], season_v('a:%s:%s:%s' % (self.cid, season, team), f, k))
                             out.setdefault((team, hp), [0, 0])[1] += 1
             return [[t, p, g, a] for (t, p), (g, a) in out.items()]
         except Exception as exc:
@@ -355,6 +431,83 @@ def _sim_weight(orig, assist):
 
 
 # ---------------------------------------------------------------- install
+def _sim_events(orig, S):
+    @functools.wraps(orig)
+    def events(rows, goals, rng, *a, **k):
+        try:
+            rows = list(rows)
+            sw, aw = S._score_weight, S._assist_weight
+            gc = [(i, r.get('name') or _name(r.get('pid') or r.get('player_id') or ''), sw(r)) for i, r in enumerate(rows)]
+            ac = [(i, n, aw(r)) for (i, n, _), r in zip(gc, rows)]
+            gw, aww = shared_weights(gc), shared_weights(ac, assist=True)
+            ids = {id(r): i for i, r in enumerate(rows)}
+            S._score_weight = lambda r: gw.get(ids.get(id(r)), sw(r))
+            S._assist_weight = lambda r: aww.get(ids.get(id(r)), aw(r))
+            try:
+                return orig(rows, goals, rng, *a, **k)
+            finally:
+                S._score_weight, S._assist_weight = sw, aw
+        except Exception as exc:
+            _state['errors'].append('sim_events %r' % (exc,))
+            return orig(rows, goals, rng, *a, **k)
+    events._rc29_realism = True
+    return events
+
+
+def _sim_process(orig):
+    """Our simulated matches (V32 chances-v1): keep every shot, minute and the score, but the goals and assists go to players by
+    their real share of the team's goals (stars by their known share, everybody else by position x ability, nobody but a
+    proven scorer above ~14%)."""
+    @functools.wraps(orig)
+    def process(*a, **k):
+        out = orig(*a, **k)
+        try:
+            rng = a[6] if len(a) > 6 else k.get('rng') or random.Random()
+            teams, goals, tl = out.get('teams') or [], out.get('goals') or [], out.get('timeline') or []
+            for side in (0, 1):
+                if side >= len(goals) or not goals[side]:
+                    continue
+                rows = teams[side]
+                evs = [t for t in tl if t.get('outcome') == 'goal' and t.get('side') == side]
+                new_goals = []
+                for gi, g in enumerate(goals[side]):
+                    ev = evs[gi] if gi < len(evs) else None
+                    m = float(ev['minute']) if ev else 45.0
+                    on = [r for r in rows if r.get('group') != 'GK' and float(r.get('start', 0)) <= m <= float(r.get('end', 90))] or [r for r in rows if r.get('group') != 'GK']
+                    if not on:
+                        new_goals.append(g)
+                        continue
+                    ca = lambda r: (float(r.get('ca') or 120) / 150.0) ** 3
+                    gc = [(i, r.get('name'), SCORE_POS.get(r.get('position'), 1.0) * ca(r)) for i, r in enumerate(on)]
+                    gw = shared_weights(gc)
+                    sc = on[spread_pick([c[0] for c in gc], [gw[c[0]] for c in gc], rng.random())]
+                    ast = None
+                    if g[1] is not None or rng.random() < 0.75:
+                        others = [(i, r.get('name'), ASSIST_POS.get(r.get('position'), 1.0) * ca(r)) for i, r in enumerate(on) if r is not sc]
+                        if others:
+                            aw = shared_weights(others, assist=True)
+                            idx = spread_pick([c[0] for c in others], [aw[c[0]] for c in others], rng.random())
+                            ast = on[idx]
+                    for row, key in ((g[0], 'goals'), (g[1], 'assists')):
+                        st = (row or {}).get('stats') if isinstance(row, dict) else None
+                        if isinstance(st, dict) and isinstance(st.get(key), (int, float)) and st[key] > 0:
+                            st[key] -= 1
+                    for row, key in ((sc, 'goals'), (ast, 'assists')):
+                        st = (row or {}).get('stats') if isinstance(row, dict) else None
+                        if isinstance(st, dict) and isinstance(st.get(key), (int, float)):
+                            st[key] += 1
+                    if ev is not None:
+                        ev['player'] = sc.get('key')
+                        ev['assist'] = ast.get('key') if ast else None
+                    new_goals.append((sc, ast))
+                goals[side] = new_goals
+        except Exception as exc:
+            _state['errors'].append('sim_process %r' % (exc,))
+        return out
+    process._rc29_realism = True
+    return process
+
+
 def _patch(mod, name, new):
     setattr(mod, name, new)
     _state['patched'].append('%s.%s' % (getattr(mod, '__name__', mod), name))
@@ -381,6 +534,10 @@ def install():
     sim = mod('iml_sim')
     if sim is not None:
         _patch(sim, '_score_weight', _sim_weight(sim._score_weight, False))
+        if hasattr(sim, 'match_process') and not getattr(sim.match_process, '_rc29_realism', False):
+            _patch(sim, 'match_process', _sim_process(sim.match_process))
+        if not getattr(sim.events, '_rc29_realism', False):
+            _patch(sim, 'events', _sim_events(sim.events, sim))
         _patch(sim, '_assist_weight', _sim_weight(sim._assist_weight, True))
         try:
             sim.SCORE_W.update({'LWF': 6.0, 'RWF': 6.0, 'AMF': 5.0, 'SS': 9.0, 'CF': 14.0, 'LMF': 3.5, 'RMF': 3.5, 'CMF': 2.5, 'DMF': 1.0})
@@ -512,42 +669,77 @@ def _qualify(orig):
 
 
 def cup_squad(conn, team, cache):
-    """[(key, name, pos)] of a club's likely eleven + bench for the European cup scorer sheets."""
+    """[(key, name, pos, weight)] of a club's living Master League squad (transfers, the editor, ability) for the European sheets."""
     team = int(team)
     if team in cache:
         return cache[team]
     rows = []
     try:
-        import ziru_data, my_league as ml
-        ids = list(dict.fromkeys(ziru_data.rosters().get(str(team)) or []))
-        pos_names = ('GK', 'CB', 'LB', 'RB', 'DMF', 'CMF', 'LMF', 'RMF', 'AMF', 'LWF', 'RWF', 'SS', 'CF')
-        for i, p in enumerate(ids[:16]):
-            code = ml.SIM_PLAYERS.get(p, (None,))[0]
-            if code is None:
-                continue
-            rows.append(('n%s' % p, _name(p), pos_names[code] if 0 <= code < 13 else 'CMF', 1.0 if i < 11 else 0.3))
+        import iml_world as IW, iml_world_leagues as W, my_league
+        s = my_league.state(conn) or {}
+        own = int(s.get('competition_id') or 113)
+        lg = R.LEAGUE_OF.get(str(team))
+        ps = []
+        if lg is not None and int(lg) == own:
+            w = IW.load(conn) or {}
+            ps = [p for p in (w.get('players') or {}).values() if p.get('status') == 'active' and str(p.get('club')) == str(team)]
+        else:
+            for cid in ([int(lg)] if lg is not None else []) + [900307, 119, 116, 122]:
+                w = W.load(conn, cid) or {}
+                ps = [p for p in (w.get('players') or {}).values() if p.get('status') == 'active' and str(p.get('club')) == str(team)]
+                if ps:
+                    break
+        ps.sort(key=lambda p: -float(p.get('ca') or 0))
+        grp_pos = {'G': 'GK', 'D': 'CB', 'M': 'CMF', 'F': 'CF'}
+        for i, p in enumerate(ps[:18]):
+            ca = float(p.get('ca') or 120) / 150.0
+            rows.append(('w%s' % p.get('id'), p.get('name'), p.get('pos') or grp_pos.get(p.get('grp'), 'CMF'), (1.0 if i < 11 else 0.3) * ca ** 3))
     except Exception:
         rows = []
     if not rows:
         try:
-            import iml_world_leagues as wl
-            lg = R.LEAGUE_OF.get(str(team))
-            for cid in ([lg] if lg else []) + [900307, 113, 119, 116, 122]:
-                lw = wl.open_league(conn, cid)
-                sq = lw.squad(team) if lw is not None else None
-                if sq:
-                    rows = [('w%s' % r.get('id'), r.get('name'), r.get('pos') or 'CMF', share) for r, share in sq]
-                    break
+            import ziru_data, my_league as ml
+            ids = list(dict.fromkeys(ziru_data.rosters().get(str(team)) or []))
+            pos_names = ('GK', 'CB', 'LB', 'RB', 'DMF', 'CMF', 'LMF', 'RMF', 'AMF', 'LWF', 'RWF', 'SS', 'CF')
+            for i, p in enumerate(ids[:16]):
+                code = ml.SIM_PLAYERS.get(p, (None,))[0]
+                if code is None:
+                    continue
+                rows.append(('n%s' % p, _name(p), pos_names[code] if 0 <= code < 13 else 'CMF', 1.0 if i < 11 else 0.3))
         except Exception:
             rows = []
     cache[team] = rows
     return rows
 
 
+UCL_STAR_BOOST = 1.3      # the elite finishers carry their side in Europe even more (Kane / Haaland / Mbappe: 10-14 a campaign)
+
+
+def cup_weights(cands, assist=False):
+    """shared_weights for a European cup: a leading scorer (league share >= 25%) gets 30% more of his side's European goals."""
+    if assist:
+        return shared_weights(cands, assist=True)
+    boosted = []
+    for key, name, w in cands:
+        st = star_of(name)
+        boosted.append((key, name, w))
+    out = shared_weights(boosted)
+    total = sum(out.values()) or 1.0
+    for key, name, w in cands:
+        st = star_of(name)
+        if st and st[0] >= 0.25:
+            share = min(0.42, st[0] * UCL_STAR_BOOST)
+            cur = out[key] / total
+            if cur < share:
+                out[key] = share / max(1e-6, 1 - share) * (total - out[key])
+    return out
+
+
 def cup_stats(conn, comp, own=None):
     """Scorer / assist tables of one European cup from every played leg (ours: the real sheet; the rest: a seeded sheet)."""
     goals, assists, teams_of = {}, {}, {}
     cache = {}
+    seen = {}
     legs = []
     for md in comp.get('matchdays') or []:
         legs.extend(md.get('matches') or [])
@@ -582,11 +774,12 @@ def cup_stats(conn, comp, own=None):
                 continue
             gc = [(k, nm, SCORE_POS.get(pos, 2.0) * sh) for k, nm, pos, sh in sq]
             ac = [(k, nm, ASSIST_POS.get(pos, 2.0) * sh) for k, nm, pos, sh in sq]
-            gw, aw = shared_weights(gc), shared_weights(ac, assist=True)
+            gw, aw = cup_weights(gc), cup_weights(ac, assist=True)
             name_of = {k: nm for k, nm, pos, sh in sq}
             gk = [c[0] for c in gc]
-            for _ in range(int(n)):
-                sc = rng.choices(gk, weights=[gw[k] for k in gk], k=1)[0]
+            seen[team] = seen.get(team, 0) + 1
+            for gi in range(int(n)):
+                sc = spread_pick(gk, [gw[k] for k in gk], season_u('ucl:%s:%s' % (comp.get('id'), team), seen[team], gi))
                 nm = name_of[sc]
                 goals[nm] = goals.get(nm, 0) + 1
                 teams_of.setdefault(nm, team)

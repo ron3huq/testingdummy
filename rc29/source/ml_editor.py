@@ -131,7 +131,7 @@ def move(conn, s, body):
             moved['club'] = to
         _save(conn, s, src, sw)
         _save(conn, s, dst, dw)
-    _refresh()
+    _refresh(conn)
     return {'ok': True, 'player': p.get('name'), 'to': to}
 
 
@@ -148,14 +148,18 @@ def set_ca(conn, s, body):
     if float(p.get('pa') or 0) < ca:
         p['pa'] = ca
     _save(conn, s, cid, w)
-    _refresh()
+    _refresh(conn)
     return {'ok': True, 'ca': ca}
 
 
-def _refresh():
+def _refresh(conn=None):
+    """An edit counts at once: club strength, scorer shares and the Ballon d'Or read the edited world from the next match."""
     try:
         import ml_realism
         ml_realism._star_cache.clear()
+        if conn is not None:
+            import ml_dynamics
+            ml_dynamics.refresh(conn, force=True)
     except Exception:
         pass
 

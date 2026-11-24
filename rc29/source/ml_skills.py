@@ -93,9 +93,14 @@ _state = {'installed': False, 'added': 0}
 
 def skills_for(name, pos_code):
     ids = set()
-    n = ' ' + _norm(name) + ' '
+    nn = _norm(name)
+    try:
+        import ml_realism as M
+        match = lambda k: M._name_match(k.strip(), nn, ' ' + nn + ' ')
+    except Exception:
+        match = lambda k: k in ' ' + nn + ' '
     for k, sk in _KEYS:
-        if k in n:
+        if match(k):
             ids.update(sk)
             break
     if pos_code in WIDE_MID:

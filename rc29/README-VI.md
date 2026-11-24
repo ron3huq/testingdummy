@@ -11,6 +11,16 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.8: ghi bàn / kiến tạo / Quả bóng vàng thực tế, mọi chỉnh sửa có hiệu lực ngay
+- Trận của đội bạn (mô phỏng): bàn và kiến tạo chia theo tỉ lệ thật, không còn tiền đạo ghi 45 bàn. Người không phải chân sút số một tối đa ~14% số bàn của đội.
+- Ngôi sao nhận diện theo họ tên đầy đủ (hết lỗi Isak Hien thành vua phá lưới, Ethan Mbappé, Jobe Bellingham...).
+- Sửa lỗi Kane / Haaland / tiền đạo 0 kiến tạo (chuỗi bốc thăm kiến tạo trùng nhịp với bàn thắng; kiến tạo CPU lấy theo đội hình gốc thay vì đội hình thật).
+- Số bàn mỗi trận từng giải gần thực tế (Serie A ~2,5, La Liga ~2,6, Ligue 1 ~2,8, Bundesliga ~3,1, Premier League ~2,9). Nhà vô địch ~80–95 bàn (Barça cao nhất như ngoài đời).
+- UCL: đội hình lấy từ đội hình thật trong Master League; chân sút hàng đầu (Kane, Haaland, Mbappé) ~10–14 bàn khi đội đi sâu.
+- **Tương lai thật / chỉnh sửa:** mọi thứ tính từ đội hình và chỉ số HIỆN TẠI trong save: hạ chỉ số Kane thì tỉ lệ ghi bàn và sức mạnh Bayern giảm ngay; chuyển nhượng thì CLB mới mạnh lên, CLB cũ yếu đi, cầu thủ mang tỉ lệ ghi bàn theo; nâng một cầu thủ thường lên đẳng cấp cao thì tự thành chân sút. Áp dụng cho tỉ số, vua phá lưới, kiến tạo, Quả bóng vàng, tin tức.
+- UCL 2017: Ronaldo của Real là thẻ 88042803047215 (tên "Cristiano Ronaldo").
+- Ảnh mặt nhỏ: bỏ bộ nhớ đệm cũ (3 ngày) nên ảnh thẻ đã đổi hiện đúng; làm mới sau 30 phút.
+
 ## RC29.7: Master League Transfer ở launcher, Editor trong Master League, launcher mới, phỏng vấn theo tính cách
 - **Launcher → "Master League Transfer"**: mở đúng màn hình Transfer gốc (giao diện Java như mục Transfer của RC26) nhưng cho 96 CLB của 5 giải Master League: xem đội hình trên sơ đồ, đổi sơ đồ/vị trí/số áo/đội trưởng/người đá phạt, "Transfer to Another Team" (chuyển thật sang CLB khác, kể cả khác giải), Abilities · Celebrations · Accessories (sửa chỉ số thì sức mạnh của cầu thủ trong mô phỏng Master League cũng đổi theo). CLB của bạn chỉ xem (đội của bạn quản lý trong Master League).
 - **Master League → mục Editor (thanh bên)**: chọn giải → CLB → cầu thủ; nút Move chuyển cầu thủ sang CLB khác; sửa CA (sức mạnh) bằng +/−; tìm cầu thủ ở cả 5 giải. Kết quả, vua phá lưới, kiến tạo, tin tức và diễn biến dài hạn thay đổi theo ngay.

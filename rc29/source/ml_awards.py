@@ -337,13 +337,16 @@ def install():
     def api_with_awards(logic, method, path, body=''):
         try:
             import ml_dynamics
-            if not ml_dynamics._cache['loaded']:
+            import time as _t
+            if not ml_dynamics._cache['loaded'] or _t.time() - ml_dynamics._live['t'] > 90:
                 c0 = HO._open_ml(HO._main_conn(logic))
                 try:
-                    ml_dynamics.load(c0)
+                    if not ml_dynamics._cache['loaded']:
+                        ml_dynamics.load(c0)
                     import my_league
                     if my_league.state(c0):
                         ml_dynamics.ensure_base(c0)
+                        ml_dynamics.refresh(c0)
                 finally:
                     c0.close()
         except Exception:
