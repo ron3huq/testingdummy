@@ -146,3 +146,32 @@ def advance():
 check('ml calendar advance x4', advance)
 check('ml state after advance', lambda: str(iml('GET', '/api/state'))[:400])
 check('ml news', lambda: str(iml('GET', '/api/news'))[:200])
+
+# ---- RC29 isolation checks ----
+import ziru_data, ml_isolation
+check('isolation status', lambda: ml_isolation.status())
+check('main registry 122 = RC26 UCL', lambda: ziru_data.competition_registry()['competitions']['122']['name'])
+def ml_opts():
+    o = iml('GET', '/api/season/options')
+    return {l['comp']: (l['name'], len(l['teams']), [t['latin'] for t in l['teams']][:6]) for l in o['leagues']}
+check('ML season options (122 must be Ligue 1)', ml_opts)
+check('main registry 122 after ML call', lambda: ziru_data.competition_registry()['competitions']['122']['name'])
+def sim_rounds():
+    out = []
+    for i in range(6):
+        r = iml('POST', '/api/sim', {})
+        out.append(str(r)[:90])
+        for _ in range(240):
+            s = eg.manage('iml_status', '{}'); s = json.loads(s) if isinstance(s, str) else s
+            if s.get('state') != 'running': break
+            time.sleep(0.5)
+        iml('POST', '/api/calendar/advance', dict(mode='next'))
+    return out
+check('ML simulate 6 rounds', sim_rounds)
+def table():
+    r = iml('GET', '/api/biz/leagues')
+    return str(r)[:700]
+check('ML league page (table/scorers)', table)
+check('ML state round', lambda: iml('GET', '/api/state')['career']['current_round'])
+check('My League status still INSTALLED', status)
+check('main registry 122 at end', lambda: ziru_data.competition_registry()['competitions']['122']['name'])

@@ -1,4 +1,5 @@
-"""RC26/RC27 bridge for the V30 runtime: wraps _protected_runtime.exec_into (no change to the runtime file itself)."""
+"""RC26 bridge for the V32 runtime: wraps _protected_runtime.exec_into (no change to the runtime file itself).
+RC29: ml_isolation keeps the V32 Master League on the original V32 functions and data (My League stays RC26)."""
 import _protected_runtime as _pr
 if not getattr(_pr, '_rc27_hooked', False):
     _original_exec_into = _pr.exec_into
@@ -7,7 +8,18 @@ if not getattr(_pr, '_rc27_hooked', False):
         def initialize(root, installed_version=None):
             result = original(root, installed_version)
             import bridge_73, sys
+            iso = None
+            try:
+                import ml_isolation as iso
+                iso.snapshot()
+            except Exception:
+                iso = None
             bridge_73.install(root, sys.modules[namespace['__name__']])
+            if iso is not None:
+                try:
+                    iso.install()
+                except Exception:
+                    pass
             return result
         namespace['initialize'] = initialize
     def exec_into(name, namespace):

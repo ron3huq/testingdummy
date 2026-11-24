@@ -33,16 +33,17 @@ def main():
         else: raise ValueError(kind)
         with data_src[0].open(data_src[1]) as fi, open(dst, 'wb') as fo: shutil.copyfileobj(fi, fo, 1 << 20)
     # app.imy = V32 app.imy + rc26_hook.pyc (V32 _protected_runtime unchanged)
-    hook = delta.read('rc26_hook.pyc')
+    hooks = [(n, delta.read(n)) for n in ('rc26_hook.pyc', 'ml_isolation.pyc')]
     with apk.open('assets/chaquopy/app.imy') as f: (OUT / 'v32-app.imy').write_bytes(f.read())
     app = STAGE / 'assets/chaquopy/app.imy'
     with zipfile.ZipFile(OUT / 'v32-app.imy') as zi, zipfile.ZipFile(app, 'w') as zo:
         infos = zi.infolist()
         for info in infos: zo.writestr(info, zi.read(info), compress_type=info.compress_type)
-        t = zipfile.ZipInfo('rc26_hook.pyc', infos[-1].date_time); t.compress_type = zipfile.ZIP_DEFLATED; t.external_attr = infos[-1].external_attr
-        zo.writestr(t, hook)
+        for n, b in hooks:
+            t = zipfile.ZipInfo(n, infos[-1].date_time); t.compress_type = zipfile.ZIP_DEFLATED; t.external_attr = infos[-1].external_attr
+            zo.writestr(t, b)
     with zipfile.ZipFile(app) as z, zipfile.ZipFile(OUT / 'v32-app.imy') as v:
-        assert z.testzip() is None and all(z.read(n) == v.read(n) for n in v.namelist()) and z.read('rc26_hook.pyc') == hook
+        assert z.testzip() is None and all(z.read(n) == v.read(n) for n in v.namelist()) and all(z.read(n) == b for n, b in hooks)
     (OUT / 'v32-app.imy').unlink()
     bj = json.loads(apk.read('assets/chaquopy/build.json')); bj['assets']['app.imy'] = fsha(app, 'sha1')
     (STAGE / 'assets/chaquopy/build.json').write_text(json.dumps(bj, indent=2))
@@ -52,7 +53,6 @@ def main():
     assert actual == expected, (sorted(actual - expected)[:5], sorted(expected - actual)[:5])
     generated = {'assets/chaquopy/app.imy', 'assets/chaquopy/build.json'}
     for r in inv:
-        if r['path'] in generated: continue
         p = STAGE / r['path']; assert p.stat().st_size == r['bytes'] and fsha(p) == r['sha256'], r['path']
     apk.close(); rc.close()
     if '--artifact' in sys.argv:

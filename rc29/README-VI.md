@@ -1,4 +1,4 @@
-# FULL8 RC29 · Master League V32 + RC26 cho V19.1
+# FULL8 RC29.1 · Master League V32 + RC26 cho V19.1
 
 Áp giống hệt FULL8 RC26: **chỉ chép đè `assets/` và `classes5.dex`** vào APK V19.1, ký khóa cũ, cập nhật đè. Không xóa data.
 Hai artifact, chép cả hai (cùng gốc `assets/`):
@@ -11,11 +11,18 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.1: Master League tách khỏi My League
+RC26 dùng lại mã giải của game cho My League (122 = UCL, 128 = World Nation League, 518 = Y17, 473 = Y08, 549, 566...).
+Master League V32 dùng đúng các mã đó cho giải thật (122 = Ligue 1; 125/128/476/518/566/473/549 lấy suất dự cúp châu Âu).
+`ml_isolation.pyc` (trong `app.imy`): khi đang ở Master League (hồ sơ ML đang bật, hoặc lệnh đến từ module Master League),
+13 hàm RC26 thay thế (`my_league` x7, `ml_super_league.start_season`, `opponent_squad` x2, `GateLogic` x3) và bảng giải/đội/lịch
+trả về **bản gốc V32**; ngoài Master League mọi thứ vẫn là RC26 như cũ. Không đổi file nào của My League, không ghi save.
+Tên đội: giữ tên thật RC26 đã sửa (Real Madrid, Man City...), không lấy các tên RC26 dùng cho đội trẻ/đội khác.
+
 ## Gồm
 - Master League V32 (`assets/ml-league`, runtime Python V32 trong `assets/chaquopy/app.imy`, Java Master League trong `classes5.dex` gồm cả `MlSaveTransfer` mới của V32).
 - Giữ nguyên các phần của RC26: Transfer 122/128, My League, UCL/WC + giải thưởng, Event Edit, Match Settings, Single Player, face 88044950524330 = NR17.
 
 Runtime Python của Master League V32 nằm chung với dữ liệu thẻ của V30/V32 nên không tách riêng được.
 
-Kiểm tra trên máy chủ: 16/16 PASS (gateway, hook RC26, My League, Transfer, UCL/WC, API Master League). Chưa thử trên điện thoại.
-Phần tạo mùa Master League cần đội hình thật từ save trên máy, nên chưa kiểm tra được trên máy chủ.
+Kiểm tra trên máy chủ: 31/31 PASS - gateway, hook RC26, My League, Transfer 122/128, UCL/WC + giải thưởng, tạo mùa Master League (82 CLB, 2399 cầu thủ), mô phỏng 6 vòng, bảng xếp hạng; My League vẫn thấy 122 = UCL sau khi chơi Master League. Chưa thử trên điện thoại.
