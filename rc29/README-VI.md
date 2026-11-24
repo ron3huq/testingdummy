@@ -11,6 +11,15 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.7: Master League Transfer ở launcher, Editor trong Master League, launcher mới, phỏng vấn theo tính cách
+- **Launcher → "Master League Transfer"**: mở đúng màn hình Transfer gốc (giao diện Java như mục Transfer của RC26) nhưng cho 96 CLB của 5 giải Master League: xem đội hình trên sơ đồ, đổi sơ đồ/vị trí/số áo/đội trưởng/người đá phạt, "Transfer to Another Team" (chuyển thật sang CLB khác, kể cả khác giải), Abilities · Celebrations · Accessories (sửa chỉ số thì sức mạnh của cầu thủ trong mô phỏng Master League cũng đổi theo). CLB của bạn chỉ xem (đội của bạn quản lý trong Master League).
+- **Master League → mục Editor (thanh bên)**: chọn giải → CLB → cầu thủ; nút Move chuyển cầu thủ sang CLB khác; sửa CA (sức mạnh) bằng +/−; tìm cầu thủ ở cả 5 giải. Kết quả, vua phá lưới, kiến tạo, tin tức và diễn biến dài hạn thay đổi theo ngay.
+- **Launcher mới**: tông màu giống Master League (đen than, đỏ, vàng), màn hình ngang chia 2 cột (nút vào game bên trái, toàn bộ công cụ bên phải, vừa 1 màn hình), bỏ hiệu ứng làm mờ gây lag, **chỉ tiếng Anh**.
+- **Phỏng vấn theo tính cách thật**: Ronaldo, Messi, Zlatan, Neymar, Suárez, Griezmann, Kane, Salah, Lewandowski, Mbappé, Müller, Totti, Agüero, Cavani... và HLV Mourinho, Guardiola, Klopp, Simeone ("partido a partido"), Conte, Zidane, Ancelotti, Allegri ("corto muso"), Emery ("good ebening")...; HLV đối thủ cũng phản ứng sau trận.
+- **Quả bóng vàng thực tế hơn**: tính cả đẳng cấp cầu thủ (CA) và tầm vóc CLB, không chỉ số bàn; danh sách 30 ứng viên chỉ gồm cầu thủ đẳng cấp. Sửa lỗi kiến tạo giải của bạn bị tính 0 cho người ngoài top 10.
+- **Ghi bàn đội bạn thực tế hơn**: tiền đạo không phải "ngôi sao ghi bàn" không còn ghi 25+ bàn/mùa (Havertz ~12–15).
+- **Cúp**: tự chuyển tab theo giai đoạn (League phase → Knockout → MVP).
+
 ## RC29.6: kỹ năng, sân, tin tức giải VĐQG, cúp gọn màn hình
 - Master League: cầu thủ 9 CLB lớn (Arsenal, Real, Barça, Bayern, Man City, Liverpool, Chelsea, Atlético, PSG) được thêm kỹ năng đặc biệt thật; mọi tiền vệ và cầu thủ chạy cánh có Edge Crossing + Low Lofted Pass. Chỉ THÊM, không xoá kỹ năng nào; chỉ trong Master League (My League không đổi).
 - Sân: mỗi trận Master League chọn ngẫu nhiên một sân có bản quyền theo danh sách RC26 (1, 7, 30, 51, 52, 85), không dùng sân mặc định. Chưa thử trên điện thoại.

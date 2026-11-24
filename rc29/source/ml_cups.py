@@ -776,6 +776,80 @@ LOSER_Q = ('We have to look at ourselves in the mirror. No excuses.', 'It is on 
            'The dressing room is silent. That says everything.')
 
 
+# real voices: how each star / coach actually talks (used for the scorer interview and the press conference)
+PERSONA = {
+    'cristiano ronaldo': ('I work every day to be the best. The numbers speak for themselves.', 'Siuuu! When the team needs me, I am there. Always.',
+                          'People doubt me every year. Every year I answer.', 'Goals are my job. Trophies are my obsession.'),
+    'lionel messi': ('The important thing is that the team won. The goal is for all of us.', 'I am happy, but we must keep going. It is a long way.',
+                     'I just try to enjoy it, like when I was a kid in Rosario.'),
+    'zlatan ibrahimovic': ('Zlatan does not need luck. Zlatan needs the ball.', 'They wanted a show. I gave them a show. You are welcome.',
+                           'I came, I scored. Like a lion. Next question.'),
+    'neymar': ('Joga bonito! I play with joy, that is my football.', 'I dedicate this to my son and my family. Tamo junto!', 'If they kick me, I get up and dribble again.'),
+    'luis suarez': ('I live for these nights. I give everything, every ball.', 'A striker must be hungry. Today I was hungry.', 'The fans of Barcelona deserve this.'),
+    'antoine griezmann': ('Happy, happy! I did my little dance, the dressing room loves it.', 'I always work for the team first, the goals come after.'),
+    'harry kane': ('Pleased to get on the scoresheet, but it is all about the team.', 'Proud of the lads. We stuck to the game plan.', 'Just doing my job - I want to keep improving.'),
+    'mohamed salah': ('Alhamdulillah. I am grateful, and the team was amazing.', 'I want to win trophies with this club, nothing else.', 'The fans give us energy. This is for them.'),
+    'robert lewandowski': ('A professional performance. We prepared well and executed it.', 'Hard work, good diet, good sleep - and then goals.', 'For a striker the next goal is always the most important.'),
+    'kylian mbappe': ('I want to write history. Tonight was a step.', 'Speed, confidence - I felt that I could make the difference.', 'I am young, but I am not afraid of these nights.'),
+    'eden hazard': ('Honestly? I just enjoy it. When you enjoy, you play well.', 'I take the ball and I go. Football is simple for me.'),
+    'gareth bale': ('Great result for the club. I felt good and fit tonight.', 'Big games need big moments. Happy to have helped.'),
+    'paul pogba': ('Pogba is back, baby! Seriously - the team was fantastic.', 'I play with a smile. When I smile, I play my best football.'),
+    'sergio aguero': ('Ha! It was a good one, no? I am very happy, very happy.', 'I just wanted to score for Pep and the lads. Vamos!'),
+    'edinson cavani': ('Thanks to God and to my teammates. We fight together.', 'Sacrifice, always sacrifice. That is my football.'),
+    'karim benzema': ('Simple. I play for the team.', 'I do not speak much. I prefer the pitch.'),
+    'diego costa': ('They kicked me, I kicked the ball into the net. Fair.', 'This is football for men. I love these battles.'),
+    'francesco totti': ('For Roma, always for Roma. One shirt, one city, one love.', 'At my age, these nights still give me goosebumps.'),
+    'thomas muller': ('I am the Raumdeuter - I find the space, and today the space found the ball!', 'Not the prettiest goal, but they all count, ja?'),
+    'kevin de bruyne': ('I just try to make the right pass at the right moment.', 'Good performance from everybody. We keep going.'),
+    'wayne rooney': ('Get in! That is what this club is about.', 'Big game, big goal. We needed that.'),
+    'sergio ramos': ('We are Real Madrid. We never give up, never.', 'Ninety minutes in this stadium are very long - ask our opponents.'),
+    'paulo dybala': ('I made the mask for the fans. They know what it means.', 'I am happy for the goal, but more for the win.'),
+    'edin dzeko': ('In Italy they said I was finished. I keep scoring.', 'Simple finish, good assist. Roma deserved it.'),
+    'aleksandar mitrovic': ('I score goals, that is what I do. In Saudi, in England, everywhere.',), 'riyad mahrez': ('A bit of magic tonight, inshallah more to come.',),
+    'sadio mane': ('For my village, for Senegal. I am very proud.',), 'ivan toney': ('Penalties? I don\'t even look at the keeper. Never have.',),
+}
+BOSS_VOICE = {
+    'José Mourinho': {'W': ('I am not going to speak about my team. You saw it. Special.', 'They wanted to park the bus? We parked a plane.'),
+                      'L': ('I prefer not to speak. If I speak, I am in big trouble.', 'Respect. Respect. Respect.'), 'D': ('A point. Some people will cry, I will not.',)},
+    'Pep Guardiola': {'W': ('The way we control the space, the positional play - I am so proud.', 'Amazing, amazing, amazing. The players were incredible.'),
+                      'L': ('We were not good enough with the ball. I take the blame.',), 'D': ('We created a lot, but football is about the boxes.',)},
+    'Jürgen Klopp': {'W': ('Boom! What a night. Heavy metal football!', 'The boys were absolutely outstanding. I am so happy.'),
+                     'L': ('It is not nice, but we will be ready again. Mentality monsters.',), 'D': ('We had the chances. Next time, they go in.',)},
+    'Diego Simeone': {'W': ('Partido a partido. Match by match. Nothing more.', 'Effort is not negotiable. Tonight we were warriors.'),
+                      'L': ('We continue. Partido a partido.',), 'D': ('Hard match, hard team. We compete, always.',)},
+    'Antonio Conte': {'W': ('We worked like dogs this week. This is the result.', 'Intensity, intensity, intensity. I want this every game.'),
+                      'L': ('I am angry. Very angry. We must change things.',), 'D': ('Not enough. With me, a draw is not enough.',)},
+    'Zinedine Zidane': {'W': ('I am content with my players. They did everything well.',), 'L': ('It happens. We stay calm and continue working.',), 'D': ('A normal match. We continue.',)},
+    'Carlo Ancelotti': {'W': ('Calm, calm. We played with balance and quality.',), 'L': ('We will analyse calmly. No drama.',), 'D': ('A fair result. Football is like this.',)},
+    'Massimiliano Allegri': {'W': ('Football is simple. Defend well, take your chances. We did.',), 'L': ('Sometimes you win, sometimes you learn. Calma.',), 'D': ('Corto muso - in Italy a draw away is not bad.',)},
+    'Luis Enrique': {'W': ('The players executed what we trained. That is all.', 'We were the better team. Clear.'),
+                     'L': ('I will not look for excuses. We will improve.',), 'D': ('Not the result we wanted. Next.',)},
+    'Mauricio Pochettino': {'W': ('Dream, believe - and work very hard. Tonight we did.',), 'L': ('Pain is part of the process. We grow from this.',), 'D': ('We keep building. Step by step.',)},
+    'Luciano Spalletti': {'W': ('Roma played like an orchestra tonight.',), 'L': ('Football is a strange animal. Tomorrow we work.',), 'D': ('A draw that tastes of both sweet and bitter.',)},
+    'Unai Emery': {'W': ('Good ebening. Very good match, very good players!',), 'L': ('We need to analyse with calm, with our idea.',), 'D': ('Our idea was good. The result, okay.',)},
+    'Jorge Jesus': {'W': ('With me, teams win. It is simple.',), 'L': ('The referee... I do not want to speak about the referee.',), 'D': ('We were superior, the result does not show it.',)},
+}
+
+
+def _voice(name, r, default_bank):
+    try:
+        import ml_realism as M
+        n = ' ' + M._norm(name) + ' '
+    except Exception:
+        n = ' ' + (name or '').lower() + ' '
+    for k, bank in PERSONA.items():
+        if ' ' + k + ' ' in n:
+            return _pick(r, *bank)
+    return _pick(r, *default_bank)
+
+
+def _boss_voice(boss, res, r, default_bank):
+    v = BOSS_VOICE.get(boss)
+    if v and v.get(res):
+        return _pick(r, *v[res])
+    return _pick(r, *default_bank)
+
+
 def _minutes(st, m, n_h, n_a):
     r = _rng('cupmin', st['cup'], st['seed'], m['id'])
     total = n_h + n_a
@@ -864,7 +938,7 @@ def _match_news(st, m, label, sort_key, ko=None, focus=False):
         for g in goals:
             tally.setdefault(g['pid'], []).append(g)
         pid, gs = max(tally.items(), key=lambda kv: (len(kv[1]), kv[1][-1]['team'] == win))
-        q = _pick(r, *(HAT_Q if len(gs) >= 3 else SCORER_Q)).replace('{a}', gs[0]['assist'] or 'my teammates')
+        q = (_pick(r, *HAT_Q) if len(gs) >= 3 and r.random() < 0.5 else _voice(gs[0]['name'], r, HAT_Q if len(gs) >= 3 else SCORER_Q)).replace('{a}', gs[0]['assist'] or 'my teammates')
         items.append({'k': sort_key + 0.35, 'tag': 'Hat-trick' if len(gs) >= 3 else 'Interview', 'tone': 'gold', 'team': gs[0]['team'], 'pid': pid, 'when': label,
                       'h': '%s: "%s"' % (gs[0]['name'], _cut(q)), 'q': q, 'by': gs[0]['name'],
                       'b': '', 'src': 'Mixed zone'})
@@ -873,10 +947,15 @@ def _match_news(st, m, label, sort_key, ko=None, focus=False):
         opp = m['a'] if m['h'] == me else m['h']
         gf, ga = (hg, ag) if m['h'] == me else (ag, hg)
         res = 'W' if gf > ga else 'L' if gf < ga else 'D'
-        q = _pick(r, *(WIN_Q if res == 'W' else LOSS_Q if res == 'L' else DRAW_Q))
+        q = _boss_voice(_boss(me), res, r, WIN_Q if res == 'W' else LOSS_Q if res == 'L' else DRAW_Q)
         items.append({'k': sort_key + 0.6, 'tag': 'Press conference', 'tone': 'green' if res == 'W' else 'red' if res == 'L' else 'blue', 'team': me, 'when': label,
                       'h': '%s: "%s"' % (_boss(me) if MANAGERS.get(me) else _nick(cup, me) + ' boss', _cut(q, 66)),
                       'q': q, 'by': (_boss(me) if MANAGERS.get(me) else _nick(cup, me) + ' head coach') + ' after %d-%d vs %s' % (gf, ga, nm(opp)), 'b': '', 'src': 'Press Room'})
+        if MANAGERS.get(opp):
+            ores = {'W': 'L', 'L': 'W', 'D': 'D'}[res]
+            oq = _boss_voice(_boss(opp), ores, _rng('oppq', st['seed'], m['id']), WIN_Q if ores == 'W' else LOSS_Q if ores == 'L' else DRAW_Q)
+            items.append({'k': sort_key + 0.58, 'tag': 'Reaction', 'tone': 'green' if ores == 'W' else 'red' if ores == 'L' else 'blue', 'team': opp, 'when': label,
+                          'h': '%s: "%s"' % (_boss(opp), _cut(oq, 66)), 'q': oq, 'by': _boss(opp), 'b': '', 'src': 'Press Room'})
         if res == 'L' and r.random() < 0.55:
             capt = next((p['name'] for p in roster(cup, me)[0] if GRP.get(p['pos']) == 'D'), None)
             if capt:

@@ -43,7 +43,7 @@ LEAGUE_COEF = {113: 1.00, 119: 0.98, 116: 0.95, 900307: 0.93, 122: 0.90, 125: 0.
 # Leading forwards: name tokens -> share of their club's league goals (assist share second).
 STARS = [
  (('haaland',), 0.32, 0.06), (('kane',), 0.32, 0.12), (('mbappe',), 0.29, 0.08), (('raphinha',), 0.20, 0.13),
- (('lewandowski',), 0.17, 0.05), (('yamal',), 0.13, 0.18), (('gyokeres', 'gyökeres'), 0.24, 0.07), (('saka',), 0.13, 0.13),
+ (('lewandowski',), 0.17, 0.05), (('yamal',), 0.13, 0.18), (('gyokeres', 'gyökeres'), 0.24, 0.07), (('saka',), 0.13, 0.13), (('havertz',), 0.12, 0.07), (('trossard',), 0.09, 0.07), (('martinelli',), 0.09, 0.06), (('eze',), 0.10, 0.09),
  (('salah',), 0.24, 0.15), (('isak',), 0.22, 0.05), (('ekitike', 'ekitiké'), 0.15, 0.06), (('palmer',), 0.20, 0.14),
  (('vinicius', 'vinícius'), 0.17, 0.12), (('bellingham',), 0.11, 0.09), (('dembele', 'dembélé'), 0.22, 0.12),
  (('kvaratskhelia',), 0.14, 0.13), (('olise',), 0.14, 0.17), (('lautaro',), 0.23, 0.07), (('marcus thuram',), 0.16, 0.09),

@@ -1,5 +1,5 @@
 {
- "version": "RC29.6",
+ "version": "RC29.7",
  "base": "73efootball-V19.1.apk",
  "phone_verified": false,
  "files": [
@@ -345,13 +345,13 @@
   },
   {
    "path": "assets/chaquopy/app.imy",
-   "bytes": 312752228,
-   "sha256": "e7dacca33141db8898d6af1528ed38ec61cb9290f628661f9ad7e31ea417c9a1"
+   "bytes": 312778919,
+   "sha256": "9cd0ef95259e14c81bd1bd58cb48a6b975061bce018f008d0d8d09eb63fb8965"
   },
   {
    "path": "assets/chaquopy/build.json",
    "bytes": 1747,
-   "sha256": "321a4479c369c645c5efb1ff7dac5e7a64038cdc53d4cf2d995945042858efe4"
+   "sha256": "c3cba80ae9b079dc7111534b55e0d5da45ce0dadb9e77a53a180b4da60894282"
   },
   {
    "path": "assets/chaquopy/requirements-common.imy",
@@ -3810,8 +3810,8 @@
   },
   {
    "path": "assets/launcher/editor-private.js",
-   "bytes": 2927,
-   "sha256": "eac9dac447007ee7264a37d3048ea6ecf120d8565002172ef480a8e30948f12d"
+   "bytes": 2941,
+   "sha256": "d50acd9679e0b6a0fa06a5db18b53ebd68aea4513d6f3b365ee2bded6c0f7e3c"
   },
   {
    "path": "assets/launcher/editor-ui.js",
@@ -3830,8 +3830,13 @@
   },
   {
    "path": "assets/launcher/index.html",
-   "bytes": 14179,
-   "sha256": "30ecf17b35d27e3e4edb0db0c58391a5172be5a052d4c7f07fad7a48e9e8d6b0"
+   "bytes": 14505,
+   "sha256": "216cd979b1cfd88b1860cc87390ad8909f1b9451d7e7bef03272f5c95b829dc7"
+  },
+  {
+   "path": "assets/launcher/launcher-rc29.css",
+   "bytes": 4393,
+   "sha256": "8a65cdc870fa2a6625643190186cd4734d378ede8901aaa96aad201cf1b2f890"
   },
   {
    "path": "assets/launcher/launcher.css",
@@ -3840,8 +3845,8 @@
   },
   {
    "path": "assets/launcher/launcher.js",
-   "bytes": 21543,
-   "sha256": "92a831535f658ad00e417beb0aa841ed2a2764e8ab5b6a567bbd4340c60354e6"
+   "bytes": 21743,
+   "sha256": "7deee8acfd9c080aa8e3ae1a250f92da7a8c9c121677197fa611203c4e97a53e"
   },
   {
    "path": "assets/launcher/private.css",
@@ -4980,13 +4985,13 @@
   },
   {
    "path": "assets/ml-league/ml.css",
-   "bytes": 408166,
-   "sha256": "1b8c384ae4c5d9c324c852cd1194d9745338a822fa8971b971ef22ea8c79314c"
+   "bytes": 411384,
+   "sha256": "084b8525bbd69839f75541bfda2bb87a0b66af5a03b10c72a509d1373dd51a87"
   },
   {
    "path": "assets/ml-league/ml.js",
-   "bytes": 659941,
-   "sha256": "036547b8cb81c8b3043a705259bf3474fff8cfebc7680ee7f3f4dcc8053cdbf7"
+   "bytes": 667002,
+   "sha256": "7dbcfa63dd93d72a2ee622ba5d4d501c326fd8ad13f12d95a49834c828afbc28"
   },
   {
    "path": "assets/ml-league/mpeg1.js",
@@ -6390,8 +6395,8 @@
   },
   {
    "path": "classes5.dex",
-   "bytes": 3875960,
-   "sha256": "a8aefe912587409dde2d4bf5e8593ffbed3fab3a3b2ff99b7d56b7f53c444540"
+   "bytes": 3876008,
+   "sha256": "44434d9ce665db026ac54fcf1bbb791b251e2799e5aa3047a27475adb5ec6c23"
   }
  ]
 }

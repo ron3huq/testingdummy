@@ -68,10 +68,14 @@ def _league_rows(conn, s):
                     team, pid, g, a = row[0], str(row[1]), int(row[2] or 0), int(row[3] or 0)
                     name = pn.get(pid) or (M._name(pid) if pid.isdigit() else '')
                     add(name, team, cid, g, a, int(pid) if pid.isdigit() else None)
+        top_was = getattr(L, 'TOP', 10)
         try:
+            L.TOP = 999          # the whole season, not just the page's top 10 (assists of a 23-goal winger outside the top 10 counted as 0)
             page = L.view(conn, s, cid)
         except Exception:
             page = {}
+        finally:
+            L.TOP = top_was
         tbl = page.get('table') or []
         if tbl:
             champions[cid] = tbl[0].get('team')
@@ -108,11 +112,30 @@ def _cups(conn, s, players):
     return honours
 
 
+def _abilities(conn, s):
+    """{normalised name: current ability} over every league's world."""
+    import ml_realism as M
+    out = {}
+    try:
+        import iml_world as IW, iml_world_leagues as W
+        worlds = [IW.load(conn)] + [W.load(conn, int(c)) for c in W.others(s)]
+        for w in worlds:
+            for p in ((w or {}).get('players') or {}).values():
+                if p.get('status') == 'active' and p.get('ca'):
+                    k = M._norm(p.get('name'))
+                    out[k] = max(out.get(k, 0), float(p['ca']))
+    except Exception:
+        pass
+    return out
+
+
 def compute(conn, s):
     players, champions = _league_rows(conn, s)
     cups = _cups(conn, s, players)
     import ml_realism as M
     stage_pts = {'won': 55, 'final': 26, 'sf': 13, 'qf': 6, 'r16': 2}
+    ability = _abilities(conn, s)
+    import ml_ratings as R
     rows = []
     for name, p in players.items():
         team = p.get('team')
@@ -132,7 +155,13 @@ def compute(conn, s):
         star = M.star_of(name)
         if star:
             pts += 55 * star[0] + 30 * star[1]
-        if pts <= 0:
+        # the jury votes for the world's best players at the biggest clubs, not just for a lucky season
+        ca = ability.get(M._norm(name))
+        if ca:
+            pts += 3.2 * max(0.0, ca - 150) - 2.0 * max(0.0, 150 - ca)
+        att = (R.CLUBS.get(int(team)) or (1.3,))[0] if team is not None else 1.3
+        pts *= max(0.72, min(1.15, 0.62 + 0.2 * att))
+        if pts <= 0 or (ca and ca < 145):
             continue
         if st and st != 'won':
             trophies.append({'final': 'UCL runner-up', 'sf': 'UCL semi-final', 'qf': 'UCL quarter-final', 'r16': 'UCL last 16'}.get(st, 'UCL'))
@@ -327,6 +356,9 @@ def install():
                 from urllib.parse import urlsplit, parse_qsl
                 parts = urlsplit(str(path))
                 st = my_league.state(conn)
+                if parts.path.startswith('/api/rc29/editor'):
+                    import ml_editor
+                    return ml_editor.api(conn, st, str(method).upper(), parts.path, body)
                 if parts.path.startswith('/api/rc29/cups'):
                     import ml_cups
                     return ml_cups.api(conn, str(method).upper(), parts.path, body)

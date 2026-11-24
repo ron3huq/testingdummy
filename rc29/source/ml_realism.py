@@ -342,7 +342,11 @@ def _sim_weight(orig, assist):
             st = star_of(r.get('name') or _name(r.get('pid') or r.get('player_id') or ''))
             if st:
                 share = st[1] if assist else st[0]
-                w *= 1.0 + 9.0 * max(0.0, share - (0.16 if not assist else 0.10))
+                w *= max(0.5, 1.0 + 9.0 * (share - (0.16 if not assist else 0.10)))
+            elif not assist:
+                pos = str(r.get('pos') or r.get('position') or '')
+                if pos in ('CF', 'SS', '11', '12') or r.get('grp') == 'F':
+                    w *= 0.6      # a forward who is not a proven scorer does not take 25+ goals a season
         except Exception:
             pass
         return w
