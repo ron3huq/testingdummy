@@ -25,6 +25,24 @@ _ml_data = {}
 _lock = threading.Lock()
 # RC26 renamed these clubs to their real names; the Master League keeps those (same club, real name).
 # Clubs RC26 re-used for other teams (Scottish / Swiss clubs as My League youth sides, 116 'AjaxE', ...) keep the V32 name.
+REAL_CLUB = {
+    102: 'Chelsea', 103: 'Liverpool', 104: 'Leeds United', 106: 'Newcastle United', 107: 'Aston Villa', 1589: 'Hull City', 173: 'Manchester City',
+    177: 'Everton', 178: 'Fulham', 179: 'Tottenham Hotspur', 377: 'Brighton & Hove Albion', 382: 'Crystal Palace', 386: 'Ipswich Town',
+    389: 'Nottingham Forest', 396: 'Sunderland', 4071: 'AFC Bournemouth', 4180: 'Brentford', 4183: 'Coventry City', 101: 'Arsenal',
+    109: 'Real Madrid', 110: 'Valencia CF', 111: 'Deportivo La Coruña', 172: 'Atlético de Madrid', 194: 'Real Betis', 195: 'Celta de Vigo',
+    196: 'Real Sociedad', 258: 'Athletic Club', 259: 'RCD Espanyol', 260: 'Málaga CF', 263: 'CA Osasuna', 264: 'Racing Santander',
+    265: 'Sevilla FC', 267: 'Villarreal CF', 361: 'Elche CF', 362: 'Getafe CF', 366: 'Levante UD', 370: 'Rayo Vallecano', 4145: 'Deportivo Alavés',
+    120: 'Juventus', 124: 'ACF Fiorentina', 125: 'AS Roma', 186: 'Bologna FC 1909', 1919: 'US Sassuolo', 320: 'Cagliari Calcio', 323: 'Genoa CFC',
+    327: 'SSC Napoli', 4229: 'Venezia FC', 4234: 'Frosinone Calcio', 4237: 'US Lecce', 4914: 'AC Monza',
+    127: 'FC Bayern München',
+    1195: 'KRC Genk', 1196: 'KAA Gent', 1197: 'Standard Liège', 1200: 'KV Mechelen', 174: 'RSC Anderlecht', 2009: 'Cercle Brugge', 269: 'Club Brugge',
+    2010: 'Sporting Charleroi', 2013: 'KV Kortrijk', 2019: 'Zulte Waregem', 5191: 'Royal Antwerp', 5194: 'Sint-Truidense VV', 5195: 'SK Beveren',
+    5217: 'OH Leuven', 5220: 'Union Saint-Gilloise', 5221: 'KVC Westerlo', 5422: 'Lommel SK', 6067: 'RAAL La Louvière',
+    1228: 'Grasshopper Club Zürich', 1957: 'FC Zürich', 1706: 'FC Basel', 1950: 'BSC Young Boys', 1955: 'FC Sion', 1956: 'FC Vaduz', 1958: 'Servette FC',
+    4937: 'FC St. Gallen', 4938: 'FC Thun', 4962: 'FC Luzern', 4964: 'FC Lausanne-Sport', 4965: 'FC Lugano',
+    1207: 'FC København', 1208: 'FC Nordsjælland', 1832: 'Brøndby IF', 2066: 'AC Horsens', 2067: 'AGF Aarhus', 2069: 'FC Midtjylland', 2070: 'OB Odense',
+    2071: 'Randers FC', 5224: 'Lyngby BK', 5225: 'Silkeborg IF', 5226: 'SønderjyskE', 5237: 'Viborg FF',
+}
 REAL_NAMES = (101, 102, 108, 109, 120, 127, 172, 173, 179, 279, 1248, 1254, 4155, 5738, 5741, 17873, 18961)
 
 
@@ -125,6 +143,9 @@ def _ziru_json(original_json, z):
                     for tid in REAL_NAMES:
                         if str(tid) in current:
                             value[str(tid)] = current[str(tid)]
+                    for tid, nm in REAL_CLUB.items():
+                        row = value.get(str(tid))
+                        value[str(tid)] = dict(row, name=nm) if isinstance(row, dict) else {'name': nm, 'short': nm[:3].upper()}
                 except Exception as exc:
                     _state['errors'].append('names: %r' % (exc,))
             _ml_data[rel] = value

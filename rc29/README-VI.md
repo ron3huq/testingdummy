@@ -11,6 +11,17 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.4: hai cúp mới, tin tức kiểu FM, tên CLB thật, logo AFC chính thức
+- Mục **Cups** mới (thanh bên trái): **UCL 2017** (12 đội Y17, 4 trận vòng bảng 2 sân nhà / 2 sân khách, top 4 vào tứ kết, hạng 5–12 đá play-off; play-off, tứ kết, bán kết 2 lượt như UCL V32; chung kết 1 trận ở Cardiff) và **AFC Champions League Elite** (24 đội Saudi / Nhật / Hàn / Thái / Malaysia / Trung Quốc / Việt Nam, 8 trận vòng bảng, vòng 16 đội 2 lượt, tứ kết - chung kết 1 trận ở Jeddah). Chọn đội, đá từng lượt hoặc mô phỏng đến hết. Có bảng vua phá lưới / kiến tạo, MVP top 3, báo cáo từng trận.
+- Barcelona luôn vào ít nhất bán kết, Messi 10–13 bàn (kiểm tra 30 giải: 10–13 bàn mọi lần, trung bình 2,6 bàn/trận).
+- Đội hình UCL 2017: mỗi cầu thủ chỉ thuộc **một** CLB, đúng giai đoạn 2014–2019 (Bale chỉ ở Real, Pogba chỉ ở MU, Benatia ở Juventus, Alisson ở Liverpool...). Barcelona có thêm ghế dự bị 2014–19 (Cillessen, Semedo, Lenglet, André Gomes, Dembélé, Denis Suárez). Tab **Squads** hiện cầu thủ trên nền thẻ Big Time của Del Piero.
+  Lưu ý: đội hình Y17 trong **My League** được RC26 biên dịch sẵn vào `libselect_team.so` (có khoá kiểm tra), sửa file JSON làm My League không khởi động được, nên bản này **không đổi My League Y17** và không đổi nền thẻ gốc trong game; các sửa chỉ áp dụng trong cúp UCL 2017.
+- Tin tức kiểu Football Manager: tường thuật trận (phút ghi bàn, ai kiến tạo, lội ngược dòng, bàn thắng phút cuối), phỏng vấn cầu thủ ghi bàn, họp báo HLV (Zidane, Luis Enrique, Guardiola, Mourinho...), drama (khẩu chiến kình địch, cãi trọng tài, tiền đạo tịt ngòi, phòng thay đồ, giận dỗi khi bị thay ra), cầu thủ hay nhất lượt đấu, cuộc đua vua phá lưới. Có ở tab News và ô Newsroom dưới bảng xếp hạng. Ô Matchdays tự cuộn tới lượt đang đá, mỗi trận có danh sách người ghi bàn.
+- Bảng xếp hạng: bỏ ô màu to, dùng vạch mảnh + huy hiệu số; cột phong độ W/D/L; trước khi đá xếp theo A–Z.
+- Master League: tên thật cho các CLB không bản quyền (Real Madrid, Atlético, Real Sociedad, Real Betis, Sevilla, Juventus, Roma, Napoli, Bayern, Club Brugge, Young Boys, FC København...).
+- Logo chính thức (Wikipedia/Wikimedia) cho Al Hilal, Al Nassr, Al Ahli, Al Ittihad, Công An Hà Nội, Thép Xanh Nam Định. Shanghai Port và Beijing Guoan tạm hiện huy hiệu chữ.
+- Sửa dòng chữ Trung còn sót (ví dụ "欧冠决赛" → "Champions League Final", "38 轮" → "R38", 胜/平/负 → W/D/L).
+
 ## RC29.3: Master League thực tế hơn (chỉ ảnh hưởng Master League, My League RC26 giữ nguyên)
 - Chỉ 5 giải hàng đầu: bỏ giải hạng 2, bỏ lên/xuống hạng.
 - Bỏ tuổi: không lão hóa, không giải nghệ, không lò đào tạo trẻ (kể cả đội máy), ẩn mọi cột tuổi.

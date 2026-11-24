@@ -1,5 +1,5 @@
 {
- "version": "V19.1-FULL8-RC29.3-V32-ML",
+ "version": "RC29.4",
  "base": "73efootball-V19.1.apk",
  "phone_verified": false,
  "files": [
@@ -345,13 +345,13 @@
   },
   {
    "path": "assets/chaquopy/app.imy",
-   "bytes": 312678115,
-   "sha256": "d148b2f32a3ccb5c5112fc4c782e308d4ed8f54a8a9cdeb0c35ee94282d88b80"
+   "bytes": 312728378,
+   "sha256": "3b04aa9fe1257edd65073f34f78b0682f6c1815a92aadf7a5bd7f9f11c2e6e48"
   },
   {
    "path": "assets/chaquopy/build.json",
    "bytes": 1747,
-   "sha256": "e1ba8a2fa85f84448544fa37e7354bb8c25ff7e6457c4eae96f5d786c4c9de14"
+   "sha256": "950c92489eea078025aef7205f33fb8dc37b1108d4db5ef2b7eff1d9308de6df"
   },
   {
    "path": "assets/chaquopy/requirements-common.imy",
@@ -375,8 +375,8 @@
   },
   {
    "path": "assets/cup-crests/crests.bin",
-   "bytes": 9237930,
-   "sha256": "64e0f17f13d1929d644dd7b56256ff177f071cad91c5f5d685d98abbc2aa0649"
+   "bytes": 9529925,
+   "sha256": "1e19a34c8f517169789401ac118c592802f9303a2870654cc2d3603ccf04db7e"
   },
   {
    "path": "assets/cup-trophy/ucl.png",
@@ -3869,6 +3869,11 @@
    "sha256": "234e6bbcccce4f797af018adb9c97ffabdc36a3cbb115aed6ed6cacfa31d60b9"
   },
   {
+   "path": "assets/ml-league/bt_dp.png",
+   "bytes": 64358,
+   "sha256": "484024cccf05e0345f0b756959f38f15cddcef4be82617f3a1494179c669519b"
+  },
+  {
    "path": "assets/ml-league/cards.js",
    "bytes": 8652,
    "sha256": "bbc8a6dbc27d789fe4f4be5b31976f428c71015db6c27abe09aee3ba7afe1110"
@@ -4975,13 +4980,13 @@
   },
   {
    "path": "assets/ml-league/ml.css",
-   "bytes": 384488,
-   "sha256": "90d24019dd50d323566578ac4273c7601a7dd55992d60db45b79ae36486c44af"
+   "bytes": 402550,
+   "sha256": "6276be41df380f212300d55501b05cf7ca8c5009d098b47915ac1654f58a9197"
   },
   {
    "path": "assets/ml-league/ml.js",
-   "bytes": 632664,
-   "sha256": "c381c53d8c4b1c2c38d11e5aafd928a3f674afb10b4a3a3a45cc77a345c93f85"
+   "bytes": 650988,
+   "sha256": "099615d12f2aa1e79880a949e944d7512d1241d2f3a805baf3864a8993acc551"
   },
   {
    "path": "assets/ml-league/mpeg1.js",

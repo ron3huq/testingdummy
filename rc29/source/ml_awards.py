@@ -45,10 +45,12 @@ def _league_rows(conn, s):
     import iml_news_leagues as nl
     import ml_realism as M
     players, champions, names = {}, {}, {}
-    def add(name, team, cid, g=0, a=0):
+    def add(name, team, cid, g=0, a=0, pid=None):
         if not name:
             return
-        p = players.setdefault(name, {'team': team, 'lg': cid, 'g': 0, 'a': 0, 'ug': 0, 'ua': 0, 'eg': 0, 'ea': 0})
+        p = players.setdefault(name, {'team': team, 'lg': cid, 'g': 0, 'a': 0, 'ug': 0, 'ua': 0, 'eg': 0, 'ea': 0, 'pid': None})
+        if pid and not p.get('pid'):
+            p['pid'] = pid
         p['g'] += g
         p['a'] += a
     own = int(s.get('competition_id') or 0)
@@ -65,7 +67,7 @@ def _league_rows(conn, s):
                 for row in v.get('ps') or []:
                     team, pid, g, a = row[0], str(row[1]), int(row[2] or 0), int(row[3] or 0)
                     name = pn.get(pid) or (M._name(pid) if pid.isdigit() else '')
-                    add(name, team, cid, g, a)
+                    add(name, team, cid, g, a, int(pid) if pid.isdigit() else None)
         try:
             page = L.view(conn, s, cid)
         except Exception:
@@ -76,7 +78,7 @@ def _league_rows(conn, s):
         if cid == own:
             for kind, key in (('scorers', 'g'), ('assisters', 'a')):
                 for row in page.get(kind) or []:
-                    add(row.get('name'), row.get('team'), cid, **{key: int(row.get('n') or 0)})
+                    add(row.get('name'), row.get('team'), cid, pid=row.get('pid') or None, **{key: int(row.get('n') or 0)})
     return players, champions
 
 
@@ -92,7 +94,7 @@ def _cups(conn, s, players):
         gk, ak = ('ug', 'ua') if cid == 'ucl' else ('eg', 'ea')
         for kind, key in (('scorers', gk), ('assists', ak)):
             for row in c.get(kind) or []:
-                p = players.setdefault(row['name'], {'team': row.get('team'), 'lg': None, 'g': 0, 'a': 0, 'ug': 0, 'ua': 0, 'eg': 0, 'ea': 0})
+                p = players.setdefault(row['name'], {'team': row.get('team'), 'lg': None, 'g': 0, 'a': 0, 'ug': 0, 'ua': 0, 'eg': 0, 'ea': 0, 'pid': None})
                 p[key] += int(row.get('n') or 0)
         reached = {}
         for rnd in c.get('ko') or []:
@@ -132,7 +134,9 @@ def compute(conn, s):
             pts += 55 * star[0] + 30 * star[1]
         if pts <= 0:
             continue
-        rows.append({'name': name, 'team': team, 'club': _team_name(team) if team is not None else '', 'goals': p['g'], 'assists': p['a'],
+        if st and st != 'won':
+            trophies.append({'final': 'UCL runner-up', 'sf': 'UCL semi-final', 'qf': 'UCL quarter-final', 'r16': 'UCL last 16'}.get(st, 'UCL'))
+        rows.append({'name': name, 'pid': p.get('pid'), 'team': team, 'club': _team_name(team) if team is not None else '', 'goals': p['g'], 'assists': p['a'],
                      'ucl_goals': p['ug'], 'ucl_assists': p['ua'], 'trophies': trophies, 'points': round(pts, 1),
                      'ucl': (cups.get('ucl') or {}).get(team)})
     rows.sort(key=lambda r: (-r['points'], -r['goals']))
@@ -141,7 +145,15 @@ def compute(conn, s):
     for i, r in enumerate(top):
         r['rank'] = i + 1
         r['votes'] = int(round(r['points'] / total * 1200))   # a points tally like the jury's
-    boot = sorted(({'name': n, 'team': p['team'], 'club': _team_name(p['team']) if p['team'] is not None else '', 'goals': p['g'],
+    league_top = {}
+    for n, p in players.items():
+        if p.get('lg') and p['g'] > league_top.get(p['lg'], ('', 0))[1]:
+            league_top[p['lg']] = (n, p['g'])
+    tops = {n for n, g in league_top.values()}
+    for r in rows:
+        if r['name'] in tops:
+            r['trophies'].append('League top scorer')
+    boot = sorted(({'name': n, 'pid': p.get('pid'), 'team': p['team'], 'club': _team_name(p['team']) if p['team'] is not None else '', 'goals': p['g'],
                     'points': p['g'] * 2} for n, p in players.items() if p['g'] > 0), key=lambda r: (-r['goals'], r['name']))[:10]
     for i, r in enumerate(boot):
         r['rank'] = i + 1
@@ -188,7 +200,7 @@ def api(conn, s):
         a['ceremony_date'] = '%d-%02d-%02d' % (2026 + a['season'], *CEREMONY_DAY)
         if a['phase'] != 'ceremony':
             # before the ceremony nobody knows the order: nominees alphabetically, no points
-            a['ballon_dor'] = sorted(({'name': r['name'], 'team': r['team'], 'club': r['club'], 'goals': r['goals'], 'assists': r['assists'],
+            a['ballon_dor'] = sorted(({'name': r['name'], 'pid': r.get('pid'), 'team': r['team'], 'club': r['club'], 'goals': r['goals'], 'assists': r['assists'],
                                        'ucl_goals': r['ucl_goals'], 'trophies': r['trophies']} for r in a['ballon_dor']), key=lambda r: r['name'])
         if a['phase'] == 'pending':
             a['ballon_dor'] = []
@@ -297,6 +309,9 @@ def install():
                 from urllib.parse import urlsplit, parse_qsl
                 parts = urlsplit(str(path))
                 st = my_league.state(conn)
+                if parts.path.startswith('/api/rc29/cups'):
+                    import ml_cups
+                    return ml_cups.api(conn, str(method).upper(), parts.path, body)
                 if parts.path.startswith('/api/rc29/fixture'):
                     seg = parts.path.split('/')[4:]
                     q = dict(zip(('lg', 'round', 'home', 'away'), seg)) if len(seg) >= 4 else dict(parse_qsl(parts.query))
