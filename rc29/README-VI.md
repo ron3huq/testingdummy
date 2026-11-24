@@ -1,4 +1,4 @@
-# FULL8 RC29.1 · Master League V32 + RC26 cho V19.1
+# FULL8 RC29.2 · Master League V32 + RC26 cho V19.1
 
 Áp giống hệt FULL8 RC26: **chỉ chép đè `assets/` và `classes5.dex`** vào APK V19.1, ký khóa cũ, cập nhật đè. Không xóa data.
 Hai artifact, chép cả hai (cùng gốc `assets/`):
@@ -10,6 +10,11 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
   (V32 chỉ khác V19.1 ở 2 file âm thanh mở thẻ trong đó; bản V30 full và addon quỹ đạo trước đây đen màn hình vì thay đúng các file này.)
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
+
+## RC29.2: sửa treo ở "Starting local services…"
+Java V32 chèn 2 bước chặn trước khi vào game (hộp thoại "Join our Telegram group / I have joined" và trang chống lừa đảo cho máy tiếng Trung).
+Với launcher RC26 các bước này bị che hoặc bấm "Later" là không bao giờ chạy lệnh vào game → đứng ở "Starting local services…" (gateway Python đã chạy xong).
+`GatewayBootActivity.requestGameLaunch` giờ chạy thẳng lệnh vào game như RC26.
 
 ## RC29.1: Master League tách khỏi My League
 RC26 dùng lại mã giải của game cho My League (122 = UCL, 128 = World Nation League, 518 = Y17, 473 = Y08, 549, 566...).

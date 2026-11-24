@@ -1,5 +1,5 @@
 {
- "version": "V19.1-FULL8-RC29.1-V32-ML",
+ "version": "V19.1-FULL8-RC29.2-V32-ML",
  "base": "73efootball-V19.1.apk",
  "phone_verified": false,
  "files": [
@@ -6430,8 +6430,8 @@
   },
   {
    "path": "classes5.dex",
-   "bytes": 3876004,
-   "sha256": "2ee6cff3815b3dbf3e370359a9d63c6d3a361665acb077c563c68535c2a73fdc"
+   "bytes": 3875960,
+   "sha256": "a8aefe912587409dde2d4bf5e8593ffbed3fab3a3b2ff99b7d56b7f53c444540"
   }
  ]
 }
