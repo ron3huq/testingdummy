@@ -51,8 +51,18 @@ def _team_name(tid, club):
     return (club or {}).get('name') or str(tid)
 
 
+def _share(name):
+    try:
+        import ml_realism as M, ml_dynamics as D
+        st = M.star_of(name)
+        o = D.override(M._norm(name))
+        return {'g': round((st or (0, 0))[0] * 100), 'a': round((st or (0, 0))[1] * 100), 'manual': o is not None}
+    except Exception:
+        return {'g': 0, 'a': 0, 'manual': False}
+
+
 def _row(p):
-    return {'pid': p.get('id'), 'name': p.get('name'), 'pos': p.get('pos') or {'G': 'GK', 'D': 'CB', 'M': 'CMF', 'F': 'CF'}.get(p.get('grp'), ''),
+    return {'share': _share(p.get('name')), 'pid': p.get('id'), 'name': p.get('name'), 'pos': p.get('pos') or {'G': 'GK', 'D': 'CB', 'M': 'CMF', 'F': 'CF'}.get(p.get('grp'), ''),
             'grp': p.get('grp'), 'ca': p.get('ca'), 'pa': p.get('pa'), 'value': p.get('value'), 'card': p.get('card'), 'nat': p.get('nat'),
             'shirt': p.get('shirt'), 'club': p.get('club')}
 
@@ -152,6 +162,85 @@ def set_ca(conn, s, body):
     return {'ok': True, 'ca': ca}
 
 
+def set_role(conn, s, body):
+    """Scoring role: goal share / assist share of his team (percent); 'auto' clears it."""
+    import ml_realism as M, ml_dynamics as D
+    name = str(body.get('name') or '')
+    if not name:
+        return {'error': 'no-player'}
+    if body.get('auto'):
+        D.set_override(conn, M._norm(name), None, None)
+    else:
+        D.set_override(conn, M._norm(name), float(body.get('g') or 0) / 100.0, float(body.get('a') or 0) / 100.0)
+    _refresh(conn)
+    return {'ok': True, 'share': _share(name)}
+
+
+def card_search(conn, s, text):
+    """Any player card of the game database (a real-life transfer the Master League does not have yet)."""
+    import ml_realism as M
+    q = M._norm(text)
+    if len(q) < 3:
+        return {'cards': []}
+    try:
+        import my_league_opponents as mo
+        names = mo._names()
+    except Exception:
+        names = {}
+    out = []
+    for pid, v in names.items():
+        nm = v[0] if isinstance(v, list) else v
+        if nm and q in M._norm(nm):
+            out.append({'card': int(pid), 'name': nm, 'pos': _native_pos(int(pid))})
+            if len(out) >= 60:
+                break
+    return {'cards': out}
+
+
+_NATIVE = {}
+
+
+def _native_pos(card):
+    try:
+        import my_league as ml
+        code = ml.SIM_PLAYERS.get(int(card), (None,))[0]
+        if code is None:
+            if 'b' not in _NATIVE:
+                import transfer_native_data
+                _NATIVE['b'] = transfer_native_data.baselines()
+            row = _NATIVE['b'].get(str(card))
+            code = int(row[0]) if row else None
+        return ('GK', 'CB', 'LB', 'RB', 'DMF', 'CMF', 'LMF', 'RMF', 'AMF', 'LWF', 'RWF', 'SS', 'CF')[code] if code is not None and 0 <= code < 13 else ''
+    except Exception:
+        return ''
+
+
+def add_player(conn, s, body):
+    """Put a game card into a CPU club of the Master League world (the real-life transfer the game does not have yet)."""
+    me = int(s.get('team_id') or 0)
+    cid, team, card = int(body.get('cid')), int(body.get('team')), int(body.get('card'))
+    if team == me:
+        return {'error': 'locked', 'reason': 'Your own squad changes through the transfer market.'}
+    w = _load(conn, s, cid)
+    if not w or str(team) not in (w.get('clubs') or {}):
+        return {'error': 'no-club'}
+    ps = w.setdefault('players', {})
+    if any(str(p.get('card')) == str(card) and p.get('status') == 'active' for p in ps.values()):
+        return {'error': 'exists', 'reason': 'This card is already in this league.'}
+    import ml_realism as M
+    pos = str(body.get('pos') or _native_pos(card) or 'CMF').upper()
+    grp = {'GK': 'G', 'CB': 'D', 'LB': 'D', 'RB': 'D', 'DMF': 'M', 'CMF': 'M', 'LMF': 'M', 'RMF': 'M', 'AMF': 'M', 'LWF': 'F', 'RWF': 'F', 'SS': 'F', 'CF': 'F'}.get(pos, 'M')
+    ca = max(60, min(199, int(body.get('ca') or 150)))
+    shirts = {p.get('shirt') for p in ps.values() if str(p.get('club')) == str(team)}
+    pid = 'r29_%d' % card
+    ps[pid] = {'id': pid, 'name': body.get('name') or M._name(card), 'born': None, 'grp': grp, 'pos': pos, 'card': card, 'ovr': None, 'fo': None,
+               'club': team, 'shirt': next(n for n in range(2, 100) if n not in shirts), 'nat': '', 'until': 3, 'status': 'active', 'ao': 1,
+               'ca': ca, 'src': 'rc29', 'pa': max(ca, 160), 'value': round(ca * 0.3, 1), 'wage': 50, 'est': 0}
+    _save(conn, s, cid, w)
+    _refresh(conn)
+    return {'ok': True, 'pid': pid}
+
+
 def _refresh(conn=None):
     """An edit counts at once: club strength, scorer shares and the Ballon d'Or read the edited world from the next match."""
     try:
@@ -181,4 +270,11 @@ def api(conn, s, method, path, body):
         return move(conn, s, data)
     if method == 'POST' and parts[0] == 'ca':
         return set_ca(conn, s, data)
+    if method == 'POST' and parts[0] == 'role':
+        return set_role(conn, s, data)
+    if method == 'POST' and parts[0] == 'add':
+        return add_player(conn, s, data)
+    if parts[0] == 'cards' and len(parts) >= 2:
+        from urllib.parse import unquote
+        return card_search(conn, s, unquote(parts[1]))
     return {'error': 'unknown'}

@@ -62,6 +62,14 @@ def star_of(name):
     n = _norm(name)
     if n in _star_cache:
         return _star_cache[n]
+    try:
+        import ml_dynamics
+        o = ml_dynamics.override(n)
+        if o is not None:
+            _star_cache[n] = o if (o[0] or o[1]) else None
+            return _star_cache[n]
+    except Exception:
+        pass
     hit = None
     words = ' ' + n + ' '
     hit_key = None
@@ -126,9 +134,9 @@ def shared_weights(cands, assist=False):
         if st and w > 0:
             shares[key] = st[1] if assist else st[0]
     total = sum(shares.values())
-    if total > 0.8:
-        shares = {k: v * 0.8 / total for k, v in shares.items()}
-        total = 0.8
+    if total > 0.85:
+        shares = {k: v * 0.85 / total for k, v in shares.items()}
+        total = 0.85
     rest = sum(w for key, name, w in cands if key not in shares)
     out = {key: w for key, name, w in cands}
     if shares and rest > 0:
@@ -213,12 +221,12 @@ def realistic_score(season, rnd, home, away, neutral=False):
     aa, da = team_strength(away, season, rnd)
     ch, ca = _coef(home), _coef(away)
     if abs(ch - ca) > 1e-9:
-        ah, dh = ah * (ch / ca) ** 1.2, dh / (ch / ca) ** 0.6
-        aa, da = aa * (ca / ch) ** 1.2, da / (ca / ch) ** 0.6
+        ah, dh = ah * (ch / ca) ** 0.9, dh / (ch / ca) ** 0.45
+        aa, da = aa * (ca / ch) ** 0.9, da / (ca / ch) ** 0.45
     hf, af = (1.0, 1.0) if neutral else (R.HOME, R.AWAY)
     # each league's real scoring level (goals a game): Serie A ~2.6, La Liga ~2.65, Ligue 1 ~2.85, Bundesliga ~3.15, Premier League ~2.9
     lgh, lga = R.LEAGUE_OF.get(str(home)), R.LEAGUE_OF.get(str(away))
-    gfac = LEAGUE_GOAL_FACTOR.get(int(lgh), 1.0) if lgh is not None and lgh == lga else 1.0
+    gfac = LEAGUE_GOAL_FACTOR.get(int(lgh), 1.0) if lgh is not None and lgh == lga else 0.9   # Europe: tighter games (~3 goals a match)
     lh = ah * da / R.LEAGUE_GOALS * hf * gfac
     la = aa * dh / R.LEAGUE_GOALS * af * gfac
     rng = random.Random(zlib.crc32(('rc29-cpu:%s:%s:%s:%s' % (season, rnd, home, away)).encode()))

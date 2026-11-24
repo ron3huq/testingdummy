@@ -156,6 +156,24 @@ def implied_share(norm_name):
     return (round(g, 4), round(a, 4))
 
 
+def override(norm_name):
+    """The user's own scoring role for a player (Editor -> Scoring role): (goal share, assist share) or None."""
+    o = ((_cache['doc'] or {}).get('overrides') or {}).get(norm_name)
+    return (float(o[0]), float(o[1])) if o else None
+
+
+def set_override(conn, norm_name, g, a):
+    doc = dict(_cache['doc'] if _cache['loaded'] else load(conn))
+    ov = dict(doc.get('overrides') or {})
+    if g is None and a is None:
+        ov.pop(norm_name, None)
+    else:
+        ov[norm_name] = [max(0.0, min(0.45, float(g or 0))), max(0.0, min(0.35, float(a or 0)))]
+    doc['overrides'] = ov
+    save(conn, doc)
+    return ov.get(norm_name)
+
+
 def star_adjust(norm_name, base):
     """(goal share, assist share) of a player now: his known share x his season form x how his ability changed (edits count at once);
     a player who became a scorer by ability gets an implied share; nobody passes 36% of his team's goals."""

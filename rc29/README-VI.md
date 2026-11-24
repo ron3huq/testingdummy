@@ -11,6 +11,11 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.9: thêm cầu thủ mới vào CLB, tự đặt vai trò ghi bàn, UCL thực tế hơn
+- **Editor → Find a player → "Add from game"**: tìm bất kỳ thẻ nào trong dữ liệu game (vụ chuyển nhượng ngoài đời mà Master League chưa có) và thêm vào CLB đang chọn (vị trí lấy từ thẻ). Cầu thủ đó ra sân, ghi bàn và kiến tạo như mọi người.
+- **Cột Role (✎)**: đặt % số bàn và % số kiến tạo của đội cho một cầu thủ (ví dụ 30% bàn ≈ 25–30 bàn/mùa ở CLB mạnh), hoặc Auto (theo chỉ số + vị trí). Áp dụng cho giải quốc nội, UCL, Quả bóng vàng, tin tức.
+- **UCL Master League**: chênh lệch giữa các giải nhỏ lại (đội Bồ/Thổ có cơ hội thật), trận châu Âu chặt hơn (~3 bàn/trận).
+
 ## RC29.8: ghi bàn / kiến tạo / Quả bóng vàng thực tế, mọi chỉnh sửa có hiệu lực ngay
 - Trận của đội bạn (mô phỏng): bàn và kiến tạo chia theo tỉ lệ thật, không còn tiền đạo ghi 45 bàn. Người không phải chân sút số một tối đa ~14% số bàn của đội.
 - Ngôi sao nhận diện theo họ tên đầy đủ (hết lỗi Isak Hien thành vua phá lưới, Ethan Mbappé, Jobe Bellingham...).
