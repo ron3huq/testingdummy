@@ -11,6 +11,12 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.6: kỹ năng, sân, tin tức giải VĐQG, cúp gọn màn hình
+- Master League: cầu thủ 9 CLB lớn (Arsenal, Real, Barça, Bayern, Man City, Liverpool, Chelsea, Atlético, PSG) được thêm kỹ năng đặc biệt thật; mọi tiền vệ và cầu thủ chạy cánh có Edge Crossing + Low Lofted Pass. Chỉ THÊM, không xoá kỹ năng nào; chỉ trong Master League (My League không đổi).
+- Sân: mỗi trận Master League chọn ngẫu nhiên một sân có bản quyền theo danh sách RC26 (1, 7, 30, 51, 52, 85), không dùng sân mặc định. Chưa thử trên điện thoại.
+- Trang 5 giải VĐQG có Newsroom (đua vô địch, chuỗi thắng/thua, cú sốc, đua vua phá lưới, kiến tạo, chuyển nhượng "Here we go").
+- Cúp: lượt về hiện tổng tỉ số; đội bị loại gạch tên, màu xám; bỏ vạch dọc xanh/vàng; trang cúp luôn vừa màn hình (các ô tự cuộn bên trong); tự chuyển sang tab Knockout / MVP khi sang giai đoạn mới.
+
 ## RC29.5: thế giới Master League thay đổi theo thời gian, tin tức sống động hơn
 - **Chơi lâu dài:** mùa 1 giữ đúng bức tranh hiện tại (Arsenal mạnh, Kane/Haaland/Mbappé...). Từ mùa 2, mỗi lần sang mùa sẽ ghi một "trang" mới (meta `rc29_dyn_v1`):
   - Sức mạnh CLB = điểm gốc × "thời kỳ" (lên xuống ngẫu nhiên nhưng có quán tính, CLB có giai đoạn hay và dở) × đội hình thật trong thế giới V32 (chuyển nhượng CPU, chỉnh sửa của bạn). Mua người giỏi thì mạnh lên, bán trụ cột thì yếu đi.
