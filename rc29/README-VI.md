@@ -11,6 +11,16 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.5: thế giới Master League thay đổi theo thời gian, tin tức sống động hơn
+- **Chơi lâu dài:** mùa 1 giữ đúng bức tranh hiện tại (Arsenal mạnh, Kane/Haaland/Mbappé...). Từ mùa 2, mỗi lần sang mùa sẽ ghi một "trang" mới (meta `rc29_dyn_v1`):
+  - Sức mạnh CLB = điểm gốc × "thời kỳ" (lên xuống ngẫu nhiên nhưng có quán tính, CLB có giai đoạn hay và dở) × đội hình thật trong thế giới V32 (chuyển nhượng CPU, chỉnh sửa của bạn). Mua người giỏi thì mạnh lên, bán trụ cột thì yếu đi.
+  - Phong độ ngôi sao ghi bàn lên xuống theo mùa (0,55–1,35 lần), nên cuộc đua vua phá lưới đổi chủ; ngôi sao chuyển CLB thì mang theo khả năng ghi bàn.
+  - Mỗi hè có tới 3 tiền đạo/tiền vệ tấn công giỏi "bùng nổ" thành chân sút mới; họ có thể tiếp tục thăng hoa hoặc lụi tàn.
+  - Ai được chỉnh chỉ số (CA) cao hơn sẽ ghi/kiến tạo nhiều hơn ngay, vì bảng ghi bàn tính theo CA hiện tại.
+  - Mô phỏng 6 mùa: vô địch EPL Arsenal → Arsenal → Man City → Man City → Arsenal → Man City; La Liga Barça/Real thay nhau.
+- **Tin tức:** tiêu đề đa dạng, giật gân hơn (bàn thắng phút cuối, lội ngược dòng, cú sốc, khẩu chiến, VAR...), không còn kiểu "X humiliated by Y". Newsroom là dải tin ngang dưới bảng xếp hạng, vừa một màn hình.
+- **Matchdays** hiện cả các lượt knock-out (lượt đi/lượt về, tỉ số, người ghi bàn), tự cuộn tới lượt hiện tại, đánh dấu "Next".
+
 ## RC29.4: hai cúp mới, tin tức kiểu FM, tên CLB thật, logo AFC chính thức
 - Mục **Cups** mới (thanh bên trái): **UCL 2017** (12 đội Y17, 4 trận vòng bảng 2 sân nhà / 2 sân khách, top 4 vào tứ kết, hạng 5–12 đá play-off; play-off, tứ kết, bán kết 2 lượt như UCL V32; chung kết 1 trận ở Cardiff) và **AFC Champions League Elite** (24 đội Saudi / Nhật / Hàn / Thái / Malaysia / Trung Quốc / Việt Nam, 8 trận vòng bảng, vòng 16 đội 2 lượt, tứ kết - chung kết 1 trận ở Jeddah). Chọn đội, đá từng lượt hoặc mô phỏng đến hết. Có bảng vua phá lưới / kiến tạo, MVP top 3, báo cáo từng trận.
 - Barcelona luôn vào ít nhất bán kết, Messi 10–13 bàn (kiểm tra 30 giải: 10–13 bàn mọi lần, trung bình 2,6 bàn/trận).

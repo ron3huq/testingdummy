@@ -706,6 +706,52 @@ def _pick(r, *opts):
     return opts[r.randrange(len(opts))]
 
 
+NICK = {1220: 'Real Madrid', 1222: 'Barça', 5317: 'Bayern', 2365: 'Juve', 1219: 'Atlético', 1986: 'PSG', 131: 'City', 1987: 'Liverpool',
+        1221: 'Chelsea', 1985: 'Spurs', 2621: 'Roma', 132: 'United', 17873: 'Al Hilal', 18961: 'Al Nassr', 17733: 'Al Ahli', 17734: 'Al Ittihad',
+        163: 'Frontale', 152: 'Marinos', 158: 'Vissel', 159: 'Sanfrecce', 147: 'Urawa', 146: 'Kashima', 4174: 'Ulsan', 279: 'Jeonbuk', 282: 'FC Seoul',
+        1493: 'Buriram', 4948: 'JDT', 20478: 'Shanghai Port', 16679: 'Guoan', 22498: 'CAHN', 22428: 'Nam Định'}
+HL = {
+    'late': ('{w} snatch it at the death against {l}', 'Heartbreak for {l} as {p} strikes in the {m}\'', 'Last-gasp {p}! {w} steal the show',
+             '{m}\' — and {p} breaks {l} hearts', 'Never in doubt? {w} leave it late to sink {l}', 'Stoppage-time stunner: {w} {s} {l}'),
+    'comeback': ('From behind to brilliant: {w} roar back against {l}', '{w} rise from the canvas to floor {l}', 'Comeback kings! {w} turn {l} upside down',
+                 '{l} let it slip as {w} fight back', 'Down but never out — {w} stun {l}'),
+    'goalless': ('Chess, not football: {h} and {a} cancel out', 'Nothing to separate {h} and {a} in a tactical arm-wrestle', 'Keepers on top as {h} and {a} share a blank',
+                 'Stalemate under the lights between {h} and {a}'),
+    'draw': ('All square in a thriller: {h} {s} {a}', 'Spoils shared as {h} and {a} trade blows', '{h} and {a} can\'t be separated',
+             'Point apiece — but who blinked first between {h} and {a}?', 'Honours even in a game of moments'),
+    'upset': ('Giant-killers! {w} topple {l}', 'Nobody saw that coming: {w} beat {l}', '{w} rip up the script against {l}',
+              'Shockwaves across Europe as {w} down {l}', 'Underdogs bite: {w} {s} {l}'),
+    'thrash': ('{w} run riot: {s} against {l}', 'Statement made — {w} put {s} past {l}', 'Total football from {w} in {s} rout of {l}',
+               '{p} leads the charge as {w} brush {l} aside'),
+    'win': ('{p} the difference as {w} edge {l}', '{w} grind past {l}', '{w} do the job against {l}', 'Job done: {w} {s} {l}',
+            '{p} decides it for {w}', 'Three more points for {w} at {l}\'s expense', '{w} keep marching with win over {l}'),
+    'drought': ('Where have the goals gone, {p}?', '{p} hunts for answers as drought drags on', 'Fire fading? Pressure mounts on {p}',
+                'Three games, zero goals: {p} under the microscope', '{b} backs {p} amid goal drought'),
+    'potm': ('{p} lights up {when}', 'Unplayable: {p} owns {when}', 'The {when} belonged to {p}', 'Star of the show: {p}'),
+    'table': ('{t} out in front after {when}', 'Top of the pile: {t}', '{t} set the pace', 'Eyes on {t} — leaders after {when}'),
+    'war': ('{b1} fires back at {b2}', 'Temperature rising: {b1} vs {b2}', '"Not here to make friends" — {b1} turns up the heat',
+            'Rivalry boils over as {b1} answers {b2}'),
+    'ref': ('{b} fumes at the officials', '"Everybody saw it" — {b} blasts referee', 'VAR fury: {b} demands answers', 'Robbed? {b} sees red over key call'),
+    'sulk': ('{p} storms off after being hooked', 'Trouble brewing? {p} furious at substitution', 'Tunnel tantrum from {p}'),
+    'through': ('{w} march on — {l} go home', 'Into the hat! {w} book their place', '{w} survive the test of {l}', 'Curtains for {l} as {w} progress'),
+    'champions': ('{w} are kings of {c}!', 'Glory night: {w} lift the {c} trophy', 'History made — {w} conquer {c}', 'Champions! {w} complete the job'),
+    'race': ('{p} sets the pace in the Golden Boot race', '{p} out in front with {n}', 'Catch him if you can: {p} on {n}', 'Boot race heats up — {p} leads on {n}'),
+    'boot': ('{p} claims the Golden Boot with {n}', 'Top of the scoring charts: {p} ({n})', '{n} and the crown for {p}'),
+    'mvp': ('{p} crowned player of the tournament', 'The best of the best: {p}', '{p} walks away with the MVP award'),
+    'preview': ('The draw is in — and {t} are the team to beat', 'Bookies install {t} as favourites', 'Let the games begin: all eyes on {t}'),
+    'next': ('{h} vs {a}: the tie everyone wants to see', 'Showdown! {h} take on {a}', 'Clear your diary: {h} – {a}', '{h} vs {a} — a night for the history books?'),
+    'loser': ('{p} breaks the silence after defeat', '"No excuses" — {p} faces the music', '{p}: "The dressing room is silent"'),
+}
+
+
+def _nick(cup, tid):
+    return NICK.get(tid) or team_row(cup, tid)[1]
+
+
+def _hl(r, kind, **kw):
+    return _pick(r, *HL[kind]).format(**kw)
+
+
 def _boss(tid):
     return MANAGERS.get(tid) or 'the head coach'
 
@@ -801,12 +847,15 @@ def _match_news(st, m, label, sort_key, ko=None, focus=False):
         else:
             shape = 'Tight in midfield, decided by the finer details in both boxes.'
         lines = '; '.join(_goal_line(g) for g in goals[:5])
-        title = ('Late drama as %s edge %s' % (nm(win), nm(lose)) if late and win and late[-1]['team'] == win else
-                 '%s turn it around against %s' % (nm(win), nm(lose)) if win and goals and goals[0]['team'] != win else
-                 'Stalemate between %s and %s' % (nm(m['h']), nm(m['a'])) if not win and not goals else
-                 'Honours even: %s %d-%d %s' % (nm(m['h']), hg, ag, nm(m['a'])) if not win else
-                 'Surprise result as %s beat %s' % (nm(win), nm(lose)) if (win == m['a'] and gap > 0.35) or (win == m['h'] and gap < -0.35) else
-                 '%s beat %s %d-%d' % (nm(win), nm(lose), max(hg, ag), min(hg, ag)))
+        nk = lambda t: _nick(cup, t)
+        top_sc = max(goals, key=lambda g: sum(1 for x in goals if x['pid'] == g['pid']))['name'] if goals else ''
+        wsc = [g for g in goals if g['team'] == win]
+        key = ('late' if late and win and late[-1]['team'] == win else 'comeback' if win and goals and goals[0]['team'] != win else
+               'goalless' if not win and not goals else 'draw' if not win else
+               'upset' if (win == m['a'] and gap > 0.35) or (win == m['h'] and gap < -0.35) else 'thrash' if abs(hg - ag) >= 3 else 'win')
+        title = _hl(r, key, w=nk(win) if win else '', l=nk(lose) if lose else '', h=nk(m['h']), a=nk(m['a']),
+                    s='%d-%d' % (max(hg, ag), min(hg, ag)), m=(late[-1]['min'] if late else 90),
+                    p=late[-1]['name'] if key == 'late' else (wsc[-1] if wsc else {'name': top_sc})['name'] if goals else '')
         items.append({'k': sort_key + 0.2, 'tag': 'Match report', 'tone': 'blue', 'team': win or m['h'], 'when': label, 'h': title,
                       'b': shape + (' Goals: ' + lines + '.' if lines else ''), 'src': 'Matchday Wire'})
     # the scorer speaks
@@ -826,19 +875,19 @@ def _match_news(st, m, label, sort_key, ko=None, focus=False):
         res = 'W' if gf > ga else 'L' if gf < ga else 'D'
         q = _pick(r, *(WIN_Q if res == 'W' else LOSS_Q if res == 'L' else DRAW_Q))
         items.append({'k': sort_key + 0.6, 'tag': 'Press conference', 'tone': 'green' if res == 'W' else 'red' if res == 'L' else 'blue', 'team': me, 'when': label,
-                      'h': '%s: "%s"' % (_boss(me).capitalize() if not MANAGERS.get(me) else _boss(me), _cut(q, 66)),
-                      'q': q, 'by': _boss(me) + ' after %d-%d vs %s' % (gf, ga, nm(opp)), 'b': '', 'src': 'Press Room'})
+                      'h': '%s: "%s"' % (_boss(me) if MANAGERS.get(me) else _nick(cup, me) + ' boss', _cut(q, 66)),
+                      'q': q, 'by': (_boss(me) if MANAGERS.get(me) else _nick(cup, me) + ' head coach') + ' after %d-%d vs %s' % (gf, ga, nm(opp)), 'b': '', 'src': 'Press Room'})
         if res == 'L' and r.random() < 0.55:
             capt = next((p['name'] for p in roster(cup, me)[0] if GRP.get(p['pos']) == 'D'), None)
             if capt:
                 items.append({'k': sort_key + 0.55, 'tag': 'Dressing room', 'tone': 'red', 'team': me, 'when': label,
-                              'h': '%s speaks out after defeat' % capt, 'q': _pick(r, *LOSER_Q), 'by': capt, 'b': '', 'src': 'The Touchline'})
+                              'h': _hl(r, 'loser', p=capt), 'q': _pick(r, *LOSER_Q), 'by': capt, 'b': '', 'src': 'The Touchline'})
     # drama
     if rivals and r.random() < 0.8:
         a, b = (win, lose) if win else (m['h'], m['a'])
         r = _rng('wow', st['seed'], m['id'], b)
         items.append({'k': sort_key + 0.45, 'tag': 'War of words', 'tone': 'red', 'team': b, 'when': label,
-                      'h': '%s hits back at %s' % (_boss(b) if MANAGERS.get(b) else nm(b) + ' coach', _boss(a) if MANAGERS.get(a) else nm(a)),
+                      'h': _hl(r, 'war', b1=_boss(b) if MANAGERS.get(b) else _nick(cup, b) + ' coach', b2=_boss(a) if MANAGERS.get(a) else _nick(cup, a)),
                       'q': _pick(r, 'They talk a lot before these games. We prefer to answer on the pitch - and the tie is not over.',
                                  'Some people should look at their own team before giving lessons to everybody else.',
                                  'They had one good half. If they think it is over, they do not know my players.',
@@ -848,7 +897,7 @@ def _match_news(st, m, label, sort_key, ko=None, focus=False):
                       'by': _boss(b) if MANAGERS.get(b) else nm(b) + ' coach', 'b': '', 'src': 'The Touchline'})
     if win and abs(hg - ag) == 1 and r.random() < 0.3:
         items.append({'k': sort_key + 0.4, 'tag': 'Controversy', 'tone': 'red', 'team': lose, 'when': label,
-                      'h': '%s furious with the referee' % (_boss(lose) if MANAGERS.get(lose) else nm(lose)),
+                      'h': _hl(r, 'ref', b=_boss(lose) if MANAGERS.get(lose) else _nick(cup, lose) + ' boss'),
                       'q': _pick(r, 'Everybody saw it. That was never a penalty and VAR stayed silent.', 'One decision changed the whole match. I will not say more or I get banned.',
                                  'We asked for a clear handball. Nothing. In this competition you need the small decisions.'),
                       'by': _boss(lose) if MANAGERS.get(lose) else nm(lose) + ' coach', 'b': '', 'src': 'Pundit Panel'})
@@ -856,7 +905,7 @@ def _match_news(st, m, label, sort_key, ko=None, focus=False):
         star = next((p for p in roster(cup, win)[0] if GRP.get(p['pos']) == 'F' and not any(g['pid'] == p['pid'] for g in goals)), None)
         if star:
             items.append({'k': sort_key + 0.3, 'tag': 'Drama', 'tone': 'red', 'team': win, 'pid': star['pid'], 'when': label,
-                          'h': '%s storms down the tunnel after substitution' % star['name'], 'b': '',
+                          'h': _hl(r, 'sulk', p=star['name']), 'b': '',
                           'q': _pick(r, 'He wants to play every minute. That is normal for a champion. We will talk tomorrow.',
                                      'I made the decision for the team. Nobody is bigger than the club.'),
                           'by': _boss(win), 'src': 'Fan Zone'})
@@ -866,13 +915,13 @@ def _match_news(st, m, label, sort_key, ko=None, focus=False):
         agg = ko['agg']
         if ko['stage'] == 'final':
             items.append({'k': sort_key + 0.9, 'tag': 'Champions', 'tone': 'gold', 'team': w, 'when': label,
-                          'h': '%s are champions of %s!' % (nm(w), CUPS[cup]['short']),
+                          'h': _hl(r, 'champions', w=_nick(cup, w), c=CUPS[cup]['short']),
                           'b': '%s beat %s%s at %s. Confetti, tears and a captain lifting the trophy into the night sky.' % (nm(w), nm(l), how, CUPS[cup]['final_venue']),
                           'q': _pick(r, 'This is for every person who believed in us when nobody else did.', 'I have dreamed about this night since I was a kid.'),
                           'by': _boss(w), 'src': 'Cup Desk'})
         else:
             items.append({'k': sort_key + 0.5, 'tag': 'Through', 'tone': 'green', 'team': w, 'when': label,
-                          'h': '%s through to the next round' % nm(w),
+                          'h': _hl(r, 'through', w=_nick(cup, w), l=_nick(cup, l)),
                           'b': '%s go through%s%s. The journey ends here for %s.' % (nm(w), (' %d-%d on aggregate' % (max(agg), min(agg))) if len(ko['legs']) > 1 else '', how, nm(l)),
                           'src': 'Cup Desk'})
     return items
@@ -923,7 +972,7 @@ def news(st):
     r0 = _rng('cupnews0', cup, st['seed'])
     fav = sorted((t[0] for t in CUPS[cup]['teams']), key=lambda t: -_rating(cup, t))[:3]
     items.append({'k': 0, 'tag': 'Preview', 'tone': 'blue', 'team': fav[0], 'when': 'Draw',
-                  'h': 'Bookmakers make %s favourites' % nm(fav[0]),
+                  'h': _hl(r0, 'preview', t=_nick(cup, fav[0])),
                   'b': 'The draw is done. %s head the betting, ahead of %s and %s. %s' % (nm(fav[0]), nm(fav[1]), nm(fav[2]),
                        'Our tactics desk says %s have the squad to go all the way.' % nm(me) if me in fav else 'Few expect %s to challenge the elite - can they prove the doubters wrong?' % nm(me)),
                   'src': 'Press Room'})
@@ -940,7 +989,7 @@ def news(st):
                 continue
             drought_seen.add(key)
             items.append({'k': 10 + i + 0.15, 'tag': 'Under pressure', 'tone': 'red', 'team': t, 'pid': p['pid'], 'when': label,
-                          'h': 'Questions grow over %s\'s goal drought' % p['name'],
+                          'h': _hl(_rng('dh', st['seed'], p['pid'], i), 'drought', p=p['name'], b=_boss(t)),
                           'q': _pick(_rng('drought', st['seed'], p['pid']), 'He is the best in the world at what he does. The goals will come, I have zero doubts.',
                                      'Strikers go through moments like this. My job is to protect him, and I will.',
                                      'Ask me again in two weeks. He will answer you on the pitch.'),
@@ -950,14 +999,14 @@ def news(st):
             pid, team, g, a, m = potm
             hg, ag = m['hg'], m['ag']
             items.append({'k': 10 + i + 0.4, 'tag': 'Player of the matchday', 'tone': 'gold', 'team': team, 'pid': pid, 'when': label,
-                          'h': '%s is the player of %s' % (_name(pid), label.lower()),
+                          'h': _hl(_rng('ph', st['seed'], i), 'potm', p=_name(pid), when=label.lower()),
                           'b': '%s%s in %s %d-%d %s. %s' % ('%d goal%s' % (g, 's' if g > 1 else '') if g else '', (' and ' if g else '') + '%d assist%s' % (a, 's' if a > 1 else '') if a else '',
                                                           nm(m['h']), hg, ag, nm(m['a']), _pick(_rng('potm', st['seed'], m['id']), 'Our panel gave him a 9.1.', 'Nobody touched the ball more in the final third.', 'A complete performance.')),
                           'src': 'Data Room'})
         tb = table(dict(st, league=st['league'][:i + 1]))
         lead = tb[0]
         items.append({'k': 10 + i + 0.1, 'tag': 'Table', 'tone': 'blue', 'team': lead['team'], 'when': label,
-                      'h': '%s top the table after %s' % (nm(lead['team']), label.lower()) if i else '%s lead the way after the opening night' % nm(lead['team']),
+                      'h': _hl(_rng('th', st['seed'], i), 'table', t=_nick(cup, lead['team']), when=label.lower()),
                       'b': '%s have %d points and a goal difference of %+d. %s' % (nm(lead['team']), lead['pts'], lead['gd'],
                            'One more matchday to go - every goal counts now.' if i == len(st['league']) - 2 else 'Plenty still to play for.'), 'src': 'Data Room'})
     if all(m['hg'] is not None for rd in st['league'] for m in rd):
@@ -965,13 +1014,13 @@ def news(st):
         cut = CUPS[cup]['direct']
         top = [nm(x['team']) for x in tb[:cut]]
         items.append({'k': 30, 'tag': 'Qualified', 'tone': 'green', 'team': tb[0]['team'], 'when': 'League phase',
-                      'h': 'League phase complete: %s finish top' % top[0],
+                      'h': _pick(_rng('lp', st['seed']), 'The dust settles: %s top the league phase' % top[0], 'Group of death? %s finish on top' % top[0], 'Pole position for %s heading into the knockouts' % top[0]),
                       'b': ('%s go straight into the quarter-finals; the rest fight it out in the play-off.' % ', '.join(top)) if CUPS[cup]['po'] else
                            ('The top 16 advance to the round of 16. %s miss out.' % ', '.join(nm(x['team']) for x in tb[16:])),
                       'src': 'Cup Desk'})
         mine = next(x for x in tb if x['team'] == me)
         items.append({'k': 30.1, 'tag': 'Your club', 'tone': 'gold' if mine['pos'] <= cut else 'red', 'team': me, 'when': 'League phase',
-                      'h': 'Board %s with %s league phase' % ('delighted' if mine['pos'] <= max(2, cut // 4) else 'satisfied' if mine['pos'] <= cut else 'concerned', nm(me)),
+                      'h': ('Boardroom beaming: %s chiefs delighted' % _nick(cup, me) if mine['pos'] <= max(2, cut // 4) else 'Mission accomplished for %s — for now' % _nick(cup, me) if mine['pos'] <= cut else 'Alarm bells at %s: the board wants answers' % _nick(cup, me)),
                       'b': '%s finished %d%s with %d points.' % (nm(me), mine['pos'], {1: 'st', 2: 'nd', 3: 'rd'}.get(mine['pos'] if mine['pos'] < 20 else 0, 'th'), mine['pts']),
                       'src': 'Press Room'})
     order = ['po', 'r16', 'qf', 'sf', 'final']
@@ -989,7 +1038,7 @@ def news(st):
         played = sum(1 for rd in st['league'] for m in rd if m['hg'] is not None) + sum(1 for t in st['ko'] for l in t['legs'] if l['hg'] is not None)
         items.append({'k': 95 if st['stage'] == 'done' else 9 + played / 1000.0 + len(st['league']) + len([t for t in st['ko'] if t['winner']]) * 3,
                       'tag': 'Golden Boot' if st['stage'] == 'done' else 'Scoring race', 'tone': 'gold', 'team': g['team'], 'pid': g['pid'], 'when': 'Stats',
-                      'h': ('%s wins the scoring crown with %d goals' if st['stage'] == 'done' else '%s leads the scoring charts on %d') % (g['name'], g['n']),
+                      'h': _hl(_rng('rh', st['seed'], g['n'], g['pid']), 'boot' if st['stage'] == 'done' else 'race', p=g['name'], n='%d goal%s' % (g['n'], '' if g['n'] == 1 else 's')),
                       'b': '%s%s' % ('%s (%d) and %s (%d) are chasing. ' % (g_tab[1]['name'], g_tab[1]['n'], g_tab[2]['name'], g_tab[2]['n']) if len(g_tab) > 2 else '',
                                      ('Top assist provider: %s with %d.' % (a_tab[0]['name'], a_tab[0]['n'])) if a_tab else ''),
                       'src': 'Data Room'})
@@ -997,7 +1046,7 @@ def news(st):
         mv = mvp(st)
         if mv:
             items.append({'k': 96, 'tag': 'MVP', 'tone': 'gold', 'team': mv[0]['team'], 'pid': mv[0]['pid'], 'when': 'Awards',
-                          'h': '%s named player of the tournament' % mv[0]['name'],
+                          'h': _hl(r0, 'mvp', p=mv[0]['name']),
                           'b': '%d goals and %d assists. %s' % (mv[0]['goals'], mv[0]['assists'], 'Runner-up: %s, third: %s.' % (mv[1]['name'], mv[2]['name']) if len(mv) > 2 else ''),
                           'src': 'Cup Desk'})
     else:
@@ -1013,7 +1062,7 @@ def news(st):
             t, l = nxt
             opp = l['a'] if l['h'] == me else l['h']
             items.append({'k': 99, 'tag': 'Next up', 'tone': 'blue', 'team': opp, 'when': KO_LABEL[t['stage']],
-                          'h': '%s vs %s: %s' % (nm(l['h']), nm(l['a']), _pick(r0, 'the tie everyone wants to see', 'a night for the history books?', 'all eyes on the big one')),
+                          'h': _hl(_rng('nx', st['seed'], l['id']), 'next', h=_nick(cup, l['h']), a=_nick(cup, l['a'])),
                           'b': 'Our analysts rate %s as %s.' % (nm(me), 'favourites' if _rating(cup, me) > _rating(cup, opp) + 0.08 else 'underdogs' if _rating(cup, me) < _rating(cup, opp) - 0.08 else 'evenly matched with their opponents'),
                           'src': 'Tactics Lab'})
     items.sort(key=lambda x: -x['k'])

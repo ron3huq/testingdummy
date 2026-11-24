@@ -55,6 +55,11 @@ def star_of(name):
         if any((' ' + k + ' ') in words for k in keys):
             hit = (g, a)
             break
+    try:
+        import ml_dynamics
+        hit = ml_dynamics.star_adjust(n if not hit else next(keys[0] for keys, g, a in _STAR_KEYS if any((' ' + k + ' ') in words for k in keys)), hit)
+    except Exception:
+        pass
     _star_cache[n] = hit
     return hit
 
@@ -126,7 +131,12 @@ def team_strength(team, season, rnd):
     blk = int(rnd or 0) // 5
     fa = math.exp(_gauss('rc29-fa:%s:%s:%s' % (season, team, blk), v * 0.55))
     fd = math.exp(_gauss('rc29-fd:%s:%s:%s' % (season, team, blk), v * 0.55))
-    return a * sa * fa, d / (sd * fd)
+    try:
+        import ml_dynamics
+        xa, xd = ml_dynamics.club_factor(team, season)
+    except Exception:
+        xa, xd = 1.0, 1.0
+    return a * sa * fa * xa, d / (sd * fd) * xd
 
 
 def _poisson(rng, lam):

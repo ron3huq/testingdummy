@@ -294,6 +294,11 @@ def install():
             s = my_league.state(conn)
             if isinstance(s, dict) and s.get('completed'):
                 record(conn, s)
+                try:
+                    import ml_dynamics
+                    ml_dynamics.rollover(conn, int(s.get('season') or 1))
+                except Exception:
+                    pass
         except Exception:
             pass
         return advance(conn)
@@ -301,6 +306,19 @@ def install():
     api_orig = HO.api
     @functools.wraps(api_orig)
     def api_with_awards(logic, method, path, body=''):
+        try:
+            import ml_dynamics
+            if not ml_dynamics._cache['loaded']:
+                c0 = HO._open_ml(HO._main_conn(logic))
+                try:
+                    ml_dynamics.load(c0)
+                    import my_league
+                    if my_league.state(c0):
+                        ml_dynamics.ensure_base(c0)
+                finally:
+                    c0.close()
+        except Exception:
+            pass
         if str(path).startswith('/api/rc29/'):
             conn = None
             try:
