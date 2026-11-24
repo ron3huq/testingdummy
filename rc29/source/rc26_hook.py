@@ -20,6 +20,16 @@ if not getattr(_pr, '_rc27_hooked', False):
                     iso.install()
                 except Exception:
                     pass
+            try:
+                import ml_realism
+                ml_realism.install()
+            except Exception:
+                pass
+            try:
+                import ml_awards
+                ml_awards.install()
+            except Exception:
+                pass
             return result
         namespace['initialize'] = initialize
     def exec_into(name, namespace):

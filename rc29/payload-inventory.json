@@ -1,5 +1,5 @@
 {
- "version": "V19.1-FULL8-RC29.2-V32-ML",
+ "version": "V19.1-FULL8-RC29.3-V32-ML",
  "base": "73efootball-V19.1.apk",
  "phone_verified": false,
  "files": [
@@ -119,6 +119,11 @@
    "sha256": "4abdd999548b11643fd4abfb4dcf9dc7bd11765b634569b01d2d8311e4575f09"
   },
   {
+   "path": "assets/card-designer/backgrounds.json",
+   "bytes": 230299,
+   "sha256": "5cc417174a93de91adb83920db0f8bc625314c518cbbf42011fc2d2500b874c1"
+  },
+  {
    "path": "assets/card-designer/backgrounds/0100_0_f03.png",
    "bytes": 84420,
    "sha256": "3613dea059824195f7b5c51158700bf8e5e847ff5952813321e10928b7bf6dbe"
@@ -142,11 +147,6 @@
    "path": "assets/card-designer/backgrounds/0501_295_m01.png",
    "bytes": 19277,
    "sha256": "689a73bc964a1afdfa702aedb78914f222859b437e88cefbd196cd51d7841e35"
-  },
-  {
-   "path": "assets/card-designer/backgrounds.json",
-   "bytes": 230299,
-   "sha256": "5cc417174a93de91adb83920db0f8bc625314c518cbbf42011fc2d2500b874c1"
   },
   {
    "path": "assets/card-designer/bg-remove/ONNXRUNTIME-LICENSE.txt",
@@ -345,13 +345,13 @@
   },
   {
    "path": "assets/chaquopy/app.imy",
-   "bytes": 312636404,
-   "sha256": "b7388d36e17efc8cd5016bace623f1cf9f7e50b467b5c7c49e751dcab6ade192"
+   "bytes": 312678115,
+   "sha256": "d148b2f32a3ccb5c5112fc4c782e308d4ed8f54a8a9cdeb0c35ee94282d88b80"
   },
   {
    "path": "assets/chaquopy/build.json",
    "bytes": 1747,
-   "sha256": "6c7c79d1f9356e978aa3eb9f0bc16386145e80c851d22ea1bc03e2c055b4e889"
+   "sha256": "e1ba8a2fa85f84448544fa37e7354bb8c25ff7e6457c4eae96f5d786c4c9de14"
   },
   {
    "path": "assets/chaquopy/requirements-common.imy",
@@ -3864,11 +3864,6 @@
    "sha256": "d7965186ef3c4d60a0a817afcc362b05f7b34412768c92c995af0279be3f9757"
   },
   {
-   "path": "assets/ml/points_icon.png",
-   "bytes": 11564,
-   "sha256": "abdfeb97eaac20b21cecd8a41079e4de9cf0a036d4e0b0594e0413d08c88d011"
-  },
-  {
    "path": "assets/ml-league/app.js",
    "bytes": 825809,
    "sha256": "234e6bbcccce4f797af018adb9c97ffabdc36a3cbb115aed6ed6cacfa31d60b9"
@@ -4974,64 +4969,19 @@
    "sha256": "87ae332f4f4e774fc24eb75dcc1a574c2d9651ac88cad48d435a697e988a832d"
   },
   {
-   "path": "assets/ml-league/lang/ar.json",
-   "bytes": 205024,
-   "sha256": "167d1143cfb222983dd2063102abaa904998f75fca67e32fdfcc15096d097634"
-  },
-  {
    "path": "assets/ml-league/lang/en.json",
-   "bytes": 150684,
-   "sha256": "a6ae0e46b9d7f472b43b711f3edac6017f038b2817f173f6852f4ee2add25cfd"
-  },
-  {
-   "path": "assets/ml-league/lang/fa.json",
-   "bytes": 163746,
-   "sha256": "f9e874572e1450d18b9cda169ea831c178539b4d177ca018d31d95168308d0ea"
-  },
-  {
-   "path": "assets/ml-league/lang/fr.json",
-   "bytes": 170291,
-   "sha256": "7de9d915e6a53042aece83a836f863f204d1ee1654ecbfc8749df5e54fc1cd30"
-  },
-  {
-   "path": "assets/ml-league/lang/id.json",
-   "bytes": 160517,
-   "sha256": "d6fee7b69b0c7c59a96e26ad4d4ecd01e616afcb459d8f60a7356e3ae0adea9b"
-  },
-  {
-   "path": "assets/ml-league/lang/ko.json",
-   "bytes": 172138,
-   "sha256": "a658020c95c7d35191c4e8639b068bc682022dc1b1d53d0323d0bdfa7247f5d8"
-  },
-  {
-   "path": "assets/ml-league/lang/pt.json",
-   "bytes": 158293,
-   "sha256": "e02cefcd5aed1e45db7c221bb8a286346ca47f9778bb7ebfd9fa8e3506955198"
-  },
-  {
-   "path": "assets/ml-league/lang/th.json",
-   "bytes": 238980,
-   "sha256": "2126a0d8a0fdfed1715d431681f7f2c6b4c3f327d6b93dd2e1f510cf20d604e6"
-  },
-  {
-   "path": "assets/ml-league/lang/tr.json",
-   "bytes": 167124,
-   "sha256": "ec6da29cfa4424d99a99c6b3cf030efa68f95a7cc94cfc87d3c29f6e2277a7f7"
-  },
-  {
-   "path": "assets/ml-league/lang/vi.json",
-   "bytes": 181652,
-   "sha256": "0b4c92d2cb2ee329ee0d54b8155b041c8ecc66f3e0d28c13bbcfc661d23444b4"
+   "bytes": 201672,
+   "sha256": "d2896cffdcc2b0feca9e6fd5605ecfacc93ffa5cf58011d9a5dd7c18916c3168"
   },
   {
    "path": "assets/ml-league/ml.css",
-   "bytes": 378062,
-   "sha256": "6c08beb633c314c0081e4fad6c416e44adb628bb2043c5fe1dbdaebd04fe90d6"
+   "bytes": 384488,
+   "sha256": "90d24019dd50d323566578ac4273c7601a7dd55992d60db45b79ae36486c44af"
   },
   {
    "path": "assets/ml-league/ml.js",
-   "bytes": 620684,
-   "sha256": "56db58a0f309803f114594f7c247f2d7091ab6222686bad988de7f20162915bf"
+   "bytes": 632664,
+   "sha256": "c381c53d8c4b1c2c38d11e5aafd928a3f674afb10b4a3a3a45cc77a345c93f85"
   },
   {
    "path": "assets/ml-league/mpeg1.js",
@@ -6304,16 +6254,6 @@
    "sha256": "76fecd76e9d0d3a7ccfb5ce1257449252f302f17f36427d3b26046a3175a5ab8"
   },
   {
-   "path": "assets/ml-league/vendor/Flip.min.js",
-   "bytes": 25545,
-   "sha256": "243effd5682b1875a2c4a97505ffe36f6fa3c6e6ddaf4095b0dd8fe40f7e90c0"
-  },
-  {
-   "path": "assets/ml-league/vendor/gsap.min.js",
-   "bytes": 72938,
-   "sha256": "dd7dc87e023b3480f9707296342565ca2e361c8393cabb30f9557e06eb1bed4d"
-  },
-  {
    "path": "assets/ml-league/vendor-three/addons/CopyShader.js",
    "bytes": 571,
    "sha256": "4e3346db194db56a596cd074e9bdb39fb5eb52040c333e0d29dc4eb1324d3b1d"
@@ -6367,6 +6307,21 @@
    "path": "assets/ml-league/vendor-three/three.module.js",
    "bytes": 1274691,
    "sha256": "a97ec6852978949b7941c070b81292b842473a37549222353fa0a70c18d7285a"
+  },
+  {
+   "path": "assets/ml-league/vendor/Flip.min.js",
+   "bytes": 25545,
+   "sha256": "243effd5682b1875a2c4a97505ffe36f6fa3c6e6ddaf4095b0dd8fe40f7e90c0"
+  },
+  {
+   "path": "assets/ml-league/vendor/gsap.min.js",
+   "bytes": 72938,
+   "sha256": "dd7dc87e023b3480f9707296342565ca2e361c8393cabb30f9557e06eb1bed4d"
+  },
+  {
+   "path": "assets/ml/points_icon.png",
+   "bytes": 11564,
+   "sha256": "abdfeb97eaac20b21cecd8a41079e4de9cf0a036d4e0b0594e0413d08c88d011"
   },
   {
    "path": "assets/player-editor-overrides/105565464400480.png",
