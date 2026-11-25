@@ -1,0 +1,36 @@
+name: FULL8 RC30 (RC26 + Ronaldo face + My League Y17)
+on:
+  push:
+    branches: [claude/vigilant-albattani-3r4gnp]
+    paths: [.github/workflows/rc30.yml, rc30/**]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Download pinned FULL8 RC26
+        run: |
+          curl --fail --location --retry 5 -o RC26.zip https://github.com/ron3huq/testingdummy/releases/download/releasee/FULL8-RC26-TRANSFER-RESTORE.zip
+          echo "9873772a203064b1043f6973153d41e0bc147d74bb1f1e5e893a18bef120245f  RC26.zip" | sha256sum -c
+      - name: Build RC30
+        run: |
+          mkdir payload
+          unzip -q RC26.zip 'assets/*' classes5.dex -d payload
+          rm RC26.zip
+          unzip -o -q rc30/RC30-DELTA.zip -d payload
+          (cd payload && sha256sum -c ../rc30/delta.sha256)
+          cp rc30/README-VI.md payload/README-RC30-VI.md
+          du -sh payload
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FULL8-RC30
+          path: payload/
+          compression-level: 6
+          if-no-files-found: error
+          retention-days: 30
