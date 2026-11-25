@@ -131,6 +131,10 @@ def club_factor(team, season):
     if base and now and ((_cache['doc'] or {}).get('base_v') == 2):
         sa = max(0.75, min(1.3, math.exp((now[0] - base[0]) / 32.0)))
         sd = max(0.75, min(1.3, math.exp(-(now[1] - base[1]) / 32.0)))
+    ov = ((_cache['doc'] or {}).get('club_ovr') or {}).get(str(int(team)))
+    if ov:
+        k = max(0.6, min(1.5, float(ov) / 100.0))
+        return da * sa * k, dd * sd / k
     return da * sa, dd * sd
 
 
@@ -160,6 +164,22 @@ def override(norm_name):
     """The user's own scoring role for a player (Editor -> Scoring role): (goal share, assist share) or None."""
     o = ((_cache['doc'] or {}).get('overrides') or {}).get(norm_name)
     return (float(o[0]), float(o[1])) if o else None
+
+
+def set_club(conn, team, pct):
+    doc = dict(_cache['doc'] if _cache['loaded'] else load(conn))
+    co = dict(doc.get('club_ovr') or {})
+    if pct is None or int(pct) == 100:
+        co.pop(str(int(team)), None)
+    else:
+        co[str(int(team))] = max(60, min(150, int(pct)))
+    doc['club_ovr'] = co
+    save(conn, doc)
+    return co.get(str(int(team)), 100)
+
+
+def club_pct(team):
+    return ((_cache['doc'] or {}).get('club_ovr') or {}).get(str(int(team)), 100)
 
 
 def set_override(conn, norm_name, g, a):

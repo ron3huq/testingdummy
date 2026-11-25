@@ -417,7 +417,7 @@ def install():
         try:
             import ml_dynamics
             import time as _t
-            if not ml_dynamics._cache['loaded'] or _t.time() - ml_dynamics._live['t'] > 90:
+            if not ml_dynamics._cache['loaded'] or not ml_dynamics._live['t']:
                 c0 = HO._open_ml(HO._main_conn(logic))
                 try:
                     if not ml_dynamics._cache['loaded']:
@@ -425,7 +425,7 @@ def install():
                     import my_league
                     if my_league.state(c0):
                         ml_dynamics.ensure_base(c0)
-                        ml_dynamics.refresh(c0)
+                        ml_dynamics.refresh(c0, force=True)
                 finally:
                     c0.close()
         except Exception:

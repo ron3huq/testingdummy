@@ -11,6 +11,10 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.15: hết lag khi sang ngày, Editor: sức mạnh CLB và thêm cầu thủ theo ID
+- Sửa lag: danh sách UCL mới khiến thuật toán bốc thăm của V32 chạy rất lâu (13 CLB bị tính cùng một nước) mỗi lần sang ngày / mở trang. Nay mỗi CLB đúng quốc gia: sang ngày ~0,06 giây. Bỏ việc đọc lại dữ liệu 5 giải mỗi 90 giây.
+- Editor: thanh "Club strength" 60–150% cho CLB máy; ô thêm cầu thủ theo ID thẻ, số áo (không trùng), vị trí, CA.
+
 ## RC29.14: cân lại ghi bàn / kiến tạo theo thực tế 2025-26
 - Yamal ~13–18 bàn, 12–15 kiến tạo; Kane ~29–34 bàn; Raphinha giảm; Guirassy ~16–22; Lautaro ~20–24; Haaland, Mbappé có kiến tạo. Barça và Bayern ghi ~85–105 bàn.
 

@@ -89,7 +89,12 @@ def club(conn, s, cid, team):
     ps = [p for p in (w.get('players') or {}).values() if p.get('status') == 'active' and str(p.get('club')) == str(team)]
     order = {'G': 0, 'D': 1, 'M': 2, 'F': 3}
     ps.sort(key=lambda p: (order.get(p.get('grp'), 4), -float(p.get('ca') or 0)))
-    return {'cid': int(cid), 'team': int(team), 'name': _team_name(team, (w.get('clubs') or {}).get(str(team))),
+    try:
+        import ml_dynamics as D
+        pct = D.club_pct(team)
+    except Exception:
+        pct = 100
+    return {'strength': pct, 'cid': int(cid), 'team': int(team), 'name': _team_name(team, (w.get('clubs') or {}).get(str(team))),
             'locked': int(team) == int(s.get('team_id') or 0), 'players': [_row(p) for p in ps]}
 
 
@@ -231,10 +236,13 @@ def add_player(conn, s, body):
     pos = str(body.get('pos') or _native_pos(card) or 'CMF').upper()
     grp = {'GK': 'G', 'CB': 'D', 'LB': 'D', 'RB': 'D', 'DMF': 'M', 'CMF': 'M', 'LMF': 'M', 'RMF': 'M', 'AMF': 'M', 'LWF': 'F', 'RWF': 'F', 'SS': 'F', 'CF': 'F'}.get(pos, 'M')
     ca = max(60, min(199, int(body.get('ca') or 150)))
-    shirts = {p.get('shirt') for p in ps.values() if str(p.get('club')) == str(team)}
+    shirts = {p.get('shirt') for p in ps.values() if str(p.get('club')) == str(team) and p.get('status') == 'active'}
+    want = int(body.get('shirt') or 0)
+    if want and want in shirts:
+        return {'error': 'shirt', 'reason': 'Shirt number %d is already taken at this club.' % want}
     pid = 'r29_%d' % card
     ps[pid] = {'id': pid, 'name': body.get('name') or M._name(card), 'born': None, 'grp': grp, 'pos': pos, 'card': card, 'ovr': None, 'fo': None,
-               'club': team, 'shirt': next(n for n in range(2, 100) if n not in shirts), 'nat': '', 'until': 3, 'status': 'active', 'ao': 1,
+               'club': team, 'shirt': want if 1 <= want <= 99 else next(n for n in range(2, 100) if n not in shirts), 'nat': '', 'until': 3, 'status': 'active', 'ao': 1,
                'ca': ca, 'src': 'rc29', 'pa': max(ca, 160), 'value': round(ca * 0.3, 1), 'wage': 50, 'est': 0}
     _save(conn, s, cid, w)
     _refresh(conn)
@@ -270,6 +278,11 @@ def api(conn, s, method, path, body):
         return move(conn, s, data)
     if method == 'POST' and parts[0] == 'ca':
         return set_ca(conn, s, data)
+    if method == 'POST' and parts[0] == 'strength':
+        import ml_dynamics as D
+        if int(data.get('team') or 0) == int(s.get('team_id') or 0):
+            return {'error': 'locked', 'reason': 'Your own club plays at its real strength.'}
+        return {'ok': True, 'strength': D.set_club(conn, int(data.get('team')), data.get('pct'))}
     if method == 'POST' and parts[0] == 'role':
         return set_role(conn, s, data)
     if method == 'POST' and parts[0] == 'add':

@@ -668,7 +668,9 @@ def _qualify(orig):
         try:
             ucl, uel = list(out.get('ucl') or []), list(out.get('uel') or [])
             label = ucl[0][2] if ucl and len(ucl[0]) > 2 else 'UCL'
-            entry = lambda t: (t, R.LEAGUE_OF.get(str(t), 900307), label)
+            country = {191: 128, 193: 128, 192: 128, 1974: 128, 1804: 128, 130: 476, 197: 476, 273: 476, 1945: 476,
+                       116: 125, 117: 125, 118: 125, 242: 125, 250: 125, 269: 566, 5220: 566, 174: 566, 131: 518, 132: 518, 1207: 549, 1208: 549, 1832: 549}
+            entry = lambda t: (t, country.get(int(t), R.LEAGUE_OF.get(str(t), 900307)), label)
             if not prev:
                 # first season: the real field
                 new = [entry(t) for t in UCL_FIRST]
@@ -707,16 +709,19 @@ def cup_squad(conn, team, cache):
         s = my_league.state(conn) or {}
         own = int(s.get('competition_id') or 113)
         lg = R.LEAGUE_OF.get(str(team))
+        ws = cache.setdefault('_worlds', {})
+        def world(cid):
+            if cid not in ws:
+                ws[cid] = (IW.load(conn) if cid == 'own' else W.load(conn, cid)) or {}
+            return ws[cid]
         ps = []
-        if lg is not None and int(lg) == own:
-            w = IW.load(conn) or {}
+        for cid in (['own'] if lg is not None and int(lg) == own else []) + ([int(lg)] if lg is not None and int(lg) != own else []) + [900307, 119, 116, 122]:
+            if cid == own:
+                continue
+            w = world(cid)
             ps = [p for p in (w.get('players') or {}).values() if p.get('status') == 'active' and str(p.get('club')) == str(team)]
-        else:
-            for cid in ([int(lg)] if lg is not None else []) + [900307, 119, 116, 122]:
-                w = W.load(conn, cid) or {}
-                ps = [p for p in (w.get('players') or {}).values() if p.get('status') == 'active' and str(p.get('club')) == str(team)]
-                if ps:
-                    break
+            if ps:
+                break
         ps.sort(key=lambda p: -float(p.get('ca') or 0))
         grp_pos = {'G': 'GK', 'D': 'CB', 'M': 'CMF', 'F': 'CF'}
         for i, p in enumerate(ps[:18]):
