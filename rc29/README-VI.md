@@ -11,6 +11,11 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.12: Home → News tiếng Anh hấp dẫn, thanh màu bảng xếp hạng gọn
+- Tab News (của V32): toàn bộ tin viết lại bằng tiếng Anh, tiêu đề đa dạng kịch tính, kèm lời HLV (Arteta, Guardiola, Flick, Kompany, Simeone...).
+- Bảng xếp hạng: thanh màu dự cúp tách khỏi số thứ hạng.
+- Europe: bỏ nhãn giải đấu cạnh tên CLB.
+
 ## RC29.11: giao diện theo V32, chỉ số cầu thủ, UCL thật, tiếng Anh
 - Trang League (Season): bỏ Newsroom, giữ bố cục V32; Scorers/Assists không ảnh, tên viết tắt (K. Mbappé); mục Stats: trận, bàn, kiến tạo, MOTM, điểm trung bình; nút ⤢ mở bảng lớn (G+A và điểm TB cao nhất). Thanh tab vuốt ngang được.
 - Bảng chi tiết trận giải khác: hộp gọn giữa màn hình, nút ✕, ảnh cầu thủ nhỏ, người ghi bàn dưới từng đội.

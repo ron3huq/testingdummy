@@ -458,6 +458,22 @@ def install():
                     conn and conn.close()
                 except Exception:
                     pass
-        return api_orig(logic, method, path, body)
+        out = api_orig(logic, method, path, body)
+        if str(path).split('?')[0] == '/api/biz/news':
+            c1 = None
+            try:
+                import ml_news, my_league
+                c1 = HO._open_ml(HO._main_conn(logic))
+                d = json.loads(out) if isinstance(out, str) else out
+                d = ml_news.rewrite(c1, my_league.state(c1) or {}, d)
+                out = json.dumps(d, ensure_ascii=False) if isinstance(out, str) else d
+            except Exception:
+                pass
+            finally:
+                try:
+                    c1 and c1.close()
+                except Exception:
+                    pass
+        return out
     HO.api = api_with_awards
     return True

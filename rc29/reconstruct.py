@@ -33,7 +33,7 @@ def main():
         else: raise ValueError(kind)
         with data_src[0].open(data_src[1]) as fi, open(dst, 'wb') as fo: shutil.copyfileobj(fi, fo, 1 << 20)
     # app.imy = V32 app.imy + rc26_hook.pyc (V32 _protected_runtime unchanged)
-    hooks = [(n, delta.read(n)) for n in ('rc26_hook.pyc', 'ml_isolation.pyc', 'ml_realism.pyc', 'ml_ratings.pyc', 'ml_awards.pyc', 'ml_cups.pyc', 'ml_dynamics.pyc', 'ml_skills.pyc', 'ml_editor.pyc', 'ml_transfer.pyc')]
+    hooks = [(n, delta.read(n)) for n in ('rc26_hook.pyc', 'ml_isolation.pyc', 'ml_realism.pyc', 'ml_ratings.pyc', 'ml_awards.pyc', 'ml_cups.pyc', 'ml_dynamics.pyc', 'ml_skills.pyc', 'ml_editor.pyc', 'ml_transfer.pyc', 'ml_news.pyc')]
     with apk.open('assets/chaquopy/app.imy') as f: (OUT / 'v32-app.imy').write_bytes(f.read())
     app = STAGE / 'assets/chaquopy/app.imy'
     with zipfile.ZipFile(OUT / 'v32-app.imy') as zi, zipfile.ZipFile(app, 'w') as zo:
