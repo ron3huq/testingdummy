@@ -1,5 +1,5 @@
 {
- "version": "RC29.19",
+ "version": "RC29.20",
  "base": "73efootball-V19.1.apk",
  "phone_verified": false,
  "files": [
@@ -4990,8 +4990,8 @@
   },
   {
    "path": "assets/ml-league/ml.js",
-   "bytes": 729032,
-   "sha256": "4404e4f99576a73989f0ee3903c232317e9f75d89c41e71e1938a77ff16e4b72"
+   "bytes": 728291,
+   "sha256": "f3a7055b0e9e5ee483192ccc1d040c02551056610bb39f5194598791bb16d8db"
   },
   {
    "path": "assets/ml-league/mpeg1.js",
@@ -6330,8 +6330,8 @@
   },
   {
    "path": "assets/ml-league/y17.css",
-   "bytes": 43349,
-   "sha256": "8bf59798ad8df2d602d7ad11fff6df2c9ed76e3403c9a32004e194b1c08809fd"
+   "bytes": 46128,
+   "sha256": "113df30232cc722428bdd4714cf4af6c27fdfa7c05915519056af3bfe6bdf529"
   },
   {
    "path": "assets/ml/points_icon.png",

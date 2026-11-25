@@ -11,6 +11,10 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.20: thẻ Messi · Ronaldo gọn, ảnh thẻ như Master League
+- Home: thẻ Messi v Ronaldo dùng ảnh tròn, số bàn ở giữa, 4 hàng (kiến tạo, bàn quyết định, El Clásico, cầu thủ hay nhất trận) và thanh Ballon d'Or race.
+- Thẻ cầu thủ (đội hình, giải thưởng, lễ trao giải, MOTM) dùng ảnh thẻ thật của game như Master League, bỏ nền Del Piero.
+
 ## RC29.19: Champions League 2017 có nút Play, Quả bóng vàng logic hơn, trang Home mới
 - Champions League 2017: New season -> chọn CLB 2017 -> nút "Play" ngay trong trang (như Master League). Trận chạy qua luồng vào trận của Master League, đá bằng đội hình của bạn (tự bật "My squad" sau khi hỏi), đối thủ là CLB 2017 thật. Tỉ số và người ghi bàn thật được ghi vào giải, sau trận mở thẳng báo cáo trận. Cần có sự nghiệp Master League đang chạy. Nút "Sim" vẫn có nếu muốn bỏ qua.
 - Quả bóng vàng: tính theo bàn thắng/kiến tạo, bàn quyết định (bàn thắng định đoạt, bàn gỡ hòa cứu điểm), El Clásico (bàn, kiến tạo, cầu thủ hay nhất trận và đội thắng), trận lớn với top 4, mức gánh đội (tỉ lệ bàn của đội), danh hiệu (vô địch +42). BXH hiện lý do (ví dụ "Champion · 10 match winners · Clásico 3G 1A").
