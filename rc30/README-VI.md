@@ -28,7 +28,9 @@
 - Dữ liệu game không có nhiều cầu thủ thời đó (Pjanić, Khedira, Matuidi, Higuaín, Mandžukić, Boateng, Robben, Dele Alli, Dembélé (Spurs), Fàbregas, Nainggolan, Manolas, Juanfran, Filipe Luís...) nên chỉ dùng người có thẻ trong game.
 - Messi và Ronaldo (đội máy): 33-37 bàn mỗi mùa 33 trận, theo nhịp từng mùa; vẫn có trận tịt ngòi khi gặp đội khó.
 
-## RC30.3
-- Launcher có thêm tab **League** (biểu tượng cúp ở thanh dưới): bảng xếp hạng, Top scorers, Top assists của mùa My League đang đá (cả trận máy lẫn trận bạn đá, lấy đúng người ghi bàn/kiến tạo).
-- Cuối mùa tự bật **Season review** 5 trang: Nhà vô địch → Mùa giải của bạn → Chiếc giày vàng → Playmaker → Số liệu (hàng công/thủ tốt nhất, chân sút số 1 của bạn). Có nút xem lại bất cứ lúc nào.
-- Tên giải hiển thị: "Champions League 2016/17" (Y17), "UEFA Champions League" (122).
+## RC30.4
+- Bỏ trang League ngoài launcher (RC30.3). Mọi thứ nằm trong **My League trong game**: tỉ số, bảng xếp hạng, tab Score/Assist.
+- Người ghi bàn/kiến tạo của máy trong Y17 theo đúng tỉ lệ đóng góp thực tế mùa 2016/17–2017/18 của từng cầu thủ (Lewandowski, Kane, Salah, Cavani, Džeko, Dybala, Costa, Griezmann, Agüero... là chân sút chính; Eriksen, De Bruyne, Koke, Müller, Di María, Pogba... là người kiến tạo chính).
+- Messi: luôn 33–37 bàn mỗi mùa 33 trận, khoảng 5–13 kiến tạo; đạt mốc rồi thì không ghi thêm.
+- Barça và Real chênh rõ hơn với phần còn lại; Liverpool/Juve/Bayern bám sau.
+- Trận bạn đá: Score/Assist lấy đúng người ghi bàn/kiến tạo thật trong trận.
