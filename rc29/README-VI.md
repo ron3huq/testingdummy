@@ -11,6 +11,9 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.14: cân lại ghi bàn / kiến tạo theo thực tế 2025-26
+- Yamal ~13–18 bàn, 12–15 kiến tạo; Kane ~29–34 bàn; Raphinha giảm; Guirassy ~16–22; Lautaro ~20–24; Haaland, Mbappé có kiến tạo. Barça và Bayern ghi ~85–105 bàn.
+
 ## RC29.13: bài tường thuật trận trong News, cột thứ hạng thẳng hàng
 - Bấm một tin trận đấu ở Home → News: bài tường thuật đầy đủ (mở bài, diễn biến bàn thắng theo phút và kiến tạo, cầu thủ hay nhất trận, lời HLV và cầu thủ, thông số trận, top cầu thủ chấm điểm hai đội).
 - Bảng xếp hạng: số thứ hạng thẳng hàng ở mọi dòng.
