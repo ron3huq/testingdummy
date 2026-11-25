@@ -643,32 +643,52 @@ def status():
 FORCE_UCL = (130, 197, 191, 193)   # Galatasaray, Fenerbahçe, Benfica, Sporting always play the Champions League
 
 
+# a realistic Champions League field (36): the big five leagues' best and Europe's established clubs, never an unknown side
+UCL_FIRST = [101, 173, 103, 102, 179, 106,        # Arsenal, Man City, Liverpool, Chelsea, Tottenham, Newcastle
+             108, 109, 172, 258, 267,             # Barcelona, Real Madrid, Atletico, Athletic Club, Villarreal
+             119, 327, 120, 234,                  # Inter, Napoli, Juventus, Atalanta
+             127, 126, 128, 226,                  # Bayern, Dortmund, Leverkusen, Frankfurt
+             114, 113, 112, 213,                  # PSG, Marseille, Monaco, Lille
+             191, 193, 192, 130, 197, 118, 116, 117, 269, 131, 1207, 5220, 273]
+UCL_CREDIBLE = set(UCL_FIRST) | {100, 121, 125, 181, 1919, 186, 110, 265, 194, 124, 182, 218}
+
+
+def _credible(team):
+    t = int(team)
+    if t in UCL_CREDIBLE:
+        return True
+    c = R.CLUBS.get(t)
+    return bool(c and c[0] >= 1.6 and str(R.LEAGUE_OF.get(str(t))) in ('113', '119', '116', '122', '900307'))
+
+
 def _qualify(orig):
     @functools.wraps(orig)
     def qualify(s, prev, offs, rng):
         out = orig(s, prev, offs, rng)
         try:
             ucl, uel = list(out.get('ucl') or []), list(out.get('uel') or [])
-            in_ucl = {int(e[0]) for e in ucl}
-            for team in FORCE_UCL:
-                if team in in_ucl:
-                    continue
-                entry = next((e for e in uel if int(e[0]) == team), None)
-                if entry is not None:
-                    uel.remove(entry)
-                    entry = (team, entry[1], 'UCL')
-                else:
-                    entry = (team, R.LEAGUE_OF.get(str(team), 900307), 'UCL')
-                # the weakest club placed from outside the five leagues (else the last entry) makes room
-                cand = [e for e in ucl if int(e[0]) not in FORCE_UCL and int(e[1] if not isinstance(e[1], str) else 0) not in TOP5]
-                drop = cand[-1] if cand else next(e for e in reversed(ucl) if int(e[0]) not in FORCE_UCL)
-                ucl.remove(drop)
-                ucl.append(entry)
-                uel.append(drop)
-                in_ucl.add(team)
-            while len(uel) > 36:
-                uel.pop()
-            out['ucl'], out['uel'] = ucl, uel
+            label = ucl[0][2] if ucl and len(ucl[0]) > 2 else 'UCL'
+            entry = lambda t: (t, R.LEAGUE_OF.get(str(t), 900307), label)
+            if not prev:
+                # first season: the real field
+                new = [entry(t) for t in UCL_FIRST]
+            else:
+                keep = [e for e in ucl if _credible(e[0])]
+                have = {int(e[0]) for e in keep}
+                pool = [int(e[0]) for e in uel if _credible(e[0]) and int(e[0]) not in have] + [t for t in UCL_FIRST if t not in have]
+                pool = list(dict.fromkeys(pool))
+                for t in FORCE_UCL:
+                    if t not in have:
+                        keep.append(entry(t)); have.add(t)
+                while len(keep) < len(ucl) and pool:
+                    t = pool.pop(0)
+                    if t not in have:
+                        keep.append(entry(t)); have.add(t)
+                new = keep[:max(len(ucl), 36)]
+            in_new = {int(e[0]) for e in new}
+            dropped = [e for e in ucl if int(e[0]) not in in_new]
+            uel = [e for e in uel if int(e[0]) not in in_new] + [e for e in dropped if e not in uel]
+            out['ucl'], out['uel'] = new, uel[:36]
         except Exception as exc:
             _state['errors'].append('qualify %r' % (exc,))
         return out

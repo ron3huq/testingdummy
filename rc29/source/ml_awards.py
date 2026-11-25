@@ -249,9 +249,63 @@ def api(conn, s):
             'today': today.isoformat() if today else None}
 
 
-def fixture(conn, s, q):
-    """GET /api/rc29/fixture?lg=&round=&home=&away=: a report for a match of a league the career does not play in."""
+def _goals_of(rows, home, away, nm):
+    goals = []
+    for team in (home, away):
+        tr = [r for r in rows if int(r[0]) == team]
+        scorers = [(nm(r[1]), r[1]) for r in tr for _ in range(int(r[2] or 0))]
+        helpers = [(nm(r[1]), r[1]) for r in tr for _ in range(int(r[3] or 0))]
+        for sc, sp in scorers:
+            hp = next((h for h in helpers if h[0] != sc), None)
+            if hp:
+                helpers.remove(hp)
+            goals.append({'team': team, 'name': sc, 'pid': sp, 'assist': hp[0] if hp else None})
+    return goals
+
+
+def _match_ratings(lg, rnd, m, rows, lw, nm, sqcache):
+    """Ratings of both elevens of one simulated match (same model as the report)."""
     import random, zlib
+    home, away = int(m['home_team_id']), int(m['away_team_id'])
+    hg, ag = int(m['home_goals']), int(m['away_goals'])
+    goals = _goals_of(rows, home, away, nm)
+    gcount, acount = {}, {}
+    for g in goals:
+        gcount[(g['team'], g['name'])] = gcount.get((g['team'], g['name']), 0) + 1
+        if g['assist']:
+            acount[(g['team'], g['assist'])] = acount.get((g['team'], g['assist']), 0) + 1
+    sides = {}
+    for side, team, gf, ga in (('home', home, hg, ag), ('away', away, ag, hg)):
+        if team not in sqcache:
+            sq = (lw.squad(team) if lw is not None else None) or []
+            sqcache[team] = sq
+        sq = sqcache[team]
+        info = {}
+        for r, sh in sq:
+            info.setdefault(r.get('name'), (r.get('grp'), r.get('card') or r.get('id')))
+        names = [r.get('name') for r, sh in sq if sh >= 1.0][:11]
+        extra = {g['name']: g.get('pid') for g in goals if g['team'] == team}
+        extra.update({g['assist']: None for g in goals if g['team'] == team and g['assist']})
+        for n in extra:
+            if n not in names:
+                names.append(n)
+        players = []
+        for n in names:
+            rng = random.Random(zlib.crc32(('rc29-rt:%s:%s:%s:%s' % (lg, rnd, team, n)).encode()))
+            g, a = gcount.get((team, n), 0), acount.get((team, n), 0)
+            r = 6.4 + 0.95 * g + 0.55 * a + (0.35 if gf > ga else -0.3 if gf < ga else 0.0) + rng.gauss(0, 0.32)
+            grp, pid = info.get(n, (None, extra.get(n)))
+            if grp in ('G', 'D'):
+                r += 0.35 if ga == 0 else -0.12 * ga
+            r = max(4.6, min(10.0, r))
+            players.append({'name': n, 'pid': pid, 'g': g, 'a': a, 'r': round(r, 1)})
+        players.sort(key=lambda x: -x['r'])
+        sides[side] = (team, players)
+    return goals, sides
+
+
+def fixture(conn, s, q):
+    """GET /api/rc29/fixture/<lg>/<round>/<home>/<away>: a report for a match of a league the career does not play in."""
     import iml_news_leagues as nl, iml_world_leagues as wl, ml_realism as M
     lg, rnd, home, away = str(q.get('lg')), str(q.get('round')), int(q.get('home')), int(q.get('away'))
     snap = ((nl.load(conn, s) or {}).get('leagues') or {}).get(lg) or {}
@@ -261,55 +315,75 @@ def fixture(conn, s, q):
         return {'error': 'no-fixture'}
     pn = snap.get('pn') or {}
     nm = lambda pid: pn.get(str(pid)) or (M._name(pid) if str(pid).isdigit() else str(pid))
-    rows = [r for r in day.get('ps') or [] if int(r[0]) in (home, away)]
-    goals = []
-    for team in (home, away):
-        tr = [r for r in rows if int(r[0]) == team]
-        scorers = [nm(r[1]) for r in tr for _ in range(int(r[2] or 0))]
-        helpers = [nm(r[1]) for r in tr for _ in range(int(r[3] or 0))]
-        for i, sc in enumerate(scorers):
-            hp = next((h for h in helpers if h != sc), None)
-            if hp:
-                helpers.remove(hp)
-            goals.append({'team': team, 'name': sc, 'assist': hp})
-    hg, ag = int(m['home_goals']), int(m['away_goals'])
     try:
         lw = wl.open_league(conn, int(lg))
     except Exception:
         lw = None
-    gcount, acount = {}, {}
-    for g in goals:
-        gcount[g['name']] = gcount.get(g['name'], 0) + 1
-        if g['assist']:
-            acount[g['assist']] = acount.get(g['assist'], 0) + 1
-    out = {'league': (M.R.LEAGUE_COEF and {'113': 'Premier League', '119': 'La Liga', '116': 'Serie A', '122': 'Ligue 1', '900307': 'Bundesliga'}.get(lg, lg)),
-           'round': int(rnd), 'home': {'team': home, 'goals': hg}, 'away': {'team': away, 'goals': ag}, 'goals': goals}
+    rows = [r for r in day.get('ps') or [] if int(r[0]) in (home, away)]
+    goals, sides = _match_ratings(lg, rnd, m, rows, lw, nm, {})
+    out = {'league': {'113': 'Premier League', '119': 'La Liga', '116': 'Serie A', '122': 'Ligue 1', '900307': 'Bundesliga'}.get(lg, lg),
+           'round': int(rnd), 'home': {'team': home, 'goals': int(m['home_goals'])}, 'away': {'team': away, 'goals': int(m['away_goals'])}, 'goals': goals}
     best = None
-    for side, team, gf, ga in (('home', home, hg, ag), ('away', away, ag, hg)):
-        players = []
-        sq = (lw.squad(team) if lw is not None else None) or []
-        names = [r.get('name') for r, sh in sq if sh >= 1.0][:11]
-        for n in set(list(gcount) + list(acount)):
-            if n not in names and any(g['team'] == team and (g['name'] == n or g['assist'] == n) for g in goals):
-                names.append(n)
-        grp = {r.get('name'): r.get('grp') for r, sh in sq}
-        for n in names:
-            rng = random.Random(zlib.crc32(('rc29-rt:%s:%s:%s:%s' % (lg, rnd, team, n)).encode()))
-            g, a = gcount.get(n, 0) if any(x['team'] == team and x['name'] == n for x in goals) else 0, acount.get(n, 0) if any(x['team'] == team and x['assist'] == n for x in goals) else 0
-            r = 6.4 + 0.95 * g + 0.55 * a + (0.35 if gf > ga else -0.3 if gf < ga else 0.0) + rng.gauss(0, 0.32)
-            if grp.get(n) in ('G', 'D'):
-                r += 0.35 if ga == 0 else -0.12 * ga
-            r = max(4.6, min(10.0, r))
-            players.append({'name': n, 'g': g, 'a': a, 'r': round(r, 1)})
-            if best is None or r > best['r']:
-                best = {'name': n, 'r': round(r, 1), 'team': team}
-        players.sort(key=lambda x: -x['r'])
+    for side in ('home', 'away'):
+        team, players = sides[side]
         out[side]['ratings'] = players
+        for p in players:
+            if best is None or p['r'] > best['r']:
+                best = dict(p, team=team)
     if best:
         out['motm'] = best
         for side in ('home', 'away'):
             for p in out[side]['ratings']:
                 p['motm'] = p['name'] == best['name'] and best['team'] == out[side]['team']
+    return out
+
+
+_season_cache = {}
+
+
+def league_season(conn, s, lg):
+    """GET /api/rc29/lgstats/<lg>: every player's season line in another league: apps, goals, assists, average rating."""
+    import iml_news_leagues as nl, iml_world_leagues as wl, ml_realism as M
+    lg = str(lg)
+    snap = ((nl.load(conn, s) or {}).get('leagues') or {}).get(lg) or {}
+    played = snap.get('played') or {}
+    key = (lg, s.get('season'), len(played))
+    if key in _season_cache:
+        return _season_cache[key]
+    pn = snap.get('pn') or {}
+    nm = lambda pid: pn.get(str(pid)) or (M._name(pid) if str(pid).isdigit() else str(pid))
+    try:
+        lw = wl.open_league(conn, int(lg))
+    except Exception:
+        lw = None
+    agg, sqcache = {}, {}
+    for rnd, day in played.items():
+        for m in day.get('matches') or []:
+            home, away = int(m['home_team_id']), int(m['away_team_id'])
+            rows = [r for r in day.get('ps') or [] if int(r[0]) in (home, away)]
+            goals, sides = _match_ratings(lg, rnd, m, rows, lw, nm, sqcache)
+            for side in ('home', 'away'):
+                team, players = sides[side]
+                for p in players:
+                    k = (team, p['name'])
+                    a = agg.setdefault(k, {'name': p['name'], 'team': team, 'pid': p.get('pid'), 'apps': 0, 'g': 0, 'a': 0, 'sum': 0.0, 'motm': 0})
+                    a['apps'] += 1; a['g'] += p['g']; a['a'] += p['a']; a['sum'] += p['r']
+                    if not a.get('pid') and p.get('pid'):
+                        a['pid'] = p['pid']
+            cands = [(p['r'], sides[sd][0], p['name']) for sd in ('home', 'away') for p in sides[sd][1]]
+            if cands:
+                r_, t_, n_ = max(cands)
+                if (t_, n_) in agg:
+                    agg[(t_, n_)]['motm'] += 1
+    rows = []
+    for a in agg.values():
+        if a['apps']:
+            rows.append({'name': a['name'], 'team': a['team'], 'pid': a['pid'], 'apps': a['apps'], 'g': a['g'], 'a': a['a'],
+                         'avg': round(a['sum'] / a['apps'], 2), 'motm': a['motm']})
+    rows.sort(key=lambda r: (-(r['g'] + r['a']), -r['avg']))
+    out = {'lg': lg, 'rounds': len(played), 'players': rows[:200]}
+    _season_cache.clear()
+    _season_cache[key] = out
     return out
 
 
@@ -370,6 +444,8 @@ def install():
                 if parts.path.startswith('/api/rc29/cups'):
                     import ml_cups
                     return ml_cups.api(conn, str(method).upper(), parts.path, body)
+                if parts.path.startswith('/api/rc29/lgstats/'):
+                    return league_season(conn, st, parts.path.split('/')[4])
                 if parts.path.startswith('/api/rc29/fixture'):
                     seg = parts.path.split('/')[4:]
                     q = dict(zip(('lg', 'round', 'home', 'away'), seg)) if len(seg) >= 4 else dict(parse_qsl(parts.query))

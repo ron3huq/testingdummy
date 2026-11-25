@@ -11,6 +11,15 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.11: giao diện theo V32, chỉ số cầu thủ, UCL thật, tiếng Anh
+- Trang League (Season): bỏ Newsroom, giữ bố cục V32; Scorers/Assists không ảnh, tên viết tắt (K. Mbappé); mục Stats: trận, bàn, kiến tạo, MOTM, điểm trung bình; nút ⤢ mở bảng lớn (G+A và điểm TB cao nhất). Thanh tab vuốt ngang được.
+- Bảng chi tiết trận giải khác: hộp gọn giữa màn hình, nút ✕, ảnh cầu thủ nhỏ, người ghi bàn dưới từng đội.
+- Transfer: hiện tên cầu thủ, CLB chỉ logo, bỏ tuổi.
+- Thanh bên cuộn được; Season ngay dưới Home; Fixtures ở cuối tab Season.
+- UCL Master League: mùa đầu dùng 36 CLB thật; các mùa sau không có đội vô danh.
+- Dịch thêm ~270 cụm tiếng Trung còn sót.
+- Gỡ cúp UCL 2017/AFC khỏi save Master League. Tạm tắt thêm kỹ năng và đổi sân (an toàn khi vào trận).
+
 ## RC29.9: thêm cầu thủ mới vào CLB, tự đặt vai trò ghi bàn, UCL thực tế hơn
 - **Editor → Find a player → "Add from game"**: tìm bất kỳ thẻ nào trong dữ liệu game (vụ chuyển nhượng ngoài đời mà Master League chưa có) và thêm vào CLB đang chọn (vị trí lấy từ thẻ). Cầu thủ đó ra sân, ghi bàn và kiến tạo như mọi người.
 - **Cột Role (✎)**: đặt % số bàn và % số kiến tạo của đội cho một cầu thủ (ví dụ 30% bàn ≈ 25–30 bàn/mùa ở CLB mạnh), hoặc Auto (theo chỉ số + vị trí). Áp dụng cho giải quốc nội, UCL, Quả bóng vàng, tin tức.
