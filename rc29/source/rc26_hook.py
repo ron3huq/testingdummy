@@ -53,6 +53,7 @@ if not getattr(_pr, '_rc27_hooked', False):
             try:
                 import y17_league
                 y17_league.install_schedule()
+                y17_league.install_kick()
             except Exception:
                 pass
             return result

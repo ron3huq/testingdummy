@@ -509,18 +509,21 @@ def _update_form(st, rd):
             pf[str(m_)] = round(min(0.75, pf.get(str(m_), 0) + 0.08), 3)
 
 
-def _play_round(st, mine=None):
+def _play_round(st, mine=None, um=None):
     rd = st['round']
     if rd >= len(st['fx']):
         return False
     before = table(st, upto=rd)
     for i, m in enumerate(st['fx'][rd]):
+        ev = None
         if mine and st['team'] in (m['h'], m['a']):
             m['hg'], m['ag'] = int(mine[0]), int(mine[1])
             m['you'] = True
+            if um:
+                ev = _user_events(st, m, {'user_match': um}, {'team_id': st['team']})
         else:
             m['hg'], m['ag'] = _score(st, rd, i, m)
-        m['ev'] = _events(st, rd, i, m)
+        m['ev'] = ev if ev is not None else _events(st, rd, i, m)
         m['motm'] = _motm(st, rd, i, m)
     st['round'] = rd + 1
     _update_form(st, rd)
@@ -535,22 +538,127 @@ def _play_round(st, mine=None):
 
 
 # ------------------------------------------------------------------ awards
+CLASICO = frozenset((1220, 1222))
+
+
+def impact(st, upto=None):
+    """Per player: what his goals and assists were WORTH - match winners, equalisers that saved a point, goals in El Clasico and
+    against the top four, man-of-the-match awards in those games, and how much of his team's attack he carried."""
+    tb = table(st)
+    top4 = {x['team'] for x in tb[:4]}
+    team_goals = {x['team']: x['gf'] for x in tb}
+    out = {}
+
+    def row(pid):
+        return out.setdefault(pid, {'win': 0, 'eq': 0, 'cg': 0, 'ca': 0, 'cm': 0, 'cw': 0, 'bg': 0, 'ba': 0, 'pts': 0.0})
+    for rd_i, rd in enumerate(st['fx']):
+        if upto is not None and rd_i >= upto:
+            break
+        for m in rd:
+            if m.get('hg') is None:
+                continue
+            ev = sorted(m.get('ev') or [], key=lambda e: e[0])
+            clas = frozenset((m['h'], m['a'])) == CLASICO
+            big = m['h'] in top4 or m['a'] in top4
+            win = 0 if m['hg'] > m['ag'] else 1 if m['ag'] > m['hg'] else None
+            gh = ga = 0
+            decisive = None          # (scorer) of the goal that put the winner ahead for good
+            last_eq = {0: None, 1: None}
+            for mn, side, sc, ast, kind in ev:
+                if side == 0:
+                    gh += 1
+                else:
+                    ga += 1
+                mine, theirs = (gh, ga) if side == 0 else (ga, gh)
+                if win == side and mine == (m['ag'] if side == 0 else m['hg']) + 1 and decisive is None:
+                    decisive = (sc, ast)
+                if mine == theirs:
+                    last_eq[side] = (sc, ast)
+                r = row(sc)
+                if clas:
+                    r['cg'] += 1
+                if big and not clas:
+                    r['bg'] += 1
+                if ast:
+                    ra = row(ast)
+                    if clas:
+                        ra['ca'] += 1
+                    if big and not clas:
+                        ra['ba'] += 1
+            if decisive:
+                row(decisive[0])['win'] += 1
+                row(decisive[0])['pts'] += 2.0
+                if decisive[1]:
+                    row(decisive[1])['pts'] += 0.8
+            if win is None and (m['hg'] or m['ag']):
+                for side in (0, 1):
+                    if last_eq[side]:
+                        row(last_eq[side][0])['eq'] += 1
+                        row(last_eq[side][0])['pts'] += 1.0
+            if clas and m.get('motm'):
+                row(m['motm'])['cm'] += 1
+                own = _owner().get(m['motm'])
+                if own and win is not None and own[0] == (m['h'] if win == 0 else m['a']):
+                    row(m['motm'])['cw'] += 1
+    stats = player_stats(st)
+    for pid, r in out.items():
+        t = _owner().get(pid, (None,))[0]
+        tg = team_goals.get(t) or 1
+        r['carry'] = round((stats['g'].get(pid, 0) + 0.5 * stats['a'].get(pid, 0)) / tg, 3)
+    return out
+
+
 def _ballon(st, stats, tb):
-    pos_bonus = {1: 30, 2: 16, 3: 9, 4: 5}
+    """Ballon d'Or 2017 - a jury's logic, not a goal count:
+      output       goals x3, assists x2, man of the match x2.5, hat-tricks x3
+      decisive     match winners x4, point-saving equalisers x2 (points he won for his club)
+      El Clasico   goals x6, assists x4, man of the match x6 (+4 when his side won it) - the season's defining nights
+      big games    goals / assists against the top four x1
+      carried      share of his team's attack (goals + half the assists) x45
+      trophies     champion +42, runner-up +18, third +9, fourth +4 - weighted by how much he drove it
+      reputation   a small tie-breaker (prestige x0.8)"""
+    pos_bonus = {1: 42, 2: 18, 3: 9, 4: 4}
     place = {x['team']: x['pos'] for x in tb}
+    imp = impact(st)
     rows = []
     for pid, (team, name, pos) in _owner().items():
+        if team is None or team not in place:
+            continue
         g, a = stats['g'].get(pid, 0), stats['a'].get(pid, 0)
         mo = stats['motm'].get(pid, 0)
-        s = _star(name)
-        pr = s[2] if s else PRESTIGE_GK.get(C._fold(name), 0)
+        s_ = _star(name)
+        pr = s_[2] if s_ else PRESTIGE_GK.get(C._fold(name), 0)
         cs = next(x['cs'] for x in tb if x['team'] == team)
-        score = 3.0 * g + 2.0 * a + 2.4 * mo + 1.4 * stats['big'].get(pid, 0) + 3 * stats['hat'].get(pid, 0) + pos_bonus.get(place[team], 0) * (0.9 if g + a + mo else 0.3) + pr * 1.2
+        im = imp.get(pid) or {'win': 0, 'eq': 0, 'cg': 0, 'ca': 0, 'cm': 0, 'cw': 0, 'bg': 0, 'ba': 0, 'carry': 0}
+        drive = min(1.0, 0.25 + im.get('carry', 0) * 2.2 + mo * 0.03)
+        parts = {
+            'output': 3.0 * g + 2.0 * a + 2.5 * mo + 3 * stats['hat'].get(pid, 0),
+            'decisive': 4.0 * im['win'] + 2.0 * im['eq'],
+            'clasico': 6.0 * im['cg'] + 4.0 * im['ca'] + 6.0 * im['cm'] + 4.0 * im['cw'],
+            'big': 1.0 * (im['bg'] + im['ba']),
+            'carry': 45.0 * im.get('carry', 0),
+            'trophy': pos_bonus.get(place[team], 0) * drive,
+            'name': pr * 0.8,
+        }
         if pos == 'GK':
-            score += cs * 1.6
+            parts['output'] += cs * 1.6
         elif GRP.get(pos) == 'D':
-            score += cs * 0.7
-        rows.append({'pid': pid, 'name': name, 'team': team, 'pos': pos, 'g': g, 'a': a, 'motm': mo, 'score': round(score, 1)})
+            parts['output'] += cs * 0.7
+        score = sum(parts.values())
+        why = []
+        if place[team] == 1:
+            why.append('Champion')
+        if im['win']:
+            why.append('%d match winner%s' % (im['win'], 's' if im['win'] > 1 else ''))
+        if im['cg'] or im['ca']:
+            why.append('Clásico %dG %dA' % (im['cg'], im['ca']))
+        if im.get('carry', 0) >= 0.3:
+            why.append('%d%% of team attack' % round(im['carry'] * 100))
+        if stats['hat'].get(pid):
+            why.append('%d hat-trick%s' % (stats['hat'][pid], 's' if stats['hat'][pid] > 1 else ''))
+        rows.append({'pid': pid, 'name': name, 'team': team, 'pos': pos, 'g': g, 'a': a, 'motm': mo, 'score': round(score, 1),
+                     'win': im['win'], 'cg': im['cg'], 'ca': im['ca'], 'cm': im['cm'], 'carry': im.get('carry', 0), 'why': why[:3],
+                     'parts': {k: round(v, 1) for k, v in parts.items()}})
     rows.sort(key=lambda x: -x['score'])
     for i, x in enumerate(rows[:30]):
         x['rank'] = i + 1
@@ -644,12 +752,23 @@ def view(st):
     form = [{'pid': int(pid), 'name': own[int(pid)][1], 'team': own[int(pid)][0], 'v': v, 'g': stats['g'].get(int(pid), 0)} for pid, v in hot[:6]]
     cold = [{'pid': int(pid), 'name': own[int(pid)][1], 'team': own[int(pid)][0], 'v': v, 'g': stats['g'].get(int(pid), 0)}
             for pid, v in sorted(hot, key=lambda x: x[1])[:6] if _star(own[int(pid)][1])][:4]
-    live_ballon = _ballon(st, stats, tb)[:10] if rd else []
+    _bal_all = _ballon(st, stats, tb) if rd else []
+    live_ballon = _bal_all[:10]
+    _imp = impact(st) if rd else {}
+    clas = []
+    for i_, r_ in enumerate(st['fx']):
+        for m in r_:
+            if frozenset((m['h'], m['a'])) == CLASICO:
+                clas.append({'round': i_ + 1, 'i': r_.index(m), 'h': m['h'], 'a': m['a'], 'hg': m['hg'], 'ag': m['ag']})
     duel = {}
     for key in ('lionel messi', 'cristiano ronaldo'):
         pid = next((p for p, o in own.items() if C._fold(o[1]) == key), None)
         if pid:
+            im = _imp.get(pid) or {}
+            bl = next((x for x in _bal_all if x['pid'] == pid), None)
             duel[key.split()[1]] = {'pid': pid, 'name': own[pid][1], 'team': own[pid][0], 'g': stats['g'].get(pid, 0), 'a': stats['a'].get(pid, 0),
+                                    'win': im.get('win', 0), 'cg': im.get('cg', 0), 'ca': im.get('ca', 0), 'cm': im.get('cm', 0), 'carry': im.get('carry', 0),
+                                    'bscore': bl['score'] if bl else 0, 'brank': bl['rank'] if bl else None,
                                     'motm': stats['motm'].get(pid, 0), 'hat': stats['hat'].get(pid, 0), 'form': st['pform'].get(str(pid), 0),
                                     'ballons': sum(1 for h in st['history'] if h.get('ballon') and h['ballon']['pid'] == pid),
                                     'boots': sum(1 for h in st['history'] if h.get('boot') and h['boot']['pid'] == pid)}
@@ -660,7 +779,7 @@ def view(st):
             'teams': {str(t[0]): _team_doc(t[0]) for t in C.UCL17}, 'table': tb, 'next': nxt, 'rounds': rounds,
             'scorers': _rank(stats['g']), 'assists': _rank(stats['a']), 'ga': _rank(ga), 'motm': _rank(stats['motm'], 15),
             'race': [{'pid': pid, 'name': own.get(pid, (0, ''))[1], 'team': own.get(pid, (0,))[0], 'pts': race[pid]} for pid in top],
-            'form': form, 'cold': cold, 'ballon': live_ballon, 'duel': duel, 'news': st['news'][:60], 'awards': st.get('awards'),
+            'form': form, 'cold': cold, 'ballon': live_ballon, 'duel': duel, 'clasicos': clas, 'news': st['news'][:60], 'awards': st.get('awards'),
             'history': st['history'], 'squads': squads}
 
 
@@ -752,6 +871,10 @@ def api(method, path, body, logic=None):
             _drop('slot' + slot)
             return dict(saves_list(), ok=True)
         return {'error': 'unknown'}
+    if method == 'POST' and act == 'kick' and logic is not None:
+        return kick_arm(logic)
+    if method == 'POST' and act == 'unkick' and logic is not None:
+        return kick_clear(logic)
     if method == 'POST' and act == 'new':
         try:
             team = int(data.get('team'))
@@ -935,6 +1058,9 @@ def sync(logic):
         if st:
             _extras(st)
         return st, False
+    if st and not st.get('link'):
+        _extras(st)
+        return st, False            # a league played from this page: My League does not take it over
     link = _link_id(s)
     if not st or st.get('link') != link:
         hist = (st or {}).get('history', [])
@@ -965,3 +1091,153 @@ def install_schedule():
         _c['schedule'] = 'legs3'
     except Exception as exc:
         _c['schedule'] = repr(exc)[:200]
+
+
+# ------------------------------------------------------------------ RC29.18: Play - your match through the Master League's match flow
+KICK = 'rc29_y17_kick'
+EXT = 'rc29_y17_ext'
+KICK_TTL = 1800
+POST_BASE = 5000
+
+
+def _ml_conn(logic):
+    import iml_host as HO
+    return HO._open_ml(HO._main_conn(logic))
+
+
+def _m_get(conn, key):
+    r = conn.execute('select value from meta where key=?', (key,)).fetchone()
+    try:
+        return json.loads(r[0]) if r and r[0] else None
+    except Exception:
+        return None
+
+
+def _m_set(conn, key, value):
+    conn.execute('delete from meta where key=?', (key,))
+    if value is not None:
+        conn.execute('insert into meta(key, value) values(?, ?)', (key, json.dumps(value)))
+    conn.commit()
+
+
+def kick_arm(logic):
+    st = _read('current')
+    if not st or st['round'] >= len(st['fx']):
+        return {'error': 'no-match', 'reason': 'No match to play'}
+    if st.get('link'):
+        return {'error': 'linked', 'reason': 'This season follows My League'}
+    rd = st['round']
+    m = next(m for m in st['fx'][rd] if st['team'] in (m['h'], m['a']))
+    home = m['h'] == st['team']
+    opp = m['a'] if home else m['h']
+    c = _ml_conn(logic)
+    try:
+        import my_league as ML
+        s = ML.state(c)
+        if not isinstance(s, dict) or not s.get('schedule_v2'):
+            return {'error': 'no-career', 'reason': 'Start a Master League career first: the match runs through its match flow'}
+        if s.get('completed'):
+            return {'error': 'no-career', 'reason': 'Your Master League season is over: start the next season first'}
+        _m_set(c, KICK, {'season': st['season'], 'round': rd, 'opponent': opp, 'home': home, 'team': st['team'], 't': int(time.time())})
+    finally:
+        c.close()
+    return {'ok': True, 'round': rd + 1, 'home': home, 'opponent': opp, 'team': st['team'],
+            'label': 'Champions League 2017 · Matchday %d' % (rd + 1), 'derby': RIVALS.get(frozenset((m['h'], m['a'])))}
+
+
+def kick_clear(logic):
+    c = _ml_conn(logic)
+    try:
+        _m_set(c, KICK, None)
+    finally:
+        c.close()
+    return {'ok': True}
+
+
+def _kick(conn):
+    k = _m_get(conn, KICK)
+    if not k or int(time.time()) - int(k.get('t') or 0) > KICK_TTL:
+        return None
+    return k
+
+
+def install_kick():
+    try:
+        import iml_europe as E
+    except Exception as exc:
+        _c['kick_install'] = repr(exc)[:200]
+        return
+    if getattr(E.pending_kick, '_rc29_y17', False):
+        return
+    o_pending, o_arm, o_ext, o_venue, o_settle = E.pending_kick, E.arm_kick, E.kick_external, E.kick_venue, E.settle_kick
+
+    def pending_kick(conn, s):
+        try:
+            k = _kick(conn)
+            if k:
+                return {'id': 'y17-%d-%d' % (k['season'], k['round']), 'date': None, 'comp': 'y17', 'stage': 'league',
+                        'label': 'Champions League 2017 · Matchday %d' % (k['round'] + 1), 'home': bool(k['home']), 'neutral': False, 'opponent': int(k['opponent'])}
+        except Exception as exc:
+            _c['kick_pending'] = repr(exc)[:200]
+        return o_pending(conn, s)
+
+    def arm_kick(conn, s, gid, mapping):
+        k = _kick(conn)
+        if not k:
+            return o_arm(conn, s, gid, mapping)
+        ext = {'game_id': gid, 'leg': 'y17-%d-%d' % (k['season'], k['round']), 'side': 'HOME' if k['home'] else 'AWAY',
+               'opponent': int(k['opponent']), 'mapping': mapping, 'y17': k}
+        _m_set(conn, EXT, ext)
+        return ext
+
+    def kick_external(conn, gid):
+        ext = _m_get(conn, EXT)
+        if ext and ext.get('game_id') == gid:
+            return ext
+        return o_ext(conn, gid)
+
+    def kick_venue(conn, s, gid):
+        ext = _m_get(conn, EXT)
+        if ext and ext.get('game_id') == gid:
+            try:
+                import iml_venue as V
+                k = ext['y17']
+                return V.plan(k['team'], k['opponent'], 'HOME') if k['home'] else V.plan(k['opponent'], k['team'], 'AWAY')
+            except Exception:
+                return None
+        return o_venue(conn, s, gid)
+
+    def settle_kick(conn, gid, uside, req):
+        ext = _m_get(conn, EXT)
+        if not ext or ext.get('game_id') != gid:
+            return o_settle(conn, gid, uside, req)
+        import my_league as ML
+        k = ext['y17']
+        h, w = ML._scores(req)
+        ours, theirs = (h, w) if uside == 'HOME' else (w, h)
+        try:
+            import vscom_result
+            if vscom_result.gave_up(req):
+                ours, theirs = 0, 3
+        except Exception:
+            pass
+        um = None
+        try:
+            settle_req = ML._translate_opponent_events(req, ext.get('mapping'))
+            um = ML._user_match(conn, settle_req, uside, gid)
+        except Exception as exc:
+            _c['kick_um'] = repr(exc)[:200]
+        st = _read('current')
+        if st and st['season'] == k['season'] and st['round'] == k['round']:
+            hg, ag = (ours, theirs) if k['home'] else (theirs, ours)
+            _play_round(st, mine=(hg, ag), um=um)
+            st['saved'] = int(time.time())
+            st['just'] = k['round'] + 1
+            _write('current', st)
+        _m_set(conn, EXT, None)
+        _m_set(conn, KICK, None)
+        res = 'WIN' if ours > theirs else 'LOSE' if ours < theirs else 'DRAW'
+        return {'game_id': gid, 'fixture': POST_BASE + k['round'] + 1, 'cup': 'y17', 'leg': ext['leg'], 'result': res, 'score': [ours, theirs], 'detail': {}}
+    pending_kick._rc29_y17 = True
+    E.pending_kick, E.arm_kick, E.kick_external, E.kick_venue, E.settle_kick = pending_kick, arm_kick, kick_external, kick_venue, settle_kick
+    _c['kick_install'] = 'ok'
