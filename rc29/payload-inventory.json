@@ -1,5 +1,5 @@
 {
- "version": "RC29.21",
+ "version": "RC29.22",
  "base": "73efootball-V19.1.apk",
  "phone_verified": false,
  "files": [
@@ -4990,8 +4990,8 @@
   },
   {
    "path": "assets/ml-league/ml.js",
-   "bytes": 728139,
-   "sha256": "0ca67d196d487cef1f814fc73c248c69a4dbede13ebe63fad5232902c6d6ea95"
+   "bytes": 728127,
+   "sha256": "c36fab4e3d5f030cecc8b0456a0253ec0af118665f89672377e09c264f2c2091"
   },
   {
    "path": "assets/ml-league/mpeg1.js",
