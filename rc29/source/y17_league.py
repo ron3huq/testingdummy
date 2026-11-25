@@ -22,6 +22,7 @@ from pathlib import Path
 import ml_cups as C
 
 ROUNDS = 33
+LINK_CID = 518          # My League's 'Y17 Champion League' (RC26): the real matches are played there
 SLOTS = ('1', '2', '3', '4', '5')
 POS = C.POS
 GRP = C.GRP
@@ -510,7 +511,7 @@ def _update_form(st, rd):
 
 def _play_round(st, mine=None):
     rd = st['round']
-    if rd >= ROUNDS:
+    if rd >= len(st['fx']):
         return False
     before = table(st, upto=rd)
     for i, m in enumerate(st['fx'][rd]):
@@ -528,7 +529,7 @@ def _play_round(st, mine=None):
         y17_news.round_news(st, rd, before)
     except Exception as exc:
         st.setdefault('errors', []).append(repr(exc)[:160])
-    if st['round'] >= ROUNDS:
+    if st['round'] >= len(st['fx']):
         _finish(st)
     return True
 
@@ -617,7 +618,7 @@ def view(st):
     tb = table(st)
     rd = st['round']
     nxt = None
-    if rd < ROUNDS:
+    if rd < len(st['fx']):
         m = next(m for m in st['fx'][rd] if st['team'] in (m['h'], m['a']))
         nxt = {'round': rd + 1, 'h': m['h'], 'a': m['a'], 'derby': RIVALS.get(frozenset((m['h'], m['a'])))}
     rounds = []
@@ -655,7 +656,7 @@ def view(st):
     squads = {str(t[0]): [{'pid': p['pid'], 'name': p['name'], 'pos': p['pos'], 'xi': p['xi'], 'g': stats['g'].get(p['pid'], 0),
                            'a': stats['a'].get(p['pid'], 0), 'motm': stats['motm'].get(p['pid'], 0), 'f': st['pform'].get(str(p['pid']), 0)} for p in squad(t[0])]
               for t in C.UCL17}
-    return {'career': {'season': st['season'], 'team': st['team'], 'round': rd, 'rounds': ROUNDS, 'done': rd >= ROUNDS, 'horse': st.get('horse')},
+    return {'career': {'season': st['season'], 'team': st['team'], 'round': rd, 'rounds': len(st['fx']), 'done': rd >= len(st['fx']), 'horse': st.get('horse'), 'linked': bool(st.get('link'))},
             'teams': {str(t[0]): _team_doc(t[0]) for t in C.UCL17}, 'table': tb, 'next': nxt, 'rounds': rounds,
             'scorers': _rank(stats['g']), 'assists': _rank(stats['a']), 'ga': _rank(ga), 'motm': _rank(stats['motm'], 15),
             'race': [{'pid': pid, 'name': own.get(pid, (0, ''))[1], 'team': own.get(pid, (0,))[0], 'pts': race[pid]} for pid in top],
@@ -695,7 +696,7 @@ def _summary(st):
     tb = table(st)
     me = next(x for x in tb if x['team'] == st['team'])
     return {'team': st['team'], 'team_name': _tname(st['team']), 'crest': _team(st['team'])[3], 'season': st['season'], 'round': st['round'],
-            'rounds': ROUNDS, 'rank': me['pos'], 'points': me['pts'], 'won': me['w'], 'drawn': me['d'], 'lost': me['l'],
+            'rounds': len(st['fx']), 'rank': me['pos'], 'points': me['pts'], 'won': me['w'], 'drawn': me['d'], 'lost': me['l'],
             'titles': sum(1 for h in st['history'] if h['champion'] == st['team'])}
 
 
@@ -708,14 +709,24 @@ def saves_list():
     return {'slots': out, 'current': _summary(cur)}
 
 
-def api(method, path, body):
+def api(method, path, body, logic=None):
     parts = [p for p in path.split('/') if p][3:]       # after api/rc29/y17
     try:
         data = json.loads(body or '{}') if body else {}
     except Exception:
         data = {}
-    st = _read('current')
     act = parts[0] if parts else ''
+    linked = False
+    if logic is not None and act in ('', 'match', 'seen'):
+        try:
+            st, linked = sync(logic)
+        except Exception as exc:
+            st = _read('current')
+            _c['sync_error'] = repr(exc)[:200]
+    else:
+        st = _read('current')
+    if st:
+        _extras(st)
     if act == 'saves':
         sub = parts[1] if len(parts) > 1 else ''
         slot = str(data.get('slot') or '')
@@ -777,7 +788,7 @@ def api(method, path, body):
         return view(st)
     if method == 'POST' and act == 'sim':
         n = 0
-        while st['round'] < ROUNDS and n < 40:
+        while st['round'] < len(st['fx']) and n < 40:
             _play_round(st)
             n += 1
         st['saved'] = int(time.time())
@@ -789,7 +800,7 @@ def api(method, path, body):
             _write('current', st)
         return {'ok': True}
     if method == 'POST' and act == 'season':
-        if st['round'] < ROUNDS:
+        if st['round'] < len(st['fx']):
             return {'error': 'season-active'}
         team = int(data.get('team') or st['team'])
         if not _team(team):
@@ -807,4 +818,150 @@ def api(method, path, body):
             return match(st, int(parts[1]) - 1, int(parts[2]))
         except Exception:
             return {'error': 'no-match'}
-    return view(st)
+    out = view(st)
+    out['link_active'] = linked
+    if _c.get('sync_error'):
+        out['sync_error'] = _c['sync_error']
+    return out
+
+
+# ------------------------------------------------------------------ RC29.18: linked to My League's Y17 Champion League (real matches)
+def _extras(st):
+    own = _owner()
+    for k, v in (st.get('extra') or {}).items():
+        own.setdefault(int(k), tuple(v))
+
+
+def _ml_state(logic):
+    try:
+        import iml_host as HO, my_league as ML
+        main = HO._main_conn(logic)
+        s = ML.state(main)
+        if isinstance(s, dict) and int(s.get('competition_id') or 0) == LINK_CID and s.get('schedule_v2'):
+            return s
+    except Exception:
+        pass
+    return None
+
+
+def _link_id(s):
+    sig = zlib.crc32(json.dumps([[(m['home_team_id'], m['away_team_id']) for m in fx['match_list']] for fx in s['schedule_v2']]).encode())
+    return '%s:%s:%s' % (s.get('team_id'), s.get('season') or 1, sig)
+
+
+def _new_linked(s, history, season):
+    st = _new_season(int(s['team_id']), season, history, seed=zlib.crc32(_link_id(s).encode()) or 1)
+    st['fx'] = [[{'h': int(m['home_team_id']), 'a': int(m['away_team_id']), 'hg': None, 'ag': None} for m in fx['match_list']] for fx in s['schedule_v2']]
+    st['link'] = _link_id(s)
+    st['news'] = []
+    try:
+        import y17_news
+        y17_news.preseason(st)
+    except Exception:
+        pass
+    return st
+
+
+def _user_events(st, m, entry, s):
+    """Real scorers / assists of your match (My League's own record of the game you played)."""
+    u = entry.get('user_match') or {}
+    goals, assists = u.get('goals') or [], u.get('assists') or []
+    me = int(s['team_id'])
+    my_side = 0 if m['h'] == me else 1
+    ev = []
+    st.setdefault('extra', {})
+    for i, g in enumerate(goals):
+        try:
+            cid, serial = int(g[0]), int(g[1])
+        except Exception:
+            continue
+        side = my_side if serial else 1 - my_side
+        if side == my_side and cid not in _owner():
+            st['extra'][str(cid)] = [me, C._name(cid), C._pos(cid)]
+        ast = None
+        if i < len(assists):
+            try:
+                a0, a1 = int(assists[i][0]), int(assists[i][1])
+                if a0 and a0 != cid and bool(a1) == bool(serial):
+                    ast = a0
+                    if side == my_side and a0 not in _owner():
+                        st['extra'][str(a0)] = [me, C._name(a0), C._pos(a0)]
+            except Exception:
+                ast = None
+        ev.append([0, side, cid, ast, 'open'])
+    _extras(st)
+    if [e[1] for e in ev].count(0) != m['hg'] or [e[1] for e in ev].count(1) != m['ag']:
+        return None
+    r = _rng('y17real', st['seed'], m['h'], m['a'], st['round'])
+    mins = sorted(r.sample(range(2, 94), len(ev))) if ev else []
+    for k, e in enumerate(ev):
+        e[0] = mins[k]
+    return ev
+
+
+def _apply_played(st, entry, s):
+    rd = st['round']
+    before = table(st, upto=rd)
+    res = {(int(x['home_team_id']), int(x['away_team_id'])): (int(x['home_goals']), int(x['away_goals'])) for x in entry.get('matches') or []}
+    me = int(s['team_id'])
+    for i, m in enumerate(st['fx'][rd]):
+        sc = res.get((m['h'], m['a']))
+        if sc is None:
+            sc = _score(st, rd, i, m)
+        m['hg'], m['ag'] = sc
+        ev = None
+        if me in (m['h'], m['a']):
+            m['you'] = True
+            ev = _user_events(st, m, entry, s)
+        m['ev'] = ev if ev is not None else _events(st, rd, i, m)
+        m['motm'] = _motm(st, rd, i, m)
+    st['round'] = rd + 1
+    _update_form(st, rd)
+    try:
+        import y17_news
+        y17_news.round_news(st, rd, before)
+    except Exception as exc:
+        st.setdefault('errors', []).append(repr(exc)[:160])
+    if st['round'] >= len(st['fx']):
+        _finish(st)
+
+
+def sync(logic):
+    """Follow My League's Y17 season: every matchday played there is taken over here (scores of all six matches, your real
+    scorers).  Returns the stored league (None when My League is not on the Y17 Champion League)."""
+    st = _read('current')
+    s = _ml_state(logic)
+    if s is None:
+        if st:
+            _extras(st)
+        return st, False
+    link = _link_id(s)
+    if not st or st.get('link') != link:
+        hist = (st or {}).get('history', [])
+        season = (max([h['season'] for h in hist]) + 1) if hist else 1
+        if st and st.get('link') and st.get('round', 0) < len(st.get('fx') or []) and not any(h.get('season') == st.get('season') for h in hist):
+            season = st['season'] + 1
+        st = _new_linked(s, hist, season)
+    _extras(st)
+    played = s.get('played') or {}
+    changed = False
+    while st['round'] < len(st['fx']) and str(st['round'] + 1) in played:
+        _apply_played(st, played[str(st['round'] + 1)], s)
+        changed = True
+    if changed or not _read('current') or _read('current').get('link') != st.get('link'):
+        st['saved'] = int(time.time())
+        _write('current', st)
+    return st, True
+
+
+def install_schedule():
+    """My League's Y17 Champion League (518) as a triple round robin: 33 matchdays, every pair meets three times.  The checked
+    native config stays untouched - only the schedule document the league reads for a NEW season is replaced (myleague_worlds'
+    own legs=3 generator, the one the Asia-Pacific League already uses).  A season in progress keeps its stored draw."""
+    try:
+        import ziru_data as Z, myleague_worlds as W
+        teams = list(W.config()['leagues'][str(LINK_CID)]['teams'])
+        Z._cache['schedules/ml_schedule_%d.json' % LINK_CID] = {'schedule_list': W.schedule(teams, 3)}
+        _c['schedule'] = 'legs3'
+    except Exception as exc:
+        _c['schedule'] = repr(exc)[:200]

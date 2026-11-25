@@ -22,6 +22,12 @@ def repair(conn):
         team = int(s.get('team_id') or 0)
         if not team:
             return None
+        try:
+            import ml_own
+            if ml_own.is_on(conn):
+                return None
+        except Exception:
+            pass
         n = squad_count(conn)
         if n >= RS.SQUAD_SIZE or n < 0:
             return None

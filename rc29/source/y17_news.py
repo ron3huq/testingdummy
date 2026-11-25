@@ -540,12 +540,12 @@ def round_news(st, rd, tb_before):
             for mark in (10, 20, 30, 40, 50):
                 if x['n'] >= mark > prev.get(x['pid'], 0):
                     _add(st, {'round': rd + 1, 'kind': 'race', 'tag': 'Milestone', 'pid': x['pid'], 'team': x['team'],
-                              'title': '%d up for %s' % (mark, x['name']), 'lead': 'Matchday %d of 33 and %s already has %d league goals.' % (rd + 1, _last(x['pid']), x['n']),
+                              'title': '%d up for %s' % (mark, x['name']), 'lead': 'Matchday %d of %d and %s already has %d league goals.' % (rd + 1, len(st['fx']), _last(x['pid']), x['n']),
                               'paras': [pick(r, ['At this rate, the record books are in danger.', 'The numbers are almost absurd.', 'Some players dream of this tally in a career.'])]})
     own = _owner()
     ids = {k: next((p for p, o in own.items() if _fold(o[1]) == k), None) for k in ('lionel messi', 'cristiano ronaldo')}
     mpid, rpid = ids['lionel messi'], ids['cristiano ronaldo']
-    if mpid and rpid and (rd % 4 == 3 or rd == 32):
+    if mpid and rpid and (rd % 4 == 3 or rd == len(st['fx']) - 1):
         gm, gr = stats['g'].get(mpid, 0), stats['g'].get(rpid, 0)
         am, ar = stats['a'].get(mpid, 0), stats['a'].get(rpid, 0)
         lead_pid = mpid if gm > gr else rpid if gr > gm else None
@@ -614,9 +614,9 @@ def round_news(st, rd, tb_before):
                       'title': '%s: %d without defeat' % (_nick(t), unbeaten), 'lead': 'The run goes on - can anybody stop them?',
                       'paras': [pick(r, ['Momentum is the most dangerous weapon in football.', 'Every week a new hero, the same result.'])],
                       'quote': {'who': _boss(t), 'team': t, 'text': _bvoice(r, t, 'win')}})
-    if rd >= 22 and len(tb) > 1:
+    if rd >= len(st['fx']) * 2 // 3 and len(tb) > 1:
         gap = tb[0]['pts'] - tb[1]['pts']
-        left = 33 - (rd + 1)
+        left = len(st['fx']) - (rd + 1)
         if gap > left * 3:
             if not any(n.get('kind') == 'champion' for n in st['news']):
                 c = tb[0]['team']
@@ -636,7 +636,7 @@ def round_news(st, rd, tb_before):
                                  {'who': _boss(b_), 'team': b_, 'role': _nick(b_), 'text': _bvoice(r, b_, 'jab')}]})
 
     # 7) mind games before the next big match
-    if rd + 1 < 33:
+    if rd + 1 < len(st['fx']):
         nxt = st['fx'][rd + 1]
 
         def bigness(x):
@@ -664,19 +664,19 @@ def season_news(st):
         return
     c = aw['champion']
     if not any(n.get('kind') == 'champion' for n in st['news']):
-        _add(st, {'round': 33, 'kind': 'champion', 'tag': 'Champions', 'team': c, 'title': '%s are champions!' % Y._tname(c),
-                  'lead': '%d points from 33 matchdays.' % aw['points'],
+        _add(st, {'round': len(st['fx']), 'kind': 'champion', 'tag': 'Champions', 'team': c, 'title': '%s are champions!' % Y._tname(c),
+                  'lead': '%d points from %d matchdays.' % (aw['points'], len(st['fx'])),
                   'paras': ['It went down to the wire, and %s held their nerve.' % _nick(c)],
                   'quote': {'who': _boss(c), 'team': c, 'text': 'We deserved it. Thirty-three battles, and we are still standing at the top.'}})
     if aw.get('boot'):
         b = aw['boot'][0]
-        _add(st, {'round': 33, 'kind': 'award', 'tag': 'Golden Boot', 'pid': b['pid'], 'team': b['team'],
+        _add(st, {'round': len(st['fx']), 'kind': 'award', 'tag': 'Golden Boot', 'pid': b['pid'], 'team': b['team'],
                   'title': 'Golden Boot: %s (%d goals)' % (b['name'], b['n']), 'lead': 'The top scorer of the Y17 Champions League, season %d.' % st['season'],
                   'paras': ['Runner-up: %s (%d).' % (aw['boot'][1]['name'], aw['boot'][1]['n'])] if len(aw['boot']) > 1 else [],
                   'quote': {'who': b['name'], 'pid': b['pid'], 'text': _pvoice(r, b['pid'], 'score')}})
     if aw.get('ballon'):
         w = aw['ballon'][0]
-        _add(st, {'round': 33, 'kind': 'award', 'tag': "Ballon d'Or", 'pid': w['pid'], 'team': w['team'],
+        _add(st, {'round': len(st['fx']), 'kind': 'award', 'tag': "Ballon d'Or", 'pid': w['pid'], 'team': w['team'],
                   'title': "%s wins the Y17 Ballon d'Or" % w['name'],
                   'lead': '%d goals, %d assists, %d player-of-the-match awards.' % (w['g'], w['a'], w['motm']),
                   'paras': ['The podium: ' + ', '.join('%d. %s' % (x['rank'], x['name']) for x in aw['ballon'][:3]) + '.'],

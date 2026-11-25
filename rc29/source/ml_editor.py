@@ -274,6 +274,19 @@ def api(conn, s, method, path, body):
         data = {}
     if not parts:
         return leagues(conn, s)
+    if parts[0] == 'roles' and len(parts) >= 2 and method == 'GET':
+        import ml_transfer as MT
+        try:
+            return MT.roles_get(conn, s, int(parts[1]))
+        except Exception as exc:
+            return {'error': 'roles', 'reason': str(exc)[:160]}
+    if parts[0] == 'roles' and method == 'POST':
+        import ml_transfer as MT
+        try:
+            d = json.loads(body or '{}')
+            return MT.roles_save(conn, s, int(d['team']), d.get('captain'), d.get('kickers'))
+        except Exception as exc:
+            return {'error': 'roles', 'reason': str(exc)[:160]}
     if parts[0] == 'club' and len(parts) >= 3:
         return club(conn, s, int(parts[1]), int(parts[2]))
     if parts[0] == 'search' and len(parts) >= 2:

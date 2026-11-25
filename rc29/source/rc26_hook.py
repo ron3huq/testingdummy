@@ -45,6 +45,16 @@ if not getattr(_pr, '_rc27_hooked', False):
                 ml_guard.install()
             except Exception:
                 pass
+            try:
+                import ml_own
+                ml_own.install()
+            except Exception:
+                pass
+            try:
+                import y17_league
+                y17_league.install_schedule()
+            except Exception:
+                pass
             return result
         namespace['initialize'] = initialize
     def exec_into(name, namespace):

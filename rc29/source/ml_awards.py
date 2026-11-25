@@ -414,12 +414,18 @@ def install():
     api_orig = HO.api
     @functools.wraps(api_orig)
     def api_with_awards(logic, method, path, body=''):
+        if str(path).startswith('/api/rc29/own'):
+            try:
+                import ml_own
+                return ml_own.api(logic, str(method).upper(), body)
+            except Exception as exc:
+                return {'error': 'own', 'reason': repr(exc)[:200]}
         if str(path).startswith('/api/rc29/y17'):
             # RC29.17: the stand-alone Y17 Champions League - its own files, no Master League profile involved
             try:
                 import y17_league
                 from urllib.parse import urlsplit
-                return y17_league.api(str(method).upper(), urlsplit(str(path)).path, body)
+                return y17_league.api(str(method).upper(), urlsplit(str(path)).path, body, logic)
             except Exception as exc:
                 return {'error': 'y17', 'reason': repr(exc)[:200]}
         try:

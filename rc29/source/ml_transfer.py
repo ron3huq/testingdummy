@@ -293,4 +293,106 @@ def install():
         return old(action, payload)
     eg.manage = manage
     _state['installed'] = True
+    install_roles()
     return _state
+
+
+# ------------------------------------------------------------------ RC29.18: roles in the match + the web editor's Set pieces panel
+KICKER_LABELS = ['Long free kick', 'Short free kick', 'Second free kick', 'Left corner', 'Right corner', 'Penalty']
+
+
+def roles_get(conn, s, team):
+    row = _row(conn, s, team)
+    return {'team': int(team), 'captain': row['captain'], 'kickers': row['kickers'], 'labels': KICKER_LABELS,
+            'players': [{'id': r['id'], 'name': r['name'], 'shirt': r['shirt'], 'xi': i < 11} for i, r in enumerate(row['roster'])]}
+
+
+def roles_save(conn, s, team, captain, kickers):
+    if int(team) == int(s.get('team_id') or 0):
+        raise ValueError('Your own club: set captain and set-piece takers in the game\'s own Game Plan')
+    row = _row(conn, s, team)
+    ids = [r['id'] for r in row['roster']]
+    doc = _lineups(conn)
+    cur = doc.get(str(team)) or {'order': ids, 'shirts': {r['id']: r['shirt'] for r in row['roster']}, 'formation': row['formation'], 'kits': row.get('kits') or []}
+    cur['captain'] = str(captain) if str(captain) in ids else row['captain']
+    ks = [(str(k) if k is not None and str(k) in ids else None) for k in (kickers or [])][:6]
+    cur['kickers'] = ks + [None] * (6 - len(ks))
+    doc[str(team)] = cur
+    _store().set_meta(conn, KEY, json.dumps(doc, separators=(',', ':')))
+    try:
+        conn.commit()
+    except Exception:
+        pass
+    return roles_get(conn, s, team)
+
+
+def _find_plan(node):
+    if isinstance(node, dict):
+        if isinstance(node.get('match_plan_settings'), dict) and isinstance(node.get('player_list'), list) is False:
+            pass
+        sd = node.get('squad_data') if isinstance(node.get('squad_data'), dict) else None
+        if sd and isinstance(sd.get('player_list'), list):
+            return sd
+        for v in node.values():
+            r = _find_plan(v)
+            if r:
+                return r
+    elif isinstance(node, list):
+        for v in node:
+            r = _find_plan(v)
+            if r:
+                return r
+    return None
+
+
+def apply_roles(conn, team, payload):
+    """Captain and set-piece takers saved for a CPU club (Master League Transfer / the web editor) into its match squad."""
+    saved = _lineups(conn).get(str(team))
+    if not saved or not payload:
+        return payload
+    sd = _find_plan(payload)
+    if not sd:
+        return payload
+    slots = {}
+    for i, p in enumerate(sd['player_list']):
+        g = (p or {}).get('gameplayer_id') or {}
+        if g.get('id') is not None:
+            slots[str(g['id'])] = i
+    plan = ((sd.get('squad_gameplan') or {}).get('match_plan_settings'))
+    if not isinstance(plan, dict):
+        return payload
+    if saved.get('captain') in slots:
+        plan['captain'] = slots[saved['captain']]
+    spt = list(plan.get('set_piece_taker') or [255] * 6)
+    for i, k in enumerate((saved.get('kickers') or [])[:6]):
+        if k in slots and i < len(spt):
+            spt[i] = slots[k]
+    plan['set_piece_taker'] = spt
+    shirts = saved.get('shirts') or {}
+    for p in sd['player_list']:
+        g = (p or {}).get('gameplayer_id') or {}
+        sh = shirts.get(str(g.get('id')))
+        if sh and 1 <= int(sh) <= 99:
+            p['uniform_number'] = int(sh)
+    _state['roles_applied'] = _state.get('roles_applied', 0) + 1
+    return payload
+
+
+def install_roles():
+    try:
+        import my_league as ML
+        if getattr(ML._opponent_squad, '_rc29_roles', False):
+            return
+        orig = ML._opponent_squad
+
+        def _opponent_squad(conn, team):
+            out = orig(conn, team)
+            try:
+                out = apply_roles(conn, int(team), out)
+            except Exception as exc:
+                _state['roles_error'] = repr(exc)[:200]
+            return out
+        _opponent_squad._rc29_roles = True
+        ML._opponent_squad = _opponent_squad
+    except Exception as exc:
+        _state['roles_install'] = repr(exc)[:200]

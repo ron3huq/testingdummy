@@ -11,6 +11,12 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.18: đội hình của tôi trong ML, vai trò cầu thủ, Champions League 2017 đá thật
+- Master League - "Play with: My squad" (menu chính, khung bên phải): ML dùng 23 thẻ của đội chính (như My League). Bước đồng bộ đội hình sang save ML (chỗ hay lỗi "switch-failed" / 0 cầu thủ) không cần nữa. Bấm "Club squad" để trả lại cầu thủ CLB.
+- Editor ML: nút "Captain & set pieces" cho từng CLB máy: đội trưởng, đá phạt dài / ngắn / phụ, phạt góc trái / phải, penalty. Được đưa vào đội hình đối thủ khi vào trận. Đội của bạn: chỉnh trong Game Plan của game.
+- Champions League 2017 (trước là Y17 Champions League): đá thật trong My League -> Y17 Champion League. Giải này giờ 33 vòng (3 lượt). Trang Champions League 2017 tự lấy kết quả thật (cả 6 trận mỗi vòng, người ghi bàn / kiến tạo thật trong trận của bạn) để làm BXH, vua phá lưới, news, phỏng vấn, Quả bóng vàng. Bỏ chế độ simulate.
+- Giao diện Champions League 2017 làm lại, bỏ chữ "Y17".
+
 ## RC29.17: giải Y17 Champions League riêng, news ML kiểu bình luận viên, lịch ngẫu nhiên, miniface không cache
 - Menu chính Master League có mục mới "Y17 Champions League": giải riêng hoàn toàn (dữ liệu và 5 ô save riêng trong work/tools/rc29_y17), không đụng Master League / My League.
   12 CLB 2017, mỗi cặp gặp nhau 3 lần = 33 vòng. Barça và Real Madrid mạnh nhất, Bayern / Juventus / Liverpool bám sát, có "ngựa ô" mỗi mùa.
