@@ -144,8 +144,15 @@ def _in_ml():
         return False
 
 
+ENABLED = False   # RC29.10: off until verified on a phone (a played Master League match must be exactly V32: nothing touches the served squads)
+
+
 def install():
     if _state['installed']:
+        return _state
+    if not ENABLED:
+        _state['installed'] = True
+        _state['disabled'] = 'RC29.10 safety: skills/stadium hooks off'
         return _state
     try:
         import club_store as store

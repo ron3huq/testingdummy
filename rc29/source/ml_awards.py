@@ -315,6 +315,11 @@ def fixture(conn, s, q):
 
 def install():
     import iml_rollover as RO, iml_host as HO
+    try:
+        import iml_leagues
+        iml_leagues.TOP = 30          # league pages list 30 scorers / assisters (the full-table view)
+    except Exception:
+        pass
     advance = RO.advance
     @functools.wraps(advance)
     def advance_with_awards(conn):
