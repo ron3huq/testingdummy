@@ -40,6 +40,11 @@ if not getattr(_pr, '_rc27_hooked', False):
                 ml_transfer.install()
             except Exception:
                 pass
+            try:
+                import ml_guard
+                ml_guard.install()
+            except Exception:
+                pass
             return result
         namespace['initialize'] = initialize
     def exec_into(name, namespace):

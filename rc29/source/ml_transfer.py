@@ -144,7 +144,9 @@ def _list(conn, s, req):
         if q and q not in name.lower() and q != str(c['team']):
             continue
         teams.append({'id': c['team'], 'name': name + (' (your club)' if c['team'] == me else ''), 'edited': str(c['team']) in saved, 'ready': True})
-    return {'teams': teams, 'leagues': [{'id': ML_CID, 'name': 'Master League'}]}
+    import transfer_editor as T
+    return {'teams': teams, 'competition': ML_CID, 'leagues': [{'id': ML_CID, 'name': 'Master League', 'teams': [t['id'] for t in teams]}],
+            'roles': T.catalog()['roles']}
 
 
 def _get(conn, s, req):
@@ -152,7 +154,7 @@ def _get(conn, s, req):
     row = _row(conn, s, req.get('team_id'))
     out = copy.deepcopy(row)
     out['revision'] = _revision(row)
-    return {'ready': True, 'team': out, 'formation_choices': T.formation_choices(), 'roles': T.catalog()['roles'],
+    return {'ready': True, 'competition': ML_CID, 'team_id': int(req.get('team_id')), 'team': out, 'formation_choices': T.formation_choices(), 'roles': T.catalog()['roles'],
             'kit_teams': [{'id': c['team'], 'name': c['name']} for cid, c, l in _clubs(conn, s)]}
 
 
@@ -181,7 +183,7 @@ def _save(conn, s, req):
         if str(p.get('card')) in doc[str(team)]['shirts'] and str(p.get('club')) == str(team):
             p['shirt'] = doc[str(team)]['shirts'][str(p.get('card'))]
     E._save(conn, s, cid, w)
-    return {'saved': True, 'teams': 1}
+    return {'saved': True, 'teams': 1, 'competition': ML_CID}
 
 
 def _move(conn, s, req):
@@ -203,7 +205,7 @@ def _move(conn, s, req):
         if t in doc:
             doc[t]['order'] = [x for x in doc[t].get('order') or [] if x != card]
     _store().set_meta(conn, KEY, json.dumps(doc, separators=(',', ':')))
-    return {'saved': True, 'teams': 2}
+    return {'saved': True, 'teams': 2, 'competition': ML_CID}
 
 
 def _player(conn, s, action, req, game_conn):

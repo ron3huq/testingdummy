@@ -11,6 +11,12 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.16: sửa ML Transfer ngoài launcher, tự sửa đội hình trống, Editor số áo, face Yan Diomande
+- Launcher "Master League Transfer": hết lỗi org.json.JSONException "no value for competition". Màn hình dùng đúng Transfer của RC26 (sửa số áo, đội trưởng, penalty, đá phạt, thêm cầu thủ theo ID).
+- Vào trận ML: trước khi kiểm tra đội hình và khi chuyển sang save ML, nếu đội hình ML trống (0/23) sẽ tự dựng lại 23 cầu thủ của CLB.
+- Editor web: bỏ ô "Find a player"; danh sách CLB hiện % sức mạnh; sửa số áo trực tiếp (không trùng số).
+- Yan Diomande (ML, ID 56164297650152) dùng model/face của Yan Diomande Real Madrid trong My League (176104), da đen.
+
 ## RC29.15: hết lag khi sang ngày, Editor: sức mạnh CLB và thêm cầu thủ theo ID
 - Sửa lag: danh sách UCL mới khiến thuật toán bốc thăm của V32 chạy rất lâu (13 CLB bị tính cùng một nước) mỗi lần sang ngày / mở trang. Nay mỗi CLB đúng quốc gia: sang ngày ~0,06 giây. Bỏ việc đọc lại dữ liệu 5 giải mỗi 90 giây.
 - Editor: thanh "Club strength" 60–150% cho CLB máy; ô thêm cầu thủ theo ID thẻ, số áo (không trùng), vị trí, CA.

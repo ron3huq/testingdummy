@@ -78,7 +78,12 @@ def leagues(conn, s):
         for tid, c in clubs.items():
             sq = [p for p in ps if str(p.get('club')) == str(tid)]
             top = sorted((float(p.get('ca') or 0) for p in sq), reverse=True)[:11]
-            rows.append({'team': int(tid), 'name': _team_name(tid, c), 'n': len(sq), 'level': round(sum(top) / max(1, len(top)), 1), 'mine': int(tid) == me})
+            try:
+                import ml_dynamics as D
+                pct = D.club_pct(tid)
+            except Exception:
+                pct = 100
+            rows.append({'team': int(tid), 'name': _team_name(tid, c), 'n': len(sq), 'level': round(sum(top) / max(1, len(top)), 1), 'mine': int(tid) == me, 'strength': pct})
         rows.sort(key=lambda r: -r['level'])
         out.append({'cid': cid, 'name': NAMES.get(cid, str(cid)), 'own': cid == _own(s), 'clubs': rows})
     return {'leagues': out, 'team': me}
@@ -283,6 +288,19 @@ def api(conn, s, method, path, body):
         if int(data.get('team') or 0) == int(s.get('team_id') or 0):
             return {'error': 'locked', 'reason': 'Your own club plays at its real strength.'}
         return {'ok': True, 'strength': D.set_club(conn, int(data.get('team')), data.get('pct'))}
+    if method == 'POST' and parts[0] == 'shirt':
+        cid, pid, no = int(data.get('cid')), str(data.get('pid')), int(data.get('shirt') or 0)
+        w = _load(conn, s, cid)
+        p = ((w or {}).get('players') or {}).get(pid)
+        if not p or not 1 <= no <= 99:
+            return {'error': 'bad', 'reason': 'Shirt numbers are 1-99.'}
+        if int(p.get('club') or 0) == int(s.get('team_id') or 0):
+            return {'error': 'locked', 'reason': 'Your own squad numbers are set in the Squad page.'}
+        if any(q is not p and str(q.get('club')) == str(p.get('club')) and q.get('status') == 'active' and int(q.get('shirt') or 0) == no for q in w['players'].values()):
+            return {'error': 'shirt', 'reason': 'Shirt number %d is already taken at this club.' % no}
+        p['shirt'] = no
+        _save(conn, s, cid, w)
+        return {'ok': True}
     if method == 'POST' and parts[0] == 'role':
         return set_role(conn, s, data)
     if method == 'POST' and parts[0] == 'add':
