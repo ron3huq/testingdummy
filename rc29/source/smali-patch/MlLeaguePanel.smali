@@ -1339,6 +1339,11 @@
 .method private faceFile(Ljava/lang/String;)Ljava/io/File;
     .registers 5
 
+    # RC29.17: no disk face cache - every miniface is rendered fresh from the game data
+    const/4 v0, 0x0
+
+    return-object v0
+
     .line 295
     new-instance v0, Ljava/io/File;
 

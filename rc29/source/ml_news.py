@@ -196,11 +196,31 @@ def _article(it, f, tp, t1, t2, snap_day, lg_id, rnd, name, sqcache, pn=None):
     win = home if hg > ag else away if ag > hg else None
     lose = (away if win == home else home) if win else None
     paras = []
-    if win:
+    try:
+        import ml_commentary as CM
+        seed = 'art:%s' % it.get('id')
+        paras.append(CM.scene(home, away, name, seed, rnd))
+        paras.extend(CM.lines(timeline, home, away, seed))
+        if not timeline:
+            paras.append(rng.choice(['Chances came and went. The woodwork rattled, the keepers were heroes, and the net stayed untouched.',
+                                     'Both keepers produced saves worthy of a highlights reel. Nobody could find the final touch.']))
+        paras.append(CM.verdict(home, away, hg, ag, name, seed))
+        voices = []
+        for t in (home, away):
+            sit = 'draw' if not win else 'win' if t == win else 'loss'
+            if COACH.get(t):
+                voices.append({'who': COACH[t], 'team': t, 'role': name(t) + ' manager', 'text': CM.boss_line(COACH[t], sit, seed)})
+        fancy = True
+    except Exception:
+        fancy = False
+        voices = []
+    if fancy:
+        pass
+    elif win:
         paras.append(rng.choice(OPEN['win']).format(w=name(win), l=name(lose), wcity=name(win)))
     else:
         paras.append(rng.choice(OPEN['draw']))
-    if timeline:
+    if timeline and not fancy:
         bits = []
         for g in timeline:
             s = rng.choice(GOAL_V).format(p=g['name'], m=g['min'])
@@ -211,7 +231,7 @@ def _article(it, f, tp, t1, t2, snap_day, lg_id, rnd, name, sqcache, pn=None):
         late = [g for g in timeline if g['min'] >= 85]
         if late and abs(hg - ag) <= 1 and win and late[-1]['team'] == win:
             paras.append('The drama was saved for the death: %s settled the nerves in the %dth minute and the stadium erupted.' % (late[-1]['name'], late[-1]['min']))
-    else:
+    elif not fancy:
         paras.append('Chances were few and far between; both goalkeepers handled everything that came their way.')
     allp = [(p, sides[sd][0]) for sd in ('home', 'away') for p in sides[sd][1]]
     best = max(allp, key=lambda x: x[0]['r']) if allp else None
@@ -226,9 +246,13 @@ def _article(it, f, tp, t1, t2, snap_day, lg_id, rnd, name, sqcache, pn=None):
     ratings = {sd: [{'name': p['name'], 'pid': p.get('pid'), 'r': p['r'], 'g': p['g'], 'a': p['a']} for p in sides[sd][1][:5]] for sd in ('home', 'away')}
     pq = None
     if best and best[0]['g'] + best[0]['a'] > 0:
-        pq = {'q': rng.choice(PLAYER_Q), 'by': best[0]['name']}
+        try:
+            import ml_commentary as CM
+            pq = {'q': CM.player_line(best[0]['name'], 'score', 'art:%s' % it.get('id')), 'by': best[0]['name']}
+        except Exception:
+            pq = {'q': rng.choice(PLAYER_Q), 'by': best[0]['name']}
     return {'paras': paras, 'timeline': timeline, 'stats': stats, 'home': home, 'away': away, 'score': [hg, ag], 'ratings': ratings,
-            'motm': {'name': best[0]['name'], 'pid': best[0].get('pid'), 'r': best[0]['r'], 'team': best[1]} if best else None, 'player_quote': pq}
+            'motm': {'name': best[0]['name'], 'pid': best[0].get('pid'), 'r': best[0]['r'], 'team': best[1]} if best else None, 'player_quote': pq, 'voices': voices}
 
 
 _conn_ref = {'c': None}

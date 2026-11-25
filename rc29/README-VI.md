@@ -11,6 +11,18 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.17: giải Y17 Champions League riêng, news ML kiểu bình luận viên, lịch ngẫu nhiên, miniface không cache
+- Menu chính Master League có mục mới "Y17 Champions League": giải riêng hoàn toàn (dữ liệu và 5 ô save riêng trong work/tools/rc29_y17), không đụng Master League / My League.
+  12 CLB 2017, mỗi cặp gặp nhau 3 lần = 33 vòng. Barça và Real Madrid mạnh nhất, Bayern / Juventus / Liverpool bám sát, có "ngựa ô" mỗi mùa.
+  Ghi bàn / kiến tạo theo vị trí, ngôi sao, phong độ nóng / lạnh, cầu thủ bùng nổ bất ngờ; Messi và Ronaldo đua nhau. Không có điểm trung bình.
+  Cuối mùa: lễ trao giải (vô địch, Chiếc giày vàng, Quả bóng vàng Y17 top 3, Kiến tạo, Găng tay vàng, Đội hình tiêu biểu), lịch sử các mùa.
+  News Y17: tường thuật kiểu bình luận viên, phỏng vấn theo tính cách, họp báo đấu trí trước trận lớn, khủng hoảng, chuỗi bất bại, phong độ, cuộc đua Messi - Ronaldo.
+  Mỗi vòng: bấm "Simulate" hoặc nhập tỉ số bạn tự đá (ví dụ trong My League Y17).
+  Đội hình Y17: bỏ trùng, thêm cầu thủ giai đoạn 2013-2019 có trong dữ liệu game (mỗi người một CLB). Ảnh nhỏ dùng nền như Master League, thẻ cầu thủ dùng nền Big Time.
+- News Master League: bài trận đấu viết như bình luận viên (từng bàn thắng theo phút, bối cảnh, câu hô), lời HLV theo tính cách, câu nói cầu thủ.
+- Lịch thi đấu Master League: mỗi mùa mới xáo trộn thứ tự vòng (giữ đúng các cặp đấu, nhịp sân nhà / sân khách).
+- Miniface: bỏ bộ nhớ đệm trên đĩa, ảnh luôn lấy mới từ dữ liệu game.
+
 ## RC29.16: sửa ML Transfer ngoài launcher, tự sửa đội hình trống, Editor số áo, face Yan Diomande
 - Launcher "Master League Transfer": hết lỗi org.json.JSONException "no value for competition". Màn hình dùng đúng Transfer của RC26 (sửa số áo, đội trưởng, penalty, đá phạt, thêm cầu thủ theo ID).
 - Vào trận ML: trước khi kiểm tra đội hình và khi chuyển sang save ML, nếu đội hình ML trống (0/23) sẽ tự dựng lại 23 cầu thủ của CLB.

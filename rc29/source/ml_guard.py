@@ -74,6 +74,7 @@ def install():
     except Exception as exc:
         _state['install_switch'] = repr(exc)
     install_models()
+    install_shuffle()
     return _state
 
 
@@ -112,3 +113,84 @@ def install_models():
         _state['models'] = 'ok'
     except Exception as exc:
         _state['models'] = repr(exc)[:200]
+
+
+# ------------------------------------------------------------------ RC29.17: a fresh, realistic fixture order every season
+def _shuffle_rounds(rounds, seed):
+    """Permute two-round blocks inside each half of the season (home/away rhythm kept: no team gets more than two home or away games
+    in a row from the shuffle), and never the same pair in consecutive rounds across a block border."""
+    import random
+    r = random.Random(seed)
+    n = len(rounds)
+    half = n // 2
+    out = []
+    for lo, hi in ((0, half), (half, n)):
+        blocks = [rounds[i:i + 2] for i in range(lo, hi, 2)]
+        best = None
+        for _ in range(60):
+            r.shuffle(blocks)
+            flat = [x for b in blocks for x in b]
+            prev = out[-1:] + flat
+            ok = True
+            for a, b in zip(prev, prev[1:]):
+                pa = {frozenset((m['home_team_id'], m['away_team_id'])) for m in a}
+                if any(frozenset((m['home_team_id'], m['away_team_id'])) in pa for m in b):
+                    ok = False
+                    break
+            if ok:
+                best = flat
+                break
+        out.extend(best or [x for b in blocks for x in b])
+    return out
+
+
+def shuffle_schedule(conn):
+    try:
+        import my_league as ML
+        s = ML.state(conn)
+        if not isinstance(s, dict) or not s.get('schedule_v2') or s.get('played') or int(s.get('fixture') or 1) != 1:
+            return False
+        season = int(s.get('season') or 1)
+        if s.get('rc29_shuffle') == season:
+            return False
+        sch = s['schedule_v2']
+        lists = [rd.get('match_list') or [] for rd in sch]
+        import random
+        new = _shuffle_rounds(lists, random.randrange(1, 10 ** 9))
+        for rd, ml in zip(sch, new):
+            rd['match_list'] = ml
+        s['rc29_shuffle'] = season
+        ML.save(conn, s)
+        try:
+            conn.commit()
+        except Exception:
+            pass
+        _state['shuffled'] = season
+        return True
+    except Exception as exc:
+        _state['shuffle'] = repr(exc)[:200]
+        return False
+
+
+def install_shuffle():
+    try:
+        import iml_host as HO
+        orig = HO.api
+
+        def api(logic, method, path, body=''):
+            if str(path).split('?')[0] == '/api/state':
+                c = None
+                try:
+                    c = HO._open_ml(HO._main_conn(logic))
+                    shuffle_schedule(c)
+                except Exception:
+                    pass
+                finally:
+                    try:
+                        c and c.close()
+                    except Exception:
+                        pass
+            return orig(logic, method, path, body)
+        HO.api = api
+    except Exception as exc:
+        _state['install_shuffle'] = repr(exc)[:200]
