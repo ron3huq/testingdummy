@@ -11,6 +11,9 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.21: thẻ Messi v Ronaldo theo thông số
+- Các hàng cùng cỡ: Goals, Assists, Man of the match, Hat-tricks, Big games G+A (trận với top 4 và El Clásico), Ballon d'Or; VS ở giữa; thanh Ballon d'Or race. Bỏ hàng Clásico riêng.
+
 ## RC29.20: thẻ Messi · Ronaldo gọn, ảnh thẻ như Master League
 - Home: thẻ Messi v Ronaldo dùng ảnh tròn, số bàn ở giữa, 4 hàng (kiến tạo, bàn quyết định, El Clásico, cầu thủ hay nhất trận) và thanh Ballon d'Or race.
 - Thẻ cầu thủ (đội hình, giải thưởng, lễ trao giải, MOTM) dùng ảnh thẻ thật của game như Master League, bỏ nền Del Piero.

@@ -768,6 +768,7 @@ def view(st):
             bl = next((x for x in _bal_all if x['pid'] == pid), None)
             duel[key.split()[1]] = {'pid': pid, 'name': own[pid][1], 'team': own[pid][0], 'g': stats['g'].get(pid, 0), 'a': stats['a'].get(pid, 0),
                                     'win': im.get('win', 0), 'cg': im.get('cg', 0), 'ca': im.get('ca', 0), 'cm': im.get('cm', 0), 'carry': im.get('carry', 0),
+                                    'big': im.get('bg', 0) + im.get('ba', 0) + im.get('cg', 0) + im.get('ca', 0),
                                     'bscore': bl['score'] if bl else 0, 'brank': bl['rank'] if bl else None,
                                     'motm': stats['motm'].get(pid, 0), 'hat': stats['hat'].get(pid, 0), 'form': st['pform'].get(str(pid), 0),
                                     'ballons': sum(1 for h in st['history'] if h.get('ballon') and h['ballon']['pid'] == pid),
