@@ -56,6 +56,12 @@ if not getattr(_pr, '_rc27_hooked', False):
                 y17_league.install_kick()
             except Exception:
                 pass
+            try:
+                import ml_diag
+                ml_diag.install()
+                ml_diag.install_api()
+            except Exception:
+                pass
             return result
         namespace['initialize'] = initialize
     def exec_into(name, namespace):

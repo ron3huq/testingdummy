@@ -11,6 +11,10 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.23: nhật ký lỗi vào trận, logo màn chờ trận
+- Lỗi "Network Error C_RTMC_9999" khi vào trận ML / Champions League 2017: bản này ghi lại lệnh nào lỗi và vì sao vào mục "resource-presence-status.json" của Runtime diagnostics (cùng trạng thái vào trận, save đang dùng, 40 sự kiện gần nhất của ML). Gửi lại bản diagnostics sau khi gặp lỗi.
+- Màn chờ vào trận Champions League 2017: logo hai đội đúng (trước đây lấy nhầm mã đội nên ra logo Inter...).
+
 ## RC29.22: thẻ Messi v Ronaldo theo thông số
 - Các hàng cùng cỡ: Goals, Assists, Man of the match, Hat-tricks, G+A (tổng bàn + kiến tạo), Ballon d'Or; VS ở giữa; thanh Ballon d'Or race. Bỏ hàng Clásico riêng.
 
