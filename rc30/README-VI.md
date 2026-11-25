@@ -9,3 +9,4 @@
 - Ghi bàn / kiến tạo đội máy theo mùa 2016/17: Messi, Ronaldo khoảng 40-50% bàn của đội; Suárez, Neymar, Lewandowski, Kane, Cavani, Salah, Agüero, Griezmann, Džeko, Dybala, Costa...; kiến tạo De Bruyne, Eriksen, Messi, Neymar, Di María, Müller, Kroos, Modrić...
 - Tỉ số Y17 giữa các đội lớn: ít 0-0, nhiều trận mở.
 - Tên CLB đầy đủ cho UCL và Y17 (Paris Saint-Germain, FC Bayern München, Atlético de Madrid, Tottenham Hotspur, Inter, AC Milan, Napoli...).
+- Ảnh thẻ Ronaldo 2017: thẻ 88042803047215 (thẻ Honda đã áp Ronaldo) và 88044950524330 luôn hiện ảnh Ronaldo, cả ảnh mini 128x128 lẫn ảnh thẻ lớn 184x256 (nền xám), qua cơ chế ảnh tùy chỉnh của game. Ảnh bạn tự nhập sau đó vẫn thay được.
