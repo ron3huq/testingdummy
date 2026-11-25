@@ -18,7 +18,7 @@
   - Chelsea 2016/17: bỏ Hazard, Lampard, Mata, Čech, Oscar; thêm Begović (1), Chalobah (14), Aké (16), Christensen (27); Costa ở lại Chelsea.
   - Juventus: bỏ Alves, Pirlo, Pogba, Vidal, Thuram; thêm Szczęsny (23), Douglas Costa (11), Lemina (18), Rincón (28), Pjaca (20), Rugani (24), Kean (34); Benatia ở Juve.
   - Bayern: bỏ Benatia, Bernat, Ulreich; thêm Javi Martínez (8).
-  - Liverpool 2017/18: bỏ Alisson, Fabinho, Shaqiri, Origi, Mignolet bắt chính; thêm Emre Can (23), Alberto Moreno (18).
+  - Liverpool 2017/18: bỏ Alisson, Fabinho, Shaqiri, Origi, thêm Emre Can (23), Alberto Moreno (18).
   - PSG: bỏ Zlatan, Sirigu; thêm Mbappé (29), Lo Celso (18); Alves, Lucas Moura ở PSG.
   - Man City: thêm Bernardo Silva (20).
   - Atlético: bỏ Diego Costa, Forlán, Trippier; thêm Santiago Arias (4), Thomas Partey (5), Vietto (20).
@@ -27,3 +27,8 @@
   - Man United: bỏ Rooney, Fletcher, Evans, Blind; thêm Lukaku (9), Lindelöf (2), Luke Shaw (23).
 - Dữ liệu game không có nhiều cầu thủ thời đó (Pjanić, Khedira, Matuidi, Higuaín, Mandžukić, Boateng, Robben, Dele Alli, Dembélé (Spurs), Fàbregas, Nainggolan, Manolas, Juanfran, Filipe Luís...) nên chỉ dùng người có thẻ trong game.
 - Messi và Ronaldo (đội máy): 33-37 bàn mỗi mùa 33 trận, theo nhịp từng mùa; vẫn có trận tịt ngòi khi gặp đội khó.
+
+## RC30.3
+- Launcher có thêm tab **League** (biểu tượng cúp ở thanh dưới): bảng xếp hạng, Top scorers, Top assists của mùa My League đang đá (cả trận máy lẫn trận bạn đá, lấy đúng người ghi bàn/kiến tạo).
+- Cuối mùa tự bật **Season review** 5 trang: Nhà vô địch → Mùa giải của bạn → Chiếc giày vàng → Playmaker → Số liệu (hàng công/thủ tốt nhất, chân sút số 1 của bạn). Có nút xem lại bất cứ lúc nào.
+- Tên giải hiển thị: "Champions League 2016/17" (Y17), "UEFA Champions League" (122).
