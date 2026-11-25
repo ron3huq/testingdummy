@@ -82,6 +82,7 @@ def rewrite(conn, s, d):
     for l in d.get('leagues') or []:
         l['name'] = LG.get(int(l.get('id') or 0), l.get('name'))
     d['language'] = 'en'
+    add_articles(conn, s, d)
     return d
 
 
@@ -148,3 +149,121 @@ def _one(it, name):
                                    'We have followed him for a long time. Welcome!']), COACH.get(t1, f['w'] + ' head coach')
     it['body'] = b + (f'\n“{q}” — {by}' if q else '')
     it['league'] = lg
+
+
+# ------------------------------------------------------------------ full match articles (tap a story)
+OPEN = {
+    'win': ['Under the lights, {w} delivered exactly the performance their supporters had demanded.',
+            'It was a night that will be replayed for weeks in {wcity}: {w} were sharper, braver and more clinical.',
+            'From the first whistle the tempo belonged to {w}, and {l} spent long spells chasing shadows.'],
+    'draw': ['Neither side blinked in a contest that swung like a pendulum.', 'Two teams, two plans, and in the end nothing to separate them.',
+             'A game of chess played at full sprint finished with the points shared.'],
+}
+GOAL_V = ['{p} struck in the {m}th minute', '{p} found the net on {m} minutes', 'on {m} minutes {p} made it count', '{p} pounced in the {m}th minute']
+ASSIST_V = ['after {a} had carved the defence open', 'from a perfectly weighted ball by {a}', 'following clever work from {a}', 'converting {a}\'s cross']
+STAR_V = ['{p} was the heartbeat of the side, finishing with a rating of {r}.', 'Nobody on the pitch matched {p}, who earned a {r} from our analysts.',
+          '{p} turned in a display of real authority ({r}): every big moment seemed to go through him.']
+PLAYER_Q = ['The team worked so hard for this. I just tried to help.', 'We knew this game was important. We showed character.',
+            'I feel good, I feel confident. More to come.', 'The fans were incredible today. That one was for them.']
+
+
+def _article(it, f, tp, t1, t2, snap_day, lg_id, rnd, name, sqcache, pn=None):
+    import ml_awards as A, iml_world_leagues as W, ml_realism as M
+    m = None
+    for x in (snap_day or {}).get('matches') or []:
+        if {int(x['home_team_id']), int(x['away_team_id'])} == {t1, t2}:
+            m = x
+            break
+    if m is None:
+        return None
+    home, away = int(m['home_team_id']), int(m['away_team_id'])
+    hg, ag = int(m['home_goals']), int(m['away_goals'])
+    rows = [r for r in snap_day.get('ps') or [] if int(r[0]) in (home, away)]
+    pn = pn or {}
+    nm = lambda pid: pn.get(str(pid)) or (M._name(pid) if str(pid).isdigit() else str(pid))
+    try:
+        lw = W.open_league(_conn_ref['c'], int(lg_id))
+    except Exception:
+        lw = None
+    goals, sides = A._match_ratings(str(lg_id), str(rnd), m, rows, lw, nm, sqcache)
+    rng = random.Random(zlib.crc32(('art:%s' % it.get('id')).encode()))
+    mins = sorted(rng.sample(range(4, 91), len(goals))) if goals and len(goals) < 80 else []
+    rng.shuffle(goals)
+    timeline = []
+    for g, mi in zip(goals, mins):
+        timeline.append({'min': mi, 'team': g['team'], 'name': g['name'], 'assist': g.get('assist')})
+    timeline.sort(key=lambda x: x['min'])
+    win = home if hg > ag else away if ag > hg else None
+    lose = (away if win == home else home) if win else None
+    paras = []
+    if win:
+        paras.append(rng.choice(OPEN['win']).format(w=name(win), l=name(lose), wcity=name(win)))
+    else:
+        paras.append(rng.choice(OPEN['draw']))
+    if timeline:
+        bits = []
+        for g in timeline:
+            s = rng.choice(GOAL_V).format(p=g['name'], m=g['min'])
+            if g['assist']:
+                s += ', ' + rng.choice(ASSIST_V).format(a=g['assist'])
+            bits.append(s + ('' if len({x['team'] for x in timeline}) == 1 else ' (' + name(g['team']) + ')'))
+        paras.append(bits[0][0].upper() + bits[0][1:] + '. ' + ' '.join(b[0].upper() + b[1:] + '.' for b in bits[1:]))
+        late = [g for g in timeline if g['min'] >= 85]
+        if late and abs(hg - ag) <= 1 and win and late[-1]['team'] == win:
+            paras.append('The drama was saved for the death: %s settled the nerves in the %dth minute and the stadium erupted.' % (late[-1]['name'], late[-1]['min']))
+    else:
+        paras.append('Chances were few and far between; both goalkeepers handled everything that came their way.')
+    allp = [(p, sides[sd][0]) for sd in ('home', 'away') for p in sides[sd][1]]
+    best = max(allp, key=lambda x: x[0]['r']) if allp else None
+    if best:
+        paras.append(rng.choice(STAR_V).format(p=best[0]['name'], r='%.1f' % best[0]['r']))
+    hs, as_ = 0.5 + (hg - ag) * 0.03 + rng.uniform(-0.06, 0.06), None
+    poss = max(32, min(68, int(round(hs * 100))))
+    sh_h = max(hg + 2, int(rng.gauss(11 + 2 * (hg - ag), 3))); sh_a = max(ag + 2, int(rng.gauss(11 + 2 * (ag - hg), 3)))
+    stats = [['Possession', '%d%%' % poss, '%d%%' % (100 - poss)], ['Shots', sh_h, sh_a],
+             ['On target', max(hg, min(sh_h, hg + rng.randint(1, 4))), max(ag, min(sh_a, ag + rng.randint(1, 4)))],
+             ['Corners', rng.randint(2, 9), rng.randint(2, 9)]]
+    ratings = {sd: [{'name': p['name'], 'pid': p.get('pid'), 'r': p['r'], 'g': p['g'], 'a': p['a']} for p in sides[sd][1][:5]] for sd in ('home', 'away')}
+    pq = None
+    if best and best[0]['g'] + best[0]['a'] > 0:
+        pq = {'q': rng.choice(PLAYER_Q), 'by': best[0]['name']}
+    return {'paras': paras, 'timeline': timeline, 'stats': stats, 'home': home, 'away': away, 'score': [hg, ag], 'ratings': ratings,
+            'motm': {'name': best[0]['name'], 'pid': best[0].get('pid'), 'r': best[0]['r'], 'team': best[1]} if best else None, 'player_quote': pq}
+
+
+_conn_ref = {'c': None}
+
+
+def add_articles(conn, s, d):
+    try:
+        import iml_news_leagues as nl
+        snaps = (nl.load(conn, s) or {}).get('leagues') or {}
+    except Exception:
+        return d
+    _conn_ref['c'] = conn
+    nm = _team_names(conn, s)
+    name = lambda t: nm.get(int(t), '') if t is not None else ''
+    sqcache = {}
+    for it in d.get('items') or []:
+        try:
+            tp = it.get('topic')
+            if tp not in ('big_win', 'heavy_loss', 'narrow', 'draw', 'goalless', 'shootout', 'shutout', 'match_home'):
+                continue
+            teams = [int(t) for t in it.get('teams') or []]
+            lg = str(it.get('league_id') or '')
+            snap = snaps.get(lg) or {}
+            day = (snap.get('played') or {}).get(str(it.get('fixture')))
+            if not day:
+                continue
+            t1 = teams[0] if teams else None
+            t2 = teams[1] if len(teams) > 1 else None
+            if t2 is None:
+                for x in day.get('matches') or []:
+                    if t1 in (int(x['home_team_id']), int(x['away_team_id'])):
+                        t2 = int(x['away_team_id']) if int(x['home_team_id']) == t1 else int(x['home_team_id'])
+            art = _article(it, None, tp, t1, t2, day, lg, it.get('fixture'), name, sqcache.setdefault(lg, {}), snap.get('pn') or {})
+            if art:
+                it['article'] = art
+        except Exception:
+            pass
+    return d

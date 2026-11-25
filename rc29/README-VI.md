@@ -11,6 +11,10 @@ Hai artifact, chép cả hai (cùng gốc `assets/`):
 - Không thay `AndroidManifest.xml`, `resources.arsc`, `classes1–4.dex`.
 - Không có quỹ đạo bóng / knuckle.
 
+## RC29.13: bài tường thuật trận trong News, cột thứ hạng thẳng hàng
+- Bấm một tin trận đấu ở Home → News: bài tường thuật đầy đủ (mở bài, diễn biến bàn thắng theo phút và kiến tạo, cầu thủ hay nhất trận, lời HLV và cầu thủ, thông số trận, top cầu thủ chấm điểm hai đội).
+- Bảng xếp hạng: số thứ hạng thẳng hàng ở mọi dòng.
+
 ## RC29.12: Home → News tiếng Anh hấp dẫn, thanh màu bảng xếp hạng gọn
 - Tab News (của V32): toàn bộ tin viết lại bằng tiếng Anh, tiêu đề đa dạng kịch tính, kèm lời HLV (Arteta, Guardiola, Flick, Kompany, Simeone...).
 - Bảng xếp hạng: thanh màu dự cúp tách khỏi số thứ hạng.
