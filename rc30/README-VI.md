@@ -63,3 +63,21 @@
 
 ## RC30.9
 - **Sửa lỗi không vào được game ở RC30.8**: 5 container mặt mới (pc9504–pc9508) chỉ được ghi vào release-manifest, thiếu trong ui6-runtime-manifest (danh sách file game giải nén ra máy) → lúc đăng nhập mod tìm không thấy pc9504 và dừng. Giờ ghi vào cả hai; bước kiểm tra trước khi đẩy cũng kiểm luôn điều này.
+
+## RC30.10
+**Launcher (thiết kế lại giao diện, không đổi tính năng)**
+- Tông xanh biển mới cho mọi trang và mục con: Home, Players (danh sách, chi tiết, 5 tab Abilities/Positions/Skills/Boosters/Appearance), Player Catalogue, bộ lọc, các bảng chọn, Cards, Saves, Storage.
+- Thanh trạng thái tài nguyên chỉ ở Home; trang con có tiêu đề gọn một dòng. Bỏ các lối tắt trùng với thanh dưới; mỗi lối tắt có icon riêng (UCL cúp, World Cup quả địa cầu, Match Settings thanh trượt).
+- Tab không còn xuống 2 dòng; thanh "Select multiple / sắp xếp / lưới" gọn một hàng; giỏ hàng chỉ hiện khi đang chọn.
+- Dọn chữ Trung/Việt lẫn trong Saves, Storage, Help.
+- **Chống lag/chậm**: bỏ nền cố định khi cuộn, bỏ blur và đổ bóng nặng (nguyên nhân giật khi cuộn trong WebView); ảnh thẻ tải song song 8 ảnh, tải trước khi sắp cuộn tới; ảnh thẻ lấy từ mạng được **lưu lại trong máy** — lần sau hiện ngay, không chờ mạng.
+
+**Mặt / ảnh thẻ**
+- Thẻ **89138556572074**: mặt Ronaldo 2017 (profile NR17, cùng mặt của thẻ ảnh Honda 88042803047215) và ảnh thẻ của 89138288266704 (mini + ảnh lớn).
+- 5 mặt GLB: sửa lỗi không hiện — material tóc HQ của bộ chuyển V32 cần texture `T_4522_Hair_High_SRO` (dữ liệu CR7 của V32) mà RC26 không có; giờ dùng material tóc như mặt Ronaldo 2007 của RC26 (không phụ thuộc gì thêm). Tất cả tài nguyên ngoài mà 5 mặt cần đều là tài nguyên mặt Ronaldo 2007 cũng dùng.
+- Log chẩn đoán (`noodle-hair-status.json`) có thêm bộ đếm của hook mặt và profile/đường dẫn mặt gần nhất, để soi nếu còn lỗi.
+
+**Nhập GLB trong Card studio (như V32)**
+- Card studio có nút **◉ GLB Face**: nhập ID thẻ, chọn file .glb (≤32MB) → máy tự chuyển (bộ chuyển GLB của V32, chạy trên máy) → đóng và mở lại app là thẻ mang mặt mới. Tối đa 8 thẻ, có nút xoá.
+- Kỹ thuật: thêm lớp mã hoá texture `FaceTextureCodec` của V32 vào `classes5.dex`; thư viện numpy/Pillow (gói requirements của V32, giữ nguyên các thư viện cũ); 20 module chuyển mặt của V32 đổi tên `v32_*` để không đụng module RC26; `libnoodle_hair.so` có 8 khe mặt động (RU01–RU08) mà Python điền ID thẻ lúc chạy.
+- **Bản này có `classes5.dex` mới — nhớ chép cả `classes5.dex`.**
