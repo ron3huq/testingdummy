@@ -107,3 +107,6 @@
 - **Y17 – thẻ không có mặt**: Harry Kane dùng thẻ thường 47287 (thẻ cũ cần mẫu mặt không có trong dữ liệu). Cầu thủ không có mặt trong dữ liệu game được thay bằng cầu thủ cùng CLB có mặt: Chalobah → Loftus-Cheek, Begović → Zappacosta, Zouma → Tammy Abraham, Denis Suárez → Paulinho, Pjaca → Bernardeschi, Javi Martínez → Juan Bernat, Draxler → Paredes, Gaitán → Rodri, Mata → Daley Blind.
 - **Giao diện**: toàn bộ hộp thoại Java của launcher (Transfer, chỉnh đội, Equipment, Single Player, Diagnostics…) có nền xanh biển bo góc, nút bo góc viền xanh, nút chính gradient, ô nhập bo góc. Catalogue gọn lại: nút ←, tiêu đề và số thẻ trên một dòng.
 - **Bấm nhanh hơn**: thao tác người dùng (mở thẻ, danh sách, catalogue) luôn chạy trước. Ảnh thẻ chỉ tải khi rảnh, tối đa 2 cái một lúc, nên không còn xếp hàng sau ảnh.
+
+## RC30.14
+- **Sửa lỗi kẹt khi vào game sau đăng nhập**: game luôn tải container theo tên phẳng `/livedata/<tên file>`, nên container face GLB (pc9521…) và áo Kit Studio (pc9540) nằm trong thư mục con bị 404. Giờ chúng luôn có bản phẳng trong `livedata/` (file cũ trên máy được tự chuyển ở lần mở app tới), và khi xoá face/áo thì bản phẳng cũng xoá theo.
