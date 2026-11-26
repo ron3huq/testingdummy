@@ -110,3 +110,8 @@
 
 ## RC30.14
 - **Sửa lỗi kẹt khi vào game sau đăng nhập**: game luôn tải container theo tên phẳng `/livedata/<tên file>`, nên container face GLB (pc9521…) và áo Kit Studio (pc9540) nằm trong thư mục con bị 404. Giờ chúng luôn có bản phẳng trong `livedata/` (file cũ trên máy được tự chuyển ở lần mở app tới), và khi xoá face/áo thì bản phẳng cũng xoá theo.
+
+## RC30.15
+- **Kit Studio và GLB Face nằm trong Card studio** (web view của launcher không có bộ chọn file, nên không chọn được ảnh). Nút "Kit Studio" và "GLB Face" ở launcher mở Card studio và tự mở đúng bảng. Trong Card studio còn có nút nổi "👕 Kit Studio" phía trên "◉ GLB Face".
+- **Transfer · Edit Member → "Name & Shirt Name"**: đổi tên cầu thủ và tên in trên áo cho bất kỳ thẻ nào (không cần sở hữu). Lưu chung vào hồ sơ tên theo ID thẻ mà game áp dụng native; có hiệu lực từ lần vào game tiếp theo.
+- **Ảnh thẻ tải nhanh hơn**: gom một lần gọi cho cả màn hình thẻ (tối đa 24) thay vì mỗi thẻ một lần. Ảnh lưu trong máy được thu nhỏ đúng cỡ hiển thị (nhỏ hơn khoảng 10 lần). Ảnh chưa có thì trình duyệt tải song song, không đi qua cầu nối.
