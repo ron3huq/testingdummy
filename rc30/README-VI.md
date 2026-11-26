@@ -81,3 +81,12 @@
 - Card studio có nút **◉ GLB Face**: nhập ID thẻ, chọn file .glb (≤32MB) → máy tự chuyển (bộ chuyển GLB của V32, chạy trên máy) → đóng và mở lại app là thẻ mang mặt mới. Tối đa 8 thẻ, có nút xoá.
 - Kỹ thuật: thêm lớp mã hoá texture `FaceTextureCodec` của V32 vào `classes5.dex`; thư viện numpy/Pillow (gói requirements của V32, giữ nguyên các thư viện cũ); 20 module chuyển mặt của V32 đổi tên `v32_*` để không đụng module RC26; `libnoodle_hair.so` có 8 khe mặt động (RU01–RU08) mà Python điền ID thẻ lúc chạy.
 - **Bản này có `classes5.dex` mới — nhớ chép cả `classes5.dex`.**
+
+## RC30.11
+- **Sửa lỗi màu ảnh Ronaldo đè ảnh Honda** (thẻ 88042803047215 và 88044950524330): ảnh bị lưu sai thứ tự kênh màu (đỏ/xanh đảo) nên da xanh, áo đỏ. Đã sửa, và tự thay trên máy đã lưu bản lỗi (ảnh bạn tự nhập cho 2 thẻ này thì giữ nguyên).
+- **Chép ảnh thẻ** (Card studio → ◉ GLB Face → Copy card pictures): nhập ID thẻ nguồn và thẻ đích → chép cả ảnh mini lẫn ảnh thẻ lớn, lấy đúng ảnh gốc trong dữ liệu game (không có thì tải từ efootballhub). Thẻ 89138556572074 tự nhận ảnh gốc của 89138288266704 ngay lần mở đầu tiên.
+- **Saudi Pro League** thay Eredivisie trong My League (giải 125), 34 vòng:
+  - CLB thật trong game (đội hình, áo, logo gốc): Al Nassr, Al Hilal, Al Ahli, Al Ittihad.
+  - 14 CLB đè lên đội Hà Lan (đổi tên trong game): Al Qadsiah (Feyenoord), Al Shabab (PSV), Al Ettifaq, Al Taawoun, Al Fateh, Al Khaleej, Al Fayha, Al Riyadh, Al Okhdood, Al Kholood, Damac, Al Najma, Neom, Al Hazem.
+  - Ivan Toney (Al Ahli) và Julián Quiñones (Al Qadsiah) mỗi mùa 26–30 bàn; Al Nassr/Al Hilal mạnh nhất.
+  - Logo 14 CLB đè: chưa có (game không có dữ liệu logo các CLB này; tải logo từ Wikipedia bị chặn).
