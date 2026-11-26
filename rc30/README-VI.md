@@ -50,3 +50,13 @@
 - **Áo PSG Y17**: sân nhà = template bạn gửi (Fly Emirates, sọc đỏ giữa, Nike), số trắng; sân khách = bản trắng cùng logo, số navy. Gắn vào đội ảo "eFootball FC KIT2" (5064).
 - **Neymar sang PSG** số 10 (cánh trái, PSG 2017/18), Mbappé cánh phải, Di María lùi giữa, Draxler dự bị, Lucas Moura rời đội. Neymar ~20% bàn và ~17% kiến tạo của PSG (mô phỏng: 13–15 bàn, 9–12 kiến tạo/mùa).
 - **Barça kiểu 2018/19**: Ousmane Dembélé số 11 thay Neymar ở cánh trái.
+
+## RC30.8
+- **5 mặt GLB của bạn** chuyển bằng chính bộ chuyển GLB→mặt của V32 (chạy trên máy build), đóng thành mặt riêng như cách RC24 thêm Ronaldo 2007/2020, gắn vào 5 thẻ Cristiano Ronaldo chưa có mặt riêng:
+  - Cris05 → thẻ 52784879636906 (profile RQ05, pc9504)
+  - Criswc06 → thẻ 52847425098154 (RQ06, pc9505)
+  - cris20 → thẻ 105802492809642 (RQ20, pc9506)
+  - Cris21 → thẻ 106723780071850 (RQ21, pc9507)
+  - Ronaldo_JR → thẻ 105773233344938 (RQJR, pc9508)
+- 5 thẻ này được gắn sao sẵn trong Favorites của launcher (một lần; bỏ sao thì không tự thêm lại).
+- Lưu ý: bộ chuyển V32 tự ghi chú mặt là "gameReady: false" (pháp tuyến/SRO tạm, khớp miệng chờ engine) — cần thử trên máy.
