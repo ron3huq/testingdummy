@@ -34,3 +34,8 @@
 - Messi: luôn 33–37 bàn mỗi mùa 33 trận, khoảng 5–13 kiến tạo; đạt mốc rồi thì không ghi thêm.
 - Barça và Real chênh rõ hơn với phần còn lại; Liverpool/Juve/Bayern bám sau.
 - Trận bạn đá: Score/Assist lấy đúng người ghi bàn/kiến tạo thật trong trận.
+
+## RC30.5
+- **Sửa lỗi không vào được game** (RC30.1–30.4): `noodle_hair.py` lệch checksum với `noodle_bundle.json` → mod dừng ở BLOCKED_MOD_NOT_READY. Từ bản này mỗi build đều được kiểm tra lại toàn bộ checksum trước khi đẩy.
+- Y17: nhóm mạnh nhất Barcelona, Bayern, Juventus, Liverpool; Real (mất Ronaldo) xuống nhóm 2 cùng PSG, City, Atlético, Chelsea; Spurs, Roma, United nhóm 3.
+- Không có tab/trang thống kê riêng nào; chỉ luật giải, tỉ số và người ghi bàn/kiến tạo trong My League của game.
