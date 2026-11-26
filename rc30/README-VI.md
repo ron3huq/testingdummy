@@ -100,3 +100,10 @@
 - **Saudi Pro League**: Al Hilal mạnh nhất; top 5 luôn là Al Hilal, Al Nassr, Al Ittihad, Al Ahli, Al Qadsiah; khoảng 3 bàn/trận, hoà ~25%. Logo 14 CLB thay trong game. Al Okhdood → Abha, Damac → Al Faisaly, Al Najma → Diriyah (theo logo bạn gửi).
 - **Transfer**: có thêm giải Saudi Pro League.
 - **Thẻ 88044950524330**: ảnh thẻ Ronaldo Juventus 2020 (Big Time) và face GLB Ronaldo Juve 2020 (tự gắn ở lần mở app đầu tiên, hiện từ lần mở sau).
+
+## RC30.13
+- **Sửa lỗi không vào được game** (RC30.12: "Newer local live resource is missing or changed: pc9521"): bước kiểm tra tài nguyên lúc đăng nhập giờ tìm đúng container face GLB (pc9521–pc9528) và áo Kit Studio (pc9540) trong thư mục con của chúng.
+- **Al Qadsiah**: tiền đạo cắm đá chính được thay bằng Julián Quiñones (ID 105624788652267) trong đội hình thật. App tự lưu thành một chỉnh sửa Transfer của giải 125 khi đã có ảnh chụp đội hình (vào game 1 lần → mở lại app → vào game).
+- **Y17 – thẻ không có mặt**: Harry Kane dùng thẻ thường 47287 (thẻ cũ cần mẫu mặt không có trong dữ liệu). Cầu thủ không có mặt trong dữ liệu game được thay bằng cầu thủ cùng CLB có mặt: Chalobah → Loftus-Cheek, Begović → Zappacosta, Zouma → Tammy Abraham, Denis Suárez → Paulinho, Pjaca → Bernardeschi, Javi Martínez → Juan Bernat, Draxler → Paredes, Gaitán → Rodri, Mata → Daley Blind.
+- **Giao diện**: toàn bộ hộp thoại Java của launcher (Transfer, chỉnh đội, Equipment, Single Player, Diagnostics…) có nền xanh biển bo góc, nút bo góc viền xanh, nút chính gradient, ô nhập bo góc. Catalogue gọn lại: nút ←, tiêu đề và số thẻ trên một dòng.
+- **Bấm nhanh hơn**: thao tác người dùng (mở thẻ, danh sách, catalogue) luôn chạy trước. Ảnh thẻ chỉ tải khi rảnh, tối đa 2 cái một lúc, nên không còn xếp hàng sau ảnh.
