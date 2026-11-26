@@ -43,3 +43,10 @@
 ## RC30.6
 - **Áo Juventus My League (Y17)**: sân nhà = template trắng-đen bạn gửi (Jeep, Cygames sau lưng, scudetto, logo Serie A), sân khách = áo xanh camo bạn gửi dựng lại theo layout áo của game. Font số Adidas (như áo Real 2017), số đen trên áo nhà, trắng trên áo khách; có cả ảnh áo trong menu chọn áo.
 - Kỹ thuật: giống cách áo Real 2017 (đội 351) — texture trong gói áo pc9303 + file đồng phục trong dt870, gắn vào đội ảo "eFootball FC KIT1" (5063) nên không đè áo của câu lạc bộ thật nào; Juventus Y17 trỏ áo sang đó.
+
+## RC30.7
+- **Sửa áo Juventus không đổi**: bảng "đội → áo" của My League được biên dịch cứng trong `libselect_team.so`, RC30.6 chỉ đổi file JSON nên game vẫn dùng áo cũ. Giờ vá cả trong `.so`.
+- Font số áo Juve: đen trên áo nhà, trắng trên áo khách (RC30.6 lỡ dùng font xanh của Real).
+- **Áo PSG Y17**: sân nhà = template bạn gửi (Fly Emirates, sọc đỏ giữa, Nike), số trắng; sân khách = bản trắng cùng logo, số navy. Gắn vào đội ảo "eFootball FC KIT2" (5064).
+- **Neymar sang PSG** số 10 (cánh trái, PSG 2017/18), Mbappé cánh phải, Di María lùi giữa, Draxler dự bị, Lucas Moura rời đội. Neymar ~20% bàn và ~17% kiến tạo của PSG (mô phỏng: 13–15 bàn, 9–12 kiến tạo/mùa).
+- **Barça kiểu 2018/19**: Ousmane Dembélé số 11 thay Neymar ở cánh trái.
