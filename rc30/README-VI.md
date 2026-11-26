@@ -90,3 +90,13 @@
   - 14 CLB đè lên đội Hà Lan (đổi tên trong game): Al Qadsiah (Feyenoord), Al Shabab (PSV), Al Ettifaq, Al Taawoun, Al Fateh, Al Khaleej, Al Fayha, Al Riyadh, Al Okhdood, Al Kholood, Damac, Al Najma, Neom, Al Hazem.
   - Ivan Toney (Al Ahli) và Julián Quiñones (Al Qadsiah) mỗi mùa 26–30 bàn; Al Nassr/Al Hilal mạnh nhất.
   - Logo 14 CLB đè: chưa có (game không có dữ liệu logo các CLB này; tải logo từ Wikipedia bị chặn).
+
+## RC30.12
+- **Kit Studio** (launcher → Shortcuts → Kit Studio): chọn giải (UCL, Saudi Pro League, World Nation League, Y17, Y08) → đội → Home/Away → chọn ảnh → Preview → Save kit. Đóng và mở lại app để thấy áo trong game.
+  - "Shirt photo": ảnh áo thật (mặt trước, nền trơn; ảnh mặt sau tuỳ chọn). Thân trước lấy từ ảnh, thân sau lấy hoạ tiết áo, tay/quần/tất/cổ áo/số áo chỉnh màu được.
+  - "Kit template": texture áo PES/eFootball (ảnh vuông) dùng nguyên.
+  - Tối đa 80 áo tự tạo; nút Remove để trả lại áo gốc.
+- **Real Madrid 2017 (Y17)**: áo sân khách tím 2016/17; áo sân nhà giữ nguyên.
+- **Saudi Pro League**: Al Hilal mạnh nhất; top 5 luôn là Al Hilal, Al Nassr, Al Ittihad, Al Ahli, Al Qadsiah; khoảng 3 bàn/trận, hoà ~25%. Logo 14 CLB thay trong game. Al Okhdood → Abha, Damac → Al Faisaly, Al Najma → Diriyah (theo logo bạn gửi).
+- **Transfer**: có thêm giải Saudi Pro League.
+- **Thẻ 88044950524330**: ảnh thẻ Ronaldo Juventus 2020 (Big Time) và face GLB Ronaldo Juve 2020 (tự gắn ở lần mở app đầu tiên, hiện từ lần mở sau).
