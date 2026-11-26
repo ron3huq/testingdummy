@@ -39,3 +39,7 @@
 - **Sửa lỗi không vào được game** (RC30.1–30.4): `noodle_hair.py` lệch checksum với `noodle_bundle.json` → mod dừng ở BLOCKED_MOD_NOT_READY. Từ bản này mỗi build đều được kiểm tra lại toàn bộ checksum trước khi đẩy.
 - Y17: nhóm mạnh nhất Barcelona, Bayern, Juventus, Liverpool; Real (mất Ronaldo) xuống nhóm 2 cùng PSG, City, Atlético, Chelsea; Spurs, Roma, United nhóm 3.
 - Không có tab/trang thống kê riêng nào; chỉ luật giải, tỉ số và người ghi bàn/kiến tạo trong My League của game.
+
+## RC30.6
+- **Áo Juventus My League (Y17)**: sân nhà = template trắng-đen bạn gửi (Jeep, Cygames sau lưng, scudetto, logo Serie A), sân khách = áo xanh camo bạn gửi dựng lại theo layout áo của game. Font số Adidas (như áo Real 2017), số đen trên áo nhà, trắng trên áo khách; có cả ảnh áo trong menu chọn áo.
+- Kỹ thuật: giống cách áo Real 2017 (đội 351) — texture trong gói áo pc9303 + file đồng phục trong dt870, gắn vào đội ảo "eFootball FC KIT1" (5063) nên không đè áo của câu lạc bộ thật nào; Juventus Y17 trỏ áo sang đó.
