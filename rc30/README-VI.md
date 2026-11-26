@@ -60,3 +60,6 @@
   - Ronaldo_JR → thẻ 105773233344938 (RQJR, pc9508)
 - 5 thẻ này được gắn sao sẵn trong Favorites của launcher (một lần; bỏ sao thì không tự thêm lại).
 - Lưu ý: bộ chuyển V32 tự ghi chú mặt là "gameReady: false" (pháp tuyến/SRO tạm, khớp miệng chờ engine) — cần thử trên máy.
+
+## RC30.9
+- **Sửa lỗi không vào được game ở RC30.8**: 5 container mặt mới (pc9504–pc9508) chỉ được ghi vào release-manifest, thiếu trong ui6-runtime-manifest (danh sách file game giải nén ra máy) → lúc đăng nhập mod tìm không thấy pc9504 và dừng. Giờ ghi vào cả hai; bước kiểm tra trước khi đẩy cũng kiểm luôn điều này.
