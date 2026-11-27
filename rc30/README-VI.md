@@ -125,3 +125,7 @@
 
 ## RC30.17 (chẩn đoán face)
 - Thư viện face (libnoodle_hair.so) ghi lại 32 ID thẻ gần nhất mà game đưa vào hook nạp đầu. Diagnostics hiển thị chúng ở `rc30_face_cards`, kèm bảng slot GLB (`rc30_glb_table`) và trạng thái ghi bảng (`rc30_glb_status`), giữ lại cả sau khi thoát game. Mục đích: biết chính xác ID mà game dùng khi nạp đầu cho các thẻ Ronaldo GLB.
+
+## RC30.18
+- Thẻ **88044145348047** dùng face **CR JR** (profile RQJR, container pc9508, dùng chung với thẻ 105773233344938).
+- Vẫn giữ bộ ghi ID thẻ của hook face (RC30.17) để kiểm tra.
