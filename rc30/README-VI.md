@@ -138,3 +138,12 @@
 - Năm face tĩnh (RQ05, RQ06, RQ20, RQ21, CR JR) và mọi slot GLB nhập từ Card Studio giờ có đủ 4 tên, mỗi gói khoảng 7 MB.
 - Slot GLB nhập từ Card Studio được ưu tiên hơn face cũ của cùng thẻ. Trước đây thẻ 88044950524330 vẫn ra NV17 của RC26.
 - Slot GLB đã nhập trên máy được dựng lại tự động một lần khi mở app. Sau khi mở app, chờ khoảng 1 phút rồi tắt hẳn app và mở lại.
+
+## RC30.21 - face CR JR + Team Tactics
+- **CR JR (88044145348047):** GLB gốc chỉ có một lưới gộp, không có răng/khoang miệng và lớp nhãn cầu riêng, nên bộ chuyển đổi dùng miệng mẫu (miệng khép, móm). Đã ghép răng/khoang miệng và nhãn cầu của bản 105802492809642, căn theo môi và mắt của JR (sai lệch trung bình 1,5 mm). Giờ JR chuyển đổi giống hệt 105802492809642: 977 đỉnh răng, 3296 đỉnh mắt, miệng dùng hình học răng thật.
+- **Team Tactics (nút mới trong launcher, cạnh Transfer):** chọn giải (UEFA, Saudi, World, Y17, Y08), rồi chọn đội:
+  - Lối chơi: Possession Game, Quick Counter, Long Ball Counter, Long Ball, Out Wide, Overload.
+  - Độ ăn ý (độ thông thạo lối chơi của HLV): 1–99.
+  - Phong độ A–E cho toàn đội trong My League, hoặc Auto.
+  - Lối chơi và độ ăn ý được ghi thẳng vào bảng Tactics/Coach trong bộ nhớ game, không sửa file game. Phong độ đi qua hook phong độ có sẵn. Có hiệu lực từ trận tiếp theo.
+- Chỉ thị nâng cao (advanced instructions) không có trong dữ liệu đội của game này, nên chưa làm.
