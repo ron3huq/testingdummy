@@ -115,3 +115,10 @@
 - **Kit Studio và GLB Face nằm trong Card studio** (web view của launcher không có bộ chọn file, nên không chọn được ảnh). Nút "Kit Studio" và "GLB Face" ở launcher mở Card studio và tự mở đúng bảng. Trong Card studio còn có nút nổi "👕 Kit Studio" phía trên "◉ GLB Face".
 - **Transfer · Edit Member → "Name & Shirt Name"**: đổi tên cầu thủ và tên in trên áo cho bất kỳ thẻ nào (không cần sở hữu). Lưu chung vào hồ sơ tên theo ID thẻ mà game áp dụng native; có hiệu lực từ lần vào game tiếp theo.
 - **Ảnh thẻ tải nhanh hơn**: gom một lần gọi cho cả màn hình thẻ (tối đa 24) thay vì mỗi thẻ một lần. Ảnh lưu trong máy được thu nhỏ đúng cỡ hiển thị (nhỏ hơn khoảng 10 lần). Ảnh chưa có thì trình duyệt tải song song, không đi qua cầu nối.
+
+## RC30.16
+- **Sửa face GLB không hiện**: đầu chuyển từ V32 tham chiếu vật liệu lông mi `MI_Head_Eyelash04Occlusion00`, vật liệu này chỉ có ở V32, V19 không có. Thiếu gói này nên game bỏ qua cả cái đầu. Giờ mọi đầu GLB trỏ tới `MI_Head_Eyelash01Occlusion00` của V19 (giống đầu R7A2 vẫn chạy được):
+  - 5 face Ronaldo tĩnh (pc9504–pc9508) đã build lại;
+  - face nhập trong Card studio được sửa ngay lúc chuyển đổi;
+  - face đã nhập sẵn trên máy (ví dụ Ronaldo Juve 2020, pc9521) tự được sửa ở lần mở app đầu tiên.
+- Diagnostics giữ lại bộ đếm hook face (`rc30_stats`, `last_face_profile`, `last_asset_path`…) sau khi thoát game, để còn kiểm tra nếu face vẫn chưa hiện.
