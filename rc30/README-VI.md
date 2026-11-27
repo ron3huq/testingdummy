@@ -132,3 +132,9 @@
 
 ## RC30.19 (chẩn đoán face)
 - Bản chụp hook face không còn bị phiên mở game không đá trận ghi đè. Danh sách `rc30_face_cards` ghi đủ 32 ô, kể cả ID 0.
+
+## RC30.20 - sửa face GLB không hiện
+- Nguyên nhân (đã chạy thử chính hook face trong trình giả lập ARM64): hook RC26 luôn tìm mặt theo tên có hậu tố biến thể, ví dụ `SK_RQ05ep00v0313_Face`. Face codex có đủ 4 tên (`R7A2`, `R7A2ep00v0313`, `R7A2ep01v0291`, `R7A2lg00v0000`), còn gói GLB của mình trước đây chỉ có tên trơn `SK_RQ05_Face`, nên game không tìm thấy mặt.
+- Năm face tĩnh (RQ05, RQ06, RQ20, RQ21, CR JR) và mọi slot GLB nhập từ Card Studio giờ có đủ 4 tên, mỗi gói khoảng 7 MB.
+- Slot GLB nhập từ Card Studio được ưu tiên hơn face cũ của cùng thẻ. Trước đây thẻ 88044950524330 vẫn ra NV17 của RC26.
+- Slot GLB đã nhập trên máy được dựng lại tự động một lần khi mở app. Sau khi mở app, chờ khoảng 1 phút rồi tắt hẳn app và mở lại.
