@@ -122,3 +122,6 @@
   - face nhập trong Card studio được sửa ngay lúc chuyển đổi;
   - face đã nhập sẵn trên máy (ví dụ Ronaldo Juve 2020, pc9521) tự được sửa ở lần mở app đầu tiên.
 - Diagnostics giữ lại bộ đếm hook face (`rc30_stats`, `last_face_profile`, `last_asset_path`…) sau khi thoát game, để còn kiểm tra nếu face vẫn chưa hiện.
+
+## RC30.17 (chẩn đoán face)
+- Thư viện face (libnoodle_hair.so) ghi lại 32 ID thẻ gần nhất mà game đưa vào hook nạp đầu. Diagnostics hiển thị chúng ở `rc30_face_cards`, kèm bảng slot GLB (`rc30_glb_table`) và trạng thái ghi bảng (`rc30_glb_status`), giữ lại cả sau khi thoát game. Mục đích: biết chính xác ID mà game dùng khi nạp đầu cho các thẻ Ronaldo GLB.
