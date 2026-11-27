@@ -129,3 +129,6 @@
 ## RC30.18
 - Thẻ **88044145348047** dùng face **CR JR** (profile RQJR, container pc9508, dùng chung với thẻ 105773233344938).
 - Vẫn giữ bộ ghi ID thẻ của hook face (RC30.17) để kiểm tra.
+
+## RC30.19 (chẩn đoán face)
+- Bản chụp hook face không còn bị phiên mở game không đá trận ghi đè. Danh sách `rc30_face_cards` ghi đủ 32 ô, kể cả ID 0.
